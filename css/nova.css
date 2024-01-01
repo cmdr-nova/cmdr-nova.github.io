@@ -132,7 +132,7 @@ white-space: nowrap;
 @font-face{font-family: "nft";src: url("../fonts/nft.ttf");}
 @font-face{font-family: "nftbold";src: url("../fonts/sometype-mono-bold.ttf");}
 
-.row{max-width:1100px;margin-left:auto;margin-right:auto;padding:30px;}
+.row{max-width:1100px;margin-left:auto;margin-right:auto;padding:20px;}
 body{background: #09080e; /* Old browsers */
 background: -moz-linear-gradient(45deg, #ffcccc 0%, #ccffff 20%); /* FF3.6-15 */
 background: -webkit-linear-gradient(45deg, #ffcccc 0%,#ccffff 20%); /* Chrome10-25,Safari5.1-6 */
