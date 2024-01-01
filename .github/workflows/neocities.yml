@@ -1,3 +1,5 @@
+# this is a file that will automatically push commits to your neocities webpage. by creating a repository secret with your neocities api token, and then specifying which directory to use at the bottom, you no longer need to use FTP apps and you can keep a mirror of your site that updates in realtime alongside the neocities version.
+
 name: Deploy to neocities
 
 # only run on changes to main
