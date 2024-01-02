@@ -213,7 +213,7 @@ li:before{content:"â€»";color:#c3613b;font-size:12.5px;padding-right:15px;}
 
 .waifu{color:#000000;background:#ccffff;display:inline-block;padding:2px 7px;margin-bottom:10px;font-weight: normal;background-image: url('./img/bg-tile.gif');background-position: center center;image-rendering: pixelated;image-rendering: -moz-crisp-edges;image-rendering: crisp-edges;}
 .bobs{text-align:center;width:100%;}
-.feet{width:100%;overflow-y: scroll;overflow-x: hidden;}
+.feet{width:100%;overflow-y: hidden;overflow-x: hidden;}
 .cheese{width:100%;}
 
 .answer{padding-left:4px;vertical-align: -2%;}
