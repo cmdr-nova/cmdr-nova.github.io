@@ -435,12 +435,12 @@ li:before{content:"â€»";color:#c3613b;font-size:12.5px;padding-right:15px;}
 height: auto;
 padding: 1px;
 width: 100%;}
-.sharting{border:1px solid #29263f;overflow-y: scroll;overflow-x: hidden;background-image: url(img/background-nf-updates.png);background-repeat: no-repeat;}
-.heybaby{padding: 15px;}
+.sharting{border:1px solid #29263f;overflow-y: scroll;overflow-x: hidden;background-image: url(../img/iota.png);background-repeat: no-repeat;}
+.heybaby{padding: 15px;background-color: #ffffff;width:100%;}
     
     @media (min-width: 1100px){
         .sharting{height:385px;background-size: contain;}
-        .heybaby{width:100%;margin-left: 280px;}
+        .heybaby{width:100%;margin-left: 280px;background-color: #ffffff;}
     }
     
 @media (max-width: 1099px){
