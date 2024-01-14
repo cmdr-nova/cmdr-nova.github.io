@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
     default_theme: "auto",
 
     // Your Mastodon instance
-    instance_url: "https://mastdn.social",
+    instance_url: "https://nova.masto.host",
 
     // Choose type of toots to show in the timeline: 'local', 'profile', 'hashtag'. Default: local
     timeline_type: "local",
@@ -35,7 +35,7 @@ window.addEventListener("load", () => {
     hashtag_name: "",
 
     // Maximum amount of toots to get. Default: 20
-    toots_limit: "20",
+    toots_limit: "10",
 
     // Hide unlisted toots. Default: don't hide
     hide_unlisted: false,
