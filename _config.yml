@@ -32,6 +32,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-compose
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
