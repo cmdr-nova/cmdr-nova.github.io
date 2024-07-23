@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   NOVA PRIME
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nova-prime.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: none
+twitter_username: cmdr_nova
 github_username:  cmdr-nova
 
 # Build settings
