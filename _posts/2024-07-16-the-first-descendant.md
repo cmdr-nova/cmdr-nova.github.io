@@ -1,6 +1,6 @@
 ---
 id: 3417
-title: 'The First Descendant: Bunnies &amp; Guns Edition'
+title: 'The First Descendant: Bunnies & Guns Edition'
 date: '2024-07-16T22:55:58+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post
