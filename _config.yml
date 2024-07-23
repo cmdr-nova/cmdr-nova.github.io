@@ -29,14 +29,15 @@ github_username:  cmdr-nova
 
 # Build settings
 theme: minima
-#remote_theme: pages-themes/hacker@v0.2.0
+#remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-compose
   - jekyll-paginate
   - jekyll-remote-theme
 
-
+minima:
+Skin:  dark
 
 # Exclude from processing.
 # The following items will not be processed, by default.
