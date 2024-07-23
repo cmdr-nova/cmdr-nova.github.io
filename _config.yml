@@ -24,15 +24,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   NOVA PRIME
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nova-prime.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cmdr_nova
+mastodon_username: cmdr_nova
 github_username:  cmdr-nova
 
 # Build settings
 theme: minima
+#remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-compose
   - jekyll-paginate
+  - jekyll-remote-theme
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
