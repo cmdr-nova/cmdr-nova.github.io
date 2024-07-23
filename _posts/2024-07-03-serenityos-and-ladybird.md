@@ -1,6 +1,6 @@
 ---
 id: 3252
-title: 'SerenityOS and LadyBirds: Because These Things Shouldn&#8217;t Hide in Closed Git Conversations'
+title: 'SerenityOS and LadyBirds: Because These Things Shouldn't Hide in Closed Git Conversations'
 date: '2024-07-03T16:34:49+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post

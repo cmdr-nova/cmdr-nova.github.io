@@ -1,6 +1,6 @@
 ---
 id: 2595
-title: 'PLEXX &#8211; c o m p l e x'
+title: 'PLEXX - c o m p l e x'
 date: '2024-06-10T02:23:43+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post

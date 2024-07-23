@@ -1,6 +1,6 @@
 ---
 id: 2237
-title: 'The Jobs I&#8217;ve Done'
+title: 'The Jobs I've Done'
 date: '2024-05-30T01:26:24+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post

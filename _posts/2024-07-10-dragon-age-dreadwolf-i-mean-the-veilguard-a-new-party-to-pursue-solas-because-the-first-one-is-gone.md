@@ -1,6 +1,6 @@
 ---
 id: 3341
-title: 'Dragon Age: Dreadwolf, I Mean, The Veilguard! A New Party to Pursue Solas, Because the First One is &#8230; Gone?'
+title: 'Dragon Age: Dreadwolf, I Mean, The Veilguard! A New Party to Pursue Solas, Because the First One is ... Gone?'
 date: '2024-07-10T14:50:56+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post

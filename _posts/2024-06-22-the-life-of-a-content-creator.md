@@ -1,6 +1,6 @@
 ---
 id: 3079
-title: 'The Life of a &#8220;Content Creator&#8221;'
+title: 'The Life of a "Content Creator";'
 date: '2024-06-22T01:51:56+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post

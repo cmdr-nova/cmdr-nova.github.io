@@ -1,6 +1,6 @@
 ---
 id: 2845
-title: 'It&#8217;s C O M P L E X, on Spotify &amp; Apple Music'
+title: 'It's C O M P L E X, on Spotify & Apple Music'
 date: '2024-06-15T02:00:13+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 layout: post
