@@ -35,7 +35,7 @@ Enter: The First Descendant. Like if Mass Effect Andromeda had a child with Dest
 
 **Hello, I am now a bunny.**
 
-![Screenshot from The First Descendant, depicting a woman with top buns in her hair wearing what resembles the blue and white plug suit from Neon Genesis Evangelion, of the character Rei.](/img/about/posts/first_des/bunny.png)
+![Screenshot from The First Descendant, depicting a woman with top buns in her hair wearing what resembles the blue and white plug suit from Neon Genesis Evangelion, of the character Rei.](/img/posts/first_des/bunny.png)
 
 The game starts out kind of unremarkable, dropping you into a sci-fi universe where an evil big guy wants an artifact for his own evil doing and bidding, and you've got to stop him.
 
