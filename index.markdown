@@ -4,4 +4,3 @@
 
 layout: home
 ---
-![my neofetch](/img/Just_The_V.png)
