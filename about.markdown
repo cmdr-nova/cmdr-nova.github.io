@@ -34,25 +34,25 @@ Ed, PaxCorpus, 2013
 
 ░ IN MUSIC … I’ve been making darksynth, electro, and ambient tunes since, at least, 2017 (although I’ve dabbled all my life). Here are the places where you can hear what I do:
 
-- [Bandcamp](https://eyeshadow2600fm.bandcamp.com)
-- [Spotify](https://open.spotify.com/artist/355TNaPlosj1FwN7sfSvAe?si=NGAJSqgsTVKfMbw-HSeDcA)
-- [Apple Music](https://music.apple.com/us/artist/eyeshadow-2600-fm/1210249781)
+- [Bandcamp](https://eyeshadow2600fm.bandcamp.com){:target="_blank"}
+- [Spotify](https://open.spotify.com/artist/355TNaPlosj1FwN7sfSvAe?si=NGAJSqgsTVKfMbw-HSeDcA){:target="_blank"}
+- [Apple Music](https://music.apple.com/us/artist/eyeshadow-2600-fm/1210249781){:target="_blank"}
 
 ░ And, starting 2024, I’ve begun a new musical venture by the name of PLEXX, a vaporwave, liminal horror experience.
 
-- [Bandcamp](https://plexx.bandcamp.com/album/disc-error-1992-de-lux)
-- [Spotify](https://open.spotify.com/artist/2jkEsRdWQYWla3H6Ut4Wed?si=6fSDZwCCTnaCCR9uJp6_UA)
-- [Apple Music](https://music.apple.com/us/album/c-o-m-p-l-e-x-single/1751222634)
+- [Bandcamp](https://plexx.bandcamp.com/album/disc-error-1992-de-lux){:target="_blank"}
+- [Spotify](https://open.spotify.com/artist/2jkEsRdWQYWla3H6Ut4Wed?si=6fSDZwCCTnaCCR9uJp6_UA){:target="_blank"}
+- [Apple Music](https://music.apple.com/us/album/c-o-m-p-l-e-x-single/1751222634){:target="_blank"}
 
 ░ IN SECOND LIFE … I’ve been designing and releasing 3D objects for use with avatars since 2015, as a result of losing my original attempt at the same thing (due to quite a catastrophic romantic breakup). Here’s where you can view what I’m doing now:
 
-- [[REVOSA] Marketplace](https://marketplace.secondlife.com/en-US/stores/165186)
-- [Ayashi Systems Marketplace](https://marketplace.secondlife.com/en-US/stores/186986)
-- [In-world Second Life location](http://maps.secondlife.com/secondlife/Neo%20Machina/181/171/25)
+- [[REVOSA] Marketplace](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
+- [Ayashi Systems Marketplace](https://marketplace.secondlife.com/en-US/stores/186986){:target="_blank"}
+- [In-world Second Life location](http://maps.secondlife.com/secondlife/Neo%20Machina/181/171/25){:target="_blank"}
 
-░ IN WRITING … I’ve been, and am currently working on my next book, DISSOLUTION PROTOCOL. A story about the degradation of the entire universe. You can see my other, much older works, [here](https://www.amazon.com/stores/Ryan-S.-Fortney/author/B004XWM2X4?ref=sr_ntt_srch_lnk_1&qid=1715877791&sr=8-1&isDramIntegrated=true&shoppingPortalEnabled=true). I, of course, also, maintain this website as a place where I can stretch my writing muscles whenever I feel the need.
+░ IN WRITING … I’ve been, and am currently working on my next book, DISSOLUTION PROTOCOL. A story about the degradation of the entire universe. You can see my other, much older works, [here](https://www.amazon.com/stores/Ryan-S.-Fortney/author/B004XWM2X4?ref=sr_ntt_srch_lnk_1&qid=1715877791&sr=8-1&isDramIntegrated=true&shoppingPortalEnabled=true){:target="_blank"}. I, of course, also, maintain this website as a place where I can stretch my writing muscles whenever I feel the need.
 
-░ You can support what I do by subscribing to my [Patreon](https://www.patreon.com/cmdr_nova), a platform where I’ve been posting my work since as early as 2012. Thank you~
+░ You can support what I do by subscribing to my [Patreon](https://www.patreon.com/cmdr_nova){:target="_blank"}, a platform where I’ve been posting my work since as early as 2012. Thank you~
 
-[Download the latest version](https://drive.google.com/file/d/1NcQ4QxEgEWJtyACQBVw3izEJu7n3sBO-/view?usp=drive_link) of my Sims 4 template world, chock full of sims I’ve created, and modifications I’ve made to existing families. Also includes some homes I’ve built.
+[Download the latest version](https://drive.google.com/file/d/1NcQ4QxEgEWJtyACQBVw3izEJu7n3sBO-/view?usp=drive_link){:target="_blank"} of my Sims 4 template world, chock full of sims I’ve created, and modifications I’ve made to existing families. Also includes some homes I’ve built.
 
