@@ -16,7 +16,7 @@ permalink: /about/
 
  Bio:
 
-░ Hi, I go by Ryan, CMDR Nova, and a bunch of other things depending on what I’m currently doing, or working on. There was a time when I was actively transitioning (male to female), but I had to put that on-pause for an undetermined amount of time. There’s a lot of history and reasons behind this, and this space isn’t entirely the place where I’d want to put a full dive into it, but you can read more here.
+░ Hi, I go by Ryan, CMDR Nova, and a bunch of other things depending on what I’m currently doing, or working on.
 
 ░ I’ve been writing since 2008, making music since 2017, and developing cool stuff in Second Life since 2015.
 
