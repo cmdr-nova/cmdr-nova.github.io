@@ -42,7 +42,7 @@ minima:
 Skin:  dark
 
 paginate: 5
-paginate_path: "/_site/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
