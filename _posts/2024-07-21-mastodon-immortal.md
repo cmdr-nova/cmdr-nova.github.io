@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Mastodon: Become Immortal, the Logical Next Step in Federated Social Media'
-date: 2024-07-22 22:40 -0400
+date: 2024-07-21 22:40 -0400
 author: cmdr ░ nova
 ---
 
