@@ -34,7 +34,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
-#  - jekyll-paginate
+#  - jekyll-paginate #worthless piece of shit plugin that's deprecated as fuck and does not work
   - jekyll-compose
   - jekyll-remote-theme
 
