@@ -3,7 +3,6 @@ layout: post
 title: Moving Forward
 date: 2024-07-23 20:00 -0500
 author: cmdr ░ nova
-categories: updates
 ---
 For about four or five months, I've been using Wordpress to push out all my larger thoughts, ideas, and musings. I have to admit, Wordpress is pretty simple, and very convenient. It requires a whole lot of just ... typing what you want, and then slapping post, and nothing else! Unfortunately, after some careful consideration, I decided that I kind of missed hacking into code. So, I moved some repos around, switched branches, and launched a new version of my website via Github in Ruby, i.e., Jekyll.
 

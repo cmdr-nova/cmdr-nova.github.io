@@ -3,7 +3,6 @@ layout: post
 title: 'Wuthering Waves: Genshin Impact, But For Adults'
 date: 2024-07-19 18:00 -0500
 author: cmdr ░ nova
-categories: gaming
 ---
 
 
