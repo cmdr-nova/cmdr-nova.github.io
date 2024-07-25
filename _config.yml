@@ -38,7 +38,7 @@ plugins:
   - jekyll-compose
   - jekyll-remote-theme
 
-paginate: 2
+paginate: 3
 #paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
