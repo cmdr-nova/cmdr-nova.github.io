@@ -39,6 +39,7 @@ plugins:
   - jekyll-remote-theme
 
 paginate: 3
+per_page: 3
 #paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
