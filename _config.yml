@@ -29,6 +29,8 @@ mastodon:
 - username: cmdr_nova
   instance: mkultra.monster
 
+instagram_username: cmdr_nova
+
 # Build settings
 theme: minima
 
