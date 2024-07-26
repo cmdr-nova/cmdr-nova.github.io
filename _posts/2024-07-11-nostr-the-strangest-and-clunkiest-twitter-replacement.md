@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Nostr, the Strangest and Clunkiest Twitter Replacement'
+title: Nostr, the Strangest and Clunkiest Twitter Replacement
 date: 2024-07-11 19:11 -0500
 author: cmdr ░ nova
 ---

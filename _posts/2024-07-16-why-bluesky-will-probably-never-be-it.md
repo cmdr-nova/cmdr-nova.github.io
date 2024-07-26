@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Why Bluesky Will Probably Never Be It'
+title: Why Bluesky Will Probably Never Be It
 date: 2024-07-16 14:00 -0500
 author: cmdr ░ nova
 ---
