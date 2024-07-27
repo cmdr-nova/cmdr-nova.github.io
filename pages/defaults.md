@@ -18,3 +18,4 @@ My default, go-to apps:
 - Music Composition :: FL Studio (current version)
 - Graphic Editing :: Gimp
 - Streaming :: Twitch
+- Coding :: VS Code
