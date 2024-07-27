@@ -1,0 +1,14 @@
+<!-- HTML search field -->
+    
+    <!-- Grab search-script.js -->
+    <script src="/assets/js/search-script.js" type="text/javascript"></script>
+    
+    <!-- Configuration -->
+    <script>
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      searchResultTemplate: '<li><a href="{url}">{title}</a><br><span class="post-meta">{date}</span></li>'
+    })
+    </script>

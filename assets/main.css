@@ -27,6 +27,21 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
   padding: 10px;
 }
 
+/* search field */
+
+ul#results-container {
+  padding: 0;
+  list-style-type: none;
+}
+
+#results-container li {
+  margin-bottom: 1.5rem;
+}
+
+span.post-meta {
+  font-size: 1rem;
+}
+
 /* frames */
 
 .waifu{color:#000000;background:#ccffff;display:inline-block;padding:2px 7px;margin-bottom:10px;font-weight: normal;background-image: url('./img/bg-tile.gif');background-position: center center;image-rendering: pixelated;image-rendering: -moz-crisp-edges;image-rendering: crisp-edges;}
