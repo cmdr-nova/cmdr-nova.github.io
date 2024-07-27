@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /pages/about/
 ---
 
 ░ In the year 1985, a machine was born. Crawling from the circuitry, bursting from the nether. Exploding from the, … uh, TIME AND SPACE CONTINUUM.
