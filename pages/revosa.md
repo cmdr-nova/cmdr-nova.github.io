@@ -8,7 +8,7 @@ Since 2015, I've been running a virtual store in the virtual world, [Second Life
 
 Enter: [[REVOSA]](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
 
-![a banner from around 2016 for my Second Life store](/img/pages/revosa/old_banner.jpg/){: .image-left } 
+![a banner from around 2016 for my Second Life store](/img/pages/revosa/old_banner.jpg){: .image-left } 
 
 A little tiny store that began on a small parcel in the middle of nowhere, mostly selling hand-crafted car parts that I'd made in Blender. I think I had one or two entire visitors the whole time I was there, until I eventually decided that car parts weren't really the only thing I wanted to make. Settling on the idea of making home-props and avatar accessories, I packed my things a few weeks later and moved to a more suitable parcel on Chung-owned land.
 
@@ -16,11 +16,11 @@ The beginnings of this store were also happening at a difficult time in my life.
 
 The store icreased in size exponentionally as I worked through 2016 and into 2017, where I then also began my music venture, under the stage-name, *Eyeshadow 2600 FM* (but this is part of a different story).
 
-![a photo of the interior of my Second Life store, circa 2016](/img/pages/revosa/revosa_2016.jpg/){: .image-right } 
+![a photo of the interior of my Second Life store, circa 2016](/img/pages/revosa/revosa_2016.jpg){: .image-right } 
 
 There are *some* products that I made in this era of my store, that are *still* waiting for an update and expansion upon, here, and now, in 2024. I would start projects, put out a few pieces of what I had planned, and then abandon them and start on an entirely new project. In the timeframe of 2016 to the end of 2017, [REVOSA] expanded to around 200 products, and had regular visitors on a day-to-day basis. I even had people coming in requesting custom tattoos, custom mesh design, and so on and so forth (but I never really delved all that much into doing custom material, because people can be finicky, and it wasted a lot of my time).
 
-![a photo of the interior of my Second Life store, circa 2018](/img/pages/revosa/revosa_2018.jpg/){: .image-left } 
+![a photo of the interior of my Second Life store, circa 2018](/img/pages/revosa/revosa_2018.jpg){: .image-left } 
 
 As we came into 2018 and through 2019, the store moved *again*. Still utilizing Chung-owned land, but this time in a skybox off the main road, and more uniform. I started working with mesh templates for bodies, gathered ideas for clothing, and even *made* a few things. Of course, I also dabbled in simply *buying* template clothes from stores that I could texture, just to see if that was something people would be interested in. It should be noted that, for whatever reason, some people oppose creators who buy mesh clothing that's already animated and rigged and ready-to-go. But those people have never tried rigging clothing to the Second Life skeleton and spent 3 straight days screaming in agony as it fails over, and over again.
 
@@ -38,13 +38,13 @@ Years, and years back, I was a big fan of a scifi/cyberpunk sim (server, in Seco
 
 Then came the idea of buying a Homestead. Not quite as resource-heavy as a full sim, but enough to build something. And quite a bit cheaper, as well.
 
-![a birds-eye-view photo of my city, Neo Machina](/img/pages/revosa/neo_machina.png/)
+![a birds-eye-view photo of my city, Neo Machina](/img/pages/revosa/neo_machina.png)
 
 It was my thought that, "Hey, these people don't seem all that interested in keeping Neo Machina going, so I'll make a new version, in my own way!" And that I did. Welcome to post-apocalyptic Neo Machina, in the year 3285. Through this city, I built places for people to rent and call home. I built *my own* home, and then I moved my store to the top corner of the city. *Finally.* I don't have to pay the Chungs rent anymore.
 
 And now we're here at 2024, sort of in hiatus mode again as I work on a slew of other things I've got going, but very much still active in the virtual world.
 
-![a shot of the front of my store, via Neo Machina, 2024](/img/pages/revosa/revosa_2024.png/)
+![a shot of the front of my store, via Neo Machina, 2024](/img/pages/revosa/revosa_2024.png)
 
 You can visit the city, or [REVOSA] at any time, everything I made is *still* there, and I do still gradually add new products. I imagine that soon, maybe come fall, I'll probably get back into my obsession of maintaining all of this, and release about 40 new products. Who knows! That's usually how it works, with me, *at least*.
 
