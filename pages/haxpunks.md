@@ -25,7 +25,7 @@ permalink: /pages/haxpunks/
  
 <div class="waifu">
 <img src="/img/haxpunks/haxPunks_0001.png" width="100" height="100"><p align="center">
-Charlotte <br /><a href="img/haxpunks/haxPunks_0001.png" target="_blank">full image</a></p>
+Charlotte <br /><a href="/img/haxpunks/haxPunks_0001.png" target="_blank">full image</a></p>
 </div>
   
 <div class="waifu">
