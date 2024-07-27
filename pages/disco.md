@@ -4,7 +4,7 @@ title: The Discography of Eyeshadow 2600 FM, and PLEXX
 permalink: /pages/disco/
 ---
 
-**Eyeshadow 2600 FM**
+**Eyeshadow 2600 FM** [[Spotify]](https://open.spotify.com/artist/355TNaPlosj1FwN7sfSvAe?si=DpZynJiMSGWKYPfLeJX68g){:target="_blank"} x [[Bandcamp]](https://eyeshadow2600fm.bandcamp.com/album/dissolution-protocol){:target="_blank"} x [[Apple Music]](https://music.apple.com/us/artist/eyeshadow-2600-fm/1210249781){:target="_blank"}
 
 
 - Cycle One
@@ -64,7 +64,7 @@ permalink: /pages/disco/
         * Initiate the Protocol [[Patreon Download]](https://www.patreon.com/posts/02-initiate-42189312){:target="_blank"}
         * 永 遠 の [[Patreon Download]](https://www.patreon.com/posts/yong-yuan-no-87608010){:target="_blank"}
 
-**PLEXX**
+**PLEXX** [[Spotify]](https://open.spotify.com/artist/2jkEsRdWQYWla3H6Ut4Wed?si=zM7EnLDzSTiBaOMZs1_sPg){:target="_blank"} x [[Bandcamp]](https://plexx.bandcamp.com/album/disc-error-1992-de-lux){:target="_blank"} x [[Apple Music]](https://music.apple.com/us/artist/plexx/1751206223){:target="_blank"}
 
 - Cycle One
     - Albums
