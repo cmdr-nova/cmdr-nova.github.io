@@ -7,7 +7,7 @@ permalink: /pages/disco/
 **Eyeshadow 2600 FM** [[Spotify]](https://open.spotify.com/artist/355TNaPlosj1FwN7sfSvAe?si=DpZynJiMSGWKYPfLeJX68g){:target="_blank"} x [[Bandcamp]](https://eyeshadow2600fm.bandcamp.com/album/dissolution-protocol){:target="_blank"} x [[Apple Music]](https://music.apple.com/us/artist/eyeshadow-2600-fm/1210249781){:target="_blank"}
 
 
-- Cycle One
+- Cycle One *(2017 - 2018)*
     - Albums
         * Interstellar Terror [[Patreon Download]](https://www.patreon.com/posts/as-thank-you-8637199){:target="_blank"}
         * Gender Terrorism on Deadwood Boulevard [[Patreon Download]](https://www.patreon.com/posts/8298138){:target="_blank"}
@@ -22,7 +22,7 @@ permalink: /pages/disco/
         * No Humanity [[Patreon Download]](https://www.patreon.com/posts/no-humanity-ep-11670887){:target="_blank"}
         * Things Betwixt [[Patreon Download]](https://www.patreon.com/posts/things-betwixt-16168981){:target="_blank"}
     
-- Cycle Two
+- Cycle Two *(2018)*
     - Albums
         * The Dead of Night [[Patreon Download]](https://www.patreon.com/posts/dead-of-night-d-16384894){:target="_blank"}
         * Absolution [[Patreon Download]](https://www.patreon.com/posts/absolution-full-16660001){:target="_blank"}
@@ -31,7 +31,7 @@ permalink: /pages/disco/
         * Les-Pires [[Patreon Download]](https://www.patreon.com/posts/les-pires-18849133){:target="_blank"}
         * Cyberlesbiab [[Patreon Download]](https://www.patreon.com/posts/cyberlesbiab-1-d-20455906){:target="_blank"}
     
-- Cycle Three
+- Cycle Three *(2018 - 2019)*
     - Albums
         * Dark Heart 85 [[Patreon Download]](https://www.patreon.com/posts/darkheart-85-21830885){:target="_blank"}
         * Rekall [[Patreon Download]](https://www.patreon.com/posts/rekall-full-24684471){:target="_blank"}
@@ -46,7 +46,7 @@ permalink: /pages/disco/
         * More Human Than Human [[Patreon Download]](https://www.patreon.com/posts/more-human-than-26956268){:target="_blank"}
         * Omega [[Patreon Download]](https://www.patreon.com/posts/terminus-new-art-28645718){:target="_blank"}
 
-- Cycle Four
+- Cycle Four *(2020 - 2023)*
     - Albums
         * Ride Eternal [[Patreon Download]](https://www.patreon.com/posts/ride-eternal-32739849){:target="_blank"}
         * Polybius [[Patreon Download]](https://www.patreon.com/posts/37300838){:target="_blank"}
@@ -66,7 +66,7 @@ permalink: /pages/disco/
 
 **PLEXX** [[Spotify]](https://open.spotify.com/artist/2jkEsRdWQYWla3H6Ut4Wed?si=zM7EnLDzSTiBaOMZs1_sPg){:target="_blank"} x [[Bandcamp]](https://plexx.bandcamp.com/album/disc-error-1992-de-lux){:target="_blank"} x [[Apple Music]](https://music.apple.com/us/artist/plexx/1751206223){:target="_blank"}
 
-- Cycle One
+- Cycle One *(2024 - )*
     - Albums
         * disc eRROR 19​.​92 ~DE​-​LUX [*in development*]
     - Singles
