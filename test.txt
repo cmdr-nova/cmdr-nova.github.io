@@ -1,2 +1,1 @@
-dkdkdkdkdfarts
-
+<a href="https://mastodonshare.com/share" style="padding: 0.2rem 0.6rem 0.3rem;background: #2b90d9;color: white;border-radius: 0.3rem;text-decoration: none;font-weight: bold;">Share on Mastodon</a>
