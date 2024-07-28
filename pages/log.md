@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # 7/28/24
+
+- today I added a License and Disclaimer page detailing what is acceptable use of this website, and what's not. this includes prohibiting the talentless from scraping my words and ata
+- added a privacy policy page in order to detail exactly what's collected, and what's not
+
 # # 7/27/24
 
 - today I took all the time I needed and added content pages for *every single link* that I had staged yesterday. Due to the fact that this is about 15 or so pages, I feel no need to list them all individually. But you *will* find that Nova Prime has zero dead links.
