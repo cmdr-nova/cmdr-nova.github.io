@@ -8,11 +8,11 @@ permalink: /pages/activitypub/
 
 
 
-<p><a href="https://web.archive.org/web/20240605161323/https://en.wikipedia.org/wiki/ActivityPub" target="_blank" rel="noreferrer noopener nofollow">ActivityPub</a> has been the answer to that since around 2008 with StatusNet, now known as <a href="https://web.archive.org/web/20240605161323/https://en.wikipedia.org/wiki/GNU_social" target="_blank" rel="noreferrer noopener nofollow">GNU Social</a>. But, most would be familiar with the launch of <a href="https://web.archive.org/web/20240605161323/https://en.wikipedia.org/wiki/Mastodon_(social_network)" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a> in 2016 (some may even remember <a href="https://web.archive.org/web/20240605161323/https://en.wikipedia.org/wiki/Friendica" target="_blank" rel="noreferrer noopener nofollow">Friendika</a> in 2010, which was another starting point in-between the two biggest).</p>
+<p><a href="https://en.wikipedia.org/wiki/ActivityPub" target="_blank" rel="noreferrer noopener nofollow">ActivityPub</a> has been the answer to that since around 2008 with StatusNet, now known as <a href="https://en.wikipedia.org/wiki/GNU_social" target="_blank" rel="noreferrer noopener nofollow">GNU Social</a>. But, most would be familiar with the launch of <a href="https://en.wikipedia.org/wiki/Mastodon_(social_network)" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a> in 2016 (some may even remember <a href="https://en.wikipedia.org/wiki/Friendica" target="_blank" rel="noreferrer noopener nofollow">Friendika</a> in 2010, which was another starting point in-between the two biggest).</p>
 
 
 
-<p>So, now you know that AP has a very storied and long history, and that it most definitely isn&#8217;t under threat of vanishing forever, or going dead, like so many Twitter alternatives (see: <a href="https://web.archive.org/web/20240605161323/https://www.hivesocial.app/" target="_blank" rel="noreferrer noopener nofollow">Hive Social</a>), but, where do you start?</p>
+<p>So, now you know that AP has a very storied and long history, and that it most definitely isn&#8217;t under threat of vanishing forever, or going dead, like so many Twitter alternatives (see: <a href="https://www.hivesocial.app/" target="_blank" rel="noreferrer noopener nofollow">Hive Social</a>), but, where do you start?</p>
 
 
 
@@ -21,43 +21,43 @@ permalink: /pages/activitypub/
 
 
 <ul>
-<li><a href="https://web.archive.org/web/20240605161323/https://joinmastodon.org/" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a>, widely thought of as an early replacement to Twitter (below are more pieces of microblogging software that all sort of serve a similar purpose to Mastodon, that are also different in some key ways)
+<li><a href="https://joinmastodon.org/" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a>, widely thought of as an early replacement to Twitter (below are more pieces of microblogging software that all sort of serve a similar purpose to Mastodon, that are also different in some key ways)
 <ul>
-<li><a href="https://web.archive.org/web/20240605161323/https://pleroma.social/" target="_blank" rel="noreferrer noopener nofollow">Pleroma</a>, a more light-weight piece of software.</li>
+<li><a href="https://pleroma.social/" target="_blank" rel="noreferrer noopener nofollow">Pleroma</a>, a more light-weight piece of software.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://misskey-hub.net/en/docs/about-misskey/" target="_blank" rel="noreferrer noopener nofollow">Misskey</a>, AP software that had its start centered around Bulletin Boards (you can find a lot of Japan posting across Misskey instances).</li>
+<li><a href="https://misskey-hub.net/en/docs/about-misskey/" target="_blank" rel="noreferrer noopener nofollow">Misskey</a>, AP software that had its start centered around Bulletin Boards (you can find a lot of Japan posting across Misskey instances).</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://akkoma.social/" target="_blank" rel="noreferrer noopener nofollow">Akkoma</a>, a more expressive AcitivityPub client that honestly feels a lot like Pleroma.</li>
+<li><a href="https://akkoma.social/" target="_blank" rel="noreferrer noopener nofollow">Akkoma</a>, a more expressive AcitivityPub client that honestly feels a lot like Pleroma.</li>
 </ul>
 </li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://friendi.ca/" target="_blank" rel="noreferrer noopener nofollow">Friendica</a>, a much older client that got its start even before Mastodon as an alternative to Facebook, written in PHP.</li>
+<li><a href="https://friendi.ca/" target="_blank" rel="noreferrer noopener nofollow">Friendica</a>, a much older client that got its start even before Mastodon as an alternative to Facebook, written in PHP.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://pixelfed.org/how-to-join" target="_blank" rel="noreferrer noopener nofollow">Pixelfed</a>, very much a replacement to Instagram, and much more like the original iteration of Meta&#8217;s giant that we all remember from the early iPhone days.</li>
+<li><a href="https://pixelfed.org/how-to-join" target="_blank" rel="noreferrer noopener nofollow">Pixelfed</a>, very much a replacement to Instagram, and much more like the original iteration of Meta&#8217;s giant that we all remember from the early iPhone days.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://joinpeertube.org/" target="_blank" rel="noreferrer noopener nofollow">Peertube</a>, a very much <em>still</em> growing Youtube replacement that feels like a mix of tech culture and early-ish Youtube.</li>
+<li><a href="https://joinpeertube.org/" target="_blank" rel="noreferrer noopener nofollow">Peertube</a>, a very much <em>still</em> growing Youtube replacement that feels like a mix of tech culture and early-ish Youtube.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://join-lemmy.org/" target="_blank" rel="noreferrer noopener nofollow">Lemmy</a>, a Reddit replacement that was erected the <em>moment</em> that its CEO decided to lock out the API and kill all 3rd party apps.</li>
+<li><a href="https://join-lemmy.org/" target="_blank" rel="noreferrer noopener nofollow">Lemmy</a>, a Reddit replacement that was erected the <em>moment</em> that its CEO decided to lock out the API and kill all 3rd party apps.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://app.wafrn.net/" target="_blank" rel="noreferrer noopener nofollow">Wafrn</a>, a relatively new Tumblr replacement, fully integrated with the ActivityPub protocol.</li>
+<li><a href="https://app.wafrn.net/" target="_blank" rel="noreferrer noopener nofollow">Wafrn</a>, a relatively new Tumblr replacement, fully integrated with the ActivityPub protocol.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://joinmatrix.org/" target="_blank" rel="noreferrer noopener nofollow">Matrix</a>, an open source, secure replacement to Discord. This is not currently utilizing ActivityPub <em>but</em>, I&#8217;ve listed it here for those who are tired of Discord.</li>
+<li><a href="https://joinmatrix.org/" target="_blank" rel="noreferrer noopener nofollow">Matrix</a>, an open source, secure replacement to Discord. This is not currently utilizing ActivityPub <em>but</em>, I&#8217;ve listed it here for those who are tired of Discord.</li>
 </ul>
 
 
@@ -74,7 +74,7 @@ permalink: /pages/activitypub/
 
 
 
-<p>And it&#8217;s very important to take heed of the &#8220;about&#8221; and &#8220;rules&#8221; pages on each instance you think you might like to join, because, like with all things, there are people using this open source software for evil means (nazism, CSA content, etc). But! Do not fret! It is very easy to spot these things, and you can also get an initial idea of which instances are bad by viewing this <a href="https://web.archive.org/web/20240605161323/https://github.com/gardenfence/blocklist/blob/main/gardenfence-mastodon.csv" target="_blank" rel="noreferrer noopener nofollow">public block list</a> (this is the list I started with on my own instance at <a href="https://web.archive.org/web/20240605161323/https://mkultra.monster/" target="_blank" rel="noreferrer noopener nofollow">mkultra.monster</a>)</p>
+<p>And it&#8217;s very important to take heed of the &#8220;about&#8221; and &#8220;rules&#8221; pages on each instance you think you might like to join, because, like with all things, there are people using this open source software for evil means (nazism, CSA content, etc). But! Do not fret! It is very easy to spot these things, and you can also get an initial idea of which instances are bad by viewing this <a href="https://github.com/gardenfence/blocklist/blob/main/gardenfence-mastodon.csv" target="_blank" rel="noreferrer noopener nofollow">public block list</a> (this is the list I started with on my own instance at <a href="https://mkultra.monster/" target="_blank" rel="noreferrer noopener nofollow">mkultra.monster</a>)</p>
 
 
 
@@ -149,7 +149,7 @@ permalink: /pages/activitypub/
 
 <li>Can I see people on Bluesky?
 <ul>
-<li>Not initially, but if you follow <a href="https://web.archive.org/web/20240605161323/https://mkultra.monster/@bsky.brid.gy@bsky.brid.gy" target="_blank" rel="noreferrer noopener nofollow">this account</a> your posts will be fed to Bluesky, and in-turn allow for interaction with Bluesky users (BSKY uses a different protocol, and while I have my opinions on this, I&#8217;ll save those for later).</li>
+<li>Not initially, but if you follow <a href="https://mkultra.monster/@bsky.brid.gy@bsky.brid.gy" target="_blank" rel="noreferrer noopener nofollow">this account</a> your posts will be fed to Bluesky, and in-turn allow for interaction with Bluesky users (BSKY uses a different protocol, and while I have my opinions on this, I&#8217;ll save those for later).</li>
 </ul>
 </li>
 
@@ -180,7 +180,7 @@ permalink: /pages/activitypub/
 
 
 
-<p>If you have any additional questions, I would be more than happy to speak to you over at <a href="https://web.archive.org/web/20240605161323/https://mkultra.monster/@cmdr_nova" target="_blank" rel="noreferrer noopener nofollow">my instance</a>. I hope this list and information has helped, and if you&#8217;ve decided to join us, welcome! Welcome to the open web.</p>
+<p>If you have any additional questions, I would be more than happy to speak to you over at <a href="https://mkultra.monster/@cmdr_nova" target="_blank" rel="noreferrer noopener nofollow">my instance</a>. I hope this list and information has helped, and if you&#8217;ve decided to join us, welcome! Welcome to the open web.</p>
 
 
 
@@ -223,27 +223,27 @@ permalink: /pages/activitypub/
 
 
 <ul>
-<li><a href="https://web.archive.org/web/20240605161323/https://play.google.com/store/apps/details?id=org.joinmastodon.android&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a>, the official client.</li>
+<li><a href="https://play.google.com/store/apps/details?id=org.joinmastodon.android&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a>, the official client.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://play.google.com/store/apps/details?id=com.keylesspalace.tusky&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Tusky</a>, an unofficial Mastodon client for Android users.</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.keylesspalace.tusky&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Tusky</a>, an unofficial Mastodon client for Android users.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://play.google.com/store/apps/details?id=com.rubenmayayo.lemmy&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Boost</a>, a mobile Lemmy client for Android.</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.rubenmayayo.lemmy&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Boost</a>, a mobile Lemmy client for Android.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://play.google.com/store/apps/details?id=su.xash.husky&amp;hl=en_US&amp;gl=US&amp;pli=1" target="_blank" rel="noreferrer noopener nofollow">Husky</a>, a mobile client for Pleroma.</li>
+<li><a href="https://play.google.com/store/apps/details?id=su.xash.husky&amp;hl=en_US&amp;gl=US&amp;pli=1" target="_blank" rel="noreferrer noopener nofollow">Husky</a>, a mobile client for Pleroma.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://play.google.com/store/apps/details?id=com.pixelfed&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Pixelfed</a>, the mobile client for Android users.</li>
+<li><a href="https://play.google.com/store/apps/details?id=com.pixelfed&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Pixelfed</a>, the mobile client for Android users.</li>
 
 
 
-<li><a href="https://web.archive.org/web/20240605161323/https://play.google.com/store/apps/details?id=jp.panta.misskeyandroidclient&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Milktea</a>, the android client for Misskey.</li>
+<li><a href="https://play.google.com/store/apps/details?id=jp.panta.misskeyandroidclient&amp;hl=en_US" target="_blank" rel="noreferrer noopener nofollow">Milktea</a>, the android client for Misskey.</li>
 </ul>
 
 
