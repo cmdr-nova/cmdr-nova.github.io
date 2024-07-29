@@ -48,3 +48,5 @@ Notable places that I enjoy
 > > > [Cyberpunk Anarchy, Hangars Liquides](https://maps.secondlife.com/secondlife/Hangars%20Liquides/135/139/77){:target="_blank"}
 
 > > > [Bloodlines - Mortal Crossroads](https://maps.secondlife.com/secondlife/Bloodlines%20Midland/125/128/241){:target="_blank"} 
+
+Changelog: Guides relocated and formatted to fit this website // 7/28/24
