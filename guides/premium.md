@@ -48,7 +48,7 @@ permalink: /guides/premium/
 
 <p>Once you have that selected, and you've subscribed, head back to the main account page and find the "get your home now" button, if you want a Linden home parcel, that is.</p>
 
-<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120153535im_/https://revosa.live/content/images/2023/01/get_home.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120153535im_/https://revosa.live/content/images/size/w600/2023/01/get_home.png 600w, https://web.archive.org/web/20230120153535im_/https://revosa.live/content/images/2023/01/get_home.png 711w"></figure
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120153535im_/https://revosa.live/content/images/2023/01/get_home.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120153535im_/https://revosa.live/content/images/size/w600/2023/01/get_home.png 600w, https://web.archive.org/web/20230120153535im_/https://revosa.live/content/images/2023/01/get_home.png 711w"></figure>
 
 <p>This will take you through a set of pages that ask you to decide what neighborhood you want to live in, and what type of house you want. After you've seleted all of that, and given your home parcel a name, you'll be provided with a location that you can immediately teleport to.</p>
 
