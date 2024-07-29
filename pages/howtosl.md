@@ -9,29 +9,29 @@ Welcome to my comprehensive guide on starting and navigating the virtual world o
 
 ***SECTION 1***
 
-> > > Guide 1: [Getting started](/guides/guide1)
+> > > Guide 1: [Getting Started](/guides/guide1)
 
 > > > Guide 2: [Avatar Customization](/guides/avatar)
 
 > > > Guide 3: [Shopping 101](/guides/shopping)
 
-> > > Guide 4: [How to make money](/guides/money)
+> > > Guide 4: [How to Make Money](/guides/money)
 
 > > > Guide 5: [Premium Benefits](/guides/premium)
 
 ***SECTION 2***
 
-> > > Diving further into your profile
+> > > Guide 6: Diving Further Into Your Profile
 
-> > > Avatar animation overrides
+> > > Guide 7: Avatar Animation Overrides
 
-> > > Mesh bodies & heads
+> > > Guide 8: Mesh Bodies & Heads
 
-> > > Building & uploading
+> > > Guide 9: Building & Uploading
 
-> > > Renting vs. buying mainland
+> > > Guide 10: Renting vs. Buying Mainland
 
-> > > Running a business
+> > > Guide 11: Running a Business
 
 ***SECTION 3***
 
