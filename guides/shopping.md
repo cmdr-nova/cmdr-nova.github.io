@@ -1,0 +1,161 @@
+---
+layout: page
+title: Shopping 101
+permalink: /guides/shopping/
+---
+
+<p>In our previous guides, we've talked about manipulating your avatar, traveling to different areas (which most refer to as sims, not to be confused with sims from popular Electronic Arts franchise, The Sims!), collecting free stuff, and customizing your base avatar.</p>
+
+<p>Now we're going to talk about shopping.</p><p>First and foremost, if you plan on <em>buying</em> anything, you're going to need Linden dollars. There are ways to make linden without ever spending any of your own real-world currency, but that's something we'll discuss in our next guide.</p>
+
+<p>Whether you plan to spend real money or not, you're going to want to connect your credit card or Paypal details to your account in order to allow you access to sims that are adult rated (among other things). So, before we dive into the marketplace, let's take a look at <em>how</em> to even do that.</p>
+
+<p><em>Note: I am not sponsored by Linden Labs and am only writing this for educational value. You are not required to spend money and may skip this section entirely if you're not interested in doing so, and then come back later after you've learned how to make Linden dollars without spending cash.</em></p>
+
+<h3 id="account-management">Account management</h3>
+
+<p>In order to get started with Linden dollars, you're going to want to <a href="https://id.secondlife.com/openid/login">go here</a> in order to log into your account via the web interface (I recommend doing this in your default browser, rather than Second Life's built-in browser, even <em>if</em> you're using Firestorm).</p>
+
+<p>The page should look something like this:</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/acct-login.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/acct-login.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/acct-login.png 996w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Use the same credentials here that you've used on your viewer login dialogues. Remember that if you've set a display name for your avatar, this is not your username. Your username is the <em>original</em> name you created upon account registration.</p>
+
+<p>So, if you registered your account with the username Bobby, and password, PizzaIsGreat (I highly recommend making a more secure password than this), those are the credentials you would use to login here.</p>
+
+<p>Once you've logged in, for whatever reason, this may send you back to the original Second Life website splash page. Don't worry, go ahead and click "login" up at the top there.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/what-the.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/what-the.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w1000/2023/01/what-the.png 1000w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/what-the.png 1078w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>And then you'll immediately be taken to the account page you were originally looking for, as pictured below:</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/account-page.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/account-page.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w1000/2023/01/account-page.png 1000w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/account-page.png 1003w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Take a moment to familiarize yourself with what this page looks like, and all of the options available to you. If you stick around, this will become a place you visit on a regular basis, especially if you plan on subscribing to premium!</p>
+
+<p>Click on the "Account" link on the top of the sidebar. This will expand a number of options available to you. Note the "Partners" section (that we discussed briefly in the avatar customization guide) near the bottom above "Billing Information." If you go ahead and click that link, you'll be taken to a new page where you can enter the username of a partner you have in Second Life, or one that you'd like to have (hence, the proposal section, where you can write up a 254 character reason as to why said person should be your partner).</p>
+
+<p>Once you've completed that, mouse back over to the sidebar and click "Billing Information," and then once the new page comes up, click either "Add a credit card," "Add a PayPal account," or "Add a Skrill account."</p>
+
+<p>After you've completed entering this information, don't do anything else until you click "Multi-Factor Authentication" on your sidebar. Go ahead and go through the process of setting up 2FA. This is very important for keeping your account secure, and if you plan on buying and selling things, and eventually moving Linden dollars back into real world currency, you absolutely want that extra layer of protection.</p>
+
+<p><em>I'm going to assume that you know how to setup 2FA, in-general, but if you don't, please contact me and I'll give you a brief rundown privately, either in-world, or via my Discord server (linked at the top of this page).</em></p>
+
+<p>Now, you're prepared to buy Linden dollars, if you should choose. And, you have the added bonus of having payment info on file, so that people know you're a real adult!</p>
+
+<p>Much of the rest of the account information we'll explore later, but if you're interested in adding some Linden dollars to your account right away, mouse over to the Linden Exchange section on the sidebar that should have now appeared (if it hasn't, refresh your page, or log out and then back in again to your account).</p><p>Now click "Buy L$" and take note of all the new information that comes up on your screen.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/buying-linden.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/buying-linden.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/buying-linden.png 741w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>On your left is the instant buy mechanic. This allows you to simply specificy how much Linden you want, and how much it'll cost you in real dollars. As you can see, it's pretty cheap to get a few thousand Linden!</p>
+
+<p>On the right, you have the Limit Buy. Think of this like buying stocks, or cryptocurrency. You tell the system how much you're willing to spend, and if an order comes up in the system for the rate you've specified, you get your Linden. This can be cheaper, but I personally <em>never</em> use it. I'd rather just buy my Linden and have it immediately.</p>
+
+<p>If you've purchased some Linden and are ready to shop, you can go ahead and close out of the account management tab completely. There's nothing else we need in here for now.</p>
+
+<h3 id="the-marketplace">The Marketplace</h3>
+
+<p>The marketplace is probably the most popular form of shopping in Second Life. Why? Because you can browse an extremely large variety of items up for sale without ever leaving your home, or position in-world (we'll talk about homes later).</p>
+
+<p>Head on over <a href="https://marketplace.secondlife.com/">to this page</a> in order to start browsing everything that is now available to you.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/the-market.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/the-market.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/the-market.png 992w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Notice the extremely extensive amount of categories! But first and foremost, check out the "Show maturity levels" dropdown next to the keyword search box up at the top. You can change this to only General, General, Moderate or, General, Moderate, Adult. If you don't want to see adult rated items, go ahead and change this to General, Moderate.</p>
+
+<p>Basically, what you want to do here is simply search for things you're interested in buying for your avatar, or your home (if you have one). This isn't really something I can dictate for you, as I don't know what you're thinking! But we'll talk about what happens after you've decided to purchase something.</p><p>You, of course, want to ensure that you're logged in up at the top of the page. If you're using the same browser and session that you were when you were navigating account management, you should definitely still be logged in.</p>
+
+<p>For this example, I'm going to buy the demo version of some female body scales designed by the store Sweet Thing.</p>
+
+<p><em>Again, I am not sponsored by any company or store that I reference. This is all for educational matters and all is drawn from personal preference. You can absolutely choose not to buy from those I mention.</em></p>
+
+<figure class="kg-card kg-video-card"><div class="kg-video-container"><video src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/media/2023/01/buying.mp4" poster="https://web.archive.org/web/20230120131549im_/https://img.spacergif.org/v1/884x720/0a/spacer.png" width="100%" height="100%" loop autoplay muted playsinline preload="metadata" style="background: transparent url('https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/media-thumbnail-ember3800.jpg') 50% 50% / cover no-repeat;"/></video><div class="kg-video-overlay"><button class="kg-video-large-play-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z"/></svg></button></div><div class="kg-video-player-container kg-video-hide"><div class="kg-video-player"><button class="kg-video-play-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z"/></svg></button><button class="kg-video-pause-icon kg-video-hide"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><rect x="3" y="1" width="7" height="22" rx="1.5" ry="1.5"/><rect x="14" y="1" width="7" height="22" rx="1.5" ry="1.5"/></svg></button><span class="kg-video-current-time">0:00</span><div class="kg-video-time">/<span class="kg-video-duration"></span></div><input type="range" class="kg-video-seek-slider" max="100" value="0"><button class="kg-video-playback-rate">1&#215;</button><button class="kg-video-unmute-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z"/></svg></button><button class="kg-video-mute-icon kg-video-hide"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z"/></svg></button><input type="range" class="kg-video-volume-slider" max="100" value="100"></div></div></div></figure>
+
+<p>Once your buy order has been placed for whatever item you've decided on, you'll notice some dialogue that says that delivery has begun. Usually this will show up immediately, although it can take a little extra time if you're visiting a sim with high latency.</p>
+
+<p>Either way, head back into your Second Life viewer, and then open your inventory, and as usual, click the "Recent" tab.</p>
+
+<p>In the folder, "Recieved Items" you'll notice the item you bought from the marketplace website is now in your inventory. You can use the methods you've already learned in order to unpack and organize this item within your inventory.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/purchased.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/purchased.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/purchased.png 938w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>And that covers the basics of shopping via the Marketplace! But what if you want to shop in-world, within Second Life itself?</p>
+
+<h3 id="shopping-within-second-life">Shopping within Second Life</h3>
+
+<p>Now, this isn't as difficult as some would have you believe, but it does require you to sort of know what you're looking for, already. Regardless, go ahead and click the magnifying glass button at the bottom of your viewer in order to bring up the search function.</p>
+
+<p>Click the "Places" tab and remember to toggle the rating signifiers on the right in order to tell the search dialogue what types of places you're willing to go to.</p>
+
+<p>Now, let's assume you want some new hair. Most mesh hair is totally useable on base Second Life avatars and will not require you to have an entire mesh avatar to use.</p>
+
+<p>In the search field, type, "Hair," and note the mountain of results you're given. You may choose anything that looks interesting. For my example in this guide, I'll be using Wasabi.</p>
+
+<p>Highlight the location you're interested in by left clicking and then click "Teleport."</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/store-teleport.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/store-teleport.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/store-teleport.png 782w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Most Second Life creators, at least those who run in-world stores, will have their own custom place built for you to explore and browse through their items within. Some places have certain rules you must follow, such as no bumping (intentionally bumping into other avatars), no Bloodlines HUDs (a vampire system you might not have heard of yet, and won't until much later in these guides), and no soliciting.</p>
+
+<p>Take note of any rules that may be abound, and head inside of the store you're visiting, if the teleport hasn't already put you there.</p><p>I'm going to walk into Wasabi!</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/wasabi.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/wasabi.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w1000/2023/01/wasabi.png 1000w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/wasabi.png 1119w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>A lot of stores will have update groups, or subscriber kiosks. It's mostly up to the creator/store owner as to whether it's a group, a subscription, or both. At Wasabi there is only a subscriber update kiosk, which is fine! Save those group slots as much as you can.</p>
+
+<p>You'll usually notice things like this hanging on walls, or at the front desk. At this store, it's on the wall to your left from the entrance.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/subscriber-button.png" class="kg-image" alt loading="lazy" width="1063" height="559" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/subscriber-button.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w1000/2023/01/subscriber-button.png 1000w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/subscriber-button.png 1063w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Subscription buttons require no money. They simply act as an alternative to groups that adds your name to a registry. Once the store owner releases a new item, they send out an "update" that notifies you, much like you'll get popup notices in actual groups.</p>
+
+<p>Whichever they use, I recommend joining groups or subscribing to stores that you like. A lot of them offer discounts and free gifts! And who doesn't love free stuff, am I right?</p>
+
+<p>After you're done scouring the store for a group or subscriber option, if you should choose, you can head inside and have a look at items that are available to purchase!</p>
+
+<p>For the purposes of this tutorial, I will only be using a demo item to demonstrate how to buy from in-world stores, but actually paying involves nearly the exact same process, which I'll detail to you anyway.</p>
+
+<p>Once you've looked around for a while and found something that looks good to you, there'll usually be a kiosk, or advert card on the wall, or <em>somewhere</em> in the store. An available demo to try out isn't always 100% obvious. Some stores will have a graphic that says "demo" on their kiosks, others will just kind of expect you to click the advert card for the free demo.</p>
+
+<p>At Wasabi it's the latter.</p>
+
+<p>If there are no demos available, evaluate if you're okay with a purchase without trying it.</p>
+
+<p>In order to acquire an item from a demo, or via a sale, the process is much the same across most stores.</p>
+
+<p>Click on the card for a demo, or right click on the style, and then "Pay" for the item you want.</p>
+
+<figure class="kg-card kg-video-card"><div class="kg-video-container"><video src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/media/2023/01/inworld-shop.mp4" poster="https://web.archive.org/web/20230120131549im_/https://img.spacergif.org/v1/990x612/0a/spacer.png" width="100%" height="100%" loop autoplay muted playsinline preload="metadata" style="background: transparent url('https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/media-thumbnail-ember3864.jpg') 50% 50% / cover no-repeat;"/></video><div class="kg-video-overlay"><button class="kg-video-large-play-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z"/></svg></button></div><div class="kg-video-player-container kg-video-hide"><div class="kg-video-player"><button class="kg-video-play-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M23.14 10.608 2.253.164A1.559 1.559 0 0 0 0 1.557v20.887a1.558 1.558 0 0 0 2.253 1.392L23.14 13.393a1.557 1.557 0 0 0 0-2.785Z"/></svg></button><button class="kg-video-pause-icon kg-video-hide"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><rect x="3" y="1" width="7" height="22" rx="1.5" ry="1.5"/><rect x="14" y="1" width="7" height="22" rx="1.5" ry="1.5"/></svg></button><span class="kg-video-current-time">0:00</span><div class="kg-video-time">/<span class="kg-video-duration"></span></div><input type="range" class="kg-video-seek-slider" max="100" value="0"><button class="kg-video-playback-rate">1&#215;</button><button class="kg-video-unmute-icon"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M15.189 2.021a9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1.794a.249.249 0 0 1 .221.133 9.73 9.73 0 0 0 7.924 4.85h.06a1 1 0 0 0 1-1V3.02a1 1 0 0 0-1.06-.998Z"/></svg></button><button class="kg-video-mute-icon kg-video-hide"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M16.177 4.3a.248.248 0 0 0 .073-.176v-1.1a1 1 0 0 0-1.061-1 9.728 9.728 0 0 0-7.924 4.85.249.249 0 0 1-.221.133H5.25a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h.114a.251.251 0 0 0 .177-.073ZM23.707 1.706A1 1 0 0 0 22.293.292l-22 22a1 1 0 0 0 0 1.414l.009.009a1 1 0 0 0 1.405-.009l6.63-6.631A.251.251 0 0 1 8.515 17a.245.245 0 0 1 .177.075 10.081 10.081 0 0 0 6.5 2.92 1 1 0 0 0 1.061-1V9.266a.247.247 0 0 1 .073-.176Z"/></svg></button><input type="range" class="kg-video-volume-slider" max="100" value="100"></div></div></div></figure>
+
+<p>Whichever option you've chosen, these things will, once again, show up in the recent tab of your inventory. But let's check out how demos work.</p>
+
+<p>In order to try out a demo, since we're doing hair, you'll want to remove the hair that's already equipped to your avatar. If you can't remember how to, open the Appearance window, find the hair you're wearing, and then double-click it. Poof! Gone.</p>
+
+<p>Then, go into your recent tab via the inventory, decipher whether it's already unpacked, or if it requires unpacking. If it requires unpacking, right click, then Add and see if it unpacks by itself. If it doesn't, head on back to Timelord Sandbox and give it a go by rezzing it on the ground with techniques we've gone over in earlier guides.</p>
+
+<p>Once you have your demos in your inventory and ready to go, take a look at what options you have available to you.</p>
+
+<p>For the hair I've chosen, there is a demo hair, and then a HUD for each variety of colors this creator has made for us to choose from. A "HUD" is a "heads-up display" that attaches directly to your screen, for easy access to options regarding an item you have equipped--like this hair.</p>
+
+<p>You should have the options enabled from the early guides that allow you to double click items in your inventory in order to Add them (rather than Wear), so if you do, double click the hair you're trying out (or the demo of whatever item you're looking at, if it doesn't happen to be hair), and then double click one of the color or style HUDs you'd like to try for said item.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/trying-demo.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/trying-demo.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w1000/2023/01/trying-demo.png 1000w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/trying-demo.png 1311w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Notice how the demo is kind of intrusive and obvious. That's okay! That's how it's supposed to be, both so that you can try out an item before you buy, and to entice you to actually buy the item.</p>
+
+<p>You'll see on the HUD I have attached in the example that there are many colors to choose from. You can go ahead and click any of them and it'll replace the color of the hair or item you're wearing. For me, I'm going to choose the pink color.</p>
+
+<figure class="kg-card kg-image-card"><img src="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/pink-hair.png" class="kg-image" alt loading="lazy" srcset="https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w600/2023/01/pink-hair.png 600w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/size/w1000/2023/01/pink-hair.png 1000w, https://web.archive.org/web/20230120131549im_/https://revosa.live/content/images/2023/01/pink-hair.png 1176w" sizes="(min-width: 720px) 720px"></figure>
+
+<p>Once you've decided that you're done trying out the demos, open your inventory back up (if it isn't already open), and double click the items you equipped moments again in order to take them off again.</p>
+
+<p>You can either put your original items back on via the appearance tab or proceed to purchase and equip your new stuff!</p>
+
+<p>And those are the basics you'll need in order to start your adventure in shopping and spending money (hopefully not too much!).</p>
+
+<p><em><em>Head back to the main guides page by clicking How-to SL at the top of this page.</em></em></p>
+
+<p>If you have any questions regarding this guide, or using Second Life in-general, please feel free to message me in-world, and while I am kind of busy most of the time, I'll do my best to get an answer to you! My username is: C M D R ::Ｎｏｖａ Ayashi Wu (Nova Ayashi). Thank you for reading!</p>
+
+ [Return to Guide Index](/pages/howtosl/)

@@ -7,17 +7,33 @@ permalink: /pages/howtosl/
 
 Welcome to my comprehensive guide on starting and navigating the virtual world of Second Life. In this guide, we'll be talking about the vanilla experience you get directly from the base Second Life viewer. Click a link below to navigate to the guide you're interested in viewing.
 
-> > > [Guide 1: Getting started](/guides/guide1)
+***SECTION 1***
 
-> > > Guide 2: The Interface
+> > > Guide 1: [Getting started](/guides/guide1)
 
-> > > Guide 3: Who Wants Freebies?
+> > > Guide 2: [Avatar Customization](/guides/avatar)
 
-> > > Guide 4: The Marketplace
+> > > Guide 3: [Shopping 101](/guides/shopping)
 
-> > > Guide 5: Building & Creating
+> > > Guide 4: [How to make money](/guides/money)
 
-////////
+> > > Guide 5: [Premium Benefits](/guides/premium)
+
+***SECTION 2***
+
+> > > Diving further into your profile
+
+> > > Avatar animation overrides
+
+> > > Mesh bodies & heads
+
+> > > Building & uploading
+
+> > > Renting vs. buying mainland
+
+> > > Running a business
+
+***SECTION 3***
 
 Notable places that I enjoy
 

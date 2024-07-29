@@ -260,7 +260,7 @@ So, the first thing I would recommend doing, <em>before you even</em> create you
 
 <p>Feel free to explore the area for as long as you wish, and then get ready to fill up your inventory!</p>
 
-<p>Next up is a place that has existed since I joined Second Life, in 2013 ... Freebie Galaxy! Follow <a href="https://web.archive.org/web/20230119202704/http://maps.secondlife.com/secondlife/Ibiza/89/15/16">this landmark</a> location in order to travel there now. Don't worry, you can return to these other two areas with the landmarks you should have already made. The above link will open a teleport from your browser. It may ask you if it's okay to allow Firestorm to handle these types of requests.</p>
+<p>Next up is a place that has existed since I joined Second Life, in 2013 ... Freebie Galaxy! Follow <a href="http://maps.secondlife.com/secondlife/Ibiza/89/15/16">this landmark</a> location in order to travel there now. Don't worry, you can return to these other two areas with the landmarks you should have already made. The above link will open a teleport from your browser. It may ask you if it's okay to allow Firestorm to handle these types of requests.</p>
 
 <p>Now, beware, this is a moderate themed area, and there will be some lewd themed items. If you're not ready for that, or don't want to see things of that nature I would recommend against visiting here.</p>
 
