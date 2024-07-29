@@ -2,7 +2,7 @@
 layout: post
 title: WAFRN, the Federated Tumblr Alternative
 date: 2024-05-21 01:36:26 -05:00
-author: cmdr ░ nova
+author: 𐕣 C M D R ░ NOVA 𐕣
 ---
 
 <!-- wp:paragraph -->

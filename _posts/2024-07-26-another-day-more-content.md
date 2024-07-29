@@ -2,6 +2,7 @@
 layout: post
 title: Another day, More Content
 date: 2024-07-26 23:31 -0400
+author: 𐕣 C M D R ░ NOVA 𐕣
 ---
 Today, I struggled with myself to push through my final day of work for the week, so that I can come home to my *one day off* until I go back to work on Sunday! But, with the prospect of having a little bit of extended time to myself, I dedicated an entire evening, and partial late-night into adding mountains of content, and *placeholders* for content to this website. If you look to the top right, whether you're on mobile or desktop, you'll notice the navigation bar has become a constant hamburger menu. This is the way it should be, as I have many, many links. And the only way it could possibly break and not be a hamburger, is if you're using a massive resolution scale on desktop, and ... at that point. I dunno, brother. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Nostr, the Strangest and Clunkiest Twitter Replacement
 date: 2024-07-11 19:11 -0500
-author: cmdr ░ nova
+author: 𐕣 C M D R ░ NOVA 𐕣
 ---
 
 Nostr, the name of a social network that I really can't pinpoint the *theme* of. Like something a disgruntled Twitter developer came up with after trying Mastodon, and thought, "Hey, there aren't enough opportunities to pay for this?" And then there's the name, like it was definitely something thought up by a hipster sitting in a corporate lounge. 

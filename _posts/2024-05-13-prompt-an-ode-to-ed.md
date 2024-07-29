@@ -2,7 +2,7 @@
 layout: post
 title: "Prompt: An Ode to Ed"
 date: 2024-05-13 00:09:27 -05:00
-author: cmdr ░ nova
+author: 𐕣 C M D R ░ NOVA 𐕣
 ---
 
 <!-- wp:pullquote -->

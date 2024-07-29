@@ -2,7 +2,7 @@
 layout: post
 title: "Prompt: My First Crush"
 date: 2024-06-19 14:59 -05:00
-author: cmdr ░ nova
+author: 𐕣 C M D R ░ NOVA 𐕣
 ---
 
 <!-- wp:pullquote -->
