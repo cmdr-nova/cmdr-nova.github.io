@@ -2,6 +2,7 @@
 layout: post
 title: "Threads & Project 2025"
 date: 2024-07-30 14:59 -0400
+author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 ---
