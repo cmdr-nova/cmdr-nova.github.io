@@ -53,7 +53,7 @@ body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, monospace, "Segoe U
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
 
 /** `main` element */
-main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ /* background-image: url("/img/ayashi.png"); background-repeat: no-repeat; background-attachment: fixed; */}
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ /* background-image: url("/img/iota3.png"); background-repeat: no-repeat; background-attachment: fixed;*/ }
 
 /** Images */
 img { max-width: 100%; vertical-align: middle; }
