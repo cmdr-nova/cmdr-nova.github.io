@@ -3,6 +3,8 @@ layout: post
 title: Threads vs. Twitter (the eX), One Year Later
 date: 2024-07-06 04:03 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Social Media"
 ---
 
 

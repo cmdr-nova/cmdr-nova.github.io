@@ -3,6 +3,8 @@ layout: post
 title: Why Bluesky Will Probably Never Be It
 date: 2024-07-16 14:00 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Social Media"
 ---
 
 This is going to be a sort of long one (or maybe it won't?), because I have a lot of thoughts as a tech and social media enthusiast, and some of those thoughts have to do with how I feel about the direction that social media is moving in. How I feel about Mastodon, and Nostr, side-by-side, and what the biggest problems with Bluesky are.

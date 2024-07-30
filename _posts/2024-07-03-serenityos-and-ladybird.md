@@ -3,6 +3,8 @@ layout: post
 title: "SerenityOS and LadyBirds: Because These Things Shouldn't Hide in Closed Git Conversations"
 date: 2024-07-03 16:34 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Tech"
 ---
 ![A screenshot of the environment for LadyBird OS.](/img/posts/ladybird/ladybird.png)
 

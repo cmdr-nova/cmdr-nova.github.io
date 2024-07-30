@@ -3,6 +3,8 @@ layout: post
 title: 'The First Descendant: Bunnies & Guns Edition'
 date: 2024-07-16 22:55 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Gaming"
 ---
 
 

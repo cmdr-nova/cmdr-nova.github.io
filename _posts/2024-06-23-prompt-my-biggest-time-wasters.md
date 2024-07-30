@@ -3,6 +3,8 @@ layout: post
 title: "Prompt: My Biggest Time Wasters"
 date: 2024-06-23 19:07:25 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Writing Prompts"
 ---
 
 <!-- wp:pullquote -->

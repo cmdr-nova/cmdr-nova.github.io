@@ -3,6 +3,8 @@ layout: post
 title: Days Later, But With More Stress
 date: 2024-07-25 21:07:00 -05:00
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Updates"
 ---
 
 So it's been a few days since I've posted here on the new site, and there's a really great reason for that! I was having a *huge* error with pagination. Or, to be more specific, the deprecated paginator plugin for Github's Jekyll. I think I must've gone through about forty different arrangements of code, and also deletion of code, and edited code, and re-edited code, and then complete deletion. I was pulling out my hair, I was crying and shidding into my pillow ... I was swearing and cursing up and down in commit comments and in a help request on the official Jekyll repo.

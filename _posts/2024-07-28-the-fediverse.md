@@ -3,6 +3,8 @@ layout: post
 title: The Fediverse, For Those Who've Never Used It
 date: 2024-07-28 19:13 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Social Media"
 ---
 ![an illustration of what the fediverse is, connected website and different communities](/img/posts/fediverse/fediverse.png)
 

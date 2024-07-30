@@ -3,6 +3,8 @@ layout: post
 title: "Threads vs. Mastodon: The Trilogy"
 date: 2024-06-27 02:02:17 -0500'
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Social Media"
 ---
 
 <!-- wp:paragraph -->

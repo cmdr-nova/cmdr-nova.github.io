@@ -3,6 +3,8 @@ layout: post
 title: A Two-for-One Threads.net Sale! Transphobia and LLMs, Oh My!
 date: 2024-07-09 16:28:27 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Social Media"
 ---
 
 <!-- wp:paragraph -->

@@ -3,6 +3,8 @@ layout: post
 title: "Closet Redditors: Stigmatizing Not Being Famous"
 date: 2024-06-27 21:45:29 -05:00
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Thoughts"
 ---
 
 <!-- wp:paragraph -->

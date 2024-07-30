@@ -3,6 +3,8 @@ layout: post
 title: "Prompt: Maintaining a Healthy Work and Life Balance"
 date: 2024-05-18 23:48:40 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Writing Prompts"
 ---
 
 <!-- wp:pullquote -->

@@ -3,6 +3,8 @@ layout: post
 title: "Prompt: Adapting, Post Covid-19"
 date: 2024-05-12 00:21:18 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Writing Prompts"
 ---
 
 <!-- wp:pullquote -->

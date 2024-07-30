@@ -3,14 +3,16 @@ layout: post
 title: "Corporate Social Media & Engagement Farming: Extended Special Edition Max"
 date: 2024-07-02 14:31:49 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Social Media"
 ---
 
 <!-- wp:paragraph -->
-<p>I wrote sort of recently about <a href="https://cmdr-nova.online/2024/05/15/engagement-farming-a-disease-of-the-modern-internet/" target="_blank" rel="noreferrer noopener">engagement farming</a>, and how ridiculous, annoying, and bad it is. How there are people out there who will post things, not because they believe in it, think it, or like it, but because it's what will get them the most clicks and views. Either because they believe it'll bring in monetary gain, or because they have a severe addiction to the serotonin pump of getting likes in their notifications. And that, at the end of the day, it's money, and lack thereof in our current society, that likely drives people to waste their time on the internet in this way.</p>
+<p>I wrote sort of recently about engagement farming, and how ridiculous, annoying, and bad it is. How there are people out there who will post things, not because they believe in it, think it, or like it, but because it's what will get them the most clicks and views. Either because they believe it'll bring in monetary gain, or because they have a severe addiction to the serotonin pump of getting likes in their notifications. And that, at the end of the day, it's money, and lack thereof in our current society, that likely drives people to waste their time on the internet in this way.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>In the past couple weeks, I've spent a little more time on Threads. The only reason I have an account on the platform is largely due in part to the fact that I was banned from what was my home on Mastodon at <a href="https://cmdr-nova.online/2024/06/11/the-importance-of-choosing-a-good-mastodon-instance-the-issue-of-hackers-town/" target="_blank" rel="noreferrer noopener">hackers.town</a> after a little over three years. At the time, I had briefly sworn off Mastodon, until I realized that federated, open source social media is <em>still</em> probably the only road forward online, even if millions of people still haven't convinced themselves that corporate social media is not good, and is completely designed to wear you down.</p>
+<p>In the past couple weeks, I've spent a little more time on Threads. The only reason I have an account on the platform is largely due in part to the fact that I was banned from what was my home on Mastodon at hackers.town after a little over three years. At the time, I had briefly sworn off Mastodon, until I realized that federated, open source social media is <em>still</em> probably the only road forward online, even if millions of people still haven't convinced themselves that corporate social media is not good, and is completely designed to wear you down.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

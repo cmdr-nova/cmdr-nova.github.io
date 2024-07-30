@@ -3,6 +3,8 @@ layout: post
 title: "Gofundme: The Vets Who Slammed Me With Years of Debt"
 date: 2024-05-20 03:03:11 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
+categories:
+    - "Fundraisers"
 ---
 
 <!-- wp:paragraph -->
