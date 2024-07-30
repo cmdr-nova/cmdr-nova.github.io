@@ -4,6 +4,14 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # 7/29/24
+
+- today I went through and reformatted all of my old posts from different blogs throughout the years and got them uploaded here, formatted correctly
+- i've also fully relaunched my second life guides, that took me hours and hours and hours to write!
+- my "join activitypub" page is back up in the nav section, imported from my previous sit at cmdr-nova.online
+- my old dive into NFTs are up under the haxPunks link
+- there is now a functional search option in the nav menu
+
 # # 7/28/24
 
 - today I added a License and Disclaimer page detailing what is acceptable use of this website, and what's not. this includes prohibiting the talentless from scraping my words and ata
