@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # 8/03/24
+
+- added the page to the retronaut webring
+- added an active banner ad link to the bottom of the page that simulates the year 2001, by traveling to the web archived version of thesims.com
+
 # # 7/29/24
 
 - today I went through and reformatted all of my old posts from different blogs throughout the years and got them uploaded here, formatted correctly
