@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 /** Links */
 a { color: #ffffff; text-decoration: none; }
 a:visited { color: #ffffff; }
-a:hover { color: #bbfae7; text-decoration: underline; }
+a:hover { color: #edf2b1; text-decoration: highlight; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
