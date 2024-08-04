@@ -120,7 +120,7 @@ table td { border: 1px solid #e8e8e8; }
 .site-nav .menu-icon { display: none; }
 .site-nav .page-link { color: #111; line-height: .5; }
 .site-nav .page-link:not(:last-child) { margin-right: 20px; }
-@media screen and (max-width: 1920px) { .site-nav { position: fixed; top: 9px; right: 5px; background-color: #fdfdfd; border: 2px solid #e8e8e8; border-radius: 5px; text-align: right; padding: 2px; overflow-y: auto; }
+@media screen and (max-width: 1920px) { .site-nav { position: absolute; top: 9px; right: 5px; background-color: #fdfdfd; border: 2px solid #e8e8e8; border-radius: 5px; text-align: right; padding: 2px; overflow-y: scroll; }
   .site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
   .site-nav .menu-icon { display: block; float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
   .site-nav .menu-icon > svg { fill: #424242; }
