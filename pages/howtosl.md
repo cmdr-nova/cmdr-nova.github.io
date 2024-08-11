@@ -37,8 +37,6 @@ Welcome to my comprehensive guide on starting and navigating the virtual world o
 
 Notable places that I enjoy
 
-> > > [Neo Machina](http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23){:target="_blank"}
-
 > > > [Timelord Sandbox](https://maps.secondlife.com/secondlife/Mount%20Olympus/131/128/22){:target="_blank"}
 
 > > > [La Chateau - A retro 80s Community](http://maps.secondlife.com/secondlife/Le%20Chateau/13/80/32){:target="_blank"}
