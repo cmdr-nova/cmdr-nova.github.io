@@ -14,7 +14,7 @@ A little tiny store that began on a small parcel in the middle of nowhere, mostl
 
 The beginnings of this store were also happening at a difficult time in my life. I'd just left my job due to a myriad of reasons, and had developed an anxiety disorder so severe that going *outside*, at all, resulted in my entire body freezing in place. Especially when faced with going places populated by mass amounts of people, such as department stores, and big box stores. It was so bad, that I would only go out at night, and only while wearing a hoodie that I could hide myself in. And *only* to a gas station to get an energy drink and some smokes. Funded, almost entirely by money I made in my previous job, and that of which I gathered from sales in Second Life.
 
-The store icreased in size exponentionally as I worked through 2016 and into 2017, where I then also began my music venture, under the stage-name, *Eyeshadow 2600 FM* (but this is part of a different story).
+The store increased in size exponentially as I worked through 2016 and into 2017, where I then also began my music venture, under the stage-name, *Eyeshadow 2600 FM* (but this is part of a different story).
 
 ![a photo of the interior of my Second Life store, circa 2016](/img/pages/revosa/revosa_2016.jpg){: .image-right } 
 
@@ -24,15 +24,15 @@ There are *some* products that I made in this era of my store, that are *still* 
 
 As we came into 2018 and through 2019, the store moved *again*. Still utilizing Chung-owned land, but this time in a skybox off the main road, and more uniform. I started working with mesh templates for bodies, gathered ideas for clothing, and even *made* a few things. Of course, I also dabbled in simply *buying* template clothes from stores that I could texture, just to see if that was something people would be interested in. It should be noted that, for whatever reason, some people oppose creators who buy mesh clothing that's already animated and rigged and ready-to-go. But those people have never tried rigging clothing to the Second Life skeleton and spent 3 straight days screaming in agony as it fails over, and over again.
 
-Plus, "AI" is a much bigger problem in Second Life, than creators supporting creators, and getting thigns done in a fraction of the time.
+Plus, "AI" is a much bigger problem in Second Life, than creators supporting creators, and getting things done in a fraction of the time.
 
-When 2020 came around, this is around the time I got *heavily* into my music. So much so, that [REVOSA] took a major back-seat. The store, from this point forward would go into a sort of maintanence mode, where I would update things, maybe put out a product here and there, and then let it sit. This went on ... unfortunately, for *years*. Part of this, is because I eventually overcame my issues with anxiety, fixed myself up, put myself back together, and re-entered the workforce near the end of 2020.
+When 2020 came around, this is around the time I got *heavily* into my music. So much so, that [REVOSA] took a major back-seat. The store, from this point forward would go into a sort of maintenance mode, where I would update things, maybe put out a product here and there, and then let it sit. This went on ... unfortunately, for *years*. Part of this, is because I eventually overcame my issues with anxiety, fixed myself up, put myself back together, and re-entered the workforce near the end of 2020.
 
-It was around this time my Second Life store really began its vacation from having *anything* done with it. But, despite a haitus, from 2015 and onward, it would garner around 20-30 USD in Linden Dollars, every month, without pause.
+It was around this time my Second Life store really began its vacation from having *anything* done with it. But, despite a hiatus, from 2015 and onward, it would garner around 20-30 USD in Linden Dollars, every month, without pause.
 
-Then 2023 came around. It was another day after work, doing some maintanence to my store, and feeling like, you know, "Hey. I have a job now. I'm making money. What if I bought a sim?"
+Then 2023 came around. It was another day after work, doing some maintenance to my store, and feeling like, you know, "Hey. I have a job now. I'm making money. What if I bought a sim?"
 
-Enter: [Neo Machina](http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23){:target="_blank"}
+Enter: Neo Machina
 
 Years, and years back, I was a big fan of a scifi/cyberpunk sim (server, in Second Life words) named Neo Machina. It was basically new tokyo, but 2077. I had a small off-shoot of my store there, and would mingle with the residents on a daily basis. But ... after taking a shorter type of break in 2018, and returning, I'd found that Neo Machina had vanished completely. Its creators seeking new ideas, new venues, and new *things*, in-general.
 
@@ -49,6 +49,8 @@ And now we're here at 2024, sort of in hiatus mode again as I work on a slew of 
 You can visit the city, or [REVOSA] at any time, everything I made is *still* there, and I do still gradually add new products. I imagine that soon, maybe come fall, I'll probably get back into my obsession of maintaining all of this, and release about 40 new products. Who knows! That's usually how it works, with me, *at least*.
 
 Where we go from here? We'll see ...
+
+***As of August 31st, 2024, Neo Machina was taken offline, in order to save money and re-adjust priorities, but the store continues onward. The above text will remain the way it is as a piece of history in my ongoing journey of building and creating, in Second Life.***
 
 
 
