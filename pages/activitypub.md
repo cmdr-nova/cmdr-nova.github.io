@@ -195,23 +195,15 @@ permalink: /pages/activitypub/
 <ul>
 <li>Mastodon, the official client.</li>
 
-
+<li>Mammoth, a relatively new, expansive Mastodon client</li>
 
 <li>Ivory, a mobile Mastodon client.</li>
 
-
-
 <li>Voyager, a mobile Lemmy client.</li>
-
-
 
 <li>Pixelfed, currently on TestFlight.</li>
 
-
-
 <li>Takesama, for Misskey.</li>
-
-
 
 <li>B4X, for Pleroma</li>
 </ul>
