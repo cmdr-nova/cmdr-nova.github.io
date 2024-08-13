@@ -21,7 +21,7 @@ No, I don't think it is.
 
 Jokes aside, what I *want* to do, is show you some Mastodon/fediverse instances you can join in order to continue your work, whatever that may be, *without* indirectly supporting a dunce who hasn't genuinely created anything in his life and has benefited from the exploitation of working people since the day he was born.
 
-So, here are some of those instances you can check out that are either LGBTQ+/Queer and sex worker friendly, or simply LGBTQ+/Queer friendly, free from the tendrils of [Bluesky's corporate board](https://www.nova-prime.net/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html), who've recently partnered with a company that utilizes OpenAI, and the [Thread's public policy](https://www.nova-prime.net/social%20media/2024/07/30/threads-project-2025.html) maker, who coincidentally is also an author on Project 2025.
+So, here are some of those instances you can check out that are either LGBTQ+/Queer and sex worker friendly, or simply LGBTQ+/Queer friendly, free from the tendrils of Elon Musk's failure machine, [Bluesky's corporate board](https://www.nova-prime.net/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html), who've recently partnered with a company that utilizes OpenAI, and the [Thread's public policy](https://www.nova-prime.net/social%20media/2024/07/30/threads-project-2025.html) maker, who coincidentally is also an author on Project 2025.
 
 ***Note: Some of these instances are not hosted on the Mastodon client, rather some on Misskey, or Akkoma, and other pieces of custom fediverse software. This does not take away from the experience, and I encourage you to check them all out, regardless.***
 
