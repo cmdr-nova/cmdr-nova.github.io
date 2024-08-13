@@ -33,7 +33,7 @@ So, here are some of those instances you can check out that are either LGBTQ+/Qu
 
 *Instance suggestion provided by its admin, [@MarkAssPandi@gejuchowo.pl](https://gejuchowo.pl/@MarkAssPandi){:target="_blank"}*
 
-- [gejuchowo.pl](https://gejuchowo.pl/about){:target="_blank"} :: an LGBTQ+ safe Polish instance that also has English speaking users
+- [gejuchowo.pl](https://gejuchowo.pl/about){:target="_blank"} :: an LGBTQ+ safe Polish instance that also has English speaking users (NSFW content is allowed, as long as content warnings are used)
 
 *The following instances were provided with descriptions by [@puppygirlhornypost@transfem.social](https://transfem.social/@puppygirlhornypost){:target="_blank"}*
 
