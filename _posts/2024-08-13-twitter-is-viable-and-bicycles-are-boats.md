@@ -11,7 +11,7 @@ I was talking to someone on Threads, whose name I won't mention, because I *do* 
 
 Recently, I *finally* downloaded my Tweet archive, and deactivated my account. Making Mastodon my main place to be.
 
-And it's strange to me, do these people *not know* that Mastodon has quite a few LGBTQ+ and/or sex worker positive instances? Is dealing with some weirdo nerdy tech-guys who act like puritans on the federated timeline somehow *more* of a problem, than congregating on a website that is deteriorating on a daily basis, as the [infrastructure crumbles](https://www.washingtonpost.com/technology/2024/08/12/trump-returns-x-elon-musk-interview/){:target="_blank"} as if being eaten alive by termites? Than congregating on a website where people will hurl slurs at you, and experience *no consequences whatsoever*?
+And it's strange to me, do these people *not know* that Mastodon/the fediverse has quite a few LGBTQ+ and/or sex worker positive instances? Is dealing with some weirdo nerdy tech-guys who act like puritans on the federated timeline somehow *more* of a problem, than congregating on a website that is deteriorating on a daily basis, as the [infrastructure crumbles](https://www.washingtonpost.com/technology/2024/08/12/trump-returns-x-elon-musk-interview/){:target="_blank"} as if being eaten alive by termites? Than congregating on a website where people will hurl slurs at you, and experience *no consequences whatsoever*?
 
 No, I don't think it is.
 
@@ -19,9 +19,9 @@ No, I don't think it is.
 <iframe src="https://mkultra.monster/@cmdr_nova/112955218421055797/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mkultra.monster/embed.js" async="async"></script>
 </center>
 
-Jokes aside, what I *want* to do, is show you some Mastodon instances you can join in order to continue your work, whatever that may be, *without* indirectly supporting a dunce who hasn't genuinely created anything in his life and has benefited from the exploitation of working people since the day he was born.
+Jokes aside, what I *want* to do, is show you some Mastodon/fediverse instances you can join in order to continue your work, whatever that may be, *without* indirectly supporting a dunce who hasn't genuinely created anything in his life and has benefited from the exploitation of working people since the day he was born.
 
-So, here are some fediverse instances you can check out that are either LGBTQ+/Queer and sex worker friendly, or simply LGBTQ+/Queer friendly, free from the tendrils of [Bluesky's corporate board](https://www.nova-prime.net/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html), who've recently partnered with a company that utilizes OpenAI, and the [Thread's public policy](https://www.nova-prime.net/social%20media/2024/07/30/threads-project-2025.html) maker, who coincidentally is also an author on Project 2025.
+So, here are some of those instances you can check out that are either LGBTQ+/Queer and sex worker friendly, or simply LGBTQ+/Queer friendly, free from the tendrils of [Bluesky's corporate board](https://www.nova-prime.net/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html), who've recently partnered with a company that utilizes OpenAI, and the [Thread's public policy](https://www.nova-prime.net/social%20media/2024/07/30/threads-project-2025.html) maker, who coincidentally is also an author on Project 2025.
 
 ***Note: Some of these instances are not hosted on the Mastodon client, rather some on Misskey, or Akkoma, and other pieces of custom fediverse software. This does not take away from the experience, and I encourage you to check them all out, regardless.***
 
