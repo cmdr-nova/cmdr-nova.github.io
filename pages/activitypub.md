@@ -188,24 +188,24 @@ permalink: /pages/activitypub/
 
 
 
-<p>iOS (it&#8217;s better to simply search for these, as Apple doesn&#8217;t make linking to apps in their store all that easy):</p>
+<p>iOS:</p>
 
 
 
 <ul>
-<li>Mastodon, the official client.</li>
+<li><a href="https://apps.apple.com/us/app/mastodon/id1571998974" target="_blank">Mastodon</a>, the official client.</li>
 
-<li>Mammoth, a relatively new, expansive Mastodon client</li>
+<li><a href="https://apps.apple.com/us/app/mammoth-for-mastodon/id1667573899" target="_blank">Mammoth</a>, a relatively new, expansive Mastodon client</li>
 
-<li>Ivory, a mobile Mastodon client.</li>
+<li><a href="https://apps.apple.com/us/app/ivory-for-mastodon-by-tapbots/id6444602274" target="_blank">Ivory</a>, a mobile Mastodon client.</li>
 
-<li>Voyager, a mobile Lemmy client.</li>
+<li><a href="https://apps.apple.com/us/app/voyager-for-lemmy/id6451429762" target="_blank">Voyager</a>, a mobile Lemmy client.</li>
 
 <li>Pixelfed, currently on TestFlight.</li>
 
-<li>Takesama, for Misskey.</li>
+<li><a href="https://apps.apple.com/us/app/takesama/id1622199470" target="_blank">Takesama</a>, for Misskey.</li>
 
-<li>B4X, for Pleroma</li>
+<li><a href="https://apps.apple.com/us/app/b4x-for-pleroma-mastodon/id1538396871" target="_blank">B4X</a>, for Pleroma</li>
 </ul>
 
 
