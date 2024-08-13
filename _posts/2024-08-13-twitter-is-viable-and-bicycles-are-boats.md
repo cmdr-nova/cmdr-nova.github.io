@@ -65,8 +65,6 @@ So, here are some of those instances you can check out that are either LGBTQ+/Qu
 
 - [ceilidh.online](https://ceilidh.online/about){:target="_blank"} :: LGBTQ+ friendly instance, NSFW content policy is unclear
 
-- [poweredbygay.social](https://poweredbygay.social/about){:target="_blank"} :: LGBTQ+ friendly instance, NSFW content not allowed
-
 - [socialpa.ws](https://socialpa.ws/about){:target="_blank"} :: LGBTQ+ friendly instance, NSFW content allowed with proper content warnings.
 
 - [kinkyelephant.com](https://kinkyelephant.com/about){:target="_blank"} :: an instance specifically *for* fetish models, photographers, producers, and fans. Common sense content warnings are required.
