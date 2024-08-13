@@ -201,7 +201,7 @@ permalink: /pages/activitypub/
 
 <li><a href="https://apps.apple.com/us/app/voyager-for-lemmy/id6451429762" target="_blank">Voyager</a>, a mobile Lemmy client.</li>
 
-<li>Pixelfed, currently on TestFlight.</li>
+<li><a href="https://pixelfed.org/mobile-apps" target="_blank">Pixelfed</a>, currently on TestFlight.</li>
 
 <li><a href="https://apps.apple.com/us/app/takesama/id1622199470" target="_blank">Takesama</a>, for Misskey.</li>
 
