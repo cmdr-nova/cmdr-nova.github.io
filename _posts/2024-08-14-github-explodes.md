@@ -25,4 +25,4 @@ At least, not in the way I want to do it.
 
 I *suppose* if Github takes a spiral and farts, and *doesn't* come back, I could just as easily deploy this entire site onto a blank droplet on Digital Ocean, but *I would like to avoid paying for more stuff, for now*. Therefore, Neocities is the best place for a backup/mirror ... just in case.
 
-... if I can figure out the issue of what the *heck* I'm suppose to deploy to Neocities from my repository here on Github.
+... if I can figure out the issue of what the *heck* I'm supposed to deploy to Neocities from my repository here on Github.
