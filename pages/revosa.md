@@ -4,6 +4,8 @@ title: "[REVOSA], My Second Life Store in the Virtual World"
 permalink: /pages/revosa/
 ---
 
+***As of August 16th, 2024, [REVOSA] was shuttered in order to remain on the Second Life marketplace page, only, and on August 31st, 2024, Neo Machina was taken offline, in order to save money and re-adjust priorities. The below text will remain the way it is as a piece of history that chronicles the efforts I made in building and creating, in Second Life.***
+
 Since 2015, I've been running a virtual store in the virtual world, [Second Life](https://secondlife.com/){:target="_blank"}. This thing started as sort of a "Oh yeah? Well I don't *need* you, anyway!" sorta deal. In that, I was virtually dating a woman, and we were running a car customization and parts store together. After about half a year, she ... out of the blue, decided she liked someone new. And then she took all of our work, called it her own, and ditched me.
 
 Enter: [[REVOSA]](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
@@ -49,8 +51,6 @@ And now we're here at 2024, sort of in hiatus mode again as I work on a slew of 
 You can visit the city, or [REVOSA] at any time, everything I made is *still* there, and I do still gradually add new products. I imagine that soon, maybe come fall, I'll probably get back into my obsession of maintaining all of this, and release about 40 new products. Who knows! That's usually how it works, with me, *at least*.
 
 Where we go from here? We'll see ...
-
-***As of August 31st, 2024, Neo Machina was taken offline, in order to save money and re-adjust priorities, but the store continues onward. The above text will remain the way it is as a piece of history in my ongoing journey of building and creating, in Second Life.***
 
 
 
