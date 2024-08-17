@@ -11,7 +11,7 @@ So, yesterday, I *basically* shuttered my Second Life store in order to, pretty 
 
 But, that *does* save me some money.
 
-Here's why:
+**Here's why:**
 
 I took my car in for inspection, and was informed that part of the steering column needs to be replaced (the u-joint shaft), or it can't pass inspection. Since I'm *still paying* on this car to Carvana and the loan they *gave me* in order to have it, and I *need* this car in order to go to and from work, I can't really say "No." I've already had to drop 900 USD, and in a week or so when I go back, and they have the part delivered, I'll have to pay 800 or so more in order to finish it. This is non-negotiable, and *must* be done. And this will happen, *before I even get paid anything more from my job*. I'm running on the fumes of money I've been trying to save in order to stay on my own two feet.
 
@@ -31,7 +31,7 @@ Paypal: [Link](https://www.paypal.com/paypalme/merylsk){:target="_blank"} :: Thi
 
 That's it! Obviously, the books I've written over a decade ago could be another avenue, but payments for books purchased are paid out once a month, at the end of every month (and I don't really even make any book sales). It's too bad I haven't even remotely come close to finishing the current book I'm working on.
 
-Who I am: 
+**Who I am:**
 
 *Years* back I started transition, what some would call in out-of-date terminology, male to female, a trans woman. I experienced some ... really not great treatment in my job at the time, and was pretty much forced out of it. This was kind of a shock to me, and looking back, I feel like this is where a lot of my anxiety comes from. I would say I exhibit some amounts of PTSD, but I've never had the financial security in order to be able to visit a therapist. Resulting from discrimination, harassment, I isolated myself at home for five years. During that time, many online would definitely know me by the name of *Meryl S. Kavanagh*, wherein I began a Second Life store in an attempt to replace my income. And then, in 2017, I started making music in *another* attempt to do the same thing (after patching things up with my family, I eventually returned to using my original, birth name).
 
