@@ -2,16 +2,21 @@
 layout: default
 ---
 
-<h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1>
+<div class="iota">
+<p><h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1></p>
 <p>░ <b>author</b>: <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a> //
 <b>date</b>: {{ page.date }}</p> <p>Label: {{ page.categories }}</p>
+</div>
+<br />
 
 {{ content }}
+
+<br />
 
 <p align="right">
 <button class="mastodon-share"></button>
 </p>
-
+<br />
 <span>tag: [
         {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -19,19 +24,7 @@ layout: default
         {% endfor %}
       ]</span>
 
-<!-- now using Mastodon for comments
-<div>
-<script src="https://utteranc.es/client.js"
-        repo="cmdr-nova/cmdr-nova.github.io"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-</div>
--->
-
 {%- if page.comments -%}
 {%- include fediverse_comments.html -%}
 {%- endif -%}
+

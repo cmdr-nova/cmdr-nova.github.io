@@ -24,12 +24,20 @@ creator of everything -->
 
 <p><em>... and here's where I keep all of my brain juice:</em></p>
 
+
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <h1><b><a href="{{ post.url }}">{{ post.title }}</a></b></h1>
+  
+<!-- <div class="posty"> -->
   <p class="author">
+    {{ post.author }} // 
     <span class="date">{{ post.date }}</span>
   </p>
+  <p>
+    {{ post.excerpt }}
+  </p>
 {% endfor %}
+<!-- </div> -->
 
 <!-- Pagination links -->
 <div class="pagination">
@@ -48,6 +56,7 @@ creator of everything -->
   {% else %}
     <span class="next ">Next ░</span>
   {% endif %}
+  </div>
 
   <p align="right">
     <img src="/img/3.gif" />
@@ -88,7 +97,6 @@ creator of everything -->
   <a href='https://webring.dinhe.net/next/https://nova-prime.net/'>Next → </a>
   </p>
 
-</div>
 
 
 </div>
