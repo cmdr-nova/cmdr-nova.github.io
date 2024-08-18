@@ -5,6 +5,7 @@ date: 2024-08-17 09:03 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Fundraiser"
+tag: donations
 ---
 
 So, yesterday, I *basically* shuttered my Second Life store in order to, pretty much immediately stop paying Linden Labs any money *whatsoever* in order to have land, and access to group space needed for both hosting my store in-world, and maintaining groups for promotion. As of right now, my little venture in Second Life is pretty much over.
