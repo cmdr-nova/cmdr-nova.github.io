@@ -1,0 +1,11 @@
+<p class = "h5">Share this post</p>
+<p>
+    <form onsubmit="return shareOnMastodon();">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id = "instance" placeholder="type instance here" aria-label="Instance URL" aria-describedby="button-addon2" name = "instance" data-toggle="tooltip" data-placement="top" title="Enter the URL for your Mastodon instance.">
+          <div class="input-group-append">
+            <button class="btn mastodon" type="submit" id="button-addon2"><b>{% include mastodon.html %} Share</b></button>
+            </div>
+        </div>
+    </form>
+</p>
