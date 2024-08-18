@@ -4,6 +4,13 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # 8/18/24
+
+- added tags that transform all posts into an archive that's even easier to use than the search function
+- set a maximum height for the hamburger menu, and made it scrollable
+- added a dedicated mastodon share button to all posts, complete with an option to specify your instance
+- added floating shork nova in the background of the main page
+
 # # 8/03/24
 
 - added the page to the retronaut webring
