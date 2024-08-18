@@ -5,6 +5,7 @@ date: 2024-07-19 18:00 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
+tag: gaming
 ---
 
 

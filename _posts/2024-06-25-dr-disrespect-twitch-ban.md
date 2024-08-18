@@ -5,6 +5,7 @@ date: 2024-06-25 21:32:47 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Controversy"
+tag: controversy
 ---
 
 ![a photo of Dr. Disrespect looking dumbfounded](/img/posts/disrespect/uhh.png)

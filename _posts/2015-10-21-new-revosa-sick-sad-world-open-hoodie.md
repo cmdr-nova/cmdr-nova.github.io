@@ -5,6 +5,7 @@ date: '2015-10-21T12:11:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - 'Second Life'
+tag: second-life
 ---
 
 <div style="clear: both; text-align: center;">

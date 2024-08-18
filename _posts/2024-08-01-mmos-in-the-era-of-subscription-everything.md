@@ -5,6 +5,7 @@ date: 2024-08-01 20:43 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
+tag: gaming
 ---
 
 ![image of a woman with a golden crown atop red hair, white skin, red eyes, red lipstick, looking down upon the viewer](/img/posts/mmos/wow.png)

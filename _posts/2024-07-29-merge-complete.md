@@ -5,6 +5,7 @@ date: 2024-07-29 21:46 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Updates"
+tag: updates
 ---
 
 Today was a ... day, at work. I mean, it's always a *day* of sorts, but work is always, you know, *work*. But I got out, I drove, I arrived, I shoved food into my gullet, and then I sat down to reformat the front matter of over one hundred different old posts from my numerous blogs I've had over the years (some of which were abandoned to time for a very long ... time).

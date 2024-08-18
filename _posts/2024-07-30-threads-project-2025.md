@@ -5,6 +5,7 @@ date: 2024-07-30 14:59 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
+tag: social-media
 ---
 ![images of the Threads logo on a blue, purple, red and orage gradient](/img/posts/2025/threads.webp)
 

@@ -5,6 +5,7 @@ date: 2024-07-21 22:40 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
+tag: social-media
 ---
 ![johnny silverhand](/img/posts/masto/2077.png)
 

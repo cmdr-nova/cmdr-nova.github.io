@@ -5,6 +5,7 @@ date: '2019-07-28T19:58:04+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Gaming
+tag: gaming
 ---
 
 <!-- wp:paragraph -->

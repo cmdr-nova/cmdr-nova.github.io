@@ -5,6 +5,7 @@ date: '2019-05-28T20:05:43+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Updates
+tag: updates
 ---
 
 <!-- wp:image {"id":57,"align":"left","width":133,"height":200} -->

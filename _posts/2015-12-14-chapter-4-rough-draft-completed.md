@@ -5,6 +5,7 @@ date: '2015-12-14T18:24:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Updates
+tag: fiction
 ---
 
 I know, I know. It's been a little bit of a long time coming, but I have an explanation. There are explanations for everything. While I was in the middle of writing chapter four, Fallout 4 released! This was pretty awesome, because the game is amazing. But I won't go into detail about that because it isn't entirely important to this update, nor is the fact that I also went through most of the main campaign in New Vegas, started playing Elder Scrolls Online (Add&nbsp;@paxcorpus if you like) again and am slowly working my way through Alien: Isolation (An amazing entry into the franchise).<br />

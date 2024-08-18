@@ -5,6 +5,7 @@ date: '2015-10-08T18:04:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - 'Second Life'
+tag: second-life
 ---
 
 So today I'm not really doing any work, you know, aside from the "Miami beach" themed photoshoot I did for a little promotion on Flickr (view that album here: <a href="https://www.flickr.com/photos/revosa/albums/72157659589788652" target="_blank" rel="noopener">Miami</a>). Why, though, am I not working? For one, I sent in a process credit on my Second Life account on Saturday and it's being stalled four days later for unscheduled maintenance on the entire billing system, which also means any sales I could be making are currently not happening.<br />

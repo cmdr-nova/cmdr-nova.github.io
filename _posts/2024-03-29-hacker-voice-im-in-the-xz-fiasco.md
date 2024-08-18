@@ -5,6 +5,7 @@ date: '2024-03-29T22:00:10+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Tech
+tag: tech
 ---
 
 <!-- wp:paragraph -->

@@ -5,6 +5,7 @@ date: 2024-08-10 23:52 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
+tag: second-life
 ---
 
 Ever since I started a store in Second Life, I've always wanted to own my own full sim. There were reasons that wasn't possible in the past, and reasons that *became* possible in the now, or, at least, around the beginning of 2023. It was quite the chunk of money to maintain, but I built by hand my own rendition of a sci-fi/cyberpunk city I used to visit in my earlier days. This is one of the reasons I have had such a hard time shutting it down, and saving my money. To ... *stop paying one hundred dollars a month* for something people really only pass through in seconds and minutes.

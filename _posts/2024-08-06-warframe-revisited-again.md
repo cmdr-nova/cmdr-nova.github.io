@@ -5,6 +5,7 @@ date: 2024-08-06 22:37 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
+tag: gaming
 ---
 
 ![an image of ninja-looking metal cyborgs called Warframes standing amidst a field of enemies](/img/posts/warframe/frame.png)

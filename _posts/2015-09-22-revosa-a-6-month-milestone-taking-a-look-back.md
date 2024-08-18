@@ -5,6 +5,7 @@ date: 2015-09-22 19:22:00 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
+tag: second-life
 ---
 
 Today, since I created a simpler product that didn't take me eight hours to complete (lol), I wanted to post here on my blog a written history of where my Second Life business REVOSA originally started, and how I got to the point of selling nearly over a hundred different products in a myriad of categories, a three story mainstore on my own land and franchises all over the grid in a period of six months.<br />

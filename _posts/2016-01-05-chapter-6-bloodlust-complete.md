@@ -5,6 +5,7 @@ date: '2016-01-05T18:37:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Fiction
+tag: fiction
 ---
 
 Alright, so this latest chapter sees the end of an important figure, or someone who has been relatively important throughout the entire series so far, and then we're introduced to something familiar, yet maybe strange for such a setting that I have developed here.<br />

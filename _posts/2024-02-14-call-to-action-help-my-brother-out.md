@@ -5,6 +5,7 @@ date: '2024-02-14T00:29:11+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Fundraisers
+tag: donations
 ---
 
 <!-- wp:paragraph -->

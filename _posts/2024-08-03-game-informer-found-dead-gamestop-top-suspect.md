@@ -5,6 +5,7 @@ date: 2024-08-03 20:27 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Media"
+tag: media
 ---
 ![an image with yellow text reading "Game Informer" with a washed out water color painting of a woman's head, and some scenery from a game](/img/posts/game_informer/informer.png)
 

@@ -5,6 +5,7 @@ date: '2024-01-21T02:43:28+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - 'Second Life'
+tag: second-life
 ---
 
 <!-- wp:paragraph -->

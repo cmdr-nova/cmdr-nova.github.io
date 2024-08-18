@@ -5,6 +5,7 @@ date: 2024-07-09 03:11 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
+tag: gaming
 ---
 
 No, I'm not being paid by MiHoYo to write about, or stream [Zenless Zone Zero](https://zenless.hoyoverse.com/en-us){:target="_blank"} (or ZZZ). I felt like I wanted to write about it, because, as an adult who has to work, *a lot*, and is always out and about with less time at home in front of my PC than I am wandering the world: Mobile games have kind of become a staple in how I find a little enjoyment in the day-to-day usual activities.

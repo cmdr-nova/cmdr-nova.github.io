@@ -5,6 +5,7 @@ date: 2024-07-31 16:51 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
+tag: social-media
 ---
 
 ![the Bluesky logo with white text on a blue background and a butterfly, also in white](/img/posts/buffer/bsky.png)

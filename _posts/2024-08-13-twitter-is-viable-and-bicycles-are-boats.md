@@ -5,6 +5,7 @@ date: 2024-08-13 11:26 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
+tag: social-media
 ---
 
 I was talking to someone on Threads, whose name I won't mention, because I *do* think she actually believes Twitter is still the only real place to be. But it brought up some thoughts, and interesting points. There are *some* people who refuse to abandon Twitter. Sex workers, parts of the LGBTQ+ community, and so on. Despite being an attack vector for everyone who hates the aforementioned with every fiber of their being, some of these people still resume their patronage to the Musk-site, hotbed of misinformation and algorithmic content scraping.

@@ -5,6 +5,7 @@ date: '2016-01-02T21:01:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Fiction
+tag: fiction
 ---
 
 After some time and some interruptions for other things that needed to happen, including the holiday season and some new games that are pretty cool, I got back to chapter five and finished it today!<br />

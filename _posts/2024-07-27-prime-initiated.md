@@ -5,6 +5,7 @@ date: 2024-07-27 15:38 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Updates"
+tag: updates
 ---
 What do you do when you have a day off from work? Do you play some viddygames? Do you go outside and roll around in the grass, praying you don't accidentally slob around in some poopoo? Well, that's *not* what I do. Today, I sat down in front of my computer screen, chugged an energy drink as my heart screamed at me "Please, for the love of pizza and beer, stop the caffeine!" and I said, "What if I filled out every single link in the nav section?"
 

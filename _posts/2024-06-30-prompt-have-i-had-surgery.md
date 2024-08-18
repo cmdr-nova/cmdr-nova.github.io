@@ -5,6 +5,7 @@ date: 2024-06-30 03:15:17 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Writing Prompts"
+tag: writing-prompt
 ---
 
 <!-- wp:pullquote -->

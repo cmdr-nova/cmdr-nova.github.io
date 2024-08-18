@@ -5,6 +5,7 @@ date: 2024-06-03 00:21:30 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
+tag: thoughts
 ---
 
 <!-- wp:pullquote -->

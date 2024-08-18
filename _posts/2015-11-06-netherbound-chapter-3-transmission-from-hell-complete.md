@@ -5,6 +5,7 @@ date: '2015-11-06T21:26:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Fiction
+tag: fiction
 ---
 
 <div style="clear: both; text-align: center;">

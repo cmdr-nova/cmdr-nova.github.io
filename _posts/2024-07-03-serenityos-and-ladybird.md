@@ -5,6 +5,7 @@ date: 2024-07-03 16:34 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
+tag: tech
 ---
 ![A screenshot of the environment for LadyBird OS.](/img/posts/ladybird/ladybird.png)
 

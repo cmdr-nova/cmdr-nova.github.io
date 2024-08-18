@@ -5,6 +5,7 @@ date: 2024-05-15 19:07:36 -05:00
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
+tag: thoughts
 ---
 ![A screenshot of annoying vermin from Twitter, saying, "If you don't work nights and weekends in your 20s, you're not going to have a successful career. Sorry." Which is obvious rage-bait engagement farming.](/img/posts/farming/engagement_farm.jpg)
 

@@ -5,6 +5,8 @@ date: 2024-04-12 03:21:50 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Writing Prompts"
+tag: writing-prompt
+---
 
 <!-- wp:pullquote -->
 <figure class="wp-block-pullquote"><blockquote><p>Describe something you learned in high school.</p></blockquote></figure>

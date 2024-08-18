@@ -5,6 +5,7 @@ date: 2024-08-14 22:19 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
+tag: tech
 ---
 
 Today, for ... uhm, whatever reason? Github went *plop*. It fell down. It shat itself. Its servers went down *completely* and *totally*. And I didn't even really notice until hours, and hours after they'd already started investigating. And then ... it came back!

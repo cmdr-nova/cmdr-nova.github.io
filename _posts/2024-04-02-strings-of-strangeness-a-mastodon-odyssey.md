@@ -5,6 +5,7 @@ date: '2024-04-02T21:37:00+00:00'
 author: '𐕣 C M D R ░ NOVA 𐕣'
 categories:
     - Thoughts
+tag: thoughts
 ---
 
 <!-- wp:paragraph -->

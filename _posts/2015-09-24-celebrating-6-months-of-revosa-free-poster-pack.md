@@ -6,6 +6,7 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - REVOSA
     - 'Second Life'
+tag: second-life
 ---
 
 <div style="clear: both; text-align: center;">

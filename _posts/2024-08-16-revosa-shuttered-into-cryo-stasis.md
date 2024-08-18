@@ -5,6 +5,7 @@ date: 2024-08-16 16:20 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
+tag: second-life
 ---
 
 I knew someday this day would come. When my ambitions of starting a store out of desperation, in need of an income of sorts, of *any*, would *eventually* come to an end. Sometimes it's a molehill, and sometimes it's a mountain.

@@ -5,6 +5,7 @@ date: 2024-08-10 10:29 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
+tag: tech
 ---
 
 ![Screenshot from Threads of an AI enjoying loser posting a list of AI he used to generate some garbage that looks like ass](/img/posts/ai_losers/ai_loser.png)

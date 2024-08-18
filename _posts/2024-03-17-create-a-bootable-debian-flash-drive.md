@@ -5,6 +5,7 @@ date: 2024-03-17 01:15:52 -05:00
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
+tag: linux
 ---
 
 <!-- wp:paragraph -->

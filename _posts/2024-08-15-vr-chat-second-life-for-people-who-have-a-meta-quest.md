@@ -5,6 +5,7 @@ date: 2024-08-15 23:30 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
+tag: vr-chat
 ---
 
 Lately, or, for the past few days, I've been messing around in VR Chat, the virtual world that aims to be Second Life, but with a strict, "Keep the NSFW stuff in private" sort of ... uh, *place*.

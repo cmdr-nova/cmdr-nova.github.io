@@ -5,6 +5,7 @@ date: 2015-09-17 19:43:00 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
+tag: second-life
 ---
 
 Welcome to the brand new REVOSA blog! REVOSA is a Second Life based business that specializes in scifi, fantasy, modern and vampire themed accessories, furniture, homes, vehicles and much more!<br />
