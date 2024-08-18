@@ -11,18 +11,17 @@ layout: default
 
 {{ content }}
 
-<br />
+<span>tag: [
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{     tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+]</span>
 
 <p align="right">
 <button class="mastodon-share"></button>
 </p>
-<br />
-<span>tag: [
-        {% for tag in page.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{     tag_name }}</nobr></code>&nbsp;</a>
-        {% endfor %}
-      ]</span>
+
 
 {%- if page.comments -%}
 {%- include fediverse_comments.html -%}
