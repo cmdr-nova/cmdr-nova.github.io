@@ -6,7 +6,7 @@ function mastodonShareButtonClick(e) {
 		href = btn.attributes['data-href'].value;
 		title = btn.attributes['data-title'].value;
 	}
-	const mastodonInstance = prompt(`Sharing "${href}"\n\nPlease enter your Mastodon instance (e.g. mastodon.social) for sharing, choom! No (http/https) needed.`);
+	const mastodonInstance = prompt(`Sharing "${href}"\n\nPlease enter your Mastodon instance (e.g. mastodon.social) for sharing, choom!`);
 	if (mastodonInstance == null) {
 		return;
 	}
