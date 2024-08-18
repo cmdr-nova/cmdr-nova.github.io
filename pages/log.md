@@ -10,6 +10,7 @@ permalink: /pages/log/
 - set a maximum height for the hamburger menu, and made it scrollable
 - added a dedicated mastodon share button to all posts, complete with an option to specify your instance
 - added floating shork nova in the background of the main page
+- removed github comments & added functionality to have comments come directly from Mastodon
 
 # # 8/03/24
 
