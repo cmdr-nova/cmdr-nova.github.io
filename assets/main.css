@@ -103,7 +103,6 @@ li > ul, li > ol { margin-bottom: 0; }
 /** Headings */
 h1, h2, h3, h4, h5, h6 { 
   font-weight: 400; 
-  text-align: center; 
 }
 
 /** Links */
@@ -419,15 +418,7 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 /* post background color */
-.iota {
-  background-color: #1c1c1c;
-  padding-top: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
-  border: 1px;
-  border-color: #020202;
-  border-style: solid;
-}
+
 
 .posty {
   text-align: left;
