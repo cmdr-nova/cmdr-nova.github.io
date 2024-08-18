@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Media"
 tag: media
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112901016244545000
 ---
 ![an image with yellow text reading "Game Informer" with a washed out water color painting of a woman's head, and some scenery from a game](/img/posts/game_informer/informer.png)
 

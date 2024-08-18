@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112963695983570785
 ---
 
 Today, for ... uhm, whatever reason? Github went *plop*. It fell down. It shat itself. Its servers went down *completely* and *totally*. And I didn't even really notice until hours, and hours after they'd already started investigating. And then ... it came back!

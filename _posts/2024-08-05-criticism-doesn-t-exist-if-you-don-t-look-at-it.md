@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112912159106353067
 ---
 
 Over the past year, since I've started writing much more heavily online, and established a website (despite said website changing at least five times), I've written about quite a few controversies. Like how [Microsoft](https://www.malwarebytes.com/blog/news/2024/06/microsoft-recall-delayed-after-privacy-and-security-concerns){:target="_blank"} is developing AI-fueled spyware, [Reddit](https://www.reddit.com/r/reddit/comments/145bram/addressing_the_community_about_changes_to_our_api/){:target="_blank"} is copy/pasting Musk's behavior in their structural decision making, [Bluesky](https://www.nova-prime.net/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html) is partnering with a company that utilizes OpenAI, and [Threads'](https://www.nova-prime.net/social%20media/2024/07/30/threads-project-2025.html) new public policy director is an [entire fascist](https://www.legistorm.com/person/bio/148744/Dustin_J_Carmack.html){:target="_blank"}. There's just one problem with all of this, and it's not *only* a problem you see with corporations and billionaires, but something that's been happening more and more as we inch closer to the middle of the 2020s.

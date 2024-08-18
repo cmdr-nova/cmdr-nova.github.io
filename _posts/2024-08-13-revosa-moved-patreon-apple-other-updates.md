@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Updates"
 tag: updates
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112952902695757832
 ---
 
 **Now playing** : *Eclipse - Perturbator*

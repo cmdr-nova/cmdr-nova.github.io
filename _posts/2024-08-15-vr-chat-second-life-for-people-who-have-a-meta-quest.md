@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: vr-chat
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112969718810505224
 ---
 
 Lately, or, for the past few days, I've been messing around in VR Chat, the virtual world that aims to be Second Life, but with a strict, "Keep the NSFW stuff in private" sort of ... uh, *place*.

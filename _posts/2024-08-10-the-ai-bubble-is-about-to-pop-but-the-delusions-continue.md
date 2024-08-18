@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112938331462913187
 ---
 
 ![Screenshot from Threads of an AI enjoying loser posting a list of AI he used to generate some garbage that looks like ass](/img/posts/ai_losers/ai_loser.png)

@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112918466488048961
 ---
 
 ![an image of ninja-looking metal cyborgs called Warframes standing amidst a field of enemies](/img/posts/warframe/frame.png)

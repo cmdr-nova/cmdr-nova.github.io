@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112973601571059464
 ---
 
 I knew someday this day would come. When my ambitions of starting a store out of desperation, in need of an income of sorts, of *any*, would *eventually* come to an end. Sometimes it's a molehill, and sometimes it's a mountain.
