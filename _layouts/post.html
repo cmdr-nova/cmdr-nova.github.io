@@ -19,6 +19,7 @@ layout: default
         {% endfor %}
       ]</span>
 
+<!-- now using Mastodon for comments
 <div>
 <script src="https://utteranc.es/client.js"
         repo="cmdr-nova/cmdr-nova.github.io"
@@ -29,3 +30,8 @@ layout: default
         async>
 </script>
 </div>
+-->
+
+{%- if page.comments -%}
+{%- include fediverse_comments.html -%}
+{%- endif -%}
