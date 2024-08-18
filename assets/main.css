@@ -416,5 +416,6 @@ table td { border: 1px solid #e8e8e8; }
 
 .posty {
   text-align: left;
+  text-shadow: rgb(20, 20, 20) 2px 0 10px;
   background-color:rgba(90, 180, 221, 0.178);
 }
