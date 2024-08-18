@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 112977688370226029
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112984769041899910
 ---
 
 Hello good people of the indie-web, and shout-out to the fediverse! Why am I shouting out the fediverse? Surely they can't see what I'm typing here, right now? Oh, but what if they could? What if, after I share this update via my own Mastodon account, all replies to that post came directly to *this post*, here, on my website. Well, buddy, ol' pal. That's exactly what happens now.
