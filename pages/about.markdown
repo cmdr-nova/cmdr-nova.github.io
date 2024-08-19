@@ -56,7 +56,7 @@ Ed, PaxCorpus, 2013
 
 ░ IN WRITING … I’ve been, and am currently working on my next book, DISSOLUTION PROTOCOL. A story about the degradation of the entire universe. You can see my other, much older works, [here](https://www.amazon.com/stores/Ryan-S.-Fortney/author/B004XWM2X4?ref=sr_ntt_srch_lnk_1&qid=1715877791&sr=8-1&isDramIntegrated=true&shoppingPortalEnabled=true){:target="_blank"}. I, of course, also, maintain this website as a place where I can stretch my writing muscles whenever I feel the need.
 
-░ You can support what I do by subscribing to my [Patreon](https://www.patreon.com/cmdr_nova){:target="_blank"}, a platform where I’ve been posting my work since as early as 2012. Thank you~
+░ You can support what I do by subscribing or donating to my [Ko-fi](https://ko-fi.com/cmdr_nova){:target="_blank"}, a platform where I’ve been posting my work since as early as 2012. Thank you~
 
 [Download the latest version](https://drive.google.com/file/d/1NcQ4QxEgEWJtyACQBVw3izEJu7n3sBO-/view?usp=drive_link){:target="_blank"} of my Sims 4 template world, chock full of sims I’ve created, and modifications I’ve made to existing families. Also includes some homes I’ve built.
 
