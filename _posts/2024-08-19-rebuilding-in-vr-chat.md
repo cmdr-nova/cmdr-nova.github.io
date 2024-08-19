@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: vr-chat
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 112984769041899910
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112990603939205818
 ---
 ![photo of the main VR Chat logo, featuring two avatars looking up at the viewer, and the text, "VR Chat"](/img/posts/rebuild/chat.png)
 
