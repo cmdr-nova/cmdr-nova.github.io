@@ -3,7 +3,7 @@ layout: page
 title: "[REVOSA], My Second Life Store in the Virtual World"
 permalink: /pages/revosa/
 ---
-
+![a photo of my fennec avatar from 2014](/img/foxymeryl.png){: .image-right } 
 ***As of August 16th, 2024, [REVOSA] was shuttered in order to remain on the Second Life marketplace page, only, and on August 31st, 2024, Neo Machina was taken offline, in order to save money and re-adjust priorities. The below text will remain the way it is as a piece of history that chronicles the efforts I made in building and creating, in Second Life.***
 
 Since 2015, I've been running a virtual store in the virtual world, [Second Life](https://secondlife.com/){:target="_blank"}. This thing started as sort of a "Oh yeah? Well I don't *need* you, anyway!" sorta deal. In that, I was virtually dating a woman, and we were running a car customization and parts store together. After about half a year, she ... out of the blue, decided she liked someone new. And then she took all of our work, called it her own, and ditched me.
@@ -52,5 +52,5 @@ You can visit the city, or [REVOSA] at any time, everything I made is *still* th
 
 Where we go from here? We'll see ...
 
-
+![a photo of my Second Life avatar standing to the side and looking to the sky.](/img/ayashi.png){: .image-right } 
 
