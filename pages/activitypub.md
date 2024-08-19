@@ -6,7 +6,7 @@ permalink: /pages/activitypub/
 
 <p>As corporate social media gets worse, and worse, or as some like to call it, &#8220;The Enshitification,&#8221; some may be wondering, &#8220;Where can I go where I won&#8217;t be targeted by endless hostile ads, in places that aren&#8217;t owned by mega corporations who are harvesting all of my data for theft machines?&#8221;</p>
 
-***Updated: [Here is a curated list](https://www.nova-prime.net/social%20media/2024/08/13/twitter-is-viable-and-bicycles-are-boats.html) of some LGBTQ+ and/or sex worker friendly instances, for those who need them.***
+***Updated: [Here is a curated list](/social media/2024/08/13/twitter-is-viable-and-bicycles-are-boats.html) of some LGBTQ+ and/or sex worker friendly instances, for those who need them.***
 
 <p><a href="https://en.wikipedia.org/wiki/ActivityPub" target="_blank" rel="noreferrer noopener nofollow">ActivityPub</a> has been the answer to that since around 2008 with StatusNet, now known as <a href="https://en.wikipedia.org/wiki/GNU_social" target="_blank" rel="noreferrer noopener nofollow">GNU Social</a>. But, most would be familiar with the launch of <a href="https://en.wikipedia.org/wiki/Mastodon_(social_network)" target="_blank" rel="noreferrer noopener nofollow">Mastodon</a> in 2016 (some may even remember <a href="https://en.wikipedia.org/wiki/Friendica" target="_blank" rel="noreferrer noopener nofollow">Friendika</a> in 2010, which was another starting point in-between the two biggest).</p>
 

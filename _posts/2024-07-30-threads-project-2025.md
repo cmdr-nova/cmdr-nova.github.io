@@ -9,7 +9,7 @@ tag: social-media
 ---
 ![images of the Threads logo on a blue, purple, red and orage gradient](/img/posts/2025/threads.webp)
 
-I've written here and there about Threads. [I've written](https://www.nova-prime.net/social%20media/2024/07/06/threads-vs-twitter.html) about how I believe it's a totally viable platform for federated social media users to dip their toes into the ocean of what it means to not be locked to just one platform. I've [written about](https://www.nova-prime.net/social%20media/2024/07/09/a-two-for-one-threads-net-sale-transphobia-and-llms-oh-my.html) Threads suddenly posting some smarmy Harry Potter reference post, regardless of what this means for the transgender users of the platform, and the hate that's routinely spewed from the author of the series.
+I've written here and there about Threads. [I've written](/social%20media/2024/07/06/threads-vs-twitter.html) about how I believe it's a totally viable platform for federated social media users to dip their toes into the ocean of what it means to not be locked to just one platform. I've [written about](/social%20media/2024/07/09/a-two-for-one-threads-net-sale-transphobia-and-llms-oh-my.html) Threads suddenly posting some smarmy Harry Potter reference post, regardless of what this means for the transgender users of the platform, and the hate that's routinely spewed from the author of the series.
 
 And now, today, it is with great displeasure, I have to write about Dustin Carmack, director of public policy behind Meta, and by extension, Threads, and his association with Project 2025. No, I'm not talking about the totally cool and awesome dude who made Doom, John Carmack
 
@@ -38,7 +38,7 @@ I remember it like it was just yesterday, when Adam Mosseri called Threads a pla
 
 How far we've fallen from our vision in *only a year*, after establishing a platform that was thought to be a viable alternative for regular people to gather away from the engagement-bait hell that Twitter has become.
 
-Now is the *best* time for you to explore *real* alternatives, if even you're still interested in maintaining a presence on social media. Read my post on [getting started on Mastodon](https://www.nova-prime.net/social media/2024/07/28/the-fediverse.html), and my informational piece on the [ActivityPub network](https://www.nova-prime.net/pages/activitypub/), and give leaving corporate social media some *real* thought. Your digital identity, and *maybe* even your safety, in the future, might depend on it.
+Now is the *best* time for you to explore *real* alternatives, if even you're still interested in maintaining a presence on social media. Read my post on [getting started on Mastodon](https://www.nova-prime.net/social media/2024/07/28/the-fediverse.html), and my informational piece on the [ActivityPub network](/pages/activitypub/), and give leaving corporate social media some *real* thought. Your digital identity, and *maybe* even your safety, in the future, might depend on it.
 
 Some other things Project 2025 seeks to do:
 
