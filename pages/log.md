@@ -4,6 +4,15 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # 8/19/2024
+
+- added phosphor icons to a lot of the site
+- removed the header, reworked the top of the page, adjusted it so that it matches what the website is actually called
+- added some gifs from gifcities
+- provided quick links under the website title, and an explanation on how to find more links
+- joined the leaky webring, and applied for furryring and fediring
+- deleted most of the footer, made the text at the bottom clickable, which returns to home (in the case people don't know the home link is in the hamburger menu)
+
 # # 8/18/24
 
 - added tags that transform all posts into an archive that's even easier to use than the search function
