@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /pages/about/
 ---
+
 ***I'm current running a [Gofundme](https://www.gofundme.com/f/help-ryan-overcome-his-debt-crisis){:target="_blank"} to try and get out of debt that was set upon me by animal vets, please consider donating.***
 
 <!-- <img src="/img/selfie/ryan_2024.png" align="left" hspace="5" vspace="5"> -->
