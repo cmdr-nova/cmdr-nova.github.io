@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 112990603939205818
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 112998009890780527
 ---
 ---
 ![screenshot from the very old Worlds chat client, depicting someone standing on what looks like an asteroid, orbited by a space station, and in the center of the screen are strange rock formations with a door in the middle.](/img/posts/rebuild/worlds.png)
