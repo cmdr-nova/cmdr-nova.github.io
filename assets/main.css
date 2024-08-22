@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 
 /** `main` element */
 main { 
-  display: block;
+  display: block; 
   width: 1280px;
   background-image: url("/img/shork_nova2.png"); 
   background-repeat: no-repeat; 
@@ -521,6 +521,20 @@ table td { border: 1px solid #e8e8e8; }
     position: absolute;
 }
 
+/*
+#rightbar {
+  border-style: dashed;
+  border-width: 3px;
+  border-color: white;
+  min-width: 260px;
+  max-width: 260px;
+  padding: 20px;
+  right: 0;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  position: absolute;
+}
+*/
   #main {
     border-style: none; 
     margin-top: 2px;
@@ -588,4 +602,9 @@ table td { border: 1px solid #e8e8e8; }
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   
+}
+
+#wormhole {
+	position: fixed;
+	z-index: 0;
 }
