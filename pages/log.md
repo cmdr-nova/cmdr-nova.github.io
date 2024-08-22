@@ -4,6 +4,14 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # 8/22/2024
+
+- today i made some major changes in the design of the website, by slapping a sidebar to the left
+- i also added a vanishing navigation bar with a rotating skull
+- styles changed a little bit
+- footer removed
+- secret room added
+
 # # 8/19/2024
 
 - added phosphor icons to a lot of the site
