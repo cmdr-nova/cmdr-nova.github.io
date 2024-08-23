@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { mar
 main { 
   display: block; 
   width: 1280px;
-  background-image: url("/img/shork_nova2.png"); 
+/*  background-image: url("/img/shork_nova2.png"); */
   background-repeat: no-repeat; 
   background-attachment: fixed;
   background-position: left; 
