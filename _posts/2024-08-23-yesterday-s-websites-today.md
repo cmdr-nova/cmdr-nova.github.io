@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 112998009890780527
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113009739265020427
 ---
 
 You've heard of the old-web revival lurking in the underground of the furthest reaches of internet-space, now get ready for: Actual Geocities pages, archived in an easy to navigate interface! I've been lurking the Melonland forums, and searching around websites people have built, and one of the main complaints, or issues I see, is people are using [Gifcities](https://gifcities.org/){:target="_blank"} to kind of "gamble" their way into finding actual cool gifs, blinkers, badges, and banners. And, while this *might* be effective sometimes, I'd like to direct people interested in collecting old-net artifacts, or those who'd just like a little bit of nostalgia, to [Restoritaveland](https://geocities.restorativland.org/){:target="_blank"}. This comes complete with Geocities neighborhood navigation, and although I don't *think* it has every site ever made on Geocities ... it's possible, you might just find something *you've* made, if you're as old as me. 
