@@ -3,6 +3,12 @@ layout: page
 title: Changelog
 permalink: /pages/log/
 ---
+# # 8/23/2024
+
+- added a right-justified sidebar
+- moved some links and gifs around
+- added fox-nova imagery to the left-justified sidebar
+- removed the guestbook until i can find one that doesn't suck
 
 # # 8/22/2024
 
