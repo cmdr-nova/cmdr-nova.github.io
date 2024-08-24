@@ -9,6 +9,7 @@ permalink: /pages/log/
 - moved some links and gifs around
 - added fox-nova imagery to the left-justified sidebar
 - removed the guestbook until i can find one that doesn't suck
+- added a new-age style message box to the right sidebar
 
 # # 8/22/2024
 
