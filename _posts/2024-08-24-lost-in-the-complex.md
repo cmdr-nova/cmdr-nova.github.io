@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 113009739265020427
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113020559974586392
 ---
 
 I've been having this issue since I started going hard on developing this website into something that's strange, or interesting, or maybe even *fun* to visit. I've embedded a small little box to the right where you can leave messages, I made a todo list that details what I plan to do next in regards to the website, I have another box to the right that shows a live feed of my posts over on Mastodon, and I even put a little radio underneath all that which plays the ambient drone sound from the now *closed* city I built in Second Life.
