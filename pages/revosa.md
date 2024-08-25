@@ -3,12 +3,17 @@ layout: page
 title: "[REVOSA], My Second Life Store in the Virtual World"
 permalink: /pages/revosa/
 ---
+[REVOSA x AyaSys] [In-world location](http://maps.secondlife.com/secondlife/Gingivere/210/97/3996){:target="_blank"}
+
+[REVOSA] [Marketplace page](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
+
+AyaSys [Marketplace page](){:target="_blank"}
+
 ![a photo of my fennec avatar from 2014](/img/foxymeryl.png){: .image-right } 
-***As of August 16th, 2024, [REVOSA] was shuttered in order to remain on the Second Life marketplace page, only, and on August 31st, 2024, Neo Machina was taken offline, in order to save money and re-adjust priorities. The below text will remain the way it is as a piece of history that chronicles the efforts I made in building and creating, in Second Life.***
 
 Since 2015, I've been running a virtual store in the virtual world, [Second Life](https://secondlife.com/){:target="_blank"}. This thing started as sort of a "Oh yeah? Well I don't *need* you, anyway!" sorta deal. In that, I was virtually dating a woman, and we were running a car customization and parts store together. After about half a year, she ... out of the blue, decided she liked someone new. And then she took all of our work, called it her own, and ditched me.
 
-Enter: [[REVOSA]](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
+Enter: [REVOSA]
 
 ![a banner from around 2016 for my Second Life store](/img/pages/revosa/old_banner.jpg){: .image-left } 
 
@@ -54,3 +59,6 @@ Where we go from here? We'll see ...
 
 ![a photo of my Second Life avatar standing to the side and looking to the sky.](/img/ayashi.png){: .image-right } 
 
+As of August 25th, [REVOSA] *nearly* lost its in-world location, and, unfortunately, Neo Machina had to close due to financial issues. [REVOSA] was also shuttered for a short time in-world, but then I was generously offered a very large space on a full sim, free of charge, by Second Life resident, Logan Bamaisin (Laufiair Hexicola).
+
+It seems that, no matter what, [REVOSA] lives on.
