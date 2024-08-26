@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 113020559974586392
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113025375568608207
 ---
 
 It was a little over a week ago now that I got hit with some pretty hefty charges for automotive repair offline, *you know*, in the real world. I've been trying to raise a little bit of money in order to soften the impact of this a bit, and you can totally read more about that [here](/fundraiser/2024/08/17/urgent-financial-help-needed).
