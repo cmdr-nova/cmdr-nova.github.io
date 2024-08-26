@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Mastodon"
 tag: mastodon
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id:
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113030390528370558
 ---
 
 It's time for the tri-monthly update on the Mastodon instance I run, [mkultra.monster](https://mkultra.monster/about){:target="_blank"} (no, it's not hosted on this website or its server, but it *is* using the same domain)! Queue me trying to figure out if it *really has been* three months since I posted anything about my instance.
