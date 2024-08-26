@@ -657,3 +657,8 @@ table td { border: 1px solid #e8e8e8; }
   -webkit-filter: drop-shadow(5px 5px 5px #66ff00);
    filter: drop-shadow(5px 5px 5px #91ff02); 
 }
+
+#noAI {
+  border-style: dashed;
+  border-color: #00fc69;
+}
