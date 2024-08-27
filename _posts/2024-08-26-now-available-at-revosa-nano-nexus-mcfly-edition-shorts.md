@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113031117900528179
 ---
 
 <img src="/img/posts/products/mcfly.png" alt="Store ad-card for the new Nano Nexus Mcfly Edition shorts. A pair of shorts with a rainbow holographic design.">
