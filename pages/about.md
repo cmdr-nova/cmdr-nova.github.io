@@ -50,8 +50,6 @@ Ed, PaxCorpus, 2013
 
 ░ IN SECOND LIFE … I’ve been designing and releasing 3D objects for use with avatars since 2015, as a result of losing my original attempt at the same thing (due to quite a catastrophic romantic breakup). Here’s where you can view what I’m doing now:
 
-***As of August 16th, 2024, [REVOSA] was shuttered in-world and moved to the marketplace, only, based on financial reasons.***
-
 - [[REVOSA] Marketplace](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
 - [Ayashi Systems Marketplace](https://marketplace.secondlife.com/en-US/stores/186986){:target="_blank"}
 
