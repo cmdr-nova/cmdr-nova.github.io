@@ -41,11 +41,8 @@
                   mastodonComment =
                     `<article id="comment-${reply.id }" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
                        <div class="js-comment comment">
-                         <div class="comment__avatar-wrapper">
-                           <img class="comment__avatar" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
-                         </div>
                          <div class="comment__content-wrapper">
-                          <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                          <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="comment__avatar" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
                             <a rel="external nofollow" itemprop="url" href="${reply.account.url}" rel="nofollow">
                               <span>${reply.account.display_name}</span>
                             </a>
@@ -55,9 +52,9 @@
                           </p>
                           <div itemprop="text">${reply.content}</div>
                           <div class="status">
-                            <i class="fa fa-reply fa-fw"></i>${reply.replies_count}&nbsp;|&nbsp; 
-                            <i class="fa fa-retweet fa-fw"></i>${reply.reblogs_count}&nbsp;|&nbsp;
-                            <i class="fa fa-star fa-fw"></i>${reply.favourites_count}
+                            <i class="ph ph-arrow-bend-up-left ph-fw"></i> ${reply.replies_count}&nbsp; 
+                            <i class="ph ph-repeat ph-fw"></i> ${reply.reblogs_count}&nbsp;
+                            <i class="ph ph-star ph-fw"></i> ${reply.favourites_count}
                           </div> 
                          </div>
                         </div>
