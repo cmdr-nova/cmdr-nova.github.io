@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113040043547388108
 ---
 
 This is probably going to be an unpopular opinion, but: I really don't like "hero shooters", especially as live-service games. From Overwatch, to whatever that failed hero-shooter was at Amazon (I forget the name), to Concord, and Deadlock. There's just, *to me*, absolutely nothing fun about having to fight with other people to choose the character you want to play (everything does in fact not have to be a MOBA!), and then *also* compete in linear game-styles against other players where you're doing less shooting and racking up kills, and more ... escorting payloads and camping on a point.
