@@ -102,3 +102,24 @@ ul {
     }
   }
 
+/* a button */
+
+.btn {
+  position: relative;
+  background-color: #252525;
+
+}
+.btn-overlay {
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    transition: opacity .5s;
+}
+
+.ph {
+  color: #c8ff00;
+}
