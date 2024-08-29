@@ -185,10 +185,20 @@ pre, code {
   background-color: #eef; 
 }
 
-code { padding: 1px 5px; }
+code { 
+  padding: 1px 5px; 
+}
 
-pre { padding: 8px 12px; overflow-x: auto; }
-pre > code { border: 0; padding-right: 0; padding-left: 0; }
+pre { 
+  padding: 8px 12px; 
+  overflow-x: auto; 
+}
+
+pre > code { 
+  border: 0; 
+  padding-right: 0; 
+  padding-left: 0; 
+}
 
 /** Icons */
 .svg-icon { 
@@ -212,6 +222,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 /** Site footer **/
 
+/*
 footer {
   position: relative;
   bottom: 0;
@@ -262,6 +273,7 @@ footer {
   text-align: center;
   width: 100%;
 }
+  */
 
 /** Page content */
 

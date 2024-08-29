@@ -2,8 +2,11 @@
 layout: default
 ---
 <div id="main">
+  <table>
+    <tr>
+    <td>
 
-<div class="post">
+<div class="posty">
 <h1>Tag: {{ page.tag }}</h1>
 <ul>
 {% for post in site.tags[page.tag] %}
@@ -13,8 +16,12 @@ layout: default
 {% endfor %}
 </ul>
 </div>
-<hr>
+
 
 {% include archive.html %}
+
+  </td>
+  </tr>
+  </table>
 
 </div>
