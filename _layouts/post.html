@@ -9,9 +9,12 @@ layout: default
 
 <div class="posty">
 <p><h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1></p>
-<p>░ <b>author</b>: <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a> //
-<b>date</b>: {{ page.date }}</p> <p>Label: {{ page.categories }}</p>
 </div>
+<p class="author"><i class="ph ph-pencil-line"></i> <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a>
+  <br />
+<i class="ph ph-calendar"></i> {{ page.date |     date_to_string }}
+</p>
+
 <br />
 
 {{ content }}

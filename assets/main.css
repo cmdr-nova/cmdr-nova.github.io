@@ -201,7 +201,7 @@ li > ul, li > ol {
 
 /** Headings */
 h1, h2, h3, h4, h5, h6 { 
-  font-weight: 400; 
+  font-weight: 300; 
 }
 
 /** Links */
@@ -282,8 +282,13 @@ pre > code {
   text-align: left;
   text-shadow: rgb(20, 20, 20) 2px 0 10px;
   background-color:rgba(90, 180, 221, 0.178);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+.author {
+  padding-top: 5px;
+}
 
 /** Page content */
 
@@ -326,9 +331,8 @@ pre > code {
 }
 
 .post-title { 
-  font-size: 42px; 
+  font-size: 36px; 
   letter-spacing: -1px; 
-  line-height: 1; 
 }
 
 @media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
