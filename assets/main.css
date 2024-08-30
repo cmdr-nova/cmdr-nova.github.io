@@ -4,6 +4,22 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   padding: 0; 
 }
 
+/**
+ * Clearfix
+ */
+ %clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  @extend %clearfix;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
 /* search field */
 
 ul#results-container {
@@ -55,6 +71,7 @@ body {
   background-attachment: fixed;
 }
 
+
 .container {
   height: 100vh;
   display: flex;
@@ -81,6 +98,27 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   padding-right: 10px; 
   padding-left: 30px;
 }
+
+@media only screen and (pointer: coarse) {
+  #main {
+  margin-right: 0;
+  margin-left: 0;
+  min-width: -webkit-calc(35% - (30px / 2));
+  max-width: -webkit-calc(35% - (30px / 2));
+  }
+  }
+
+@media only screen and (pointer: coarse) {
+    #sidebar {
+        display: none;
+    }
+  }
+  
+@media only screen and (pointer: coarse) {
+    #rightbar {
+        display: none;
+    }
+  }
 
 #sidebar {
   border-style: none;
