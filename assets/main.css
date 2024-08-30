@@ -105,6 +105,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-left: 0;
   min-width: 360px;
   max-width: 375px;
+  padding-right: 2px; 
+  padding-left: 2px;
   }
   }
 
