@@ -101,11 +101,14 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 @media only screen and (max-width: 480px) {
   #main {
+  display: flex;
+  flex-direction: row;
   margin-right: 0;
   margin-left: 0;
   min-width: 390px;
   max-width: 428px;
-  padding-right: 0px; 
+  padding-right: 0px;
+  padding-left: 15px; 
   margin-top: 2px;
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -123,6 +126,24 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
         display: none;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    .nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #131313;
+    z-index: 1000;
+    }
+    .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    }
+    }
 
 #sidebar {
   border-style: none;
