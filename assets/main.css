@@ -25,6 +25,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 ul#results-container {
   padding: 0;
   list-style-type: none;
+  position: absolute;
 }
 
 #results-container li {
@@ -283,60 +284,6 @@ pre > code {
   background-color:rgba(90, 180, 221, 0.178);
 }
 
-/** Site footer **/
-
-/*
-footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-image: url('/img/bg/matrix.gif');
-  background-repeat: repeat;
-  border-top: 5px solid #000000;
-  padding: 30px 0; 
-  background-color: #1C1C1C;
-  font-size: 0.8em;
-  }
-
-.footer-heading { 
-  font-size: 18px; 
-}
-
-.contact-list, .social-media-list { 
-  list-style: none; 
-
-}
-
-.footer-col { 
-  margin-bottom: 15px; 
-  padding-left: 15px; 
-  width: 100%;
-}
-
-.footer-col-1 { 
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2));
-  background-color: #141414;
-  outline-width: 2px; 
-  outline-style: solid; 
-  outline-color: #008080; 
-  outline-offset: -10px;
-  padding: 25px 25px 25px 25px;
- }
-
-.footer-col-2 { 
-  width: -webkit-calc(20% - (30px / 2)); 
-  width: calc(20% - (30px / 2)); 
-}
-
-.footer-col-3 { 
-  width: -webkit-calc(45% - (30px / 2)); 
-  width: calc(45% - (30px / 2));
-  text-align: center;
-  width: 100%;
-}
-  */
 
 /** Page content */
 
@@ -595,4 +542,60 @@ footer {
 #noAI {
   border-style: dashed;
   border-color: #00fc69;
+}
+
+/** Site footer **/
+
+
+footer {
+  position: relative !important;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-image: url('/img/bg/matrix.gif');
+  background-repeat: repeat;
+  border-top: 5px solid #000000;
+  padding: 30px 0; 
+  background-color: #1C1C1C;
+  font-size: 0.8em;
+  }
+
+.footer-heading { 
+  font-size: 18px; 
+}
+
+.contact-list, .social-media-list { 
+  list-style: none; 
+
+}
+
+.footer-col { 
+  bottom: 0;
+  margin-bottom: 15px; 
+  padding-left: 15px; 
+  width: 100%;
+}
+
+.footer-col-1 { 
+  width: -webkit-calc(35% - (30px / 2));
+  width: calc(35% - (30px / 2));
+  background-color: #141414;
+  outline-width: 2px; 
+  outline-style: solid; 
+  outline-color: #008080; 
+  outline-offset: -10px;
+  padding: 25px 25px 25px 25px;
+ }
+
+.footer-col-2 { 
+  width: -webkit-calc(20% - (30px / 2)); 
+  width: calc(20% - (30px / 2)); 
+}
+
+.footer-col-3 { 
+  width: -webkit-calc(45% - (30px / 2)); 
+  width: calc(45% - (30px / 2));
+  text-align: center;
+  width: 100%;
 }
