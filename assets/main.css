@@ -103,10 +103,12 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   #main {
   margin-right: 0;
   margin-left: 0;
-  min-width: 360px;
-  max-width: 375px;
-  padding-right: 2px; 
-  padding-left: 2px;
+  min-width: 390px;
+  max-width: 428px;
+  padding-right: 0px; 
+  margin-top: 2px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
   }
   }
 
