@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113049237310329538
 ---
 
 It's hard to believe I built a city in Second Life, and spent months, and months, and months putting together one of my biggest projects, *ever*. And then it stood for a year and eight months. It was my virtual home, my little piece of metaverse space with which I could do whatever I pleased. It wasn't just some copy of the older version of Neo Machina that was built by someone else, it was *it's own thing*. And I enjoyed spending time in it.
