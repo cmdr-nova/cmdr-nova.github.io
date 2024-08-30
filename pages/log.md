@@ -3,6 +3,12 @@ layout: page
 title: Changelog
 permalink: /pages/log/
 ---
+# # # 8/29/2024
+
+- after many many days of messing with the CSS and the layouts, I found a design that works and added queries to make the website friendly on mobile once again
+- redesigned the navigation menu to be outside of the left sidebar, and at the top of the page
+- added more secrets to the backrooms levels
+
 # # 8/23/2024
 
 - added a right-justified sidebar
