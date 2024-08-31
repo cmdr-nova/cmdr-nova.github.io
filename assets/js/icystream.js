@@ -18,6 +18,5 @@ async function readConstant(readableStream) {
 
 var opts = { headers: {} };
 opts["headers"]["Icy-Metadata"] = "1";
-let mustr = fetch("https://uk5.internet-radio.com/proxy/ambiesphere?mp=/stream", opts)
+let mustr = fetch("https://ice2.somafm.com/deepspaceone-128-mp3", opts)
 mustr.then((res) => { readConstant(res.body);})
-
