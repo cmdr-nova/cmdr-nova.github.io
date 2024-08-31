@@ -667,3 +667,27 @@ footer {
   border-color: #272727;
   min-height: 20px;
 }
+
+#volume-slider {
+  width: 100px;
+  height: 20px;
+  appearance: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
+  background-color: rgba(8, 8, 8, 0.1);
+  border-radius: 5px;
+  }
+
+    #volume-slider::-webkit-slider-thumb {
+    /* Change the slider thumb color (for WebKit browsers like Chrome and Safari) */
+    background-color: #c8ff00;
+    }
+    
+    #volume-slider::-moz-range-thumb {
+   /* (for Mozilla browsers like Firefox) */
+    background-color: #c8ff00;
+    }
+
+    #volume-slider::-webkit-slider-thumb,
+    #volume-slider::-moz-range-thumb {
+    background-color: #c8ff00;
+}

@@ -20,3 +20,10 @@ var opts = { headers: {} };
 opts["headers"]["Icy-Metadata"] = "1";
 let mustr = fetch("https://ice2.somafm.com/deepspaceone-128-mp3", opts)
 mustr.then((res) => { readConstant(res.body);})
+
+const audio = document.querySelector('audio'); // assuming you have an <audio> element
+const volumeSlider = document.getElementById('volume-slider');
+
+volumeSlider.addEventListener('input', (e) => {
+audio.volume = e.target.value;
+});
