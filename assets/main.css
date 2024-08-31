@@ -88,6 +88,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 /** `main` element */
 
 #main {
+  background-color: #232425;
+  border-radius: 20px;
   border-style: none; 
   margin-top: 2px;
   letter-spacing: 3px;
@@ -102,6 +104,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 @media only screen and (max-width: 480px) {
   #main {
+  background-color: #232425;
+  border-radius: 20px;
   display: flex;
   flex-direction: row;
   margin-right: 0;
@@ -278,14 +282,6 @@ pre > code {
   padding-top: 5px; 
 }
 
-.posty {
-  text-align: left;
-  text-shadow: rgb(20, 20, 20) 2px 0 10px;
-  background-color:rgba(90, 180, 221, 0.178);
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 .author {
   padding-top: 5px;
 }
@@ -413,7 +409,6 @@ pre > code {
 }
 
 .rainbow {
-  background-color:rgba(90, 180, 221, 0.178);
   text-align: center;
   text-decoration: none;
   font-size: 26px;

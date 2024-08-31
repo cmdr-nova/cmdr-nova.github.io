@@ -1,20 +1,19 @@
 ---
 layout: default
 ---
+
 <div id="main">
   <table>
 <tr>
 <td>
  <md-block>
 
-<div class="posty">
-<p><h1 class="post-title p-name" itemprop="name headline">{{ page.title }}</h1></p>
-</div>
+<p><h1 class="post-title p-name" itemprop="name headline"><a class="page-link" href="/"><i class="ph ph-skip-back" style="font-size: .9em;"></i></a> {{ page.title }}</h1></p>
+
 <p class="author"><i class="ph ph-pencil-line"></i> <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a>
   <br />
 <i class="ph ph-calendar"></i> {{ page.date |     date_to_string }}
 </p>
-
 <br />
 
 {{ content }}
