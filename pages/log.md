@@ -3,10 +3,12 @@ layout: page
 title: Changelog
 permalink: /pages/log/
 ---
+
 # # # 8/31/2024
 
 - removed most of the cluttery images. as much as I liked having some of them on the page, it felt too cluttery, too busy
 - redid the design with dark on dark and rounded edges on the main div
+- changed the stream and fixed the stream player on the right sidebar (dekstop mode)
 
 # # # 8/29/2024
 
