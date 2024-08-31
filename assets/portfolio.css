@@ -167,7 +167,7 @@ ul {
 
 @media only screen and (max-width: 480px) {
   .ascii-container {
-    font-size: 0.55em;
+    font-size: 0.51em;
     width: 100%;
   }
 }
