@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 permalink: /pages/log/
 ---
+# # # 8/31/2024
+
+- removed most of the cluttery images. as much as I liked having some of them on the page, it felt too cluttery, too busy
+- redid the design with dark on dark and rounded edges on the main div
+
 # # # 8/29/2024
 
 - after many many days of messing with the CSS and the layouts, I found a design that works and added queries to make the website friendly on mobile once again

@@ -30,6 +30,7 @@ ul#results-container {
 
 #results-container li {
   margin-bottom: 1.5rem;
+  padding-top: 26px;
 }
 
 span.post-meta {
@@ -498,15 +499,15 @@ pre > code {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 5x;
+  padding-left: 5px;
 
 }
 
 .sidenav a {
   text-decoration: none;
   font-size: 15px;
-  color: #818181;
+  color: #ffffff;
   display: block;
   transition: 0.3s;
 }
@@ -538,11 +539,6 @@ pre > code {
 .home-tab-item-img{
   -webkit-filter: drop-shadow(5px 5px 5px #66ff00);
    filter: drop-shadow(5px 5px 5px #91ff02); 
-}
-
-#noAI {
-  border-style: dashed;
-  border-color: #00fc69;
 }
 
 /** Site footer **/
@@ -601,3 +597,60 @@ footer {
   width: 100%;
 }
 
+/* a blinking cursor */
+
+.blinking-cursor {
+  color: #2E3D48;
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: ultra-expanded;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
