@@ -1,4 +1,4 @@
-var player = document.getElementById('interadio');
+var player = document.getElementById('internet-radio');
 var playertxt = document.getElementById('player-text');
 console.log(player);
 console.log(playertxt);

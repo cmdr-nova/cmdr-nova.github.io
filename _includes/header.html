@@ -1,8 +1,5 @@
 <header class="site-header" role="banner">
     <div class="wrapper">
-      <!--
-      <a class="site-title" rel="author" href="/">cmdr-nova@internet:~$</a>
-    --> 
 
 <!-- vanishing sidebar -->
 <table>
@@ -77,7 +74,7 @@
     <tr>
       <td>
 
-      <!-- Mastodon Feed Start-->
+    <!-- Mastodon Feed Start-->
       <p>mkultra feed:</p> 
       <div id="mastodon"></div>
 
@@ -90,22 +87,25 @@
       <img src="/img/3.gif" />
     </p>
 
-<br />
-soma.fm:
-      <div id="song">
-        <center>
-        <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
-        </center>
-        </div>
-        <div id="player">
-        <center>
-        <a id="player-stop" href="javascript:void(0)"><i class="ph ph-stop"></i></a>
-        <a id="player-play" href="javascript:void(0)"><i class="ph ph-play"></i></a>
-        <br />
-        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
-      </center>
-      </div>
-<br />
+    <br />
+    soma.fm:
+          <div id="song">
+            <center>
+            <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
+            </center>
+            </div>
+            <div id="player">
+            <center>
+            <a id="player-stop" href="javascript:void(0)"><i class="ph ph-stop"></i></a>
+            <a id="player-play" href="javascript:void(0)"><i class="ph ph-play"></i></a>
+            <br />
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+            <audio id="internet-radio" src="https://ice2.somafm.com/deepspaceone-128-mp3"></audio>
+            <script src='/assets/js/stream.js'></script>
+            <script src='/assets/js/radio.js'></script>
+          </center>
+          </div>
+    <br />
 
       webrings:
 
@@ -138,12 +138,6 @@ soma.fm:
 </div>
 
       </div>
-      
-      
-      <audio id="interadio" src="https://uk5.internet-radio.com/proxy/ambiesphere?mp=/stream"></audio>
-      <script src='/assets/js/icystream.js'></script>
-      
-      <script src='/assets/js/radio.js'></script>
 
       <br />
     </td>
