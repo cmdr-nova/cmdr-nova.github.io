@@ -468,6 +468,7 @@ pre > code {
   border-radius: 10px;
   min-width: 260px;
   max-width: 260px;
+  filter: drop-shadow(5px 5px rgba(255, 238, 1, 0.644));
 }
   
   #mastodon article { 
@@ -559,6 +560,7 @@ pre > code {
   border-radius: 10px;
   text-align: left;
   padding-left: 10px;
+  filter: drop-shadow(5px 5px rgba(166, 255, 0, 0.61));
 }
 
 .home-tab-item-img{
@@ -726,6 +728,7 @@ footer {
   border-width: 1px;
   border-color: #111111d5;
   padding 1px;
+  filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
 
 .post-line {
@@ -740,8 +743,5 @@ footer {
   border-radius: 20px;
   overflow:hidden;
   height: 100%;
-}
-
-div:nth-child(2) {
   filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
