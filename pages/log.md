@@ -4,6 +4,10 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 9/1/2024
+
+- added audio and volume control to the backrooms, so that user's experience on the site is less intrusive
+
 # # # 8/31/2024
 
 - removed most of the cluttery images. as much as I liked having some of them on the page, it felt too cluttery, too busy
