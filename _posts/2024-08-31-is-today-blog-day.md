@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113060156265844309
 ---
 
 I shouldn't even really ask the question, "Is today blog day?" Because the day has passed us by. It is now 11pm. So, if today *was* a blog day, I've mostly missed it, but that's only because I was at work the whole time. Though, I did look at some sources to see if it really is, or was, blog day, on this here August 31st, and the results are ... confusing?
