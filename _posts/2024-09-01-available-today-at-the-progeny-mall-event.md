@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113062409650265196
 ---
 
 ![ad card for a set of glitchy windows 95 looking shorts in Second Life](/img/posts/os95/os95_ad.png)
