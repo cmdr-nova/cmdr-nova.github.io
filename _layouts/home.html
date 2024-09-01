@@ -24,33 +24,30 @@ creator of everything -->
 
 <!-- Main Body Start -->
 
-
-
 <div id="main">
   <table class="center">
 <tr>
 <td>
 
 <div class="rainbow">cmdr-nova<img src="/img/gifs/at.gif">internet:~$: <b>Nova Prime</b> <span class="blinking-cursor">░</span></div>
-<p align="left">Quick links: <a rel="me" href="https://mkultra.monster/@cmdr_nova" target="_blank">Mastodon</a> <i class="ph ph-mastodon-logo"></i> | <a class="u-email" href="mailto:net_run@mkultra.monster">E-Mail</a> <i class="ph ph-envelope"></i> | <i>see nav menu at the top for more</i></p>
-
-<!--
-<p>
-  Short bio, here.
-</p>
--->
+<p align="left">Quick links: <a rel="me" href="https://mkultra.monster/@cmdr_nova" target="_blank">Mastodon</a> <i class="ph ph-mastodon-logo"></i> | <a class="u-email" href="mailto:net_run@mkultra.monster">E-Mail</a> <i class="ph ph-envelope"></i> | <i>see nav menu at the top for more.</i></p>
 
 <p align="center"><img src="/img/gifs/rainbow.gif"></p>
 <p><em>... and here's where I keep all of my brain juice:</em></p>
 
 
 {% for post in paginator.posts %}
-
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  
+<div class="post-link">
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  </div>
   <p class="author">
     <i class="ph ph-pencil-line"></i> {{ post.author }}<br />
     <i class="ph ph-calendar"></i> {{ post.date |     date_to_string }}
     </p>
+
+    <hr class="post-line">
+    <br />
 
 {% endfor %}
 

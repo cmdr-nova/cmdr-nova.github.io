@@ -20,6 +20,11 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 
 }
 
+.img-wrap {
+  float: left; 
+  margin: 5px;
+ }
+
 /* search field */
 
 ul#results-container {
@@ -73,6 +78,9 @@ body {
   background-attachment: fixed; */
 }
 
+.post-link {
+  font-size: 2em;
+}
 
 .container {
   height: 100vh;
@@ -103,6 +111,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-left: 300px; 
   padding-right: 10px; 
   padding-left: 30px;
+  filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
 
 @media only screen and (max-width: 480px) {
@@ -287,6 +296,8 @@ pre > code {
 
 .author {
   padding-top: 5px;
+  background-color:#1f1f1fc4;
+  border-radius: 10px;
 }
 
 /** Page content */
@@ -449,16 +460,18 @@ pre > code {
 /* mastodon section */
 
 #mastodon {
+  background-color: #111111d5;
   height: 20rem;
   overflow-y: scroll;
   right: 0;
-  border: 2px solid rgb(7, 239, 247);
+  border: 2px solid rgba(43, 43, 43, 0.404);
+  border-radius: 10px;
   min-width: 260px;
   max-width: 260px;
 }
   
   #mastodon article { 
-    border: 1px solid white;
+    border: 1px solid rgba(8, 8, 8, 0.781);
     padding: 0.5rem;
     word-wrap: break-word;
     overflow-x: hidden
@@ -490,6 +503,7 @@ pre > code {
 /* vanishing side menu */
 
 .sidenav {
+  border-style: none;
   height: 100%;
   width: 0;
   position: fixed;
@@ -499,9 +513,8 @@ pre > code {
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 5x;
+  padding-top: 5px;
   padding-left: 5px;
-
 }
 
 .sidenav a {
@@ -526,14 +539,26 @@ pre > code {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    width: 0;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
   
 }
 
 #todo {
-  border-style: dotted;
+  border-style: solid;
   border-color: #272727;
+  background-color: #111111d5;
+  border-radius: 10px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .home-tab-item-img{
@@ -662,10 +687,11 @@ footer {
 
 #song {
   border-radius: 10px;
-  background-color: rgba(8, 8, 8, 0.1);
+  background-color: #111111d5;
   border-style: solid;
   border-color: #272727;
   min-height: 20px;
+  filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
 
 #volume-slider {
@@ -673,8 +699,9 @@ footer {
   height: 20px;
   appearance: none;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
-  background-color: rgba(8, 8, 8, 0.1);
+  background-color: #111111d5;
   border-radius: 5px;
+  filter: drop-shadow(5px 5px rgb(17, 17, 17));
   }
 
     #volume-slider::-webkit-slider-thumb {
@@ -690,4 +717,31 @@ footer {
     #volume-slider::-webkit-slider-thumb,
     #volume-slider::-moz-range-thumb {
     background-color: #c8ff00;
+}
+
+.kofi {
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #111111d5;
+  padding 1px;
+}
+
+.post-line {
+  width: 100%;
+  border-bottom: #000000;
+}
+
+.c-box {
+  background:#111111d5;
+  webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  overflow:hidden;
+  height: 100%;
+}
+
+div:nth-child(2) {
+  filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
