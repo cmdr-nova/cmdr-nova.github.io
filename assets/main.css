@@ -748,3 +748,40 @@ footer {
   height: 100%;
   filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
+
+/* linux ring css */
+
+#linuxring {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#linuxring a {
+  color: black;
+}
+
+#linuxring table {
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#linuxring table tr td {
+  padding: 10px;
+}
+
+#linuxring .webring-prev {
+  text-align:right;
+}
+
+#linuxring .webring-info {
+   text-align:center;
+}
+
+#linuxring .webring-next {
+  text-align:left;
+}
+
+#linuxring .webring-links {
+  font-size: 11pt;
+}
