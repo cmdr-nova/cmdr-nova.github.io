@@ -74,5 +74,5 @@ Right?
 
 Anyway, those are the most important points I wanted to touch on in light of these, frankly, *idiotic* takes coming from NNW. If you're going to endorse AI, you can *at least* do it without speaking to writers and readers like Hannibal-fucking-Lector, manipulating them into sitting down at the dinner table and prepping *their own brain* for consumption.
 
-***Update*** And here you have it, [NaNoWriMo is sponsored by a company](https://pivot-to-ai.com/2024/09/02/nanowrimo-gets-ai-sponsor-says-not-writing-your-novel-with-ai-is-classist-and-ableist/){:target="_blank"} that utilizes AI.
+***Update***: And here you have it, [NaNoWriMo is sponsored by a company](https://pivot-to-ai.com/2024/09/02/nanowrimo-gets-ai-sponsor-says-not-writing-your-novel-with-ai-is-classist-and-ableist/){:target="_blank"} that utilizes AI.
 
