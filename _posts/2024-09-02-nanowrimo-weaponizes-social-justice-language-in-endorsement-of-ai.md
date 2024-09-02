@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113068923450041139
 ---
 
 It's the second day of my little tiny vacation, and I've woken up at the bright and early hour of 11 in the morning. I log onto social media to check my notifications and see what's happening, and ... I'm immediately alerted that those behind NaNoWriMo (National Novel Writing Month) [have endorsed using theft-machines (AI) to generate books and stories](https://nanowrimo.zendesk.com/hc/en-us/articles/29933455931412-What-is-NaNoWriMo-s-position-on-Artificial-Intelligence-AI?ref=404media.co){:target="_blank"}, while weaponizing social justice language in order to emotionally manipulate their readers and writers.
