@@ -4,8 +4,8 @@ title: Embrace, Extend, Extinguish (Repeat)
 date: 2024-09-02 01:09 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
-    - "Second Life"
-tag: second-life
+    - "Social Media"
+tag: social-media
 comments:
     host: mkultra.monster
     username: cmdr_nova
