@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113066439903700447
 ---
 
 I've written on here before about Threads and how:
