@@ -326,7 +326,7 @@ pre > code {
 
 .post-meta { 
   font-size: 14px; 
-  color: #828282; 
+  color: #828282;
 }
 
 .post-link { 
@@ -348,7 +348,7 @@ pre > code {
 @media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
 
 .post-content { 
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .post-content h2 { 
@@ -791,4 +791,10 @@ footer {
 
 .furry {
   filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
+}
+
+.noAI {
+  font-size: .7em;
+  text-align: left;
+  text-indent: 20px;
 }
