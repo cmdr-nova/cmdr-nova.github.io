@@ -73,9 +73,9 @@ body {
   font-feature-settings: "kern" 1; 
   font-kerning: normal; 
   height: 100%;
-  /* background-image: url("/img/bgstars2.gif");
+  background-image: url("/img/bgstars2.gif");
   background-repeat: repeat;
-  background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
 .post-link {
