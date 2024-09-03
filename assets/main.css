@@ -761,8 +761,9 @@ footer {
 }
 
 #linuxring table {
-  background-color: #ffffff;
+  background-color: #11111173;
   margin: 0 auto;
+  filter: drop-shadow(5px 5px rgb(217, 255, 0));
   border-radius: 10px;
 }
 
@@ -784,4 +785,10 @@ footer {
 
 #linuxring .webring-links {
   font-size: 11pt;
+}
+
+/* furry ring */
+
+.furry {
+  filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
 }
