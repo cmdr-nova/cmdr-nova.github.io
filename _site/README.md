@@ -1,0 +1,1 @@
+This is my main website, redone with Jekyll, and only using the Minima theme. Contained within are links, text, and photos of everything I am, and what I do, up to and including my thoughts on gaming, art, the world, politics, and more. The code is publicly available as it changes and improves. Anyone is welcome to clone and setup their own site based on what I've done. Enjoy!
