@@ -16,11 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-
-    # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      uses: cmdr-nova.github.io
+      uses: bcomnes/deploy-to-neocities@v1
       with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        api_token: ${{ secrets.NEOCITIES_API_KEY }}
         cleanup: false
-        dist_dir: _site
+        dist_dir: _site # Change to fold your site is in, it's set to the root by default
