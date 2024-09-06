@@ -1,0 +1,314 @@
+html,
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.link_in_ya_face a {
+    background-color: hsl(73, 68%, 62%);
+    border-radius: 10px;
+    border-style: solid;
+    border-color:aquamarine;
+    color: #1f1f1f;
+    filter: drop-shadow(5px 5px rgba(234, 238, 4, 0.774));
+    font-family: Montserrat, sans-serif;
+    padding: 24px;
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  } 
+  data-styled.g1[id="link_slapper"] {
+    content: "link_in_ya_face,";
+  } 
+  .iota {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  } 
+  data-styled.g4[id="img2"] {
+    content: "iota,";
+  } 
+  .para {
+    color: #3d3d3d;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  } 
+  .hahe {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+
+  }
+  .rainbow {
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    animation: colorRotate 6s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }  
+  .hache2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+  } 
+  .bobs {
+    font-family: Montserrat, sans-serif;
+    margin: 20px 0px;
+    text-align: center;
+  } 
+  data-styled.g12[id="what_the_heck"] {
+    content: "bobs,";
+  } 
+  .bio {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+  } 
+  data-styled.g13[id="disco"] {
+    content: "bio,";
+  } 
+  .toes {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 32px;
+  } 
+  data-styled.g17[id="main"] {
+    content: "toes,";
+  } 
+  .plops {
+    border-radius: 2.5px;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+  } 
+  data-styled.g18[id="img"] {
+    content: "plops,";
+  } 
+  .slappin {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -50px;
+  } 
+  data-styled.g19[id="avie_yo"] {
+    content: "slappin,";
+  } 
+  .oh_fuck {
+    color: #edfd06;
+    margin: 12px 0px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+  } 
+  data-styled.g20[id="butts"] {
+    content: "oh_fuck,";
+  } 
+  .nuts {
+    color: #efff09;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+  } 
+  data-styled.g21[id="bluesky_sucks"] {
+    content: "nuts,";
+  } 
+  .style_this {
+    border: 5px solid #232323;
+    background-color: #232323;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+  }
+  data-styled.g22[id="classy"] {
+    content: "style_this,";
+  } 
+  .lol a {
+    color: #e6ff07;
+    padding: 8px 15px;
+  } 
+  .lol a:visited {
+    color: #e6ff07;
+  } 
+  data-styled.g31[id="suckin_toes"] {
+    content: "lol,";
+  } 
+  .social {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  } 
+  data-styled.g32[id="icons"] {
+    content: "social,";
+  } 
+  .hellsyeah {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  } 
+  data-styled.g33[id="large_img"] {
+    content: "hellsyeah,";
+  } 
+  .noice {
+    border-radius: 2.5px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  } 
+  .noice a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  } 
+  data-styled.g34[id="featured"] {
+    content: "noice,";
+  } 
+  .disc {
+    background-color: #1d1d1d80;
+    padding: 16px;
+    text-align: center;
+  } 
+  .disc p {
+    color: #e5ff00;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+  } 
+  data-styled.g35[id="alt_text"] {
+    content: "disc,";
+  } 
+  .delicious {
+    border-radius: 2.5px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  } 
+  .delicious iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  } 
+  .nards {
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    width: 100%;
+  } 
+  .nards > * {
+    margin-bottom: 16px;
+  } 
+  .foot_finder {
+    width: 100%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    background: #1c1c1c;
+  } 
+  .foot_finder > * {
+    max-width: 640px;
+  } 
+  data-styled.g70[id="ref"] {
+    content: "foot_finder,";
+  } 
