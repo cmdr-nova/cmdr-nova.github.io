@@ -1,0 +1,19 @@
+{
+    "names": {
+      "_": "f0aca76783d286f5d7336b128888f5df3f299e071973eaf03e520091dce3306e"
+    },
+    "relays": {
+      "f0aca76783d286f5d7336b128888f5df3f299e071973eaf03e520091dce3306e": [
+        "wss://ditto.pub/relay",
+        "wss://eden.nostr.land",
+        "wss://nos.lol",
+        "wss://nostr.mutinywallet.com",
+        "wss://purplerelay.com",
+        "wss://relay.damus.io",
+        "wss://relay.momostr.pink",
+        "wss://relay.mostr.pub",
+        "wss://relay.primal.net",
+        "wss://relay.mostr.pub/"
+      ]
+    }
+  }
