@@ -40,3 +40,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 gem 'jekyll-seo-tag', '~> 2.8'
 gem 'microformats', '~> 4.0', '>= 4.2.1'
+gem 'jekyll-compress-images'
