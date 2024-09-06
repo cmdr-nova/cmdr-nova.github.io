@@ -82,6 +82,18 @@
     <td>
 
       <div align="center">
+          <p id="date">
+          <script>n =  new Date();
+            y = n.getFullYear();
+            m = n.getMonth() + 1;
+            d = n.getDate();
+            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+            </p>
+            <p>
+        <span id="swatchClock">@000</span>
+        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+        </p>
+
         <p>
           <img src="/img/fox_nova_4.png" width="70%" height="70%">
         </p>
@@ -424,7 +436,7 @@ creator of everything -->
     <br />
     <a class="page-link" href="/classic">Old Version</a>
     <br />
-    <a class="page-link" href="https://nova-prime.net">Github Mirror</a>
+    <i>Deployed via Deploy-to-Neocities</i>
     </p>
     <script data-goatcounter="https://nova.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
