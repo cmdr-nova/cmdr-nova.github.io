@@ -6,6 +6,10 @@ body {
   margin: 0px;
 }
 
+a {
+  color:#000000;
+}
+
 .link_in_ya_face a {
     background-color: hsl(73, 68%, 62%);
     border-radius: 10px;
@@ -312,3 +316,11 @@ body {
   data-styled.g70[id="ref"] {
     content: "foot_finder,";
   } 
+.feed {
+  background-color:#e6ff07;
+  padding: 16px;
+  border-style: solid;
+  border-color:#000000;
+  border-radius:10px;
+  filter: drop-shadow(5px 5px rgba(234, 238, 4, 0.774));
+}
