@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-07T12:01:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">And The Dredge Is Born Again</title><link href="http://localhost:4000/second%20life/2024/09/06/and-the-dredge-is-born-again.html" rel="alternate" type="text/html" title="And The Dredge Is Born Again" /><published>2024-09-06T01:16:00-04:00</published><updated>2024-09-06T01:16:00-04:00</updated><id>http://localhost:4000/second%20life/2024/09/06/and-the-dredge-is-born-again</id><content type="html" xml:base="http://localhost:4000/second%20life/2024/09/06/and-the-dredge-is-born-again.html"><![CDATA[<center>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-07T23:31:55-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">I Gave Buffer a Shot: I Have Thoughts</title><link href="http://localhost:4000/tech/2024/09/07/i-gave-buffer-a-shot-i-have-thoughts.html" rel="alternate" type="text/html" title="I Gave Buffer a Shot: I Have Thoughts" /><published>2024-09-07T22:59:00-04:00</published><updated>2024-09-07T22:59:00-04:00</updated><id>http://localhost:4000/tech/2024/09/07/i-gave-buffer-a-shot-i-have-thoughts</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/07/i-gave-buffer-a-shot-i-have-thoughts.html"><![CDATA[<p>A while back, I put up a <a href="/social media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us/">post about Bluesky</a> announcing their partnership with cross-posting company, “Buffer” (Yes, I’m aware that it’s starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they <em>say</em> it’s just an option you can utilize with writing posts … based on how OpenAI has been conducting themselves, I don’t fully trust <em>any</em> company that thinks it’s a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!</p>
+
+<p>Here are my thoughts.</p>
+
+<center>
+<img src="/img/posts/buffer2/posts.png" alt="screen from the Buffer website, showcasing organized posts I've made across Mastodon on a calendar." />
+</center>
+<p><br /></p>
+
+<p>The website itself is very well organized, you can connect your socials, and it even has a calendar that displays … <em>everything</em> you’ve ever posted on your connected accounts, chronologically by time and date (which … is actually pretty <em>worrying</em> if you don’t think they’re using that OpenAI tech ethically), and you can do a few other things. Such as, you can create a “start” page, which is just a rip of Link-tree. The downside, is that creating a Buffer version of Link-tree takes up one of your social connections.</p>
+
+<p>But, how <em>many</em> are you allowed to connect on a free account?</p>
+
+<p>Three.</p>
+
+<p>Or, if you want a page with all your links provided by Buffer, essentially, you can connect <em>two</em> accounts.</p>
+
+<p>So, basically, if you’re using the free Buffer plan, you may as well not even be there. If you can’t manage two accounts without the help of some software … geez, dude.</p>
+
+<p>Okay, but how much does it cost to upgrade to have <em>more</em> connections.</p>
+
+<p>Short answer: Way to goddang much.</p>
+
+<p>Long answer:</p>
+
+<p>You can actually opt to start paying them fifteen dollars a month for the three accounts you’ve already connected, and have a few added features. Or, you can connect four accounts for twenty dollars, or five accounts for twenty-five dollars, or … a whopping fifty dollars for ten accounts! For a frame of reference, I have around eleven or twelve accounts I use across different networks, some alts, some not-so-much. They say, on the subscription page, that this is all “the most value for an individual creator …”</p>
+
+<p>An <em>individual</em> creator? Paying, fifty dollars a month for ten accounts, <em>as long as you’re paying on a yearly basis</em>.</p>
+
+<center>
+<img src="/img/posts/buffer2/value.png" alt="A screenshot from the Buffer website depicting having to paying 600 dollars total, or 50 dollars a month, for the ability to connect 10 accounts to their service." />
+</center>
+<p><br /></p>
+
+<p>Bro …</p>
+
+<p>Okay, so <em>obviously</em> this has gotta be some kind of marketing that’s specifically targeting creators who are <em>already</em> making money from what they do online. For fifty dollars a month, if paid yearly, or <em>sixty dollars</em> on a monthly basis, for <em>ten</em> accounts, you could, instead, subscribe to Apple+ and Netflix, and have some entertainment instead. And then just manage your accounts <em>yourself</em>. All with the added benefit of not potentially feeding everything <em>you’ve ever posted</em> into some OpenAI crap.</p>
+
+<p>Which, take a look at this: Are mentioned <em>multiple</em> times on the publishing and scheduling box.</p>
+
+<center>
+<img src="/img/posts/buffer2/ai.png" alt="A screenshot from the Buffer website's publishing window, depicting their AI assistant being mentioned twice just pixels away from each other." />
+</center>
+<p><br />
+“Use AI assistant!” Also, did you want help publishing with the “AI Assistant?”</p>
+
+<p>Because <em>everyone on social media knows</em> that using AI to generate your words totally doesn’t make you look like a completely fake tool-bag.</p>
+
+<p>So, instead of using Buffer, I’ve opted to just manage the couple of accounts I use the most … <em>myself</em>. No, you guys aren’t getting fifteen, or twenty, or <em>fifty</em> dollars out of me.</p>
+
+<p>But, I <em>did</em> really like their “start page” link aggregator. And, since they’re so hyper-vigilant about AI generated plagairism, I’m sure they won’t mind if I just … rip out the code of their link page, delete all the link trackers, place the CSS into its own file (because why the hell do you have it on the same page as the content?), rename all the modules to something humorous, enlarge the profile picture, increase the vertical size of the banner gif, change all of the colors, replace their icons with <a href="https://phosphoricons.com" target="_blank">Phosphor</a> icons, and replace their crappy static “update” section that doesn’t even serve clickable links, with … A live feed of my blog’s RSS (courtesy of Brenton Fletcher’s <a href="https://rss.bloople.net" target="_blank">rss.bloople.net</a>)</p>
+
+<p>See it, here: <a href="https://nova.mkultra.monster/linkgarden/" target="_blank">CMDR Nova’s Linkgarden</a>.</p>
+
+<p>Buffer version on the left, my version on the right.</p>
+
+<center>
+<img src="/img/posts/buffer2/links.png" alt="A screenshot of Buffer's link page versus my link page, styled similar, but also completely different." />
+</center>
+<p><br /></p>
+
+<p>But here’s the thing, if you <em>really</em> want, or <em>need</em> a page of all of your links that you can easily just hand to someone like a business card, you can <em>build one yourself</em>, or, if you really don’t have the time, or want to learn HTML and CSS, I can just make it <em>for you</em>. I’m actually going to put together some examples of what a “linkgarden” could look like if I made one, and gave it to someone, and provide information on free hosting. Or, hey, maybe I could set that up for people too?</p>
+
+<p>I don’t know.</p>
+
+<p>What I <em>do</em> know, is that you don’t have to pay companies continuously for something that can be made for you in a couple of hours, or that you can make <em>yourself</em> in a couple of hours, and then have <em>full control over</em>. And if you <em>really</em> need automated control of all of your accounts at once, I’m <em>sure</em> there’s a better way to do it, than paying some company that’s gone all-in on AI, six hundred dollars a mother-frikken <em>year</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[A while back, I put up a post about Bluesky announcing their partnership with cross-posting company, “Buffer” (Yes, I’m aware that it’s starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they say it’s just an option you can utilize with writing posts … based on how OpenAI has been conducting themselves, I don’t fully trust any company that thinks it’s a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!]]></summary></entry><entry><title type="html">And The Dredge Is Born Again</title><link href="http://localhost:4000/second%20life/2024/09/06/and-the-dredge-is-born-again.html" rel="alternate" type="text/html" title="And The Dredge Is Born Again" /><published>2024-09-06T01:16:00-04:00</published><updated>2024-09-06T01:16:00-04:00</updated><id>http://localhost:4000/second%20life/2024/09/06/and-the-dredge-is-born-again</id><content type="html" xml:base="http://localhost:4000/second%20life/2024/09/06/and-the-dredge-is-born-again.html"><![CDATA[<center>
 <img src="/img/posts/nm3/the_dredge.png" alt="screenshot from Second Life, depicting a dark, grungry, cyberpunk city street" />
 </center>
 <p><br />
@@ -355,36 +420,4 @@ Bluesky isn&#x27;t growing; the Atmosphere is! You&#x27;re not &quot;our&quot; u
 
 <p>People deserve to be able to express themselves freely, online, without being made out to be pariahs for their mere <em>existence</em>. Obviously, when I say “express themselves freely” I don’t mean that, people should be able to say slurs and abhorrent things without question or consequences. It you feel the need for a social network where you are allowed to do those things, you don’t need social media, <em>you need therapy.</em></p>
 
-<p>Is a move to Wordpress.com going to change anything for Tumblr? I don’t know, maybe? If they finally turn on fediverse integration, it could help. But, knowing the CEO is a thin-skinned whiner, I just don’t feel confident about that.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Overwatch Doomed Us All</title><link href="http://localhost:4000/gaming/2024/08/28/overwatch-doomed-us-all.html" rel="alternate" type="text/html" title="Overwatch Doomed Us All" /><published>2024-08-28T09:37:00-04:00</published><updated>2024-08-28T09:37:00-04:00</updated><id>http://localhost:4000/gaming/2024/08/28/overwatch-doomed-us-all</id><content type="html" xml:base="http://localhost:4000/gaming/2024/08/28/overwatch-doomed-us-all.html"><![CDATA[<p>This is probably going to be an unpopular opinion, but: I really don’t like “hero shooters”, especially as live-service games. From Overwatch, to whatever that failed hero-shooter was at Amazon (I forget the name), to Concord, and Deadlock. There’s just, <em>to me</em>, absolutely nothing fun about having to fight with other people to choose the character you want to play (everything does in fact not have to be a MOBA!), and then <em>also</em> compete in linear game-styles against other players where you’re doing less shooting and racking up kills, and more … escorting payloads and camping on a point.</p>
-
-<p>It’s obvious I should say that Team Fortress 2 was, <em>of course</em>, fun. But, I was also playing Team Fortress when it was a mod for Quake 2 in the nineties, long before Valve acquired it. And even despite TF2 being a fun game <em>in the very least</em>, I <em>still</em> never, never, ever, enjoyed the MOBA-like system of having to choose a hero to play (although TF2 is less restrictive with this feature) before some other player takes it from you.</p>
-
-<p>And I’m not really saying, “Call of Duty is the only way.” I actually <em>abhor</em> Call of Duty, because it’s completely responsible for turning casual, fun, arena style shooters into a place for sweaty streamers to try and prove themselves to viewers and sponsors for fast cash.</p>
-
-<p>As with all things, money ruins everything.</p>
-
-<p>Let me say this, though. Overwatch was fun in the first year, and then, just like with Heroes of the Storm, Blizzard lost all of their steam, and they appear to just be supporting the game behind the curtain, and it’s become a game that takes a backseat to <em>everything else</em>. It doesn’t feel exciting, or fun to log into. And, despite the hero system being a little less restrictive, a little less, “Whoops, JohnnyEZ took that hero, you gotta play something else!”, it just feels … <em>uninspired</em> to jump into. Uninspired and burned out, like a lot of the stuff Blizzard puts out nowadays. I haven’t tried out War Within yet, but even World of Warcraft feels like it’s far beyond its expiration date.</p>
-
-<p>So, imagine my surprise, when I’m hearing about this new game from Valve. A new game that for sure definitely isn’t a number three in a franchise that … I don’t even personally think was all that amazing (we’re talking Halfife), but some kind of brand, new IP?</p>
-
-<p>Shoot, let me get an invite!</p>
-
-<p>And an invite I got.</p>
-
-<p>And a download I did.</p>
-
-<p>And then I logged on.</p>
-
-<p>Oh.</p>
-
-<p>Another live-service, hero-shooter.</p>
-
-<p>I don’t know where these game developers are getting their stats about these types of games, but in the social circles I inhabit online, <em>absolutely nobody</em> is talking about playing or enjoying games like this. It’s my assumption, and/or feeling, that people are <em>tired</em> of this type of game. Like, no, uh, I <em>don’t</em> want to play a forever game with three modes, restrictive hero-selection, and loot boxes.</p>
-
-<p>I wanna play Silent Hill 2, Dwarf Fortress, Elden Ring (although, on Linux, I haven’t been able to play online for months due to not buying their latest DLC), and Death Stranding.</p>
-
-<p>I want more games that are singular experiences, with optional online features. Like in super-popular GACHA style Zelda-like, Genshin Impact, I can roam the entire world and do whatever I want without spending a dime, and then I can interact with other players, <em>if I feel like it.</em> Or, if you also <em>hate</em> the concept of an always-online GACHA, how about No Man’s Sky!</p>
-
-<p>I dunno, though. This is just one person’s opinion. The opinion of someone who felt Halfife was good enough, but definitely not a cultural phenomenon, and Team Fortress 2, while fun, was and still <em>is</em> definitely overrated. A Linux-gamer who <em>can’t even play</em> Call of Duty, even if I wanted to, and the closest things that I have to a fun arena-shooter are Quake Champions and Combat Master.</p>
-
-<p>I’m just gonna go play some Warframe.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Gaming" /><category term="gaming" /><summary type="html"><![CDATA[This is probably going to be an unpopular opinion, but: I really don’t like “hero shooters”, especially as live-service games. From Overwatch, to whatever that failed hero-shooter was at Amazon (I forget the name), to Concord, and Deadlock. There’s just, to me, absolutely nothing fun about having to fight with other people to choose the character you want to play (everything does in fact not have to be a MOBA!), and then also compete in linear game-styles against other players where you’re doing less shooting and racking up kills, and more … escorting payloads and camping on a point.]]></summary></entry></feed>
+<p>Is a move to Wordpress.com going to change anything for Tumblr? I don’t know, maybe? If they finally turn on fediverse integration, it could help. But, knowing the CEO is a thin-skinned whiner, I just don’t feel confident about that.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[]]></summary></entry></feed>
