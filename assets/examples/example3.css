@@ -157,6 +157,7 @@
   }
 
   .links {
+    display: block;
     background-color: var(--button-bgcolor);
     border-radius: 10px;
     border-style: solid;
@@ -183,7 +184,7 @@
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 26px;
     line-height: 24px;
     font-weight: 700;
     z-index: 2;
