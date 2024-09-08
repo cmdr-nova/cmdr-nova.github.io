@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'I Gave Buffer a Shot: I Have Thoughts'
-date: 2024-09-07 22:59 -0400
+date: 2024-09-07 21:59 -0400
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
