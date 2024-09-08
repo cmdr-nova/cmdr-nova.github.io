@@ -10,7 +10,7 @@
     --drop-shadow: rgba(2, 255, 255, 0.774);
     --border-color: #1c1c1c;
     --border-bg: #1c1c1c;
-    --button-bgcolor: #4ee69a;
+    --button-bgcolor: #4ee69a79;
     --button-bgcolor-hover: #f38dbdb7;
     --featured-desc-color: #141414;
   }
@@ -149,7 +149,7 @@
     line-height: 34px;
   }
 
-  .links {
+  .links a {
     display: block;
     background-color: var(--button-bgcolor);
     border-radius: 10px;
@@ -185,6 +185,7 @@
   .links:hover {
     background-color: var(--button-bgcolor-hover);
     transition; 0.7s;
+    border-radius: 10px;
   }
 
   .social-icons {

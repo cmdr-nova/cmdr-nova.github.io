@@ -10,8 +10,8 @@
     --drop-shadow: rgba(251, 255, 13, 0.774);
     --border-color: #00bb10;
     --border-bg: #0a0a0a;
-    --button-bgcolor: #141414;
-    --button-bgcolor-hover: #4b4b4bb7;
+    --button-bgcolor: #141414c5;
+    --button-bgcolor-hover: #f7f318b7;
     --featured-desc-color: #4bb342;
   }
   
@@ -156,7 +156,7 @@
     border-radius: 10px;
   }
 
-  .links {
+  .links a {
     display: block;
     background-color: var(--button-bgcolor);
     border-radius: 10px;
@@ -193,6 +193,7 @@
   .links:hover {
     background-color: var(--button-bgcolor-hover);
     transition; 0.7s;
+    border-radius: 10px;
   }
 
   .social-icons {
