@@ -11,7 +11,7 @@ comments:
     username: cmdr_nova
     id: 113099836977745199
 ---
-A while back, I put up a [post about Bluesky](/social media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us/) announcing their partnership with cross-posting company, "Buffer" (Yes, I'm aware that it's starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they *say* it's just an option you can utilize with writing posts ... based on how OpenAI has been conducting themselves, I don't fully trust *any* company that thinks it's a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!
+A while back, I put up <a href="/social media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us">a post about Bluesky</a> announcing their partnership with cross-posting company, "Buffer" (Yes, I'm aware that it's starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they *say* it's just an option you can utilize with writing posts ... based on how OpenAI has been conducting themselves, I don't fully trust *any* company that thinks it's a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!
 
 Here are my thoughts.
 
