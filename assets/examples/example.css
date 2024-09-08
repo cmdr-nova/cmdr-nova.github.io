@@ -219,7 +219,6 @@
   .featured-style {
     height: 100%;
     width: 100%;
-    object-fit: cover;
     border-style: solid;
     border-color: var(--border-color);
   }
