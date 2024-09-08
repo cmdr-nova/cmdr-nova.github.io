@@ -1,0 +1,228 @@
+:root {
+    --page-bgcolor: #1c1c1c;
+    --textcolor: rgb(235, 235, 235);
+    --link-color: #c8ff00;
+    --link-color-hover: #edf2b1;
+    --link-color-visited: #c8ff00;
+    --button-bgcolor: #2b2b2b;
+    --button-bgcolor-hover: #070707b7;
+    --button-border-color: #04ffc99d;
+    --drop-shadow: rgba(234, 245, 75, 0.945);
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background-color: var(--page-bgcolor); 
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    color: var(--textcolor);
+   }
+
+
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure { 
+    margin-bottom: 15px; }
+
+   .title {
+    text-align: center;
+    width: 100%;
+    color: var(--textcolor);
+   }
+
+   @media only screen and (max-width: 480px) {
+    title {
+      text-align: center;
+    }
+  }
+
+   .content {
+    text-align: left;
+    padding: 12px;
+    max-width: 640px;
+   }
+
+   @media only screen and (max-width: 480px) {
+    body {
+      margin-right: 0;
+      margin-left: 0;
+      min-height: 100vh;
+      padding-right: 12px;
+      padding-left: 12px;
+      width: 100%;
+    }
+  }
+
+   @media only screen and (max-width: 480px) {
+    .content {
+    text-align: left;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    padding-right: 30px;
+    }
+  }
+
+   a { 
+    color: var(--link-color); 
+    text-decoration: none; 
+}
+   a:visited { 
+    color: var(--link-color-visited); 
+}
+
+   a:hover { 
+    color: var(--link-color-hover); 
+}
+
+ul {
+  padding-left:1em;
+}
+
+/* a blinking cursor */
+
+.blinking-cursor {
+    color: #2E3D48;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: ultra-expanded;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #ffffff;
+    }
+  }
+
+/* a button */
+
+.btn {
+  position: relative;
+  background-color: #252525;
+
+}
+.btn-overlay {
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    transition: opacity .5s;
+}
+
+@media only screen and (max-width: 480px) {
+  .btn {
+  position: relative;
+  width: 50%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  }
+}
+
+.ph {
+  color: #c8ff00;
+}
+
+.ascii-container {
+  white-space: pre-wrap; /* or pre-line */
+  font-size: 0.50em;
+}
+
+@media only screen and (max-width: 480px) {
+  .ascii-container {
+    font-size: 0.33em;
+    width: 100%;
+  }
+}
+
+.buy {
+    text-align: center;
+}
+
+.button {
+    background-color: var(--button-bgcolor);
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: var(--border-color);
+    color: var(--link-container-color);
+    filter: drop-shadow(5px 5px var(--drop-shadow));
+    font-family: Montserrat, sans-serif;
+    padding: 24px;
+    overflow: hidden;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    width: 300px;
+    font-size: 26px;
+    line-height: 14px;
+    font-weight: 700;
+    color: var(--button-border-color);
+}
+.button:hover {
+    background-color: var(--button-bgcolor-hover);
+    transition; 0.35s;
+  }
