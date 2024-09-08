@@ -324,3 +324,12 @@ a {
   border-radius:10px;
   filter: drop-shadow(5px 5px rgba(234, 238, 4, 0.774));
 }
+.buy {
+  background-color:#e6ff07;
+  padding: 16px;
+  border-style: solid;
+  border-color:#000000;
+  border-radius:10px;
+  filter: drop-shadow(5px 5px rgba(234, 238, 4, 0.774));
+  text-align: center;
+}
