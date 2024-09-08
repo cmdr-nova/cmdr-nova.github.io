@@ -26,6 +26,12 @@
     background-repeat: no-repeat;
   }
 
+  @media only screen and (max-width: 480px) {
+    html, body {
+      width: 100%;
+    }
+  }
+
   a {
     color: var(--link-color);
     padding: 8px 15px;
@@ -63,17 +69,8 @@
     padding: 16px;
     position: relative;
   }
-
   .main > * {
     max-width: 640px;
-  }
-
-  @media only screen and (min-width: 320px) and (max-width: 568px) {
-    .main {
-      max-width: 100%;
-      width: 100%;
-      padding: 2px;
-    }
   }
   
 
