@@ -46,6 +46,7 @@
 
   .main {
     width: 100%;
+    max-width: 100%;
     min-height: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -62,9 +63,23 @@
     padding: 16px;
     position: relative;
   }
+
   .main > * {
     max-width: 640px;
-  } 
+  }
+
+  @media only screen and (max-width: 480px) {
+    .main {
+      max-width: 100%;
+      width: 100%;
+      padding: 1px;
+      position: relative;
+    }
+    .main > * {
+      max-width: 100%;
+    }
+  }
+  
 
   .container {
     -webkit-flex: 1 0 auto;
@@ -227,4 +242,10 @@
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     text-align: center;
+  }
+
+  .gif {
+    position: absolute;
+    right: 70%;
+    bottom: 0;
   }
