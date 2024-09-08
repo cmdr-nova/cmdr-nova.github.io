@@ -26,12 +26,6 @@
     background-repeat: no-repeat;
   }
 
-  @media only screen and (max-width: 480px) {
-    html, body {
-      width: 100%;
-    }
-  }
-
   a {
     color: var(--link-color);
     padding: 8px 15px;
