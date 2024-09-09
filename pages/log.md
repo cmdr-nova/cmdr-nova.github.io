@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 9/8/2024
+
+- created a new custom link aggregator service called 'linkgarden,' right here on the website
+- created my own link aggregator for quick use to share my links on social media, also hosted right here on the website
+
 # # # 9/1/2024
 
 - added audio and volume control to the backrooms, so that user's experience on the site is less intrusive
