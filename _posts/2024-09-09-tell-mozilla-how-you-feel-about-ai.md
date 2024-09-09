@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113109702964622689
 ---
 
 Hey folks! Not a huge update today, but someone on my Mastodon timeline shared a post in regards to Mozilla asking for feedback on their incoming "AI toolbar."
