@@ -821,3 +821,9 @@ footer {
   border-radius: 15px;
   box-shadow: 2px 2px 20px 10px #0ff;
 }
+
+iframe {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
