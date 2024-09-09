@@ -798,3 +798,26 @@ footer {
   text-align: left;
   text-indent: 20px;
 }
+
+
+
+.garden-button a {
+  display: block;
+  font-size: 26px;
+  background-color:#c8ff007c;
+  border-style: solid;
+  border-color:#000000;
+  border-radius: 15px;
+  padding: 15px;
+  filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
+  display: block;
+  margin: auto;
+}
+
+.garden-button:hover {
+  display: block;
+  background-color: #0099ff;
+  transition; 0.7s;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px 10px #0ff;
+}
