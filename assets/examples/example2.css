@@ -316,3 +316,7 @@
     max-height: 30%;
     overflow: auto;
   }
+
+  .signature {
+    font-size: 0.70em;
+  }

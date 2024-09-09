@@ -237,3 +237,7 @@
     right: 70%;
     bottom: 0;
   }
+
+  .signature {
+    font-size: 0.70em;
+  }

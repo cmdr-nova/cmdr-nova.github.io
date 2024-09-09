@@ -338,3 +338,6 @@ a {
   filter: drop-shadow(5px 5px rgba(234, 238, 4, 0.774));
   text-align: center;
 }
+.signature {
+  font-size: 0.70em;
+}
