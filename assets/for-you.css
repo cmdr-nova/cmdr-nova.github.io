@@ -4,8 +4,8 @@
     --link-color: #c8ff00;
     --link-color-hover: #edf2b1;
     --link-color-visited: #c8ff00;
-    --button-bgcolor: #2b2b2b;
-    --button-bgcolor-hover: #070707b7;
+    --button-bgcolor: #2b2b2b93;
+    --button-bgcolor-hover: #adee58b7;
     --button-border-color: #04ffc99d;
     --drop-shadow: rgba(234, 245, 75, 0.945);
 }
@@ -202,27 +202,40 @@ ul {
     text-align: center;
 }
 
-.button {
-    background-color: var(--button-bgcolor);
-    display: block;
-    margin: auto;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: var(--border-color);
-    color: var(--link-container-color);
-    filter: drop-shadow(5px 5px var(--drop-shadow));
-    font-family: Montserrat, sans-serif;
-    padding: 24px;
-    overflow: hidden;
-    -webkit-text-decoration: none;
-    text-decoration: none;
-    width: 300px;
-    font-size: 26px;
-    line-height: 14px;
-    font-weight: 700;
-    color: var(--button-border-color);
+.button a {
+  display: block;
+  background-color: var(--button-bgcolor);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: var(--border-color);
+  color: var(--link-color);
+  filter: drop-shadow(5px 5px var(--drop-shadow));
+  font-family: Montserrat, sans-serif;
+  padding: 24px;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 26px;
+  line-height: 24px;
+  font-weight: 700;
 }
 .button:hover {
-    background-color: var(--button-bgcolor-hover);
-    transition; 0.35s;
+  background-color: var(--button-bgcolor-hover);
+  transition; 0.7s;
+  border-radius: 10px;
   }
