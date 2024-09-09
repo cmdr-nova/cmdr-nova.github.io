@@ -44,7 +44,6 @@ body {
    .title {
     text-align: center;
     width: 100%;
-    color: var(--textcolor);
    }
 
    @media only screen and (max-width: 480px) {
@@ -184,18 +183,6 @@ ul {
 
 .ph {
   color: #c8ff00;
-}
-
-.ascii-container {
-  white-space: pre-wrap; /* or pre-line */
-  font-size: 0.50em;
-}
-
-@media only screen and (max-width: 480px) {
-  .ascii-container {
-    font-size: 0.23em;
-    width: 100%;
-  }
 }
 
 .buy {
