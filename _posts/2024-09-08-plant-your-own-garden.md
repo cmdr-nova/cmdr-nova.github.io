@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113104550533271774
 ---
 
 Today, I spent the equivalent of around ten hours of work (on my day off, no less), designing and developing a new kind of "side service" I wanted to offer to people who: Don't have the time, or don't *want* to learn HTML and CSS, and who want to separate themselves from corporate media, *just a little bit*, even if it's just to stop paying services like Linktree a monthly fee.
