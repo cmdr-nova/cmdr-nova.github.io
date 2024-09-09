@@ -42,12 +42,14 @@ body {
     margin-bottom: 15px; }
 
    .title {
+    display: block;
     text-align: center;
-    width: 100%;
+    width: 640px;
    }
 
    @media only screen and (max-width: 480px) {
-    title {
+    .title {
+      width: 100%;
       text-align: center;
     }
   }
