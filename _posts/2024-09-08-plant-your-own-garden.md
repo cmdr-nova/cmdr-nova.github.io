@@ -20,7 +20,7 @@ Plant your own garden ... of links!
 
 <img src="/img/for-you/examples.png" style="align:center;">
 
-I detail the service on the page, but I'll write about it here, as well, except, maybe in a more extended fashion. I'm offering this for twenty bucks. You pay me, then contact me, and I'll get your page together, and even make you a Neocities where it can be hosted (hosted, completely for free). Of course, once I hand over the credentials, you'll be responsible for changing your password. But, that's a given!
+I detail the service on the page, but I'll write about it here, as well, except, maybe in a more extended fashion. I'm offering this for eighty bucks. You pay me, then contact me, and I'll get your page together, and even make you a Neocities where it can be hosted (hosted, completely for free). Of course, once I hand over the credentials, you'll be responsible for changing your password. But, that's a given!
 
 You *can* request to use a custom domain, but this is a little more involved, in that, we'll need to figure out if you're buying the domain, and if you *know* how to setup the DNS. If not, I certainly know how to do this, but I *also* don't have access to your domain admin panels.
 
