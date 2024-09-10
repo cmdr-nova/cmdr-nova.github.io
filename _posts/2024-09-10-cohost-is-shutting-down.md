@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113113328108062620
 ---
 <img src="/img/posts/cohost/cohost_logo.png">
 
