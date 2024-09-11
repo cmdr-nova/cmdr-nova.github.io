@@ -1,15 +1,14 @@
 ---
 layout: post
 title: And The Dredge Is Born Again
-date: 2024-09-06 01:16 -0400
-author: 𐕣 C M D R ░ NOVA 𐕣
+author: "\U00010563 C M D R ░ NOVA \U00010563"
 categories:
-    - "Second Life"
+- Second Life
 tag: second-life
 comments:
-    host: mkultra.monster
-    username: cmdr_nova
-    id: 113088990736907878
+  host: mkultra.monster
+  username: cmdr_nova
+  id: 113088990736907878
 ---
 <center>
 <img src="/img/posts/nm3/the_dredge.png" alt="screenshot from Second Life, depicting a dark, grungry, cyberpunk city street">
