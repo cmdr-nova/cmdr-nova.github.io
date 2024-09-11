@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113116885475342816
 ---
 
 It was 2020, my rotation of mobile games included just two of them. I had a phone that could support ... maybe three? One of them was the already very well-known Orc game, and the other was a little gacha called Illusion Connect. Okay, so, if you aren't really interested in gachas, and you think buying stuff in them sucks, this probably isn't all that interesting to you.
