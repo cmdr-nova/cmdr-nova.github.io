@@ -827,3 +827,8 @@ iframe {
   margin: auto;
   margin-bottom: 15px;
 }
+
+.neo-link {
+  margin-top: 25px;
+  filter: drop-shadow(5px 5px rgba(7, 243, 184, 0.493));
+}
