@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113130144674485535
 ---
 
 Today I woke up sprawled out on my couch because I once again passed out while watching Youtube. This is a new trend for me as I inch closer and closer to 40. But, I got up, slapped some food into a bowl for my cat, and then turned on the milquetoast social media, and immediately saw more aggravating takes from people who don't deserve attention, or any money whatsoever. I'm talking about plagiarists who are desperate to be called authors; AI loving losers who think you should definitely expel energy to read things they didn't even have the energy to write *themselves*.
