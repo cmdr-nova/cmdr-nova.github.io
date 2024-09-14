@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Media"
 tag: media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113136972873030231
 ---
 
 For the better part of a year, I've been absolutely *raving* about the Backrooms. A fixation on a new kind of horror that is both hugely popular, and completely under-the-radar. Something I've written about numerous times now, including fictional speculation, and my most recent play-through of the Backrooms inspired Steam game, POOLS: Many have their ideas about the Complex, many people put out amateur content that is in the very least, *entertaining.* And then Kane Pixels, every so often, drops a nuclear horror bomb that redefines the Backrooms, *again*.
