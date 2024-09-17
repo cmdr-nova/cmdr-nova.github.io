@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113150619505986983
 ---
 
 It's been a little while since I've written anything relating personally, to myself. I've spent a lot of blog posts giving my own opinion on current events, or unfortunate advancements in tech that facilitate mass theft, or rolling my face on the keyboard in my Backrooms obsession. I suppose maybe sometimes it's harder to write about myself, and what and how I'm feeling about things, because I find it hard to actually *want* people to know me.
