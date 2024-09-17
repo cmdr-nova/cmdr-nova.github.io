@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113155036623112404
 ---
 
 Just recently, I wrote about Mozilla proposing their new "AI" features in their nightly builds, and was sharing around the post they made, via another user on the fediverse, calling for all Firefox-enjoyers to run on over and tell them to stop. And thousands upon *thousands* of people *did*. It's one of the largest gatherings of anti-AI force I've seen *so far*, and it was glorious.
