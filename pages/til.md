@@ -4,9 +4,6 @@ title:  Today I Learned ...
 permalink: /pages/til/
 ---
 
-// 9.17.2024
-Today I learned that people still use pagers
-
 // 8.02.2024
 Today I learned that [astronomers have found phosphine gas](https://news.mit.edu/2020/life-venus-phosphine-0914){:target="_blank"} in Venus' atmosphere, which could be a signature of living organisms
 
