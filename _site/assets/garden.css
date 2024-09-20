@@ -16,7 +16,10 @@
   --feed-text: #000000;
   --feed-bg: #e6ff07;
   --feed-border-color: aquamarine;
-  --feed-dropshadow-color: rgba(234, 238, 4, 0.774);
+  --feed-dropshadow-color: rgba(234, 238, 4, 0.897);
+  --desc-bg-color: #ffe607;
+  --desc-inset: #503709;
+  --desc-border-color: #edfd06;
 }
 
 html, body {
@@ -144,10 +147,21 @@ h1, h2, h3 {
 }
 
 .main-desc {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
   line-height: 34px;
+  word-spacing: -1px;
+  background-color: var(--desc-bg-color);
+  border-style: solid;
+  border-color:var(--desc-border-color);
+  border-radius:10px;
+
+  color: var(--feed-text);
+  padding: 16px;
+  text-indent: 20px;
+  box-shadow: inset 0 0 15px var(--desc-inset);
 }
 
 .links a {
@@ -206,7 +220,6 @@ h1, h2, h3 {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  
 }
 
 .featured {
