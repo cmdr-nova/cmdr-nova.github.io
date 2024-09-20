@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113167116186348886
 ---
 
 If you haven't heard by now, <a href="https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/" target="_blank">LinkedIn suddenly implemented a "feature" into their social network that automatically opts you into allowing them to use all of your data for AI training</a>. To top it off, they've done this *before* altering their terms of service. So, technically, nobody's agreed to this. But! We all know the people behind large learning models *absolutely* do not know what consent is.
