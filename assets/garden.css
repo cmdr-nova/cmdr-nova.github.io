@@ -206,6 +206,7 @@ h1, h2, h3 {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  
 }
 
 .featured {
