@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-18T21:06:06-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Mozilla Sets Their Mastodon Instance on Fire</title><link href="http://localhost:4000/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html" rel="alternate" type="text/html" title="Mozilla Sets Their Mastodon Instance on Fire" /><published>2024-09-17T17:08:00-04:00</published><updated>2024-09-17T17:08:00-04:00</updated><id>http://localhost:4000/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html"><![CDATA[<p>Just recently, I wrote about Mozilla proposing their new “AI” features in their nightly builds, and was sharing around the post they made, via another user on the fediverse, calling for all Firefox-enjoyers to run on over and tell them to stop. And thousands upon <em>thousands</em> of people <em>did</em>. It’s one of the largest gatherings of anti-AI force I’ve seen <em>so far</em>, and it was glorious.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T20:42:37-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">LinkedIn Attempts to Yoink Your Data</title><link href="http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html" rel="alternate" type="text/html" title="LinkedIn Attempts to Yoink Your Data" /><published>2024-09-19T20:23:00-04:00</published><updated>2024-09-19T20:23:00-04:00</updated><id>http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html"><![CDATA[<p>If you haven’t heard by now, <a href="https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/" target="_blank">LinkedIn suddenly implemented a “feature” into their social network that automatically opts you into allowing them to use all of your data for AI training</a>. To top it off, they’ve done this <em>before</em> altering their terms of service. So, technically, nobody’s agreed to this. But! We all know the people behind large learning models <em>absolutely</em> do not know what consent is.</p>
+
+<p>Real quick, how to turn it off:</p>
+
+<p>Click “Me” at the top, then go to “Settings and Privacy,” then click the “Data Privacy” tab. I want to note how <em>hilarious</em> it is to have a tab called “Data Privacy” where they’re automatically taking all of your data to sell to the highest bidder, and to feed into Microsoft’s plagiarism machines. But anyway … then click, “Data for Generative AI Improvement,” and then toggle that off.</p>
+
+<p>Problem solved!</p>
+
+<p>But, honestly? <em>Who the heck</em> uses LinkedIn? The last time I seriously attempted to use the site as a social network, I felt like I should’ve been compensated for my time, you know, <em>paid</em>. I felt like I should’ve gone to work the next day and filled out a time adjustment just for logging into the Founder Zone.</p>
+
+<p>Surely there’s a better way to go about advertising what you can do and who you are to the world, where your thoughts can stream independently and <em>not</em> be Zucked up by some kind of machine that’s melting the ice caps, right?</p>
+
+<p>Everything you can do on LinkedIn, you can accomplish by building a portfolio, having a resume, and posting on normal social media regularly by sometimes showcasing your skills, and asking about job opportunities. This happens on the fediverse <em>all of the time</em>. <strong><em>Yes, I am once again suggesting you <a href="https://joinmastodon.org/servers" target="_blank">Join Mastodon</a>.</em></strong></p>
+
+<p>You don’t need a social network where everyone is talking in customer service voice and never allowing their minds a break from work-life.</p>
+
+<p>And, I mean, for sure, it goes without saying …</p>
+
+<p>Microsoft’s version of AI is pretty inescapable, despite measures I’ve taken by … using Linux on my main machine, having an iPhone (which will now have an opt-in AI feature), and shelving my Xbox. But, this website is also fed through Github in order to be built, and deployed, and I <em>do</em> still keep some old files on Microsoft’s cloud drive.</p>
+
+<p>Whichever way you look at it, you’ve <em>already</em> been scraped by billionaires who should have paid you for your time, energy, and data. And, maybe someday they’ll be <em>forced to</em>.</p>
+
+<p>But that doesn’t mean you should subject yourself to LinkedIn, and allow Microsoft to take <em>even more</em> of your data. In the open web, I call that <em>self harm</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[If you haven’t heard by now, LinkedIn suddenly implemented a “feature” into their social network that automatically opts you into allowing them to use all of your data for AI training. To top it off, they’ve done this before altering their terms of service. So, technically, nobody’s agreed to this. But! We all know the people behind large learning models absolutely do not know what consent is.]]></summary></entry><entry><title type="html">Mozilla Sets Their Mastodon Instance on Fire</title><link href="http://localhost:4000/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html" rel="alternate" type="text/html" title="Mozilla Sets Their Mastodon Instance on Fire" /><published>2024-09-17T17:08:00-04:00</published><updated>2024-09-17T17:08:00-04:00</updated><id>http://localhost:4000/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html"><![CDATA[<p>Just recently, I wrote about Mozilla proposing their new “AI” features in their nightly builds, and was sharing around the post they made, via another user on the fediverse, calling for all Firefox-enjoyers to run on over and tell them to stop. And thousands upon <em>thousands</em> of people <em>did</em>. It’s one of the largest gatherings of anti-AI force I’ve seen <em>so far</em>, and it was glorious.</p>
 
 <p>Contrary to all of that, Mozilla is pulling the new and quite popular corporate response to backlash, and <em>completely ignoring everything.</em> Which brings us to today’s post on Mozilla making the move to shut down their Mastodon instance, <em>completely</em>.</p>
 <center>
@@ -259,93 +281,4 @@ Ripped directly from the RSS feed:</p>
 
 <p>I don’t know.</p>
 
-<p>What I <em>do</em> know, is that you don’t have to pay companies continuously for something that can be made for you in a couple of hours, or that you can make <em>yourself</em> in a couple of hours, and then have <em>full control over</em>. And if you <em>really</em> need automated control of all of your accounts at once, I’m <em>sure</em> there’s a better way to do it, than paying some company that’s gone all-in on AI, six hundred dollars a mother-frikken <em>year</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[A while back, I put up a post about Bluesky announcing their partnership with cross-posting company, “Buffer” (Yes, I’m aware that it’s starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they say it’s just an option you can utilize with writing posts … based on how OpenAI has been conducting themselves, I don’t fully trust any company that thinks it’s a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!]]></summary></entry><entry><title type="html">Social Media, Empathy, Caring About Other People?</title><link href="http://localhost:4000/social%20media/2024/09/04/social-media-empathy-caring-about-other-people.html" rel="alternate" type="text/html" title="Social Media, Empathy, Caring About Other People?" /><published>2024-09-04T15:59:00-04:00</published><updated>2024-09-04T15:59:00-04:00</updated><id>http://localhost:4000/social%20media/2024/09/04/social-media-empathy-caring-about-other-people</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/09/04/social-media-empathy-caring-about-other-people.html"><![CDATA[<p>I feel like this is something I want to write about here on the Nova Prime, not because it’s a joyful topic, or something that makes me happy, but because it’s an overall larger issue that I think’s been carried over from a website that’s trained a lot of people to kind of, mentally … disregard others, at all expense, for their own personal gain, or comfort. Am I saying that Twitter has accidentally spawned masses of narcissists? Not really. I don’t think a website and its use for over a decade can alter someone’s brain chemistry. Or … can it?</p>
-
-<p>But this is more about Bluesky, because, yes, again, we are seeing some undue angst and toxicity being slung toward the federated social network revolving around ActivityPub, or more exclusively, Mastodon, <em>because a lot of these people don’t know about</em> and <em>don’t care to</em> discover the rest of it. I’ve seen this happen <em>pretty much</em> every other day since Twitter had its last excursion, and then the more recent Brazilian excursion. People, basically, celebrating what they themselves believe to be a <em>better</em> platform, and for all intents and purposes, they can do that (even if that platform is a corporate owned entity no better than Twitter)! But, for whatever reason, it’s <em>always</em> followed by also dunking on people who are minding their own business on the Fediverse. For …</p>
-
-<p>Reasons!</p>
-
-<p>I want to preface this with something, before I dive into the biggest offenses I’ve seen: I was invited to join Bluesky back when the doors were still closed. Back when it was still an exclusive club, and being more familiar with Mastodon, than Bluesky, I was pretty used to … let’s say, people kinda more actually giving a shit about what they say, when they say it, and how they address others. Much to my dismay, I quickly learned that this is <em>not</em> the average Bluesky experience. Because I didn’t save any screenshots from when it happened, and I don’t feel like reliving every intricacy of what exactly went on, I’ll be brief, and explain as simply as possible what took place.</p>
-
-<p>I started following people in and adjacent to the LGBTQ+ community, and, as you know, some people like to post with complete abandon, and zero regard. A “popular” account, attached to a, then, popular block and mute list creator, used a slur to describe people like her, and people like me, openly, just right on the timeline. Feeling kind of jolted by this, and largely due-in-part to some trauma I’ve had in the past, I asked if it was completely necessary to do that. Or, if some kind of warning could’ve happened (no, I am not talking about the word “Queer”, just so we’re straight on that).</p>
-
-<p>This was, apparently, <em>not the right thing to ask</em>.</p>
-
-<p>It was my first <em>week</em> on Bluesky, and I was dogpiled, I was harassed, I was <em>mocked</em> for being traumatized by past events that I had no control over, because of who I was, and how I presented myself to the world (you know, instances of events where harm did, or could have come upon my person).</p>
-
-<p>I had multiple users jump <em>directly</em> into my notifications to make sure I knew that <em>nobody cares</em> about how I feel, about my <em>feelings</em>, and that my experiences mean nothing. That I am alone, and I have to deal with it myself, while others speak, and do as they please.</p>
-
-<p>As you can probably guess, I was a mess around this point. I was kind of … reeling. Flashbacks, trauma, anxiety; Feeling like I’d just joined a social network absolutely <em>full</em> of sociopaths.</p>
-
-<p>Flash forward a year, and both of those original accounts have been pushed off of the website, because, you guessed it: They’re both abusive people that were given too much benefit of the doubt.</p>
-
-<p><strong>Who could have guessed.</strong></p>
-
-<p>Now: Could I have avoided all of this by just <em>unfollowing</em> the offending account or accounts? Sure. But also I don’t think it’s a lot to ask that people take harmful things, and put them behind a warning. Which is something that usually happens on Mastodon, because, I guess, a larger number of Mastodon users care about other people more than your average Bluesky user?</p>
-
-<p>I don’t know. I don’t know if it’s a good idea to generalize a whole website of people. But! Impressions were made, and <em>set</em>.</p>
-
-<p>Now, here we are today. Another gaggle of people rejoicing at the growth Bluesky is experiencing due to X being banned in Brazil. Which is good! A website that is owned and operated by a corporate entity, and sponsor, <em>needs</em> growth in order to eventually make money. And, like clockwork, with all of that <em>also</em> comes the random dunking of people who use a much older federated network, that’s been around since the internet took off. You already know what I’m talking about, so we’ll just dive right into this, again (I posted about this on my Mastodon account, but I feel like it needed more picking apart).</p>
-
-<center>
-<img alt="an image where a Bluesky user asserts that compiling a Linux kernel is easier than joining Mastodon" src="/img/posts/busky3/kernal_hard.png" />
-</center>
-
-<p><br /></p>
-
-<p>As a lot of people who read what I write here probably already know, I’m <em>very</em> passionate about the deconstruction of centralized social media, and the corporate internet. So much so, that I have two machines that run Linux, one that runs MacOS, and none that run Windows. Most of my online activity is on some <em>kind</em> of open-source software, and the corporate tech I <em>do</em> interact with is … limited, and usually only for the benefit of what I create, or compose, or make.</p>
-
-<p>Now, I <em>use</em> Linux, and I am by no means a Linux genius, so when I see someone talking about compiling a Linux kernel, I’m not entirely sure how they’d accomplish that. I’ve never done it, nor ever considered it. But! I am under the impression that you <em>need some</em> knowledge of the C programming language, and its compilers.</p>
-
-<p>Imagine saying that you need a degree in computer science to choose a Mastodon instance, and to make sure you’re choosing one with a competent moderation policy, and fully meaning that, wholeheartedly, with a straight face. And to say that in response to someone, <em>basically</em> saying that, your onboarding process for a social network needs to be entirely smooth, without friction, or people will immediately abandon it and just give their data back to their corporate overlords.</p>
-
-<p>I <em>don’t want</em> to believe that a mass majority of people are so intellectually <em>lazy</em> that they’d refuse to spend sixty seconds looking at the splash page of a Mastodon instance and going, “Hmm. Okay, so they ban nazis and they’re okay with gay and trans people, awesome!” I <em>do</em> want to believe that this is just a popular narrative among people who have little specific agendas in mind, but that’s probably too conspiracy theorist to even begin speaking about.</p>
-
-<p>Like I said in my Mastodon post on this topic, <em>leaving Twitter behind</em> is already creating friction in your social media existence. That a little more is too much, is just ridiculous. People are more happy to jump directly into the arms of another corporation, because all they have to do is write down a username and a password and then forget about it?</p>
-
-<p>Nah, you can’t be <em>serious</em>, my guy.</p>
-
-<p>But, this all isn’t even the biggest offense in what’s essentially a huge thread of people dunking on the fediverse, again, <em>for no reason</em> (I would link to it, but I honestly deactivated my mainline Bluesky account after seeing all of this and I have no interest in visiting their domain, again).</p>
-
-<center>
-<img alt="an imagine of two Bluesky users sharing the exasperation with ... being expected to care about other people on the fediverse." src="/img/posts/busky3/empathy_hard.png" />
-</center>
-
-<p><br /></p>
-
-<p><em>This</em>. This freakin’ attitude again.</p>
-
-<p>“Other people’s feelings aren’t my problem! I don’t care about THEM?! GOD.”</p>
-
-<p>Do you know how difficult it is to push the “CW” button on Mastodon, and then type your post?</p>
-
-<p>It’s not hard.</p>
-
-<p>It’s also not hard to consider other people when you’re going about your daily life and making decisions.</p>
-
-<p><em>It is not hard</em>. You cannot convince me that it is.</p>
-
-<p>All this continued attitude from Bluesky proves to me, is that Mastodon users … somehow care <em>more</em> about the people around them, than <em>maybe</em> your average user on Bluesky. Which is fucked up. Because the Fediverse has its own issues with nazi instances cropping up at random, and abusive people block evading, and so on, and so forth. But to <em>think</em> it’s a DUNK, that on Bluesky, you’re <em>not expected</em> to express empathy for others.</p>
-
-<p>Guys.</p>
-
-<p>Guys, I think I’m gonna barf into my shoes, and then piss my pants.</p>
-
-<p>I’m just <em>utterly</em> confused about how we’ve gotten to this point. <em>to this crossroads</em>, where two different websites are having fights with each other, and one of the <em>main</em> points of argument is that … it’s too hard to care about other people.</p>
-
-<p>I dunno, fellas, maybe I was right in the first paragraph.</p>
-
-<p>Needless to say, I don’t really want much to do with Bluesky, and I’m <em>sure</em> there are perfectly normal and perfectly fine people on the website. But, for the past <strong>year</strong> this has been a trend, an attitude, that I have <em>only seen</em> coming from Bluesky.</p>
-
-<p>That’s a red flag.</p>
-
-<p>A continuous, never-ending red flag, that just keeps waving and waving.</p>
-
-<p>I <em>can’t wait</em> for the “I deleted my Bluesky account today” posts that will inevitably begin cropping up across the Fediverse. Because, federated social media and the federated internet, <em>is the future</em>, whether Jay at BSKY wants to acknowledge it, or not.</p>
-
-<center>
-<img alt="the ceo of bluesky explaining how you can use a domain for your username, as if this is a new feature the internet has never seen before" src="/img/posts/busky3/jay.png" />
-</center>
-<p><br /></p>
-
-<p>Kay, I’m done.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[I feel like this is something I want to write about here on the Nova Prime, not because it’s a joyful topic, or something that makes me happy, but because it’s an overall larger issue that I think’s been carried over from a website that’s trained a lot of people to kind of, mentally … disregard others, at all expense, for their own personal gain, or comfort. Am I saying that Twitter has accidentally spawned masses of narcissists? Not really. I don’t think a website and its use for over a decade can alter someone’s brain chemistry. Or … can it?]]></summary></entry></feed>
+<p>What I <em>do</em> know, is that you don’t have to pay companies continuously for something that can be made for you in a couple of hours, or that you can make <em>yourself</em> in a couple of hours, and then have <em>full control over</em>. And if you <em>really</em> need automated control of all of your accounts at once, I’m <em>sure</em> there’s a better way to do it, than paying some company that’s gone all-in on AI, six hundred dollars a mother-frikken <em>year</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[A while back, I put up a post about Bluesky announcing their partnership with cross-posting company, “Buffer” (Yes, I’m aware that it’s starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they say it’s just an option you can utilize with writing posts … based on how OpenAI has been conducting themselves, I don’t fully trust any company that thinks it’s a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!]]></summary></entry></feed>
