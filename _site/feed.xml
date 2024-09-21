@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T23:01:35-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">LinkedIn Attempts to Yoink Your Data</title><link href="http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html" rel="alternate" type="text/html" title="LinkedIn Attempts to Yoink Your Data" /><published>2024-09-19T20:23:00-04:00</published><updated>2024-09-19T20:23:00-04:00</updated><id>http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html"><![CDATA[<p>If you haven’t heard by now, <a href="https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/" target="_blank">LinkedIn suddenly implemented a “feature” into their social network that automatically opts you into allowing them to use all of your data for AI training</a>. To top it off, they’ve done this <em>before</em> altering their terms of service. So, technically, nobody’s agreed to this. But! We all know the people behind large learning models <em>absolutely</em> do not know what consent is.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-21T12:11:47-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Scrobbling is My New Favorite Hobby</title><link href="http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html" rel="alternate" type="text/html" title="Scrobbling is My New Favorite Hobby" /><published>2024-09-21T11:42:00-04:00</published><updated>2024-09-21T11:42:00-04:00</updated><id>http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html"><![CDATA[<p>Back in 2012, and I don’t even remember how I went about it, I spent enormous amounts of time scrobbling my music listening habits to <a href="https://www.last.fm/user/cmdr_nova" target="_blank">Last.fm</a>. This lasted into 2014, and I am at least <em>semi</em> certain I started using Spotify for this. How I did before that time … I think I must’ve been using Winamp to track things I was listening to.</p>
+
+<p>Yes. That’s it.</p>
+
+<p>Then I eventually created a new account for my musical presence under <em>Eyeshadow 2600 FM</em> and scrobbled into the 30,000s, and, like with my original account, eventually stopped doing this, as well. I also don’t really have any interest in reviving the ES2600FM Last.fm account, but that’s more to do with the piss-poor online synthwave community than anything (bullying, harassment, stalking, black-listing, etc).</p>
+
+<p>Now we’ll snap into 2024, like a time machine, and I’m back at it again scrobbling on Last.fm, because it’s <em>much</em> simpler to do now. But, I’m mostly doing this because I found this little open source project that’s <em>like</em> Last.fm, but more like an entire open-web social media network of your listening habits, a Wiki that documents <em>every song ever</em>, and even an app you can use on your PC to submit meta-data to their database.</p>
+
+<p>It’s honestly pretty wild, and I only discovered it because of a side-account I made via the Fediverse on <a href="https://kitsunes.club/@foxx_nova" target="_blank">kitsunes.club</a>. Have I mentioned that Sharkey (a misskey fork) is really cool, and I’m <em>half</em> considering using it as a primary and dropping the costs of hosting my own instance (I’m still not sure about this, though, because I <em>have</em> to have some kind of account on a Mastodon server, if only to at least have a place to link my posts here so that I can have comments)?</p>
+
+<p>But anyway, the database is at <a href="https://musicbrainz.org" target="_blank">MusicBrainz</a>, and once you’ve made an account there, you can head over to <a href="https://listenbrainz.org" target="_blank">ListenBrainz</a>, and then connect all of your music-listening apps. By doing this, you can scrobble to Last.fm, <em>and</em> directly to ListenBrainz, where your tastes, history, listening trends and habits all become part of this little … social network of <em>everyone’s</em> listening habits. It’s, again, really <em>cool</em>.</p>
+
+<p>If you’ve gotten past all of that, and you <em>still</em> want more, and <em>also</em> have a digital music collection just sitting on your PC collecting dust, you can then grab <a href="https://picard.musicbrainz.org" target="_blank">Picard</a>, and catalogue your collection from your hard drive directly to MusicBrainz.</p>
+
+<p>The best part about all of this, is that it can be <em>mostly</em> entirely automatic, requiring little input from the user, depending on <em>what</em> you use for music.</p>
+
+<p>I definitely recommend anyone who regularly listens to music to give all of this a try, and also <a href="https://listenbrainz.org/user/foxx_nova" target="_blank">follow me</a> on ListenBrainz! Let’s compare our musical taste!</p>
+
+<p>Anything that makes it feel like it’s still 2000 to 2010 internet is a-okay in my book.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Back in 2012, and I don’t even remember how I went about it, I spent enormous amounts of time scrobbling my music listening habits to Last.fm. This lasted into 2014, and I am at least semi certain I started using Spotify for this. How I did before that time … I think I must’ve been using Winamp to track things I was listening to.]]></summary></entry><entry><title type="html">LinkedIn Attempts to Yoink Your Data</title><link href="http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html" rel="alternate" type="text/html" title="LinkedIn Attempts to Yoink Your Data" /><published>2024-09-19T20:23:00-04:00</published><updated>2024-09-19T20:23:00-04:00</updated><id>http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html"><![CDATA[<p>If you haven’t heard by now, <a href="https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/" target="_blank">LinkedIn suddenly implemented a “feature” into their social network that automatically opts you into allowing them to use all of your data for AI training</a>. To top it off, they’ve done this <em>before</em> altering their terms of service. So, technically, nobody’s agreed to this. But! We all know the people behind large learning models <em>absolutely</em> do not know what consent is.</p>
 
 <p>Real quick, how to turn it off:</p>
 
@@ -216,69 +234,4 @@ Ripped directly from the RSS feed:</p>
 
 <p>Once you have the page, and access to it, if you decide you want things changed, I can <em>also</em> do that. But, I <em>would</em> encourage buyers to look into the code used to build their link pages, and see if you can fiddle with changing things yourself (learning is fun!). I have them all setup with the simplest CSS and HTML possible, and if you use a program like VS Code, switching colors around in a CSS file is <em>even easier</em>. And, if you mess things up, I will have a backup of everything I do right here on my PC.</p>
 
-<p>So, come on over, <em>and plant your own garden</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Today, I spent the equivalent of around ten hours of work (on my day off, no less), designing and developing a new kind of “side service” I wanted to offer to people who: Don’t have the time, or don’t want to learn HTML and CSS, and who want to separate themselves from corporate media, just a little bit, even if it’s just to stop paying services like Linktree a monthly fee.]]></summary></entry><entry><title type="html">I Gave Buffer a Shot: I Have Thoughts</title><link href="http://localhost:4000/tech/2024/09/07/i-gave-buffer-a-shot-i-have-thoughts.html" rel="alternate" type="text/html" title="I Gave Buffer a Shot: I Have Thoughts" /><published>2024-09-07T21:59:00-04:00</published><updated>2024-09-07T21:59:00-04:00</updated><id>http://localhost:4000/tech/2024/09/07/i-gave-buffer-a-shot-i-have-thoughts</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/07/i-gave-buffer-a-shot-i-have-thoughts.html"><![CDATA[<p>A while back, I put up <a href="/social media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us">a post about Bluesky</a> announcing their partnership with cross-posting company, “Buffer” (Yes, I’m aware that it’s starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they <em>say</em> it’s just an option you can utilize with writing posts … based on how OpenAI has been conducting themselves, I don’t fully trust <em>any</em> company that thinks it’s a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!</p>
-
-<p>Here are my thoughts.</p>
-
-<center>
-<img src="/img/posts/buffer2/posts.png" alt="screen from the Buffer website, showcasing organized posts I've made across Mastodon on a calendar." />
-</center>
-<p><br /></p>
-
-<p>The website itself is very well organized, you can connect your socials, and it even has a calendar that displays … <em>everything</em> you’ve ever posted on your connected accounts, chronologically by time and date (which … is actually pretty <em>worrying</em> if you don’t think they’re using that OpenAI tech ethically), and you can do a few other things. Such as, you can create a “start” page, which is just a rip of Link-tree. The downside, is that creating a Buffer version of Link-tree takes up one of your social connections.</p>
-
-<p>But, how <em>many</em> are you allowed to connect on a free account?</p>
-
-<p>Three.</p>
-
-<p>Or, if you want a page with all your links provided by Buffer, essentially, you can connect <em>two</em> accounts.</p>
-
-<p>So, basically, if you’re using the free Buffer plan, you may as well not even be there. If you can’t manage two accounts without the help of some software … geez, dude.</p>
-
-<p>Okay, but how much does it cost to upgrade to have <em>more</em> connections.</p>
-
-<p>Short answer: Way to goddang much.</p>
-
-<p>Long answer:</p>
-
-<p>You can actually opt to start paying them fifteen dollars a month for the three accounts you’ve already connected, and have a few added features. Or, you can connect four accounts for twenty dollars, or five accounts for twenty-five dollars, or … a whopping fifty dollars for ten accounts! For a frame of reference, I have around eleven or twelve accounts I use across different networks, some alts, some not-so-much. They say, on the subscription page, that this is all “the most value for an individual creator …”</p>
-
-<p>An <em>individual</em> creator? Paying, fifty dollars a month for ten accounts, <em>as long as you’re paying on a yearly basis</em>.</p>
-
-<center>
-<img src="/img/posts/buffer2/value.png" alt="A screenshot from the Buffer website depicting having to paying 600 dollars total, or 50 dollars a month, for the ability to connect 10 accounts to their service." />
-</center>
-<p><br /></p>
-
-<p>Bro …</p>
-
-<p>Okay, so <em>obviously</em> this has gotta be some kind of marketing that’s specifically targeting creators who are <em>already</em> making money from what they do online. For fifty dollars a month, if paid yearly, or <em>sixty dollars</em> on a monthly basis, for <em>ten</em> accounts, you could, instead, subscribe to Apple+ and Netflix, and have some entertainment instead. And then just manage your accounts <em>yourself</em>. All with the added benefit of not potentially feeding everything <em>you’ve ever posted</em> into some OpenAI crap.</p>
-
-<p>Which, take a look at this: Are mentioned <em>multiple</em> times on the publishing and scheduling box.</p>
-
-<center>
-<img src="/img/posts/buffer2/ai.png" alt="A screenshot from the Buffer website's publishing window, depicting their AI assistant being mentioned twice just pixels away from each other." />
-</center>
-<p><br />
-“Use AI assistant!” Also, did you want help publishing with the “AI Assistant?”</p>
-
-<p>Because <em>everyone on social media knows</em> that using AI to generate your words totally doesn’t make you look like a completely fake tool-bag.</p>
-
-<p>So, instead of using Buffer, I’ve opted to just manage the couple of accounts I use the most … <em>myself</em>. No, you guys aren’t getting fifteen, or twenty, or <em>fifty</em> dollars out of me.</p>
-
-<p>But, I <em>did</em> really like their “start page” link aggregator. And, since they’re so hyper-vigilant about AI generated plagairism, I’m sure they won’t mind if I just … rip out the code of their link page, delete all the link trackers, place the CSS into its own file (because why the hell do you have it on the same page as the content?), rename all the modules to something humorous, enlarge the profile picture, increase the vertical size of the banner gif, change all of the colors, replace their icons with <a href="https://phosphoricons.com" target="_blank">Phosphor</a> icons, and replace their crappy static “update” section that doesn’t even serve clickable links, with … A live feed of my blog’s RSS (courtesy of Brenton Fletcher’s <a href="https://rss.bloople.net" target="_blank">rss.bloople.net</a>)</p>
-
-<p>See it, here: <a href="https://nova.mkultra.monster/linkgarden/" target="_blank">CMDR Nova’s Linkgarden</a>.</p>
-
-<p>Buffer version on the left, my version on the right.</p>
-
-<center>
-<img src="/img/posts/buffer2/links.png" alt="A screenshot of Buffer's link page versus my link page, styled similar, but also completely different." />
-</center>
-<p><br /></p>
-
-<p>But here’s the thing, if you <em>really</em> want, or <em>need</em> a page of all of your links that you can easily just hand to someone like a business card, you can <em>build one yourself</em>, or, if you really don’t have the time, or want to learn HTML and CSS, I can just make it <em>for you</em>. I’m actually going to put together some examples of what a “linkgarden” could look like if I made one, and gave it to someone, and provide information on free hosting. Or, hey, maybe I could set that up for people too?</p>
-
-<p>I don’t know.</p>
-
-<p>What I <em>do</em> know, is that you don’t have to pay companies continuously for something that can be made for you in a couple of hours, or that you can make <em>yourself</em> in a couple of hours, and then have <em>full control over</em>. And if you <em>really</em> need automated control of all of your accounts at once, I’m <em>sure</em> there’s a better way to do it, than paying some company that’s gone all-in on AI, six hundred dollars a mother-frikken <em>year</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[A while back, I put up a post about Bluesky announcing their partnership with cross-posting company, “Buffer” (Yes, I’m aware that it’s starting to look like I have multiple topics that are an ongoing series on this website). I also detailed how this was a bad move, because Buffer is using OpenAI tech in their backend, and even though they say it’s just an option you can utilize with writing posts … based on how OpenAI has been conducting themselves, I don’t fully trust any company that thinks it’s a good idea to use their tech. Regardless, since I run a lot of different social media accounts, and I thought it could make things easier for me, like when I write blog posts, or have new music, I decided to give it a whirl!]]></summary></entry></feed>
+<p>So, come on over, <em>and plant your own garden</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Today, I spent the equivalent of around ten hours of work (on my day off, no less), designing and developing a new kind of “side service” I wanted to offer to people who: Don’t have the time, or don’t want to learn HTML and CSS, and who want to separate themselves from corporate media, just a little bit, even if it’s just to stop paying services like Linktree a monthly fee.]]></summary></entry></feed>
