@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113176429188135844
 ---
 
 Back in 2012, and I don't even remember how I went about it, I spent enormous amounts of time scrobbling my music listening habits to <a href="https://www.last.fm/user/cmdr_nova" target="_blank">Last.fm</a>. This lasted into 2014, and I am at least *semi* certain I started using Spotify for this. How I did before that time ... I think I must've been using Winamp to track things I was listening to.
