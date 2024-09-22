@@ -4,17 +4,18 @@ title: About
 permalink: /pages/about/
 ---
 
-***I'm current running a [Gofundme](https://www.gofundme.com/f/help-ryan-overcome-his-debt-crisis){:target="_blank"} to try and get out of debt that was set upon me by animal vets, please consider donating.***
+***I'm currently running a [Gofundme](https://www.gofundme.com/f/help-ryan-overcome-his-debt-crisis){:target="_blank"} to try and get out of debt that was set upon me by animal vets, please consider donating.***
 
 <!-- <img src="/img/selfie/ryan_2024.png" align="left" hspace="5" vspace="5"> -->
 
 ░ In the year 1985, a machine was born. Crawling from the circuitry, bursting from the nether. Exploding from the, … uh, TIME AND SPACE CONTINUUM.
 
 ░ Stats
-
- - Name: Nova
+ - Name: Nova, Ryan
  - Age: 39
- - Gender: Unknown
+ - Gender: Nonbinary
+ - Pronouns: They/them, any/all
+ - Sexuality: Pansexual
  - Nationality: European
  - Specialty: SysAdmin, WebDev, Writer, Sound Designer
 
