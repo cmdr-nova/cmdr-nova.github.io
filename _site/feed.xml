@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-21T22:04:40-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Scrobbling is My New Favorite Hobby</title><link href="http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html" rel="alternate" type="text/html" title="Scrobbling is My New Favorite Hobby" /><published>2024-09-21T11:42:00-04:00</published><updated>2024-09-21T11:42:00-04:00</updated><id>http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html"><![CDATA[<p>Back in 2012, and I don’t even remember how I went about it, I spent enormous amounts of time scrobbling my music listening habits to <a href="https://www.last.fm/user/cmdr_nova" target="_blank">Last.fm</a>. This lasted into 2014, and I am at least <em>semi</em> certain I started using Spotify for this. How I did before that time … I think I must’ve been using Winamp to track things I was listening to.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-23T17:41:50-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">You’ve Heard of Misskey, Now Get Ready for Sharks</title><link href="http://localhost:4000/social%20media/2024/09/23/you-ve-heard-of-misskey-now-get-ready-for-sharks.html" rel="alternate" type="text/html" title="You’ve Heard of Misskey, Now Get Ready for Sharks" /><published>2024-09-23T17:06:00-04:00</published><updated>2024-09-23T17:06:00-04:00</updated><id>http://localhost:4000/social%20media/2024/09/23/you-ve-heard-of-misskey-now-get-ready-for-sharks</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/09/23/you-ve-heard-of-misskey-now-get-ready-for-sharks.html"><![CDATA[<p>For the longest time, I’ve spent most of my fediverse posting hours on the Mastodon software. It’s <em>basically</em> almost all I know. You know, aside from those times I launched a GNU Social instance, and then a very short-lived Pleroma instance. GNU Social is a lot like if someone made an open source Facebook, and Pleroma is okay, but it was originally made by <em>a terrible person</em> (not that this should stop you from doing whatever you want, with your time, and servers).</p>
+
+<p>Then there was Misskey. Something I never really explored all that much, because the flagship instance, based in Japan, <em>outright</em> bans western users from even so much as <em>registering</em> on the instance. I tried to look up reasons as to why this is so, and all I could really find were reactionary Americans saying, “It’s because woke bad, and Japan don’t not no like that, bro?”</p>
+
+<p>But, like other pieces of fediverse/activitypub software, Misskey’s got some forks. A lot of forks.</p>
+
+<center>
+<img src="/img/posts/sharkey/matrix-gun.gif" alt="an animated gif from the scene in The Matrix where Neo and Trinity are in a blank white room, and infinite racks of guns race up to them." />
+</center>
+<p><br /></p>
+
+<p>I’m not exactly sure <em>why</em> this is, but that’s the beauty of open source software. You can jack a piece of it for yourself, and then completely rework it to fit your wants and needs.</p>
+
+<p>Enter: <a href="https://activitypub.software/TransFem-org/Sharkey#findaninstance" target="_blank">Sharkey</a>.</p>
+
+<p>I was trying to find a comprehensive reason as to <em>why</em> Misskey was forked, and then transformed into Sharkey, but mostly all I could really find was this general statement:</p>
+
+<blockquote>
+  <p>Sharkey is a Misskey fork following upstream changes when possible, with added features. Like any other ActivityPub software Sharkey can interface with the thousands of servers that form the fediverse, an interconnected social network, working in tandem with software such as Akkoma, Mastodon, Pixelfed and many more.</p>
+</blockquote>
+
+<p>Which is fine! I’ll also note that Sharkey seems to be centered around trans-feminine users and themes, which is also cool.</p>
+
+<p>The fediverse, at least on the Mastodon side, kind of has this reputation that it’s full of, and <em>made for</em> tech geek dude type people. Which, I’ve detailed before, was really only the case back in like, 2016. I’d say <em>now</em>, as in 2024, the fediverse overall is very populated by the LGBTQ+ community, and all sorts of people and walks-of-life, in-general.</p>
+
+<p>But what’s it like?</p>
+
+<p>Oh, it’s cool. It’s <em>pretty</em> cool.</p>
+
+<center>
+<img src="/img/posts/sharkey/sharkey.png" alt="A screenshot of my feed on a Sharkey instance, showcasing all the columns and many buttons and options you can utilize." />
+</center>
+<p><i>Names in the notification tab blurred in order to preserve privacy.</i>
+<br /></p>
+
+<p>Right away, you can see that this is a hell of a lot not like Mastodon <em>at all</em>. You’ve got the ability to post, of course, but you have <em>full control</em> over the UI, everything can be customized, trending topics update <em>live</em>, all of your files are able to be seen in an account-based “drive,” and did I mention you could have all the links you want on your profile page?</p>
+
+<p>And, I feel like one of the main draws of Misskey and its forks, are the many, <em>many</em> emoji reactions you can use on posts that readily replace the tired old fave button.</p>
+
+<p>So, basically, it’s kind of like Mastodon, but it’s more fun, and heavily customizable.</p>
+
+<p>In fact, I feel Misskey is really aiming for self expression, and appealing to creative types.</p>
+
+<p>My dilemma, is that I like this <em>so much</em> that I kind of want to use it more than my <em>own</em> instance, and I’ve even considered halting payments on a Mastodon server, and just migrating everything I do to the Sharkey instance I’m on, because … why not!?</p>
+
+<p>But, at the same time, my Mastodon instance has a really sweet domain (the same one this website uses), and I’ve been using it for about a year now. I just don’t know for sure if I want to abandon that. Even if I decided to move the domain to my own hosted Sharkey instance, I’d still <em>lose</em> some data in that process. Not my posts though. Every <em>single thing</em> I’ve ever posted on my instance is copied and backed-up in a Google drive document.</p>
+
+<p>Whatever I end up choosing to do with my time and my posting, you should check out Sharkey for yourself! Here are some instances to check out:</p>
+
+<ul>
+  <li><a href="https://blahaj.zone" target="_blank">blahaj.zone</a></li>
+  <li><a href="https://transfem.social" target="_blank">transfem.social</a></li>
+  <li><a href="https://mk.absturztau.be" target="_blank">mk.absturztau.be</a></li>
+  <li><a href="https://kitsunes.club" target="_blank">kitsunes.club</a></li>
+</ul>
+
+<p>You can check out more instances, <a href="https://fedidb.org/software/sharkey" target="_blank">here</a>, but I <em>highly</em> recommend investigating them before face-planting your keyboard and hitting that join button. Like with all fediverse software, it’s all run by regular people. And some regular people are … <em>not using fediverse software for good things</em> (I don’t want to be the reason you accidentally join a server for Nazis that everyone, their Mom, and admin have blocked, suspended, and silenced).</p>
+
+<p>Otherwise, thanks for reading! I look forward to exploring <em>even more</em> of the fediverse, eight years on!</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[For the longest time, I’ve spent most of my fediverse posting hours on the Mastodon software. It’s basically almost all I know. You know, aside from those times I launched a GNU Social instance, and then a very short-lived Pleroma instance. GNU Social is a lot like if someone made an open source Facebook, and Pleroma is okay, but it was originally made by a terrible person (not that this should stop you from doing whatever you want, with your time, and servers).]]></summary></entry><entry><title type="html">Scrobbling is My New Favorite Hobby</title><link href="http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html" rel="alternate" type="text/html" title="Scrobbling is My New Favorite Hobby" /><published>2024-09-21T11:42:00-04:00</published><updated>2024-09-21T11:42:00-04:00</updated><id>http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html"><![CDATA[<p>Back in 2012, and I don’t even remember how I went about it, I spent enormous amounts of time scrobbling my music listening habits to <a href="https://www.last.fm/user/cmdr_nova" target="_blank">Last.fm</a>. This lasted into 2014, and I am at least <em>semi</em> certain I started using Spotify for this. How I did before that time … I think I must’ve been using Winamp to track things I was listening to.</p>
 
 <p>Yes. That’s it.</p>
 
@@ -214,24 +272,4 @@ Ripped directly from the RSS feed:</p>
 
 <p>I think <em>anyone</em> with an ounce of morals, who know the societal and environmental impacts of AI, should go here and tell Mozilla exactly how you feel about them trying to shove AI into Firefox. Of all the browsers, I <em>never</em> would have expected a so-called privacy focused company to jump onto a trend that’s all about plagiarism and ripping people off. And that’s aside from the detrimental effects that could be caused by allowing space for scrapers <em>in the browser you use</em> on a daily basis.</p>
 
-<p>Stand alongside artists, writers, musicians, and developers, <a href="https://connect.mozilla.org/t5/discussions/share-your-feedback-on-the-ai-services-experiment-in-nightly/m-p/68389" target="_blank">and tell them, <em>“No.”</em></a></p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Hey folks! Not a huge update today, but someone on my Mastodon timeline shared a post in regards to Mozilla asking for feedback on their incoming “AI toolbar.”]]></summary></entry><entry><title type="html">Plant Your Own Garden</title><link href="http://localhost:4000/tech/2024/09/08/plant-your-own-garden.html" rel="alternate" type="text/html" title="Plant Your Own Garden" /><published>2024-09-08T19:13:00-04:00</published><updated>2024-09-08T19:13:00-04:00</updated><id>http://localhost:4000/tech/2024/09/08/plant-your-own-garden</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/08/plant-your-own-garden.html"><![CDATA[<p>Today, I spent the equivalent of around ten hours of work (on my day off, no less), designing and developing a new kind of “side service” I wanted to offer to people who: Don’t have the time, or don’t <em>want</em> to learn HTML and CSS, and who want to separate themselves from corporate media, <em>just a little bit</em>, even if it’s just to stop paying services like Linktree a monthly fee.</p>
-
-<p>So, today I am unveiling, <a href="/linkgarden/for_you" target="_blank">LinkGarden</a>.</p>
-
-<p>Plant your own garden … of links!</p>
-
-<p><img src="/img/for-you/examples.png" style="align:center;" /></p>
-
-<p>I detail the service on the page, but I’ll write about it here, as well, except, maybe in a more extended fashion. I’m offering this for eighty bucks. You pay me, then contact me, and I’ll get your page together, and even make you a Neocities where it can be hosted (hosted, completely for free). Of course, once I hand over the credentials, you’ll be responsible for changing your password. But, that’s a given!</p>
-
-<p>You <em>can</em> request to use a custom domain, but this is a little more involved, in that, we’ll need to figure out if you’re buying the domain, and if you <em>know</em> how to setup the DNS. If not, I certainly know how to do this, but I <em>also</em> don’t have access to your domain admin panels.</p>
-
-<p>I’m doing this, though, because, I want to show people that they can have all the frills of a Linktree, <em>without</em> a Linktree. I can do it for you, easy-peasy, and in about an hour.</p>
-
-<p>Now, obviously, if you want <em>really</em> extensive, or more complicated stuff (more javascript, animated buttons that do more than just click and highlight, and so on and so forth), that would obviously take <em>more than an hour</em> to setup. Then, yes, we’ll have to negotiate pricing a little bit (right now my day job takes up so much of my time it’s ridiculous). Consider this though, if you currently pay monthly for a Linktree, or some other such service, and you’ve been doing so for a long time, how much have you paid them, in total? Probably less than what it’d cost for me to do this for you, right?</p>
-
-<p>But I’m also doing this, because <em>you should</em> own your own piece of the internet. A place where a bunch of suits <em>aren’t</em> tracking your every move, where people can come and see what you’re all about, quickly, and easily. Maybe sometime in the future I’ll offer to build people entire websites! But, I don’t think that’s a venture I want to spend another ten hours preparing right now (I have some people in VR I want to visit tonight).</p>
-
-<p>Once you have the page, and access to it, if you decide you want things changed, I can <em>also</em> do that. But, I <em>would</em> encourage buyers to look into the code used to build their link pages, and see if you can fiddle with changing things yourself (learning is fun!). I have them all setup with the simplest CSS and HTML possible, and if you use a program like VS Code, switching colors around in a CSS file is <em>even easier</em>. And, if you mess things up, I will have a backup of everything I do right here on my PC.</p>
-
-<p>So, come on over, <em>and plant your own garden</em>.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Today, I spent the equivalent of around ten hours of work (on my day off, no less), designing and developing a new kind of “side service” I wanted to offer to people who: Don’t have the time, or don’t want to learn HTML and CSS, and who want to separate themselves from corporate media, just a little bit, even if it’s just to stop paying services like Linktree a monthly fee.]]></summary></entry></feed>
+<p>Stand alongside artists, writers, musicians, and developers, <a href="https://connect.mozilla.org/t5/discussions/share-your-feedback-on-the-ai-services-experiment-in-nightly/m-p/68389" target="_blank">and tell them, <em>“No.”</em></a></p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Hey folks! Not a huge update today, but someone on my Mastodon timeline shared a post in regards to Mozilla asking for feedback on their incoming “AI toolbar.”]]></summary></entry></feed>
