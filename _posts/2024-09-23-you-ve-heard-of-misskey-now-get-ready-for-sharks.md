@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113189052390670239
 ---
 
 For the longest time, I've spent most of my fediverse posting hours on the Mastodon software. It's *basically* almost all I know. You know, aside from those times I launched a GNU Social instance, and then a very short-lived Pleroma instance. GNU Social is a lot like if someone made an open source Facebook, and Pleroma is okay, but it was originally made by *a terrible person* (not that this should stop you from doing whatever you want, with your time, and servers).
