@@ -463,12 +463,18 @@ pre > code {
   background-color: #111111d5;
   height: 20rem;
   overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   right: 0;
   border: 2px solid rgba(43, 43, 43, 0.404);
   border-radius: 10px;
   min-width: 260px;
   max-width: 260px;
   filter: drop-shadow(5px 5px rgba(255, 238, 1, 0.644));
+}
+
+.mastodon::-webkit-scrollbar {
+  display: none;
 }
   
   #mastodon article { 
