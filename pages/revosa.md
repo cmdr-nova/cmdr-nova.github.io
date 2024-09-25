@@ -3,11 +3,11 @@ layout: page
 title: "[REVOSA], My Second Life Store in the Virtual World"
 permalink: /pages/revosa/
 ---
-[REVOSA x AyaSys] [In-world location](http://maps.secondlife.com/secondlife/Gingivere/210/97/3996){:target="_blank"}
+[REVOSA x AyaSys] [In-world location](http://maps.secondlife.com/secondlife/Auriga/116/17/2003){:target="_blank"}
 
 [REVOSA] [Marketplace page](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}
 
-AyaSys [Marketplace page](){:target="_blank"}
+AyaSys [Marketplace page](https://marketplace.secondlife.com/en-US/stores/186986){:target="_blank"}
 
 ![a photo of my fennec avatar from 2014](/img/foxymeryl.png){: .image-right } 
 
