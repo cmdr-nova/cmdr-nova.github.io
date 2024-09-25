@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113200234814622987
 ---
 
 I, regrettably, have to talk about this by quoting from The Verge, but a couple of hours ago <a href="https://www.theverge.com/2024/9/25/24254042/mark-zuckerberg-creators-value-ai-meta" target="_blank">they published</a> a talk with the Zuck on Meta's AI, and the training data associated with it. To say that I'm a bit pissed off is an understatement.
