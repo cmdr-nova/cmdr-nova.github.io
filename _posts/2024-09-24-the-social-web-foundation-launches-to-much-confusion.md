@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113195986395195622
 ---
 
 Today, kind of just completely out-of-the-blue, this thing called "<a href="https://socialwebfoundation.org" target="_blank">The Social Web Foundation</a>" launched. Basically, this group of companies and corporations who are banding together to throw their hats together as a supporting web to build up ActivityPub and the Fediverse. Except ... It reads and feels a lot like, "We made this."
