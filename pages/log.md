@@ -4,6 +4,10 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 9/26/2024
+
+- changed the styling so that it better highlights blog posts, and added some sweet hover affects
+
 # # # 9/8/2024
 
 - created a new custom link aggregator service called 'linkgarden,' right here on the website
