@@ -40,7 +40,8 @@ creator of everything -->
 {% for post in paginator.posts %}
 
 
-  <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+  <a class="read-title" href="{{ post.url }}">{{ post.title }}</a>
+
   <p class="author">
     <i class="ph ph-pencil-line"></i> {{ post.author }}<br />
     <i class="ph ph-calendar"></i> {{ post.date |     date_to_string }}<br />
@@ -48,6 +49,8 @@ creator of everything -->
 
     <div class="excerpt">
       {{ post.excerpt }}
+
+      > > > <a href="{{ post.url }}">read more</a>
     </div>
 
     <p class="tag-tail">

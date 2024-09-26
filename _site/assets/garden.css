@@ -198,7 +198,7 @@ h1, h2, h3 {
 
 .links:hover {
   background-color: var(--button-bgcolor-hover);
-  transition; 0.7s;
+  transition: 0.7s;
   border-radius: 10px;
 }
 
