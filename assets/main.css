@@ -474,7 +474,7 @@ pre > code {
 }
 
 .mastodon::-webkit-scrollbar {
-  display: none;
+  display: none; /* All other browsers */
 }
   
   #mastodon article { 
