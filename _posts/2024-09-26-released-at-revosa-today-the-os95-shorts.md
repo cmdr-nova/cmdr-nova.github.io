@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113205416100308441
 ---
 
 Today, following the end of the month-long shopping event at the Progeny Mall, the Nano Nexus (OS95 Edition) shorts are now available at the store! These shorts continue a bit of a rejuvenated desire to keep my store running, by at least releasing something new *once a month*. As it turns out, pumping things out every other day was only ever really possible when I was without offline work.
