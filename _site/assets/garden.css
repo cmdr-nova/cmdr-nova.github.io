@@ -157,7 +157,6 @@ h1, h2, h3 {
   border-style: solid;
   border-color:var(--desc-border-color);
   border-radius:10px;
-
   color: var(--feed-text);
   padding: 16px;
   text-indent: 20px;

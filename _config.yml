@@ -39,8 +39,8 @@ plugins:
   - jekyll-remote-theme
   - jekyll-compress-images
 
-paginate: 10
-per_page: 10
+paginate: 5
+per_page: 5
 #paginate_path: "/blog/page:num/"
 
 future: true

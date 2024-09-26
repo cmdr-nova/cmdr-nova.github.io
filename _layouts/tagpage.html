@@ -2,12 +2,13 @@
 layout: default
 ---
 <div id="main">
-  <table>
+  <table class="center">
     <tr>
     <td>
 
-<div class="posty">
-<h1>Tag: {{ page.tag }}</h1>
+
+<a class="read-title" href="/"><i class="ph ph-skip-back" style="font-size: .9em;"></i> Tag: {{ page.tag }}</a>
+<br />
 <ul>
 {% for post in site.tags[page.tag] %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date |     date_to_string }})<br>
