@@ -60,11 +60,9 @@ So, here are some of those instances you can check out that are either LGBTQ+/Qu
 
 - [library.love](https://library.love/about){:target="_blank"} ::  LGBTQ* friendly. For library workers and library lovers.
 
-<!-- commenting hachyderm out for the time being, as I'm being told this instance has had issues with queer folks around the fediverse -->
+*The following instance provided by [@TheIdOfAlan@hachyderm.io](https://hachyderm.io/@TheIdOfAlan){:target="_blank"}*
 
-<!-- *The following instance provided by [@TheIdOfAlan@hachyderm.io](https://hachyderm.io/@TheIdOfAlan){:target="_blank"}*
-
-[hachyderm.io](https://hachyderm.io/about){:target="_blank"} :: a tech heavy instance that's LGTBQIA+ friendly. There's community docs for anyone looking to learn more: [community.hachyderm.io/docs/](https://community.hachyderm.io/docs/){:target="_blank"} -->
+- [hachyderm.io](https://hachyderm.io/about){:target="_blank"} :: a tech heavy instance that's LGTBQIA+ friendly. There's community docs for anyone looking to learn more: [community.hachyderm.io/docs/](https://community.hachyderm.io/docs/){:target="_blank"}
 
 *The following instances found by me, via searching through server lists.*
 
