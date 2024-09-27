@@ -16,7 +16,11 @@
   --svg-fill: #828282;
   --read-text: #c8ff00;
   --other-inset: #000000;
+  --main-inset: #141414bd;
   --post-link-text: #b5f81ad3;
+  --waifu-bg: #131313;
+  --site-bg: #1C1C1C;
+  --main-border: #131313;
 }
 
 /** Reset some basic elements */
@@ -67,7 +71,7 @@ span.post-meta {
 
 .waifu { 
   color:#00fc69;
-  background: #131313;
+  background: var(--waifu-bg);
   display:inline-block;
   padding:2px 7px;
   margin-bottom:10px;
@@ -86,7 +90,7 @@ body {
   color: #fff; 
   display: flex;
   flex-direction: column;
-  background-color: #1C1C1C;
+  background-color: var(--site-bg);
   -webkit-text-size-adjust: 100%;
   height: 100%;
   background-image: url("/img/bgstars2.gif");
@@ -113,11 +117,11 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 /** `main` element */
 
 #main {
-  background-color: #232425;
+  background-image: linear-gradient(to bottom, #232425, #232425, #222324, #585656);
   border-radius: 20px;
   border-style: solid; 
-  border-width: .02em;
-  border-color: #131313;
+  border-width: .05em;
+  border-color: var(--main-border);
   margin-top: 2px;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -128,6 +132,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   padding-right: 30px; 
   padding-left: 30px;
   filter: drop-shadow(5px 5px rgb(17, 17, 17));
+  box-shadow: inset 0 0 10px var(--main-inset);
 }
 
 @media only screen and (max-width: 480px) {
