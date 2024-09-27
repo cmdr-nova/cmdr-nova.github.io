@@ -34,7 +34,7 @@ So, here are some of those instances you can check out that are either LGBTQ+/Qu
 
 *Instance suggestion provided by [@spinach@girlcock.club](https://girlcock.club/@spinach){:target="_blank"}*
 
-- [girlcock.club](https://girlcock.club/about){:target="_blank"} :: sex work safer, and (obviously) LGBTQ+ friendly
+- [girlcock.club](https://girlcock.club/about){:target="_blank"} :: sex work safe, and (obviously) LGBTQ+ friendly
 
 *Instance suggestion provided by its admin, [@MarkAssPandi@gejuchowo.pl](https://gejuchowo.pl/@MarkAssPandi){:target="_blank"}*
 
