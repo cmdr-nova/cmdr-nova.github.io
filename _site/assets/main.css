@@ -83,6 +83,11 @@ span.post-meta {
   image-rendering: crisp-edges; 
 }
 
+.cloud {
+  word-spacing: 5px;
+  line-height: 35px;
+}
+
 /** Basic styling */
 
 body { 

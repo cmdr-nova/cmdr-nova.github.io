@@ -1,7 +1,7 @@
 
 <p><em>... droplets of brain juice from days and years past:</em></p>
 
-
+<p class="cloud">
 {% capture temptags %}
   {% for tag in site.tags %}
     {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
@@ -13,3 +13,4 @@
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
   <a href="/tag/{{ tagname }}"><code class="highligher"><nobr>{{ tagname    }}</nobr></code></a>
 {% endfor %}
+</p>
