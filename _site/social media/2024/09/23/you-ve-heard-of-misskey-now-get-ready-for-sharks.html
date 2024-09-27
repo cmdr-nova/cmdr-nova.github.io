@@ -368,7 +368,7 @@ This site was generated with Jekyll, and then torn down, and reassembled by hand
 <button class="mastodon-share"></button>
 </p><section class="page__comments">
     <h4 class="page__comments-title">COMMENTS</h4>
-    <p>You can use your <a href="https://joinmastodon.org">Mastodon</a> or other ActivityPub account to comment on this article by replying to the associated <a class="link" href="https://mkultra.monster/@cmdr_nova/113189052390670239">post</a>.</p>
+    <p>You can use your <a href="https://joinmastodon.org">Mastodon</a> or other <a class="page-link" href="/pages/activitypub/">ActivityPub</a> account to comment on this article by replying to the associated <a class="link" href="https://mkultra.monster/@cmdr_nova/113189052390670239">post</a>.</p>
     <p id="mastodon-comments-list">
       <button id="load-comment" class="btn btn--twitter">Load comments from the Fediverse</button>
     </p>
@@ -418,6 +418,7 @@ This site was generated with Jekyll, and then torn down, and reassembled by hand
                           <p class="comment__date">
                             <a itemprop= "url" href="${reply.uri}" rel="nofollow">${reply.created_at.substr(0, 10)}</a>
                           </p>
+                          <br />
                           <div itemprop="text">${reply.content}</div>
                           <div class="status">
                             <i class="ph ph-arrow-bend-up-left ph-fw"></i> ${reply.replies_count}&nbsp; 
