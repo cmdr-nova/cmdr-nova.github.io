@@ -16,7 +16,7 @@ It's been a couple of days since I've written anything. Part of that is because 
 
 A little while ago I wrote about the <a href="/tech/2024/09/09/tell-mozilla-how-you-feel-about-ai">on-going blunders of the Mozilla Foundation</a>, and their head-long dive into AI, and the manipulation of <a href="https://blog.mozilla.org/en/products/firefox/firefox-search-update/" target="_blank">hiding data hijacking</a> within features that promise privacy. Basically, Mozilla needs money, and they're selling their souls in order to get it.
 
-If you're like me, and you *just want a good browser* that doesn't have a ton of bloat, that isn't taking my private data and selling it to some corporation, or what-have-you, then you already know what you need.
+If you're like me, and you *just want a good browser* that doesn't have a ton of bloat, that isn't taking your private data and selling it to some corporation, or what-have-you, then you already know what you need.
 
 *A better browser.*
 
