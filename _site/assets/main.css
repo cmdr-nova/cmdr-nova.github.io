@@ -37,20 +37,10 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   padding: 0; 
 }
 
-/**
- * Clearfix
- */
- %clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .wrapper {
-  @extend %clearfix;
+  display: flex;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .img-wrap {
@@ -150,51 +140,39 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 @media only screen and (max-width: 480px) {
   #main {
-  background-color: #232425;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  margin-right: 0;
-  margin-left: 0;
-  min-width: 390px;
-  max-width: 428px;
-  padding-right: 15px;
-  padding-left: 15px; 
-  margin-top: 2px;
-  word-spacing: 1px;
-  letter-spacing: 1px;
+    background-color: #232425;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-left: 0;
+    min-width: 390px;
+    max-width: 428px;
+    padding-right: 15px;
+    padding-left: 15px; 
+    margin-top: 2px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
   }
+  #sidebar, #rightbar {
+    display: none;
   }
-
-  @media only screen and (max-width: 480px) {
-    #sidebar {
-        display: none;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    #rightbar {
-        display: none;
-    }
-  }
-
-  @media only screen and (max-width: 480px) {
-    .nav-wrapper {
+  .nav-wrapper {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #131313;
     z-index: 1000;
-    }
-    .nav-menu {
+  }
+  .nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    }
-    }
+  }
+}
 
 #sidebar {
   border-style: none;
@@ -341,7 +319,7 @@ pre > code {
 }
 
 .excerpt {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 100;
   text-align: left;
   letter-spacing: 1px;
@@ -358,7 +336,7 @@ pre > code {
 }
 
 .tag-tail {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 100;
   text-align: right;
   line-height: 34px;
@@ -375,7 +353,7 @@ pre > code {
 
 .read-title {
   display: block;
-  font-size: 24px;
+  font-size: 1.5rem;
   padding: 24px;
   font-weight: 700;
   text-align: left;
