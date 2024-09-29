@@ -36,7 +36,7 @@ And *all of this* is completely aside from the absolutely *cool as hell* feature
 
 The browser ... AUTOMATICALLY BLOCKS ADS! You don't need an extension! IT WORKS ON YOUTUBE. You can just view websites, ad-free, by ... opening your web browser? Holy crap.
 
-Of course, you have customization options, sync options, theme options, password and bookmark import and saving, and so on and so forth. But what I've found *really* useful, is the right-side bar that you can *connect to your Apple calendar*, and the RSS feed aggregator that you can just plug some RSS into, and see updates from all the blogs your read, live, right there on the side of your browser. There's a translate button, a note button, a reminders button, a button that opens their personal Vivaldi Mastodon instance, and *so much more*.
+Of course, you have customization options, sync options, theme options, password and bookmark import and saving, and so on and so forth. But what I've found *really* useful, is the right-side bar that you can *connect to your Apple calendar*, and the RSS feed aggregator that you can just plug some RSS into, and see updates from all the blogs you read, live, right there on the side of your browser. There's a translate button, a note button, a reminders button, a button that opens their personal Vivaldi Mastodon instance, and *so much more*.
 
 It's the end-all, be-all of browsers, and I cannot believe that this isn't some super famous, extremely well-known browser and company that's taking the entire world by storm ... ***Because they should be.***
 
