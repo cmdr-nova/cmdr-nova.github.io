@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113218023550666254
 ---
 
 It's been a couple of days since I've written anything. Part of that is because my day job highly makes me feel like I don't want to do *anything* when I get out of work. The other part of it, is that I spent hours and hours refreshing and updating the look and feel of my site (it's cooler now). Now that I've done that, I'd like to write about Vivaldi.
