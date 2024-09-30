@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 113218023550666254
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113224354561526993
 ---
 
 So, I didn't really *try* to write a click-baity headline for this post. Partially because, *usually*, when I share what I write, *it doesn't even show a headline*. But, you're probably wondering, "What could Mastodon/the fediverse possibly have that MySpace doesn't?"
