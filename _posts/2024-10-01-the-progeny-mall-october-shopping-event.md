@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113233686170241235
 ---
 
 Much like last month, [REVOSA] (my Second Life store), is once again appearing in the Progeny Mall shopping event! This time, for the month of October--the spookiest time of the year! Because my free time is scattered and all over the place, for now, I'm simply discounting a recent, but slightly older item. But! For the first time ever, not only is [REVOSA] part of this event, but so is Ayashi Systems, or *AyaSys*, my secondary store.
