@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113240050605829895
 ---
 I've written a lot about how much I miss the 90s, and sometimes pine for an age in the 80s, and, obviously, I'm not talking ... politically. But more, a time when things were less chaotic, and we were all kinda just vibing with whatever was happening. Drinking our Ecto-Coolers, slipping on Velcro sneakers, uh, watching Rocko's Modern Life.
 
