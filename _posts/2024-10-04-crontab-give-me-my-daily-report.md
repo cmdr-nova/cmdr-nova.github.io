@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113249769018812479
 ---
 If you're like me, and you just can't find it in yourself to quit the nerd-site, then maybe you should make it easier on yourself, and setup something to just give you a daily report (e-mail) on your favorite subreddits' top five trending posts.
 
