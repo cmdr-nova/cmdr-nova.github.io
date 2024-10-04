@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Writing Prompt"
 tag: writing-prompt
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113246849508696251
 ---
 It's been at least two months since I've done one of Jetpack's writing prompts. Largely, because, I ditched Wordpress and decided to build something from scratch. It seems, in light of the Wordpress CEO's recent blunders, it was *probably a good idea* to abandon Wordpress. But I really only did it because I enjoy writing everything in VS Code, rather than a glitchy editor. Nevertheless, I still have Automattic's "jetpack" app installed on my phone, and it serves me interesting writing prompts every once in a while, and because I don't enjoy writing about a crisis every single time I fire up the VSC, I think I'll snag this one.
 
