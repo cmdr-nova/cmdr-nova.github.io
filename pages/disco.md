@@ -3,6 +3,7 @@ layout: page
 title: The Discography of Eyeshadow 2600 FM, and PLEXX
 permalink: /pages/disco/
 ---
+Listen to my music [direct on the fediverse](https://bandwagon.fm/@cmdr_nova){:target="_blank"}!
 
 **Eyeshadow 2600 FM** [[Spotify]](https://open.spotify.com/artist/355TNaPlosj1FwN7sfSvAe?si=DpZynJiMSGWKYPfLeJX68g){:target="_blank"} x [[Bandcamp]](https://eyeshadow2600fm.bandcamp.com/album/dissolution-protocol){:target="_blank"} x [[Apple Music]](https://music.apple.com/us/artist/eyeshadow-2600-fm/1210249781){:target="_blank"}
 
