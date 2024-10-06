@@ -45,17 +45,22 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 .img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 5px;
   max-width: 100%;
   height: auto;
-  align-items: center;
   margin-bottom: 12px;
+  position: relative;
  }
 
  .img-wrap img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  display: block;
+  margin: auto;
 }
 
 /* search field */
