@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113258132080917367
 ---
 I'm sure there are those who know that Bandcamp was recently bought out by a company called <a href="https://blog.bandcamp.com/2023/11/22/songtradr-acquires-bandcamp/" target="_blank">Songtradr</a>, and this came with much dismay, because Bandcamp has been, and has mostly remained, *one of the only* music platforms where small artists could actually be discovered, heard, and *paid*. This is incongruent with current trends of the past decade and a half, of the music industry pushing real hard for streaming. Streaming, which pays fractions of a penny of a penny on a dollar, while the rich consume the profits. This has only been exasperated since AI came into the scene, with people absent of talent and inspiration, generating *absolute garbage* (and this isn't just a problem in music, it's everywhere).
 
