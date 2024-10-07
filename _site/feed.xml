@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-05T22:32:52-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Jump on the Bandwagon!</title><link href="http://localhost:4000/social%20media/2024/10/05/jump-on-the-bandwagon.html" rel="alternate" type="text/html" title="Jump on the Bandwagon!" /><published>2024-10-05T21:49:00-04:00</published><updated>2024-10-05T21:49:00-04:00</updated><id>http://localhost:4000/social%20media/2024/10/05/jump-on-the-bandwagon</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/10/05/jump-on-the-bandwagon.html"><![CDATA[<p>I’m sure there are those who know that Bandcamp was recently bought out by a company called <a href="https://blog.bandcamp.com/2023/11/22/songtradr-acquires-bandcamp/" target="_blank">Songtradr</a>, and this came with much dismay, because Bandcamp has been, and has mostly remained, <em>one of the only</em> music platforms where small artists could actually be discovered, heard, and <em>paid</em>. This is incongruent with current trends of the past decade and a half, of the music industry pushing real hard for streaming. Streaming, which pays fractions of a penny of a penny on a dollar, while the rich consume the profits. This has only been exasperated since AI came into the scene, with people absent of talent and inspiration, generating <em>absolute garbage</em> (and this isn’t just a problem in music, it’s everywhere).</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-06T23:07:08-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Reddit, Give Me Your Images</title><link href="http://localhost:4000/programming/2024/10/06/reddit-give-me-your-images.html" rel="alternate" type="text/html" title="Reddit, Give Me Your Images" /><published>2024-10-06T22:42:00-04:00</published><updated>2024-10-06T22:42:00-04:00</updated><id>http://localhost:4000/programming/2024/10/06/reddit-give-me-your-images</id><content type="html" xml:base="http://localhost:4000/programming/2024/10/06/reddit-give-me-your-images.html"><![CDATA[<p>Because my Mastodon timeline isn’t spicy and chaotic enough, I scraped together pieces of things I’m trying to learn and utilize in Python, and put together <a href="https://github.com/cmdr-nova/reddit_rss_bot" target="_blank">a whole entire bot</a> that posts images from a Reddit RSS feed, directly to Mastodon.</p>
+
+<p>You heard me.</p>
+
+<p>When there is no more room in hell, the anime boobs will walk the Mastodon.</p>
+
+<p>Obviously, there is some room for failure here. Failure, in that, sometimes people post AI-generated sludge to Reddit, and that <em>may</em> get caught in the bot. If it happens too often, I’ll either figure out how to exclude that stuff, or just not include that specific subreddit in the bot’s pull.</p>
+
+<p>This is sort of still ongoing, too. I tried a bunch of different tricks to get the bot to stop posting the preview, tiny, pixelated image, but to no avail. Or, maybe to vail. It <em>may</em> be just my instance that isn’t uploading them correctly, but I’m not sure yet.</p>
+
+<p>If you want to see the bot directly, <a href="https://mkultra.monster/@net_run" target="_blank">it’s here</a>. Warning, though, some of the posts it grabs are NSFW and entirely lewd. You have been warned.</p>
+
+<p>This is pretty cool, though, because, the last time I did <em>anything</em> like this, it was a <strong>chatbot</strong> that I integrated with a <a href="https://gnusocial.network" target="_blank">GNU Social</a> (still around today) instance I was running, way, way back in … 2017, I think?</p>
+
+<p>Kinda brings back memories, even if that instance is completely lost to time, and only viewable in <a href="https://web.archive.org/web/20180314155440/http://sanguine.merylscarlett.info/" target="_blank">fragments of an Apache default page</a> on archive.org.</p>
+
+<p>As for Python, so far it feels like writing CSS, but with a lot more statements, and also things that can go wrong!</p>
+
+<p>But anyway, it’s time for my nightly iPad and Youtube ritual.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[Because my Mastodon timeline isn’t spicy and chaotic enough, I scraped together pieces of things I’m trying to learn and utilize in Python, and put together a whole entire bot that posts images from a Reddit RSS feed, directly to Mastodon.]]></summary></entry><entry><title type="html">Jump on the Bandwagon!</title><link href="http://localhost:4000/social%20media/2024/10/05/jump-on-the-bandwagon.html" rel="alternate" type="text/html" title="Jump on the Bandwagon!" /><published>2024-10-05T21:49:00-04:00</published><updated>2024-10-05T21:49:00-04:00</updated><id>http://localhost:4000/social%20media/2024/10/05/jump-on-the-bandwagon</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/10/05/jump-on-the-bandwagon.html"><![CDATA[<p>I’m sure there are those who know that Bandcamp was recently bought out by a company called <a href="https://blog.bandcamp.com/2023/11/22/songtradr-acquires-bandcamp/" target="_blank">Songtradr</a>, and this came with much dismay, because Bandcamp has been, and has mostly remained, <em>one of the only</em> music platforms where small artists could actually be discovered, heard, and <em>paid</em>. This is incongruent with current trends of the past decade and a half, of the music industry pushing real hard for streaming. Streaming, which pays fractions of a penny of a penny on a dollar, while the rich consume the profits. This has only been exasperated since AI came into the scene, with people absent of talent and inspiration, generating <em>absolute garbage</em> (and this isn’t just a problem in music, it’s everywhere).</p>
 
 <p>I personally haven’t seen, heard, or noticed any detrimental effects of Bandcamp being bought-out, but it’s good to be prepared. To be prepared in an age where Mozilla is <a href="https://www.mozilla.org/en-US/advertising/" target="_blank">suddenly an ad agency</a>, Microsoft is <a href="https://mashable.com/article/microsoft-copilot-recall-cybersecurity-disaster" target="_blank">developing spyware</a>, OpenAI is asking governments for enough <a href="https://arstechnica.com/tech-policy/2024/09/openai-asked-us-to-approve-energy-guzzling-5gw-data-centers-report-says/" target="_blank">electrical power</a> to destroy the entire planet, and Apple is <a href="https://applescoop.org/story/shocking-apple-vision-pro-2-reportedly-cancelled" target="_blank">releasing products</a> people <em>don’t want</em>.</p>
 
@@ -216,57 +234,4 @@
 
 <p>“It’s not like that’s going to change the outcome of this stuff that much.” Are the words of a man giving every writer, developer, creator, and artist a big, bold middle finger.</p>
 
-<p>Those are all the words I have to give right now, and it’s exactly the right amount.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[I, regrettably, have to talk about this by quoting from The Verge, but a couple of hours ago they published a talk with the Zuck on Meta’s AI, and the training data associated with it. To say that I’m a bit pissed off is an understatement.]]></summary></entry><entry><title type="html">The Social Web Foundation Launches, to Much Confusion</title><link href="http://localhost:4000/tech/2024/09/24/the-social-web-foundation-launches-to-much-confusion.html" rel="alternate" type="text/html" title="The Social Web Foundation Launches, to Much Confusion" /><published>2024-09-24T22:24:00-04:00</published><updated>2024-09-24T22:24:00-04:00</updated><id>http://localhost:4000/tech/2024/09/24/the-social-web-foundation-launches-to-much-confusion</id><content type="html" xml:base="http://localhost:4000/tech/2024/09/24/the-social-web-foundation-launches-to-much-confusion.html"><![CDATA[<p>Today, kind of just completely out-of-the-blue, this thing called “<a href="https://socialwebfoundation.org" target="_blank">The Social Web Foundation</a>” launched. Basically, this group of companies and corporations who are banding together to throw their hats together as a supporting web to build up ActivityPub and the Fediverse. Except … It reads and feels a lot like, “We made this.”</p>
-
-<p>As some may know, I’ve written about Mastodon, all of its diverse software, ActivityPub, and the Fediverse <em>quite</em> frequently. I even wrote a <a class="page-link" href="/pages/activitypub">little bit of a beginner’s guide</a> to jumping in, which also features some <em>history</em>. History that is entirely missing from TSWF.</p>
-
-<p>My first question to all of this would be: Who <em>exactly</em> asked for this? The Fediverse, as mentioned in my guide, has existed since 2008, <em>without</em> corporate or moneyed influence.</p>
-
-<p>Quoted from their mission page,</p>
-
-<blockquote>
-  <p>The Fediverse cannot thrive without people building clients or running providers. And to do those things, they need money. Whether that’s advertising supported, or funded by charities and non-profits, or based on paid-for services, or affiliate revenue, we are working to find ways that companies can do well in the Fediverse.</p>
-</blockquote>
-
-<p>To a majority of the people who populate the Fedi, we don’t <em>care</em> if companies are doing well across the protocol. It wasn’t <em>built for them.</em> And it should remain that way.</p>
-
-<p>Yes, I run my own instance. No, I don’t make <em>any</em> money from it. And if I ever <em>did</em>, it would be entirely up to future potential users who want to support mkultra.monster. But, until then, it’s run entirely out-of-pocket, and <em>I’m okay with that</em>. I chose to do this, and I’m running a hosted service that caps out at a certain amount of users. And I’m also okay with that! I have no interest in running a social media platform that’s populated by one hundred million people.</p>
-
-<p>Now, there are a lot of companies and non-profits coming together on this page, companies, like:</p>
-
-<ul>
-  <li>Flipboard</li>
-  <li>Automattic</li>
-  <li>Meta</li>
-  <li>Ghost</li>
-  <li>Medium</li>
-  <li>IFTAS</li>
-  <li>Write.as</li>
-  <li>Fastly</li>
-  <li>Vivaldi</li>
-  <li>The BLVD</li>
-</ul>
-
-<p>So, it kinda makes sense that writing platforms want to get in on ActivityPub and the Fediverse. But I feel a little uneasy about Automattic getting <em>too</em> involved. Their CEO is a <em>major</em> douche-nozzle, who once had a meltdown over a joke on Tumblr, and just recently <a href="https://techcrunch.com/2024/09/23/wp-engine-sends-cease-and-desist-letter-to-automattic-over-mullenwegs-comments/?guccounter=1" target="_blank">slandered a Wordpress provider</a> <em>for no reason</em>.</p>
-
-<p>Vivaldi makes more sense to me, even though they’re a web browser provider. But, their words on the matter are actually aligned with what many people across the Fediverse believe:</p>
-
-<blockquote>
-  <p>“The Fediverse reminds us of the early days of the Web. We are competing against silos and corporate interests, using a W3C-based open standard and a distributed solution,” says Jon Von Tetzchner, CEO of Vivaldi (<a href="https://social.vivaldi.net/@jon" target="_blank">@jon@vivaldi.net</a>). “It’s great that social networking companies are supporting the Fediverse, and Vivaldi is pleased to support the Social Web Foundation so that we can once again have a town square free of algorithms and corporate control.”</p>
-</blockquote>
-
-<p>Which makes <em>absolutely no sense</em> when you put these words and these developers <em>right next</em> to Meta, and Threads.</p>
-
-<p>I’ve spoken <em>a lot</em> about Threads. I feel like, if you’re an instance provider on the Fedi, it’s entirely up to you whether you want to federate with them or not. But let’s not forget, Meta is a corporation. One of the <em>richest</em> corporations in the world, who definitely have <em>corporate</em> interests when it comes to social media, the web, and <em>ActivityPub</em>.</p>
-
-<p>On top of that, it has been almost an entire <em>year</em>, and they still have not fully integrated federation on Threads. As it stands right now, likes and comments coming from the Fediverse show up as additional links you have to click multiple times in order to see, <em>while on Threads</em>. It’s a very tacked-on, a very, “These people aren’t Threads users, but here they are if you <em>really</em> want to see them” kind of gesture. Right now, its mostly superficial, and it rubs me the wrong way. It makes me feel like they <em>don’t</em> have any intention of <em>true</em> integration.</p>
-
-<p>Not mentioned, but included in the list, are Mastodon and Pixelfed. These are, <em>at least</em>, entities that have been involved for a long time, and are partially responsible for the Fediverse becoming just a little bit more mainstream than it was before.</p>
-
-<p>But where’s the mention of Akkoma, Pleroma, GNU Social, Freindika, Misskey, <strong><em>Peertube</em></strong>, and so on, and so forth? Are we just going to ignore them into the ether?</p>
-
-<p>The Fediverse is home to something like … 15 million people or so (not that much more than Bluesky, and with this news, bsky devs are probably sharting themselves)? And it’s only growing as users on Threads turn on federation. But if companies and corporations can’t see themselves as part of the Fediverse without injecting money, sponsors, and ads into it, <em>then they should get out, and stay out.</em> The internet is <em>overrun</em> with sludge-content designed to waste your time and steal your attention for someone else’s financial gain. Rebuilding the open web is completely and entirely about escaping all of that, <em>for good</em>. It’s about bringing back the days of <em>people</em>, building their own spaces, having their own ideas and conversations free of algorithms and corporate influence.</p>
-
-<p>To want to interfere in that, and possibly even <em>destroy</em> it, well. Maybe I <em>should</em> full-block Threads, and other corporate entrances into the Fediverse via my instance.</p>
-
-<p>I really don’t know right now.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Today, kind of just completely out-of-the-blue, this thing called “The Social Web Foundation” launched. Basically, this group of companies and corporations who are banding together to throw their hats together as a supporting web to build up ActivityPub and the Fediverse. Except … It reads and feels a lot like, “We made this.”]]></summary></entry></feed>
+<p>Those are all the words I have to give right now, and it’s exactly the right amount.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[I, regrettably, have to talk about this by quoting from The Verge, but a couple of hours ago they published a talk with the Zuck on Meta’s AI, and the training data associated with it. To say that I’m a bit pissed off is an understatement.]]></summary></entry></feed>
