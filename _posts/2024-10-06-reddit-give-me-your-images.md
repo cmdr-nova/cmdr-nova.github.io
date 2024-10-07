@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113263960758134489
 ---
 Because my Mastodon timeline isn't spicy and chaotic enough, I scraped together pieces of things I'm trying to learn and utilize in Python, and put together <a href="https://github.com/cmdr-nova/reddit_rss_bot" target="_blank">a whole entire bot</a> that posts images from a Reddit RSS feed, directly to Mastodon.
 
