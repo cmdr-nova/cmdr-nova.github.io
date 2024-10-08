@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113269958439983662
 ---
 While the dunces in the room are using AI to paint pictures for them, and make one-bar songs, I'm making little worker bee-bots that aren't AI at all, but act more like little tiny butlers for me. Butlers that live inside Debian 12 on a VPS.
 
