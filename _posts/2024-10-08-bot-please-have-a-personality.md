@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113273949505152744
 ---
 Today, it's my day off, you know. So I spent some time trying to figure out how to make and rebuild Mafia Wars from the ground-up. I achieved ... some things, but it's proving to be something that will take a long time, and I kinda just wanna chill and have some fun? So, I made it so that my Reddit-Bot also posts random status (which are predefined), that are pulled from a json file.
 
