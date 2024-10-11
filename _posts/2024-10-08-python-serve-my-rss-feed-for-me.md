@@ -15,7 +15,7 @@ While the dunces in the room are using AI to paint pictures for them, and make o
 
 Have you ever thought to yourself, "Man, why do I have to copy/paste blog post links and then also post them? I have more important things to do, like jorkin it in the club, you know, with my peanuts."
 
-Well, friend, you are in luck today.
+Well, friend, you are in luck today!
 
 Meet <a href="https://github.com/cmdr-nova/blog-poster" target="_blank">Blog-Poster</a>. He'll dig into your RSS feed, post whatever's new straight to Mastodon, and then archive it in a permanent ignore list, just so he's sure never to mistake something that's old, for something new.
 
