@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113289914140183530
 ---
 Do you remember on Twitter, back in the golden days, when the worst part of the website were the people who were addicted to finding things they thought were bad about other people, and then creating dunk posts, and dogpiles? Do you miss that? Oh, yeah, me either. But, the old part of Twitter I'm actually talking about here, are the bots that people used to setup, that read from their tweets, and then shot out a randomized post. I think some of them were called like, "John Reads" or "John Books", wherein they'd put their name and qualify it with something related to writing or reading. Either way, remember that? Do ya?
 
