@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113286630760321785
 ---
 So, it's been an interesting week and a half. I started screwing around with Python after spending time casually reading about it, and decided to learn it, hands-on, and I smashed up a slew of interesting things. Then, I started thinking about, despite my love for Linux, and especially Debian, there are some critical things I still don't have access to while *on* Linux.
 
