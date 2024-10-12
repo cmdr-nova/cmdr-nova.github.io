@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113296225336542847
 ---
 It's not every week, or even every *month* that I have off three days in a row from my offline job. It's a chance to catch up on projects I've been slacking on due to lack of energy, a chance to think of new things I want to put out into the world, and a chance to *maybe* finally continue the manuscript for my next book. But, like *usual*, for some reason? I'm sick. I felt it coming when I was on my last day of work for the week, and then I got home, passed out, and woke up yesterday feeling week, and coughing. Yay!
 
