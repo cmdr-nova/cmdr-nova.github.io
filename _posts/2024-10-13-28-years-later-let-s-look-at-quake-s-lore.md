@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113302084173495521
 ---
 So, today, I was playing Quake 1 and 2, and something ocurred to me, that hadn't ever ocurred to me in the 28 to 30 years that these games have been a thing: I've never fully understood *what in the hell* the story is supposed to *be*. Obviously, we're going to skip Quake 3, not because it isn't good (it's one of the greatest arena shooters of all time), but because its story is more that of Unreal Tournament. In that, it's just people from different dimensions fighting in nonstop deathmatch. 
 
