@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Tech"
 tag: tech
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113311364056007944
 ---
 Today I woke up, and, like I do, I checked my "daily report" bot e-mail, and noticed something ... *strange*. According to the Neocities subreddit, the person *behind* Neocities had written, a year ago, some <a href="https://kyledrake.com/writings/ai" target="_blank">positive thinking</a> about AI (which, I'm not sure can be fully judged a year later, since it's only gotten extremely bad, *this year*). In response, some users were suggesting Nekoweb as an alternative for people who don't want to be potentially affiliated with someone who endorses Sam Altman. And then I stumbled into an issue, and the *strangest* people I've met this week (so far).
 
