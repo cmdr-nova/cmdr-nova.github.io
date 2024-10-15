@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113313762654994080
 ---
 You remember how Google decided that they were going to disable ad-blockers in their browser, and also make ads on YouTube *more* intrusive, and more frequent? Well, while I understand there is probably a wealth of YouTube video downloaders out there, I made my *own*. It runs on Python, it's just one executable file, and it's freakin' sweet looking, bro.
 
