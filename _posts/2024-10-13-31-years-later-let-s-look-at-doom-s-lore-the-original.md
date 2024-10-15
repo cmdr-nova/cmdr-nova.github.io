@@ -51,4 +51,4 @@ My entire childhood was me, waiting for school to be over, so that I could dive 
 
 <img class="img-wrap" src="/img/posts/doom/mafia_wars.png">
 
-(Yes, this is an actual semi-functional clone of Mafia Wars, that can only be played by me, on my HDD, and I will never release it to the public lol)
+(Yes, this is an actual semi-functional clone of Mafia Wars, that can only be played by me, on my HDD, and <s>I will never release it to the public lol</s> Nevermind, <a href="https://github.com/cmdr-nova/Mafia-Hustle" target="_blank">here it is</a>.)
