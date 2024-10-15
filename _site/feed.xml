@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-15T00:07:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">31 Years Later, Let’s Look At Doom’s Lore (The Original)</title><link href="http://localhost:4000/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html" rel="alternate" type="text/html" title="31 Years Later, Let’s Look At Doom’s Lore (The Original)" /><published>2024-10-13T22:32:00-04:00</published><updated>2024-10-13T22:32:00-04:00</updated><id>http://localhost:4000/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original</id><content type="html" xml:base="http://localhost:4000/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html"><![CDATA[<p>Yesterday, I wrote about Quake and, by extension, Quake 2’s lore. You <em>might</em> think that Doom’s original lore is probably really simple, some kind of, scratches on a paper looking concept, and while it certainly began that way–It also spawned a book. But, one of the reasons I want to visit the lore of the original Dooms, is because the newer Dooms seem … unclear to me, as to where exactly they are in the timeline. Or, if there even <em>is</em> a timeline. Anyway, let’s dive a little deeper into the 1993 classic, DOOM.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-15T08:03:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">I Can’t Recommend Nekoweb, A Neocities Alternative</title><link href="http://localhost:4000/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html" rel="alternate" type="text/html" title="I Can’t Recommend Nekoweb, A Neocities Alternative" /><published>2024-10-15T07:38:00-04:00</published><updated>2024-10-15T07:38:00-04:00</updated><id>http://localhost:4000/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative</id><content type="html" xml:base="http://localhost:4000/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html"><![CDATA[<p>Today I woke up, and, like I do, I checked my “daily report” bot e-mail, and noticed something … <em>strange</em>. According to the Neocities subreddit, the person <em>behind</em> Neocities had written, a year ago, some <a href="https://kyledrake.com/writings/ai" target="_blank">positive thinking</a> about AI (which, I’m not sure can be fully judged a year later, since it’s only gotten extremely bad, <em>this year</em>). In response, some users were suggesting Nekoweb as an alternative for people who don’t want to be potentially affiliated with someone who endorses Sam Altman. And then I stumbled into an issue, and the <em>strangest</em> people I’ve met this week (so far).</p>
+
+<p>Nekoweb is much like Neocities, and even more-so, it offers services that Neocities <em>doesn’t</em>. At first glance, this seems pretty awesome. You have more storage space, more bandwith, access to Git, FTP, and it’s even got framework for deploying your site with a static generator (like Jekyll). “Sweet.” I thought, this could really make my life easier, instead of pushing through Github, to Neocities, right?</p>
+
+<p>There’s just <em>one problem.</em></p>
+
+<p><img class="img-wrap" src="/img/posts/nekoweb/no-vpn.png" /></p>
+
+<p>Nekoweb requires you reveal all personal information to them, in order to register an account. VPNs are <em>not allowed</em>.</p>
+
+<p>The only other place online, thus far, that I’ve had any issue with using my VPN, be it via Proton’s subscription service that I use for e-mail, or Apple’s built-in VPN, has been Misskey’s flagship server (that auto-blocks Western users from registering). Not even <em>Activision</em> blocks you from using a VPN while playing their highly competitive shooters, Call of Duty.</p>
+
+<p>So, like ya do, I joined their Discord, curious, a little bummed. Thinking, there’s <em>no way</em> I have to turn off something completely related to my <em>own</em> online safety and privacy just to make an account here, right?</p>
+
+<p><em>Wrong.</em></p>
+
+<p>I don’t feel the need to post direct screenshots, since this website is seen by quite a few more people than my Mastodon account, so I’ll just quote the person who immediately replied to me when I asked, “So why can’t I have my VPN turned on when I’m making an account?”</p>
+
+<p>User / Supporter / or maybe even dev? responds:</p>
+
+<blockquote>
+  <p>why are you using VPN to register an account?</p>
+</blockquote>
+
+<blockquote>
+  <p>we had spammers use VPN to comment hate stuff on users guestbooks</p>
+</blockquote>
+
+<blockquote>
+  <p>probably why [team member affiliated with Nekoweb] doesn’t allow vpn</p>
+</blockquote>
+
+<p>The Nekoweb team member responds,</p>
+
+<blockquote>
+  <p>abuse prevention</p>
+</blockquote>
+
+<p>Flabbergasted, blown-away, I respond, “I use a VPN provided by Proton’s subscription service that comes along with their e-mail, entirely just for privacy lol”</p>
+
+<p>To which the first user replies, again,</p>
+
+<blockquote>
+  <p>well in order to register you need proper internet connection and no VPN.</p>
+</blockquote>
+
+<p>…</p>
+
+<p><strong>PROPER INTERNET CONNECTION???</strong></p>
+
+<p>It was at this point I kind of fell off and spiraled a bit, implied neither of them know what they’re doing, and left.</p>
+
+<p>So, no, I absolutely wouldn’t recommend you use Nekoweb as an alternative to Neocities, if that’s what you’re looking for. How people who <em>don’t even know</em> what a VPN does, or is used for by average people, ended up <em>making an entire</em> web service, is wild, ridiculous, and makes absolutely no sense. And I get the impression that they <em>don’t want</em> new users, or any subscription money for that matter. Which is fine. They aren’t getting any from me.</p>
+
+<p>For anyone else, who might be a little more rationally inclined, why use a VPN?</p>
+
+<p>It’s not just for watching shows on Netflix you can’t get in the US. Some countries are blocked from most internet access and can’t interact with the outside world, <em>without</em> a VPN. Guess they aren’t allowed to make websites, either?</p>
+
+<p>Why do <em>I</em> use a VPN? I use one, because I don’t think every website and provider needs my personal information at all times, every single time I access a domain. I especially don’t think the developers behind Nekoweb need my personal information, <em>just to make an account</em> on their Neocities clone. Entitled to my data as they may be, if you have a problem with spam and abuse coming from users behind VPNs, and you just ban VPN use, uhm, guys? You <em>know</em> that perpetrators of abuse can just make a new e-mail and do exactly the same thing, without a VPN? They could drive down the street to McDonalds, log on, and continue harassing your users.</p>
+
+<p>And, I’m sorry, I’m still reeling over “proper internet connection.”</p>
+
+<p>I’m just out of words in my brain sauce that would allow me to express how <em>ridiculous</em> that sounds … you guys made this web service? For real? You made a whole web service for hosting websites and you don’t even know the <em>first thing</em> about privacy and safety online?</p>
+
+<p>Holy hell.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Today I woke up, and, like I do, I checked my “daily report” bot e-mail, and noticed something … strange. According to the Neocities subreddit, the person behind Neocities had written, a year ago, some positive thinking about AI (which, I’m not sure can be fully judged a year later, since it’s only gotten extremely bad, this year). In response, some users were suggesting Nekoweb as an alternative for people who don’t want to be potentially affiliated with someone who endorses Sam Altman. And then I stumbled into an issue, and the strangest people I’ve met this week (so far).]]></summary></entry><entry><title type="html">31 Years Later, Let’s Look At Doom’s Lore (The Original)</title><link href="http://localhost:4000/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html" rel="alternate" type="text/html" title="31 Years Later, Let’s Look At Doom’s Lore (The Original)" /><published>2024-10-13T22:32:00-04:00</published><updated>2024-10-13T22:32:00-04:00</updated><id>http://localhost:4000/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original</id><content type="html" xml:base="http://localhost:4000/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html"><![CDATA[<p>Yesterday, I wrote about Quake and, by extension, Quake 2’s lore. You <em>might</em> think that Doom’s original lore is probably really simple, some kind of, scratches on a paper looking concept, and while it certainly began that way–It also spawned a book. But, one of the reasons I want to visit the lore of the original Dooms, is because the newer Dooms seem … unclear to me, as to where exactly they are in the timeline. Or, if there even <em>is</em> a timeline. Anyway, let’s dive a little deeper into the 1993 classic, DOOM.</p>
 
 <center><img class="img-wrap" src="/img/posts/doom/doom.png" /></center>
 <p><br /></p>
@@ -237,26 +301,4 @@
 
 <p>The only thing it takes, is <em>patience</em>, and a whole lot less second-guessing myself and my decisions. And also maybe I need to sit in front of my computer screen a little less here and there. My eyes hurt.</p>
 
-<p>Anyway, I <em>can’t wait</em> to see what the heck comes next, holy crap.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[I’m sure there are those who know that Bandcamp was recently bought out by a company called Songtradr, and this came with much dismay, because Bandcamp has been, and has mostly remained, one of the only music platforms where small artists could actually be discovered, heard, and paid. This is incongruent with current trends of the past decade and a half, of the music industry pushing real hard for streaming. Streaming, which pays fractions of a penny of a penny on a dollar, while the rich consume the profits. This has only been exasperated since AI came into the scene, with people absent of talent and inspiration, generating absolute garbage (and this isn’t just a problem in music, it’s everywhere).]]></summary></entry><entry><title type="html">Crontab, Give Me My Daily Report</title><link href="http://localhost:4000/programming/2024/10/04/crontab-give-me-my-daily-report.html" rel="alternate" type="text/html" title="Crontab, Give Me My Daily Report" /><published>2024-10-04T00:13:00-04:00</published><updated>2024-10-04T00:13:00-04:00</updated><id>http://localhost:4000/programming/2024/10/04/crontab-give-me-my-daily-report</id><content type="html" xml:base="http://localhost:4000/programming/2024/10/04/crontab-give-me-my-daily-report.html"><![CDATA[<p>If you’re like me, and you just can’t find it in yourself to quit the nerd-site, then maybe you should make it easier on yourself, and setup something to just give you a daily report (e-mail) on your favorite subreddits’ top five trending posts.</p>
-
-<p>Enter: the_daily_report</p>
-
-<p>A <a href="https://github.com/cmdr-nova/the_daily_report/tree/main" target="_blank">simple python script</a> that you need only make a personal Reddit app for, and then you’re done (mostly).</p>
-
-<p>I’m still a bit of a noob, learning all of this stuff as I go, like you do, and <em>how I do</em>. So, I’m writing this with it scheduled to send me my daily report at 9am, everyday, and guess what, it works!</p>
-
-<p>Voila:</p>
-
-<p><img class="img-wrap" src="/img/posts/thereport/the_report_example.png" /></p>
-
-<p>I initially had to do a ton of troubleshooting, because my machine <em>doesn’t</em> just automatically send e-mails when I tell it to, and I’ve detailed as much of that as I could in a troubleshooting section via the repository. Hopefully it’s clear enough what needs to be done.</p>
-
-<p>I have this issue where, I’ll use someone’s app, and then their help files make no sense, or are woefully incomplete. In writing my own, I now see why that may happen, because I’m basically just throwing in solutions I used and hoping they stick!</p>
-
-<p>Now, <em>obviously</em>, this means you have to have your PC turned on at all times, unless of course you setup a server on a remote PC, such as renting a VPS over at <a href="https://www.digitalocean.com" target="_blank">Digital Ocean</a>. I’ve <em>considered</em> this for myself, but I don’t know if sending myself a daily report of trending posts in subreddits is really something I should just dump money into. Mostly, because I <em>do</em> have my PC on at all times, in-between minutes every couple of days that I restart the thing.</p>
-
-<p>But it’s an option!</p>
-
-<p>Anyway, you can see the whole thing in the link above, and hopefully, if I’ve done my job correctly, you can get it running for yourself.</p>
-
-<p>Note: I do not use Windows, and I cannot tell you how to make this work on a Microsoft machine!</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[If you’re like me, and you just can’t find it in yourself to quit the nerd-site, then maybe you should make it easier on yourself, and setup something to just give you a daily report (e-mail) on your favorite subreddits’ top five trending posts.]]></summary></entry></feed>
+<p>Anyway, I <em>can’t wait</em> to see what the heck comes next, holy crap.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[I’m sure there are those who know that Bandcamp was recently bought out by a company called Songtradr, and this came with much dismay, because Bandcamp has been, and has mostly remained, one of the only music platforms where small artists could actually be discovered, heard, and paid. This is incongruent with current trends of the past decade and a half, of the music industry pushing real hard for streaming. Streaming, which pays fractions of a penny of a penny on a dollar, while the rich consume the profits. This has only been exasperated since AI came into the scene, with people absent of talent and inspiration, generating absolute garbage (and this isn’t just a problem in music, it’s everywhere).]]></summary></entry></feed>
