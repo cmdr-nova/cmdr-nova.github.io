@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113308965518305624
 ---
 Yesterday, I wrote about Quake and, by extension, Quake 2's lore. You *might* think that Doom's original lore is probably really simple, some kind of, scratches on a paper looking concept, and while it certainly began that way--It also spawned a book. But, one of the reasons I want to visit the lore of the original Dooms, is because the newer Dooms seem ... unclear to me, as to where exactly they are in the timeline. Or, if there even *is* a timeline. Anyway, let's dive a little deeper into the 1993 classic, DOOM.
 
