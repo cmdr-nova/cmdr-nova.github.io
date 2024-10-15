@@ -1,4 +1,5 @@
 :root {
+  --body-txt: #ffffff;
   --button-bgcolor: hsla(73, 87%, 57%, 0.726);
   --button-bgcolor-hover: #161616ab;
   --desc-bg-color: #181818c9;
@@ -20,6 +21,7 @@
   --sidebar-inset: #c8ff00;
   --post-link-text: #b5f81ad3;
   --waifu-bg: #131313;
+  --waifu-txt: #00fc69;
   --site-bg: #1C1C1C;
   --main-border: #131313;
   --masto-avies: #c8ff00;
@@ -29,6 +31,10 @@
   --button-txt: #c8ff00;
   --btn-bg: #1f1f1f;
   --sidenav-bg: #1c1c1c;
+  /** Gradient colors */
+  --grad-1: #232425;
+  --grad-2: #222324;
+  --grad-3: #1f1f1f;
 }
 
 /** Reset some basic elements */
@@ -83,7 +89,7 @@ span.post-meta {
 /* Frames */
 
 .waifu { 
-  color:#00fc69;
+  color:var(--waifu-txt);
   background: var(--waifu-bg);
   display:inline-block;
   padding:2px 7px;
@@ -105,7 +111,7 @@ span.post-meta {
 
 body { 
   font-family: Montserrat, sans-serif;
-  color: #fff; 
+  color: var(--body-txt); 
   display: flex;
   flex-direction: column;
   background-color: var(--site-bg);
@@ -135,7 +141,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 /** `main` element */
 
 #main {
-  background-image: linear-gradient(to bottom, #232425, #232425, #222324, #585656);
+  background-image: linear-gradient(to bottom, var(--grad-1), var(--grad-1), var(--grad-2), var(--grad-3));
   border-radius: 20px;
   border-style: solid; 
   border-width: .05em;
