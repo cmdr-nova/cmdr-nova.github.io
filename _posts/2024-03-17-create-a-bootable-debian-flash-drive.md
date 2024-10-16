@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Linux"
 tag: linux
+#comments:
+#    host: mkultra.monster
+#    username: cmdr_nova
+#    id: 
 ---
 
 <!-- wp:paragraph -->
