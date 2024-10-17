@@ -16,7 +16,7 @@ My *original* jump to Linux had much to do with Microsoft developing spyware (le
 
 In order to get yourself started, you'll first want to jump on over to the <a href="https://www.debian.org/distrib/" target="_blank">main Debian page</a>. Then, in order to make things quick, and to be sure you get updated packages as-you-go, pick the 64-bit PC netinst ISO.
 
-<img class="img-wrap" src="/img/debian-page/ISO.png">
+<img class="img-wrap" src="/img/debian-page/iso.png">
 
 Now, just because you're grabbing this ISO, doesn't mean that you'll be 100% ready with everything you need as soon as you get into the OS. There are *definitely* further updates that need to be done so that you can use it exactly as you probably expect to be able to, but! That's no sweat, and it's really simple. I'll detail that soon.
 
