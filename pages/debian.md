@@ -106,4 +106,4 @@ Here are some essential Linux apps you might like:
 - Caprine, an app that loads Facebook messenger, just in case your family wants to know what you're doing and you need to be able to respond to them on desktop
 - Bottles, for utilizing Windows apps (can also do games), such as FL Studio (will take some tinkering and tutorial reading in order to access your project folders seamlessly)
 - KTorrent, my personal fave torrent downloader
-- Ultimate Media Downloader, for downloading *literally any* video from most mainstream sites, including YouTube, Instagram, and more (I did make my own YouTube downloader, but this also does *everything*)
+- Ultimate Media Downloader, for downloading *literally any* video from most mainstream sites, including YouTube, Instagram, and more (I did make <a href="https://github.com/cmdr-nova/ExTube" target="_blank">my own</a> YouTube downloader, but this also does *everything*)
