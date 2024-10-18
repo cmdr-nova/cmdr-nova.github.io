@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113329550276923887
 ---
 So, much to the dismay of boss/es at the offline job, I'm taking off work today, because going to work feeling every ache and pain in my bones and muscles as this bronchitis, or the flu, ravages my immune system without rest, is just *too freakin much*. I get fed lines like, "I come to work no matter what unless I'm *literally* dying." And, I mean, I guess, hats-off to those of you who wish to die on the job, or collapse in a lesser sense. But that isn't me.
 
