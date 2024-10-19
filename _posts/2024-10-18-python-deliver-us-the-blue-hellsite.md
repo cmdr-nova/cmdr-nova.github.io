@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113331182154852441
 ---
 Have you ever thought to yourself, "Self, I wish there was more Tumblr on Mastodon?" Well, do I have some freakin' news for you. In my sickness addled brain, I have slapped together something that will tickle your pickle, or fancy. With a few lines (100 or so) of Python, we can force the Tumblr API to give us whatever it thinks is the top trending image post of the day, and slap that thing onto ActivityPub. Matt might be trying to bury Wordpress in a shallow grave, but maybe we can pretend that Tumblr has ActivityPub integration with some hacks.
 
