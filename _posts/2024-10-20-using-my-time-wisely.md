@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113342270787876062
 ---
 So, work has been a pain in the ass lately. And by that, I mean, my offline job. At times, especially the past week, I've had a real hard time justifying even getting out of bed in the morning. But, I got out of work last night around 9pm, and I was exploring feed readers, because reading feeds is coming back (via enshitification of everything else). But I didn't like how most readers are trying to sell monthly subscriptions for features like, being able to make a folder, and storing feeds in them. And then I thought, "I'll make one."
 
