@@ -25,7 +25,7 @@ permalink: /pages/about/
 
 ░ Neofetch of my current personal system:
 
-![my neofetch](/img/about/fetch/fetch.webp)
+![my neofetch](/img/about/fetch/fetch2.png)
 
 ░ I’m also a webdev and a sysadmin. My website is hosted via Github, and I administer my Mastodon instance via managed hosting at [toot.io](https://toot.io/mastodon_hosting.html){:target="_blank"}.
 
