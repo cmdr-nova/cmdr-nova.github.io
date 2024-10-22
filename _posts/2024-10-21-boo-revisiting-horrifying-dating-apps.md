@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id:
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113348758862931291
 ---
 
 Earlier in the year I wrote about the *terrible* situation that is dating in the post-2020 world. Everything's a swiper, everyone's making decisions based on appearances, and nothing else. Most of the accounts on these apps are like, 2% real people, and 98% bots, Instagram account spammers, scammers waiting for you in a motel with a baseball bat and some dude, and couples looking for a unicorn. It's dire out there, brosefinas.
