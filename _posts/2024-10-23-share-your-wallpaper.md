@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113360240787608451
 ---
 I've been sitting here listening to Spotify most of the evening, browsing the social fediverse, and kind of thinking about things to write on this blog. Mostly because, I want to keep writing something almost every single day. You know, personal goals and such. And then I remembered old-school forum banter, and forums in-general. I'm currently a member of a few, but I rarely ever post. I guess new age social media has kind of taken my attention away from such things, unfortunately, but do you remember things like, sharing your wallpapers on a weekly basis? People just snapping photos of their desktops and being like, "Check it out dude." Peppridge Farm remembers.
 
