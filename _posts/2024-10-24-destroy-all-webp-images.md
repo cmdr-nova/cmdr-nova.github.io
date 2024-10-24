@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113361931710807620
 ---
 I started learning Python, because I wanted to solve problems, and maybe eventually make a Python game. I haven't made it to being able to do the latter all that well yet, and maybe sometime here in the near future, we'll get there. But today, I'm solving a big problem. A problem brought on by Google/Reddit. Or, I should say, I'm destroying all .webp images, once and for all.
 
