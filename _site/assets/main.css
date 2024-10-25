@@ -960,3 +960,43 @@ iframe {
   margin: auto;
   margin-bottom: 15px;
 }
+
+/* calendar css */
+
+#calendar {
+  font-family: Montserrat, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-size: cover; /* Ensure the background image covers the entire calendar */
+  background-position: center; /* Center the background image */
+  color: white; /* Ensure text is readable on the background image */
+}
+
+#calendar h3 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(29, 29, 29, 0.8); /* Semi-transparent background for readability */
+}
+
+#calendar table {
+  width: 100%;
+  border: 1px solid #1d1d1d;
+  table-layout: fixed; /* Ensure the table layout is fixed */
+}
+
+#calendar th, #calendar td {
+  border: 1px solid #1d1d1d;
+  text-align: center;
+  padding: 8px;
+  word-wrap: break-word; /* Ensure content wraps within cells */
+  background-color: rgba(29, 29, 29, 0.8); /* Semi-transparent background for readability */
+}
+
+#calendar th {
+  background-color: rgba(29, 29, 29, 0.8); /* Semi-transparent background for readability */
+}
+
+#calendar td {
+  height: 50px;
+}
