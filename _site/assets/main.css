@@ -44,6 +44,11 @@ body, html, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figu
   overflow-x: hidden;
 }
 
+img, video, {
+  max-width: 100%;
+  height: auto;
+}
+
 .wrapper {
   display: block;
   margin-right: auto;
@@ -150,7 +155,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-top: 2px;
   letter-spacing: 1px;
   word-spacing: 1px;
-  min-width: 700px;
+  min-width: 0;
   max-width: 700px;
   margin-right: 50px; 
   margin-left: 300px; 
@@ -195,11 +200,30 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     padding: 1em;
   }
   @media only screen and (max-width: 768px) and (orientation: landscape) {
-    /* Ensure no element causes overflow */
     body, html {
       overflow-x: hidden;
     }
-}
+
+    .nav-wrapper {
+      position: absolute;
+    }
+    
+    #main {
+      width: 100%;
+      max-width: none;
+      min-width: 0;
+      padding: 15px;
+      margin: 2px 0 0 0;
+      margin-top: 60px;
+    }
+    
+    /* Ensure content is visible */
+    .wrapper {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
 }
 
 #sidebar {
@@ -209,10 +233,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   min-width: 260px;
   max-width: 260px;
   padding: 20px;
-  position: left;
   letter-spacing: 2px;
   word-spacing: 3px;
   position: absolute;
+  left: 0;
   z-index: 2;
 }
 
