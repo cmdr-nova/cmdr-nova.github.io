@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Linux"
 tag: linux
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113365647478894062
 ---
 As some may know, I play Call of Duty sometimes. One of the reasons I briefly switched back to Windows, is *because* I wanted to do so, and couldn't on Pop!_OS, despite having purchased pretty much every version of CoD since the *original* Black Ops 2. But, I ultimately decided that being able to play CoD wasn't worth the trade-off of ... using Windows. That was, until I realized I could play Modern Warfare III, and, presumably, Black Ops 6, on GeForce now. There is ... an issue, though.
 
