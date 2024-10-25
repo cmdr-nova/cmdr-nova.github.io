@@ -967,7 +967,7 @@ iframe {
   font-family: Montserrat, sans-serif;
   border-collapse: collapse;
   width: 100%;
-  background-size: cover; /* Ensure the background image covers the entire calendar */
+  background-size: cover; 
   background-position: center; /* Center the background image */
   color: white; /* Ensure text is readable on the background image */
 }
