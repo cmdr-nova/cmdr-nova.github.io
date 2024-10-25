@@ -38,9 +38,10 @@
 }
 
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
+body, html, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
   margin: 0; 
   padding: 0; 
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -193,6 +194,12 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     align-items: center;
     padding: 1em;
   }
+  @media only screen and (max-width: 768px) and (orientation: landscape) {
+    /* Ensure no element causes overflow */
+    body, html {
+      overflow-x: hidden;
+    }
+}
 }
 
 #sidebar {
