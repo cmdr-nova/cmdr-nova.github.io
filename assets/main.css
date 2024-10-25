@@ -84,8 +84,8 @@ ul#results-container {
 }
 
 #results-container li {
-  margin-bottom: 1.5rem;
-  padding-top: 26px;
+  margin: 0 0 1.5rem 0;
+  padding: 26px 0 0 0; 
 }
 
 span.post-meta {
@@ -267,7 +267,7 @@ figure > img {
   display: block; 
 }
 
-figcaption { 
+figcaption, .post-meta { 
   font-size: 14px; 
 }
 
@@ -455,7 +455,6 @@ pre > code {
 }
 
 .post-meta { 
-  font-size: 14px; 
   color: #828282;
 }
 
