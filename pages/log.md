@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 10/26/2024
+
+- near fully redesigned the website's CSS in order to make it completely responsive to all screens in most situations
+- added a calendar
+
 # # # 9/26/2024
 
 - changed the styling so that it better highlights blog posts, and added some sweet hover affects

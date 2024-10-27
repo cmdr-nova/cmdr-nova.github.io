@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-25T18:03:20-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Call of Duty, On Linux?!</title><link href="http://localhost:4000/linux/2024/10/24/call-of-duty-on-linux.html" rel="alternate" type="text/html" title="Call of Duty, On Linux?!" /><published>2024-10-24T21:50:00-04:00</published><updated>2024-10-24T21:50:00-04:00</updated><id>http://localhost:4000/linux/2024/10/24/call-of-duty-on-linux</id><content type="html" xml:base="http://localhost:4000/linux/2024/10/24/call-of-duty-on-linux.html"><![CDATA[<p>As some may know, I play Call of Duty sometimes. One of the reasons I briefly switched back to Windows, is <em>because</em> I wanted to do so, and couldn’t on Pop!_OS, despite having purchased pretty much every version of CoD since the <em>original</em> Black Ops 2. But, I ultimately decided that being able to play CoD wasn’t worth the trade-off of … using Windows. That was, until I realized I could play Modern Warfare III, and, presumably, Black Ops 6, on GeForce now. There is … an issue, though.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-26T22:14:37-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Website, I Command You, Be Responsive!</title><link href="http://localhost:4000/programming/2024/10/26/website-i-command-you-be-responsive.html" rel="alternate" type="text/html" title="Website, I Command You, Be Responsive!" /><published>2024-10-26T22:05:00-04:00</published><updated>2024-10-26T22:05:00-04:00</updated><id>http://localhost:4000/programming/2024/10/26/website-i-command-you-be-responsive</id><content type="html" xml:base="http://localhost:4000/programming/2024/10/26/website-i-command-you-be-responsive.html"><![CDATA[<p>Today, I got home from work, and for <em>once</em> wasn’t feeling too tired to even type on my keyboard. So, I logged into Second Life and acquired some land, and noticed I could hold a little more. I shot off a ticket to Linden Labs and asked for some more space, because … I’d like to build things. While I sat waiting for a response to this ticket (which I’m <em>still</em> waiting on) I did what any normal person would do. I fully redesigned the way my website responds to different screens.</p>
+
+<p>This is something that I would consider a <em>major milestone</em> in my web development journey, because, for all intents and purposes, you <em>should</em> be able to view it without issue even if you’re on an iPhone 3G. Now, does that mean my CSS is cleaned up and tidy, and there’s nothing left-over that shouldn’t be there? Absolutely not. There is a ton of stuff in there that probably isn’t currently being used, or is conflicting with something else … I just, haven’t had the energy to do <em>all of that</em> just yet.</p>
+
+<p>But I will!</p>
+
+<p>As you can see, on my to-do list.</p>
+
+<p>And, thankfully, I managed to achieve all of this <em>without</em> disrupting the flow of my little vanishing sidebar with all of my links.</p>
+
+<p>What prompted me to do this, though, were a few things. Someone I know on Mastodon tried visiting my website on a phone that is considerably older than an iPhone 15, and it bothered me that this person couldn’t quite see anything correctly, and there was some kind of invisible box blocking off half the content. Upon investigating a few days ago, utilizing the Vivaldi browser developer tools and device simulation, I was able to see exactly that.</p>
+
+<p>Ew.</p>
+
+<p>But, now, not only is that bar <em>gone</em>, or invisible box vaporized, but this website <em>should</em> display completely legibly on <em>anything</em>. Of course, I still have the specific media query setup for tiny screens in portrait mode, which I think works pretty well. But now, if you turn your phone or tablet sideways, it should look <em>great</em>, and give you a glimpse of everything a desktop user can see. Without issue. Hopefully.</p>
+
+<p>Comment on this via the Mastodon link and let me know how it looks for you! Because of the nature of web development, I’m almost <em>sure</em> there’s someone out there who will have some kind of viewing issue. Maybe someone visiting my website from the screen-reader on their refrigerator. Who knows!</p>
+
+<p>But anyway, what to do next? 😈</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[Today, I got home from work, and for once wasn’t feeling too tired to even type on my keyboard. So, I logged into Second Life and acquired some land, and noticed I could hold a little more. I shot off a ticket to Linden Labs and asked for some more space, because … I’d like to build things. While I sat waiting for a response to this ticket (which I’m still waiting on) I did what any normal person would do. I fully redesigned the way my website responds to different screens.]]></summary></entry><entry><title type="html">Call of Duty, On Linux?!</title><link href="http://localhost:4000/linux/2024/10/24/call-of-duty-on-linux.html" rel="alternate" type="text/html" title="Call of Duty, On Linux?!" /><published>2024-10-24T21:50:00-04:00</published><updated>2024-10-24T21:50:00-04:00</updated><id>http://localhost:4000/linux/2024/10/24/call-of-duty-on-linux</id><content type="html" xml:base="http://localhost:4000/linux/2024/10/24/call-of-duty-on-linux.html"><![CDATA[<p>As some may know, I play Call of Duty sometimes. One of the reasons I briefly switched back to Windows, is <em>because</em> I wanted to do so, and couldn’t on Pop!_OS, despite having purchased pretty much every version of CoD since the <em>original</em> Black Ops 2. But, I ultimately decided that being able to play CoD wasn’t worth the trade-off of … using Windows. That was, until I realized I could play Modern Warfare III, and, presumably, Black Ops 6, on GeForce now. There is … an issue, though.</p>
 
 <p>If you’re like me, and you just kind of install Debian, and all your essential apps and then forget about it, and then you load up GeForce Now thinking, “Hey, let’s play some FourthNite,” you’ll run into an issue. A weird issue. An annoying issue.</p>
 
@@ -217,68 +235,4 @@
 
 <p>And! If you wanna support the YouTuber who uploaded it, you can still go right to their channel and hit that subscribble button.</p>
 
-<p>But, that’s it for now: Enjoy~</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[You remember how Google decided that they were going to disable ad-blockers in their browser, and also make ads on YouTube more intrusive, and more frequent? Well, while I understand there is probably a wealth of YouTube video downloaders out there, I made my own. It runs on Python, it’s just one executable file, and it’s freakin’ sweet looking, bro.]]></summary></entry><entry><title type="html">I Can’t Recommend Nekoweb, A Neocities Alternative</title><link href="http://localhost:4000/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html" rel="alternate" type="text/html" title="I Can’t Recommend Nekoweb, A Neocities Alternative" /><published>2024-10-15T07:38:00-04:00</published><updated>2024-10-15T07:38:00-04:00</updated><id>http://localhost:4000/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative</id><content type="html" xml:base="http://localhost:4000/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html"><![CDATA[<p>Today I woke up, and, like I do, I checked my “daily report” bot e-mail, and noticed something … <em>strange</em>. According to the Neocities subreddit, the person <em>behind</em> Neocities had written, a year ago, some <a href="https://kyledrake.com/writings/ai" target="_blank">positive thinking</a> about AI (which, I’m not sure can be fully judged a year later, since it’s only gotten extremely bad, <em>this year</em>). In response, some users were suggesting Nekoweb as an alternative for people who don’t want to be potentially affiliated with someone who endorses Sam Altman. And then I stumbled into an issue, and the <em>strangest</em> people I’ve met this week (so far).</p>
-
-<p>Nekoweb is much like Neocities, and even more-so, it offers services that Neocities <em>doesn’t</em>. At first glance, this seems pretty awesome. You have more storage space, more bandwith, access to Git, FTP, and it’s even got framework for deploying your site with a static generator (like Jekyll). “Sweet.” I thought, this could really make my life easier, instead of pushing through Github, to Neocities, right?</p>
-
-<p>There’s just <em>one problem.</em></p>
-
-<p><img class="img-wrap" src="/img/posts/nekoweb/no-vpn.png" /></p>
-
-<p>Nekoweb requires you reveal all personal information to them, in order to register an account. VPNs are <em>not allowed</em>.</p>
-
-<p>The only other place online, thus far, that I’ve had any issue with using my VPN, be it via Proton’s subscription service that I use for e-mail, or Apple’s built-in VPN, has been Misskey’s flagship server (that auto-blocks Western users from registering). Not even <em>Activision</em> blocks you from using a VPN while playing their highly competitive shooters, Call of Duty.</p>
-
-<p>So, like ya do, I joined their Discord, curious, a little bummed. Thinking, there’s <em>no way</em> I have to turn off something completely related to my <em>own</em> online safety and privacy just to make an account here, right?</p>
-
-<p><em>Wrong.</em></p>
-
-<p>I don’t feel the need to post direct screenshots, since this website is seen by quite a few more people than my Mastodon account, so I’ll just quote the person who immediately replied to me when I asked, “So why can’t I have my VPN turned on when I’m making an account?”</p>
-
-<p>User / Supporter / or maybe even dev? responds:</p>
-
-<blockquote>
-  <p>why are you using VPN to register an account?</p>
-</blockquote>
-
-<blockquote>
-  <p>we had spammers use VPN to comment hate stuff on users guestbooks</p>
-</blockquote>
-
-<blockquote>
-  <p>probably why [team member affiliated with Nekoweb] doesn’t allow vpn</p>
-</blockquote>
-
-<p>The Nekoweb team member responds,</p>
-
-<blockquote>
-  <p>abuse prevention</p>
-</blockquote>
-
-<p>Flabbergasted, blown-away, I respond, “I use a VPN provided by Proton’s subscription service that comes along with their e-mail, entirely just for privacy lol”</p>
-
-<p>To which the first user replies, again,</p>
-
-<blockquote>
-  <p>well in order to register you need proper internet connection and no VPN.</p>
-</blockquote>
-
-<p>…</p>
-
-<p><strong>PROPER INTERNET CONNECTION???</strong></p>
-
-<p>It was at this point I kind of fell off and spiraled a bit, implied neither of them know what they’re doing, and left.</p>
-
-<p>So, no, I absolutely wouldn’t recommend you use Nekoweb as an alternative to Neocities, if that’s what you’re looking for. How people who <em>don’t even know</em> what a VPN does, or is used for by average people, ended up <em>making an entire</em> web service, is wild, ridiculous, and makes absolutely no sense. And I get the impression that they <em>don’t want</em> new users, or any subscription money for that matter. Which is fine. They aren’t getting any from me.</p>
-
-<p>For anyone else, who might be a little more rationally inclined, why use a VPN?</p>
-
-<p>It’s not just for watching shows on Netflix you can’t get in the US. Some countries are blocked from most internet access and can’t interact with the outside world, <em>without</em> a VPN. Guess they aren’t allowed to make websites, either?</p>
-
-<p>Why do <em>I</em> use a VPN? I use one, because I don’t think every website and provider needs my personal information at all times, every single time I access a domain. I especially don’t think the developers behind Nekoweb need my personal information, <em>just to make an account</em> on their Neocities clone. Entitled to my data as they may be, if you have a problem with spam and abuse coming from users behind VPNs, and you just ban VPN use, uhm, guys? You <em>know</em> that perpetrators of abuse can just make a new e-mail and do exactly the same thing, without a VPN? They could drive down the street to McDonalds, log on, and continue harassing your users.</p>
-
-<p>And, I’m sorry, I’m still reeling over “proper internet connection.”</p>
-
-<p>I’m just out of words in my brain sauce that would allow me to express how <em>ridiculous</em> that sounds … you guys made this web service? For real? You made a whole web service for hosting websites and you don’t even know the <em>first thing</em> about privacy and safety online?</p>
-
-<p>Holy hell.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Tech" /><category term="tech" /><summary type="html"><![CDATA[Today I woke up, and, like I do, I checked my “daily report” bot e-mail, and noticed something … strange. According to the Neocities subreddit, the person behind Neocities had written, a year ago, some positive thinking about AI (which, I’m not sure can be fully judged a year later, since it’s only gotten extremely bad, this year). In response, some users were suggesting Nekoweb as an alternative for people who don’t want to be potentially affiliated with someone who endorses Sam Altman. And then I stumbled into an issue, and the strangest people I’ve met this week (so far).]]></summary></entry></feed>
+<p>But, that’s it for now: Enjoy~</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[You remember how Google decided that they were going to disable ad-blockers in their browser, and also make ads on YouTube more intrusive, and more frequent? Well, while I understand there is probably a wealth of YouTube video downloaders out there, I made my own. It runs on Python, it’s just one executable file, and it’s freakin’ sweet looking, bro.]]></summary></entry></feed>
