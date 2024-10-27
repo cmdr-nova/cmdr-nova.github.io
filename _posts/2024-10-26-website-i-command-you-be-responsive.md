@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113376991798571516
 ---
 Today, I got home from work, and for *once* wasn't feeling too tired to even type on my keyboard. So, I logged into Second Life and acquired some land, and noticed I could hold a little more. I shot off a ticket to Linden Labs and asked for some more space, because ... I'd like to build things. While I sat waiting for a response to this ticket (which I'm *still* waiting on) I did what any normal person would do. I fully redesigned the way my website responds to different screens.
 
