@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113382359166384518
 ---
 Woohoo! A new Black Ops is out! You know what that means: It's time to go hunting zombies. Endlessly. Forever. Without pause. No extraction. Keep fighting. Run out of ammo. Die. This is, at least, *my experience*, in every Black Ops since number two.
 
