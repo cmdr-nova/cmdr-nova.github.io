@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113388060838545460
 ---
 It's been years since I've *seriously* played Guild Wars 2 in a way that constitutes actually completing content, and leveling up. In fact, I haven't really played it much since the years that I spent outside of the traditional work-force. And that was back around Path of Fire, and now there's at least three expansions I've missed, and need to catch up on. So I logged the heck on.
 
