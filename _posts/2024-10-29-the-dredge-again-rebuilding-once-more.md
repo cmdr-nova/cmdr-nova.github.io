@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113394077036686537
 ---
 In the few hours I have to myself tonight, I'd like to update interested peoples and parties on what's happening with things I'm building in Second Life. As most know, I shut down my city/the homestead a few months back. It's really hard to justify spending 110+ USD a month on something that's not making me any returns, and people really only visited on and off in short bursts. No fault of their own, I just mostly *always* lack the energy for reaching out and building community. But, my Second Life journey is also kind of empty and hollow without owning a piece of land, with things that I've built, so ...
 
