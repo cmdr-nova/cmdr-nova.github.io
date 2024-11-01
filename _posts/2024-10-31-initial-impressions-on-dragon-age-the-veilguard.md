@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: gaming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113405185402023449
 ---
 It's been a little while since I've written down my impressions of a game. It's been a little never that I've ever written down my initial impressions of a *BioWare* game. Thinking back, I think the last one that I played all the way through was Andromeda. Which *was a good game*, despite the meandering open world that took away from the experience. But, now we're back, with the conclusion (maybe?) of the Inquisition timeline, and everything is purple, and very shiny. These are my thoughts ...
 
