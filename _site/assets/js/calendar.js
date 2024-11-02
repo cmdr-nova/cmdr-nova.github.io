@@ -1,12 +1,13 @@
 async function fetchAndStoreImages() {
   try {
-    const response = await fetch('https://www.reddit.com/r/animewallpapers/top/.json?limit=100');
+    const response = await fetch('https://www.reddit.com/r/animewallpaper/top/.json?limit=100');
     const data = await response.json();
     const posts = data.data.children;
-    const images = posts.map(post => post.data.url);
+    const images = posts.map(post => post.data.url).filter(url => url.endsWith('.jpg') || url.endsWith('.png') || url.endsWith('.webp'));
     const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
     localStorage.setItem('animewallpapers_images', JSON.stringify(images));
     localStorage.setItem('animewallpapers_date', today);
+    console.log('Images fetched and stored:', images);
   } catch (error) {
     console.error('Error fetching images:', error);
   }
@@ -19,6 +20,9 @@ function setRandomImage() {
     document.getElementById('calendar').style.backgroundImage = `url(${randomImage})`;
     document.getElementById('calendar').style.backgroundSize = 'cover';
     document.getElementById('calendar').style.backgroundPosition = 'center';
+    console.log('Random image set:', randomImage);
+  } else {
+    console.log('No images found in local storage.');
   }
 }
 
@@ -26,9 +30,19 @@ async function fetchRandomImage() {
   const storedDate = localStorage.getItem('animewallpapers_date');
   const today = new Date().toISOString().split('T')[0];
 
+  console.log('Stored date:', storedDate);
+  console.log('Today\'s date:', today);
+
   if (storedDate !== today) {
+    console.log('Fetching new images...');
     await fetchAndStoreImages();
+  } else {
+    console.log('Using stored images.');
   }
+
+  // Verify that images are stored in local storage
+  const images = JSON.parse(localStorage.getItem('animewallpapers_images'));
+  console.log('Stored images:', images);
 
   setRandomImage();
 }
