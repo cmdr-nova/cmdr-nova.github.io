@@ -62,3 +62,5 @@ Where we go from here? We'll see ...
 As of August 25th, [REVOSA] *nearly* lost its in-world location, and, unfortunately, Neo Machina had to close due to financial issues. [REVOSA] was also shuttered for a short time in-world, but then I was generously offered a very large space on a full sim, free of charge, by Second Life resident, Logan Bamaisin (Laufiair Hexicola).
 
 It seems that, no matter what, [REVOSA] lives on.
+
+** Update: As of November 2nd, 2024, Neo Machina has returned via some large swaths of mainland that I own and is being rebuilt from the ground-up. You can visit <a href="http://maps.secondlife.com/secondlife/Auriga/150/185/68" target="_blank">here</a>!
