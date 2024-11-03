@@ -35,6 +35,7 @@ jobs:
       uses: helaili/jekyll-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        jekyll_src: ./_site # Specify the path to the Jekyll site
 
     - name: List _site directory
       run: ls -la _site
