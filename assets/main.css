@@ -1038,3 +1038,7 @@ iframe {
   height: auto;
   margin-bottom: 10px;
 }
+
+#random-image-container {
+  filter: drop-shadow(5px 5px rgba(152, 231, 26, 0.863));
+}
