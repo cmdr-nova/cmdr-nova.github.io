@@ -582,11 +582,11 @@ pre > code {
   margin-left: 2px;
 }
 
-/* mastodon section */
+/* Mastodon feed section */
 
 #mastodon {
   background-color: #111111d5;
-  height: 20rem;
+  height: 35rem;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -597,7 +597,6 @@ pre > code {
   max-width: 260px;
   filter: drop-shadow(5px 5px rgba(255, 238, 1, 0.644));
 }
-
 .mastodon::-webkit-scrollbar {
   display: none; /* All other browsers */
 }
@@ -606,8 +605,41 @@ pre > code {
     border: 1px solid rgba(8, 8, 8, 0.781);
     padding: 0.5rem;
     word-wrap: break-word;
-    overflow-x: hidden
+    overflow-x: hidden;
   }
+
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }  
+
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .username {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .post-date {
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .post-media {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  
 
   /* Imported code */
 
@@ -625,9 +657,7 @@ pre > code {
   
 }
 
-/* vanishing side menu */
-
-
+/* Vanishing side menu */
 
 .sidenav {
   border-style: none;
@@ -696,7 +726,7 @@ pre > code {
    filter: drop-shadow(5px 5px 5px #91ff02); 
 }
 
-/* a blinking cursor */
+/* A blinking cursor */
 
 .blinking-cursor {
   color: #2E3D48;
@@ -889,7 +919,7 @@ iframe {
   margin-bottom: 15px;
 }
 
-/* calendar css */
+/* Calendar css */
 
 #calendar {
   font-family: Montserrat, sans-serif;
@@ -928,4 +958,35 @@ iframe {
 
 #calendar td {
   height: 50px;
+}
+
+/* Tumblr feed */
+
+#reddit-bot {
+  filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
+}
+
+#tumblr-feed {
+  width: 100%;
+}
+
+.tumblr-post {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tumblr-post p {
+  margin: 0.5em 0;
+}
+
+.tumblr-post a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.tumblr-post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
 }
