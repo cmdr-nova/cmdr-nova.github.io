@@ -4,6 +4,12 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 11/2/2024
+
+- modified the mastodon feed javascript to more accurately represent posts coming from mastodon
+- updated the calendar javascript to load random images from the top 100 posts at /r/animewallpaper
+- added javascript to the left sidebar to display a feed (from tumblr) of top reddit posts being posted by my python script, reddit-bot
+
 # # # 10/26/2024
 
 - near fully redesigned the website's CSS in order to make it completely responsive to all screens in most situations
