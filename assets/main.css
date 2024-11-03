@@ -1015,7 +1015,7 @@ iframe {
 }
 
 #tumblr-feed {
-  width: 100%;
+  width: 260px;
 }
 
 .tumblr-post {
@@ -1036,6 +1036,5 @@ iframe {
 .tumblr-post img {
   max-width: 100%;
   height: auto;
-  display: block;
   margin-bottom: 10px;
 }
