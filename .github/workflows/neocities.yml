@@ -1,12 +1,12 @@
 name: Deploy to neocities
 
-# only run on changes to main. Use main or master depending on whatever your default branch is called.
+# Only run on changes to main. Use main or master depending on whatever your default branch is called.
 on:
   push:
     branches:
       - master
 
-concurrency: # prevent concurrent deploys doing strange things
+concurrency: # Prevent concurrent deploys doing strange things
   group: deploy-to-neocities
   cancel-in-progress: true
 
@@ -17,6 +17,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+
+    - name: Install dependencies
+      run: bundle install
+
     - name: Fetch Tumblr Posts
       env:
         TUMBLR_API_KEY: ${{ secrets.TUMBLR_API_KEY }}
@@ -25,6 +33,9 @@ jobs:
 
     - name: Build static site
       run: bundle exec jekyll build
+
+    - name: List _site directory
+      run: ls -la _site
 
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v2.0.2
