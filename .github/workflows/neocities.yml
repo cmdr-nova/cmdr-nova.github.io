@@ -17,6 +17,16 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install
+
     - name: Fetch Tumblr Posts
       env:
         TUMBLR_API_KEY: ${{ secrets.TUMBLR_API_KEY }}
@@ -24,7 +34,10 @@ jobs:
         curl -s "https://api.tumblr.com/v2/blog/nova-ayashi.tumblr.com/posts?api_key=$TUMBLR_API_KEY" -o _data/tumblr_posts.json
 
     - name: Build static site
-      run: jerryjvl/jekyll-build-action@v1
+      run: bundle exec jekyll build
+
+    - name: List _site directory
+      run: ls -la _site
 
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v2.0.2
