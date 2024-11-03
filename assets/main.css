@@ -58,7 +58,6 @@ img:not(.no-center), video:not(.no-center) {
   height: auto;
 }
 
-/* Ensure .no-center class is respected */
 .no-center {
   display: inline !important;
   margin: 0 !important;
@@ -665,6 +664,7 @@ pre > code {
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-bottom: 5px;
   }
 
   .username {
