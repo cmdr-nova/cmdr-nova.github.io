@@ -4,7 +4,8 @@ title: My Dungeons and Dragons Characters, in Order ...
 permalink: /pages/dnd/
 ---
 
-![a gif of a wizard shooting lightning.](/img/gifs/wizardanime.gif){: .image-left }This is a page for chronicling all of my DND characters (mostly from the videogames, because I've never had the chance to play the tabletop version)
+<img class="no-center image-left" src="/img/gifs/wizardanime.gif" alt="a gif of a wizard shooting lightning">
+This is a page for chronicling all of my DND characters (mostly from the videogames, because I've never had the chance to play the tabletop version)
 
 Over the years I've explored the concept of Dungeons and Dragons a few times here and there. I dabbled in Neverwinter and Baldur's Gate as a mid-teen to late-teen. But due to my lack of exposure to roleplaying games as a kid (outside of Diablo), I never really had the chance to delve into it, until now.
 

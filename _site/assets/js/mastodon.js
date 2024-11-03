@@ -31,7 +31,7 @@ fetch(rss_url)
             let header = document.createElement('div');
             header.className = 'post-header';
             header.innerHTML = `
-                <img src="${userAvatar}" alt="User Avatar" class="user-avatar">
+                <img src="${userAvatar}" alt="User Avatar" class="user-avatar no-center">
                 <span class="username">${username}</span>
                 <a href="${postUrl}" target="_blank" class="post-date">${month} ${day}, ${year}</a>
             `;
