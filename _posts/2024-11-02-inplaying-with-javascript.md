@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113416510065412464
 ---
 Today I got off of work, sat down on my couch, and promptly passed the *heck* out. Then, I woke up, and ate an italian sub. This was just enough fuel for me to load up VS Code and get back to messing with my website. As you can probably see, if you're reading this from the page itself, I've made some ... *upgrades*.
 
