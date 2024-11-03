@@ -1010,7 +1010,8 @@ iframe {
 #reddit-bot {
   overflow: hidden; 
   padding: 10px; 
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 #tumblr-feed {
