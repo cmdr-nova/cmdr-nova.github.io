@@ -48,6 +48,11 @@ future: true
 compress_images:
   images_path: "/img/**/*.{gif,png,jpg,jpeg,svg}"
 
+collections:
+  posts:
+    output: true
+    permalink: /:path/:basename:output_ext
+
 # New fields not defaulted by jekyll-new with the minima theme
 # Add a copyright. A copyright symbol and year will be added automatically
 # copyright: Company Name, Inc. 

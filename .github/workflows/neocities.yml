@@ -16,11 +16,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Fetch Tumblr Posts
+      env:
+        TUMBLR_API_KEY: ${{ secrets.TUMBLR_API_KEY }}
+      run: |
+        curl -s "https://api.tumblr.com/v2/blog/nova-ayashi.tumblr.com/posts?api_key=$TUMBLR_API_KEY" -o _data/tumblr_posts.json
+
     - name: Build static site
-      uses: jerryjvl/jekyll-build-action@v1
+      run: bundle exec jekyll build
+
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
-        api_token: ${{ secrets.NEOCITIES_API_KEY }} # uses API key from Neocities
+        api_token: ${{ secrets.NEOCITIES_API_KEY }} # Uses API key from Neocities
         cleanup: false
         dist_dir: _site
