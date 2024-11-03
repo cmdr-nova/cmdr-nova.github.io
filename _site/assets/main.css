@@ -1008,7 +1008,9 @@ iframe {
 /* Tumblr feed */
 
 #reddit-bot {
-  filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
+  overflow: hidden; 
+  padding: 10px; 
+  box-sizing: border-box; 
 }
 
 #tumblr-feed {
@@ -1016,8 +1018,9 @@ iframe {
 }
 
 .tumblr-post {
+  margin-bottom: 20px; 
   border-bottom: 1px solid #ccc;
-  padding: 10px;
+  padding-bottom: 10px; 
 }
 
 .tumblr-post p {
