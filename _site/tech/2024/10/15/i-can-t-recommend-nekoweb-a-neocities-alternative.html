@@ -345,7 +345,7 @@ rel="stylesheet"/>
                     reply.account.display_name = escapeHtml(reply.account.display_name);
                     reply.account.emojis.forEach(emoji => {
                       reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
-                      `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                      `<img class="no-center" src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
                       });
                   } else {
                     reply.account.display_name = reply.account.acct;
@@ -354,7 +354,7 @@ rel="stylesheet"/>
                     `<article id="comment-${reply.id }" class="js-comment comment" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
                        <div class="js-comment comment">
                          <div class="comment__content-wrapper">
-                          <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="comment__avatar" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
+                          <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="comment__avatar no-center" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
                             <a rel="external nofollow" itemprop="url" href="${reply.account.url}" rel="nofollow">
                               <span>${reply.account.display_name}</span>
                             </a>

@@ -1,9 +1,10 @@
 const apiKey = 'fqSGD7oySzZojmigIu6irCjfWX3sz4jjRNvXVmp92jyVfoApIf';
 const blogIdentifier = 'nova-ayashi.tumblr.com';
+const corsProxy = 'https://cors-anywhere.herokuapp.com/';
 
 async function fetchTumblrPosts() {
   try {
-    const response = await fetch(`https://api.tumblr.com/v2/blog/${blogIdentifier}/posts?api_key=${apiKey}`);
+    const response = await fetch(`${corsProxy}https://api.tumblr.com/v2/blog/${blogIdentifier}/posts?api_key=${apiKey}`);
     const data = await response.json();
     const posts = data.response.posts;
     displayTumblrPosts(posts);

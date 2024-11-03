@@ -58,6 +58,14 @@ img:not(.no-center), video:not(.no-center) {
   height: auto;
 }
 
+/* Ensure .no-center class is respected */
+.no-center {
+  display: inline !important;
+  margin: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+}
+
 /* Float images to the right */
 .image-right {
   float: right;
