@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Work, Sleep, Code, Repeat",
+      "category" : "",
+      "tags"     : "programming",
+      "url"      : "/programming/2024/11/04/work-sleep-code-repeat.html",
+      "date"     : "2024-11-04 00:09:00 -0500"
+    } ,
+  
+    {
       "title"    : "Playing With JavaScript",
       "category" : "",
       "tags"     : "programming",
