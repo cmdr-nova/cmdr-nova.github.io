@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113423214298113130
 ---
 So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and *sometimes* playing Dragon Age and Baldur's Gate.
 
