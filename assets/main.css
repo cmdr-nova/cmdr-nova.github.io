@@ -356,6 +356,8 @@ code {
   white-space: pre-wrap; 
   overflow-x: auto; 
   word-wrap: break-word;
+  word-break: break-all;
+  max-width: 100%;
 }
 
 pre { 
