@@ -1,5 +1,5 @@
 const blogIdentifier = 'nova-ayashi.tumblr.com';
-const proxyUrl = 'https://server.mkultra.monster:3000/tumblr'; // Replace with your domain and port
+const proxyUrl = 'https://server.mkultra.monster/tumblr'; // Replace with your domain
 
 async function fetchTumblrPosts() {
   try {
