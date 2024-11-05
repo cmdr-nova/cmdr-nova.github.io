@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113432004272344598
 ---
 Today I turned off my GitHub pages mirror of this site, and in doing so, I had to create my own XML feed with its own styling and all. Which ... I accomplished, pretty easily! But then my bot that's supposed to read my feed, and append old items to a file, and *only* post brand new items, exploded onto Mastodon three times with everything I've ever posted on here.
 
