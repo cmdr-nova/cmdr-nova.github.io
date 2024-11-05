@@ -20,7 +20,7 @@ async function fetchTrendingTags() {
       return;
     }
     console.log('Displaying trending tags:', tags);
-    mastodonContainer.innerHTML = '<h3>Trending on Mastodon</h3>';
+    mastodonContainer.innerHTML = '<p>Trending on Mastodon</p><hr style="margin-bottom: 1em;">';
     const list = document.createElement('ul');
   
     tags.forEach(tag => {

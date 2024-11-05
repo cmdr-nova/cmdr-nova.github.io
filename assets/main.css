@@ -1011,6 +1011,14 @@ iframe {
   padding: 10px;
   box-sizing: border-box;
   overflow: hidden;
+  border-style: solid;
+  border-radius: 10px;
+  border-color:rgb(217, 255, 0);
+  margin: 0 auto;
+  justify-content: center;
+  background-color:rgba(0, 255, 191, 0.226);
+  filter: drop-shadow(1px 1px rgba(152, 231, 26, 0.863));
+  box-shadow: inset 0 0 15px var(--other-inset);
 }
 
 #mastodon-trending h3 {
