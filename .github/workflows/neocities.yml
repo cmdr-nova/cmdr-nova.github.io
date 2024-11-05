@@ -28,12 +28,6 @@ jobs:
     - name: Install dependencies
       run: bundle install
 
-    - name: Fetch Tumblr Posts
-      env:
-        TUMBLR_API_KEY: ${{ secrets.TUMBLR_API_KEY }}
-      run: |
-        curl -s "https://api.tumblr.com/v2/blog/nova-ayashi.tumblr.com/posts?api_key=$TUMBLR_API_KEY" -o _data/tumblr_posts.json
-
     - name: Build static site
       run: bundle exec jekyll build
 
