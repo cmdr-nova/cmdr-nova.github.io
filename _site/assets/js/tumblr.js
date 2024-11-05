@@ -1,10 +1,12 @@
-const apiKey = 'fqSGD7oySzZojmigIu6irCjfWX3sz4jjRNvXVmp92jyVfoApIf';
 const blogIdentifier = 'nova-ayashi.tumblr.com';
+const proxyUrl = 'http://67.205.188.225:3000/tumblr'; // Replace with your VPS domain or IP and port
 
 async function fetchTumblrPosts() {
   try {
-    const response = await fetch(`https://api.tumblr.com/v2/blog/${blogIdentifier}/posts?api_key=${apiKey}`);
+    console.log('Fetching Tumblr posts...');
+    const response = await fetch(`${proxyUrl}?blogIdentifier=${blogIdentifier}`);
     const data = await response.json();
+    console.log('Fetched data:', data);
     const posts = data.response.posts;
     displayTumblrPosts(posts);
   } catch (error) {
@@ -39,6 +41,8 @@ function displayTumblrPosts(posts) {
     tumblrFeed.appendChild(postElement);
   });
 
+  // Clear previous feed and append new feed
+  sidebar.innerHTML = '';
   sidebar.appendChild(tumblrFeed);
 }
 

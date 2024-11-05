@@ -3,8 +3,10 @@ const proxyUrl = 'http://67.205.188.225:3000/tumblr'; // Replace with your VPS d
 
 async function fetchTumblrPosts() {
   try {
+    console.log('Fetching Tumblr posts...');
     const response = await fetch(`${proxyUrl}?blogIdentifier=${blogIdentifier}`);
     const data = await response.json();
+    console.log('Fetched data:', data);
     const posts = data.response.posts;
     displayTumblrPosts(posts);
   } catch (error) {
@@ -39,6 +41,8 @@ function displayTumblrPosts(posts) {
     tumblrFeed.appendChild(postElement);
   });
 
+  // Clear previous feed and append new feed
+  sidebar.innerHTML = '';
   sidebar.appendChild(tumblrFeed);
 }
 
