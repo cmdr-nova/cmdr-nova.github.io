@@ -2,11 +2,12 @@ const blogIdentifier = 'nova-ayashi.tumblr.com';
 const corsProxy = 'https://proxy.cors.sh/';
 const apiUrl = 'https://server.mkultra.monster/tumblr';
 const corsApiKey = 'live_55b35c983c867b44763d6def9bb0cc78bbb43042296b989c415d44bcd197cf6c'; // Replace with your actual API key
+const postsPerPage = 20; // Adjust the number of posts per page as needed
 
-async function fetchTumblrPosts() {
+async function fetchTumblrPosts(offset = 0) {
   try {
     console.log('Fetching Tumblr posts...');
-    const response = await fetch(`${corsProxy}${apiUrl}?blogIdentifier=${blogIdentifier}`, {
+    const response = await fetch(`${corsProxy}${apiUrl}?blogIdentifier=${blogIdentifier}&offset=${offset}&limit=${postsPerPage}`, {
       headers: {
         'x-cors-api-key': corsApiKey,
         'origin': window.location.origin, // Include the origin header
@@ -70,4 +71,5 @@ function displayTumblrPosts(posts) {
   console.log('Updated tumblr feed content:', tumblrFeedContainer.innerHTML);
 }
 
+// Fetch the first page of posts
 fetchTumblrPosts();
