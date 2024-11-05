@@ -2,7 +2,7 @@ const blogIdentifier = 'nova-ayashi.tumblr.com';
 const corsProxy = 'https://proxy.cors.sh/';
 const apiUrl = 'https://server.mkultra.monster/tumblr';
 const corsApiKey = 'live_55b35c983c867b44763d6def9bb0cc78bbb43042296b989c415d44bcd197cf6c'; // Replace with your actual API key
-const postsPerPage = 20; // Adjust the number of posts per page as needed
+const postsPerPage = 3; // Fetch only the most recent 3 posts
 
 async function fetchTumblrPosts(offset = 0) {
   try {
@@ -40,10 +40,7 @@ function displayTumblrPosts(posts) {
   const tumblrFeed = document.createElement('div');
   tumblrFeed.id = 'tumblr-feed';
 
-  // Limit to the latest 3 posts
-  const latestPosts = posts.slice(0, 3);
-
-  latestPosts.forEach(post => {
+  posts.forEach(post => {
     const postElement = document.createElement('div');
     postElement.className = 'tumblr-post';
 
@@ -71,5 +68,4 @@ function displayTumblrPosts(posts) {
   console.log('Updated tumblr feed content:', tumblrFeedContainer.innerHTML);
 }
 
-// Fetch the first page of posts
 fetchTumblrPosts();
