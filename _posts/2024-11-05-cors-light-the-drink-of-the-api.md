@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113428856952208234
 ---
 I'm a little bit delirious. Last night I fell asleep on my couch the entire night, and then woke up at 6am to my cat begging for food, and then I stayed up, and went to work. I got home, and yes, instead of watching the new Deadpool, I switch on the code machine and thought, "Why am I routing the Tumblr API through a github secret only to get static results that don't update unless I push changes to my site? The heck?" And I thought, "What if I just use a proxy server on my VPS that the JavaScript accesses to give a fresh perspective every time someone refreshes my site?" Boy ... oh boy.
 
