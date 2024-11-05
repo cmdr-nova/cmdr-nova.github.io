@@ -44,6 +44,9 @@ function displayTumblrPosts(posts) {
   // Clear previous feed and append new feed
   sidebar.innerHTML = '';
   sidebar.appendChild(tumblrFeed);
+
+  // Log the updated sidebar content for debugging
+  console.log('Updated sidebar content:', sidebar.innerHTML);
 }
 
 fetchTumblrPosts();
