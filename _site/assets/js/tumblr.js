@@ -1,18 +1,13 @@
 const blogIdentifier = 'nova-ayashi.tumblr.com';
-const corsProxy = 'https://proxy.cors.sh/';
-const apiUrl = 'https://server.mkultra.monster/tumblr';
-const corsApiKey = 'live_55b35c983c867b44763d6def9bb0cc78bbb43042296b989c415d44bcd197cf6c';
+const corsProxy = 'https://server.mkultra.monster:3000/proxy?url=';
+const apiUrl = `https://api.tumblr.com/v2/blog/${blogIdentifier}/posts`;
+const apiKey = 'tkzBcfe50toJjkOkT3LpubZjOGVL3nOmwOASEVA0d2hJILYOPW';
+const postsPerPage = 3; // Fetch only the most recent 3 posts
 
-async function fetchTumblrPosts() {
+async function fetchTumblrPosts(offset = 0) {
   try {
     console.log('Fetching Tumblr posts...');
-    const response = await fetch(`${corsProxy}${apiUrl}?blogIdentifier=${blogIdentifier}`, {
-      headers: {
-        'x-cors-api-key': corsApiKey,
-        'Origin': window.location.origin, // Include the origin header
-        'X-Requested-With': 'XMLHttpRequest' // Include the x-requested-with header
-      }
-    });
+    const response = await fetch(`${corsProxy}${encodeURIComponent(`${apiUrl}?api_key=${apiKey}&offset=${offset}&limit=${postsPerPage}`)}`);
 
     // Check if the response is OK and the content type is JSON
     if (!response.ok) {
@@ -39,10 +34,7 @@ function displayTumblrPosts(posts) {
   const tumblrFeed = document.createElement('div');
   tumblrFeed.id = 'tumblr-feed';
 
-  // Limit to the latest 3 posts
-  const latestPosts = posts.slice(0, 3);
-
-  latestPosts.forEach(post => {
+  posts.forEach(post => {
     const postElement = document.createElement('div');
     postElement.className = 'tumblr-post';
 
