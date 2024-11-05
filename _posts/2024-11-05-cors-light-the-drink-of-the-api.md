@@ -32,5 +32,3 @@ I mean, I really *don't need* to have this on my site. In fact, I bet I could fi
 But, uh, I'm just gonna go to sleep.
 
 Thanks for reading my vent.
-
-COOOOOOOOOOOOOO<wbr>OOOOOOOOOOOOOOOOOOO<wbr>OOOOOOOOOOOOOOOOOOOOO<wbr>OOOOOOOOOOOOOOOOOOOOOO<wbr>OOOOOORS
