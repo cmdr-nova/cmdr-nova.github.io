@@ -37,15 +37,13 @@
   --grad-3: #1f1f1f;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 /** Reset some basic elements */
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, a, span, div, td, th { 
   margin: 0; 
   padding: 0; 
   overflow-x: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 img:not(.no-center), video:not(.no-center) {
@@ -113,28 +111,6 @@ img:not(.no-center), video:not(.no-center) {
   image-rendering: crisp-edges; 
 }
 
-/* search field */
-
-ul#results-container {
-  padding: 0;
-  list-style-type: none;
-  position: absolute;
-}
-
-#results-container li {
-  margin: 0 0 1.5rem 0;
-  padding: 26px 0 0 0; 
-}
-
-span.post-meta {
-  font-size: 1rem;
-}
-
-.cloud {
-  word-spacing: 5px;
-  line-height: 35px;
-}
-
 /** Basic styling */
 
 body { 
@@ -151,23 +127,6 @@ body {
   background-attachment: fixed;
   padding-right: 20px;
   padding-left: 20px;
-}
-
-body.light-mode {
-  font-family: Montserrat, sans-serif;
-  display: flex;
-  background-color: #ffffff;
-  color: #000000;
-  background-image: none;
-}
-
-body.light-mode a {
-  color: #000000; /* Example link color for light mode */
-}
-
-body.light-mode #main {
-  background-color: #ffffff;
-  background-image: none;
 }
 
 .post-link {
@@ -217,6 +176,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 #main table {
   table-layout: auto;
+  width: 100%;
+  overflow-x: auto;
 }
 
 @media only screen and (max-width: 480px) {
@@ -235,7 +196,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     word-spacing: 1px;
     letter-spacing: 1px;
   }
-  #sidebar, #rightbar, footer {
+  #sidebar, footer {
     display: none;
   }
   .nav-wrapper {
@@ -256,6 +217,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   code {
     font-size: 0.8em;
     padding: 10px;
+    max-width: 100%;
+  }
+  hr {
+    max-width: 100%;
   }
 }
 
@@ -276,8 +241,9 @@ footer {
 
 /** Images */
 img { 
-  max-width: 100%; 
+  max-width: 100%;
   vertical-align: middle; 
+  height: auto;
 }
 
 /** Figures */
@@ -344,7 +310,9 @@ blockquote > :last-child {
 pre { 
   font-size: 15px; 
   border: 1px solid #e8e8e8; 
-  border-radius: 3px; 
+  border-radius: 3px;
+  padding: 8px 12px; 
+  overflow-x: auto;
 }
 
 code {
@@ -360,17 +328,6 @@ code {
   max-width: 100%;
 }
 
-pre { 
-  padding: 8px 12px; 
-  overflow-x: auto; 
-}
-
-pre > code { 
-  border: 0; 
-  padding-right: 0; 
-  padding-left: 0; 
-}
-
 /** Icons */
 .svg-icon { 
   width: 16px; 
@@ -379,10 +336,6 @@ pre > code {
   fill: var(--svg-fille); 
   padding-right: 5px; 
   vertical-align: text-top; 
-}
-
-.social-media-list li + li { 
-  padding-top: 5px; 
 }
 
 .author {
@@ -434,6 +387,7 @@ pre > code {
   display: block;
   font-size: 1.5rem;
   padding: 24px;
+  margin-bottom: 10px;
   font-weight: 700;
   text-align: left;
   line-height: 34px;
@@ -460,7 +414,9 @@ pre > code {
 
 .page-content { 
   padding: 30px 0; 
-  flex: 1; 
+  flex: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .page-heading { 
@@ -497,7 +453,6 @@ pre > code {
   letter-spacing: -1px; 
 }
 
-@media screen and (max-width: 800px) { .post-title { font-size: 36px; } }
 
 .post-content { 
   margin-bottom: 30px;
@@ -506,12 +461,6 @@ pre > code {
 .post-content h2 { 
   font-size: 32px; 
 }
-
-@media screen and (max-width: 800px) { .post-content h2 { font-size: 28px; } }
-.post-content h3 { font-size: 26px; }
-@media screen and (max-width: 800px) { .post-content h3 { font-size: 22px; } }
-.post-content h4 { font-size: 20px; }
-@media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
 .highligher {
     background-color: #1C1C1C;
@@ -1054,3 +1003,37 @@ iframe {
 #random-image-container {
   filter: drop-shadow(5px 5px rgba(152, 231, 26, 0.863));
 }
+
+/* Mastodon trending section */
+#mastodon-trending {
+  max-width: 260px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#mastodon-trending h3 {
+  margin-top: 0;
+}
+
+#mastodon-trending ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mastodon-trending li {
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+}
+
+#mastodon-trending a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+#mastodon-trending a:hover {
+  text-decoration: underline;
+}
+/* End Mastodon trending section */

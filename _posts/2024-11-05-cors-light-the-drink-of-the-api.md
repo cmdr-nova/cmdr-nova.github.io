@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CORS Light, The Drink of the API
+title: "CORS Light, The Drink of the API"
 date: 2024-11-05 00:59 -0500
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
@@ -32,5 +32,3 @@ I mean, I really *don't need* to have this on my site. In fact, I bet I could fi
 But, uh, I'm just gonna go to sleep.
 
 Thanks for reading my vent.
-
-COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOORS.
