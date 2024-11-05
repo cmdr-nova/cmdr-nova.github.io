@@ -1,10 +1,30 @@
 const blogIdentifier = 'nova-ayashi.tumblr.com';
-const proxyUrl = 'https://server.mkultra.monster/tumblr'; // Replace with your domain
+const corsProxy = 'https://proxy.cors.sh/';
+const apiUrl = 'https://server.mkultra.monster/tumblr';
+const corsApiKey = 'live_55b35c983c867b44763d6def9bb0cc78bbb43042296b989c415d44bcd197cf6c';
 
 async function fetchTumblrPosts() {
   try {
     console.log('Fetching Tumblr posts...');
-    const response = await fetch(`${proxyUrl}?blogIdentifier=${blogIdentifier}`);
+    const response = await fetch(`${corsProxy}${apiUrl}?blogIdentifier=${blogIdentifier}`, {
+      headers: {
+        'x-cors-api-key': corsApiKey,
+        'Origin': window.location.origin, // Include the origin header
+        'X-Requested-With': 'XMLHttpRequest' // Include the x-requested-with header
+      }
+    });
+
+    // Check if the response is OK and the content type is JSON
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      const text = await response.text();
+      console.error('Response text:', text);
+      throw new Error('Response is not JSON');
+    }
+
     const data = await response.json();
     console.log('Fetched data:', data);
     const posts = data.response.posts;
