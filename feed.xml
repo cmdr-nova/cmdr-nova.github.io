@@ -1,20 +1,21 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="path/to/feed-stylesheet.xsl"?>
+<?xml-stylesheet type="text/xsl" href="{{ '/assets/feed-stylesheet.xsl' | relative_url }}"?>
 <rss version="2.0">
   <channel>
-    <title>Your Feed Title</title>
-    <link>https://yourwebsite.com</link>
-    <description>Your feed description</description>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    {% for post in site.posts %}
     <item>
-      <title>Item 1 Title</title>
-      <link>https://yourwebsite.com/item1</link>
-      <description>Item 1 description</description>
+      <title>{{ post.title | escape }}</title>
+      <link>{{ post.url | absolute_url }}</link>
+      <description>{{ post.excerpt | strip_html | escape }}</description>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <guid>{{ post.id }}</guid>
     </item>
-    <item>
-      <title>Item 2 Title</title>
-      <link>https://yourwebsite.com/item2</link>
-      <description>Item 2 description</description>
-    </item>
-    <!-- More items -->
+    {% endfor %}
   </channel>
 </rss>
