@@ -483,6 +483,9 @@ code {
 }
 
 .btn {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
   background-color: var(--btn-bg);
   font-weight: 400;
   border-style: solid;
@@ -491,7 +494,6 @@ code {
   color: var(--button-txt);
   cursor: pointer;
   padding: 10px 10px;
-  filter: drop-shadow(3px 3px rgba(7, 218, 255, 0.301));
 }
 
 .comment {
