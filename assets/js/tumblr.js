@@ -10,8 +10,8 @@ async function fetchTumblrPosts(offset = 0) {
     const response = await fetch(`${corsProxy}${apiUrl}?blogIdentifier=${blogIdentifier}&offset=${offset}&limit=${postsPerPage}`, {
       headers: {
         'x-cors-api-key': corsApiKey,
-        'origin': window.location.origin, // Include the origin header
-        'x-requested-with': 'XMLHttpRequest' // Include the x-requested-with header
+        'Origin': window.location.origin, // Include the origin header
+        'X-Requested-With': 'XMLHttpRequest' // Include the x-requested-with header
       }
     });
 
