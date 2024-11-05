@@ -21,7 +21,7 @@ async function fetchRSSFeed() {
   
   function displayRSSFeed(items) {
     const rssContainer = document.getElementById('rss-feed');
-    rssContainer.innerHTML = '<p>Angelfire posts</p>';
+    rssContainer.innerHTML = '<p>Angelfire posts (defunct blog)</p>';
     const list = document.createElement('ul');
   
     for (let i = 0; i < Math.min(items.length, 3); i++) {
