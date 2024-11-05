@@ -415,8 +415,6 @@ code {
 .page-content { 
   padding: 30px 0; 
   flex: 1;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 .page-heading { 
@@ -923,6 +921,7 @@ iframe {
   display: block;
   margin: auto;
   margin-bottom: 15px;
+  max-width: 100%;
 }
 
 /* Calendar css */
