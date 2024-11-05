@@ -3,23 +3,14 @@ const corsProxy = 'https://proxy.cors.sh/';
 const apiUrl = 'https://server.mkultra.monster/tumblr';
 const corsApiKey = 'live_55b35c983c867b44763d6def9bb0cc78bbb43042296b989c415d44bcd197cf6c'; // Replace with your actual API key
 
-function fetchWithProxy(url, params) {
-  return fetch(`${corsProxy}${url}`, {
-    ...params,
-    headers: {
-      ...params.headers,
-      'x-cors-api-key': corsApiKey,
-    }
-  });
-}
-
 async function fetchTumblrPosts() {
   try {
     console.log('Fetching Tumblr posts...');
-    const response = await fetchWithProxy(`${apiUrl}?blogIdentifier=${blogIdentifier}`, {
+    const response = await fetch(`${corsProxy}${apiUrl}?blogIdentifier=${blogIdentifier}`, {
       headers: {
-        'Origin': window.location.origin, // Include the origin header
-        'X-Requested-With': 'XMLHttpRequest' // Include the x-requested-with header
+        'x-cors-api-key': corsApiKey,
+        'origin': window.location.origin, // Include the origin header
+        'x-requested-with': 'XMLHttpRequest' // Include the x-requested-with header
       }
     });
 
