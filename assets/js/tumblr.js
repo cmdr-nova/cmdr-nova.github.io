@@ -15,7 +15,7 @@ async function fetchTumblrPosts() {
 }
 
 function displayTumblrPosts(posts) {
-  const sidebar = document.getElementById('sidebar');
+  const tumblrFeedContainer = document.getElementById('tumblr-feed-container');
   const tumblrFeed = document.createElement('div');
   tumblrFeed.id = 'tumblr-feed';
 
@@ -38,15 +38,16 @@ function displayTumblrPosts(posts) {
       <p>${post.summary}</p>
       <a href="${post.post_url}" target="_blank">Read more</a>
     `;
+    console.log('Post element HTML:', postElement.innerHTML);
     tumblrFeed.appendChild(postElement);
   });
 
   // Clear previous feed and append new feed
-  sidebar.innerHTML = '';
-  sidebar.appendChild(tumblrFeed);
+  tumblrFeedContainer.innerHTML = '';
+  tumblrFeedContainer.appendChild(tumblrFeed);
 
   // Log the updated sidebar content for debugging
-  console.log('Updated sidebar content:', sidebar.innerHTML);
+  console.log('Updated tumblr feed content:', tumblrFeedContainer.innerHTML);
 }
 
 fetchTumblrPosts();
