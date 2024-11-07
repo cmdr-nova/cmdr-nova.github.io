@@ -51,9 +51,10 @@ jobs:
         fi
     
     - name: Post to Mastodon
+      if: env.new_post == 'true'
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       run: |
-        echo "$SSH_PRIVATE_KEY" > private_key
+        echo "$SSH_PRIVATE_KEY" | tr -d '\r' > private_key
         chmod 600 private_key
         ssh -i private_key -o StrictHostKeyChecking=no root@67.205.188.225 'python3 /masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
