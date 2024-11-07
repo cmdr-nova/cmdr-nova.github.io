@@ -50,9 +50,11 @@ jobs:
         for file in $(git log --diff-filter=A --name-only HEAD); do
           if [[ $file == _posts/* ]]; then
             post_date=$(basename $file | cut -d'-' -f1-3)
+            post_title=$(basename $file | cut -d'-' -f4-)
+            post_category=$(grep -m 1 '^categories:' $file | sed 's/categories: *//;s/"//g;s/ //g')
             if [[ $post_date == $current_date ]]; then
               new_post=true
-              post_url="$base_url/$(basename $file .md).html"
+              post_url="$base_url/$post_category/$post_date/$post_title.html"
               break
             fi
           fi
