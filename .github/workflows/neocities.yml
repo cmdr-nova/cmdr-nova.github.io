@@ -40,3 +40,20 @@ jobs:
         api_token: ${{ secrets.NEOCITIES_API_KEY }} # Uses API key from Neocities
         cleanup: false
         dist_dir: _site
+
+    - name: Check for new posts
+      id: check_new_posts
+      run: |
+        if git diff --name-only HEAD^ HEAD | grep -q '^_posts/'; then
+          echo "new_post=true" >> $GITHUB_ENV
+        else
+          echo "new_post=false" >> $GITHUB_ENV
+        fi
+    
+    - name: Post to Mastodon
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      run: |
+        echo "$SSH_PRIVATE_KEY" > private_key
+        chmod 600 private_key
+        ssh -i private_key -o StrictHostKeyChecking=no root@67.205.188.225 'python3 /masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
