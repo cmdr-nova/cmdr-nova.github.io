@@ -44,18 +44,21 @@ jobs:
       id: check_new_posts
       run: |
         new_post=false
+        post_url=""
         current_date=$(date +%Y-%m-%d)
+        base_url="https://nova.mkultra.monster"
         for file in $(git log --diff-filter=A --name-only HEAD); do
           if [[ $file == _posts/* ]]; then
             post_date=$(basename $file | cut -d'-' -f1-3)
             if [[ $post_date == $current_date ]]; then
               new_post=true
+              post_url="$base_url/$(basename $file .md).html"
               break
             fi
           fi
         done
         echo "new_post=$new_post" >> $GITHUB_ENV
-        echo "new_post=$new_post" >> $GITHUB_OUTPUT
+        echo "post_url=$post_url" >> $GITHUB_ENV
 
     - name: Start SSH agent
       uses: webfactory/ssh-agent@v0.5.3
@@ -66,5 +69,6 @@ jobs:
       if: env.new_post == 'true'
       env:
         MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
+        POST_URL: ${{ env.post_url }}
       run: |
-        ssh -o StrictHostKeyChecking=no root@67.205.188.225 'MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
+        ssh -o StrictHostKeyChecking=no root@67.205.188.225 'MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 masto-poast/poast.py "New post published: ${POST_URL}"'
