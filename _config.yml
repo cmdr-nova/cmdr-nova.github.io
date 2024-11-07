@@ -30,6 +30,7 @@ mastodon:
   instance: mkultra.monster
 
 # Build settings
+plugins_dir: _plugins
 theme: minima
 
 plugins:
