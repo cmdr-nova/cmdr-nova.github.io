@@ -41,20 +41,27 @@ jobs:
         cleanup: false
         dist_dir: _site
 
+
     - name: Check for new posts
       id: check_new_posts
       run: |
-        if git diff --name-only HEAD^ HEAD | grep -q '^_posts/'; then
-          echo "new_post=true" >> $GITHUB_ENV
-        else
-          echo "new_post=false" >> $GITHUB_ENV
-        fi
+        new_post=false
+        for file in $(git diff --name-only HEAD^ HEAD); do
+          if [[ $file == _posts/* ]]; then
+            if [[ $(git log --diff-filter=A --follow --format=%aD -1 -- $file) == $(date -R) ]]; then
+              new_post=true
+              break
+            fi
+          fi
+        done
+        echo "new_post=$new_post" >> $GITHUB_ENV
     
     - name: Post to Mastodon
       if: env.new_post == 'true'
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
       run: |
         echo "$SSH_PRIVATE_KEY" | tr -d '\r' > private_key
         chmod 600 private_key
-        ssh -i private_key -o StrictHostKeyChecking=no root@67.205.188.225 'python3 /masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
+        ssh -i private_key -o StrictHostKeyChecking=no root@67.205.188.225 'MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 /masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
