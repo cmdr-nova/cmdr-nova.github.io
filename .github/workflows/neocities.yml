@@ -61,6 +61,7 @@ jobs:
         done
         echo "new_post=$new_post" >> $GITHUB_ENV
         echo "post_url=$post_url" >> $GITHUB_ENV
+        echo "Post URL: $post_url"
 
     - name: Start SSH agent
       uses: webfactory/ssh-agent@v0.5.3
@@ -73,4 +74,5 @@ jobs:
         MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
         POST_URL: ${{ env.post_url }}
       run: |
+        echo "Posting to Mastodon: ${POST_URL}"
         ssh -o StrictHostKeyChecking=no root@67.205.188.225 'MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 masto-poast/poast.py "New post published: ${POST_URL}"'
