@@ -53,12 +53,14 @@ jobs:
         echo "new_post=$new_post" >> $GITHUB_ENV
         echo "new_post=$new_post" >> $GITHUB_OUTPUT
 
+    - name: Start SSH agent
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
     - name: Post to Mastodon
       if: env.new_post == 'true'
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
       run: |
-        echo "$SSH_PRIVATE_KEY" | tr -d '\r' > private_key
-        chmod 600 private_key
-        ssh -i private_key -o StrictHostKeyChecking=no root@67.205.188.225 'MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 /masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
+        ssh -o StrictHostKeyChecking=no root@67.205.188.225 'MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 /masto-poast/poast.py "New post published: ${{ github.event.head_commit.message }}"'
