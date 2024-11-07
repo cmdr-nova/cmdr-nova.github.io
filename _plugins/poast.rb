@@ -5,5 +5,5 @@ Jekyll::Hooks.register :posts, :post_write do |post|
   escaped_post_content = Shellwords.escape(post_content)
   puts "Post content: #{post_content}"
   puts "Escaped post content: #{escaped_post_content}"
-  system("ssh root@67.205.188.225 'python3 masto-poast/poast.py #{escaped_post_content}'")
+  system("ssh root@67.205.188.225 \"python3 masto-poast/poast.py #{escaped_post_content}\"")
 end
