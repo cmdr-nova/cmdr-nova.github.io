@@ -52,13 +52,13 @@ jobs:
             fi
           fi
         done
-        echo "new_post=$new_post" >> $GITHUB_ENV
+        echo "::set-output name=new_post::$new_post"
     
     - name: Debug new post detection
-      run: echo "New post detected: ${{ env.new_post }}"
+      run: echo "New post detected: ${{ steps.check_new_posts.outputs.new_post }}"
 
     - name: Post to Mastodon
-      if: env.new_post == 'true'
+      if: steps.check_new_posts.outputs.new_post == 'true'
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
