@@ -44,16 +44,19 @@ jobs:
       id: check_new_posts
       run: |
         new_post=false
-        for file in $(git diff --name-only HEAD^ HEAD); do
-          if [[ $file == _posts/* ]]; then
-            if [[ $(git log --diff-filter=A --follow --format=%aD -1 -- $file) == $(date -R) ]]; then
-              new_post=true
-              break
+        previous_commit=$(git rev-parse HEAD~1 || echo "")
+        if [ -n "$previous_commit" ]; then
+          for file in $(git diff --name-only $previous_commit HEAD); do
+            if [[ $file == _posts/* ]]; then
+              if [[ $(git log --diff-filter=A --follow --format=%aD -1 -- $file) == $(date -R) ]]; then
+                new_post=true
+                break
+              fi
             fi
-          fi
-        done
+          done
+        fi
         echo "new_post=$new_post" >> $GITHUB_ENV
-        echo "new_post=$new_post" >> $GITHUB_OUTPUT
+        echo "::set-output name=new_post::$new_post"
 
     - name: Post to Mastodon
       if: steps.check_new_posts.outputs.new_post == 'true'
