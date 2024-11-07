@@ -1,4 +1,4 @@
-name: Deploy to neocities
+name: Deploy to Neocities and Post to Mastodon
 
 # Only run on changes to main. Use main or master depending on whatever your default branch is called.
 on:
@@ -56,6 +56,9 @@ jobs:
         done
         echo "new_post=$new_post" >> $GITHUB_ENV
     
+    - name: Debug new post detection
+      run: echo "New post detected: ${{ env.new_post }}"
+
     - name: Post to Mastodon
       if: env.new_post == 'true'
       env:
