@@ -53,7 +53,7 @@ jobs:
           fi
         done
         echo "new_post=$new_post" >> $GITHUB_ENV
-        echo "::set-output name=new_post::$new_post"
+        echo "new_post=$new_post" >> $GITHUB_OUTPUT
 
     - name: Post to Mastodon
       if: steps.check_new_posts.outputs.new_post == 'true'
