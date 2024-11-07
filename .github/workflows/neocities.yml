@@ -44,7 +44,7 @@ jobs:
       id: check_new_posts
       run: |
         new_post=false
-        previous_commit=$(git rev-parse HEAD~1 || echo "")
+        previous_commit=$(git rev-list --parents -n 1 HEAD | awk '{print $2}')
         if [ -n "$previous_commit" ]; then
           for file in $(git diff --name-only $previous_commit HEAD); do
             if [[ $file == _posts/* ]]; then
