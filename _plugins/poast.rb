@@ -1,7 +1,11 @@
 require 'shellwords'
 require 'nokogiri'
 
+puts "Loading poast.rb..."
+
 Jekyll::Hooks.register :posts, :post_write do |post|
+  puts "Executing poast.rb hook for post: #{post.data['title']}"
+
   # Extract the first paragraph as a summary
   doc = Nokogiri::HTML(post.content)
   summary = doc.css('p').first&.text || "No summary available"
@@ -11,7 +15,7 @@ Jekyll::Hooks.register :posts, :post_write do |post|
   hashtag = tag ? "##{tag.gsub(' ', '').downcase}" : ""
 
   # Construct the post content
-  post_content = "New post published: #{post.data['title']} - #{post.url}\n\n#{summary}\n\n#{hashtag}"
+  post_content = "Today on Nova Prime: #{post.data['title']} - #{post.url}\n\n#{summary}\n\n#{hashtag}"
   escaped_post_content = Shellwords.escape(post_content)
 
   puts "Post content: #{post_content}"
