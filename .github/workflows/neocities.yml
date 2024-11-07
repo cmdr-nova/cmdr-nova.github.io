@@ -56,10 +56,10 @@ jobs:
           done
         fi
         echo "new_post=$new_post" >> $GITHUB_ENV
-        echo "::set-output name=new_post::$new_post"
+        echo "new_post=$new_post" >> $GITHUB_OUTPUT
 
     - name: Post to Mastodon
-      if: steps.check_new_posts.outputs.new_post == 'true'
+      if: env.new_post == 'true'
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
