@@ -1,6 +1,6 @@
 name: Deploy to Neocities and Post to Mastodon
 
-# Only run on changes to main. Use main or master depending on whatever your default branch is called.
+# Only run on changes to master
 on:
   push:
     branches:
