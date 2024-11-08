@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "[REVOSA], My Second Life Store in the Virtual World"
+title: "A look into my Second Life"
 permalink: /pages/second-life/
 ---
 
