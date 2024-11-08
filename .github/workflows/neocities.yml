@@ -21,19 +21,11 @@ jobs:
       with:
         ruby-version: '2.7'
 
-    - name: Cache Ruby gems
-      uses: actions/cache@v2
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-
     - name: Install Bundler
       run: gem install bundler -v 2.4.22
 
     - name: Install dependencies
-      run: bundle install --path vendor/bundle
+      run: bundle install
 
     - name: Build static site
       run: bundle exec jekyll build
@@ -97,4 +89,4 @@ jobs:
         POST_URL: ${{ env.post_url }}
       run: |
         echo "Posting to Mastodon: ${POST_URL}"
-        ssh -o StrictHostKeyChecking=no root@67.205.188.225 "MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 masto-poast/poast.py '${POST_URL}'"
+        ssh -o StrictHostKeyChecking=no root@67.205.188.225 "MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 ~/masto-poast/poast.py '${POST_URL}'"
