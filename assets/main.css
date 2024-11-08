@@ -498,7 +498,23 @@ code {
 
 .comment {
   margin: 1em 0;
-  font-size: 6;
+}
+
+.reply-original {
+  margin-left: 0;
+}
+
+.reply-child {
+  margin-left: 2em;
+  position: relative;
+}
+
+.reply-child::before {
+  position: absolute;
+  left: -1.5em;
+  top: 0.5em;
+  font-size: 1.5em;
+  color: #888;
 }
 
 .comment__avatar-wrapper {
@@ -525,6 +541,18 @@ code {
   box-shadow: inset 0 0 15px var(--other-inset);
 }
 
+.comment__instance {
+  display: block;
+  font-size: 0.8em; 
+  color: #20add8;
+  background-color: var(--masto-content-bg);
+  border-radius: 10px; 
+  padding: 5px 10px; 
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+  width: auto; 
+}
+
 .comment__author {
   margin-top: 20px;
   font-weight: 800;
@@ -535,11 +563,26 @@ code {
 }
 
 .comment__date {
+  font-size: 0.8em;
   margin: 0;
   background-color: var(--masto-content-bg);
   border-radius: 10px;
-  width: 100%;
-  padding: 5px 5px;
+  width: auto; 
+  padding: 5px 10px; 
+  margin-top: 5px;
+}
+
+.comment__media {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.page__comments .status {
+  font-size: 0.8em;
+  color: #666;
 }
 
 /*rainbow colors*/
@@ -676,9 +719,20 @@ code {
   top: 0;
   right: 0;
   background-color: var(--sidenav-bg);
+  overflow-y: auto;
   overflow-x: hidden;
   transition: 0.5s;
   box-shadow: inset 0 0 15px var(--sidebar-inset);
+}
+
+.sidenav::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Optional: just to ensure the scrollbar is hidden */
+}
+
+.sidenav {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .sidenav a {
