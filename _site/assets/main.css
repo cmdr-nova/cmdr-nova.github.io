@@ -95,22 +95,6 @@ img:not(.no-center), video:not(.no-center) {
   margin-right: auto;
 }
 
-/* Style for the waifu divs */
-.waifu { 
-  color:var(--waifu-txt);
-  background: var(--waifu-bg);
-  display:inline-block;
-  padding:2px 7px;
-  margin-bottom:10px;
-  text-align: center;
-  font-weight: normal;
-  background-image: url('./img/bg-tile.gif');
-  background-position: center center;
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges; 
-}
-
 /** Basic styling */
 
 body { 

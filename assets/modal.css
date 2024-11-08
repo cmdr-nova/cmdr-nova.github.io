@@ -1,62 +1,107 @@
-/* The Modal (background) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.waifu { 
+  color:var(--waifu-txt);
+  background: var(--waifu-bg);
+  display:inline-block;
+  padding:2px 7px;
+  margin-bottom:10px;
+  text-align: center;
+  font-weight: normal;
+  background-position: center center;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges; 
+}
+
 .modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.9); 
-  }
-  
-  /* Modal Content (image) */
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  top: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  height: 100%;
+  width: 500px;
+  max-width: 500px;
+  background-color: #141414;
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 480px) {
   .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
   }
-  
-  /* Caption of Modal Image */
-  #caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
+}
+
+.modal-content, .caption, .name {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+.caption {
+  text-align: center;
+  color: #00fff2;
+  background-color: rgba(0, 0, 0, 0.925);
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+  max-width: 500px;
+  margin: auto;
+  box-sizing: border-box;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 480px) {
+  .caption {
+    width: 100%;
   }
-  
-  /* Add Animation - Zoom in the Modal */
-  .modal-content, #caption { 
-    animation-name: zoom;
-    animation-duration: 0.6s;
+}
+
+.name {
+  text-align: center;
+  color: #00e1ff;
+  background-color: rgba(0, 0, 0, 0.925);
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  height: 100%;
+  width: 50%;
+  max-width: 500px;
+  margin: auto;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  padding: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 480px) {
+  .name {
+    width: 100%;
   }
-  
-  @keyframes zoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
-  }
-  
-  /* The Close Button */
-  .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+
+.waifu img {
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #00e1ff;
+  text-decoration: underline;
+}
