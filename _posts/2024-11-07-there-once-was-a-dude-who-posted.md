@@ -13,3 +13,5 @@ tag: programming
 ---
 
 Testing for redundancy. I"ll allow this post to go one more time, and then attempt to post it again to make sure posts only go out ONCE
+
+Now, when I update this post, it shouldn't go out again
