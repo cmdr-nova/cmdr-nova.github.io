@@ -4,7 +4,7 @@ title: The Former NFT Project, haxPunks
 permalink: /pages/haxpunks/
 ---
     
-<h1 align="center" class="clickable" id="haxpunks-title">HAX░punks</h1>
+<h1 align="center" class="clickable" id="haxpunks-title"><img src="/img/haxpunks_logo.png"></h1>
         
 <p>
     In the year 3492, humanity has been reduced to living in a digital landscape of their own making in the farthest reaches of space. Earth is no more, sol is no more. The only thing that remains are the pixel roads of Neo Machina.
