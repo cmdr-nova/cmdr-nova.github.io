@@ -83,4 +83,4 @@ jobs:
         POST_URL: ${{ env.post_url }}
       run: |
         echo "Posting to Mastodon: ${POST_URL}"
-        ssh -o StrictHostKeyChecking=no root@67.205.188.225 "python3 ~/masto-poast/poast.py '${POST_URL}'"
+        ssh -o StrictHostKeyChecking=no root@67.205.188.225 "python3 masto-poast/poast.py '${POST_URL}'"
