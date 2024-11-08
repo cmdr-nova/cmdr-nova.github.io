@@ -51,6 +51,7 @@ jobs:
         for file in $(git log --diff-filter=A --name-only HEAD); do
           echo "Checking file: $file"
           if [[ $file == _posts/* ]]; then
+            echo "File is in _posts directory"
             post_date=$(basename $file | cut -d'-' -f1-3)
             post_year=$(basename $file | cut -d'-' -f1)
             post_month=$(basename $file | cut -d'-' -f2)
