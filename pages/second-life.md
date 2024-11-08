@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "[REVOSA], My Second Life Store in the Virtual World"
-permalink: /pages/revosa/
+permalink: /pages/second-life/
 ---
 
 <div class="rainbow"><h1>[REVOSA] x AyaSys</h1></div>
