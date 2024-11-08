@@ -15,3 +15,5 @@ tag: programming
 I'm still testing to see if I can get this right. If it's correct now, the tag I've written for this post should show up on Mastodon as a hashtag.
 
 Voila
+
+Let's go hashtag!
