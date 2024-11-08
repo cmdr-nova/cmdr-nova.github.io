@@ -24,7 +24,7 @@ Jekyll::Hooks.register :posts, :post_write do |post|
   puts "Hashtag: #{hashtag}"
 
   # Execute the SSH command to run the Python script
-  command = "ssh root@67.205.188.225 \"python3 masto-poast/poast.py #{escaped_post_content}\""
+  command = "ssh root@67.205.188.225 \"python3 ~/masto-poast/poast.py #{escaped_post_content}\""
   puts "Executing command: #{command}"
   system(command)
 end
