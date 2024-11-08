@@ -12,12 +12,6 @@ tag: programming
 #    id: 
 ---
 
-Re-testing the post to see if it'll go to Mastodon. This should also be a summary, but I'm not sure at this point.
+I'm still testing to see if I can get this right. If it's correct now, the tag I've written for this post should show up on Mastodon as a hashtag.
 
-Testing once more
-
-Trying again
-
-Trying ... AGAIN!
-
-Another time, we shall try
+Voila
