@@ -7,6 +7,16 @@
     <description>NOVA PRIME</description>
     
     <item>
+      <title>there once was a dude who posted</title>
+      <link>http://localhost:4000/programming/2024/11/07/there-once-was-a-dude-who-posted.html</link>
+      <description>Re-testing the post to see if it’ll go to Mastodon. This should also be a summary, but I’m not sure at this point.
+
+</description>
+      <pubDate>Thu, 07 Nov 2024 21:40:00 -0500</pubDate>
+      <guid>/programming/2024/11/07/there-once-was-a-dude-who-posted</guid>
+    </item>
+    
+    <item>
       <title>Today I Dropped An Atom Bomb of Posts Onto Mastodon</title>
       <link>http://localhost:4000/social%20media/2024/11/05/today-i-dropped-an-atom-bomb-of-posts-onto-mastodon.html</link>
       <description>Today I turned off my GitHub pages mirror of this site, and in doing so, I had to create my own XML feed with its own styling and all. Which … I accomplished, pretty easily! But then my bot that’s supposed to read my feed, and append old items to a file, and only post brand new items, exploded onto Mastodon three times with everything I’ve ever posted on here.
