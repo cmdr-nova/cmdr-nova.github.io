@@ -46,6 +46,22 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, a, div, 
   overflow-wrap: break-word;
 }
 
+html {
+  scrollbar-color: rgb(187, 255, 0) rgb(31, 31, 31);
+}
+
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(17, 17, 17);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(24, 24, 24);
+  border-radius: 5px;
+}
+
 img:not(.no-center), video:not(.no-center) {
   display: block;
   margin-left: auto;
