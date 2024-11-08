@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113445308998637793
 ---
 It's been a hell of a time! Earlier in the week, I suddenly had an issue where I broke my RSS feed bot that posted new feed items from my blog to my Mastodon account. I described this in my last post, but it was entirely because I ... edited the XML. So! I spent the last entire day rebuilding a brand new way to do this. By turning VS Code's "commit" button into a "Post to Mastodon" button. Let me explain.
 
