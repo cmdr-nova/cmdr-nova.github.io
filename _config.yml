@@ -39,6 +39,7 @@ plugins:
   - jekyll-compose
   - jekyll-remote-theme
   - jekyll-compress-images
+  - poast
 
 paginate: 7
 per_page: 7
