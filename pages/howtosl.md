@@ -21,7 +21,7 @@ Welcome to my comprehensive guide on starting and navigating the virtual world o
 
 ***SECTION 2***
 
-*... further sections coming at a later time, as I've had to reduce my presence in SL, and I no longer have a home sim or parcel.*
+*... further sections coming at a later time*
 
 > > > Guide 6: Diving Further Into Your Profile
 
