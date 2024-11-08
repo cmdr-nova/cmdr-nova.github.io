@@ -53,7 +53,7 @@ jobs:
       run: |
         new_post=false
         post_url=""
-        current_date=$(date +%Y-%m-%d)
+        current_date=$(TZ=America/New_York date +%Y-%m-%d)
         base_url="https://nova.mkultra.monster"
         echo "Current date: $current_date"
         for file in $(git log --diff-filter=A --name-only HEAD); do
