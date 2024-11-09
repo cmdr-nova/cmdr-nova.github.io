@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: programming
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113451442480880485
 ---
 The day's coming to an end (okay, actually, it's like 12:30 at night, it's been over), and I've done *a lot*. In my last post I talked about spending all of my free time over the course of 24 hours making a function that pushes my blog posts to Mastodon. Well, after all of that, I went to bed, woke up, and started on something new ...
 
