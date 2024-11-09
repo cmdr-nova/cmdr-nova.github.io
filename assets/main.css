@@ -1123,12 +1123,12 @@ iframe {
 #rss-feed ul {
   list-style-type: none;
   padding: 0;
-  margin: 0; /* Ensure no extra margin */
+  margin: 0;
 }
 
 #rss-feed li {
-  margin-bottom: 8px; /* Further reduced margin */
-  padding-bottom: 4px; /* Further reduced padding */
+  margin-bottom: 8px; 
+  padding-bottom: 4px; 
   border-bottom: 1px solid #ccc;
 }
 
@@ -1138,18 +1138,18 @@ iframe {
 
 #rss-feed strong {
   display: block;
-  margin-bottom: 1px; /* Further reduced margin */
+  margin-bottom: 1px; 
 }
 
 #rss-feed small.rss-date {
   display: block;
-  margin-top: 1px; /* Further reduced margin */
-  margin-bottom: 1px; /* Further reduced margin */
+  margin-top: 1px; 
+  margin-bottom: 1px; 
 }
 
 #rss-feed a {
   display: block;
-  margin-top: 3px; /* Further reduced margin */
+  margin-top: 3px;
 }
 
 #second-life-online {
