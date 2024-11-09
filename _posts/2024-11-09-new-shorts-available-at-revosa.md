@@ -25,4 +25,4 @@ Easy peasy.
 
 I've also made it so new posts from this website *also* go to <a href="https://bsky.app/profile/cmdr-nova.bsky.social" target="_blank">my Bluesky account</a>, and since I haven't really tested it yet, this post *should hopefully* get there safely. We'll see.
 
-But, until my next release, or hacked code update, or random thought, have a good one!
+But, until my next release, or hacked code update, or random thought, have a good one.
