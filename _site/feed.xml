@@ -7,6 +7,16 @@
     <description>NOVA PRIME</description>
     
     <item>
+      <title>Making Things and Sipping Juice</title>
+      <link>http://localhost:4000/programming/2024/11/09/making-things-and-sipping-juice.html</link>
+      <description>The day’s coming to an end (okay, actually, it’s like 12:30 at night, it’s been over), and I’ve done a lot. In my last post I talked about spending all of my free time over the course of 24 hours making a function that pushes my blog posts to Mastodon. Well, after all of that, I went to bed, woke up, and started on something new …
+
+</description>
+      <pubDate>Sat, 09 Nov 2024 00:29:00 -0500</pubDate>
+      <guid>/programming/2024/11/09/making-things-and-sipping-juice</guid>
+    </item>
+    
+    <item>
       <title>Jekyll Blog, Post to Mastodon</title>
       <link>http://localhost:4000/programming/2024/11/07/jekyll-blog-post-to-mastodon.html</link>
       <description>It’s been a hell of a time! Earlier in the week, I suddenly had an issue where I broke my RSS feed bot that posted new feed items from my blog to my Mastodon account. I described this in my last post, but it was entirely because I … edited the XML. So! I spent the last entire day rebuilding a brand new way to do this. By turning VS Code’s “commit” button into a “Post to Mastodon” button. Let me explain.

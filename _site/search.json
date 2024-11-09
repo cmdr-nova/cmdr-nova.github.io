@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Making Things and Sipping Juice",
+      "category" : "",
+      "tags"     : "programming",
+      "url"      : "/programming/2024/11/09/making-things-and-sipping-juice.html",
+      "date"     : "2024-11-09 00:29:00 -0500"
+    } ,
+  
+    {
       "title"    : "Jekyll Blog, Post to Mastodon",
       "category" : "",
       "tags"     : "programming",
