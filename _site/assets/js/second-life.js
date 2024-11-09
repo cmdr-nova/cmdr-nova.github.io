@@ -41,7 +41,7 @@ async function fetchSecondLifeOnlineUsers() {
   
   function displaySecondLifeOnlineUsers(onlineUsers) {
     const container = document.getElementById('second-life-online');
-    container.innerHTML = `<p>Second Life Online Users: ${onlineUsers}</p>`;
+    container.innerHTML = `<p align="center"><b>Second Life Users:</b></p> <p align="center">${onlineUsers}</p>`;
   }
   
   fetchSecondLifeOnlineUsers();

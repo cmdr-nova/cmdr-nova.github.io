@@ -1038,7 +1038,8 @@ iframe {
 .tumblr-post {
   margin-bottom: 20px; 
   border-bottom: 1px solid #ccc;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
+  filter: drop-shadow(1px 1px rgb(217, 255, 0));
 }
 
 .tumblr-post p {
