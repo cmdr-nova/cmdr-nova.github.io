@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Second Life"
 tag: second-life
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113454846151491076
 ---
 It's becoming kind of a trend, that I make something in my Second Life store, and then drop the whole thing for two to three months while I work on a million other things. Despite all of that, today I decided to put together another pair of shorts for the set I've been putting together for ... a while. Today, it's juicy green shorts!
 
