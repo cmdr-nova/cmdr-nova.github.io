@@ -66,7 +66,7 @@ jobs:
             post_day=$(basename $file | cut -d'-' -f3)
             post_title=$(basename $file | cut -d'-' -f4- | sed 's/\.md$//')
             post_category=$(grep -m 1 '^categories:' $file -A 1 | tail -n 1 | sed 's/- //;s/"//g;s/ //g' | tr '[:upper:]' '[:lower:]')
-            post_category=$(echo $post_category | sed 's/ /%20/g')
+            post_category=$(echo $post_category | sed 's/ /%20/g' | sed 's/-/%20/g')
             echo "Post date: $post_date"
             echo "Post category: $post_category"
             echo "Current date: $current_date"
