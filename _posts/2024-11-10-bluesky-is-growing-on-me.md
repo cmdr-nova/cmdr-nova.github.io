@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id:
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113461659618098630
 ---
 I've had some criticisms of Bluesky, *ever since* it opened. Albeit, I had some *bad* experiences with some users who seem to have also been chased off of the platform for the way they treat others. But, I also have been skeptical about its mode of decentralization (where is it?), and them being VC backed, and recently funded by a crypto company. But, things are changing ...
 
