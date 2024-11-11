@@ -5,7 +5,7 @@ date: 2024-11-10 19:46
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
-tag: social-media
+tag: socialmedia
 comments:
     host: mkultra.monster
     username: cmdr_nova
