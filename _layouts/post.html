@@ -12,9 +12,13 @@ layout: default
   <a class="read-title" href="/">{{ page.title }}</a> 
 
 
-<p class="author"><i class="ph ph-pencil-line"></i> <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a>
+<p class="author center-align"><i class="ph ph-pencil-line"></i> Author: <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ page.author }}</a>
   <br />
-<i class="ph ph-calendar"></i> {{ page.date |     date_to_string }}
+<i class="ph ph-calendar"></i> Published: {{ page.date |     date_to_string }}
+<br /><br />
+  <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
+  <button class="post-buttons" onclick="window.open('https://mkultra.monster/@cmdr_nova', '_blank')">Follow on Mastodon</button>
+  <button class="post-buttons" onclick="window.open('https://bsky.app/profile/cmdr-nova.bsky.social', '_blank')">Follow on Bluesky</button>
 </p>
 <br />
 

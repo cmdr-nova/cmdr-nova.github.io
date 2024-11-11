@@ -390,7 +390,7 @@ code {
   padding: 24px;
   margin-bottom: 10px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   line-height: 34px;
   word-spacing: -1px;
   border-style: solid;
@@ -1165,4 +1165,13 @@ iframe {
   background-color:rgba(0, 255, 191, 0.226);
   filter: drop-shadow(1px 1px rgba(26, 207, 231, 0.863));
   box-shadow: inset 0 0 15px var(--desc-inset);
+}
+
+.post-buttons {
+  background-color:#000000;
+  color:rgb(217, 255, 0);
+}
+
+.center-align {
+  text-align: center;
 }
