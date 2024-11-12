@@ -1,0 +1,29 @@
+---
+layout: default
+title: Notes
+---
+<div id="main">
+
+    <a class="read-title" href="/">Notes</a> 
+{% assign sorted_notes = site.notes | sort: 'date' %}
+{% for note in site.notes %}
+  <div class="note">
+    <p class="author center-align">
+      <i class="ph ph-pencil-line"></i> Author: <a href="https://mkultra.monster/@cmdr_nova" target="_blank">{{ note.author }}</a>
+      <br />
+      <i class="ph ph-calendar"></i> Published: {{ note.date | date_to_string }}
+    </p>
+    <br />
+    {{ note.content }}
+    <hr>
+    <br />
+    <span>tag: 
+      {% for tag in note.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/tag/{{ tag_name }}"><code class="highligher"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+      {% endfor %}
+    </span>
+  </div>
+
+{% endfor %}
+</div>

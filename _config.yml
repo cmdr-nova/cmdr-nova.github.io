@@ -51,6 +51,11 @@ compress_images:
 collections:
   posts:
     output: true
+  notes:
+    output: true
+    permalink: /notes/:path/
+
+plugins_dir: _plugins
 
 # New fields not defaulted by jekyll-new with the minima theme
 # Add a copyright. A copyright symbol and year will be added automatically
