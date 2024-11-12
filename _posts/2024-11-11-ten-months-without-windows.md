@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Linux"
 tag: linux
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113467737083012924
 ---
 I'm sitting here a little more tired than I'd like to be, but that's the life of working a manual labor day job, and code-jacking at night (what the hell is code-jacking). Today I want to sort of look back over the past year, and reflect on what it's been like to *mostly* abandon Windows (with a slight hiccup of returning for a week).
 
