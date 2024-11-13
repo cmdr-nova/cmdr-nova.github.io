@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113473099165999026
 ---
 I don't know *when* it happened, or even *how* it happened. But I know it did. I used to get home from work and spend *most* of my free time consuming another game. That was in my twenties, mostly, and also in the space of time that I was unemployed and suffering disability-levels of anxiety. But then something changed, and I became a machine.
 
