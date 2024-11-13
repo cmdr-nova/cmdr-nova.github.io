@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml-stylesheet type="text/xsl" href="/assets/feed-stylesheet.xsl"?>
+<rss version="1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>cmdr-nova@internet:~$</title>
     <link>http://localhost:4000</link>
     <description>NOVA PRIME</description>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Nov 2024 19:48:01 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 20:01:16 -0500</lastBuildDate>
     <generator>Jekyll</generator>
     
     <item>

@@ -1,57 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="html" encoding="UTF-8" />
-
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output method="html" version="1.0" encoding="utf-8" indent="yes"/>
   <xsl:template match="/">
-    <html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title><xsl:value-of select="/rss/channel/title"/></title>
-        <style>
-          body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #121212;
-            color: #e0e0e0;
-            padding: 20px;
-            box-sizing: border-box;
-          }
-          .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #1e1e1e;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-          }
-          h1 {
-            color: #80d8ff;
-            text-align: center;
-            margin-bottom: 10px;
-          }
-          .item {
-            margin-bottom: 20px;
-            padding: 10px;
-            border-bottom: 1px solid #333;
-          }
-          .item h2 {
-            color: #80d8ff;
-          }
-          .item p {
-            margin: 5px 0;
-          }
-        </style>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="/rss.css"/>
       </head>
       <body>
-        <div class="container">
+        <header>
           <h1><xsl:value-of select="/rss/channel/title"/></h1>
+          <p><xsl:value-of select="/rss/channel/description"/></p>
+        </header>
+        <main>
           <xsl:for-each select="/rss/channel/item">
-            <div class="item">
-              <h2><xsl:value-of select="title"/></h2>
-              <div><xsl:value-of select="content:encoded" disable-output-escaping="yes"/></div>
-              <p><small>Published on: <xsl:value-of select="pubDate"/></small></p>
-            </div>
+            <article>
+              <h3>
+                <a>
+                  <xsl:attribute name="href">
+                    <xsl:value-of select="link"/>
+                  </xsl:attribute>
+                  <xsl:value-of select="title"/>
+                </a>
+              </h3>
+              <p><xsl:value-of select="description"/></p>
+              <p><xsl:value-of select="pubDate"/></p>
+            </article>
           </xsl:for-each>
-        </div>
+        </main>
       </body>
     </html>
   </xsl:template>
