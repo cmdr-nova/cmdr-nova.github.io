@@ -5,7 +5,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>cmdr-nova@internet:~$</title>
+        <title><xsl:value-of select="/rss/channel/title"/></title>
         <style>
           body {
             font-family: Arial, sans-serif;
@@ -28,83 +28,27 @@
             text-align: center;
             margin-bottom: 10px;
           }
-          .info-bubble {
-            background-color: #1e1e1e;
-            border: 1px solid #333;
-            border-radius: 8px;
-            padding: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-            text-align: center;
-            color: #b0bec5;
-          }
-          .info-bubble .highlight {
-            background-color: #80d8ff;
-            color: #121212;
-            padding: 2px 4px;
-            border-radius: 4px;
-          }
           .item {
-            background-color: #1e1e1e;
-            border: 1px solid #333;
-            border-radius: 8px;
-            padding: 15px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-bottom: 1px solid #333;
           }
-          .title {
-            font-weight: bold;
-            font-size: 1.2em;
-            margin-bottom: 10px;
+          .item h2 {
             color: #80d8ff;
           }
-          .description {
-            margin-top: 10px;
-            font-size: 1em;
-            line-height: 1.6;
-            color: #b0bec5;
-          }
-          .link {
-            margin-top: 10px;
-          }
-          .link a {
-            color: #80d8ff;
-            text-decoration: none;
-            font-weight: bold;
-          }
-          .link a:hover {
-            text-decoration: underline;
-          }
-          @media (max-width: 600px) {
-            body {
-              padding: 10px;
-            }
-            .container {
-              padding: 10px;
-            }
-            .item {
-              padding: 10px;
-            }
+          .item p {
+            margin: 5px 0;
           }
         </style>
       </head>
       <body>
         <div class="container">
-          <h1>cmdr-nova@internet:~$</h1>
-          <div class="info-bubble">
-            Welcome to Nova Feed. You can subscribe to this web feed by copying the URL <span class="highlight">https://nova.mkultra.monster/feed.xml</span> into your reader.
-          </div>
-          <xsl:for-each select="rss/channel/item">
+          <h1><xsl:value-of select="/rss/channel/title"/></h1>
+          <xsl:for-each select="/rss/channel/item">
             <div class="item">
-              <div class="title">
-                <xsl:value-of select="title" />
-              </div>
-              <div class="description">
-                <xsl:value-of select="description" />
-              </div>
-              <div class="link">
-                <a href="{link}" target="_blank">Read more</a>
-              </div>
+              <h2><xsl:value-of select="title"/></h2>
+              <div><xsl:value-of select="content:encoded" disable-output-escaping="yes"/></div>
+              <p><small>Published on: <xsl:value-of select="pubDate"/></small></p>
             </div>
           </xsl:for-each>
         </div>

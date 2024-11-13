@@ -2,19 +2,24 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="{{ '/assets/feed-stylesheet.xsl' | relative_url }}"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.title }}</title>
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
+    <language>{{ site.lang | default: "en-US" }}</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll</generator>
     {% for post in site.posts %}
     <item>
       <title>{{ post.title | escape }}</title>
       <link>{{ post.url | absolute_url }}</link>
       <description>{{ post.excerpt | strip_html | escape }}</description>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <guid>{{ post.id }}</guid>
+      <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+      <content:encoded><![CDATA[
+        {{ post.content | xml_escape }}
+      ]]></content:encoded>
     </item>
     {% endfor %}
   </channel>
