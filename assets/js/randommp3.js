@@ -17,11 +17,11 @@ async function fetchRandomMP3() {
   const xmlDoc = parser.parseFromString(text, 'application/xml');
   const contents = xmlDoc.getElementsByTagName('Contents');
 
-  // Filter the list to include only MP3 files
+  // Filter the list to include only MP3 files in the Music directory
   const mp3Files = [];
   for (let i = 0; i < contents.length; i++) {
     const key = contents[i].getElementsByTagName('Key')[0].textContent;
-    if (key.endsWith('.mp3')) {
+    if (key.startsWith('music/') && key.endsWith('.mp3')) {
       mp3Files.push(key);
     }
   }

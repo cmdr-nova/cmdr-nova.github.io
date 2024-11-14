@@ -1,5 +1,5 @@
 async function fetchRandomMP3() {
-  const bucketUrl = 'https://ultra-bucket.nyc3.digitaloceanspaces.com'; // Replace with your bucket URL
+  const bucketUrl = 'https://ultra-bucket.nyc3.digitaloceanspaces.com/music'; // Replace with your bucket URL and folder path
   const corsProxy = 'https://server.mkultra.monster/spaces-proxy'; // Your CORS proxy URL
   const accessKey = 'DO00JNYRTA9AE6KNZATW'; // Replace with your access key
   const secretKey = 'ehupy+godc3EVxxS9ImSVQfXoAVMFM4Mh311FzhKufI'; // Replace with your secret key
@@ -21,7 +21,7 @@ async function fetchRandomMP3() {
   const mp3Files = [];
   for (let i = 0; i < contents.length; i++) {
     const key = contents[i].getElementsByTagName('Key')[0].textContent;
-    if (key.endsWith('.mp3')) {
+    if (key.startsWith('Music/') && key.endsWith('.mp3')) {
       mp3Files.push(key);
     }
   }
