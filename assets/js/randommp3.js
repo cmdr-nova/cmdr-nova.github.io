@@ -1,5 +1,5 @@
 async function fetchRandomMP3() {
-  const corsProxy = 'https://server.mkultra.monster/spaces-proxy'; // Your CORS proxy URL
+  const corsProxy = 'https://server.mkultra.monster/spaces-proxy?folder=music'; // Your CORS proxy URL with folder path
 
   // Fetch the list of objects in the bucket via the CORS proxy
   const response = await fetch(corsProxy);
@@ -34,7 +34,7 @@ async function fetchRandomMP3() {
 
   // Set the source of the audio player to the random MP3 file
   const audioPlayer = document.getElementById('mp3-player-audio');
-  audioPlayer.src = `${bucketUrl}/${randomMP3}`;
+  audioPlayer.src = `https://ultra-bucket.nyc3.digitaloceanspaces.com/${randomMP3}`;
   audioPlayer.play();
 }
 

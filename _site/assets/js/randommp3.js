@@ -1,11 +1,8 @@
 async function fetchRandomMP3() {
-  const bucketUrl = 'https://ultra-bucket.nyc3.digitaloceanspaces.com/music'; // Replace with your bucket URL and folder path
-  const corsProxy = 'https://server.mkultra.monster/spaces-proxy'; // Your CORS proxy URL
-  const accessKey = 'DO00JNYRTA9AE6KNZATW'; // Replace with your access key
-  const secretKey = 'ehupy+godc3EVxxS9ImSVQfXoAVMFM4Mh311FzhKufI'; // Replace with your secret key
+  const corsProxy = 'https://server.mkultra.monster/spaces-proxy?folder=music'; // Your CORS proxy URL with folder path
 
   // Fetch the list of objects in the bucket via the CORS proxy
-  const response = await fetch(`${corsProxy}?url=${encodeURIComponent(bucketUrl)}&accessKey=${encodeURIComponent(accessKey)}&secretKey=${encodeURIComponent(secretKey)}`);
+  const response = await fetch(corsProxy);
 
   if (!response.ok) {
     console.error('Failed to fetch the list of objects from the bucket');
@@ -17,11 +14,11 @@ async function fetchRandomMP3() {
   const xmlDoc = parser.parseFromString(text, 'application/xml');
   const contents = xmlDoc.getElementsByTagName('Contents');
 
-  // Filter the list to include only MP3 files
+  // Filter the list to include only MP3 files in the Music directory
   const mp3Files = [];
   for (let i = 0; i < contents.length; i++) {
     const key = contents[i].getElementsByTagName('Key')[0].textContent;
-    if (key.startsWith('Music/') && key.endsWith('.mp3')) {
+    if (key.startsWith('music/') && key.endsWith('.mp3')) {
       mp3Files.push(key);
     }
   }
@@ -37,7 +34,7 @@ async function fetchRandomMP3() {
 
   // Set the source of the audio player to the random MP3 file
   const audioPlayer = document.getElementById('mp3-player-audio');
-  audioPlayer.src = `${bucketUrl}/${randomMP3}`;
+  audioPlayer.src = `https://ultra-bucket.nyc3.digitaloceanspaces.com/${randomMP3}`;
   audioPlayer.play();
 }
 

@@ -311,7 +311,7 @@ rel="stylesheet"/>
           <a id="mp3-player-play" href="javascript:void(0)" onclick="document.getElementById('mp3-player-audio').play();"><i class="ph ph-play"></i></a>
           <br />
           <input type="range" id="mp3-player-volume" min="0" max="1" step="0.01" value="0.5" oninput="document.getElementById('mp3-player-audio').volume = this.value;">
-          <audio id="mp3-player-audio" style="display: none;"></audio>
+          <audio id="mp3-player-audio" controls></audio>
           <script src="/assets/js/randommp3.js"></script>
         </center>
       </div>
