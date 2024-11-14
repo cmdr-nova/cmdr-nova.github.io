@@ -1,15 +1,11 @@
 async function fetchRandomMP3() {
   const bucketUrl = 'https://ultra-bucket.nyc3.digitaloceanspaces.com'; // Replace with your bucket URL
-  const corsProxy = 'https://server.mkultra.monster'; // Your CORS proxy URL
+  const corsProxy = 'https://server.mkultra.monster/spaces-proxy'; // Your CORS proxy URL
   const accessKey = 'DO00JNYRTA9AE6KNZATW'; // Replace with your access key
   const secretKey = 'ehupy+godc3EVxxS9ImSVQfXoAVMFM4Mh311FzhKufI'; // Replace with your secret key
 
   // Fetch the list of objects in the bucket via the CORS proxy
-  const response = await fetch(`${corsProxy}/${bucketUrl}`, {
-    headers: {
-      'Authorization': 'Basic ' + btoa(accessKey + ':' + secretKey)
-    }
-  });
+  const response = await fetch(`${corsProxy}?url=${encodeURIComponent(bucketUrl)}&accessKey=${encodeURIComponent(accessKey)}&secretKey=${encodeURIComponent(secretKey)}`);
 
   if (!response.ok) {
     console.error('Failed to fetch the list of objects from the bucket');
