@@ -530,6 +530,8 @@ code {
   border-radius: 50%;
   border-style: solid;
   border-color: var(--masto-avies);
+  padding: 0px;
+  margin-right: 10px;
 }
 
 .comment__content-wrapper {
@@ -1178,4 +1180,28 @@ iframe {
 
 .center-align {
   text-align: center;
+}
+
+/* Starter Pack Style */
+
+.pack-avatar {
+  border: 5px solid #000;
+  border-radius: 35px;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.pack-profile {
+  background-color: var(--desc-bg-color);
+  box-shadow: inset 0 0 15px var(--desc-inset);
+  border: 5px solid #000;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: .7em;
+  margin: auto;
+  margin-bottom: 15px;
+  filter: drop-shadow(1px 1px rgba(26, 207, 231, 0.863));
 }
