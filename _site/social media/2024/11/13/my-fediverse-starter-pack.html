@@ -239,7 +239,7 @@ rel="stylesheet"/>
 
 <p>You can <a class="page-link" href="/pages/fedi-starter">check out my starter pack</a>, and follow via the little follow button I’ve positioned next to each user’s name (yes, I’ve included myself). And this is by no means an exhaustive and complete list! Currently, I’ve slapped this together in about thirty minutes, after having come home from work, napped, and ate a pizza. The list contains those I enjoy seeing on my timeline, and I <em>fully</em> intend to keep adding to it!</p>
 
-<p>Recently, I wrote about how I felt Bluesky was growing on me a little. Mostly in that, I don’t feel like you need to fully <em>avoid</em> it, and it does have its worth. In comparison to the fediverse though, I think I do still <em>mostly</em> prefer my instance, that I run <em>myself</em>, that I moderate <em>myself</em>, an on open protocol that is entirely run by regular normal people (save from the companies connecting or planning to connect to ActivityPub). And I <em>do</em> still have concerns about Bluesky, like how it recently received funding from a <a href="https://www.socialmediatoday.com/news/bluesky-reaches-13-million-users-announces-funding/730989/#:~:text=On%20that%20front%2C%20Bluesky%20has,able%20to%20continue%20its%20development." target="_blank">crypto company</a>, and it could <em>totally</em> be bought by a billionaire with no morals at <em>any second.</em></p>
+<p>Recently, I wrote about how I felt Bluesky was growing on me a little. Mostly in that, I don’t feel like you need to fully <em>avoid</em> it, and it does have its worth. In comparison to the fediverse though, I think I do still <em>mostly</em> prefer my instance, that I run <em>myself</em>, that I moderate <em>myself</em>, on an open protocol that is entirely run by regular normal people (save from the companies connecting or planning to connect to ActivityPub). And I <em>do</em> still have concerns about Bluesky, like how it recently received funding from a <a href="https://www.socialmediatoday.com/news/bluesky-reaches-13-million-users-announces-funding/730989/#:~:text=On%20that%20front%2C%20Bluesky%20has,able%20to%20continue%20its%20development." target="_blank">crypto company</a>, and it could <em>totally</em> be bought by a billionaire with no morals at <em>any second.</em></p>
 
 <p>It’s for those reasons, I’d like to continue building on the fediverse, and this will eventually also include “building” in regards to my scripting and app development. I don’t want to <em>just</em> have scripts referencing Reddit forever. I’ve mostly used Reddit as a testing ground for ideas.</p>
 
@@ -401,7 +401,7 @@ rel="stylesheet"/>
 
     <tr>
       <td>
-
+      <!--
         soma.fm:
         <div id="song">
           <center>
@@ -420,6 +420,18 @@ rel="stylesheet"/>
           <script src='/assets/js/radio.js'></script>
         </center>
         </div>
+      -->
+
+      <div id="mp3-player">
+        <center>
+          <a id="mp3-player-stop" href="javascript:void(0)" onclick="document.getElementById('mp3-player-audio').pause();"><i class="ph ph-stop"></i></a>
+          <a id="mp3-player-play" href="javascript:void(0)" onclick="document.getElementById('mp3-player-audio').play();"><i class="ph ph-play"></i></a>
+          <br />
+          <input type="range" id="mp3-player-volume" min="0" max="1" step="0.01" value="0.5" oninput="document.getElementById('mp3-player-audio').volume = this.value;">
+          <audio id="mp3-player-audio" style="display: none;"></audio>
+          <script src="/assets/js/randommp3.js"></script>
+        </center>
+      </div>
   <br />
 
       <!-- Mastodon Feed Start-->

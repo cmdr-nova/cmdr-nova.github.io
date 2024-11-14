@@ -1205,3 +1205,23 @@ iframe {
   margin-bottom: 15px;
   filter: drop-shadow(1px 1px rgba(26, 207, 231, 0.863));
 }
+
+/* MP3 Player */
+
+#mp3-player {
+  text-align: center;
+}
+
+#mp3-player a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+#mp3-player-volume {
+  margin-top: 10px;
+}
+
+#mp3-player-audio {
+  display: none; /* Hide the default audio controls */
+}
