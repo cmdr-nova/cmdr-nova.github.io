@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113478595385810095
 ---
 The idea of a "social media starter pack" is nothing new. In the 90s we had webrings with select websites we wanted to connect with, and share with others. In blogging we have "blogrolls," and on social media we've had "follow fridays" for ... forever. And, in regards to the fediverse, numerous people have put together lists of users they think others should follow. So, by all means, Bluesky's version of this is really *nothing new*, except in that they call follow lists "starter packs." In that spirit, I've made my own, for the fediverse.
 
