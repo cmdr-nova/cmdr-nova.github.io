@@ -80,6 +80,21 @@ trans lesbian who watches too much anime may have occasional extreme political t
 <hr>
 <br />
 
+<img class="no-center pack-avatar" src="/img/starter-pack/jo.png" height="100" width="100">
+<b>@jo@noavailabledisk.space</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@jo@noavailabledisk.space', '_blank')">Follow</button>
+
+<div class="pack-profile">
+<p>
+Fundamentally unhappy. Old instance died, having to rebuild.
+</p>
+<p>
+Profile pic: screenshot from the music video for Brave New World (The Opera Song) by Jurgen Vries, in which a CGI cartoony version of Charlotte Church looks utterly miffed at something.
+</p>
+</div>
+
+<hr>
+<br />
+
 <img class="no-center pack-avatar" src="/img/starter-pack/gabbo.webp" height="100" width="100">
 <b>@gabboman@app.wafrn.net</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@gabboman@app.wafrn.net', '_blank')">Follow</button>
 
@@ -118,4 +133,63 @@ Furry (wahx [red panda + fennec fox]). they/them. ace. Writer, musician, and art
 
 <hr>
 <br />
+
+<img class="no-center pack-avatar" src="/img/starter-pack/celeste.png" height="100" width="100">
+<b>@celestestormysea@yiff.life</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@celestestormysea@yiff.life', '_blank')">Follow</button>
+
+<div class="pack-profile">
+<p>
+:heart_trans: 25_Jewishחי_Polyam_🏳️‍⚧️_Fat💖_📷🎨_♿_ND♾️_🐇/🦄_Plural 4+_θΔ&_Babyfur_It/She
+:heart_trans:
+</p>
+<p>
+(Profile picture is a moomin picrew with pink hair, ear piercings, a mask, glasses, a bandaid on the left arm, one arm raised in a wave, a trans pride pin, an agender pride pin, on a blue and purple gradient sky background with white puffy clouds. It says "Hi" in a speech bubble. The creator is menthealoh on picrew. Header is one paper dreidel with shin facing up, and another with gimel. They are on a white ceramic tray ontop of a table)
+</p>
+</div>
+
+<hr>
+<br />
+
+<img class="no-center pack-avatar" src="/img/starter-pack/josh.png" height="100" width="100">
+<b>@josh@masto.byrd.ws</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@josh@masto.byrd.ws', '_blank')">Follow</button>
+
+<div class="pack-profile">
+<p>
+just some dude you might know. this is my single-user instance running on an intel nuc under the shoe cupboard. please be nice to me and be nice to animals. that’s it. oh and i use arch btw. if you don't like something i post just unfollow me ok
+</p>
+</div>
+
+<hr>
+<br />
+
+<img class="no-center pack-avatar" src="/img/starter-pack/pokemon.png" height="100" width="100">
+<b>@pokemon@tomkahe.com</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@pokemon@tomkahe.com', '_blank')">Follow</button>
+
+<div class="pack-profile">
+<p>
+The exhilarating 1 frame per half hour video game (1/1800 frames per second for the non-Americans)
+</p>
+<p>
+Play Pokemon Gold using a poll
+</p>
+<p>
+Send feature suggestions or bugs on the repository or by tagging @tom
+</p>
+</div>
+
+<hr>
+<br />
+
+<img class="no-center pack-avatar" src="/img/starter-pack/pinball.png" height="100" width="100">
+<b>@PinballWitch@mastodon.social</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@PinballWitch@mastodon.social', '_blank')">Follow</button>
+
+<div class="pack-profile">
+<p>
+Mx. Rachel Odessa Silver: Autistic, Disabled, Nonbinary Trans Woman, Polyamorous Demisexual Dyke with PDD. 🚩fae/faer🚩💍@wehpudicabok Dudette, not Dude.
+</p>
+</div>
+
+<hr>
+<br />
+
 
