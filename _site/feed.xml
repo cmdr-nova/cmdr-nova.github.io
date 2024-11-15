@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-13T23:56:54-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">My Fediverse Starter Pack</title><link href="http://localhost:4000/social%20media/2024/11/13/my-fediverse-starter-pack.html" rel="alternate" type="text/html" title="My Fediverse Starter Pack" /><published>2024-11-13T19:39:00-05:00</published><updated>2024-11-13T19:39:00-05:00</updated><id>http://localhost:4000/social%20media/2024/11/13/my-fediverse-starter-pack</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/11/13/my-fediverse-starter-pack.html"><![CDATA[<p>The idea of a “social media starter pack” is nothing new. In the 90s we had webrings with select websites we wanted to connect with, and share with others. In blogging we have “blogrolls,” and on social media we’ve had “follow fridays” for … forever. And, in regards to the fediverse, numerous people have put together lists of users they think others should follow. So, by all means, Bluesky’s version of this is really <em>nothing new</em>, except in that they call follow lists “starter packs.” In that spirit, I’ve made my own, for the fediverse.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-14T19:41:31-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Bluesky Reaches 15 Millions, Threads Gains 15 Million More</title><link href="http://localhost:4000/social%20media/2024/11/14/bluesky-reaches-15-millions-threads-gains-15-million-more.html" rel="alternate" type="text/html" title="Bluesky Reaches 15 Millions, Threads Gains 15 Million More" /><published>2024-11-14T19:22:00-05:00</published><updated>2024-11-14T19:22:00-05:00</updated><id>http://localhost:4000/social%20media/2024/11/14/bluesky-reaches-15-millions-threads-gains-15-million-more</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/11/14/bluesky-reaches-15-millions-threads-gains-15-million-more.html"><![CDATA[<p>Before I have to go to work on a rare overnight shift, I wanted to write about the current social landscape, and less about some kind of perceived competition between Threads and Bluesky, and more about what it means to use these platforms. Obviously, there are reasons to be on Threads, Bluesky, and Mastodon, and for some, it’s a race to the finish line, as to which one “wins” the main-character-social-media-site award.</p>
+
+<p>But I don’t believe either of the three options will ever be the “main-line, main-character” choice. I think people will continue from this point forward, having specific things they want to accomplish and do online, and the place they go will depend on those very things.</p>
+
+<p>Obviously, if you join Threads, you’re probably a fan of Instagram, and you’re looking to connect with, maybe, your audience, or something. And then there’s the ex-Twitter users spilling over, because, it <em>is</em> for sure something <em>like</em> Twitter.</p>
+
+<p>Then you have Bluesky, the site that’s billing itself to be a Twitter replacement, gaining users rapidly, and there are definitely reasons you <em>shouldn’t</em> build a site in order to be the <em>next Twitter</em>. But, there are caveats of Bluesky, in that, you can post your balls and ass, and you won’t get censored. And lots, and <em>lots</em> of people love to do that, on Bluesky, <em>specifically</em>.</p>
+
+<p>And then there’s the community building, the list-making, and the large portion of LGBTQ+ users flocking to the site.</p>
+
+<p>It <em>could</em> contend to be a place that doesn’t suck.</p>
+
+<p>And then you have Mastodon, basically, where <em>everyone</em> else goes. Linux enjoyers, and developers alike, <em>especially</em>. And one of the <em>only</em> social media places on the internet that isn’t run by either a billionaire, or backed by some kind of venture capital.</p>
+
+<p>But what does it mean to use the other two?</p>
+
+<p>Obviously, Zuck is a billionaire, a billionaire who definitely has bad ideas, and bad opinions. On the flipside, like mentioned in one of my recent articles, Bluesky is backed by Bitcoin Capital, run by people who know Steven Bannon intimately. So, are you <em>really</em> ultimately in for <em>anything different</em> than what you were exposed to on Twitter?</p>
+
+<p>Maybe, <em>maybe not</em>.</p>
+
+<p>I do think, though, that it’s becoming kind of muddy to say, “You shouldn’t use this, you should use <em>that</em> instead” because, as I’ve just mentioned, both Threads and Bluesky have issues with influence from … the darker side of politics, and the world.</p>
+
+<p>Notice how I don’t mention Mastodon, or ActivityPub in that, because AP is exactly what you make it. But, if I’ve learned anything, <em>very many</em> people want to sign up on something and then forget about it, <em>forever</em>. Which is not something you do on Mastodon. On Mastodon, you have to be an <em>active</em> participant, almost <em>at all times</em> in order for it to become something that you enjoy. And, let’s face it, if you look at regular, normal users on Threads (for example), there are droves, and droves of people wholly uninterested in social participation, and more interested in a viral post that’ll make them an imaginary millionaire.</p>
+
+<p>At this point, I don’t think it matters too much what you use between the three, and fighting about it is a worthless endeavor. Bluesky and Threads are both connected to ActivityPub in different ways, <em>anyway</em>. So … you could say that Mastodon has already won this metaphorical social media war.</p>
+
+<p>But, again, I don’t think these things matter.</p>
+
+<p>I <em>do</em> think you should consider your environment, and what the people who facilitate it believe, and say, on a regular basis. You <em>should</em> think critically about your participation online, be it via Threads, Bluesky, or <em>even</em> Mastodon.</p>
+
+<p>And you most definitely shouldn’t be on Twitter.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="social-media" /><summary type="html"><![CDATA[Before I have to go to work on a rare overnight shift, I wanted to write about the current social landscape, and less about some kind of perceived competition between Threads and Bluesky, and more about what it means to use these platforms. Obviously, there are reasons to be on Threads, Bluesky, and Mastodon, and for some, it’s a race to the finish line, as to which one “wins” the main-character-social-media-site award.]]></summary></entry><entry><title type="html">My Fediverse Starter Pack</title><link href="http://localhost:4000/social%20media/2024/11/13/my-fediverse-starter-pack.html" rel="alternate" type="text/html" title="My Fediverse Starter Pack" /><published>2024-11-13T19:39:00-05:00</published><updated>2024-11-13T19:39:00-05:00</updated><id>http://localhost:4000/social%20media/2024/11/13/my-fediverse-starter-pack</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/11/13/my-fediverse-starter-pack.html"><![CDATA[<p>The idea of a “social media starter pack” is nothing new. In the 90s we had webrings with select websites we wanted to connect with, and share with others. In blogging we have “blogrolls,” and on social media we’ve had “follow fridays” for … forever. And, in regards to the fediverse, numerous people have put together lists of users they think others should follow. So, by all means, Bluesky’s version of this is really <em>nothing new</em>, except in that they call follow lists “starter packs.” In that spirit, I’ve made my own, for the fediverse.</p>
 
 <p>You can <a class="page-link" href="/pages/fedi-starter">check out my starter pack</a>, and follow via the little follow button I’ve positioned next to each user’s name (yes, I’ve included myself). And this is by no means an exhaustive and complete list! Currently, I’ve slapped this together in about thirty minutes, after having come home from work, napped, and ate a pizza. The list contains those I enjoy seeing on my timeline, and I <em>fully</em> intend to keep adding to it!</p>
 
@@ -410,212 +440,4 @@ if __name__ == '__main__':
 
 <p>But, uh, I’m just gonna go to sleep.</p>
 
-<p>Thanks for reading my vent.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[I’m a little bit delirious. Last night I fell asleep on my couch the entire night, and then woke up at 6am to my cat begging for food, and then I stayed up, and went to work. I got home, and yes, instead of watching the new Deadpool, I switch on the code machine and thought, “Why am I routing the Tumblr API through a github secret only to get static results that don’t update unless I push changes to my site? The heck?” And I thought, “What if I just use a proxy server on my VPS that the JavaScript accesses to give a fresh perspective every time someone refreshes my site?” Boy … oh boy.]]></summary></entry><entry><title type="html">Work, Sleep, Code, Repeat</title><link href="http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html" rel="alternate" type="text/html" title="Work, Sleep, Code, Repeat" /><published>2024-11-04T00:09:00-05:00</published><updated>2024-11-04T00:09:00-05:00</updated><id>http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat</id><content type="html" xml:base="http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html"><![CDATA[<p>So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and <em>sometimes</em> playing Dragon Age and Baldur’s Gate.</p>
-
-<p>My first objective, was to see if I could fully automate my dead Twitter account to just post stuff with a script utilizing the free API tier that they offer for personal use. After <em>much</em> hacking around, and finding out that it’s mostly restrictive, and using multiple version of OAuth, I decided it’s not worth it. Not worth it to figure out, and not worth it to maintain for a website that’ll probably be dead in like six months.</p>
-
-<p>Then, I moved on to Threads. Surely they have an API that can just toss me some keys and let me use Python to post a bunch of random stuff to my timeline so that I can further automate what I’m posting and doing on corporate owned social media.</p>
-
-<p>No!</p>
-
-<p>Or, at least, I haven’t quite figured it out, because it’s about as complicated as the Twitter API.</p>
-
-<p>That’s in the garbage for now as well.</p>
-
-<p>But then, I was on my Mastodon instance, and I realized, “Hey, that reddit bot script I wrote repeats itself a lot. I think it’d do better to choose from <em>any</em> images posted to my fave subreddits, and maybe also like … keep a log file of what’s already been posted? So it stops posting the same things on a daily basis?”</p>
-
-<p>And that’s what I did.</p>
-
-<p>I massively simplified the code, and set it up so that it keeps a log file.</p>
-
-<p>First, we import all the stuff we need
-<code>
-import os
-import random
-import json
-import requests
-import praw
-from PIL import Image
-from mastodon import Mastodon
-import pytumblr
-import tempfile
-</code></p>
-
-<p>We wanna use “random” to select random images, json to save the URLs for <em>already posted</em> images to a file in order to reference later, pillow to optimize the images so that it isn’t all crappily crap once posted to Mastodon and Tumblr, and of course all the other essentials needed to make this work (like pytumblr and mastodon, gotta have those if we want to post).</p>
-
-<p>Then we slap on some configuration. As far as API keys go, <em>you need them all</em>.</p>
-
-<p><code>
- &#35; Configuration
-SUBREDDITS = ['Animewallpaper', 'ZeroTwo', 'BlueArchive', 'ZenlessZoneZero', 'Edgerunners', 'BaldursGate3', 'BokuNoHeroAcademia', 'ChainsawMan', 'backrooms', 'AnimeGirls', 'animeART', 'liminalspace', 'evangelion', 'abandonwareDOS', 'himikotoga', 'SFWmonstergirls', 'MotokoKusanagi', 'Churchofzerotwo', 'ChurchofMarnie', 'PokeGals', 'CuteAnimeGirls', 'UnixPorn', 'RebeccasPlace', 'AnimeSketch']
-LOG_FILE = 'posted_images.json'
-IMAGE_LIMIT = 50
-MASTODON_INSTANCE_URL = 'https://your_instace.url'
-MASTODON_CLIENT_ID = 'mastodon_client_id'
-MASTODON_CLIENT_SECRET = 'client_secret_masto'
-MASTODON_ACCESS_TOKEN = 'masto_access_token'
-TUMBLR_CONSUMER_KEY = 'consumer_key_from_tumblr_app'
-TUMBLR_CONSUMER_SECRET = 'the_consumer_secret'
-TUMBLR_OAUTH_TOKEN = 'the_oauth_token_you_generate'
-TUMBLR_OAUTH_SECRET = 'the_oauth_secret_key'
-REDDIT_CLIENT_ID = 'reddit_client_id'
-REDDIT_CLIENT_SECRET = 'reddit_client_secret'
-REDDIT_USER_AGENT = 'name_of_the_reddit_app'
-CUSTOM_TEXT = "Some custom text to post along with each that goes out to Mastodon and Tumblr"
-TUMBLR_BLOG_NAME = 'nova-ayashi' &#35; This is where the name of your Tumblr blog goes
-</code></p>
-
-<p>As you can see, this is where we want to list our favorite subreddits, then tell it what the log file to generate should be called, and how many images it should look at at once. We don’t want to set it much higher than 50 because you’re going to DDOS your own damn self and probably hit a rate limit somewhere.</p>
-
-<p>After you’ve decided what to input in <em>those</em> fields, you’re going to want to go through the lengthy process of obtaining your Mastodon keys, creating a Reddit app (for personal use, so they don’t charge you money), and then the Tumblr app. Generating the Tumblr OAuth keys can be done within VS Code, just use localhost as your redirect URI.</p>
-
-<p>Next, we want to load any posted images, <em>if there are any</em>.</p>
-
-<p><code>
-def load_posted_images():
-    if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, 'r') as f:
-            return json.load(f)
-    return []
-</code></p>
-
-<p>Then create the posted images json.</p>
-
-<p><code>
-def save_posted_image(image_url):
-    posted_images = load_posted_images()
-    posted_images.append(image_url)
-    with open(LOG_FILE, 'w') as f:
-        json.dump(posted_images, f)
-</code></p>
-
-<p>Now, look at a random subreddit from your list! 🤩</p>
-
-<p><code>
-def get_random_subreddit():
-    return random.choice(SUBREDDITS)
-</code></p>
-
-<p>And make sure it gets a nice high resolution image so that it doesn’t post some pixelated looking poop.</p>
-
-<p><code>
-def get_high_res_image_url(submission):
-    if submission.url.endswith(('jpg', 'jpeg', 'png')):
-        return submission.url
-    if hasattr(submission, 'preview'):
-        images = submission.preview.get('images', [])
-        if images:
-            resolutions = images[0].get('resolutions', [])
-            if resolutions:
-                return resolutions[-1]['url']
-    return None
-</code></p>
-
-<p>Now, here comes the fun part. We’re going to take the random subreddit we just chose earlier, and we’re going to tell the script to retry if it doesn’t find anything, and when it does, append the URL to the json so that it’s permanently saved as something that’s already been posted. I had this issue before where the script kept repeating itself over and over again, essentially spamming timelines with duplicate content.</p>
-
-<p><code>
-def get_random_photo_from_subreddit(reddit, subreddit_name):
-    subreddit = reddit.subreddit(subreddit_name)
-    image_submissions = [submission for submission in subreddit.new(limit=IMAGE_LIMIT) if submission.url.endswith(('jpg', 'jpeg', 'png'))]
-</code>
-<code>
-    if not image_submissions:
-        return get_random_photo_from_subreddit(reddit, subreddit_name)  # retry
-    else:
-        posted_images = load_posted_images()
-        random_submission = random.choice(image_submissions)
-        image_url = get_high_res_image_url(random_submission)
-</code>
-<code>
-        while image_url in posted_images:
-            random_submission = random.choice(image_submissions)
-            image_url = get_high_res_image_url(random_submission)
-</code>
-<code>        
-        save_posted_image(image_url)
-        return random_submission, image_url
-</code></p>
-
-<p>Once the script has chosen an image, we want to save it to the server. Just because we feel like it, f#ck it.</p>
-
-<p><code>
-def download_and_optimize_image(image_url):
-    response = requests.get(image_url)
-    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.jpg')
-    temp_file.write(response.content)
-    temp_file.close()
-</code>
-<code>
-    image = Image.open(temp_file.name)
-    image = image.convert('RGB')
-    image.save(temp_file.name, optimize=True, quality=85)
-    return temp_file.name
-</code></p>
-
-<p>And already, we’re posting! For Mastodon, we’re going to use a sensitive marker so that we don’t hit everyone in the face with something that could be potentially distressing or lewd. This is <em>Reddit</em> we’re pulling from, after-all.</p>
-
-<p><code>
-def post_to_mastodon(mastodon_client, image_path, status_text):
-    media = mastodon_client.media_post(image_path)
-    mastodon_client.status_post(status_text, media_ids=[media], sensitive=True)
-</code></p>
-
-<p>Once the fediverse has been graced by anime pythons, we’re going to hit Tumblr next. Except for Tumblr, we’re going to use the subreddit name as a hashtag so that it’s categorized and easier to find, since Tumblr still heavily uses hashtags.</p>
-
-<p><code>
-def post_to_tumblr(tumblr_client, image_path, status_text, tags):
-    tumblr_client.create_photo(TUMBLR_BLOG_NAME, state="published", tags=tags, data=image_path, caption=status_text)
-</code></p>
-
-<p><strong><em>Note: I do not endorse Photo Matt and his crusade against his own company and software, nor do I endorse transphobia he expressed earlier in 2024.</em></strong></p>
-
-<p>In order to make sure everything does what it’s <em>supposed</em> to do, we need to define the main function. This is where we check all the API keys and what-not, optimize the image, and tell the script what exactly it is we want to say along with the image that’s being posted (aside from the custom text already defined in the configuration). Once all that’s done, we need to make sure we delete that image from the server, because we definitely don’t want to have 40,000 anime girl images eating your hdd space.</p>
-
-<p><code>
-def main():
-    reddit = praw.Reddit(client_id=REDDIT_CLIENT_ID, client_secret=REDDIT_CLIENT_SECRET, user_agent=REDDIT_USER_AGENT)
-    mastodon_client = Mastodon(
-        access_token=MASTODON_ACCESS_TOKEN,
-        api_base_url=MASTODON_INSTANCE_URL
-    )
-    tumblr_client = pytumblr.TumblrRestClient(
-        TUMBLR_CONSUMER_KEY,
-        TUMBLR_CONSUMER_SECRET,
-        TUMBLR_OAUTH_TOKEN,
-        TUMBLR_OAUTH_SECRET
-    )
-</code>
-<code>
-    subreddit_name = get_random_subreddit()
-    submission, image_url = get_random_photo_from_subreddit(reddit, subreddit_name)
-    image_path = download_and_optimize_image(image_url)
-</code>
-<code>
-    mastodon_status_text = f"{CUSTOM_TEXT}\n\n░ Posted by: u/{submission.author}\n░ Subreddit: r/{subreddit_name}\n░ Title: [{submission.title}]({submission.url})"
-    tumblr_status_text = f"{CUSTOM_TEXT}<br /><br />░ Posted by: u/{submission.author}<br />░ Subreddit: r/{subreddit_name}<br />░ Title: &lt; a href='{submission.url}'&gt;{submission.title}&lt; /a&gt;<br />░ Github: &lt; a href='https://github.com/cmdr-nova'&gt;cmdr_nova&lt;/ a&gt;" &#35; you can make this a link to something else, but for me it's my personal github
-    tumblr_tags = ["image", subreddit_name]
-</code>
-<code>
-    post_to_mastodon(mastodon_client, image_path, mastodon_status_text)
-    post_to_tumblr(tumblr_client, image_path, tumblr_status_text, tumblr_tags)
-</code>
-<code>
-    os.remove(image_path)
-</code></p>
-
-<p>The reason we have Mastodon and Tumblr in separate functions is because they have different requirements for formatting posts. Mastodon supports markdown, while Tumblr operates on basic HTML in its posts. If we send the Mastodon version of the post text to Tumblr, you’ll get a non-formatted mess that sucks to look at and has no linking. So, what we do instead, is define two different types of posts!</p>
-
-<p>Now we just make sure that it only runs when the file is executed.</p>
-
-<p><code>
-if __name__ == "__main__":
-    main()
-</code></p>
-
-<p>And that’s that! I remember when I used to be a heavy-gamer. Playing Call of Duty and World of Warcraft for 14 hours at a time and then going to work on an hour and a half of sleep. But, no more! Now I stare at text on my computer screen and grow ever-more-blind in a pair of glasses that probably need their prescription updated. No matter. I hope this script is useful to others, rather than just me, with a special interest in flooding social media with Python experiments.</p>
-
-<p>The reason I’ve decided to post the code here, rather than Github, is because I thought it’d be more fun to break it all down and talk about it. There doesn’t really seem to be a whole lot of conversation that happens on Github, and pretty much almost nobody even follows me there. ¯\_(ツ)_/¯</p>
-
-<p>Either way …</p>
-
-<p>Enjoy!</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and sometimes playing Dragon Age and Baldur’s Gate.]]></summary></entry></feed>
+<p>Thanks for reading my vent.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><summary type="html"><![CDATA[I’m a little bit delirious. Last night I fell asleep on my couch the entire night, and then woke up at 6am to my cat begging for food, and then I stayed up, and went to work. I got home, and yes, instead of watching the new Deadpool, I switch on the code machine and thought, “Why am I routing the Tumblr API through a github secret only to get static results that don’t update unless I push changes to my site? The heck?” And I thought, “What if I just use a proxy server on my VPS that the JavaScript accesses to give a fresh perspective every time someone refreshes my site?” Boy … oh boy.]]></summary></entry></feed>
