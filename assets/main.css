@@ -443,6 +443,7 @@ code {
   display: flex;
   align-items: center;
   margin-left: 20px;
+  flex-wrap: wrap;
 }
 
 .author-info img {
@@ -454,6 +455,23 @@ code {
   flex-direction: column;
   justify-content: center;
   margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .author-info {
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-left: 0; 
+  }
+
+  .author-info img {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+
+  .author-text {
+    margin-left: 0;
+  }
 }
 
 .highligher {
