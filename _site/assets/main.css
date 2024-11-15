@@ -459,18 +459,18 @@ code {
 
 @media (max-width: 600px) {
   .author-info {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    align-items: flex-start; /* Align items to the start */
-    margin-left: 0; /* Remove left margin */
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-left: 0; 
   }
 
   .author-info img {
-    margin-right: 0; /* Remove right margin */
-    margin-bottom: 10px; /* Add bottom margin for spacing */
+    margin-right: 0; 
+    margin-bottom: 10px; 
   }
 
   .author-text {
-    margin-left: 0; /* Remove left margin */
+    margin-left: 0;
   }
 }
 
