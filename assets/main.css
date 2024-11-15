@@ -637,7 +637,7 @@ code {
 
 #mastodon {
   background-color: #111111d5;
-  height: 35rem;
+  height: 25rem;
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
@@ -1023,7 +1023,7 @@ iframe {
 }
 
 #calendar td {
-  height: 50px;
+  height: 30px;
 }
 
 /* Tumblr feed */
@@ -1043,7 +1043,7 @@ iframe {
   margin-bottom: 20px; 
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
-  filter: drop-shadow(1px 1px rgb(217, 255, 0));
+  text-align: left;
 }
 
 .tumblr-post p {
@@ -1059,6 +1059,21 @@ iframe {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+}
+
+.tumblr-title {
+  display: block;
+  font-size: .8rem;
+  font-weight: 700;
+  color: #000000;
+  background-color:#00ffffab;
+  border-style: solid;
+  border-color:#000000;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 260px;
+  margin-bottom: 10px;
+  margin: auto;
 }
 
 #random-image-container {

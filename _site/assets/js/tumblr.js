@@ -2,7 +2,7 @@ const blogIdentifier = 'nova-ayashi.tumblr.com';
 const corsProxy = 'https://server.mkultra.monster:3000/proxy?url=';
 const apiUrl = `https://api.tumblr.com/v2/blog/${blogIdentifier}/posts`;
 const apiKey = 'tkzBcfe50toJjkOkT3LpubZjOGVL3nOmwOASEVA0d2hJILYOPW';
-const postsPerPage = 3; // Fetch only the most recent 3 posts
+const postsPerPage = 1; // Fetch only the most recent 3 posts
 
 async function fetchTumblrPosts(offset = 0) {
   try {
