@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 11/15/2024
+
+- did a major overhaul of all of the CSS in order to remove rounded edges and bring all content closer together
+- introduced new javascript to dynamically grab information from my mastodon profile that updates with changes made
+
 # # # 11/2/2024
 
 - modified the mastodon feed javascript to more accurately represent posts coming from mastodon
