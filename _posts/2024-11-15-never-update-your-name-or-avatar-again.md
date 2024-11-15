@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Scripting"
 tag: scripting
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113488719334168240
 ---
 This morning, I woke up from three and a half hours of sleep after a long overnight shift, and decided I wanted to change some things on this site. The first thing I did was delete a bunch of fluff from the sidebars. The next thing I did was make some JavaScript that automatically updates my avatar and author name on posts (and other pages) with whatever I'm using on Mastodon, completely dynamically.
 
