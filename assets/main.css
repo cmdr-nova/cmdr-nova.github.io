@@ -875,7 +875,7 @@ code {
 }
 
 #linuxring a {
-  color: black;
+  color: rgba(0, 255, 255, 0.699);
 }
 
 #linuxring table {
