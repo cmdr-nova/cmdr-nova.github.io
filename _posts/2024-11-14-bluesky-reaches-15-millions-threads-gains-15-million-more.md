@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: social-media
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113484194073133328
 ---
 Before I have to go to work on a rare overnight shift, I wanted to write about the current social landscape, and less about some kind of perceived competition between Threads and Bluesky, and more about what it means to use these platforms. Obviously, there are reasons to be on Threads, Bluesky, and Mastodon, and for some, it's a race to the finish line, as to which one "wins" the main-character-social-media-site award.
 
