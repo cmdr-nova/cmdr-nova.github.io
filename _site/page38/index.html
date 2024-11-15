@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,13 +214,13 @@ creator of everything -->
 
 
   <a class="read-title" href="/second%20life/2015/12/15/revosa-fishnet-lingerie-set.html">REVOSA Fishnet Lingerie Set!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 15 Dec 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://cmdr-nova.online/wp-content/uploads/2015/12/fishnetsetad.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="300" src="http://cmdr-nova.online/wp-content/uploads/2015/12/fishnetsetad-300x225.png" width="400" /></a></div>
 <p>REVOSA returns after a bit of a break for Fallout 4 (and other things) with a brand new system and applier fishnet lingerie set!<br />
@@ -255,13 +229,14 @@ Comes with top, undies, gloves, socks and a Maitreya Lara applier hud!<br />
 <br />
 Check it out <a href="https://marketplace.secondlife.com/p/REVOSA-Fishnet-Lingerie-Set-with-appliers/8226470" target="_blank" rel="noopener">on the marketplace</a> and if you’re in Second Life, come on <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29" target="_blank" rel="noopener">over to the store </a>and hit up the Midnight Mania board, or grab a free drink while you wait for the lucky chairs to spin around and land on you!</p>
 
-
-      > > > <a href="/second%20life/2015/12/15/revosa-fishnet-lingerie-set.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2015/12/15/revosa-fishnet-lingerie-set.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -270,13 +245,13 @@ Check it out <a href="https://marketplace.secondlife.com/p/REVOSA-Fishnet-Linger
 
 
   <a class="read-title" href="/updates/2015/12/14/chapter-4-rough-draft-completed.html">Chapter 4 rough draft completed!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 14 Dec 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>I know, I know. It’s been a little bit of a long time coming, but I have an explanation. There are explanations for everything. While I was in the middle of writing chapter four, Fallout 4 released! This was pretty awesome, because the game is amazing. But I won’t go into detail about that because it isn’t entirely important to this update, nor is the fact that I also went through most of the main campaign in New Vegas, started playing Elder Scrolls Online (Add @paxcorpus if you like) again and am slowly working my way through Alien: Isolation (An amazing entry into the franchise).<br />
 <br />
 Having burned myself out from 3D modeling, I decided to take a little break, and now that my head is sort of in the right place, I’ve finished chapter four of NETHERBOUND and am preparing to head into chapter five, rightly titled <i>Jack of Spades</i>.<br />
@@ -289,13 +264,14 @@ Way back when I originally started writing this book, the beginning was very, ve
 <br />
 But hey, that’s all for now. I hope you enjoy reading what I’ve got so far for the rough draft, and look forward to what’s to come. The pacing may be a bit slower, but that’s how rollercoasters work, right?</p>
 
-
-      > > > <a href="/updates/2015/12/14/chapter-4-rough-draft-completed.html">read more</a>
     </div>
-
+      > > > <a href="/updates/2015/12/14/chapter-4-rough-draft-completed.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: fiction
+        <i class="ph ph-table"></i> tag: fiction
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -304,13 +280,13 @@ But hey, that’s all for now. I hope you enjoy reading what I’ve got so far f
 
 
   <a class="read-title" href="/fiction/2015/11/06/netherbound-chapter-3-transmission-from-hell-complete.html">NETHERBOUND Chapter 3 &#8220;Transmission From Hell&#8221; Complete</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 06 Nov 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://cmdr-nova.online/wp-content/uploads/2015/11/nbpromo3.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://cmdr-nova.online/wp-content/uploads/2015/11/nbpromo3-200x300.png" width="212" /></a></div>
 <p>That’s right! Another chapter is finished! In this chapter we come back to reality, whatever that means when you’re trapped inside of a place where the laws physics mean nothing, and we learn even more new things.<br />
@@ -325,13 +301,14 @@ You tell me.<br />
 <br />
 Come check out the new NETHERBOUND <a href="http://nbserial.tumblr.com/post/132651011541/netherbound-index" target="_blank" rel="noopener">index page here on Tumblr</a> where you can easily select chapters to read, including the newly released and finished chapter, “Transmission From Hell.”</p>
 
-
-      > > > <a href="/fiction/2015/11/06/netherbound-chapter-3-transmission-from-hell-complete.html">read more</a>
     </div>
-
+      > > > <a href="/fiction/2015/11/06/netherbound-chapter-3-transmission-from-hell-complete.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: fiction
+        <i class="ph ph-table"></i> tag: fiction
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -340,13 +317,13 @@ Come check out the new NETHERBOUND <a href="http://nbserial.tumblr.com/post/1326
 
 
   <a class="read-title" href="/fiction/2015/11/05/netherbound-chapter-2-there-but-for-the-grace-of-god-completed.html">NETHERBOUND Chapter 2 &#8220;There But For The Grace of God&#8221; Completed</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 05 Nov 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://cmdr-nova.online/wp-content/uploads/2015/11/EV-2BCover-2B-2528smaller-2529.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" src="http://cmdr-nova.online/wp-content/uploads/2015/11/EV-2BCover-2B-2528smaller-2529.png" /></a></div>
 <p>That’s right! I spent most of the day pounding out the second chapter of NETHERBOUND. It’s a little shorter but it explains a lot. We start from the point at which Escape Velocity (the previous novel) ended and we skew it, we warp it and we connect it in fragmented shards that tell little significant details about what exactly happened.<br />
@@ -363,13 +340,14 @@ Stay tuned for chapter 3, “<i><b>Transmission From Hell</b></i>.”<br />
 <br />
 <a href="http://nbserial.tumblr.com/post/132619569506/netherbound-chapter-2" target="_blank" rel="noopener">Click here</a> to start at the beginning of chapter 2, or <a href="http://nbserial.tumblr.com/post/132420877801/netherbound-chapter-1" target="_blank" rel="noopener">here to start</a> from chapter 1.</p>
 
-
-      > > > <a href="/fiction/2015/11/05/netherbound-chapter-2-there-but-for-the-grace-of-god-completed.html">read more</a>
     </div>
-
+      > > > <a href="/fiction/2015/11/05/netherbound-chapter-2-there-but-for-the-grace-of-god-completed.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: fiction
+        <i class="ph ph-table"></i> tag: fiction
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -378,13 +356,13 @@ Stay tuned for chapter 3, “<i><b>Transmission From Hell</b></i>.”<br />
 
 
   <a class="read-title" href="/fiction/2015/11/04/netherbound-chapter-one-completed.html">NETHERBOUND Chapter One Completed!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 04 Nov 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://cmdr-nova.online/wp-content/uploads/2015/11/nbpromo2.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="320" src="http://cmdr-nova.online/wp-content/uploads/2015/11/nbpromo2-182x300.png" width="194" /></a></div>
 <p>As of today, the rough draft for chapter one in the explosive, dark and moody sequel to <i><b>Escape Velocity</b></i> is complete! As I’ve mentioned before, I’m doing what I’m calling a “live rough drafting” of the story over on Tumblr for all to read as it happens.<br />
@@ -399,13 +377,14 @@ Stay tuned for more! <br />
 <br />
 <br /></p>
 
-
-      > > > <a href="/fiction/2015/11/04/netherbound-chapter-one-completed.html">read more</a>
     </div>
-
+      > > > <a href="/fiction/2015/11/04/netherbound-chapter-one-completed.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: fiction
+        <i class="ph ph-table"></i> tag: fiction
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -438,6 +417,11 @@ Stay tuned for more! <br />
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -475,7 +459,7 @@ Stay tuned for more! <br />
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -508,14 +492,23 @@ Stay tuned for more! <br />
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -527,19 +520,22 @@ Stay tuned for more! <br />
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -548,19 +544,9 @@ Stay tuned for more! <br />
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

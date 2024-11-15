@@ -48,7 +48,7 @@ function displayTumblrPosts(posts) {
     postElement.innerHTML = `
       ${imageHtml}
       <p>${post.summary}</p>
-      <a href="${post.post_url}" target="_blank">Read more</a>
+      <p class="center-align"><a href="${post.post_url}" target="_blank">Read more</a></p>
     `;
     console.log('Post element HTML:', postElement.innerHTML);
     tumblrFeed.appendChild(postElement);

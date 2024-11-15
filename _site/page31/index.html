@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,25 +214,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/04/12/the-backrooms-fact-or-fiction.html">The Backrooms: Fact, or Fiction?</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 12 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>We've all been there. The gas station on the side of the road in the middle of the night, the mall near closing time, your own living space at three in the morning. Liminal spaces. A concept that was a sensation on Tumblr years, and years ago. And then it became something bigger, burst straight from the chest of 4chan.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/thoughts/2024/04/12/the-backrooms-fact-or-fiction.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/04/12/the-backrooms-fact-or-fiction.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -267,25 +242,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/writing%20prompts/2024/04/12/prompt-whatd-you-learn-in-high-school.html">Prompt: What’d You Learn in High School?</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 12 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:pullquote -->
 <figure class="wp-block-pullquote"><blockquote><p>Describe something you learned in high school.</p></blockquote></figure>
 <!-- /wp:pullquote -->
 
 
-
-      > > > <a href="/writing%20prompts/2024/04/12/prompt-whatd-you-learn-in-high-school.html">read more</a>
     </div>
-
+      > > > <a href="/writing%20prompts/2024/04/12/prompt-whatd-you-learn-in-high-school.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: writing-prompt
+        <i class="ph ph-table"></i> tag: writing-prompt
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -294,25 +270,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/04/10/a-protocol-in-the-works.html">A Protocol, in the Works</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 10 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>Before I switched positions and location at my offline job, I was pretty heavily into writing this book. I'm not sure why I've been on a cooling-off period for a couple of months in regard to writing it, but that's how it's been my whole life. Took me three years to finish the full manuscript of my first book, and looking back at it ten years later after publishing, I don't even really feel like I would have published it now, had it taken me this long to finish (my tastes and ideas have radically changed since then).</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/thoughts/2024/04/10/a-protocol-in-the-works.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/04/10/a-protocol-in-the-works.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -321,25 +298,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/second%20life/2024/04/08/neo-machina-offline-for-now.html">Neo Machina, Offline, for Now</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 08 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>So this has been a thing since the beginning of the year. I had planned to bring it down, but couldn't really stomach it and decided not to. But another month or so of the server bills came in, and it's got me feeling <em>very</em> tight on cash. Especially with having switched job locations and needing to put gas in my tank a bit more often.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/second%20life/2024/04/08/neo-machina-offline-for-now.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2024/04/08/neo-machina-offline-for-now.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -348,25 +326,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/04/06/as-google-increases-predatory-practices-should-you-switch-to-peertube.html">As Google Increases Predatory Practices, Should You Switch to Peertube?</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 06 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>If you've been on the internet for the past five years, or even the past ten years, you might remember that moment on Twitter where someone noted that the people at Google's headquarters in California took down their "Don't be evil" sign and/or <a href="https://gizmodo.com/google-removes-nearly-all-mentions-of-dont-be-evil-from-1826153393" target="_blank" rel="noreferrer noopener">removed it from their CoC</a>, as if they were cartoon villains getting ready to do something nefarious. And nefarious things they did do, and are preparing to do more of.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/tech/2024/04/06/as-google-increases-predatory-practices-should-you-switch-to-peertube.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/04/06/as-google-increases-predatory-practices-should-you-switch-to-peertube.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -399,6 +378,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -436,7 +420,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -469,14 +453,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -488,19 +481,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -509,19 +505,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

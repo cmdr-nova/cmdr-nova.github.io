@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,23 +214,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/09/23/you-ve-heard-of-misskey-now-get-ready-for-sharks.html">You've Heard of Misskey, Now Get Ready for Sharks</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 23 Sep 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>For the longest time, I’ve spent most of my fediverse posting hours on the Mastodon software. It’s <em>basically</em> almost all I know. You know, aside from those times I launched a GNU Social instance, and then a very short-lived Pleroma instance. GNU Social is a lot like if someone made an open source Facebook, and Pleroma is okay, but it was originally made by <em>a terrible person</em> (not that this should stop you from doing whatever you want, with your time, and servers).</p>
 
 
-
-      > > > <a href="/social%20media/2024/09/23/you-ve-heard-of-misskey-now-get-ready-for-sharks.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/09/23/you-ve-heard-of-misskey-now-get-ready-for-sharks.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -265,23 +240,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html">Scrobbling is My New Favorite Hobby</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 21 Sep 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Back in 2012, and I don’t even remember how I went about it, I spent enormous amounts of time scrobbling my music listening habits to <a href="https://www.last.fm/user/cmdr_nova" target="_blank">Last.fm</a>. This lasted into 2014, and I am at least <em>semi</em> certain I started using Spotify for this. How I did before that time … I think I must’ve been using Winamp to track things I was listening to.</p>
 
 
-
-      > > > <a href="/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/09/21/scrobbling-is-my-new-favorite-hobby.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -290,23 +266,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html">LinkedIn Attempts to Yoink Your Data</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 19 Sep 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>If you haven’t heard by now, <a href="https://techcrunch.com/2024/09/18/linkedin-scraped-user-data-for-training-before-updating-its-terms-of-service/" target="_blank">LinkedIn suddenly implemented a “feature” into their social network that automatically opts you into allowing them to use all of your data for AI training</a>. To top it off, they’ve done this <em>before</em> altering their terms of service. So, technically, nobody’s agreed to this. But! We all know the people behind large learning models <em>absolutely</em> do not know what consent is.</p>
 
 
-
-      > > > <a href="/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/09/19/linkedin-attempts-to-yoink-your-data.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -315,23 +292,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html">Mozilla Sets Their Mastodon Instance on Fire</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 17 Sep 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Just recently, I wrote about Mozilla proposing their new “AI” features in their nightly builds, and was sharing around the post they made, via another user on the fediverse, calling for all Firefox-enjoyers to run on over and tell them to stop. And thousands upon <em>thousands</em> of people <em>did</em>. It’s one of the largest gatherings of anti-AI force I’ve seen <em>so far</em>, and it was glorious.</p>
 
 
-
-      > > > <a href="/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/09/17/mozilla-sets-their-mastodon-instance-on-fire.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -340,23 +318,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/09/16/burnout-syndrome-activate.html">Burnout Syndrome, Activate</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 16 Sep 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>It’s been a little while since I’ve written anything relating personally, to myself. I’ve spent a lot of blog posts giving my own opinion on current events, or unfortunate advancements in tech that facilitate mass theft, or rolling my face on the keyboard in my Backrooms obsession. I suppose maybe sometimes it’s harder to write about myself, and what and how I’m feeling about things, because I find it hard to actually <em>want</em> people to know me.</p>
 
 
-
-      > > > <a href="/thoughts/2024/09/16/burnout-syndrome-activate.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/09/16/burnout-syndrome-activate.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -389,6 +368,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -426,7 +410,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -459,14 +443,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -478,19 +471,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -499,19 +495,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

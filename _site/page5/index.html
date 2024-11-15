@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,23 +214,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/10/21/boo-revisiting-horrifying-dating-apps.html">Boo! Revisiting Horrifying Dating Apps</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 21 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Earlier in the year I wrote about the <em>terrible</em> situation that is dating in the post-2020 world. Everything’s a swiper, everyone’s making decisions based on appearances, and nothing else. Most of the accounts on these apps are like, 2% real people, and 98% bots, Instagram account spammers, scammers waiting for you in a motel with a baseball bat and some dude, and couples looking for a unicorn. It’s dire out there, brosefinas.</p>
 
 
-
-      > > > <a href="/thoughts/2024/10/21/boo-revisiting-horrifying-dating-apps.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/10/21/boo-revisiting-horrifying-dating-apps.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -265,23 +240,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/programming/2024/10/20/using-my-time-wisely.html">Using My Time Wisely</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 20 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>So, work has been a pain in the ass lately. And by that, I mean, my offline job. At times, especially the past week, I’ve had a real hard time justifying even getting out of bed in the morning. But, I got out of work last night around 9pm, and I was exploring feed readers, because reading feeds is coming back (via enshitification of everything else). But I didn’t like how most readers are trying to sell monthly subscriptions for features like, being able to make a folder, and storing feeds in them. And then I thought, “I’ll make one.”</p>
 
 
-
-      > > > <a href="/programming/2024/10/20/using-my-time-wisely.html">read more</a>
     </div>
-
+      > > > <a href="/programming/2024/10/20/using-my-time-wisely.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: programming
+        <i class="ph ph-table"></i> tag: programming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -290,23 +266,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/programming/2024/10/18/python-deliver-us-the-blue-hellsite.html">Python, Deliver Us the Blue Hellsite</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 18 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Have you ever thought to yourself, “Self, I wish there was more Tumblr on Mastodon?” Well, do I have some freakin’ news for you. In my sickness addled brain, I have slapped together something that will tickle your pickle, or fancy. With a few lines (100 or so) of Python, we can force the Tumblr API to give us whatever it thinks is the top trending image post of the day, and slap that thing onto ActivityPub. Matt might be trying to bury Wordpress in a shallow grave, but maybe we can pretend that Tumblr has ActivityPub integration with some hacks.</p>
 
 
-
-      > > > <a href="/programming/2024/10/18/python-deliver-us-the-blue-hellsite.html">read more</a>
     </div>
-
+      > > > <a href="/programming/2024/10/18/python-deliver-us-the-blue-hellsite.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: programming
+        <i class="ph ph-table"></i> tag: programming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -315,23 +292,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/10/18/the-pains-of-bronchitis-the-flu-whichever.html">The Pains of Bronchitis? The Flu? Whichever</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 18 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>So, much to the dismay of boss/es at the offline job, I’m taking off work today, because going to work feeling every ache and pain in my bones and muscles as this bronchitis, or the flu, ravages my immune system without rest, is just <em>too freakin much</em>. I get fed lines like, “I come to work no matter what unless I’m <em>literally</em> dying.” And, I mean, I guess, hats-off to those of you who wish to die on the job, or collapse in a lesser sense. But that isn’t me.</p>
 
 
-
-      > > > <a href="/thoughts/2024/10/18/the-pains-of-bronchitis-the-flu-whichever.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/10/18/the-pains-of-bronchitis-the-flu-whichever.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -340,23 +318,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/10/17/heavy-metal-f-a-k-k-2-comin-at-you.html">Heavy Metal F.A.K.K.2, Comin' At You?</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 17 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>While I’m on this kick of looking back over the years at old games that are still mega-popular, I also want to look at games that maybe <em>nobody</em> remembers, or even <em>knows</em> about. No, I’m not talking about Daikatana. That game is pretty cool, and I’m pretty sure it’s also very well known. I’m talking about Julie and Heavy Metal F.A.K.K.2, a game that came, then said, “Hey!” and subsequently vanished into the ether of game development … seemingly, <em>forever</em>.</p>
 
 
-
-      > > > <a href="/gaming/2024/10/17/heavy-metal-f-a-k-k-2-comin-at-you.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/10/17/heavy-metal-f-a-k-k-2-comin-at-you.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -389,6 +368,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -426,7 +410,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -459,14 +443,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -478,19 +471,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -499,19 +495,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

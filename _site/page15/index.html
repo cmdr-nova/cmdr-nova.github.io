@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,23 +214,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/08/23/yesterday-s-websites-today.html">Yesterday's Websites, Today</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 23 Aug 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>You’ve heard of the old-web revival lurking in the underground of the furthest reaches of internet-space, now get ready for: Actual Geocities pages, archived in an easy to navigate interface! I’ve been lurking the Melonland forums, and searching around websites people have built, and one of the main complaints, or issues I see, is people are using <a href="https://gifcities.org/" target="_blank">Gifcities</a> to kind of “gamble” their way into finding actual cool gifs, blinkers, badges, and banners. And, while this <em>might</em> be effective sometimes, I’d like to direct people interested in collecting old-net artifacts, or those who’d just like a little bit of nostalgia, to <a href="https://geocities.restorativland.org/" target="_blank">Restoritaveland</a>. This comes complete with Geocities neighborhood navigation, and although I don’t <em>think</em> it has every site ever made on Geocities … it’s possible, you might just find something <em>you’ve</em> made, if you’re as old as me.</p>
 
 
-
-      > > > <a href="/tech/2024/08/23/yesterday-s-websites-today.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/08/23/yesterday-s-websites-today.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -265,24 +240,25 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/08/20/worlds-chat-to-worlds-online.html">Worlds Chat to Worlds Online</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 20 Aug 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <hr />
 <p><img src="/img/posts/rebuild/worlds.png" alt="screenshot from the very old Worlds chat client, depicting someone standing on what looks like an asteroid, orbited by a space station, and in the center of the screen are strange rock formations with a door in the middle." /></p>
 
 
-
-      > > > <a href="/gaming/2024/08/20/worlds-chat-to-worlds-online.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/08/20/worlds-chat-to-worlds-online.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -291,23 +267,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/08/19/rebuilding-in-vr-chat.html">Rebuilding in VR Chat</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 19 Aug 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p><img src="/img/posts/rebuild/chat.png" alt="photo of the main VR Chat logo, featuring two avatars looking up at the viewer, and the text, &quot;VR Chat&quot;" /></p>
 
 
-
-      > > > <a href="/gaming/2024/08/19/rebuilding-in-vr-chat.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/08/19/rebuilding-in-vr-chat.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: vr-chat
+        <i class="ph ph-table"></i> tag: vr-chat
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -316,23 +293,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/08/18/you-should-always-go-full-activitypub.html">You Should Always Go Full ActivityPub</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 18 Aug 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Hello good people of the indie-web, and shout-out to the fediverse! Why am I shouting out the fediverse? Surely they can’t see what I’m typing here, right now? Oh, but what if they could? What if, after I share this update via my own Mastodon account, all replies to that post came directly to <em>this post</em>, here, on my website. Well, buddy, ol’ pal. That’s exactly what happens now.</p>
 
 
-
-      > > > <a href="/tech/2024/08/18/you-should-always-go-full-activitypub.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/08/18/you-should-always-go-full-activitypub.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -341,23 +319,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/fundraiser/2024/08/17/urgent-financial-help-needed.html">Urgent Financial Help Needed</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 17 Aug 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>So, yesterday, I <em>basically</em> shuttered my Second Life store in order to, pretty much immediately stop paying Linden Labs any money <em>whatsoever</em> in order to have land, and access to group space needed for both hosting my store in-world, and maintaining groups for promotion. As of right now, my little venture in Second Life is pretty much over.</p>
 
 
-
-      > > > <a href="/fundraiser/2024/08/17/urgent-financial-help-needed.html">read more</a>
     </div>
-
+      > > > <a href="/fundraiser/2024/08/17/urgent-financial-help-needed.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: donations
+        <i class="ph ph-table"></i> tag: donations
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -390,6 +369,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -427,7 +411,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -460,14 +444,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -479,19 +472,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -500,19 +496,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

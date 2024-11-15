@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,23 +214,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/07/19/wuthering-waves-genshin-impact-but-for-adults.html">Wuthering Waves: Genshin Impact, But For Adults</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 19 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Wuthering Waves is another mobile game that crosses the boundaries between your phone, your console, and your PC. Much like the games that came before it via MiHoYo, it proves that a gacha can be so much more than a slot machine rewarding you with anime girls. For years and years, I would’ve never considered a phone a thing with actual good games, and I’m slowly but surely being proven wrong.</p>
 
 
-
-      > > > <a href="/gaming/2024/07/19/wuthering-waves-genshin-impact-but-for-adults.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/07/19/wuthering-waves-genshin-impact-but-for-adults.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -265,23 +240,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/07/16/the-first-descendant.html">The First Descendant: Bunnies & Guns Edition</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 16 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Over the past week, I’ve spent a little time here and there checking out the latest game out of grindy, microtransaction game maker, Nexon. This is what I think about it.</p>
 
 
-
-      > > > <a href="/gaming/2024/07/16/the-first-descendant.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/07/16/the-first-descendant.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -290,23 +266,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/07/16/why-bluesky-will-probably-never-be-it.html">Why Bluesky Will Probably Never Be It</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 16 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>This is going to be a sort of long one (or maybe it won’t?), because I have a lot of thoughts as a tech and social media enthusiast, and some of those thoughts have to do with how I feel about the direction that social media is moving in. How I feel about Mastodon, and Nostr, side-by-side, and what the biggest problems with Bluesky are.</p>
 
 
-
-      > > > <a href="/social%20media/2024/07/16/why-bluesky-will-probably-never-be-it.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/07/16/why-bluesky-will-probably-never-be-it.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -315,23 +292,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/07/11/nostr-the-strangest-and-clunkiest-twitter-replacement.html">Nostr, the Strangest and Clunkiest Twitter Replacement</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 11 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Nostr, the name of a social network that I really can’t pinpoint the <em>theme</em> of. Like something a disgruntled Twitter developer came up with after trying Mastodon, and thought, “Hey, there aren’t enough opportunities to pay for this?” And then there’s the name, like it was definitely something thought up by a hipster sitting in a corporate lounge.</p>
 
 
-
-      > > > <a href="/social%20media/2024/07/11/nostr-the-strangest-and-clunkiest-twitter-replacement.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/07/11/nostr-the-strangest-and-clunkiest-twitter-replacement.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -340,25 +318,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/07/09/a-two-for-one-threads-net-sale-transphobia-and-llms-oh-my.html">A Two-for-One Threads.net Sale! Transphobia and LLMs, Oh My!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 09 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>I woke up on my day off like I usually do, basically just procrastinating for <em>hours and hours</em>. And then I logged onto Mastodon, and then Threads. I like to start off my day by doing some posting, like you do. And then I saw that, uh, well, the official Threads account is attempting to commit career unaliving.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/social%20media/2024/07/09/a-two-for-one-threads-net-sale-transphobia-and-llms-oh-my.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/07/09/a-two-for-one-threads-net-sale-transphobia-and-llms-oh-my.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -391,6 +370,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -428,7 +412,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -461,14 +445,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -480,19 +473,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -501,19 +497,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

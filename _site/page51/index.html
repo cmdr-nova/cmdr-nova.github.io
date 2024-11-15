@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,13 +214,13 @@ creator of everything -->
 
 
   <a class="read-title" href="/second%20life/2015/09/22/new-revosa-give-blood-tshirt.html">[NEW] REVOSA GIVE BLOOD Tshirt</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 22 Sep 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://2.bp.blogspot.com/-K0qF7YHOaXI/VgGMpsm1pFI/AAAAAAAAAKw/-O93nKRiXUo/s1600/RGBTA.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="300" src="http://2.bp.blogspot.com/-K0qF7YHOaXI/VgGMpsm1pFI/AAAAAAAAAKw/-O93nKRiXUo/s400/RGBTA.png" width="400" />&nbsp;</a></div>
 <div style="clear: both; text-align: center;">
@@ -255,13 +229,14 @@ creator of everything -->
 Marketplace listing: <a href="https://marketplace.secondlife.com/p/REVOSA-GIVE-BLOOD-Tshirt-4-sizes/7779387">https://marketplace.secondlife.com/p/REVOSA-GIVE-BLOOD-Tshirt-4-sizes/7779387</a><br />Inworld store: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29">http://maps.secondlife.com/secondlife/Pisces/172/239/29</a> </div>
 <p><br /></p>
 
-
-      > > > <a href="/second%20life/2015/09/22/new-revosa-give-blood-tshirt.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2015/09/22/new-revosa-give-blood-tshirt.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -270,13 +245,13 @@ Marketplace listing: <a href="https://marketplace.secondlife.com/p/REVOSA-GIVE-B
 
 
   <a class="read-title" href="/second%20life/2015/09/21/new-revosa-cybernetic-carapace.html">[NEW] REVOSA Cybernetic Carapace</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 21 Sep 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://3.bp.blogspot.com/-HS583Gif_50/VgB6tpDHebI/AAAAAAAAAKc/79LCJybd4cM/s1600/RCCA.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="300" src="http://3.bp.blogspot.com/-HS583Gif_50/VgB6tpDHebI/AAAAAAAAAKc/79LCJybd4cM/s400/RCCA.png" width="400" />&nbsp;</a></div>
 <div style="clear: both; text-align: left;">
@@ -285,13 +260,14 @@ Marketplace listing: <a href="https://marketplace.secondlife.com/p/REVOSA-GIVE-B
 <br />
 Inworld store: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29">http://maps.secondlife.com/secondlife/Pisces/172/239/29</a></p>
 
-
-      > > > <a href="/second%20life/2015/09/21/new-revosa-cybernetic-carapace.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2015/09/21/new-revosa-cybernetic-carapace.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -300,13 +276,13 @@ Inworld store: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29"
 
 
   <a class="read-title" href="/second%20life/2015/09/20/revosa-cyberlegs.html">REVOSA CyberLegs</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 20 Sep 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://3.bp.blogspot.com/-MFnwze67xC0/Vf8mnDloZfI/AAAAAAAAAKE/SOI7T01ClRw/s1600/RCLA.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="300" src="http://3.bp.blogspot.com/-MFnwze67xC0/Vf8mnDloZfI/AAAAAAAAAKE/SOI7T01ClRw/s400/RCLA.png" width="400" />&nbsp;</a></div>
 <div style="clear: both; text-align: left;">
@@ -317,13 +293,14 @@ Marketplace listing: <a href="https://marketplace.secondlife.com/p/REVOSA-CyberL
 Inworld store: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29">http://maps.secondlife.com/secondlife/Pisces/172/239/29</a> </div>
 <p><br /></p>
 
-
-      > > > <a href="/second%20life/2015/09/20/revosa-cyberlegs.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2015/09/20/revosa-cyberlegs.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -332,13 +309,13 @@ Inworld store: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29"
 
 
   <a class="read-title" href="/second%20life/2015/09/20/wip-revosa-cyberlegs.html">[WIP] REVOSA CyberLegs</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 20 Sep 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://3.bp.blogspot.com/-Nb9YNvnphos/Vf7WGlLVM4I/AAAAAAAAAJw/lMtdOL2_I1s/s1600/2edef62396776da83103dac16651febc.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-Nb9YNvnphos/Vf7WGlLVM4I/AAAAAAAAAJw/lMtdOL2_I1s/s400/2edef62396776da83103dac16651febc.png" width="252" /></a></div>
 <p>Some might ask, “What’s Lula working on today?” Well, if you’re one of those people, you might like this new product I’m working on that has been a long time in the making, and quite secret as well.<br />
@@ -352,13 +329,14 @@ That’s it for now! I’ll return later with, hopefully, a finishing product!<b
 Inworld store: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29">http://maps.secondlife.com/secondlife/Pisces/172/239/29</a><br />
 Marketplace store: <a href="https://marketplace.secondlife.com/stores/165186">https://marketplace.secondlife.com/stores/165186</a></p>
 
-
-      > > > <a href="/second%20life/2015/09/20/wip-revosa-cyberlegs.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2015/09/20/wip-revosa-cyberlegs.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -367,13 +345,13 @@ Marketplace store: <a href="https://marketplace.secondlife.com/stores/165186">ht
 
 
   <a class="read-title" href="/second%20life/2015/09/20/stop-by-the-revosa-mainstore-and-check-out-the-new-gatcha.html">Stop by the REVOSA mainstore and check out the new Gatcha!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 20 Sep 2015<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <div style="clear: both; text-align: center;">
 <a href="http://3.bp.blogspot.com/-6VhBT3SRmRo/Vf4XaEEcNeI/AAAAAAAAAJY/3lE9rA4QEUI/s1600/gatchaphoto.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://3.bp.blogspot.com/-6VhBT3SRmRo/Vf4XaEEcNeI/AAAAAAAAAJY/3lE9rA4QEUI/s400/gatchaphoto.png" width="266" />&nbsp;</a></div>
 <div style="clear: both; text-align: center;">
@@ -382,13 +360,14 @@ Marketplace store: <a href="https://marketplace.secondlife.com/stores/165186">ht
 Find the source for REVOSA gatcha only at the mainstore: <a href="http://maps.secondlife.com/secondlife/Pisces/172/239/29" target="_blank" rel="noopener">REVOSA Mainstore and Blood Bank</a></div>
 <p><br /></p>
 
-
-      > > > <a href="/second%20life/2015/09/20/stop-by-the-revosa-mainstore-and-check-out-the-new-gatcha.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2015/09/20/stop-by-the-revosa-mainstore-and-check-out-the-new-gatcha.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -421,6 +400,11 @@ Find the source for REVOSA gatcha only at the mainstore: <a href="http://maps.se
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -458,7 +442,7 @@ Find the source for REVOSA gatcha only at the mainstore: <a href="http://maps.se
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -491,14 +475,23 @@ Find the source for REVOSA gatcha only at the mainstore: <a href="http://maps.se
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -510,19 +503,22 @@ Find the source for REVOSA gatcha only at the mainstore: <a href="http://maps.se
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -531,19 +527,9 @@ Find the source for REVOSA gatcha only at the mainstore: <a href="http://maps.se
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -230,20 +204,20 @@ rel="stylesheet"/>
 
   <a class="read-title" href="/">Jump on the Bandwagon!</a> 
 
+  <div class="author-info">
+    <img class="dynamic-avatar no-center pack-avatar" src="https://mkultra.monster/system/accounts/avatars/111/939/142/189/797/780/original/f0c02ed45a83472f.png" height="100" width="100">
+    <div class="author-text">
+      <p><i class="ph ph-pencil-line"></i> Author: <a id="author-link" href="https://mkultra.monster/@cmdr_nova" target="_blank">𐕣 C M D R ░ NOVA 𐕣</a></p>
+      <p><i class="ph ph-calendar"></i> Published: 05 Oct 2024</p>
+      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
+      <button class="post-buttons" onclick="window.open('https://github.com/sponsors/cmdr-nova', '_blank')">Sponsor on GitHub</button>
+      <button class="post-buttons" onclick="window.open('https://mkultra.monster/@cmdr_nova', '_blank')">Follow on Mastodon</button>
+    </div>
+  </div>
 
-<p class="author center-align"><i class="ph ph-pencil-line"></i> Author: <a href="https://mkultra.monster/@cmdr_nova" target="_blank">𐕣 C M D R ░ NOVA 𐕣</a>
-  <br />
-<i class="ph ph-calendar"></i> Published: 05 Oct 2024
-<br /><br />
-  <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-  <button class="post-buttons" onclick="window.open('https://github.com/sponsors/cmdr-nova', '_blank')">Sponsor on GitHub</button>
-  <button class="post-buttons" onclick="window.open('https://mkultra.monster/@cmdr_nova', '_blank')">Follow on Mastodon</button>
-  <!--
-  <button class="post-buttons" onclick="window.open('https://bsky.app/profile/cmdr-nova.bsky.social', '_blank')">Follow on Bluesky</button>
--->
-</p>
 <br />
 
+<div class="indent">
 <p>I’m sure there are those who know that Bandcamp was recently bought out by a company called <a href="https://blog.bandcamp.com/2023/11/22/songtradr-acquires-bandcamp/" target="_blank">Songtradr</a>, and this came with much dismay, because Bandcamp has been, and has mostly remained, <em>one of the only</em> music platforms where small artists could actually be discovered, heard, and <em>paid</em>. This is incongruent with current trends of the past decade and a half, of the music industry pushing real hard for streaming. Streaming, which pays fractions of a penny of a penny on a dollar, while the rich consume the profits. This has only been exasperated since AI came into the scene, with people absent of talent and inspiration, generating <em>absolute garbage</em> (and this isn’t just a problem in music, it’s everywhere).</p>
 
 <p>I personally haven’t seen, heard, or noticed any detrimental effects of Bandcamp being bought-out, but it’s good to be prepared. To be prepared in an age where Mozilla is <a href="https://www.mozilla.org/en-US/advertising/" target="_blank">suddenly an ad agency</a>, Microsoft is <a href="https://mashable.com/article/microsoft-copilot-recall-cybersecurity-disaster" target="_blank">developing spyware</a>, OpenAI is asking governments for enough <a href="https://arstechnica.com/tech-policy/2024/09/openai-asked-us-to-approve-energy-guzzling-5gw-data-centers-report-says/" target="_blank">electrical power</a> to destroy the entire planet, and Apple is <a href="https://applescoop.org/story/shocking-apple-vision-pro-2-reportedly-cancelled" target="_blank">releasing products</a> people <em>don’t want</em>.</p>
@@ -283,6 +257,7 @@ rel="stylesheet"/>
 <p>Anyway, I <em>can’t wait</em> to see what the heck comes next, holy crap.</p>
 
 
+</div>
 
 <hr>
 <br />
@@ -440,7 +415,7 @@ rel="stylesheet"/>
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -473,14 +448,23 @@ rel="stylesheet"/>
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -492,19 +476,22 @@ rel="stylesheet"/>
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -513,19 +500,9 @@ rel="stylesheet"/>
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,25 +214,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/updates/2024/04/22/initiate-the-protocol-nova-online-now-federating.html">Initiate the Protocol: Nova Online Now Federating!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 22 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>Over the past couple of months, or, since the beginning of the year, I've been tinkering around with moving, completely, toward ActivityPub. From taking my Twitter activity and killing it in its entirety so that I can run my instance at <a href="https://mkultra.monster/about">mkultra</a>, to replacing Instagram with my <a href="https://gram.social/i/web/profile/688161366026192587" target="_blank" rel="noreferrer noopener">Pixelfed</a>, to replacing Youtube with my <a href="https://diode.zone/c/callmenova/videos?languageOneOf=en&amp;s=2" target="_blank" rel="noreferrer noopener">Peertube</a>, and also now, my blog!</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/updates/2024/04/22/initiate-the-protocol-nova-online-now-federating.html">read more</a>
     </div>
-
+      > > > <a href="/updates/2024/04/22/initiate-the-protocol-nova-online-now-federating.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: updates
+        <i class="ph ph-table"></i> tag: updates
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -267,25 +242,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/media/2024/04/19/youve-been-severed.html">You've Been Severed</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 19 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>Sometimes I struggle to think of topics to write about on my blog, and as anyone reading might see, the topics are <em>all over the place</em>. In order to continue that tradition, but to keep it in the same kind of theme I've been rolling with lately: Liminality.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/media/2024/04/19/youve-been-severed.html">read more</a>
     </div>
-
+      > > > <a href="/media/2024/04/19/youve-been-severed.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: media
+        <i class="ph ph-table"></i> tag: media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -294,25 +270,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/second%20life/2024/04/18/new-at-ayasys-the-howler.html">New at AyaSys: The Howler!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 18 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>For years, and years, I've had a secondary store in Second Life. It was first named Horcrux Business Solutions, when its only products were some adboards and an online indicator. Sometime a few years ago, I noticed that, although small, and mostly unknown, it <em>does</em> make sales here and there. So, I decided it should have a new name, and a rebranding.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/second%20life/2024/04/18/new-at-ayasys-the-howler.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2024/04/18/new-at-ayasys-the-howler.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -321,25 +298,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/second%20life/2024/04/17/new-at-revosa-nano-nexus-void-edition.html">New at [REVOSA]: Nano Nexus (Void Edition)</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 17 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>Brand new at [REVOSA] (my Second Life store), and after quite a bit of time, the Nano Nexus line of shorts has received a "void" edition! Like previous shorts, this is fit for legacy, reborn, and maitreya, and is colored in ALL BLACK!</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/second%20life/2024/04/17/new-at-revosa-nano-nexus-void-edition.html">read more</a>
     </div>
-
+      > > > <a href="/second%20life/2024/04/17/new-at-revosa-nano-nexus-void-edition.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: second-life
+        <i class="ph ph-table"></i> tag: second-life
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -348,25 +326,26 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/04/17/the-toll-it-takes-isolation-transness-the-disappointment-that-are-other-people.html">The Toll it Takes: Isolation, Transness, &amp; the Disappointment That Are Other People</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 17 Apr 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <!-- wp:paragraph -->
 <p>I wanted to write a story here, in as much a condensed manner as I can, about things I've grappled with, and had going on years ago, and am dealing with the fallout from, even today. But it's complicated, it's messy, it's not <em>fun</em> or <em>happy</em>; it's not a road I've gone down in a cohesive way in a single blog post.</p>
 <!-- /wp:paragraph -->
 
 
-
-      > > > <a href="/thoughts/2024/04/17/the-toll-it-takes-isolation-transness-the-disappointment-that-are-other-people.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/04/17/the-toll-it-takes-isolation-transness-the-disappointment-that-are-other-people.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -399,6 +378,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -436,7 +420,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -469,14 +453,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -488,19 +481,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -509,19 +505,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

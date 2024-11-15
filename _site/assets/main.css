@@ -235,16 +235,19 @@ footer {
   position: static;
   }
 
-.nova-avie {
-  filter: drop-shadow(3px 3px rgba(181, 255, 7, 0.404));
-}
-
 /** Images */
 img { 
   max-width: 100%;
   vertical-align: middle; 
   height: auto;
   padding-right: 5px;
+}
+
+.nova-avie {
+  border: 5px solid #000;
+  border-radius: 35px;
+  padding: 0px;
+  margin-right: 10px;
 }
 
 /** Figures */
@@ -339,18 +342,6 @@ code {
   vertical-align: text-top; 
 }
 
-.author {
-  color: var(--excerpt-text);
-  background-color: var(--author-bg);
-  padding: 16px;
-  border-style: solid;
-  border-color:var(--author-border-color);
-  border-radius:10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  box-shadow: inset 0 0 15px var(--other-inset);
-}
-
 .excerpt {
   font-size: 1rem;
   font-weight: 100;
@@ -358,12 +349,9 @@ code {
   letter-spacing: 1px;
   word-spacing: -1px;
   background-color: var(--desc-bg-color);
-  border-style: solid;
-  border-color:var(--desc-border-color);
   border-radius:10px;
   color: var(--excerpt-text);
   padding: 16px;
-  text-indent: 20px;
   box-shadow: inset 0 0 15px var(--desc-inset);
   margin-bottom: 15px;
 }
@@ -372,16 +360,6 @@ code {
   font-size: 1rem;
   font-weight: 100;
   text-align: right;
-  line-height: 34px;
-  word-spacing: -1px;
-  background-color: var(--tag-bg-color);
-  border-style: solid;
-  border-color:var(--desc-border-color);
-  border-radius:10px;
-  color: var(--excerpt-text);
-  padding: 5px 10px;
-  text-indent: 15px;
-  box-shadow: inset 0 0 15px var(--other-inset);
 }
 
 .read-title {
@@ -459,6 +437,23 @@ code {
 
 .post-content h2 { 
   font-size: 32px; 
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.author-info img {
+  margin-right: 20px; /* Adjust the spacing as needed */
+}
+
+.author-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 .highligher {
@@ -588,7 +583,7 @@ code {
   color: #666;
 }
 
-/*rainbow colors*/
+/*Rainbow colors*/
 
 #shadowBox {
   background-color: rgb(0, 0, 0);
@@ -669,9 +664,12 @@ code {
   .user-avatar {
     width: 40px;
     height: 40px;
-    border-radius: 50%;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
+    padding: 0px;
   }
 
   .username {
@@ -774,17 +772,6 @@ code {
   
 }
 
-#todo {
-  border-style: solid;
-  border-color: #272727;
-  background-color: #111111d5;
-  border-radius: 10px;
-  max-width: 200px;
-  text-align: left;
-  padding-left: 10px;
-  filter: drop-shadow(5px 5px rgba(166, 255, 0, 0.61));
-}
-
 .home-tab-item-img{
   -webkit-filter: drop-shadow(5px 5px 5px #66ff00);
    filter: drop-shadow(5px 5px 5px #91ff02); 
@@ -859,6 +846,9 @@ code {
   border-style: solid;
   border-color: #272727;
   min-height: 20px;
+  max-width: 230px;
+  margin-left:auto;
+  margin-right:auto;
   filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
 
@@ -867,50 +857,15 @@ code {
   height: 20px;
   appearance: none;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
-  background-color: #111111d5;
+  background-color: #5acf5ad5;
+  accent-color: #000;
   border-radius: 5px;
   filter: drop-shadow(5px 5px rgb(17, 17, 17));
   }
 
-    #volume-slider::-webkit-slider-thumb {
-    /* Change the slider thumb color (for WebKit browsers like Chrome and Safari) */
-    background-color: #c8ff00;
-    }
-    
-    #volume-slider::-moz-range-thumb {
-   /* (for Mozilla browsers like Firefox) */
-    background-color: #c8ff00;
-    }
-
-    #volume-slider::-webkit-slider-thumb,
-    #volume-slider::-moz-range-thumb {
-    background-color: #c8ff00;
-}
-
-.kofi {
-  background-color: rgba(0, 0, 0, 0.295);
-  border-radius: 10px;
-  border-style: solid;
-  font-weight: 600;
-  border-width: 1px;
-  border-color: #111111d5;
-  padding: 10px 10px;
-  filter: drop-shadow(1px 1px rgba(238, 255, 0, 0.808));
-}
-
 .post-line {
   width: 100%;
   border-bottom: #000000;
-}
-
-.c-box {
-  background:#111111d5;
-  webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  overflow:hidden;
-  height: 100%;
-  filter: drop-shadow(5px 5px rgb(17, 17, 17));
 }
 
 /* linux ring css */
@@ -966,17 +921,9 @@ code {
   border-radius: 15px;
   padding: 15px;
   max-width: 200px;
-  filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
   margin: auto;
 }
 
-.garden-button:hover {
-  display: block;
-  background-color: #0099ff;
-  transition; 0.7s;
-  border-radius: 15px;
-  box-shadow: 2px 2px 20px 10px #0ff;
-}
 
 iframe {
   display: block;
@@ -1041,9 +988,15 @@ iframe {
 
 .tumblr-post {
   margin-bottom: 20px; 
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #070707;
+  border-radius: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: left;
+  font-size: 0.7rem;
+  background-color: #181818;
+  color: #FFFFFF;
 }
 
 .tumblr-post p {
@@ -1053,12 +1006,15 @@ iframe {
 .tumblr-post a {
   color: #0099ff;
   text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .tumblr-post img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .tumblr-title {
@@ -1071,7 +1027,7 @@ iframe {
   border-color:#000000;
   border-radius: 5px;
   padding: 5px;
-  max-width: 260px;
+  max-width: 230px;
   margin-bottom: 10px;
   margin: auto;
 }
@@ -1122,7 +1078,7 @@ iframe {
 }
 /* End Mastodon trending section */
 
-/* Bsky RSS Feed */
+/* Bsky RSS Feed
 
 #rss-feed {
   max-width: 260px;
@@ -1171,6 +1127,8 @@ iframe {
   margin-top: 3px;
 }
 
+*/
+
 #second-life-online {
   max-width: 260px;
   padding: 10px;
@@ -1189,8 +1147,8 @@ iframe {
 .post-buttons {
   background-color:#000000;
   color:rgb(217, 255, 0);
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .center-align {
@@ -1221,7 +1179,7 @@ iframe {
   filter: drop-shadow(1px 1px rgba(26, 207, 231, 0.863));
 }
 
-/* MP3 Player */
+/* MP3 Player 
 
 #mp3-player {
   text-align: center;
@@ -1238,5 +1196,11 @@ iframe {
 }
 
 #mp3-player-audio {
-  display: none; /* Hide the default audio controls */
+  display: none;
+}
+
+*/
+
+.indent {
+  text-indent: 20px;
 }

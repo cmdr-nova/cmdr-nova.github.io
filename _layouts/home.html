@@ -40,21 +40,22 @@ creator of everything -->
 
 
   <a class="read-title" href="{{ post.url }}">{{ post.title }}</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> {{ post.author }}<br />
     <i class="ph ph-calendar"></i> {{ post.date |     date_to_string }}<br />
-  </p>
-
-    <div class="excerpt">
-      {{ post.excerpt }}
-
-      > > > <a href="{{ post.url }}">read more</a>
-    </div>
-
-    <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: {{ post.tags }}
     </p>
+
+    <div class="indent">
+      {{ post.excerpt }}
+    </div>
+      > > > <a href="{{ post.url }}">read more</a>
+    
+    <p class="tag-tail">
+        <i class="ph ph-table"></i> tag: {{ post.tags }}
+    </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -91,6 +92,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>

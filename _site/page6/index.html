@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,23 +214,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/programming/2024/10/15/extube-the-youtube-destroyer.html">ExTube: The YouTube Destroyer!</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 15 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>You remember how Google decided that they were going to disable ad-blockers in their browser, and also make ads on YouTube <em>more</em> intrusive, and more frequent? Well, while I understand there is probably a wealth of YouTube video downloaders out there, I made my <em>own</em>. It runs on Python, it’s just one executable file, and it’s freakin’ sweet looking, bro.</p>
 
 
-
-      > > > <a href="/programming/2024/10/15/extube-the-youtube-destroyer.html">read more</a>
     </div>
-
+      > > > <a href="/programming/2024/10/15/extube-the-youtube-destroyer.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: programming
+        <i class="ph ph-table"></i> tag: programming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -265,23 +240,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html">I Can't Recommend Nekoweb, A Neocities Alternative</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 15 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Today I woke up, and, like I do, I checked my “daily report” bot e-mail, and noticed something … <em>strange</em>. According to the Neocities subreddit, the person <em>behind</em> Neocities had written, a year ago, some <a href="https://kyledrake.com/writings/ai" target="_blank">positive thinking</a> about AI (which, I’m not sure can be fully judged a year later, since it’s only gotten extremely bad, <em>this year</em>). In response, some users were suggesting Nekoweb as an alternative for people who don’t want to be potentially affiliated with someone who endorses Sam Altman. And then I stumbled into an issue, and the <em>strangest</em> people I’ve met this week (so far).</p>
 
 
-
-      > > > <a href="/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html">read more</a>
     </div>
-
+      > > > <a href="/tech/2024/10/15/i-can-t-recommend-nekoweb-a-neocities-alternative.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: tech
+        <i class="ph ph-table"></i> tag: tech
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -290,23 +266,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html">31 Years Later, Let's Look At Doom's Lore (The Original)</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 13 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Yesterday, I wrote about Quake and, by extension, Quake 2’s lore. You <em>might</em> think that Doom’s original lore is probably really simple, some kind of, scratches on a paper looking concept, and while it certainly began that way–It also spawned a book. But, one of the reasons I want to visit the lore of the original Dooms, is because the newer Dooms seem … unclear to me, as to where exactly they are in the timeline. Or, if there even <em>is</em> a timeline. Anyway, let’s dive a little deeper into the 1993 classic, DOOM.</p>
 
 
-
-      > > > <a href="/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/10/13/31-years-later-let-s-look-at-doom-s-lore-the-original.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -315,23 +292,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/10/13/28-years-later-let-s-look-at-quake-s-lore.html">28 Years Later, Let's Look At Quake's Lore</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 13 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>So, today, I was playing Quake 1 and 2, and something ocurred to me, that hadn’t ever ocurred to me in the 28 to 30 years that these games have been a thing: I’ve never fully understood <em>what in the hell</em> the story is supposed to <em>be</em>. Obviously, we’re going to skip Quake 3, not because it isn’t good (it’s one of the greatest arena shooters of all time), but because its story is more that of Unreal Tournament. In that, it’s just people from different dimensions fighting in nonstop deathmatch.</p>
 
 
-
-      > > > <a href="/gaming/2024/10/13/28-years-later-let-s-look-at-quake-s-lore.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/10/13/28-years-later-let-s-look-at-quake-s-lore.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -340,23 +318,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/thoughts/2024/10/12/whoops-now-i-m-sick.html">Whoops, Now I'm Sick</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 12 Oct 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>It’s not every week, or even every <em>month</em> that I have off three days in a row from my offline job. It’s a chance to catch up on projects I’ve been slacking on due to lack of energy, a chance to think of new things I want to put out into the world, and a chance to <em>maybe</em> finally continue the manuscript for my next book. But, like <em>usual</em>, for some reason? I’m sick. I felt it coming when I was on my last day of work for the week, and then I got home, passed out, and woke up yesterday feeling week, and coughing. Yay!</p>
 
 
-
-      > > > <a href="/thoughts/2024/10/12/whoops-now-i-m-sick.html">read more</a>
     </div>
-
+      > > > <a href="/thoughts/2024/10/12/whoops-now-i-m-sick.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: thoughts
+        <i class="ph ph-table"></i> tag: thoughts
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -389,6 +368,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -426,7 +410,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -459,14 +443,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -478,19 +471,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -499,19 +495,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 

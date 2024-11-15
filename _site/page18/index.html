@@ -29,6 +29,8 @@
 <script src="/assets/js/mastodonShare.js"></script>
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
 <script src="/assets/js/opennav.js"></script>
+<script src="/assets/js/dynamic-avatar.js"></script>
+<script src="/assets/js/dynamic-author.js"></script>
 <link rel="stylesheet" href="https://furryring.neocities.org/onionring.css">
 <meta name="robots" content="noai, noimageai" />
 <link
@@ -125,49 +127,21 @@ rel="stylesheet"/>
     <tr>
       <td>
         
-        <div align="center">
-          <p id="date">
-          <script>n =  new Date();
-            y = n.getFullYear();
-            m = n.getMonth() + 1;
-            d = n.getDate();
-            document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
-            </p>
-            
-            <p>
-        <span id="swatchClock">@000</span>
-        <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
-        </p>
+    <div align="center">
 
-      <div class="nova-avie">
-        <p>
-          <img src="/img/avatar/nova_2025_3.png" width="90%" height="90%">
-        </p>
-      </div>
-      <!--
-      <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/donate', '_blank')">Subscribe via Liberapay</button>
-        <br />
-    -->
-<div id="todo">
-  <br />
-  Todo list:
-  <ul>
-    <li><s>contribute to wafrn code</s></li>
-    <li>optimize the css on this site</li>
-    <li>keep sending out the resume</li>
-  </ul> 
-</div>
+      <p id="date">
+        <script>n =  new Date();
+          y = n.getFullYear();
+          m = n.getMonth() + 1;
+          d = n.getDate();
+          document.getElementById("date").innerHTML = m + "/" + d + "/" + y;</script>
+          </p>
+          
+      <p>
+      <span id="swatchClock">@000</span>
+      <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
+      </p>
 
-<br />
-<!--
-    <center>
-      <div class="c-box">
-      <iframe src="https://www3.cbox.ws/box/?boxid=3540311&boxtag=zRBWri" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-      <img src="/img/home_button.png">
-    </div>
-      </center>
-<br />
-    -->
 <hr>
 
 <br />
@@ -181,7 +155,7 @@ rel="stylesheet"/>
 
 <div class="reddit-bot">
   <div class="tumblr-title">Reddit-Bot (via Tumblr):</div>
-  <div id="tumblr-feed-container"></div> <!-- Specific container for the Tumblr feed -->
+  <div id="tumblr-feed-container"></div>
   <script src="/assets/js/tumblr.js"></script>
 
   <div id="calendar">
@@ -240,23 +214,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/gaming/2024/08/01/mmos-in-the-era-of-subscription-everything.html">MMOs in the Era of Subscription Everything</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 01 Aug 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p><img src="/img/posts/mmos/wow.png" alt="image of a woman with a golden crown atop red hair, white skin, red eyes, red lipstick, looking down upon the viewer" /></p>
 
 
-
-      > > > <a href="/gaming/2024/08/01/mmos-in-the-era-of-subscription-everything.html">read more</a>
     </div>
-
+      > > > <a href="/gaming/2024/08/01/mmos-in-the-era-of-subscription-everything.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: gaming
+        <i class="ph ph-table"></i> tag: gaming
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -265,23 +240,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html">Bluesky Part 3: All Your Data Are Belong to Us</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 31 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p><img src="/img/posts/buffer/bsky.png" alt="the Bluesky logo with white text on a blue background and a butterfly, also in white" /></p>
 
 
-
-      > > > <a href="/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/07/31/bluesky-part-3-all-your-data-are-belong-to-us.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -290,23 +266,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/07/30/threads-project-2025.html">Threads & Project 2025</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 30 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p><img src="/img/posts/2025/threads.webp" alt="images of the Threads logo on a blue, purple, red and orage gradient" /></p>
 
 
-
-      > > > <a href="/social%20media/2024/07/30/threads-project-2025.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/07/30/threads-project-2025.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -315,23 +292,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/updates/2024/07/29/merge-complete.html">Merge Complete</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 29 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p>Today was a … day, at work. I mean, it’s always a <em>day</em> of sorts, but work is always, you know, <em>work</em>. But I got out, I drove, I arrived, I shoved food into my gullet, and then I sat down to reformat the front matter of over one hundred different old posts from my numerous blogs I’ve had over the years (some of which were abandoned to time for a very long … time).</p>
 
 
-
-      > > > <a href="/updates/2024/07/29/merge-complete.html">read more</a>
     </div>
-
+      > > > <a href="/updates/2024/07/29/merge-complete.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: updates
+        <i class="ph ph-table"></i> tag: updates
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -340,23 +318,24 @@ creator of everything -->
 
 
   <a class="read-title" href="/social%20media/2024/07/28/the-fediverse.html">The Fediverse, For Those Who've Never Used It</a>
-
-  <p class="author">
+  <div class="excerpt">
+    <p>
     <i class="ph ph-pencil-line"></i> 𐕣 C M D R ░ NOVA 𐕣<br />
     <i class="ph ph-calendar"></i> 28 Jul 2024<br />
-  </p>
+    </p>
 
-    <div class="excerpt">
+    <div class="indent">
       <p><img src="/img/posts/fediverse/fediverse.png" alt="an illustration of what the fediverse is, connected website and different communities" /></p>
 
 
-
-      > > > <a href="/social%20media/2024/07/28/the-fediverse.html">read more</a>
     </div>
-
+      > > > <a href="/social%20media/2024/07/28/the-fediverse.html">read more</a>
+    
     <p class="tag-tail">
-      <i class="ph ph-table"></i> tag: social-media
+        <i class="ph ph-table"></i> tag: social-media
     </p>
+    
+    </div>
 
     <hr class="post-line">
     <br />
@@ -389,6 +368,11 @@ creator of everything -->
   <p align="center">
     <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <img class="no-center" src="/img/gifs/geocities.gif"> <img class="no-center" src="/img/gifs/imac.gif"> <img class="no-center" src="/img/gifs/Y2K.png"> <a href="https://neocities.org/" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a> <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
   </p>
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
   <p align="center">
     <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png">
   </p>
@@ -426,7 +410,7 @@ creator of everything -->
     <tr>
       <td>
       
-        soma.fm:
+        <div class="tumblr-title center-align">soma.fm:</div>
         <div id="song">
           <center>
           <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
@@ -459,14 +443,23 @@ creator of everything -->
       <img src="/img/3.gif" />
     </p>
 
+<br />
+<div id="mastodon-trending"></div>
+<script src="/assets/js/mastodon-trending.js"></script>
+<br />
+<!-- Second Life Online Users Start -->
+<div id="second-life-online"></div>
+<script src="/assets/js/second-life.js"></script>
+<!-- Second Life Online Users End -->
 
-          <br />
+<br />
 
-    webrings:
-    <div class="center">
-    <p align="center">
-      <a href="https://xn--sr8hvo.ws/previous">←</a>
-      🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
+<!-- Webring Section -->
+
+<div class="center">
+<p align="center">
+  <a href="https://xn--sr8hvo.ws/previous">←</a>
+  🕸 <a href="https://xn--sr8hvo.ws">IndieWeb</a> 💍
 <a href="https://xn--sr8hvo.ws/next">→</a>
 </p>
 
@@ -478,19 +471,22 @@ creator of everything -->
 </p>
 
 <p align="center">
-  <a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
-  <a href="https://fediring.net/">Fediring</a>
-  <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
+<a href="https://fediring.net/previous?host=nova.mkultra.monster">←</a>
+<a href="https://fediring.net/">Fediring</a>
+<a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
+<!--
 <div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
 <p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
 <div style="display: flex">
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-    <a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
+<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
 </div>
 </div>
+-->
+
 <br />
 
 <div id='linuxring'>
@@ -499,19 +495,9 @@ creator of everything -->
 </div>
 <br />
 
-<p align="center">
-<object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
-</p> 
 </div>
 
-<br />
-<div id="mastodon-trending"></div>
-<script src="/assets/js/mastodon-trending.js"></script>
-<br />
-<!-- Second Life Online Users Start -->
-<div id="second-life-online"></div>
-<script src="/assets/js/second-life.js"></script>
-<!-- Second Life Online Users End -->
+<!-- End webring Section -->
 
 
 <!-- RSS Feed Start 
