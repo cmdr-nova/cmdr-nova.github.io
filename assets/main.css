@@ -1163,10 +1163,11 @@ iframe {
 }
 
 .post-buttons {
-  background-color:#000000;
-  color:rgb(217, 255, 0);
-  margin-top: 1px;
-  margin-bottom: 1px;
+  background-color:#000000 !important;
+  color:rgb(217, 255, 0) !important;
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+  cursor: pointer;
 }
 
 .center-align {
@@ -1221,4 +1222,8 @@ iframe {
 
 .indent {
   text-indent: 20px;
+}
+
+.mastodon-share {
+  font-size: 13pt;
 }
