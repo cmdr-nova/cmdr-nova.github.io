@@ -879,12 +879,11 @@ code {
 }
 
 #linuxring table {
-  background-color: #11111173;
   margin: 0 auto;
 }
 
 #linuxring table tr td {
-  padding: 10px;
+  padding: 5px;
 }
 
 #linuxring .webring-prev {
