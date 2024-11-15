@@ -141,6 +141,25 @@ rel="stylesheet"/>
       <script defer src="https://melonking.net/scripts/swatchTime.js"></script>
       </p>
 
+      <div class="tumblr-title center-align">soma.fm:</div>
+      <div id="song">
+        <center>
+        <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
+        </center>
+        </div>
+        <br />
+        <div id="player">
+        <center>
+        <a id="player-stop" href="javascript:void(0)"><i class="ph ph-stop"></i></a>
+        <a id="player-play" href="javascript:void(0)"><i class="ph ph-play"></i></a>
+        <br />
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+        <audio id="internet-radio" src="https://ice2.somafm.com/deepspaceone-128-mp3"></audio>
+        <script src='/assets/js/stream.js'></script>
+        <script src='/assets/js/radio.js'></script>
+      </center>
+      </div>
+
 <hr>
 
 <br />
@@ -277,28 +296,6 @@ rel="stylesheet"/>
 
     <tr>
       <td>
-      
-        <div class="tumblr-title center-align">soma.fm:</div>
-        <div id="song">
-          <center>
-          <a id="player-text" href="https://somafm.com/deepspaceone/index.html" target="_blank"></a>
-          </center>
-          </div>
-          <br />
-          <div id="player">
-          <center>
-          <a id="player-stop" href="javascript:void(0)"><i class="ph ph-stop"></i></a>
-          <a id="player-play" href="javascript:void(0)"><i class="ph ph-play"></i></a>
-          <br />
-          <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
-          <audio id="internet-radio" src="https://ice2.somafm.com/deepspaceone-128-mp3"></audio>
-          <script src='/assets/js/stream.js'></script>
-          <script src='/assets/js/radio.js'></script>
-        </center>
-        </div>
-      
-  <br />
-
       <!-- Mastodon Feed Start-->
       <div id="mastodon"></div>
 
@@ -344,17 +341,6 @@ rel="stylesheet"/>
 <a href="https://fediring.net/next?host=nova.mkultra.monster">→</a>
 </p>
 
-<!--
-<div style="width: fit-content; border: 2px outset; text-align:center" class="furry">
-<p style="margin: 0; padding: 0.1em; border: 2px inset">This site is a member of Fur Ring.</p>
-<div style="display: flex">
-<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/previous?via=https://nova.mkultra.monster">Previous Site</a>
-<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/random?via=https://nova.mkultra.monster">Random Site</a>
-<a style="flex: 1; margin: 0; padding: 0.1em; border: 2px inset" href="https://webri.ng/webring/furring/next?via=https://nova.mkultra.monster">Next Site</a>
-</div>
-</div>
--->
-
 <div id='linuxring'>
 <script type="text/javascript" src="https://teethinvitro.neocities.org/webring/linuxring/script/onionring-variables.js"></script>
 <script type="text/javascript" src="https://teethinvitro.neocities.org/webring/linuxring/script/onionring-widget.js"></script>
@@ -364,12 +350,6 @@ rel="stylesheet"/>
 </div>
 
 <!-- End webring Section -->
-
-
-<!-- RSS Feed Start 
-<div id="rss-feed"></div>
-<script src="/assets/js/rss-feed.js"></script>
--->
 
     </div>
 
