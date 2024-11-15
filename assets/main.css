@@ -7,7 +7,7 @@
   --desc-inset: #cfb22d;
   --desc-inset: #000000;
   --desc-border-color: #b3fd0665;
-  --feed-text: #000000;
+  --feed-text: #53d8f0;
   --excerpt-text: #ffffff;
   --author-bg: #13131377;
   --author-border-color: #b3fd0665;
@@ -22,7 +22,7 @@
   --post-link-text: #b5f81ad3;
   --waifu-bg: #131313;
   --waifu-txt: #00fc69;
-  --site-bg: #1C1C1C;
+  --site-bg: #0e0e0e;
   --main-border: #131313;
   --masto-avies: #c8ff00;
   --masto-comment-bg: #181818c9;
@@ -122,9 +122,9 @@ body {
   background-color: var(--site-bg);
   -webkit-text-size-adjust: 100%;
   height: 100%;
-  background-image: url("/img/bgstars2.gif");
+  /* background-image: url("/img/bgstars2.gif");
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -142,11 +142,11 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 #sidebar {
   border-style: none;
-  border-width: 3px;
+  border-width: 1px;
   border-color: white;
   min-width: 260px;
   max-width: 260px;
-  padding: 20px;
+  padding: 1px;
   letter-spacing: 2px;
   word-spacing: 3px;
   position: static;
@@ -154,11 +154,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 }
 
 #main {
-  background-image: linear-gradient(to bottom, var(--grad-1), var(--grad-1), var(--grad-2), var(--grad-3));
-  border-radius: 20px;
+  /* background-image: linear-gradient(to bottom, var(--grad-1), var(--grad-1), var(--grad-2), var(--grad-3));
   border-style: solid; 
   border-width: .05em;
-  border-color: var(--main-border);
+  border-color: var(--main-border); */
   margin-top: 2px;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -169,8 +168,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   max-width: 100%;
   margin-right: 0 auto; 
   margin-left: 0 auto; 
-  filter: drop-shadow(5px 5px rgb(17, 17, 17));
-  box-shadow: inset 0 0 10px var(--main-inset);
+  /* filter: drop-shadow(5px 5px rgb(17, 17, 17));
+  box-shadow: inset 0 0 10px var(--main-inset); */
   order: 2;
 }
 
@@ -182,8 +181,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 @media only screen and (max-width: 480px) {
   #main {
-    background-color: #232425;
-    border-radius: 20px;
+    /* background-color: #232425; */
     display: flex;
     flex-direction: column;
     margin-right: 0;
@@ -226,10 +224,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 footer {
   border-style: none;
-  border-width: 3px;
+  border-width: 1px;
   min-width: 260px;
   max-width: 260px;
-  padding: 20px; 
+  padding: 1px; 
   letter-spacing: 2px;
   word-spacing: 3px;
   position: static;
@@ -275,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Links */
 a { 
-  color: #c8ff00; 
+  color: #00d9ff; 
   text-decoration: none; 
 }
 
@@ -314,7 +312,6 @@ blockquote > :last-child {
 pre { 
   font-size: 15px; 
   border: 1px solid #e8e8e8; 
-  border-radius: 3px;
   padding: 8px 12px; 
   overflow-x: auto;
 }
@@ -348,11 +345,10 @@ code {
   text-align: left;
   letter-spacing: 1px;
   word-spacing: -1px;
-  background-color: var(--desc-bg-color);
-  border-radius:10px;
+  /* background-color: var(--desc-bg-color); */
   color: var(--excerpt-text);
   padding: 16px;
-  box-shadow: inset 0 0 15px var(--desc-inset);
+  /* box-shadow: inset 0 0 15px var(--desc-inset); */
   margin-bottom: 15px;
 }
 
@@ -371,9 +367,8 @@ code {
   text-align: center;
   line-height: 34px;
   word-spacing: -1px;
-  border-style: solid;
-  border-radius:10px;
-  box-shadow: inset 0 0 15px var(--other-inset);
+  border-style: none;
+  /* box-shadow: inset 0 0 15px var(--other-inset); */
   margin-top: 5px;
   color: var(--read-text);
 }
@@ -384,7 +379,7 @@ code {
 }
 
 .read-title:hover {
-  background-color: var(--button-bgcolor-hover);
+  /* background-color: var(--button-bgcolor-hover); */
   transition: 0.7s ease-in-out;
   color: var(--feed-text);
 }
@@ -504,7 +499,6 @@ code {
   font-weight: 400;
   border-style: solid;
   border-color: var(--btn-border);
-  border-radius: 10px;
   color: var(--button-txt);
   cursor: pointer;
   padding: 10px 10px;
@@ -551,7 +545,6 @@ code {
   width: (100% * 60);
   margin-bottom: 15px;
   background-color: var(--masto-comment-bg);
-  border-radius: 10px;
   padding: 20px 20px;
   filter: drop-shadow(1px 1px rgba(255, 238, 1, 0.644));
   box-shadow: inset 0 0 15px var(--other-inset);
@@ -562,7 +555,6 @@ code {
   font-size: 0.8em; 
   color: #20add8;
   background-color: var(--masto-content-bg);
-  border-radius: 10px; 
   padding: 5px 10px; 
   margin-top: 5px; 
   margin-bottom: 5px; 
@@ -574,7 +566,6 @@ code {
   font-weight: 800;
   filter: drop-shadow(1px 1px rgba(255, 238, 1, 0.644));
   background-color: var(--masto-content-bg);
-  border-radius: 10px;
   padding: 15px 15px;
 }
 
@@ -582,7 +573,6 @@ code {
   font-size: 0.8em;
   margin: 0;
   background-color: var(--masto-content-bg);
-  border-radius: 10px;
   width: auto; 
   padding: 5px 10px; 
   margin-top: 5px;
@@ -656,10 +646,9 @@ code {
   scrollbar-width: none;  /* Firefox */
   right: 0;
   border: 2px solid rgba(43, 43, 43, 0.404);
-  border-radius: 10px;
   min-width: 260px;
   max-width: 260px;
-  filter: drop-shadow(5px 5px rgba(255, 238, 1, 0.644));
+  /* filter: drop-shadow(5px 5px rgba(255, 238, 1, 0.644)); */
 }
 .mastodon::-webkit-scrollbar {
   display: none; /* All other browsers */
@@ -854,12 +843,10 @@ code {
 }
 
 #player {
-  border-radius: 10px;
   padding: 2px;
 }
 
 #song {
-  border-radius: 10px;
   background-color: #111111d5;
   border-style: solid;
   border-color: #272727;
@@ -877,7 +864,6 @@ code {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
   background-color: #5acf5ad5;
   accent-color: #000;
-  border-radius: 5px;
   filter: drop-shadow(5px 5px rgb(17, 17, 17));
   }
 
@@ -900,8 +886,6 @@ code {
 #linuxring table {
   background-color: #11111173;
   margin: 0 auto;
-  filter: drop-shadow(5px 5px rgb(217, 255, 0));
-  border-radius: 10px;
 }
 
 #linuxring table tr td {
@@ -933,10 +917,9 @@ code {
 .garden-button a {
   display: block;
   font-size: 26px;
-  background-color:#c8ff007c;
+  background-color:#00ccff8c;
   border-style: solid;
   border-color:#000000;
-  border-radius: 15px;
   padding: 15px;
   max-width: 200px;
   margin: auto;
@@ -1007,7 +990,6 @@ iframe {
 .tumblr-post {
   margin-bottom: 20px; 
   border: 1px solid #070707;
-  border-radius: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -1043,7 +1025,6 @@ iframe {
   background-color:#00ffffab;
   border-style: solid;
   border-color:#000000;
-  border-radius: 5px;
   padding: 5px;
   max-width: 230px;
   margin-bottom: 10px;
@@ -1061,12 +1042,11 @@ iframe {
   box-sizing: border-box;
   overflow: hidden;
   border-style: solid;
-  border-radius: 10px;
-  border-color:rgb(217, 255, 0);
+  border-color:rgba(13, 192, 223, 0.562);
   margin: 0 auto;
   justify-content: center;
-  background-color:rgba(0, 255, 191, 0.226);
-  filter: drop-shadow(1px 1px rgba(152, 231, 26, 0.863));
+  background-color:rgba(27, 27, 27, 0.226);
+ /* filter: drop-shadow(1px 1px rgba(152, 231, 26, 0.863)); */
   box-shadow: inset 0 0 15px var(--other-inset);
 }
 
@@ -1096,68 +1076,16 @@ iframe {
 }
 /* End Mastodon trending section */
 
-/* Bsky RSS Feed
-
-#rss-feed {
-  max-width: 260px;
-  padding: 10px;
-  box-sizing: border-box;
-  overflow: hidden;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: rgb(217, 255, 0);
-  margin: 0 auto;
-  margin-top: 15px;
-  background-color: rgba(0, 255, 191, 0.226);
-  filter: drop-shadow(1px 1px rgba(152, 231, 26, 0.863));
-  box-shadow: inset 0 0 15px var(--other-inset);
-}
-
-#rss-feed ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#rss-feed li {
-  margin-bottom: 8px; 
-  padding-bottom: 4px; 
-  border-bottom: 1px solid #ccc;
-}
-
-#rss-feed li:last-child {
-  border-bottom: none;
-}
-
-#rss-feed strong {
-  display: block;
-  margin-bottom: 1px; 
-}
-
-#rss-feed small.rss-date {
-  display: block;
-  margin-top: 1px; 
-  margin-bottom: 1px; 
-}
-
-#rss-feed a {
-  display: block;
-  margin-top: 3px;
-}
-
-*/
-
 #second-life-online {
   max-width: 260px;
   padding: 10px;
   box-sizing: border-box;
   overflow: hidden;
   border-style: solid;
-  border-radius: 10px;
-  border-color:rgb(217, 255, 0);
+  border-color:rgba(0, 195, 255, 0.678);
   margin: 0 auto;
   justify-content: center;
-  background-color:rgba(0, 255, 191, 0.226);
+  background-color:rgba(20, 20, 20, 0.226);
   filter: drop-shadow(1px 1px rgba(26, 207, 231, 0.863));
   box-shadow: inset 0 0 15px var(--desc-inset);
 }
@@ -1187,7 +1115,6 @@ iframe {
   background-color: var(--desc-bg-color);
   box-shadow: inset 0 0 15px var(--desc-inset);
   border: 5px solid #000;
-  border-radius: 15px;
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 15px;
