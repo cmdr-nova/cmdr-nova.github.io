@@ -3,7 +3,7 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-11-16T17:32:43-05:00</updated>
+  <updated>2024-11-16T17:33:06-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
@@ -15,9 +15,7 @@
     <updated>2024-11-16T15:19:00-05:00</updated>
     <id>http://localhost:4000/scripting/2024/11/16/poasting-to-mastodon-via-jekyll.html</id>
     <content type="html"><![CDATA[
-      Edit: I’ve been informed that you are actually able to execute Python in a Github workflow bash. Queue me, tearing out all my hair. Nevertheless, this repo will remain unchanged until/if I decide to utilize this approach (which would be limited by Github’s monthly seconds, anyway).
-
-So, you may be asking yourself, “Hey, didn’t you already post the code to this directly on your blog?” And the answer to that question would be, yes. Yes, I posted an unfinished version of it. But now, if the universe looks kindly upon me, it is done.
+      So, you may be asking yourself, “Hey, didn’t you already post the code to this directly on your blog?” And the answer to that question would be, yes. Yes, I posted an unfinished version of it. But now, if the universe looks kindly upon me, it is done.
 
 Welcome to the POAST!
 
@@ -34,6 +32,8 @@ I consider this project one of my bigger achievements, because it took me a long
 But this is one of the things I’ve been wanting to do, ever since I ditched Wordpress and moved to Jekyll. Because, the way I see it, if you can think of it, you can build it (with Python? maybe … Rust?).
 
 Anyway, I hope this is useful for someone other than me, and, as a side note, if you scroll down on this website and click the DOOM Guy face, you can play a little DOOM.
+
+Edit: I’ve been informed that you are actually able to execute Python in a Github workflow bash. Queue me, tearing out all my hair. Nevertheless, this repo will remain unchanged until/if I decide to utilize this approach (which would be limited by Github’s monthly seconds, anyway).
 
     ]]></content>
   </entry>

@@ -12,8 +12,6 @@ comments:
     id: 113494577222900565
 ---
 
-Edit: I've been informed that you *are* actually able to execute Python in a Github workflow bash. Queue me, tearing out all my hair. Nevertheless, this repo will remain unchanged until/if I decide to utilize this approach (which would be limited by Github's monthly seconds, anyway).
-
 So, you may be asking yourself, "Hey, didn't you already post the code to this directly on your blog?" And the answer to that question would be, yes. Yes, I posted an *unfinished* version of it. But now, if the universe looks kindly upon me, *it is done*.
 
 Welcome to the ***POAST***!
@@ -31,3 +29,5 @@ I consider this project one of my bigger achievements, because it took me a *lon
 But this is one of the things I've been wanting to do, ever since I ditched Wordpress and moved to Jekyll. Because, the way I see it, if you can think of it, *you can build it* (with Python? maybe ... Rust?).
 
 Anyway, I hope this is useful for someone other than me, and, as a side note, if you scroll down on this website and click the DOOM Guy face, you can play a little DOOM.
+
+Edit: I've been informed that you *are* actually able to execute Python in a Github workflow bash. Queue me, tearing out all my hair. Nevertheless, this repo will remain unchanged until/if I decide to utilize this approach (which would be limited by Github's monthly seconds, anyway).
