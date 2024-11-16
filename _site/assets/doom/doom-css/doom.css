@@ -1,0 +1,34 @@
+body {
+    background-color: #000;
+    background-image: url('/img/doom/classic.jpg');
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #container {
+    text-align: center;
+  }
+  
+  #canvas {
+    border: 1px solid #fff;
+  }
+  
+  #fullscreenBtn, #closeTabBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+    border: solid;
+    border-color: #fff;
+    cursor: pointer;
+  }
+  
+  #fullscreenBtn:hover, #closeTabBtn:hover {
+    background-color: #666;
+  }
