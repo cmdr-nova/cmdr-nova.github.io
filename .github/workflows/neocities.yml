@@ -51,11 +51,10 @@ jobs:
     - name: Check for new posts
       id: check_new_posts
       run: |
-          new_post=false
-          post_url=""
           current_date=$(TZ=America/New_York date +%Y-%m-%d)
           base_url="https://nova.mkultra.monster"
           echo "Current date: $current_date"
+          new_posts=()
           for file in $(git log --diff-filter=A --name-only HEAD); do
             echo "Checking file: $file"
             if [[ $file == _posts/* ]]; then
@@ -71,10 +70,9 @@ jobs:
               echo "Post category: $post_category"
               echo "Current date: $current_date"
               if [[ $post_date == $current_date ]]; then
-                new_post=true
                 post_url="$base_url/$post_category/$post_year/$post_month/$post_day/$post_title.html"
+                new_posts+=("$post_url")
                 echo "New post detected: $post_url"
-                break
               else
                 echo "Post date does not match current date"
               fi
@@ -82,9 +80,8 @@ jobs:
               echo "File is not in _posts directory"
             fi
           done
-          echo "new_post=$new_post" >> $GITHUB_ENV
-          echo "post_url=$post_url" >> $GITHUB_ENV
-          echo "Post URL: $post_url"
+          echo "new_posts=${new_posts[@]}" >> $GITHUB_ENV
+          echo "New posts: ${new_posts[@]}"
 
     - name: Start SSH agent
       uses: webfactory/ssh-agent@v0.5.3
@@ -92,10 +89,12 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Post to Mastodon
-      if: env.new_post == 'true'
+      if: env.new_posts != ''
       env:
         MASTODON_API_KEY: ${{ secrets.MASTODON_API_KEY }}
-        POST_URL: ${{ env.post_url }}
+        NEW_POSTS: ${{ env.new_posts }}
       run: |
-        echo "Posting to Mastodon: ${POST_URL}"
-        ssh -o StrictHostKeyChecking=no root@67.205.188.225 "source ~/masto-poast/masto-poast-env/bin/activate && MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 ~/masto-poast/poast.py '${POST_URL}'"
+        for post_url in $NEW_POSTS; do
+          echo "Posting to Mastodon: $post_url"
+          ssh -o StrictHostKeyChecking=no root@67.205.188.225 "source ~/masto-poast/masto-poast-env/bin/activate && MASTODON_API_KEY=${{ secrets.MASTODON_API_KEY }} python3 ~/masto-poast/poast.py '$post_url'"
+        done
