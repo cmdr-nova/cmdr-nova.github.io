@@ -980,6 +980,7 @@ code {
 .player-text {
   display: inline-block;
   width: auto;
+  font-size: 0.8em;
   white-space: nowrap;
   overflow: hidden;
   position: absolute;
