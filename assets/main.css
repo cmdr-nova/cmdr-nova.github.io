@@ -124,6 +124,7 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   background-color: var(--site-bg);
+  transition: background-color 0.3s, color 0.3s;
   -webkit-text-size-adjust: 100%;
   height: 100%;
   padding-right: 5px;
@@ -887,6 +888,10 @@ code {
   -ms-animation: 1s blink step-end infinite;
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
+}
+
+.light-mode .blinking-cursor {
+  background-color: #00000098;
 }
 
 @keyframes "blink" {
