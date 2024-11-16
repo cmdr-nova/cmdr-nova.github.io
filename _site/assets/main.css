@@ -713,8 +713,12 @@ code {
 
 .ph {
   size: 35.0;
-  color: #8ff0a4;
+  color: #ffffff;
   margin-left: 2px;
+}
+
+.light-mode .ph {
+  color: #000;
 }
 
 /* Mastodon feed section */
@@ -824,10 +828,6 @@ code {
   overflow-x: hidden;
   transition: 0.5s;
   box-shadow: inset 0 0 15px rgb(0, 0, 0);
-  color: #000;
-}
-
-.light-mode .ph {
   color: #000;
 }
 
