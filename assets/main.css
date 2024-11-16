@@ -1339,3 +1339,11 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+
+.light-mode #melonland-surf-club {
+  filter: drop-shadow(1px 1px rgba(26, 26, 26, 0.753));
+}
+
+li {
+  list-style-type: disc;
+}
