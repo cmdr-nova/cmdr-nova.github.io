@@ -984,6 +984,7 @@ code {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.733);
   background-color: #5acf5ad5;
   accent-color: #000;
+  margin-bottom: 15px;
   }
 
 .light-mode #volume-slider {

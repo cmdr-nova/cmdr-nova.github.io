@@ -3,7 +3,7 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-11-15T22:29:56-05:00</updated>
+  <updated>2024-11-16T05:13:12-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
@@ -31,7 +31,7 @@ If giving the illusion that your website is federated with ActivityPub is someth
   </entry>
   
   <entry>
-    <title>Bluesky Reaches 15 Millions, Threads Gains 15 Million More</title>
+    <title>Bluesky Reaches 15 Million, Threads Gains 15 Million More</title>
     <link href="http://localhost:4000/social%20media/2024/11/14/bluesky-reaches-15-millions-threads-gains-15-million-more.html"/>
     <updated>2024-11-14T19:22:00-05:00</updated>
     <id>http://localhost:4000/social%20media/2024/11/14/bluesky-reaches-15-millions-threads-gains-15-million-more.html</id>
