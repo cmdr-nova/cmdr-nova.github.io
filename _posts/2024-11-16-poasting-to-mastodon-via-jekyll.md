@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Scripting"
 tag: scripting
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113494577222900565
 ---
 So, you may be asking yourself, "Hey, didn't you already post the code to this directly on your blog?" And the answer to that question would be, yes. Yes, I posted an *unfinished* version of it. But now, if the universe looks kindly upon me, *it is done*.
 
