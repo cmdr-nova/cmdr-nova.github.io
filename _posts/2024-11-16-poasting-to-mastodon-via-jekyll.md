@@ -11,6 +11,9 @@ comments:
     username: cmdr_nova
     id: 113494577222900565
 ---
+
+Edit: I've been informed that you *are* actually able to execute Python in a Github workflow bash. Queue me, tearing out all my hair. Nevertheless, this repo will remain unchanged until/if I decide to utilize this approach (which would be limited by Github's monthly seconds, anyway).
+
 So, you may be asking yourself, "Hey, didn't you already post the code to this directly on your blog?" And the answer to that question would be, yes. Yes, I posted an *unfinished* version of it. But now, if the universe looks kindly upon me, *it is done*.
 
 Welcome to the ***POAST***!

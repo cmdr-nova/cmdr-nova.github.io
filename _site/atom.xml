@@ -3,7 +3,7 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-11-16T17:28:49-05:00</updated>
+  <updated>2024-11-16T17:32:43-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
@@ -15,7 +15,9 @@
     <updated>2024-11-16T15:19:00-05:00</updated>
     <id>http://localhost:4000/scripting/2024/11/16/poasting-to-mastodon-via-jekyll.html</id>
     <content type="html"><![CDATA[
-      So, you may be asking yourself, “Hey, didn’t you already post the code to this directly on your blog?” And the answer to that question would be, yes. Yes, I posted an unfinished version of it. But now, if the universe looks kindly upon me, it is done.
+      Edit: I’ve been informed that you are actually able to execute Python in a Github workflow bash. Queue me, tearing out all my hair. Nevertheless, this repo will remain unchanged until/if I decide to utilize this approach (which would be limited by Github’s monthly seconds, anyway).
+
+So, you may be asking yourself, “Hey, didn’t you already post the code to this directly on your blog?” And the answer to that question would be, yes. Yes, I posted an unfinished version of it. But now, if the universe looks kindly upon me, it is done.
 
 Welcome to the POAST!
 
