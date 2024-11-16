@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bluesky Reaches 15 Millions, Threads Gains 15 Million More"
+title: "Bluesky Reaches 15 Million, Threads Gains 15 Million More"
 date: 2024-11-14 19:22
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
