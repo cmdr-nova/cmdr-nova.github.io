@@ -1371,3 +1371,21 @@ li {
 .symbols {
   margin-top: 10px;
 }
+
+/* PyGen section */
+
+.pygen-section {
+  margin-bottom: 20px;
+}
+
+.pygen-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.pygen-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
