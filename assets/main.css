@@ -1412,5 +1412,50 @@ li {
 }
 
 .site-desc {
+  font-size: .9rem;
+}
+
+/* Github Repos section */
+
+.repo-title {
+  text-align: center;
+  display: block;
   font-size: .8rem;
+  font-weight: 700;
+  color: #000000;
+  background-color:#00ffffab;
+  border-style: solid;
+  border-color:#000000;
+  padding: 5px;
+  max-width: 230px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.light-mode .repo-title {
+  background-color:#dddddd8c;
+  color: #000;
+}
+
+.repos {
+  margin-bottom: 20px;
+}
+
+.repos ul {
+  list-style-type: disc;
+  padding: 0;
+}
+
+.repos li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  word-break: break-all;
+}
+
+.repos a {
+  text-decoration: none;
+}
+
+.repos a:hover {
+  text-decoration: underline;
 }

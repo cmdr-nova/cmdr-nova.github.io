@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 11/16/2024
+<ul>
+<li>- added DOOM to the website</li>
+</ul>
+
 # # # 11/15/2024
 <ul>
 <li>- did a major overhaul of all of the CSS in order to remove rounded edges and bring all content closer together</li>
