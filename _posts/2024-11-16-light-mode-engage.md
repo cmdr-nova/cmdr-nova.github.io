@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Web Dev"
 tag: webdev
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113492614257520474
 ---
 I've had a little bit of time off of work now, and aside from the script I made that updates dynamically with your name and avatar image on Mastodon, I decided it was time for my website to have a light mode toggle. And ... now it does!
 
