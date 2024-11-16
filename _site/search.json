@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "Poasting to Mastodon Via Jekyll",
+      "category" : "",
+      "tags"     : "scripting",
+      "url"      : "/scripting/2024/11/16/poasting-to-mastodon-via-jekyll.html",
+      "date"     : "2024-11-16 15:19:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Test Post",
+      "category" : "",
+      "tags"     : "webdev",
+      "url"      : "/web%20dev/2024/11/16/test-post.html",
+      "date"     : "2024-11-16 14:39:00 -0500"
+    } ,
+  
+    {
       "title"    : "Light Mode, Engage!",
       "category" : "",
       "tags"     : "webdev",
