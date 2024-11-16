@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Doom</title>
+  <script src="https://cdn.jsdelivr.net/gh/dreamlayers/em-dosbox@latest/dosbox.js"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #000;
+    }
+    #dosbox-container {
+      width: 640px;
+      height: 480px;
+    }
+  </style>
+</head>
+<body>
+  <div id="dosbox-container"></div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      DOSBox.run({
+        id: 'dosbox-container',
+        onload: function (dosbox) {
+          dosbox.run('doom.exe');
+        },
+        onrun: function (dosbox, app) {
+          console.log('Running ' + app);
+        },
+        onerror: function (dosbox, err) {
+          console.error('Error: ' + err);
+        },
+        onexit: function (dosbox) {
+          console.log('DOSBox exited');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
