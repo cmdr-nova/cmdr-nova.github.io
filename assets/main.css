@@ -141,7 +141,7 @@ body {
   padding-left: 5px;
 }
 
-.light-mode{
+.light-mode {
   background-color: #d1d1d1;
   color: #000;
   scrollbar-color: #000 #d1d1d1;
@@ -255,7 +255,6 @@ img {
   max-width: 100%;
   vertical-align: middle; 
   height: auto;
-  padding-right: 5px;
 }
 
 .nova-avie {
@@ -1035,12 +1034,6 @@ code {
   font-size: 11pt;
 }
 
-/* furry ring */
-
-.furry {
-  filter: drop-shadow(5px 5px rgba(0, 255, 191, 0.226));
-}
-
 .garden-button a {
   display: block;
   font-size: 26px;
@@ -1388,4 +1381,36 @@ li {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* Hide the desktop-only content on mobile devices */
+.desktop-only {
+  display: none;
+}
+
+/* Show the desktop-only content on desktop devices */
+@media (min-width: 481px) {
+  .desktop-only {
+    display: block;
+  }
+}
+
+/* Hide the mobile toggle on desktop */
+.mobile-only {
+  display: none;
+}
+
+/* Show the mobile toggle on mobile devices */
+@media (max-width: 480px) {
+  .mobile-only {
+    display: block;
+  }
+
+  #sidebar .switch {
+    display: none;
+  }
+}
+
+.site-desc {
+  font-size: .8rem;
 }

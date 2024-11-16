@@ -5,6 +5,7 @@
   background: var(--waifu-bg);
   display:inline-block;
   padding:2px 7px;
+  margin-right: 10px;
   margin-bottom:10px;
   text-align: center;
   font-weight: normal;
@@ -12,6 +13,11 @@
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges; 
+}
+
+.light-mode .waifu {
+  color: #0e0e0e;
+  background: #e0e0e0;
 }
 
 .modal {
@@ -36,6 +42,12 @@
   box-sizing: border-box;
   color: #ffffff;
   padding: 20px;
+}
+
+.light-mode .modal-content {
+  background-color: #FFF;
+  border-color: #000;
+  color: #000;
 }
 
 @media only screen and (max-width: 480px) {
@@ -67,6 +79,14 @@
   text-shadow: 2px 2px 4px #000000;
 }
 
+.light-mode .caption {
+  color: #000;
+  background-color: #FFF;
+  border-style: solid;
+  border-color: #000;
+  text-shadow: none;
+}
+
 @media only screen and (max-width: 480px) {
   .caption {
     width: 100%;
@@ -88,6 +108,14 @@
   padding: 20px;
   text-shadow: 2px 2px 4px #000000;
   box-sizing: border-box;
+}
+
+.light-mode .name {
+  color: #000;
+  background-color: #FFF;
+  border-style: solid;
+  border-color: #000;
+  text-shadow: none;
 }
 
 @media only screen and (max-width: 480px) {

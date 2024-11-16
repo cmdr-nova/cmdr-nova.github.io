@@ -11,9 +11,6 @@ permalink: /pages/about/
 ░ Stats
  - Name: Nova, Ryan
  - Age: 39
- - Gender: Nonbinary
- - Pronouns: They/them, any/all
- - Sexuality: Pansexual
  - Nationality: European
  - Specialty: SysAdmin, WebDev, Writer, Sound Designer
 
