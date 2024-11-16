@@ -288,12 +288,12 @@ a:visited {
 
 a:hover { 
   color: #edf2b1; 
-  text-decoration: highlight; 
+  text-decoration: underline; 
 }
 
 .light-mode a:hover {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .social-media-list a:hover { 
@@ -534,7 +534,7 @@ code {
 }
 
 .light-mode .btn {
-  background-color: #00ccff8c;
+  background-color: #d8d8d88c;
   color: #000;
 }
 
@@ -797,13 +797,22 @@ code {
   box-shadow: inset 0 0 15px var(--sidebar-inset);
 }
 
+.light-mode .sidenav {
+  height: 100%;
+  background-color: #d1d1d1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: 0.5s;
+  box-shadow: inset 0 0 15px rgb(0, 0, 0);
+  color: #000;
+}
+
 .light-mode .ph {
   color: #000;
 }
 
 .light-mode .trigger {
-  background-color: #00ccff8c;
-  color: #000;
+  color: #000 !important;
 }
 
 .sidenav::-webkit-scrollbar {
@@ -834,7 +843,9 @@ code {
 }
 
 .light-mode .sidenav a:hover {
-  color: #000;
+  color: #4d2c39;
+  text-decoration: underline;
+
 }
 
 .sidenav .closebtn {
@@ -950,6 +961,10 @@ code {
   accent-color: #000;
   }
 
+.light-mode #volume-slider {
+  background-color: #a1a1a1;
+}
+
 .post-line {
   width: 100%;
   border-bottom: #000000;
@@ -1011,6 +1026,10 @@ code {
   margin: auto;
 }
 
+.light-mode .garden-button a {
+  background-color:#e9e9e98c;
+  color: #000;
+}
 
 iframe {
   display: block;
@@ -1107,6 +1126,10 @@ iframe {
   font-weight: 700;
 }
 
+.light-mode .tumblr-post a {
+  color: #000;
+}
+
 .tumblr-post img {
   max-width: 100%;
   height: auto;
@@ -1126,6 +1149,11 @@ iframe {
   max-width: 230px;
   margin-bottom: 10px;
   margin: auto;
+}
+
+.light-mode .tumblr-title {
+  background-color:#dddddd8c;
+  color: #000;
 }
 
 #random-image-container {
@@ -1151,6 +1179,12 @@ iframe {
   box-shadow: inset 0 0 15px var(--other-inset);
 }
 
+.light-mode #mastodon-trending {
+  background-color: #b1b1b1;
+  border-color: #000;
+  filter: none;
+}
+
 #mastodon-trending h3 {
   margin-top: 0;
 }
@@ -1172,6 +1206,11 @@ iframe {
   text-decoration: none;
 }
 
+.light-mode #mastodon-trending a {
+  color: #000;
+  text-decoration: underline;
+}
+
 #mastodon-trending a:hover {
   text-decoration: underline;
 }
@@ -1191,6 +1230,12 @@ iframe {
   box-shadow: inset 0 0 15px var(--desc-inset);
 }
 
+.light-mode #second-life-online {
+  background-color: #b1b1b1;
+  border-color: #000;
+  filter: none;
+}
+
 .post-buttons {
   background-color:#000000 !important;
   color:rgb(217, 255, 0) !important;
@@ -1200,7 +1245,7 @@ iframe {
 }
 
 .light-mode .post-buttons {
-  background-color:#00ccff8c !important;
+  background-color:#d8d8d88c !important;
   color: #000 !important;
 }
 
