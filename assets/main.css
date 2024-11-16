@@ -219,6 +219,9 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     background-color: #131313;
     z-index: 1000;
   }
+  .light-mode .nav-wrapper {
+    background-color: #d1d1d1;
+  }
   .nav-menu {
     display: flex;
     flex-direction: row;
@@ -1362,4 +1365,8 @@ input:checked + .slider:before {
 
 li {
   list-style-type: disc;
+}
+
+.symbols {
+  margin-top: 10px;
 }
