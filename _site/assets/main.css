@@ -47,11 +47,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, a, div, 
 }
 
 html {
-  scrollbar-color: rgb(187, 255, 0) rgb(31, 31, 31);
-}
-
-.light-mode html {
-  scrollbar-color: rgb(0,0,0) rgb(255, 255, 255);
+  scrollbar-color: rgb(255, 255, 255) rgb(31, 31, 31);
 }
 
 /* WebKit and Chromiums */
@@ -63,6 +59,20 @@ html {
 
 ::-webkit-scrollbar-thumb {
   background: rgb(24, 24, 24);
+  border-radius: 5px;
+}
+
+.light-mode ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.light-mode ::-webkit-scrollbar-track {
+  background: #d1d1d1;
+}
+
+.light-mode ::-webkit-scrollbar-thumb {
+  background: #000;
   border-radius: 5px;
 }
 
@@ -131,9 +141,15 @@ body {
   padding-left: 5px;
 }
 
-.light-mode {
+.light-mode{
   background-color: #d1d1d1;
   color: #000;
+  scrollbar-color: #000 #d1d1d1;
+}
+
+.light-mode body, .light-mode html {
+  scrollbar-color: #000 #d1d1d1;
+  scrollbar-width: thin;
 }
 
 .post-link {
