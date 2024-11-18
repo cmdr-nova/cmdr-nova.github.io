@@ -1701,3 +1701,60 @@ li {
 .light-mode .guestbook-button:hover {
   background-color: #a1a1a1;
 }
+
+/* Bsky Feed */
+
+#rss-feed {
+  max-width: 260px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-style: solid;
+  border-color: rgb(217, 255, 0);
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: rgba(0, 255, 191, 0.226);
+  box-shadow: inset 0 0 15px var(--other-inset);
+}
+
+.light-mode #rss-feed {
+  background-color: #b1b1b1;
+  border-color: #000;
+}
+
+#rss-feed ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#rss-feed li {
+  margin-bottom: 8px; 
+  padding-bottom: 4px; 
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.light-mode #rss-feed li {
+  border-bottom: 1px solid #000;
+}
+
+#rss-feed li:last-child {
+  border-bottom: none;
+}
+
+#rss-feed strong {
+  display: block;
+  margin-bottom: 1px; 
+}
+
+#rss-feed small.rss-date {
+  display: block;
+  margin-top: 1px; 
+  margin-bottom: 1px; 
+}
+
+#rss-feed a {
+  display: block;
+  margin-top: 3px;
+}

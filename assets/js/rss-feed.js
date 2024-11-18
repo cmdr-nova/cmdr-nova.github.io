@@ -21,7 +21,7 @@ async function fetchRSSFeed() {
 
 function displayRSSFeed(items) {
   const rssContainer = document.getElementById('rss-feed');
-  rssContainer.innerHTML = '<p>Bluesky Feed</p>';
+  rssContainer.innerHTML = '<p>Bluesky Feed</p><hr><br />';
   const list = document.createElement('ul');
 
   for (let i = 0; i < Math.min(items.length, 3); i++) {
@@ -54,7 +54,7 @@ function displayRSSFeed(items) {
     listItem.innerHTML = `
       <p><strong>${author}</strong></p>
       <p><small class="rss-date">posted: ${pubDate}</small></p>
-      <p>${truncatedContent} <a href="${link}" target="_blank">more</a></p>
+      <p>${truncatedContent} <a href="${link}" target="_blank">> read more</a></p>
     `;
     list.appendChild(listItem);
   }
