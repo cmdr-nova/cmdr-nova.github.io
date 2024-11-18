@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113501812296437511
 ---
 I was having a conversation with a singer in Second Life yesterday, and it quickly went down the road of parasocial relationships, expectations, and suddenly, money-traps. We talked about the ways in which artists, writers, or creators in-general are taken from, at all angles, with the promise of a boost, or fame, or an income. And I'm still thinking about it.
 
