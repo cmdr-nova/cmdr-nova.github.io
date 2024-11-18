@@ -4,6 +4,12 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+# # # 11/18/2024
+
+<ul>
+<li>- added a guestbook</li>
+</ul>
+
 # # # 11/16/2024
 <ul>
 <li>- added DOOM to the website</li>
