@@ -24,7 +24,7 @@ function displayRSSFeed(items) {
   rssContainer.innerHTML = '<p>Bluesky Feed</p><hr><br />';
   const list = document.createElement('ul');
 
-  for (let i = 0; i < Math.min(items.length, 3); i++) {
+  for (let i = 0; i < Math.min(items.length, 2); i++) {
     const item = items[i];
     const descriptionElement = item.getElementsByTagName('description')[0];
     const contentElement = item.getElementsByTagName('content:encoded')[0];
