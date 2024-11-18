@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "The Double-Edged Sword of Being a Creator",
+      "category" : "",
+      "tags"     : "thoughts",
+      "url"      : "/thoughts/2024/11/17/the-double-edged-sword-of-being-a-creator.html",
+      "date"     : "2024-11-17 21:42:00 -0500"
+    } ,
+  
+    {
       "title"    : "Poasting to Mastodon Via Jekyll",
       "category" : "",
       "tags"     : "scripting",
