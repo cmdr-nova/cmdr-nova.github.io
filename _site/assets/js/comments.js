@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('guestbookForm');
     const commentsList = document.getElementById('commentsList');
     const pagination = document.getElementById('pagination');
-    const commentsPerPage = 10;
+    const commentsPerPage = 20;
     let currentPage = 1;
   
     form.addEventListener('submit', (e) => {
