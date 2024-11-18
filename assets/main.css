@@ -1509,3 +1509,195 @@ li {
   background-color:#dddddd8c;
   color: #000;
 }
+
+/* Guestbook CSS */
+
+/* Guestbook Form Styling */
+.guestbook-form {
+  background-color: #222222;
+  border: 1px solid #00aeff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .guestbook-form {
+  background-color: #d1d1d1;
+  border: 1px solid #000;
+}
+
+.guestbook-form h2 {
+  text-align: center;
+  color: #00eeff;
+}
+
+.light-mode .guestbook-form h2 {
+  color: #000;
+}
+
+.guestbook-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #00ccff;
+}
+
+.light-mode .guestbook-form label {
+  color: #000;
+}
+
+.guestbook-form input[type="text"],
+.guestbook-form input[type="url"],
+.guestbook-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #0f0f0f;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.guestbook-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.light-mode .guestbook-form button {
+  background-color: #d8d8d8;
+  color: #000;
+}
+
+.guestbook-form button:hover {
+  background-color: #0056b3;
+}
+
+.light-mode .guestbook-form button:hover {
+  background-color: #a1a1a1;
+}
+
+/* Comments Section Styling */
+.guestbook-comments {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.guestbook-comments h2 {
+  text-align: center;
+  color: #00ffb3;
+}
+
+.light-mode .guestbook-comments h2 {
+  color: #000;
+}
+
+.comment {
+  background-color: #1f1f1f;
+  border: 1px solid #00aeff;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .comment {
+  background-color: #d1d1d1;
+  border: 1px solid #000;
+}
+
+.comment p {
+  margin: 5px 0;
+}
+
+.comment a {
+  color: #0afa46;
+  text-decoration: none;
+}
+
+.light-mode .comment a {
+  color: #000;
+}
+
+.comment a:hover {
+  text-decoration: underline;
+}
+
+.comment small {
+  color: #0ae8f0;
+}
+
+.light-mode .comment small {
+  color: #000;
+}
+
+/* Pagination Styling */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #222222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.light-mode .pagination button {
+  background-color: #d1d1d1;
+  color: #000;
+}
+
+.pagination button:hover {
+  background-color: #00b345;
+}
+
+.light-mode .pagination button:hover {
+  background-color: #a1a1a1;
+}
+
+.pagination button:disabled {
+  background-color: #585858;
+  cursor: not-allowed;
+}
+
+/* Guestbook home button */
+
+.guestbook-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.light-mode .guestbook-button {
+  background-color: #d1d1d1;
+  color: #000;
+}
+
+.guestbook-button:hover {
+  background-color: #3f3f3f;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .guestbook-button:hover {
+  background-color: #a1a1a1;
+}

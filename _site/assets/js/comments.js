@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
       const name = document.getElementById('name').value;
-      const website = document.getElementById('website').value;
+      const website = document.getElementById('website').value || ''; // Handle optional website
       const message = document.getElementById('message').value;
   
       if (validateInput(name, message)) {
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const commentElement = document.createElement('div');
         commentElement.classList.add('comment');
         commentElement.innerHTML = `
-          <p><strong>${comment.name}</strong> <a href="${comment.website}" target="_blank">${comment.website}</a></p>
+          <p><strong>${comment.name}</strong> ${comment.website ? `<a href="${comment.website}" target="_blank">${comment.website}</a>` : ''}</p>
           <p>${comment.message}</p>
           <p><small>${new Date(comment.date).toLocaleString()}</small></p>
         `;
