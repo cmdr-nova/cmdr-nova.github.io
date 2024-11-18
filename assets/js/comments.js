@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   
     function validateInput(name, message) {
-      const forbiddenWords = ['badword1', 'badword2']; // Add more forbidden words
+      const forbiddenWords = ['bitch', 'fag', 'slut', 'tranny', 'whore', 'nigger', 'niger', 'nigga', 'kill', 'retard', 'tard', 'faggot', 'faggit', 'fags', 'fagg', 'homo', 'hom0', 'niggah', 'niggas', 'niggaz', 'niggers', 'niggle', 'niglet', 'gypsy', 'rape', 'raped', 'raper', 'rapist', 'reich', 'trump', 'reetard', 'retarded', 'rtard', 'r-tard', 'bitches', 'sluts', 'spick', 'spik', 'spiks',' spic', 'wigger', 'whores', 'whoring','chinc', 'chincs', 'chink', 'dyke','dykes', 'kike', 'kikes', 'kyke', 'negro', 'paki', 'pedo', 'pedophile', 'pedophilia', 'pedos', 'pedophiliac']; // Add more forbidden words
       for (let word of forbiddenWords) {
         if (name.includes(word) || message.includes(word)) {
           return false;
