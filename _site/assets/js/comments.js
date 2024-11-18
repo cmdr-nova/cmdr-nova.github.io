@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function postComment(comment) {
-      fetch('https://nova.mkultra.monster/pages/guestbook/comments', {
+      fetch('http://server.mkultra.monster/pages/guestbook/comments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function getComments() {
-      fetch('https://nova.mkultra.monster/pages/guestbook/comments')
+      fetch('http://server.mkultra.monster/pages/guestbook/comments')
         .then(response => response.json())
         .then(data => {
           renderComments(data);
