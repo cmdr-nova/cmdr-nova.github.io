@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function postComment(comment) {
-      fetch('https://server.mkultra.monster/comments', {
+      fetch('http://server.mkultra.monster:8080/comments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function getComments() {
-      fetch('https://server.mkultra.monster/comments')
+      fetch('http://server.mkultra.monster:8080/comments')
         .then(response => response.json())
         .then(data => {
           renderComments(data);
