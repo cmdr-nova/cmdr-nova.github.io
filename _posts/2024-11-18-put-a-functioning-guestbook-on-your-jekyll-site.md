@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Web Dev"
 tag: webdev
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113507024877931321
 ---
 So, yesterday, I got home from work late, and wanted to do something *more* with my website. I wasn't happy with cbox as a "guestbook" of sorts. It was intrusive, and it was nothing more than an injection of code from some other source, controlled by some other person. That's no good. I want to be in control of *everything* having to do with, and running on my website. Therefore, I made GuestPoast.
 
