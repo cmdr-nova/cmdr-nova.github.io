@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-18T20:29:21-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Put a Functioning Guestbook On Your Jekyll Site</title><link href="http://localhost:4000/web%20dev/2024/11/18/put-a-functioning-guestbook-on-your-jekyll-site.html" rel="alternate" type="text/html" title="Put a Functioning Guestbook On Your Jekyll Site" /><published>2024-11-18T20:16:00-05:00</published><updated>2024-11-18T20:16:00-05:00</updated><id>http://localhost:4000/web%20dev/2024/11/18/put-a-functioning-guestbook-on-your-jekyll-site</id><content type="html" xml:base="http://localhost:4000/web%20dev/2024/11/18/put-a-functioning-guestbook-on-your-jekyll-site.html"><![CDATA[<p>So, yesterday, I got home from work late, and wanted to do something <em>more</em> with my website. I wasn’t happy with cbox as a “guestbook” of sorts. It was intrusive, and it was nothing more than an injection of code from some other source, controlled by some other person. That’s no good. I want to be in control of <em>everything</em> having to do with, and running on my website. Therefore, I made GuestPoast.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-11-18T21:17:06-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>NOVA PRIME</subtitle><entry><title type="html">Let the Past Be the Past</title><link href="http://localhost:4000/thoughts/2024/11/18/let-the-past-be-the-past.html" rel="alternate" type="text/html" title="Let the Past Be the Past" /><published>2024-11-18T21:03:00-05:00</published><updated>2024-11-18T21:03:00-05:00</updated><id>http://localhost:4000/thoughts/2024/11/18/let-the-past-be-the-past</id><content type="html" xml:base="http://localhost:4000/thoughts/2024/11/18/let-the-past-be-the-past.html"><![CDATA[<p>Today, while I was working away, (not on the code I shared in my other post, but <em>at</em> work), I suddenly fell into this kind of melancholy. I’ve dated a lot of people. Thirty-some-odd people. But I also, kind of, in my brain sauce, circle back to the one woman with whom I thought would last. None of them last. But her and I were <em>different</em>. We were different, and then we were over.</p>
+
+<p>Inevitably, she broke up with me for some dude at Starbucks, and I was angry, and then I was sad, and then I forgot about her for a while when I initially started my transition. Sometimes I wonder if that breakup is what triggered it. I’m not transitioning now, and I don’t know if I’ll ever return to it, but that’s a whole story. I enjoy navigating my life being confused about gender, and just being forward-facing however I feel like being. But I heard from her once or twice over the years. Over the course of the last fourteen years. And I don’t know <em>why</em> I still think about her.</p>
+
+<p>There are so many other ex girlfriends I could think about. I could think about the one I was with long-distance for a year, who disappeared overnight while I was sleeping, only to come back in Discord messages three years later to apologize.</p>
+
+<p>I could think about the one whose rent I paid and drove to New York, who inevitably broke it off with me to get back with her estranged husband.</p>
+
+<p>I could think about the two women I dated in separate states, who used me for their own gain in different ways, and then tossed me aside like a broken toy.</p>
+
+<p>Hell, I could even think about my highschool girlfriend, who somehow remains a part of my life, in some tiny, almost insignificant way.</p>
+
+<p>But no.</p>
+
+<p>My head always circles back to <em>the one</em>.</p>
+
+<p>And I don’t even know what it is about her anymore. I don’t think it’s important. I don’t think I even exist to her in 2024, and rightfully so. <em>Why would I?</em></p>
+
+<p>But it makes me feel like, or wonder, if one of the reasons I have such a hard time, in my near forties, getting <em>close</em> to anyone, is because I <em>refuse</em> to let go of the past. Most of the time all of my thoughts are living in the nineties, or the early 2000s, and I think of myself as I was then, rather than how I am and who I am, <em>now</em>. Everything is me trying to escape what I currently <em>am</em>, and it’s a wonder that even <em>with</em> more matches than I can shake a stick at on dating apps, <em>I talk to no one</em>.</p>
+
+<p>The present is crumbling all around us, and simultaneously, I’ve never been in a better position in my <em>entire life</em>.</p>
+
+<p>And I’m still working on myself, on all of these things, and I’m getting <em>better and better</em> by the day, <em>at everything</em>.</p>
+
+<p>So then why can’t I let go of the past? Why can’t I ever shake this person, the starbucks-betrayer, out of my head, <em>once and for all</em>.</p>
+
+<p>I don’t know. Maybe this public journal post will derive some kind of enlightenment … ten years into the future when I’m hopefully married and not sitting alone in front of a computer like I always am.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Thoughts" /><category term="thoughts" /><summary type="html"><![CDATA[Today, while I was working away, (not on the code I shared in my other post, but at work), I suddenly fell into this kind of melancholy. I’ve dated a lot of people. Thirty-some-odd people. But I also, kind of, in my brain sauce, circle back to the one woman with whom I thought would last. None of them last. But her and I were different. We were different, and then we were over.]]></summary></entry><entry><title type="html">Put a Functioning Guestbook On Your Jekyll Site</title><link href="http://localhost:4000/web%20dev/2024/11/18/put-a-functioning-guestbook-on-your-jekyll-site.html" rel="alternate" type="text/html" title="Put a Functioning Guestbook On Your Jekyll Site" /><published>2024-11-18T20:16:00-05:00</published><updated>2024-11-18T20:16:00-05:00</updated><id>http://localhost:4000/web%20dev/2024/11/18/put-a-functioning-guestbook-on-your-jekyll-site</id><content type="html" xml:base="http://localhost:4000/web%20dev/2024/11/18/put-a-functioning-guestbook-on-your-jekyll-site.html"><![CDATA[<p>So, yesterday, I got home from work late, and wanted to do something <em>more</em> with my website. I wasn’t happy with cbox as a “guestbook” of sorts. It was intrusive, and it was nothing more than an injection of code from some other source, controlled by some other person. That’s no good. I want to be in control of <em>everything</em> having to do with, and running on my website. Therefore, I made GuestPoast.</p>
 
 <p>GuestPoast, available to check out <a href="https://github.com/cmdr-nova/GuestPoast" target="_blank">over on Github</a>, is a relatively simple guestbook system that you can setup and use on a static website. In this case, we’re using Jekyll, because that’s what I know best at this point. But! Because we’re using Python, I’m running those scripts on a VPS with a reverse proxy, and runners that keep the guestbook comments live, <em>at all times</em>. There is a way to use Github to run Python, among other things, but I’m a little turned off by the limitation of working seconds (I honestly don’t know how much I’d use if I used Github as a personal VPS. I have a lot of things running over at Digital Ocean).</p>
 
@@ -134,76 +160,4 @@
 
 <p>And now I’m terrified of stagnation.</p>
 
-<p>That’s the post. I don’t really know how to remedy this, short of continuing to submit my resume to places hoping something sticks.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Thoughts" /><category term="thoughts" /><summary type="html"><![CDATA[I don’t know when it happened, or even how it happened. But I know it did. I used to get home from work and spend most of my free time consuming another game. That was in my twenties, mostly, and also in the space of time that I was unemployed and suffering disability-levels of anxiety. But then something changed, and I became a machine.]]></summary></entry><entry><title type="html">Ten Months Without Windows</title><link href="http://localhost:4000/linux/2024/11/11/ten-months-without-windows.html" rel="alternate" type="text/html" title="Ten Months Without Windows" /><published>2024-11-11T21:16:00-05:00</published><updated>2024-11-11T21:16:00-05:00</updated><id>http://localhost:4000/linux/2024/11/11/ten-months-without-windows</id><content type="html" xml:base="http://localhost:4000/linux/2024/11/11/ten-months-without-windows.html"><![CDATA[<p>I’m sitting here a little more tired than I’d like to be, but that’s the life of working a manual labor day job, and code-jacking at night (what the hell is code-jacking). Today I want to sort of look back over the past year, and reflect on what it’s been like to <em>mostly</em> abandon Windows (with a slight hiccup of returning for a week).</p>
-
-<p>A lot of people panicked earlier in the year when <a href="https://www.theverge.com/2024/6/20/24182350/microsoft-windows-recall-launch-on-arm" target="_blank">Microsoft unveiled its AI powered “recall” feature</a>, that screenshots virtually every single thing you do, and then stores it for uh … recalling later. The scary part is, or was, that you definitely <em>should not</em> trust a mega corporation with that kind of info. <em>Even if they tell you not to worry.</em></p>
-
-<p>And many rightfully made the plunge into Linux, and stayed there.</p>
-
-<p>That’s not why I abandoned Windows, though. I actually left Windows earlier than that, a couple months before the Recall announcement, when I decided that using a laptop for all the resource intensive things I do, … might not be a great idea sometimes.</p>
-
-<p><em>Building a massive song in FL Studio with many, many layers can really lag out a system that isn’t up to spec.</em></p>
-
-<p>See, I have another PC (that’s quite dusty now) that I bought in 2018, that was entirely crowdfunded, so that I could do things I need to do in order to make money (at least at the time), and it was great. It helped me out a lot and I eventually dug myself out of a hole. The thing is … Microsoft is dropping support for Windows 10, <em>next year</em>. And it pissed me off, <em>especially</em>, because the processor in that PC is <em>one generation</em> behind what Windows 11 supports. And, because of that, I would have been stuck on Windows 10, without any security updates, or substantial system updates, <em>forever</em>.</p>
-
-<p>I ultimately decided that this was enough of an insult to literally <em>abandon Windows</em> altogether, and <em>forever</em> (seemingly).</p>
-
-<p>You know, <em>and then</em> they announced Recall, like 2 months later. Two months after I bought a massively powerful Linux PC from <a href="https://system76.com" target="_blank">System 76</a>.</p>
-
-<p>And for <em>months</em> I used it under their flagship operating system, Pop!_OS. I got familiar with VS Code for web development. I moved <em>all</em> of my creative work to Linux, and I even got <em>most</em> of my games that I regularly play working, just fine.</p>
-
-<p>But, like it does with me sometimes, I got this itch. I wanted to play some Call of Duty, and I definitely don’t feel like running a console, when I have a PC with 64 gigs of ram, something like 15 cores, and 8 gigs of videoram. Doesn’t make any sense.</p>
-
-<p>So, I made a split decision, and installed Windows 11. And it was fine … for like a week.</p>
-
-<p>But I noticed, even <em>with</em> all that power, Windows was … somehow laggy, and glitchy. Almost like my PC wasn’t <em>designed</em> for it (or maybe I forgot to download System76 drivers).</p>
-
-<p>Either way, I said, “You know what, this isn’t worth ONE game.” And I then installed one of my favorite Linux distributions, <em>Debian.</em></p>
-
-<p>We’re almost caught up to where I am now.</p>
-
-<p>For about two more weeks, I used Debian, and then I noticed some … weird things, such as games blowing my fans up and my PC sounding like it was taking off into space.</p>
-
-<p>It was <em>then</em> I realized, I need to update my firmware, and have system drivers from System 76.</p>
-
-<p>Which, unfortunately, has almost virtually <em>no</em> existing documentation for Debian.</p>
-
-<p>Enter: Now.</p>
-
-<p>I’m back on Pop!_OS.</p>
-
-<p>What a journey.</p>
-
-<p><img src="/img/posts/pop_os/pop.png" /></p>
-
-<p>The reason I originally <em>didn’t</em> immediately go back to Pop!_OS, was because I’m … kind of unsure of how I’ll react to my Gnome desktop being replaced by whatever it is they give me with COSMIC. But, fear of change aside, this OS is actually, or has actually, <em>really</em> grown on me.</p>
-
-<p>And it’s probably as close to Arch as I’ll ever get (that’s ragebait, Pop!_OS is nothing like Arch).</p>
-
-<p>But, having spent <em>most</em> of the year in Linux, I think I can firmly call this OS my home. It feels natural. I <em>enjoy</em> opening the terminal. I <em>like</em> writing everything in code, even if I don’t have to.</p>
-
-<p>I am become system developer.</p>
-
-<p>Whatever they’re constantly saying on <a href="https://www.reddit.com/r/linuxsucks/" target="_blank">/r/linuxsucks</a> is at least, <em>partially</em> untrue (and also, I can’t tell if these people are serious, or shitposting constantly). It’s not as complicated as they make it seem, but it is <em>definitely</em> more challenging than choosing a Mastodon instance.</p>
-
-<p><img src="/img/posts/pop_os/yes.png" /></p>
-
-<p>You don’t <em>need</em> to be a developer to use Linux, but it helps!</p>
-
-<p>You can literally just, make a Debian bootable, or a Mint bootable, and then replace Windows, and continue using your PC like nothing happened. You don’t even <em>have</em> to interact with the terminal. You can just use the graphical package manager that’s standard on, well, at least <em>three</em> Linux distributions I’ve tried (but where’s the fun in that?)</p>
-
-<p>You can install Pop!_OS, and then Steam, and then continue your game in Dwarf Fortress just by switching on a little toggle in Steam user options that enables Proton support across <em>every game you own</em>.</p>
-
-<p>It’s really that simple.</p>
-
-<p>Just don’t expect to play anything with kernel-level anti-cheat.</p>
-
-<p>Which is probably actually a <em>good</em> thing. Why do game developers think they’re allowed to touch the kernel? Who the hell do you think you are? That dude from Scary Movie 2?</p>
-
-<p><img src="/img/posts/pop_os/fingers.jpg" /></p>
-
-<p>Suffice to say, I think Linux is where I’ll stay. As Windows becomes more and more bloated, and far, <em>far</em> away from the nostalgia of its greatness in 1995, Linux easily takes its place.</p>
-
-<p>Now, watch this wholesome Debian presentation I found on Youtube.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0XhNM_2gYBQ?si=RsT0d-4xvJQlZKms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Linux" /><category term="linux" /><summary type="html"><![CDATA[I’m sitting here a little more tired than I’d like to be, but that’s the life of working a manual labor day job, and code-jacking at night (what the hell is code-jacking). Today I want to sort of look back over the past year, and reflect on what it’s been like to mostly abandon Windows (with a slight hiccup of returning for a week).]]></summary></entry></feed>
+<p>That’s the post. I don’t really know how to remedy this, short of continuing to submit my resume to places hoping something sticks.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Thoughts" /><category term="thoughts" /><summary type="html"><![CDATA[I don’t know when it happened, or even how it happened. But I know it did. I used to get home from work and spend most of my free time consuming another game. That was in my twenties, mostly, and also in the space of time that I was unemployed and suffering disability-levels of anxiety. But then something changed, and I became a machine.]]></summary></entry></feed>

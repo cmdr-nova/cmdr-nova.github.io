@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Let the Past Be the Past",
+      "category" : "",
+      "tags"     : "thoughts",
+      "url"      : "/thoughts/2024/11/18/let-the-past-be-the-past.html",
+      "date"     : "2024-11-18 21:03:00 -0500"
+    } ,
+  
+    {
       "title"    : "Put a Functioning Guestbook On Your Jekyll Site",
       "category" : "",
       "tags"     : "webdev",
