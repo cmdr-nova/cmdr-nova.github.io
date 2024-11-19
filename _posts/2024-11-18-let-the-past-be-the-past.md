@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: thoughts
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113507218184159595
 ---
 Today, while I was working away, (not on the code I shared in my other post, but *at* work), I suddenly fell into this kind of melancholy. I've dated a lot of people. Thirty-some-odd people. But I also, kind of, in my brain sauce, circle back to the one woman with whom I thought would last. None of them last. But her and I were *different*. We were different, and then we were over.
 
