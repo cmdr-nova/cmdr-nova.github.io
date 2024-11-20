@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: [scripting, programming, jekyll, github, tags, second-life, blogging, pixelfed]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113517258551987223
 ---
 In more themes around developing automation for my daily internet-life, I decided to make *even more* little features for my website. Have you ever visited a webpage and thought to yourself, "Man, I wish there was like, a huge mountain of data and pictures for me to stare it!" Well, my friend, I am here to give you exactly that. With JavaScript and Python, I give you, Pixelfed, and my latest product from Second Life!
 
