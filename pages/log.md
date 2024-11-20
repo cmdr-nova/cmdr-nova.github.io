@@ -7,6 +7,7 @@ permalink: /pages/log/
 
 <ul>
 <li>- added recent pixelfed posts to the left sidebar</li>
+<li>- added an element to the right sidebar showcasing my latest product from second life</li>
 </ul>
 
 # # # 11/18/2024

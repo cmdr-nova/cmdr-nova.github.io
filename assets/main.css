@@ -1789,3 +1789,28 @@ li {
   height: auto;
   border-radius: 5px;
 }
+
+/* SL Store Display */
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 200px; /* Increase the width to make the image larger */
+  height: auto;
+  border-radius: 5px;
+}
+
+.product .title2 {
+  margin-top: 10px;
+  font-size: 16px; /* Increase the font size for better readability */
+  font-weight: bold; /* Make the title bold */
+}

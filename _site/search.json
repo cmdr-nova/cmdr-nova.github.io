@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Doing More Useful Automation",
+      "category" : "",
+      "tags"     : "scripting, programming, jekyll, github, tags, second-life, blogging, pixelfed",
+      "url"      : "/programming/2024/11/20/doing-more-useful-automation.html",
+      "date"     : "2024-11-20 15:39:00 -0500"
+    } ,
+  
+    {
       "title"    : "A Tag Generator for Jekyll, Because My Fingers Hurt",
       "category" : "",
       "tags"     : "scripting, programming, python, jekyll, github, tags",
