@@ -8,6 +8,8 @@ permalink: /pages/log/
 <ul>
 <li>- added recent pixelfed posts to the left sidebar</li>
 <li>- added an element to the right sidebar showcasing my latest product from second life</li>
+<li>- added a little chainsaw man gif to the bottom of the page</i>
+<li>- added a quote of the day to the top of the page</i>
 </ul>
 
 # # # 11/18/2024
