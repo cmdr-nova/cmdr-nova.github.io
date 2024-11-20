@@ -69,9 +69,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function getESTDate() {
       const now = new Date();
       const utcOffset = now.getTimezoneOffset();
-      const estOffset = 300; // EST is UTC-5, which is 300 minutes behind UTC
+      const estOffset = 300;
       const estDate = new Date(now.getTime() + (utcOffset - estOffset) * 60000);
-      return estDate.toISOString().split('T')[0]; // Return the date in YYYY-MM-DD format
+      return estDate.toISOString().split('T')[0];
     }
   
     const today = getESTDate();
