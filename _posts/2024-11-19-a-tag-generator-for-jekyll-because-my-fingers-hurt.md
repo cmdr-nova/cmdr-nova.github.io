@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: [scripting, programming, python, jekyll, github, tags]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113513468731170295
 ---
 I was trying to think of something new to do with my website while I sip a *very large* beverage this evening, heading into another day off. And I thought, "You know, I *hate* how I have to manually create new pages for every tag I put on a post. What is this? 1927?" So, I set out to fix that problem, and fix that problem I did. But it didn't come without a small hiccup.
 
