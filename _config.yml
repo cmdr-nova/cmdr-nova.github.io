@@ -32,12 +32,12 @@ mastodon:
 
 # Build settings
 theme: minima
+plugins_dir: _plugins
 
 plugins:
   - jekyll-feed
   - jekyll-paginate 
   - jekyll-compose
-  - jekyll-remote-theme
   - jekyll-compress-images
 
 paginate: 5
@@ -55,8 +55,6 @@ collections:
   notes:
     output: true
     permalink: /notes/:path/
-
-plugins_dir: _plugins
 
 # New fields not defaulted by jekyll-new with the minima theme
 # Add a copyright. A copyright symbol and year will be added automatically

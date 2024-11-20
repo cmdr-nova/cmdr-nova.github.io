@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "A Tag Generator for Jekyll, Because My Fingers Hurt",
+      "category" : "",
+      "tags"     : "scripting, programming, python, jekyll, github, tags",
+      "url"      : "/programming/2024/11/19/a-tag-generator-for-jekyll-because-my-fingers-hurt.html",
+      "date"     : "2024-11-19 23:33:00 -0500"
+    } ,
+  
+    {
       "title"    : "Let the Past Be the Past",
       "category" : "",
       "tags"     : "thoughts",
