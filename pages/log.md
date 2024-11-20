@@ -3,6 +3,11 @@ layout: page
 title: Changelog
 permalink: /pages/log/
 ---
+# # # 11/20/2024
+
+<ul>
+<li>- added recent pixelfed posts to the left sidebar</li>
+</ul>
 
 # # # 11/18/2024
 
