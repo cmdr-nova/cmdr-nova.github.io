@@ -1830,12 +1830,36 @@ li {
   border: 1px solid #3d3d3d; 
   padding: 10px; 
   border-radius: 5px; 
-  box-shadow: inset 0 0 10px rgba(102, 102, 102, 0.1);
+  box-shadow: inset 0 0 10px rgba(209, 209, 209, 0.356);
 }
 
 .light-mode .quote {
   background-color: #d1d1d1;
   border: 1px solid #c0c0c0; 
   color: #000;
-  box-shadow: inset 0 0 10px rgba(214, 214, 214, 0.1);
+  box-shadow: inset 0 0 10px rgba(85, 85, 85, 0.342);
+}
+
+.self {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background: #E6E7ED;
+  -moz-border-radius: 80px;
+  -webkit-border-radius: 80px;
+  border-radius: 80px;
+  border-style: solid;
+  border-color: #07f5e1c4;
+  background-image: url(/img/selfie/ryan_2024.png);
+  background-position: -0.5px -40px; 
+  background-repeat: no-repeat;
+  background-size: 130%;  
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.light-mode .self {
+  background-image: url(/img/selfie/ryan.jpg);
+  border-color: #000;
+  background-position: -0.5px -20px;
 }
