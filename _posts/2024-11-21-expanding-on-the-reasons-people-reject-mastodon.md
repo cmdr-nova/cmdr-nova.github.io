@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: [socialmedia, bluesky, mastodon]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113524660618902641
 ---
 I feel like I've explored this topic before, but it keeps coming up on my timeline. Specifically, on the timeline of <a href="https://bsky.app/profile/cmdr-nova.bsky.social" target="_blank">my Bluesky alt account</a> that I've got setup for the off-chance, or the just-in-case situation, where I can no longer exist on my personal Mastodon instance (I love my instance so much, that losing it would be heartbreaking to me, and I don't know if I would want to move to a new instance after all this time). What keeps coming up on the timeline? People expressing, or better yet, *complaining* about what they feel is wrong with Mastodon. So, let's explore a little more.
 
