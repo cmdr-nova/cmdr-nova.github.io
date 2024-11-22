@@ -3,11 +3,28 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-11-21T23:17:00-05:00</updated>
+  <updated>2024-11-21T23:39:19-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>I Need Random Quotes, and I Need Them Now</title>
+    <link href="http://localhost:4000/javascript/2024/11/21/i-need-random-quotes-and-i-need-them-now.html"/>
+    <updated>2024-11-21T23:35:00-05:00</updated>
+    <id>http://localhost:4000/javascript/2024/11/21/i-need-random-quotes-and-i-need-them-now.html</id>
+    <content type="html"><![CDATA[
+      Another little update before I call it a night and do something to rest my brain. I put together a random quote display thing for the top of my website here. Mine has a bunch of quotes from political figures, astronomers, and also Star Trek characters, and it shows them once per day using local storage and a timer. But, I put a simplified version on Github.
+
+A friend wanted / needed this for something, and like I do, I obliged. So I simplified it down to just a random quote display that changes with every page refresh.
+
+You can grab it here, and use it however the heckle McGeckle you want.
+
+Enjoy~
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Expanding on the Reasons People Reject Mastodon</title>
@@ -64,7 +81,7 @@ I’m not sure Bluesky will make it. I’m not sure Bluesky will make it, becaus
 
 There are billions of people online, and hundreds of millions of people across Threads, X, Bluesky, and Mastodon, and there are many more social media apps that I haven’t even mentioned here. But the one constant that I’ve noticed on most of them, is that genuine connection is hard to come by. Even on Mastodon, for as socially connected and more thoughtful that it is. I, myself, struggle to connect with people. I don’t know what to say, I don’t know what to do.
 
-Sometimes I hit people with a “like” and then I keep on posting. But sometimes I reach out, and I try to be conscious of what I say, and what I do, and that’s largely because of the time I’ve spend on the fediverse.
+Sometimes I hit people with a “like” and then I keep on posting. But sometimes I reach out, and I try to be conscious of what I say, and what I do, and that’s largely because of the time I’ve spent on the fediverse.
 
 Is that really a bad thing? Is that gatekeeping? Is that … user-hostile?
 
