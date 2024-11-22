@@ -51,7 +51,7 @@ That's not to say that *you* shouldn't at least give Mastodon a chance. That's n
 
 But I do think decentralized islands are probably the future?
 
-And maybe I'm wrong, maybe I *would* stick around on the fediverse, even *if* I lost mkultra.monster. Who knows, I don't know, The future is a variable I don't know.
+And maybe I'm wrong, maybe I *would* stick around on the fediverse, even *if* I lost mkultra.monster. Who knows, I don't know. The future is a variable I don't know.
 
 What I do know is ...
 
