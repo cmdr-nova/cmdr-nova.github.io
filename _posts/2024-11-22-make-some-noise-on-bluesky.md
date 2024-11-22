@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Python"
 tag: [python, scripting]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113526948048809546
 ---
 In my efforts to continually preserve the weird things that I do, and have been doing, and/or am also learning to do, I setup a Python noise generation script, that's completely procedural (like the other ones), and plopped it onto a Bluesky account. Make some noise!
 
