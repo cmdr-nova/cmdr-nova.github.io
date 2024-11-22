@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "JavaScript"
 tag: [javascript, scripting]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113524767453291297
 ---
 Another little update before I call it a night and do something to rest my brain. I put together a random quote display thing for the top of my website here. Mine has a bunch of quotes from political figures, astronomers, and also Star Trek characters, and it shows them once per day using local storage and a timer. But, I put a simplified version on Github.
 
