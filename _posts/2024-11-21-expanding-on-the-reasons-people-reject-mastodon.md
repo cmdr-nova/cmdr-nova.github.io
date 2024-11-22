@@ -59,7 +59,7 @@ I'm not sure Bluesky will make it. I'm not sure Bluesky will make it, because th
 
 There are *billions* of people online, and hundreds of millions of people across Threads, X, Bluesky, and Mastodon, and there are *many more* social media apps that I haven't even mentioned here. But the one constant that I've noticed on most of them, is that genuine connection is *hard to come by*. Even on Mastodon, for as socially connected and more thoughtful that it is. I, myself, struggle to connect with people. I don't know what to say, I don't know what to do.
 
-Sometimes I hit people with a "like" and then I keep on posting. But sometimes I reach out, and I try to be conscious of what I say, and what I do, and that's *largely* because of the time I've spend on the fediverse. 
+Sometimes I hit people with a "like" and then I keep on posting. But sometimes I reach out, and I try to be conscious of what I say, and what I do, and that's *largely* because of the time I've spent on the fediverse. 
 
 Is that *really* a bad thing? Is that gatekeeping? Is that ... *user-hostile*?
 
