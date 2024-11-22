@@ -1863,3 +1863,9 @@ li {
   border-color: #000;
   background-position: -0.5px -20px;
 }
+
+.bluesky-embed {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
