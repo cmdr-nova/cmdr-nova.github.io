@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Digging Up the Distant Internet-Past",
+      "category" : "",
+      "tags"     : "oldnet, thoughts, waybackmachine, internet",
+      "url"      : "/thoughts/2024/11/23/digging-up-the-distant-internet-past.html",
+      "date"     : "2024-11-23 00:02:00 -0500"
+    } ,
+  
+    {
       "title"    : "Make Some Noise (on Bluesky)",
       "category" : "",
       "tags"     : "python, scripting",
