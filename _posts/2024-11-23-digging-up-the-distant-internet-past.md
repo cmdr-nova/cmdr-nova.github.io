@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: [oldnet, thoughts, waybackmachine, internet]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113530609185436911
 ---
 Like you do, I was digging around the WayBackMachine, trying desperately to recall the names of my old Geocities pages ... much to no avail. But, there is one page I know the name of, that is at least *partially* archived, and I visit it every once in a while. I'm not sure I'll share it's name because I made it when I was like 15 or so, and it's *really* anime-waifu, 2001 embarrassing. But, the sad part is, while the website was somehow archived, it wasn't fully crawled ... except for a few things.
 
