@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Digging Up the Distant Internet-Past
-date: 2024-11-23 00:02
+date: 2024-11-23 01:02
 author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
