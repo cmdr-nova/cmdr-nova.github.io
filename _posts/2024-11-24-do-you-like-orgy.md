@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Music"
 tag: [music, numetal, orgy, nineties]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113536179074390734
 ---
 In continuing a trend of visiting teenage me from 1999 and onward, I'm revisiting one of my favorite bands. *Of course*, I was into Korn, and Nine Inch Nails, and Sonic Mayhem, and TOOL, but then there was Orgy. And in that respect, I'm no longer afraid to say that I had a *huge* crush on Jay Gordon, and I was also a *very confused* teenager. Hell, I'm STILL confused!
 
