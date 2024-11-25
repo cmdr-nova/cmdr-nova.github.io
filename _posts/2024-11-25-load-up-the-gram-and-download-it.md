@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: [programming, instagram, app]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113542185639538023
 ---
 Like an absolute madman, I slapped together a little Linux Python app for targeting an Instagram profile, and then downloading its entire contents. After *much* fussing with the unintuitive Github, and figuring out Twine, I *uploaded it directly into the fully public system where anyone can download and use it.* That's right.
 
