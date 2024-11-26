@@ -11,4 +11,4 @@ tag: [testing]
 #    username: cmdr_nova
 #    id: 113549974187112151
 ---
-If I've done this correctly, this post should go directly to my Sharkey account after I hit the commit button and the build process completes. Let's see what happens.
+If I've done this correctly ... this post should go directly to my Sharkey account after I hit the commit button and the build process completes. Let's see what happens.
