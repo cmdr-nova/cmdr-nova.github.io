@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Programming"
 tag: [programming, scripting, music, spotify]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 113542185639538023
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113549974187112151
 ---
 As some may know, I have *very many* releases under the musical id Eyeshadow 2600 FM, and have also started a side-project named PLEXX. While the muse for which I use to create has been a very slow monster, I've started to notice that ever since I basically rebuilt my life, I haven't really shared any of it that much. This is true for a lot of things I do, *except for these scripts* I've been making lately. So, let's fix that.
 
