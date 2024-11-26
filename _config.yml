@@ -29,7 +29,7 @@ lang: "en-US"
 github_username:  cmdr-nova
 mastodon:
 - username: cmdr_nova
-  instance: mkultra.monster
+  instance: sharkey.mkultra.monster
 
 # Build settings
 theme: minima
