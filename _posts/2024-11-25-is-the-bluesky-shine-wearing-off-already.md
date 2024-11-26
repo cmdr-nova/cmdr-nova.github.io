@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: [bluesky, socialmedia, mastodon]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113547296056214942
 ---
 Like I do, I've been semi-tracking and participating in the boom of the Bluesky social network, *even though it's <a href="https://dustycloud.org/blog/how-decentralized-is-bluesky/" target="_blank">not decentralized, currently, in any meaningful way.</a>* In my own experience, I'm having a hard time finding "my people." I don't even know if I *have* a "my people" anymore. But, that aside, from within my feed, I'm watching and seeing reports of *constant* troll attacks, some stating, "Yeah, I don't like it here actually." So, let's talk about Mastodon, again, maybe?
 
