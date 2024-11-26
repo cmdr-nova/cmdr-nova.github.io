@@ -1092,7 +1092,7 @@ iframe {
 #calendar {
   font-family: Montserrat, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  max-width: 240px;
   background-size: cover; 
   background-position: center; 
   color: white; 
@@ -1133,59 +1133,6 @@ iframe {
   height: 30px;
 }
 
-/* Tumblr feed */
-
-#reddit-bot {
-  overflow: hidden; 
-  padding: 10px; 
-  box-sizing: border-box;
-  max-width: 100%;
-}
-
-#tumblr-feed {
-  width: 260px;
-}
-
-.tumblr-post {
-  margin-bottom: 20px; 
-  border: 1px solid #070707;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: left;
-  font-size: 0.7rem;
-  background-color: #181818;
-  color: #FFFFFF;
-}
-
-.light-mode .tumblr-post {
-  background-color: #d1d1d1;
-  color: #000;
-  border-style: none;
-}
-
-.tumblr-post p {
-  margin: 0.5em 0;
-}
-
-.tumblr-post a {
-  color: #0099ff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.light-mode .tumblr-post a {
-  color: #000;
-}
-
-.tumblr-post img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
 .tumblr-title {
   display: block;
   font-size: .8rem;
@@ -1206,6 +1153,7 @@ iframe {
 }
 
 #random-image-container {
+  max-width: 240px;
   filter: drop-shadow(5px 5px rgba(152, 231, 26, 0.863));
 }
 
@@ -1772,6 +1720,7 @@ li {
 
 .pixelfed-grid {
   display: grid;
+  max-width: 240px;
   grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
   gap: 10px;
   margin-top: 20px;
