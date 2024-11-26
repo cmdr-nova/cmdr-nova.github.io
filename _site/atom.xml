@@ -3,11 +3,44 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-11-25T23:10:54-05:00</updated>
+  <updated>2024-11-26T10:30:06-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>Spotify, Finally Useful for Something</title>
+    <link href="http://localhost:4000/programming/2024/11/26/spotify-finally-useful-for-something.html"/>
+    <updated>2024-11-26T10:12:00-05:00</updated>
+    <id>http://localhost:4000/programming/2024/11/26/spotify-finally-useful-for-something.html</id>
+    <content type="html"><![CDATA[
+      As some may know, I have very many releases under the musical id Eyeshadow 2600 FM, and have also started a side-project named PLEXX. While the muse for which I use to create has been a very slow monster, I’ve started to notice that ever since I basically rebuilt my life, I haven’t really shared any of it that much. This is true for a lot of things I do, except for these scripts I’ve been making lately. So, let’s fix that.
+
+I already have an automated account on my Mastodon instance that I use for sharing random things cycled via Python scripts on my VPS, but what if we used it to share random songs from all of my releases?
+
+And that, we have done.
+
+Unfortunately, I can’t use Bandcamp. Because Bandcamp won’t let you scrape artist pages with a script, and if you’re going to use a browser in headless mode to achieve the same thing (and make it work), you need the server where you’re running that script to actually allow you to do that.
+
+… which I cannot do at Digital Ocean (the chromium driver needed to do this is either inaccessible, or non-existent).
+
+So!
+
+Even though I absolutely do not use Spotify, due to their negligence of artists, and paying them, it is at least a public app that can be accessed and even listened to by pretty much anyone. As much as I prefer Apple Music, that random people can’t really just open a link and listen, is kind of an issue. And, I also am not sure if Apple Music has a readily available API.
+
+Which Spotify does.
+
+So, the app that hates the artists that make it the revenue it needs to continue operating, is unfortunately the avenue we’re going to take, until there’s something better.
+
+And, voila.
+
+   Post by @net_run@mkultra.monster View on Mastodon  
+
+
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Is the Bluesky-Shine Wearing Off Already?</title>

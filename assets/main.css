@@ -1818,3 +1818,16 @@ li {
   margin: 0 auto;
   max-width: 100%;
 }
+
+.mastodon-embed {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+.mastodon-embed iframe {
+  display: block !important;
+  margin: 0 auto !important;
+}
