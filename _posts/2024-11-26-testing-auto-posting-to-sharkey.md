@@ -9,6 +9,6 @@ tag: [testing]
 comments:
     host: sharkey.mkultra.monster
     username: cmdr_nova
-    id: notes/a12o4e5m46f200pl
+    id: a12o4e5m46f200pl
 ---
 If I've done this correctly ... this post should go directly to my Sharkey account after I hit the commit button and the build process completes. Let's see what happens.
