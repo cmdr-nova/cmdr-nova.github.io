@@ -24,7 +24,7 @@ permalink: /pages/about/
 
 ![my neofetch](/img/about/fetch/fetch3.png)
 
-░ I’m also a webdev and a sysadmin. My website is hosted via Github, and I administer my Mastodon instance via managed hosting at [toot.io](https://toot.io/mastodon_hosting.html){:target="_blank"}.
+░ I’m also a webdev and a sysadmin. My website is hosted via Github, and I administer my Sharkey instance a VPS at [elestio](https://dash.elest.io/login){:target="_blank"}.
 
 ░ Best-selling artist behind the retrowave/darksynth moniker Eyeshadow 2600 FM, long-time Second Life creator behind the in-world brand [REVOSA], and life-long word cruncher and self published author, currently writing the next two novels in a series of topsy-turvy science fiction, starting with the companion novel to the album, DISSOLUTION PROTOCOL.
 
