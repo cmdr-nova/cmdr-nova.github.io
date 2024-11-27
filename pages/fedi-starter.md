@@ -8,8 +8,8 @@ Bluesky has automated starter packs that you add users to in a list, that other 
 
 *Fedi following is a bit different if you're unfamiliar with it. Each link leads to the version of these accounts that exist on my instance via federation, but you can follow either by copying their usernames plus instance name, or by clicking the "Follow" button on their profiles and entering the address to the instance you're currently logged into.*
 
-<img class="dynamic-avatar no-center pack-avatar" src="https://mkultra.monster/system/accounts/avatars/111/939/142/189/797/780/original/f0c02ed45a83472f.png" height="100" width="100">
-<b>@cmdr_nova@mkultra.monster</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@cmdr_nova', '_blank')">Follow</button>
+<img class="no-center pack-avatar" src="/img/avatar/nova.webp" height="100" width="100">
+<b>@cmdr_nova@sharkey.mkultra.monster</b> <button class="post-buttons" onclick="window.open('https://sharkey.mkultra.monster/@cmdr_nova', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -22,9 +22,6 @@ Bluesky has automated starter packs that you add users to in a list, that other 
 ░ Pronouns : They/them // Gender : Immortal Machine // Sexuality : Pan // Age: 39
 </p>
 <p>
-░ https://mkultra.monster/about
-</p>
-<p>
 ░ Matrix: @cmdr_nova:matrix.org
 </p>
 <p>
@@ -35,8 +32,8 @@ Bluesky has automated starter packs that you add users to in a list, that other 
 <hr>
 <br />
 
-<img class="no-center pack-avatar" src="https://mkultra.monster/system/cache/accounts/avatars/112/160/122/872/014/889/original/e2997ff505947c3e.png" height="100" width="100">
-<b>@shellsharks@shellsharks.social</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@shellsharks@shellsharks.social', '_blank')">Follow</button>
+<img class="no-center pack-avatar" src="https://cdn.masto.host/shellsharkssocial/accounts/avatars/112/139/341/516/955/504/original/2ecd28fc2741ff0e.png" height="100" width="100">
+<b>@shellsharks@shellsharks.social</b> <button class="post-buttons" onclick="window.open('https://shellsharks.social/@shellsharks', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -54,7 +51,7 @@ Profile picture: A red shark holding a terminal window shaped like a surfboard. 
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/albi.png" height="100" width="100">
-<b>@albinanigans@weirder.earth</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@albinanigans@weirder.earth', '_blank')">Follow</button>
+<b>@albinanigans@weirder.earth</b> <button class="post-buttons" onclick="window.open('https://weirder.earth/@albinanigans', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -69,7 +66,7 @@ Sincere, Weird, & Goofyly Intrusive! Still enjoying the blogging and HTMLing. Re
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/wait.png" height="100" width="100">
-<b>@waitworry@sakurajima.moe</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@waitworry@sakurajima.moe', '_blank')">Follow</button>
+<b>@waitworry@sakurajima.moe</b> <button class="post-buttons" onclick="window.open('https://sakurajima.moe/@waitworry', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -81,7 +78,7 @@ trans lesbian who watches too much anime may have occasional extreme political t
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/jo.png" height="100" width="100">
-<b>@jo@noavailabledisk.space</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@jo@noavailabledisk.space', '_blank')">Follow</button>
+<b>@jo@noavailabledisk.space</b> <button class="post-buttons" onclick="window.open('https://noavailabledisk.space/@jo', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -96,7 +93,7 @@ Profile pic: screenshot from the music video for Brave New World (The Opera Song
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/gabbo.webp" height="100" width="100">
-<b>@gabboman@app.wafrn.net</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@gabboman@app.wafrn.net', '_blank')">Follow</button>
+<b>@gabboman@app.wafrn.net</b> <button class="post-buttons" onclick="window.open('https://app.wafrn.net/blog/gabboman', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -123,7 +120,7 @@ Send me a DM with the structure !ask @gabboman@app.wafrn.net [YOUR QUESTION HERE
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/kye.jpg" height="100" width="100">
-<b>@Kye@tech.lgbt</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@Kye@tech.lgbt', '_blank')">Follow</button>
+<b>@Kye@tech.lgbt</b> <button class="post-buttons" onclick="window.open('https://tech.lgbt/@Kye', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -135,7 +132,7 @@ Furry (wahx [red panda + fennec fox]). they/them. ace. Writer, musician, and art
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/celeste.png" height="100" width="100">
-<b>@celestestormysea@yiff.life</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@celestestormysea@yiff.life', '_blank')">Follow</button>
+<b>@celestestormysea@yiff.life</b> <button class="post-buttons" onclick="window.open('https://yiff.life/@celestestormysea', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -151,7 +148,7 @@ Furry (wahx [red panda + fennec fox]). they/them. ace. Writer, musician, and art
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/josh.png" height="100" width="100">
-<b>@josh@masto.byrd.ws</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@josh@masto.byrd.ws', '_blank')">Follow</button>
+<b>@josh@masto.byrd.ws</b> <button class="post-buttons" onclick="window.open('https://masto.byrd.ws/@josh', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -163,7 +160,7 @@ just some dude you might know. this is my single-user instance running on an int
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/pokemon.png" height="100" width="100">
-<b>@pokemon@tomkahe.com</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@pokemon@tomkahe.com', '_blank')">Follow</button>
+<b>@pokemon@tomkahe.com</b> <button class="post-buttons" onclick="window.open('https://tomkahe.com/@pokemon', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -181,7 +178,7 @@ Send feature suggestions or bugs on the repository or by tagging @tom
 <br />
 
 <img class="no-center pack-avatar" src="/img/starter-pack/pinball.png" height="100" width="100">
-<b>@PinballWitch@mastodon.social</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@PinballWitch@mastodon.social', '_blank')">Follow</button>
+<b>@PinballWitch@mastodon.social</b> <button class="post-buttons" onclick="window.open('https://mastodon.social/@PinballWitch', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
@@ -194,7 +191,7 @@ Mx. Rachel Odessa Silver: Autistic, Disabled, Nonbinary Trans Woman, Polyamorous
 
 <img class="no-center pack-avatar" src="/img/starter-pack/0x4.png" height="100" width="100">
 <b>
-@0x4d6165@wanderingwires.net</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@0x4d6165@wanderingwires.net', '_blank')">Follow</button>
+@0x4d6165@wanderingwires.net</b> <button class="post-buttons" onclick="window.open('https://wanderingwires.net/@0x4d6165', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>

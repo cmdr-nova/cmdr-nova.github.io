@@ -3,11 +3,22 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-11-26T10:30:06-05:00</updated>
+  <updated>2024-11-26T19:17:30-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>Testing Auto-Posting to Sharkey</title>
+    <link href="http://localhost:4000/testing/2024/11/26/testing-auto-posting-to-sharkey.html"/>
+    <updated>2024-11-26T18:31:00-05:00</updated>
+    <id>http://localhost:4000/testing/2024/11/26/testing-auto-posting-to-sharkey.html</id>
+    <content type="html"><![CDATA[
+      If I’ve done this correctly … this post should go directly to my Sharkey account after I hit the commit button and the build process completes. Let’s see what happens.
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Spotify, Finally Useful for Something</title>

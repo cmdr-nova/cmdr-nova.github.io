@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const profileUrl = 'https://mkultra.monster/@cmdr_nova';
+  const profileUrl = 'https://sharkey.mkultra.monster/@cmdr_nova';
   const authorLinks = document.querySelectorAll('.author-link'); // Select all elements with the class 'author-link'
 
   async function updateAuthor() {
