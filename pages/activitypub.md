@@ -74,7 +74,7 @@ permalink: /pages/activitypub/
 
 
 
-<p>And it&#8217;s very important to take heed of the &#8220;about&#8221; and &#8220;rules&#8221; pages on each instance you think you might like to join, because, like with all things, there are people using this open source software for evil means (nazism, CSA content, etc). But! Do not fret! It is very easy to spot these things, and you can also get an initial idea of which instances are bad by viewing this <a href="https://github.com/gardenfence/blocklist/blob/main/gardenfence-mastodon.csv" target="_blank" rel="noreferrer noopener nofollow">public block list</a> (this is the list I started with on my own instance at <a href="https://mkultra.monster/" target="_blank" rel="noreferrer noopener nofollow">mkultra.monster</a>)</p>
+<p>And it&#8217;s very important to take heed of the &#8220;about&#8221; and &#8220;rules&#8221; pages on each instance you think you might like to join, because, like with all things, there are people using this open source software for evil means (nazism, CSA content, etc). But! Do not fret! It is very easy to spot these things, and you can also get an initial idea of which instances are bad by viewing this <a href="https://github.com/gardenfence/blocklist/blob/main/gardenfence-mastodon.csv" target="_blank" rel="noreferrer noopener nofollow">public block list</a> (this is the list I started with on my own instance at <a href="https://sharkey.mkultra.monster/" target="_blank" rel="noreferrer noopener nofollow">mkultra.monster</a>)</p>
 
 
 
@@ -149,7 +149,7 @@ permalink: /pages/activitypub/
 
 <li>Can I see people on Bluesky?
 <ul>
-<li>Not initially, but if you follow <a href="https://mkultra.monster/@bsky.brid.gy@bsky.brid.gy" target="_blank" rel="noreferrer noopener nofollow">this account</a> your posts will be fed to Bluesky, and in-turn allow for interaction with Bluesky users (BSKY uses a different protocol, and while I have my opinions on this, I&#8217;ll save those for later).</li>
+<li>Not initially, but if you follow <a href="https://fed.brid.gy" target="_blank" rel="noreferrer noopener nofollow">this account</a> your posts will be fed to Bluesky, and in-turn allow for interaction with Bluesky users (BSKY uses a different protocol, and while I have my opinions on this, I&#8217;ll save those for later).</li>
 </ul>
 </li>
 
@@ -180,7 +180,7 @@ permalink: /pages/activitypub/
 
 
 
-<p>If you have any additional questions, I would be more than happy to speak to you over at <a href="https://mkultra.monster/@cmdr_nova" target="_blank" rel="noreferrer noopener nofollow">my instance</a>. I hope this list and information has helped, and if you&#8217;ve decided to join us, welcome! Welcome to the open web.</p>
+<p>If you have any additional questions, I would be more than happy to speak to you over at <a href="https://sharkey.mkultra.monster/@cmdr_nova" target="_blank" rel="noreferrer noopener nofollow">my instance</a>. I hope this list and information has helped, and if you&#8217;ve decided to join us, welcome! Welcome to the open web.</p>
 
 
 
