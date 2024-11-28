@@ -1831,3 +1831,30 @@ li {
   display: block !important;
   margin: 0 auto !important;
 }
+
+/* Sharkey */
+
+.misskey-embed {
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.custom-header {
+  background-color: #1d1d1d;
+  color: #fff;
+  padding: 10px;
+  max-width: 220px;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+.light-mode .custom-header {
+  background-color: #b6b6b6;
+  color: #000;
+}
+
+.iframe-container {
+  max-height: 100%;
+  overflow-y: auto;
+}
