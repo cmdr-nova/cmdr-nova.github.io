@@ -13,7 +13,13 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (response.ok) {
-        const text = await response.text();
+        let text = await response.text();
+
+        // Modify the fetched content to update URLs to absolute URLs
+        const baseUrl = 'https://sharkey.mkultra.monster';
+        text = text.replace(/href="\/([^"]*)"/g, `href="${baseUrl}/$1"`);
+        text = text.replace(/src="\/([^"]*)"/g, `src="${baseUrl}/$1"`);
+
         embedContainer.innerHTML = text;
         console.log('Embed content loaded successfully');
       } else {
