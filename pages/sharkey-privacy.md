@@ -37,4 +37,4 @@ We may update this Privacy Policy from time to time. We will post any changes to
 
 <b>Contact Us</b>
 
-If you have any questions about this Privacy Policy, please contact us at net_run@mkultra.monster. 
+If you have any questions about this Privacy Policy, please contact us at <a href="mailto:net_run@mkultra.monster">net_run@mkultra.monster</a>. 
