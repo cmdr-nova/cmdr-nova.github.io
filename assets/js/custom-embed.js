@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const embedContainer = document.getElementById('sharkey-embed');
   const embedUrl = 'https://sharkey.mkultra.monster/embed/user-timeline/a12gq0kqygqr0001';
-  const proxyUrl = `http://server.mkultra.monster:3001/proxy?url=${encodeURIComponent(embedUrl)}`;
+  const proxyUrl = `https://server.mkultra.monster:3001/proxy?url=${encodeURIComponent(embedUrl)}`;
 
   async function fetchEmbedContent() {
     try {
