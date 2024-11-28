@@ -35,6 +35,6 @@ We take reasonable measures to protect your information from unauthorized access
 
 We may update this Privacy Policy from time to time. We will post any changes to this Privacy Policy on this page. We encourage you to review this Privacy Policy periodically for any changes. 
 
-Contact Us
+<b>Contact Us</b>
 
 If you have any questions about this Privacy Policy, please contact us at net_run@mkultra.monster. 
