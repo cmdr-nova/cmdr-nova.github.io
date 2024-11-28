@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Thoughts"
 tag: [sharkey, socialmedia, activitypub]
-#comments:
-#    host: sharkey.mkultra.monster
-#    username: cmdr_nova
-#    id: a12o4e5m46f200pl
+comments:
+    host: moth.social
+    username: cmdr_nova@sharkey.mkultra.monster
+    id: 113557513471766896
 ---
 Yesterday I posted about launching a Sharkey instance, and liking it so much, I decided to *move to it*, and move off of the managed Mastodon instance I had. Now that I've done that, it's time to get back to work in figuring out how I can integrate my Sharkey instance into my website (such as like inserting my post feed into a side-bar, having trending topics on my side-bar, and so on).
 

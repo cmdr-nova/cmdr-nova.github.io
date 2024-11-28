@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Sharkey"
 tag: [sharkey, activitypub, socialmedia]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: moth.social
+    username: cmdr_nova@sharkey.mkultra.monster
+    id: 113552203013789102
 ---
 Today I was messing around with a Linux VPS, like you do. And I thought to myself, "I wonder what it would be like to launch a Sharkey instance?" And so I did! And, while I *have* had prior experience with Sharkey ... I like to run things myself. I like to tinker with them. And now I have a full Sharkey instance, *that I can surely edit to my liking on the command line*.
 
