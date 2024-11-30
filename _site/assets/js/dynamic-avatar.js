@@ -1,36 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
   const avatarElements = document.querySelectorAll('.dynamic-avatar'); // Select all elements with the class 'dynamic-avatar'
   const profileUrl = 'https://sharkey.mkultra.monster/@cmdr_nova';
+  const proxyUrl = `https://server.mkultra.monster:3001/avatar-proxy?url=${encodeURIComponent(profileUrl)}`;
+
+  // Hide avatar elements initially
+  avatarElements.forEach(avatarElement => {
+    avatarElement.style.visibility = 'hidden';
+  });
 
   async function updateAvatar() {
     try {
-      const response = await fetch(profileUrl, {
+      const response = await fetch(proxyUrl, {
         method: 'GET',
         headers: {
-          'Content-Type': 'text/html'
+          'Content-Type': 'text/plain'
         }
       });
 
       if (response.ok) {
-        const text = await response.text();
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(text, 'text/html');
-        const metaOgImage = doc.querySelector('meta[property="og:image"]');
-        const latestAvatarUrl = metaOgImage ? metaOgImage.content : null;
+        const avatarUrl = await response.text();
 
-        if (latestAvatarUrl) {
+        if (avatarUrl) {
           avatarElements.forEach(avatarElement => {
-            avatarElement.src = latestAvatarUrl;
+            avatarElement.src = avatarUrl;
+            avatarElement.style.visibility = 'visible'; // Show avatar elements after updating
           });
-          console.log('Avatar updated to:', latestAvatarUrl);
+          console.log('Avatar updated to:', avatarUrl);
         } else {
           console.error('No avatar URL found in the profile page');
         }
       } else {
-        console.error('Failed to fetch the profile page');
+        console.error('Failed to fetch the avatar URL');
       }
     } catch (error) {
-      console.error('Error fetching the profile page:', error);
+      console.error('Error fetching the avatar URL:', error);
     }
   }
 
