@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Gaming"
 tag: [diablo4, gaming, blizzard]
-#comments:
-#    host: moth.social
-#    username: cmdr_nova@sharkey.mkultra.monster
-#    id: 
+comments:
+    host: moth.social
+    username: cmdr_nova@sharkey.mkultra.monster
+    id: 113569600017998446
 ---
 It's a tale as old as time. You buy 400 games on Steam, but ultimately you end up back in a Blizzard game. Or, ... in this day and age, an ActiBlizzard game. Or, in this specific day and age, *Diablo 4*, so that you can prove you're better than Elon Musk.
 
