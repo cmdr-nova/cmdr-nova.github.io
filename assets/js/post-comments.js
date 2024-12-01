@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const postId = window.location.pathname; // Use the post URL as the unique post ID
-    const commentsList = document.getElementById('comments-list');
-    const commentForm = document.getElementById('comment-form');
-    const commentAuthor = document.getElementById('comment-author');
-    const commentContent = document.getElementById('comment-content');
+    const commentsList = document.getElementById('post-comments-list');
+    const commentForm = document.getElementById('post-comment-form');
+    const commentAuthor = document.getElementById('post-comment-author');
+    const commentContent = document.getElementById('post-comment-content');
     const proxyUrl = `https://server.mkultra.monster:3003/post-comments`;
   
     async function fetchComments() {
