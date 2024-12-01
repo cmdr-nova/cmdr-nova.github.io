@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const commentsList = document.getElementById('post-comments-list');
     const commentForm = document.getElementById('post-comment-form');
     const commentAuthor = document.getElementById('post-comment-author');
+    const commentFediverse = document.getElementById('post-comment-fediverse');
     const commentContent = document.getElementById('post-comment-content');
     const proxyUrl = `https://server.mkultra.monster:3003/post-comments`;
   
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             commentElement.classList.add('comment');
             commentElement.innerHTML = `
               <p><strong>${comment.author}</strong> <em>${new Date(comment.timestamp).toLocaleString()}</em></p>
+              ${comment.fediverse ? `<p><a href="https://${comment.fediverse}" target="_blank">${comment.fediverse}</a></p>` : ''}
               <p>${comment.content}</p>
             `;
             commentsList.appendChild(commentElement);
@@ -32,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function submitComment(event) {
       event.preventDefault();
       const author = commentAuthor.value;
+      const fediverse = commentFediverse.value;
       const content = commentContent.value;
   
       try {
@@ -40,11 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
           headers: {
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({ postId, author, content })
+          body: JSON.stringify({ postId, author, fediverse, content })
         });
   
         if (response.ok) {
           commentAuthor.value = '';
+          commentFediverse.value = '';
           commentContent.value = '';
           fetchComments(); // Refresh the comments list
         } else {
