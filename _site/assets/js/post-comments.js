@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('post-comments.js loaded'); // Initial debugging output
+  
     const postId = window.location.pathname; // Use the post URL as the unique post ID
     const commentsList = document.getElementById('post-comments-list');
     const commentForm = document.getElementById('post-comment-form');
