@@ -6,10 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social Media"
 tag: [sharkey, socialmedia, mastodon, activitypub]
-#comments:
-#    host: moth.social
-#    username: cmdr_nova@sharkey.mkultra.monster
-#    id: 
+comments:
+    host: moth.social
+    username: cmdr_nova@sharkey.mkultra.monster
+    id: 113574993754078088
 ---
 I've been spending a couple of days now with using Sharkey. Bandwidth usage is around 65 gigs at the moment, up 10 more gigs from yesterday. This seems to tell me that, apart form initial load, and cramming my new server directly into a wall of thousands of other servers, I'll probably be around 3 terabytes of bandwidth usage per month (out of 20 terabytes allowed). This kind of scares me, but there are *options* for mitigating this *one* remaining issue with scaling the fediverse for a normal person, with normal person money. That aside, it *is* a little jarring using the fediverse, immersing yourself in it, *while not being on Mastodon*.
 
