@@ -1872,6 +1872,11 @@ li {
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+.light-mode #post-comments-section {
+  background-color: #d1d1d1;
+  border-color: #000;
+}
+
 #post-comments-section h3 {
   margin-bottom: 10px;
 }
@@ -1892,6 +1897,11 @@ li {
   resize: vertical; /* Allow vertical resizing only */
 }
 
+.light-mode #post-comment-form input,
+.light-mode #post-comment-form textarea {
+  border-color: #000;
+}
+
 #post-comment-form button {
   padding: 10px 20px;
   background-color: #2c2c2c;
@@ -1901,8 +1911,17 @@ li {
   cursor: pointer;
 }
 
+.light-mode #post-comment-form button {
+  background-color: #d8d8d8;
+  color: #000;
+}
+
 #post-comment-form button:hover {
   background-color: #04d8fd;
+}
+
+.light-mode #post-comment-form button:hover {
+  background-color: #a1a1a1;
 }
 
 #post-comments-list .comment {
@@ -1911,6 +1930,12 @@ li {
   border: 1px solid #08ffde;
   border-radius: 5px;
   background-color: #242424;
+  box-sizing: border-box;
+}
+
+.light-mode #post-comments-list .comment {
+  border-color: #000;
+  background-color: #d1d1d1;
 }
 
 #post-comments-list .comment p {
