@@ -43,10 +43,21 @@ layout: default
 <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url }}', '_blank')">Share on Reddit</button>
 
 </div>
-
+<!--
 {%- if page.comments -%}
 {%- include fediverse_comments.html -%}
 {%- endif -%}
+-->
+
+<div id="comments-section">
+  <h3>Comments</h3>
+  <div id="comments-list"></div>
+  <form id="comment-form">
+    <input type="text" id="comment-author" placeholder="Your name" required>
+    <textarea id="comment-content" placeholder="Your comment" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
 
 <meta name="fediverse:creator" content="@cmdr_nova@mkultra.monster">
 
