@@ -8,6 +8,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const commentFediverse = document.getElementById('post-comment-fediverse');
     const commentContent = document.getElementById('post-comment-content');
     const proxyUrl = `https://server.mkultra.monster:3003/post-comments`;
+    const forbiddenWordsUrl = '/assets/forbidden-words.json'; // URL to the forbidden words JSON file
+  
+    let forbiddenWords = [];
+  
+    // Load forbidden words from JSON file
+    async function loadForbiddenWords() {
+      try {
+        const response = await fetch(forbiddenWordsUrl);
+        if (response.ok) {
+          forbiddenWords = await response.json();
+          console.log('Forbidden words loaded:', forbiddenWords);
+        } else {
+          console.error('Failed to load forbidden words');
+        }
+      } catch (error) {
+        console.error('Error loading forbidden words:', error);
+      }
+    }
   
     async function fetchComments() {
       try {
@@ -48,6 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const fediverse = commentFediverse.value;
       const content = commentContent.value;
   
+      // Check for forbidden words
+      const containsForbiddenWords = forbiddenWords.some(word => content.toLowerCase().includes(word.toLowerCase()));
+      if (containsForbiddenWords) {
+        alert('Your comment contains forbidden words and cannot be submitted.');
+        return;
+      }
+  
       console.log('Submitting comment:', { postId, author, fediverse, content });
   
       try {
@@ -74,5 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     commentForm.addEventListener('submit', submitComment);
+    loadForbiddenWords(); // Load forbidden words on page load
     fetchComments(); // Initial fetch of comments
   });
