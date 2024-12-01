@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
               const fediverseParts = comment.fediverse.split('@').filter(Boolean);
               if (fediverseParts.length === 2) {
                 fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${comment.fediverse}</a></p>`;
+              } else {
+                fediverseLink = `<p>${comment.fediverse}</p>`;
               }
             }
             commentElement.innerHTML = `
