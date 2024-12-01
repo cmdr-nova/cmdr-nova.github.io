@@ -46,6 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const fediverse = commentFediverse.value;
       const content = commentContent.value;
   
+      console.log('Submitting comment:', { postId, author, fediverse, content });
+  
       try {
         const response = await fetch(proxyUrl, {
           method: 'POST',
@@ -56,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
   
         if (response.ok) {
+          console.log('Comment submitted successfully');
           commentAuthor.value = '';
           commentFediverse.value = '';
           commentContent.value = '';
