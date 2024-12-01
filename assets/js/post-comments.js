@@ -16,9 +16,16 @@ document.addEventListener('DOMContentLoaded', () => {
           comments.forEach(comment => {
             const commentElement = document.createElement('div');
             commentElement.classList.add('comment');
+            let fediverseLink = '';
+            if (comment.fediverse) {
+              const fediverseParts = comment.fediverse.split('@').filter(Boolean);
+              if (fediverseParts.length === 2) {
+                fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${comment.fediverse}</a></p>`;
+              }
+            }
             commentElement.innerHTML = `
               <p><strong>${comment.author}</strong> <em>${new Date(comment.timestamp).toLocaleString()}</em></p>
-              ${comment.fediverse ? `<p><a href="https://${comment.fediverse}" target="_blank">${comment.fediverse}</a></p>` : ''}
+              ${fediverseLink}
               <p>${comment.content}</p>
             `;
             commentsList.appendChild(commentElement);
