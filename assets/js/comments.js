@@ -26,12 +26,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .then(response => response.json())
     .then(data => {
-      if (data.error) {
-        alert(data.error);
-      } else {
-        console.log('Success:', data);
-        renderComments();
-      }
+      console.log('Success:', data);
+      renderComments();
     })
     .catch((error) => {
       console.error('Error:', error);
@@ -54,7 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const start = (currentPage - 1) * commentsPerPage;
     const end = start + commentsPerPage;
     const paginatedComments = comments.slice(start, end);
-
     commentsList.innerHTML = '';
     paginatedComments.forEach(comment => {
       const commentElement = document.createElement('div');
@@ -62,25 +57,25 @@ document.addEventListener('DOMContentLoaded', () => {
       commentElement.innerHTML = `
         <p><strong>${comment.name}</strong> ${comment.website ? `<a href="${comment.website}" target="_blank">${comment.website}</a>` : ''}</p>
         <p>${comment.message}</p>
-        <p><small>${new Date(comment.date).toLocaleString()}</small></p>
+        <p><em>${new Date(comment.date).toLocaleString()}</em></p>
       `;
       commentsList.appendChild(commentElement);
     });
-
     renderPagination(totalPages);
   }
 
   function renderPagination(totalPages) {
     pagination.innerHTML = '';
     for (let i = 1; i <= totalPages; i++) {
-      const button = document.createElement('button');
-      button.textContent = i;
-      button.disabled = i === currentPage;
-      button.addEventListener('click', () => {
+      const pageLink = document.createElement('a');
+      pageLink.href = '#';
+      pageLink.textContent = i;
+      pageLink.addEventListener('click', (e) => {
+        e.preventDefault();
         currentPage = i;
         getComments();
       });
-      pagination.appendChild(button);
+      pagination.appendChild(pageLink);
     }
   }
 
