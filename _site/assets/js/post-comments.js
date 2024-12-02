@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('post-comments.js loaded'); // Initial debugging output
+  console.log('post-comments.js loaded'); // Debugging output
 
-  const postId = window.location.pathname; // Use the post URL as the unique post ID
+  const postId = window.location.pathname; // Makes sure that each post has it's own dang ol' comments
   const commentsList = document.getElementById('post-comments-list');
   const commentForm = document.getElementById('post-comment-form');
   const commentAuthor = document.getElementById('post-comment-author');
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         commentAuthor.value = '';
         commentFediverse.value = '';
         commentContent.value = '';
-        fetchComments(); // Refresh the comments list
+        fetchComments(); // Refreshes the comments
       } else {
         console.error('Failed to submit comment');
       }
@@ -74,5 +74,5 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   commentForm.addEventListener('submit', submitComment);
-  fetchComments(); // Initial fetch of comments
+  fetchComments(); // The initial fetch (that's so fetch)
 });
