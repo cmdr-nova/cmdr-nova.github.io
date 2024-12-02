@@ -3,11 +3,38 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-12-02T01:10:13-05:00</updated>
+  <updated>2024-12-02T01:46:02-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>Alright FlufferMuckers, Comment Section Fully Complete</title>
+    <link href="http://localhost:4000/web%20dev/2024/12/02/alright-fluffermuckers-comment-section-fully-complete.html"/>
+    <updated>2024-12-02T01:39:00-05:00</updated>
+    <id>http://localhost:4000/web%20dev/2024/12/02/alright-fluffermuckers-comment-section-fully-complete.html</id>
+    <content type="html"><![CDATA[
+      Earlier yesterday (at this point), I quickly posted about a new comment section thing I made for my blog, and in all reality, it wasn’t finished. Someone on the fedi mentioned that forbidden words should be server-side. I also noticed that I didn’t really have a way to know that comments were coming in. Now I do. It’s all there, and I put it up on the Github.
+
+Github: Jekyll-Comments
+
+Basically, this includes the functionality I made much earlier over the past day or so, along with the fediverse handle link building. But now the bad words are on the server, so if you try to post anything with a word or phrase that I’ve said I don’t want here, you cannot post at all.
+
+Not only that, I’m using Google’s API to send me an e-mail any time there’s a new comment.
+
+It’s all in the repository so that you can see how it’s done, and use it yourself … if you have a Jekyll blog.
+
+Or, a blog that uses Liquid.
+
+Although, I’m sure if you’re fairly competent you can retool it to be used anywhere.
+
+That’s it brosefinas, I’m frikken sleepy as butts.
+
+I’m outtie 5 billion.
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>New Post Comment Sections!</title>
