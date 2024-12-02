@@ -26,8 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .then(response => response.json())
     .then(data => {
-      console.log('Success:', data);
-      renderComments();
+      if (data.error) {
+        alert(data.error);
+      } else {
+        console.log('Success:', data);
+        renderComments();
+      }
     })
     .catch((error) => {
       console.error('Error:', error);
