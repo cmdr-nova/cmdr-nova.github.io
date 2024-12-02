@@ -3,11 +3,28 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-12-01T10:22:07-05:00</updated>
+  <updated>2024-12-01T22:42:19-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>New Post Comment Sections!</title>
+    <link href="http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html"/>
+    <updated>2024-12-01T10:28:00-05:00</updated>
+    <id>http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html</id>
+    <content type="html"><![CDATA[
+      I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username.
+
+In order to show your fediverse username and have it link to your account, follow the example in the input field, e.g., @username@fediverse.server and then when you post a comment, the JavaScript will build a link from that information.
+
+And, your comments are saved on my server! Voila!
+
+Okay, time for work.
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Hundreds of Games, But I Keep Giving Blizzard Money</title>
