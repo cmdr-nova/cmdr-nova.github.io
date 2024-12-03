@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Back to the Masto",
+      "category" : "",
+      "tags"     : "mastodon, socialmedia, install, activitypub",
+      "url"      : "/social%20media/2024/12/03/back-to-the-masto.html",
+      "date"     : "2024-12-03 00:46:00 -0500"
+    } ,
+  
+    {
       "title"    : "Alright FlufferMuckers, Comment Section Fully Complete",
       "category" : "",
       "tags"     : "webdev, scripting, comments, jekyll",
