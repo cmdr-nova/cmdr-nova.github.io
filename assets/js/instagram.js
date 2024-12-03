@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
   
         // Extract the JSON data from the script tag
-        const sharedDataJson = sharedDataScript.match(/window\._sharedData = (.+);/)[1];
+        const sharedDataJson = sharedDataScript.match(/window\._sharedData\s*=\s*(\{.+\});/)[1];
         const sharedData = JSON.parse(sharedDataJson);
   
         // Extract the latest five posts
