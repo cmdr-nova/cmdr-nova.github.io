@@ -1941,3 +1941,14 @@ li {
 #post-comments-list .comment p {
   margin: 5px 0;
 }
+
+.instagram-grid {
+  max-width: 245px;
+  overflow: hidden;
+}
+
+.instagram-media {
+  max-width: 245px !important;
+  min-width: 245px !important;
+  width: 245px !important;
+}
