@@ -1942,6 +1942,8 @@ li {
   margin: 5px 0;
 }
 
+/* Instagram Embed */
+
 .instagram-grid {
   max-width: 240px;
   overflow: hidden;
@@ -1953,10 +1955,6 @@ li {
   min-width: 240px !important;
   width: 240px !important;
   margin: 0 auto; /* Center the embed */
-}
-
-/* Override Instagram embed colors */
-.instagram-media {
   background-color: #242424 !important; /* Change background color */
   border-color: #303030 !important; /* Change border color */
 }
