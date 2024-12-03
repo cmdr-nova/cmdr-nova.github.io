@@ -1943,12 +1943,49 @@ li {
 }
 
 .instagram-grid {
-  max-width: 245px;
+  max-width: 240px;
   overflow: hidden;
+  margin: 0 auto; /* Center the grid */
 }
 
 .instagram-media {
-  max-width: 245px !important;
-  min-width: 245px !important;
-  width: 245px !important;
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+  margin: 0 auto; /* Center the embed */
+}
+
+/* Override Instagram embed colors */
+.instagram-media {
+  background-color: #242424 !important; /* Change background color */
+  border-color: #303030 !important; /* Change border color */
+}
+
+.light-mode .instagram-media {
+  background-color: #d1d1d1 !important;
+  border-color: #000 !important;
+}
+
+.instagram-media a {
+  color: #c8ff00 !important; /* Change link color */
+}
+
+.light-mode .instagram-media a {
+  color: #000 !important;
+}
+
+.instagram-media .instagram-media-inner {
+  background-color: #242424 !important; /* Change inner background color */
+}
+
+.light-mode .instagram-media .instagram-media-inner {
+  background-color: #d1d1d1 !important;
+}
+
+.instagram-media .instagram-media-content {
+  color: #f7f7f7 !important; /* Change text color */
+}
+
+.light-mode .instagram-media .instagram-media-content {
+  color: #000 !important;
 }
