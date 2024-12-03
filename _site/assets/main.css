@@ -1972,18 +1972,37 @@ li {
   color: #000 !important;
 }
 
-.instagram-media .instagram-media-inner {
+/* Override styles for the embed class */
+.instagram-media.embed {
+  background-color: #242424 !important; /* Change background color */
+  border-color: #303030 !important; /* Change border color */
+}
+
+.light-mode .instagram-media.embed {
+  background-color: #d1d1d1 !important;
+  border-color: #000 !important;
+}
+
+.instagram-media.embed a {
+  color: #c8ff00 !important; /* Change link color */
+}
+
+.light-mode .instagram-media.embed a {
+  color: #000 !important;
+}
+
+.instagram-media.embed .instagram-media-inner {
   background-color: #242424 !important; /* Change inner background color */
 }
 
-.light-mode .instagram-media .instagram-media-inner {
+.light-mode .instagram-media.embed .instagram-media-inner {
   background-color: #d1d1d1 !important;
 }
 
-.instagram-media .instagram-media-content {
+.instagram-media.embed .instagram-media-content {
   color: #f7f7f7 !important; /* Change text color */
 }
 
-.light-mode .instagram-media .instagram-media-content {
+.light-mode .instagram-media.embed .instagram-media-content {
   color: #000 !important;
 }
