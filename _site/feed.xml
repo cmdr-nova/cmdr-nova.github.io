@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-03T17:01:25-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Back to the Masto</title><link href="http://localhost:4000/social%20media/2024/12/03/back-to-the-masto.html" rel="alternate" type="text/html" title="Back to the Masto" /><published>2024-12-03T00:46:00-05:00</published><updated>2024-12-03T00:46:00-05:00</updated><id>http://localhost:4000/social%20media/2024/12/03/back-to-the-masto</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/12/03/back-to-the-masto.html"><![CDATA[<p>Much to probably nobody’s surprise, I am <em>very</em> indecisive, and I can’t figure out what I want to do. In my ActivityPub distro-hopping adventures, I’ve installed Mastodon onto a VPS, and switched back. Not because Sharkey is <em>bad</em>, or not to my liking. It’s great! But I can’t keep myself away from the Mastodon software. Even if Sharkey has some advantages over it.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-04T19:30:39-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Why I’m Blocking Threads From MKULTRA</title><link href="http://localhost:4000/social%20media/2024/12/04/why-i-m-blocking-threads-from-mkultra.html" rel="alternate" type="text/html" title="Why I’m Blocking Threads From MKULTRA" /><published>2024-12-04T18:00:00-05:00</published><updated>2024-12-04T18:00:00-05:00</updated><id>http://localhost:4000/social%20media/2024/12/04/why-i-m-blocking-threads-from-mkultra</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/12/04/why-i-m-blocking-threads-from-mkultra.html"><![CDATA[<p>You may remember the hosted version of mkultra.monster, wherein I wasn’t initially blocking Threads (I’m very much not a bandwagon type of person). I thought it was kind of neat that a <em>billion dollar platform</em> was attempting to interface with ActivityPub, and it seemed to <em>at least</em> be at odds with Twitter. And, you know, I know a handful of people on Threads who are cool. But, like with many things, my opinions change. After relaunching <a href="https://mkultra.monster" target="_blank">mkultra.monster</a> on a self hosted droplet over at Digital Ocean, not only did this <em>accidentally</em> send a signal to Meta that I no longer exist, but they’re <em>on my instance blocklist, anyway</em>. Why? It’s no longer anywhere remotely <em>near</em> an okay idea.</p>
+
+<p>Mark Zuckerberg, as of writing this, is functionally <em>no different</em> than the man who destroyed and continues to destroy Twitter. Musk is the reason most of us are on Mastodon, Threads, and Bluesky, and Threads was, or at least I perceived it to <em>be</em>, a response to the destruction of Twitter.</p>
+
+<p>Lo and behold, Mark has decided to mirror the inclinations and ideologies of Lemon almost to a T, with absolutely zero foresight, or <em>common sense.</em></p>
+
+<p>But, he is a libertarian.</p>
+
+<p>See, when I was in my early twenties, I thought of myself as a libertarian. I thought of myself this way, because I had some messed up ideas about money, and how I thought society should be. Everything else was of no consequence to me, <em>at the time</em>.</p>
+
+<p>But, as I got older, and older I got, I kind of started to drift into left field.</p>
+
+<p>Working paycheck-to-paycheck jobs, being unable to <em>ever</em> buy a home, and possibly <em>never retire</em> will do that to a mfer.</p>
+
+<p>I moved past my initial political leanings, because I learned things. I met people. I put myself into places where I could meet, speak, and enjoy people who <em>weren’t</em> a carbon copy of myself.</p>
+
+<p>The problem, though, is that a billionaire can’t do that. Having billions of dollars breaks your brain … <em>literally</em>. It’s like what happens to a supervillain when they discover infinite power.</p>
+
+<p>Nothing actually matters.</p>
+
+<p>Because, <em>you can control what matters</em>.</p>
+
+<p>What’s the point in having strong political ideas, standards, and integrity, when you can buy your way out of any situation? When you can <em>buy anyone, and their loyalty, at any price</em>?</p>
+
+<p>So why should Zuckerberg <em>care</em> if inserting himself into the far right destroys his integrity, and public perception of him being at least 2% better than Sweaty Rat?</p>
+
+<p>That’s just it.</p>
+
+<p>When you have the power to launch a third social platform with no outside funding, <em>it doesn’t matter what you do</em>.</p>
+
+<p>So, enter; A man whose playthings are the lives of the people who populate his social marketplaces. And yes, I said, “marketplaces.” You <em>are</em>, after-all, the <em>product</em> on corporate social media. And now those lives are turned into a grifted campaign of artificial “intelligence” vacuuming, that puts your face, and my face, and John’s face, and Mary’s face, and your cat’s face into a database of sludge, <em>because he CAN!</em></p>
+
+<p>And now he seeks <a href="https://www.theguardian.com/us-news/2024/dec/03/trump-administration-mark-zuckerberg" target="_blank">government appointment</a>, to further this insanity of the destruction of authenticity, and probably likely also the planet.</p>
+
+<p>You should <em>run</em> from corporate social media. <em>Run, as fast as you can</em>.</p>
+
+<p>I understand not wanting to delete accounts. I keep mine in most places, and I hate the feeling of loss, and uncertainty. But, you should <em>start</em> to be elsewhere. Even if “starting” is on Bluesky, which is in danger of enshitification. Having been funded by a blockchain company, and having timelines filled with people doing almost nothing but shit-flinging constantly, day and night.</p>
+
+<p>And all of this <em>might</em> bring up the question in your mind, “Damn, why even bother with social media anymore? Why don’t I just disconnect and never participate again?”</p>
+
+<p>Go ahead.</p>
+
+<p>Try.</p>
+
+<p>Most of us will never escape it. Most of us will never leave, even if we hang on by the last threads of ActivityPub’s tendrils, because <em>we are a social species, and nobody talks in-person anymore</em>.</p>
+
+<p>Anyway, that’s why I’m blocking Threads from my Mastodon instance.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="mastodon" /><category term="socialmedia" /><category term="threads" /><category term="meta" /><summary type="html"><![CDATA[You may remember the hosted version of mkultra.monster, wherein I wasn’t initially blocking Threads (I’m very much not a bandwagon type of person). I thought it was kind of neat that a billion dollar platform was attempting to interface with ActivityPub, and it seemed to at least be at odds with Twitter. And, you know, I know a handful of people on Threads who are cool. But, like with many things, my opinions change. After relaunching mkultra.monster on a self hosted droplet over at Digital Ocean, not only did this accidentally send a signal to Meta that I no longer exist, but they’re on my instance blocklist, anyway. Why? It’s no longer anywhere remotely near an okay idea.]]></summary></entry><entry><title type="html">Back to the Masto</title><link href="http://localhost:4000/social%20media/2024/12/03/back-to-the-masto.html" rel="alternate" type="text/html" title="Back to the Masto" /><published>2024-12-03T00:46:00-05:00</published><updated>2024-12-03T00:46:00-05:00</updated><id>http://localhost:4000/social%20media/2024/12/03/back-to-the-masto</id><content type="html" xml:base="http://localhost:4000/social%20media/2024/12/03/back-to-the-masto.html"><![CDATA[<p>Much to probably nobody’s surprise, I am <em>very</em> indecisive, and I can’t figure out what I want to do. In my ActivityPub distro-hopping adventures, I’ve installed Mastodon onto a VPS, and switched back. Not because Sharkey is <em>bad</em>, or not to my liking. It’s great! But I can’t keep myself away from the Mastodon software. Even if Sharkey has some advantages over it.</p>
 
 <p>Mastodon, for sure, isn’t perfect. But I find myself having to think about <em>a lot less</em> when I’m running my own instance. In fact, I’ve done it so many times, I think it took me 20 minutes to setup the instance, and get everything configured correctly? Not that it was <em>hard</em> to setup Sharkey, but I’m getting good at this. My one issue with Sharkey, is that scaling means basically crippling your instance to have to reset all files for local and remote users to keep cache and bandwidth down, and without an automated way to do this, well.</p>
 
@@ -163,24 +209,4 @@
 
 <p>I understand that this is, for some, an <em>incredible</em> extra step to just signing up, and posting. But it’s <em>essential</em>. It … will really help avoid situations down the line where you’re suddenly asking the entire fediverse, “Hey, why are there so many trolls???” and then everyone’s pointing to your instance, that <em>has no rules</em>.</p>
 
-<p>If you decide Bluesky isn’t the right place for you, <em>don’t go back to Twitter.</em> Give the “Linux of social media” a chance, and <em>maybe</em> you won’t be disappointed. Mileage may vary, but there really is something to using software that is highly customizable, near completely user owned, and run.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="bluesky" /><category term="socialmedia" /><category term="mastodon" /><summary type="html"><![CDATA[Like I do, I’ve been semi-tracking and participating in the boom of the Bluesky social network, even though it’s not decentralized, currently, in any meaningful way. In my own experience, I’m having a hard time finding “my people.” I don’t even know if I have a “my people” anymore. But, that aside, from within my feed, I’m watching and seeing reports of constant troll attacks, some stating, “Yeah, I don’t like it here actually.” So, let’s talk about Mastodon, again, maybe?]]></summary></entry><entry><title type="html">Load Up the Gram, and Download It!</title><link href="http://localhost:4000/programming/2024/11/25/load-up-the-gram-and-download-it.html" rel="alternate" type="text/html" title="Load Up the Gram, and Download It!" /><published>2024-11-25T01:17:00-05:00</published><updated>2024-11-25T01:17:00-05:00</updated><id>http://localhost:4000/programming/2024/11/25/load-up-the-gram-and-download-it</id><content type="html" xml:base="http://localhost:4000/programming/2024/11/25/load-up-the-gram-and-download-it.html"><![CDATA[<p>Like an absolute madman, I slapped together a little Linux Python app for targeting an Instagram profile, and then downloading its entire contents. After <em>much</em> fussing with the unintuitive Github, and figuring out Twine, I <em>uploaded it directly into the fully public system where anyone can download and use it.</em> That’s right.</p>
-
-<p><img src="/img/posts/gramload/gramload.png" /></p>
-
-<p>Based on the “instaloader” code, I’ve put a GUI around it, and made it really simple to use. Just input the username of the profile you want to download (such as your own, so you can leave Instagram!), select a directory, and then download! It <em>may</em> ask you to input a username and a password, which you can also input in the provided fields (I had to do this).</p>
-
-<p>I don’t condone using this to be malicious in any way, shape, or form. But I do condone using it to pull all of your data off of Instagram so that you can use it elsewhere. And … I guess, also back it up, away from the prying eyes of Mark Zuckerberg.</p>
-
-<p>The source code is of course up on my github, but you don’t even need that in order to install anything. For the first time, <em>ever</em>, you can mess with one of my projects by just using a mainline Linux / Python command.</p>
-
-<p>Hoorah.</p>
-
-<p>It’s constructed in a way that, while downloading, it randomly spaces downloads out between 1 to 5 seconds, in order to avoid rate-limiting. I tested the app on multiple random profiles and never got rate-limited even <em>once</em>. Although, like all things, I’m sure it could still happen.</p>
-
-<p>But for now, I sleep.</p>
-
-<p>Now, load up your terminal and type in this:</p>
-
-<p><code>
-pip install gramload
-</code></p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Programming" /><category term="programming" /><category term="instagram" /><category term="app" /><summary type="html"><![CDATA[Like an absolute madman, I slapped together a little Linux Python app for targeting an Instagram profile, and then downloading its entire contents. After much fussing with the unintuitive Github, and figuring out Twine, I uploaded it directly into the fully public system where anyone can download and use it. That’s right.]]></summary></entry></feed>
+<p>If you decide Bluesky isn’t the right place for you, <em>don’t go back to Twitter.</em> Give the “Linux of social media” a chance, and <em>maybe</em> you won’t be disappointed. Mileage may vary, but there really is something to using software that is highly customizable, near completely user owned, and run.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social Media" /><category term="bluesky" /><category term="socialmedia" /><category term="mastodon" /><summary type="html"><![CDATA[Like I do, I’ve been semi-tracking and participating in the boom of the Bluesky social network, even though it’s not decentralized, currently, in any meaningful way. In my own experience, I’m having a hard time finding “my people.” I don’t even know if I have a “my people” anymore. But, that aside, from within my feed, I’m watching and seeing reports of constant troll attacks, some stating, “Yeah, I don’t like it here actually.” So, let’s talk about Mastodon, again, maybe?]]></summary></entry></feed>
