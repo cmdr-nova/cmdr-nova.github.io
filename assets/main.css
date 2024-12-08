@@ -1954,4 +1954,23 @@ li {
   min-width: 240px !important;
   width: 240px !important;
   margin: 0 auto; /* Center the embed */
+  font-family: 'Arial', sans-serif !important; /* Change font family */
+  font-size: 14px !important; /* Change font size */
+  color: #333 !important; /* Change text color */
+}
+
+.instagram-media a {
+  color: #0073e6 !important; /* Change link color */
+}
+
+.instagram-media .instagram-media-inner {
+  font-family: 'Arial', sans-serif !important; /* Change inner font family */
+  font-size: 14px !important; /* Change inner font size */
+  color: #333 !important; /* Change inner text color */
+}
+
+.instagram-media .instagram-media-content {
+  font-family: 'Arial', sans-serif !important; /* Change content font family */
+  font-size: 14px !important; /* Change content font size */
+  color: #333 !important; /* Change content text color */
 }
