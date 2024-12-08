@@ -1,6 +1,22 @@
 [
   
     {
+      "title"    : "This is Only a Test",
+      "category" : "",
+      "tags"     : "mastodon, socialmedia, activitypub",
+      "url"      : "/mastodon/2024/12/08/this-is-only-a-test.html",
+      "date"     : "2024-12-08 16:38:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Consolidation to One",
+      "category" : "",
+      "tags"     : "github, website, blog, consolidate",
+      "url"      : "/thoughts/2024/12/08/consolidation-to-one.html",
+      "date"     : "2024-12-08 16:14:00 -0500"
+    } ,
+  
+    {
       "title"    : "The Federated Timeline via ActivityPub / Mastodon",
       "category" : "",
       "tags"     : "mastodon, socialmedia, activitypub",
