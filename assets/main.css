@@ -1941,3 +1941,17 @@ li {
 #post-comments-list .comment p {
   margin: 5px 0;
 }
+
+/* Instagram Embed CSS */
+
+.instagram-embed-wrapper {
+  max-width: 240px;
+  margin: 0 auto; /* Center the wrapper */
+}
+
+.instagram-media {
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+  margin: 0 auto; /* Center the embed */
+}
