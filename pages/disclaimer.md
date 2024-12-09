@@ -18,7 +18,7 @@ The thoughts, opinions, and views expressed, and represented on the Website are 
 
 You may not modify, print, copy, or scrape (by means of language learning models) any part of this website without prior consent from the Webmaster. Inclusion of any part of the Website in other works, whether printed, electronic, or any other form, or including through embedded content, framing, or generated through a language learning model, is strictly prohibited unless prior permissions have been obtained.
 
-The Nova/Nova Prime logo and other original works are property of the Webmaster. If you seek distribution, please contact <a href="mailto:net_run@mkultra.monster">Nova</a>.
+The Nova/Nova Prime logo and other original works are property of the Webmaster. If you seek distribution, please contact <a href="mailto:cmdr-nova@mkultra.monster">Nova</a>.
 
 **Indemnification and Warranties**
 
