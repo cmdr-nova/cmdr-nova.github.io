@@ -1946,31 +1946,22 @@ li {
 
 .instagram-embed-wrapper {
   max-width: 240px;
-  margin: 0 auto; /* Center the wrapper */
+  margin: 0 auto; 
 }
 
 .instagram-media {
   max-width: 240px !important;
   min-width: 240px !important;
   width: 240px !important;
-  margin: 0 auto; /* Center the embed */
-  font-family: 'Arial', sans-serif !important; /* Change font family */
-  font-size: 14px !important; /* Change font size */
-  color: #333 !important; /* Change text color */
+  margin: 0 auto; 
 }
 
-.instagram-media a {
-  color: #0073e6 !important; /* Change link color */
-}
-
-.instagram-media .instagram-media-inner {
-  font-family: 'Arial', sans-serif !important; /* Change inner font family */
-  font-size: 14px !important; /* Change inner font size */
-  color: #333 !important; /* Change inner text color */
-}
-
-.instagram-media .instagram-media-content {
-  font-family: 'Arial', sans-serif !important; /* Change content font family */
-  font-size: 14px !important; /* Change content font size */
-  color: #333 !important; /* Change content text color */
+/* Additional styling for the iframe container */
+.instagram-media iframe {
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+  font-family: 'Arial', sans-serif !important;
+  font-size: 14px !important;
+  color: #333 !important; 
 }
