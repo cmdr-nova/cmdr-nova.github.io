@@ -1965,3 +1965,18 @@ li {
   font-size: 14px !important;
   color: #333 !important; 
 }
+
+/* Threads embed */
+
+.threads-embed {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+.threads-embed blockquote {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
