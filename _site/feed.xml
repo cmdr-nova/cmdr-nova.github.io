@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-10T23:32:21-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">You’ll Never Be Rich</title><link href="http://localhost:4000/thoughts/2024/12/10/you-ll-never-be-rich.html" rel="alternate" type="text/html" title="You’ll Never Be Rich" /><published>2024-12-10T23:25:00-05:00</published><updated>2024-12-10T23:25:00-05:00</updated><id>http://localhost:4000/thoughts/2024/12/10/you-ll-never-be-rich</id><content type="html" xml:base="http://localhost:4000/thoughts/2024/12/10/you-ll-never-be-rich.html"><![CDATA[<p>Over the past decade, there’s been a growing epidemic of excess. Influencers on social media flaunting expensive cars, designer clothing, big houses (so you wanna be a rock superstar), and then, of course, the extremely lucky Youtubers, TikTokers, and so on and so forth, who make it big because they hit the algorithm correctly. But, in all reality, this is a small amount of people who do these things. Becoming rich and famous is not something the average person, or most people, will ever attain. It’s like they say, you have more in common with a homeless person, than a billionaire.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2024-12-11T23:45:42-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Now at [REVOSA], the Midnight Glitch!</title><link href="http://localhost:4000/second%20life/2024/12/11/now-at-revosa-the-midnight-glitch.html" rel="alternate" type="text/html" title="Now at [REVOSA], the Midnight Glitch!" /><published>2024-12-11T23:29:00-05:00</published><updated>2024-12-11T23:29:00-05:00</updated><id>http://localhost:4000/second%20life/2024/12/11/now-at-revosa-the-midnight-glitch</id><content type="html" xml:base="http://localhost:4000/second%20life/2024/12/11/now-at-revosa-the-midnight-glitch.html"><![CDATA[<p>Today I woke up and felt like it was time to actually put something up in my Second Life store … again! The last two times I released something, I told myself I was going to be more consistent, and then I got distracted by the forty other things I do. Maybe this time will be different? Anyway, it’s a skirt. I’m putting a new line of clothing in my store, for a very tiny skirt that you can try right at my store, now.</p>
+
+<p><img src="/img/posts/midnight-glitch/glitch.png" /></p>
+
+<p>You can see them on the marketplace webpage outside of Second life, <a href="https://marketplace.secondlife.com/p/REVOSA-Midnight-Glitch/26680068" target="_blank">here</a>. Or, you can drop by and see them right in front of your own face, <a href="http://maps.secondlife.com/secondlife/Auriga/116/26/2003" target="_blank">here</a>!</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Second Life" /><category term="secondlife" /><category term="second" /><category term="life" /><category term="products" /><category term="revosa" /><category term="release" /><summary type="html"><![CDATA[Today I woke up and felt like it was time to actually put something up in my Second Life store … again! The last two times I released something, I told myself I was going to be more consistent, and then I got distracted by the forty other things I do. Maybe this time will be different? Anyway, it’s a skirt. I’m putting a new line of clothing in my store, for a very tiny skirt that you can try right at my store, now.]]></summary></entry><entry><title type="html">You’ll Never Be Rich</title><link href="http://localhost:4000/thoughts/2024/12/10/you-ll-never-be-rich.html" rel="alternate" type="text/html" title="You’ll Never Be Rich" /><published>2024-12-10T23:25:00-05:00</published><updated>2024-12-10T23:25:00-05:00</updated><id>http://localhost:4000/thoughts/2024/12/10/you-ll-never-be-rich</id><content type="html" xml:base="http://localhost:4000/thoughts/2024/12/10/you-ll-never-be-rich.html"><![CDATA[<p>Over the past decade, there’s been a growing epidemic of excess. Influencers on social media flaunting expensive cars, designer clothing, big houses (so you wanna be a rock superstar), and then, of course, the extremely lucky Youtubers, TikTokers, and so on and so forth, who make it big because they hit the algorithm correctly. But, in all reality, this is a small amount of people who do these things. Becoming rich and famous is not something the average person, or most people, will ever attain. It’s like they say, you have more in common with a homeless person, than a billionaire.</p>
 
 <p>And that’s true.</p>
 
@@ -143,46 +147,4 @@
 
 <p>And, your comments are saved on my server! Voila!</p>
 
-<p>Okay, time for work.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Web Dev" /><category term="webdev" /><category term="scripting" /><category term="comments" /><summary type="html"><![CDATA[I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username.]]></summary></entry><entry><title type="html">Hundreds of Games, But I Keep Giving Blizzard Money</title><link href="http://localhost:4000/gaming/2024/11/29/hundreds-of-games-but-i-keep-giving-blizzard-money.html" rel="alternate" type="text/html" title="Hundreds of Games, But I Keep Giving Blizzard Money" /><published>2024-11-29T20:50:00-05:00</published><updated>2024-11-29T20:50:00-05:00</updated><id>http://localhost:4000/gaming/2024/11/29/hundreds-of-games-but-i-keep-giving-blizzard-money</id><content type="html" xml:base="http://localhost:4000/gaming/2024/11/29/hundreds-of-games-but-i-keep-giving-blizzard-money.html"><![CDATA[<p>It’s a tale as old as time. You buy 400 games on Steam, but ultimately you end up back in a Blizzard game. Or, … in this day and age, an ActiBlizzard game. Or, in this specific day and age, <em>Diablo 4</em>, so that you can prove you’re better than Elon Musk.</p>
-
-<p><img src="/img/posts/diablo/load.png" /></p>
-
-<p>No, I won’t elaborate on that.</p>
-
-<p>But I’ve been playing a lot of Diablo 4. I’m beyond level 50 now! Which is more than I can say for myself when the game <em>actually released</em>.</p>
-
-<p>Playing <em>this game</em>, though, kind of makes Diablo 3 look like something I’m unsure how I ever enjoyed. I did, of course, but 4 is so much prettier, and <em>darker</em>, and also I’m a Necromancer and everything I touch dies in milliseconds.</p>
-
-<p>Yes, bosses, too.</p>
-
-<p>Diablo is something that goes back. Way back. It was one of the games I started playing after Doom and Quake finally started to get kinda <em>old</em> feeling, to me. You know, back in like 1997. You see, my uncle and cousin used to play Diablo 1, and eventually, Diablo 2 together all the time. And I wanted to join them.</p>
-
-<p><em>I just wasn’t all that good at it</em>, and I didn’t have any money to buy these games.</p>
-
-<p>I did, however, get hold of Diablo 1. And I think back to one of my first, and last experiences with the game. A player, lending me his sword. It was powerful. I had <em>nothing</em>. I was just … a noob. I don’t even think I was halfway to whatever max level was back then.</p>
-
-<p>I certainly wasn’t anywhere <em>near</em> hell.</p>
-
-<p>But I needed a weapon. One that was good. And this guy was willing to lend me his sword until I found something better.</p>
-
-<p>“Here, you can use my sword for a while.” I paraphrased. “I’ll be on tomorrow!”</p>
-
-<p>And then I logged off.</p>
-
-<p>And then I never logged on again, <em>ever</em> (if you’re out there, I’ll give you a new sword in Diablo 4).</p>
-
-<p>I got more serious when it came to Diablo 2, but I was still largely, <em>no good, and also crap</em>.</p>
-
-<p>And then flash forward to Diablo 4, I’m alright, I guess.</p>
-
-<iframe title="Diablo 4 is Easy" width="560" height="315" src="https://video.infosec.exchange/videos/embed/98c11475-fa49-4876-9908-2f1fea5bbe5f" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
-
-<p>Through D3 and D4, though, I <em>do</em> find it continually strange, as my Necromancer draws no fear from other people, and in Diablo 4, my Necro speaks about the “light,” and heaven.</p>
-
-<p>Meanwhile I’m here like, … wouldn’t the Necromancer be on Lillith’s side?</p>
-
-<p>Then again, I haven’t even finished act 1 (I spend a lot of time wandering and doing mostly nothing but side quests and killing bosses).</p>
-
-<p>I think if Blizzard ever made a new MMO, they should just do it with this. I mean, that’s basically what it is at this point.</p>
-
-<p>Anyway, that’s the post. I just wanted to say, “Hey, Diablo 4 is pretty cool.”</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Gaming" /><category term="diablo4" /><category term="gaming" /><category term="blizzard" /><summary type="html"><![CDATA[It’s a tale as old as time. You buy 400 games on Steam, but ultimately you end up back in a Blizzard game. Or, … in this day and age, an ActiBlizzard game. Or, in this specific day and age, Diablo 4, so that you can prove you’re better than Elon Musk.]]></summary></entry></feed>
+<p>Okay, time for work.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Web Dev" /><category term="webdev" /><category term="scripting" /><category term="comments" /><summary type="html"><![CDATA[I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username.]]></summary></entry></feed>

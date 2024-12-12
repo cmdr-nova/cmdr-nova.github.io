@@ -21,6 +21,7 @@
 title: cmdr-nova@internet:~$
 home: NOVA PRIME
 email: net_run@mkultra.monster
+timezone: America/New_York
 description: >- # this means to ignore newlines until "baseurl:"
   cmdr-nova's personal blog and home on the indie-web.
 baseurl: "" # the subpath of your site, e.g. /blog
