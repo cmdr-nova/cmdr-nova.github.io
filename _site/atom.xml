@@ -3,11 +3,38 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-12-11T23:45:42-05:00</updated>
+  <updated>2024-12-12T10:03:27-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>mkultra.monster, and AcvtivityPub vs. The Rest</title>
+    <link href="http://localhost:4000/social%20media/2024/12/12/mkultra-monster-and-acvtivitypub-vs-the-rest.html"/>
+    <updated>2024-12-12T09:50:00-05:00</updated>
+    <id>http://localhost:4000/social%20media/2024/12/12/mkultra-monster-and-acvtivitypub-vs-the-rest.html</id>
+    <content type="html"><![CDATA[
+      I’m seeing murmurs that people, at least some people, are becoming fed up with the low amount to entire lack of moderation on Bluesky. That the team behind the app sort of leaves it mostly in the hands of the users to construct block and mute lists (which comes with accountability issues all on its own). But, one would only have to take a gander at the current Bluesky search results for Jesse Singal’s account on the app, to see where some of this frustration might be coming from.
+
+So, in response, I offer the alternative of Mastodon / ActivityPub again! Despite the random negative-posting I’ve seen on Bluesky about Mastodon (people don’t like aspects of the UI and join process), I really think people should check it out. Do some research. Find a community that has rules and guidelines. If you do this, I think you’ll be just fine.
+
+Do you know how much bigotry and toxicity I see on my own instance?
+
+Zero.
+
+Why?
+
+Because I ban every single thing that even so much as slightly annoys me (ban, as in suspending from federation, i.e., making them invisible to my entire server).
+
+If you’d like to give it a try, I have open registration on my instance at mkultra.monster, and while I can’t sustain thousands of people, I can at least take in some. For MKMO, you only need provide a clear reason why you want to join (this is to weed out trolls), and give me some time to approve your account.
+
+Otherwise, there are plenty other instances to look at, too. I suggest giving my page on ActivityPub a look, and then also the Join the Fediverse website.
+
+That’s all for now! I have to get ready for work soon, but I wanted to put this out there for those who may be interested in a real alternative to corporate-controlled, poorly moderated social media.
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Now at [REVOSA], the Midnight Glitch!</title>
