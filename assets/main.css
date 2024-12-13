@@ -1153,6 +1153,47 @@ iframe {
   color: #000;
 }
 
+/* Tumblr feed */
+
+#reddit-bot {
+  overflow: hidden; 
+  padding: 10px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+#tumblr-feed {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+}
+
+.tumblr-post {
+  margin-bottom: 20px; 
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.light-mode .tumblr-post {
+  border-bottom: 1px solid #000;
+}
+
+.tumblr-post p {
+  margin: 0.5em 0;
+}
+
+.tumblr-post a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.tumblr-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
 #random-image-container {
   max-width: 240px;
   filter: drop-shadow(5px 5px rgba(152, 231, 26, 0.863));
