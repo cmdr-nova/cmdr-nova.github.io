@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Python, Swap Out Reddit for Lemmy!",
+      "category" : "",
+      "tags"     : "python, lemmy, mastodon, activitypub, programming",
+      "url"      : "/programming/2024/12/17/python-swap-out-reddit-for-lemmy.html",
+      "date"     : "2024-12-17 02:08:00 -0500"
+    } ,
+  
+    {
       "title"    : "Firestorm, Currently Broken on Linux",
       "category" : "",
       "tags"     : "secondlife, firestorm, linux",
