@@ -2028,11 +2028,11 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Adjust the gap between items as needed */
+  gap: 20px; 
 }
 
 .book-item {
-  flex: 1 1 calc(33.333% - 20px); /* Adjust the width and gap as needed */
+  flex: 1 1 calc(33.333% - 20px);
   box-sizing: border-box;
   margin-bottom: 20px;
   display: flex;
@@ -2044,17 +2044,24 @@ li {
 .book-item img {
   max-width: 100%;
   height: auto;
+  border-style: solid;
+  border-color: rgb(217, 255, 0);
+  box-shadow: 0 0 20px 5px rgba(0, 205, 241, 0.87);
 }
 
-/* Media Queries for Responsive Design */
+.light-mode .book-item img {
+  border-color: #000;
+  box-shadow: 0 0 20px 5px rgba(71, 71, 71, 0.87);
+}
+
 @media (max-width: 1024px) {
   .book-item {
-    flex: 1 1 calc(50% - 20px); /* Two columns on medium screens */
+    flex: 1 1 calc(50% - 20px); 
   }
 }
 
 @media (max-width: 768px) {
   .book-item {
-    flex: 1 1 100%; /* One column on small screens */
+    flex: 1 1 100%; 
   }
 }
