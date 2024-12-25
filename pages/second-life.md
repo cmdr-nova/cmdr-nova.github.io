@@ -26,6 +26,7 @@ permalink: /pages/second-life/
 <img src="/img/revosa/revosa.png">
 </p>
 
+<!--
 <div class="rainbow"><h1>NEO MACHINA</h1></div>
 
 <p>
@@ -45,3 +46,4 @@ Neo Machina has had ... kind of a wild journey. It didn't actually <i>begin</i> 
 <p>You can visit Neo Machina, <a href="http://maps.secondlife.com/secondlife/Auriga/150/185/68" target="_blank">here</a>.</p>
 
 <img src="/img/revosa/nm.png">
+-->
