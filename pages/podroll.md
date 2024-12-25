@@ -14,4 +14,3 @@ If you're a fan of true crime, these are the only podcasts you need:
 - [Scary Stories for a Rainy Night](https://podcasts.apple.com/us/podcast/scary-stories-rain/id1470544620){:target="_blank"}
 - [The Vanished](https://www.thevanishedpodcast.com/){:target="_blank"}
 - [Odd Trails](https://podcasts.apple.com/us/podcast/odd-trails/id1598762965){:target="_blank"}
-- [Morbidology](https://morbidology.com/morbidology-podcast/){:target="_blank"}
