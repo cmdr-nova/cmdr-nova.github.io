@@ -9,6 +9,7 @@ permalink: /pages/log/
 <li>- spent some time beautifying my "books" page</li>
 <li>- removed pixelfed and switched it out with my long-standing instagram account</li>
 <li>- replaced the guestbook with built-in "live" comments for each blog post</li>
+<li>- added an element to the left sidebar that displays one of my published works at random</li>
 </ul>
 
 <code>11/20/2024</code>

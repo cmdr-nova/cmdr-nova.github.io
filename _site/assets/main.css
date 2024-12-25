@@ -2046,7 +2046,7 @@ li {
   height: auto;
   border-style: solid;
   border-color: rgb(217, 255, 0);
-  box-shadow: 0 0 20px 5px rgba(0, 205, 241, 0.87);
+  box-shadow: 5px 5px rgba(0, 205, 241, 0.87);
 }
 
 .light-mode .book-item img {
@@ -2064,4 +2064,20 @@ li {
   .book-item {
     flex: 1 1 100%; 
   }
+}
+
+/* Styles for the random book image */
+#random-book {
+  text-align: center;
+  margin: 20px 0; 
+}
+
+#random-book img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px rgba(0, 205, 241, 0.87); 
+}
+
+.light-mode #random-book img {
+  box-shadow: 5px 5px rgba(71, 71, 71, 0.87);
 }
