@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+<code>12/27/2024</code>
+<ul>
+<li>- added a new full search function to the site</li>
+</ul>
+
 <code>12/25/2024</code>
 <ul>
 <li>- spent some time beautifying my "books" page</li>
