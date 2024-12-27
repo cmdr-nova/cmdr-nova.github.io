@@ -200,6 +200,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 @media only screen and (max-width: 480px) {
   body {
     min-width: 100%;
+    max-width: 100%;
   }
   #main { 
     display: flex;
