@@ -198,6 +198,10 @@ rel="stylesheet"/>
         <script src='/assets/js/radio.js'></script>
       </div>
 
+      <div id="tumblr-title center-align">
+        <button class="post-buttons" onclick="window.open('https://www.patreon.com/c/cmdr_nova', '_blank')">Subscribe via Patreon</button>
+      </div>
+<br />
 <hr>
 
 <br />
@@ -589,6 +593,19 @@ if __name__ == "__main__":
 <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url=http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html', '_blank')">Share on Reddit</button>
 
 </div>
+
+<div id="post-comments-section">
+  <h3>Comments</h3>
+  <form id="post-comment-form">
+    <input type="text" id="post-comment-author" placeholder="Your name" required>
+    <input type="text" id="post-comment-fediverse" placeholder="Fedi username (@username@fediverse.instance)">
+    <textarea id="post-comment-content" placeholder="Your comment" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<div id="post-comments-list"></div>
+<script defer src="/assets/js/post-comments.js"></script>
+
 <!--<section class="page__comments">
   <h4 class="page__comments-title">COMMENTS</h4>
   <p>You can use your <a href="https://joinmastodon.org">Mastodon</a> or other <a class="page-link" href="/pages/activitypub/">ActivityPub</a> account to comment on this article by replying to the associated <a class="link" href="https://mkultra.monster/@cmdr_nova/113423214298113130">post</a>.</p>
@@ -719,18 +736,6 @@ if __name__ == "__main__":
       });
   </script>
 </section>-->
-
-<div id="post-comments-section">
-  <h3>Comments</h3>
-  <form id="post-comment-form">
-    <input type="text" id="post-comment-author" placeholder="Your name" required>
-    <input type="text" id="post-comment-fediverse" placeholder="Fedi username (@username@fediverse.instance)">
-    <textarea id="post-comment-content" placeholder="Your comment" required></textarea>
-    <button type="submit">Submit</button>
-  </form>
-</div>
-<div id="post-comments-list"></div>
-<script defer src="/assets/js/post-comments.js"></script>
 
 <meta name="fediverse:creator" content="@cmdr_nova@mkultra.monster">
 

@@ -43,11 +43,6 @@ layout: default
 <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url }}', '_blank')">Share on Reddit</button>
 
 </div>
-<!--
-{%- if page.comments -%}
-{%- include fediverse_comments.html -%}
-{%- endif -%}
--->
 
 <div id="post-comments-section">
   <h3>Comments</h3>
@@ -60,6 +55,12 @@ layout: default
 </div>
 <div id="post-comments-list"></div>
 <script defer src="/assets/js/post-comments.js"></script>
+
+<!--
+{%- if page.comments -%}
+{%- include fediverse_comments.html -%}
+{%- endif -%}
+-->
 
 <meta name="fediverse:creator" content="@cmdr_nova@mkultra.monster">
 
