@@ -326,3 +326,14 @@ h1, h2, h3 {
   color: var(--feed-text);
 }
 
+.signal {
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(5px 5px var(--drop-shadow));
+  border-style: solid;
+  border-color: var(--desc-border-color);
+  border-radius:10px;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
