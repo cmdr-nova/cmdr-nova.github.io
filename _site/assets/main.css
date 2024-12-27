@@ -1841,12 +1841,12 @@ li {
   border-radius: 80px;
   border-style: solid;
   border-color: #07f5e1c4;
-  background-image: url(/img/selfie/ryan_2024.png);
   background-position: -0.5px -40px; 
   background-repeat: no-repeat;
   background-size: 130%;  
   margin-top: 15px;
   margin-bottom: 15px;
+  overflow: hidden;
 }
 
 .light-mode .self {
