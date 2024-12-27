@@ -211,6 +211,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     margin-top: 2px;
     word-spacing: 1px;
     letter-spacing: 1px;
+    padding-right: 20px;
   }
   #sidebar, footer {
     display: none;
