@@ -1764,7 +1764,7 @@ li {
   display: grid;
   max-width: 240px;
   grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
-  gap: 10px;
+  gap: 5px;
   margin-top: 20px;
 }
 
@@ -1775,9 +1775,11 @@ li {
 }
 
 .pixelfed-post img {
-  width: 100%;
+  width: 93%;
   height: auto;
   border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
 }
 
 /* SL Store Display */
