@@ -1100,6 +1100,7 @@ iframe {
   background-size: cover; 
   background-position: center; 
   color: white; 
+  margin-bottom: 10px;
 }
 
 #calendar h3 {
@@ -2085,4 +2086,13 @@ li {
 
 .light-mode #random-book img {
   box-shadow: 5px 5px rgba(71, 71, 71, 0.87);
+}
+
+.second-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  min-width: 240px;
 }
