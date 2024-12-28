@@ -2142,3 +2142,9 @@ li {
   background-color: #333;
   color: #fff;
 }
+
+.twitter-tweet {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
