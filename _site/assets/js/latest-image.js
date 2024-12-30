@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new Error('Statuses response is not an array');
       }
 
-      // Find the latest status with an image and the word "Python" in the content
+      // Find the latest status with an image, including sensitive images
       const latestImageStatus = statuses.find(status => 
-        status.media_attachments.length > 0 && status.content.includes('Python')
+        status.media_attachments.length > 0
       );
 
       if (latestImageStatus) {
@@ -27,11 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const latestImagePostUrl = latestImageStatus.url;
         const latestImageElement = document.getElementById('latest-pygen');
 
-        // Update the sidebar with the latest image and link
-        latestImageElement.innerHTML = `<a href="${latestImagePostUrl}" target="_blank"><img src="${latestImageUrl}" alt="Latest Image from Mastodon" style="max-width: 100%;"></a>`;
+        if (latestImageElement) {
+          latestImageElement.src = latestImageUrl;
+          latestImageElement.parentElement.href = latestImagePostUrl;
+        }
       } else {
-        console.log('No status found with an image and the word "Python"');
+        console.log('No image posts found.');
       }
     })
-    .catch(error => console.error('Error fetching latest image:', error));
+    .catch(error => {
+      console.error('Error:', error);
+    });
 });
