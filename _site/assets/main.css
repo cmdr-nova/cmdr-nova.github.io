@@ -2014,6 +2014,18 @@ li {
   color: #333 !important; 
 }
 
+/* Center embedded Threads posts */
+.threads-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+.threads-container blockquote {
+  max-width: 100%; /* Ensure the embed doesn't overflow */
+}
+
 /* Threads embed */
 
 .threads-embed {

@@ -3,11 +3,55 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2024-12-30T20:15:41-05:00</updated>
+  <updated>2024-12-30T23:08:16-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>The Dead Internet Comes to Life</title>
+    <link href="http://localhost:4000/tech/2024/12/30/the-dead-internet-comes-to-life.html"/>
+    <updated>2024-12-30T22:28:00-05:00</updated>
+    <id>http://localhost:4000/tech/2024/12/30/the-dead-internet-comes-to-life.html</id>
+    <content type="html"><![CDATA[
+      We’ve all recently come to the conclusion that billionaires and CEOs don’t really care what you think of them, or what they do. And Mark Zuckerberg continues to provide glaring examples of why that’s true. From his sanitized Second Life clone, Horizons, to the present day, with AI generated social media users. It’s not just a question of, “Who the hell asked for this?” But also a question of, “What in the world is the point of filling social media with fake people who don’t exist that reply to things without logical reasoning?” Well … uh, we’re all asking that question.
+
+
+     View on Threads
+
+
+
+I have a complicated relationship with Meta. Like I spoke about before, in a previous post, I’ve had a Facebook account since it was brand new, and even if I were to delete it, they have everything about me, ever, and they’ll likely never relinquish that information. And, at the same time, I do tend to enjoy some mindless scrolling on Reels, or pretending that I’m a regular normal social media user on Threads, as I watch Zuck make the worst decisions possible to impress people who he has imagined in his own mind. And yes, I own a Meta Quest 2, which has been gathering dust in a drawer for about three months (VR Chat has slipped out of my zone of interest).
+
+This also probably sounds extremely contrary, or in opposition to my hefty support of ActivityPub, and Mastodon, especially because I run my own instance. But, as a creator of things, and if you create things as well (art, fiction, etc), you already know, that you must maintain a presence in as many places as possible. It’s part of the game. And it’s a shitty game, that I do not enjoy.
+
+But, to bring the topic back to the embedded Threads post, Zuckerberg imagines a social media where there are millions and billions of AI agents, i.e., fake people. To no one’s surprise, just about every single person learning of this news is asking, “What in the hell is this good for?”
+
+Taken from an annoyingly milquetoast article over at Rolling Stone:
+
+
+ The prospect seems an unusual one for websites predicated on the idea of human-to-human interaction. While Meta’s other AI offerings, including photo-editing tools, a ChatGPT-like text bot, and forthcoming software for producing AI-generated video, have more readily obvious appeal, it’s far from certain that an Instagram or Facebook populated by virtual apparitions would prove enticing to newcomers or satisfying for long-time users. Meta revealed to FT that users have created “hundreds of thousands of characters” since AI Studio launched in July, but that most of them remain private. The company declined to comment further to Rolling Stone. 
+
+
+The question remains: What value does this provide? You’re melting the ice caps in order to put fake people on social media, that you’re already aware people don’t like, for what reason? Are you going to sell people AI blocking software as a solution to a problem that you yourselves have created? Is that the end goal here?
+
+You see, I come from the 90s. And in the 90s, we had very, very primitive chatbots. Chatbots that responded to trigger words with predefined text. This is something that you can now build by yourself with like 5 minutes of Python. Hardly anyone thought it was cool then, and it definitely isn’t cool now.
+
+It’s not cool, because most people are online and on social media, to meet, and talk to real people. To make friends. To make connections. What connection are you making with an AI ghost on Facebook?
+
+Am I missing a piece of the human genome that makes something like this exciting?
+
+I must be.
+
+You can go and see one of these “characters” on Facebook, now. And, if you’re feeling extra funny, you can use Facebook’s own reporting tools to report the entire account for being a fake person. It’s literally there, in the reporting dialogue.
+
+
+
+This is, at least, a great reason to entice regular people to finally, please for the love of god, join a fediverse instance. If we can move the digital world to ActivityPub, on user-owned servers, then maybe artists, and writers, and musicians can feel like they don’t have to be on these data farms anymore, just to gamble and get a 10% boost in exposure while bots are scraping everything they say so that AI generated Jimmy Carter can say, “Hey John, did you buy that Apple Watch you were talking about yesterday?”
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>The Bechdel Test, and Why It&apos;s Tainted</title>
