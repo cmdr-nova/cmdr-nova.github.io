@@ -1,7 +1,7 @@
 async function fetchTrendingTags() {
   try {
     console.log('Fetching trending tags from Mastodon...');
-    const response = await fetch('https://mkultra.monster/api/v1/trends/tags');
+    const response = await fetch('https://mastodon.social/api/v1/trends/tags');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -28,7 +28,7 @@ function displayTrendingTags(tags) {
 
   topTags.forEach(tag => {
     const listItem = document.createElement('li');
-    listItem.innerHTML = `<a href="https://mkultra.monster/tags/${tag.name}" target="_blank">#${tag.name}</a> - ${tag.history[0].uses} uses`;
+    listItem.innerHTML = `<a href="https://mastodon.social/tags/${tag.name}" target="_blank">#${tag.name}</a> - ${tag.history[0].uses} uses`;
     list.appendChild(listItem);
   });
 
