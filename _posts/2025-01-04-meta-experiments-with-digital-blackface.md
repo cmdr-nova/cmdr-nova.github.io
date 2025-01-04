@@ -11,7 +11,7 @@ So, last week, I wrote about <a href="/tech/2024/12/30/the-dead-internet-comes-t
 
 <img src="/img/posts/meta-dead/liv.png">
 
-As it turns out, these weren't actually the bots that Meta was planning to implement, rather,they were experiments from over a year ago that nobody noticed and/or completely ignored, until Mark started to bring attention to his next, biggest, worst decision. These profiles are now deleted, as complaints were made against the accounts ... *because you couldn't block them*, and due to major backlash, in-general.
+As it turns out, these weren't actually the bots that Meta was planning to implement, rather, they were experiments from over a year ago that nobody noticed and/or completely ignored, until Mark started to bring attention to his next, biggest, worst decision. These profiles are now deleted, as complaints were made against the accounts ... *because you couldn't block them*, and due to major backlash, in-general.
 
 Via <a href="https://www.404media.co/metas-ai-profiles-are-indistinguishable-from-terrible-spam-that-took-over-facebook/" target="_blank">404 Media</a>:
 
