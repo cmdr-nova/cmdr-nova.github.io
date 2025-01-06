@@ -11,7 +11,7 @@ permalink: /pages/second-life/
 <p><b>AyaSys</b> is a side store that I started back in 2016, under the name Horcrux Solutions, and later (in 2023) changed its name to AyaSys. This store is more geared toward scripts and scripted items, with a dash of decorative props.</p>
 
 <p>
-<a href="http://maps.secondlife.com/secondlife/Auriga/116/17/2003" target="_blank">[REVOSA] x AyaSys</a> store location, in-world.
+<a href="http://maps.secondlife.com/secondlife/Necrotee/218/229/3551" target="_blank">[REVOSA] x AyaSys</a> store location, in-world.
 </p>
 
 <p>
