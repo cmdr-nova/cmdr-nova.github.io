@@ -6,7 +6,7 @@ categories:
     - "Social-Media"
 tag: [mastodon, fediverse, meta, threads, facebook, instagram]
 ---
-As per <a class="pages-link" href="social-media/2025/01/07/meta-to-end-fact-checking-to-become-twitter-2-or-3">my last post</a> this morning (in regard to Meta's loosening of moderation, as if it wasn't already loose enough), I, as the admin of <a href="https://mkultra.monster" target="_blank">mkultra.monster</a>, will be blocking federation with Threads. For a long period of time, I hadn't been doing this, partially because I don't like bandwagons, and also because there are *regular, decent* people on Threads that I personally wanted to see. But, now it's a bit more than a lost cause, and the social network is nothing *but* a detriment to the open social web.
+As per <a class="pages-link" href="https://nova.mkultra.monster/social-media/2025/01/07/meta-to-end-fact-checking-to-become-twitter-2-or-3">my last post</a> this morning (in regard to Meta's loosening of moderation, as if it wasn't already loose enough), I, as the admin of <a href="https://mkultra.monster" target="_blank">mkultra.monster</a>, will be blocking federation with Threads. For a long period of time, I hadn't been doing this, partially because I don't like bandwagons, and also because there are *regular, decent* people on Threads that I personally wanted to see. But, now it's a bit more than a lost cause, and the social network is nothing *but* a detriment to the open social web.
 
 The people I liked seeing updates from will just have to move to Mastodon, or some other fediverse software.
 
