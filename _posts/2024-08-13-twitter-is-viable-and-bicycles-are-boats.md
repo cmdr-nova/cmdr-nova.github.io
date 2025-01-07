@@ -30,7 +30,7 @@ So, here are some of those instances you can check out that are either LGBTQ+/Qu
 
 ***Note: Some of these instances are not hosted on the Mastodon client, rather some on Misskey, or Akkoma, and other pieces of custom fediverse software. This does not take away from the experience, and I encourage you to check them all out, regardless.***
 
-- [mkultra.monster](){:target="_blank"} :: Obviously, I'm going to put my instance on here first, because it's been running since February (2024), and it is and always *has been* LGBTQ+ and sex worker friendly, and it will stay that way. Even if I remain the *only actually active user* (queue laughing-crying emoji).
+- [mkultra.monster](https://mkultra.monster){:target="_blank"} :: Obviously, I'm going to put my instance on here first, because it's been running since February (2024), and it is and always *has been* LGBTQ+ and sex worker friendly, and it will stay that way. Even if I remain the *only actually active user* (queue laughing-crying emoji).
 
 *Instance suggestion provided by [@spinach@girlcock.club](https://girlcock.club/@spinach){:target="_blank"}*
 
