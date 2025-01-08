@@ -21,7 +21,7 @@ And it's strange to me, do these people *not know* that Mastodon/the fediverse h
 No, I don't think it is.
 
 <center>
-<iframe src="https://mkultra.monster/@cmdr_nova/112955218421055797/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mkultra.monster/embed.js" async="async"></script>
+<iframe src="https://mastodon.social/@mkultra.monster@cmdr_nova/112955218421055797/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mkultra.monster/embed.js" async="async"></script>
 </center>
 
 Jokes aside, what I *want* to do, is show you some Mastodon/fediverse instances you can join in order to continue your work, whatever that may be, *without* indirectly supporting a dunce who hasn't genuinely created anything in his life and has benefited from the exploitation of working people since the day he was born.
