@@ -1147,7 +1147,7 @@ iframe {
   border-style: solid;
   border-color:#000000;
   padding: 5px;
-  width: 100%;
+  width: 90%;
   margin-bottom: 10px;
   margin: auto;
   text-align: center;
@@ -2160,4 +2160,12 @@ li {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+/* Pixelfed Embed Styles */
+.pixelfed__embed {
+  max-width: 100%;
+  border: 0;
+  height: 470px;
+  background-color: #000 !important;
 }

@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Fetched Atom feed:', str); // Debugging output
         const parser = new DOMParser();
         const doc = parser.parseFromString(str, 'application/xml');
-        const entries = Array.from(doc.querySelectorAll('entry')).slice(0, 6); // Limit to the last 5 entries
+        const entries = Array.from(doc.querySelectorAll('entry')).slice(0, 6); // Limit to the last 5 posts
   
         const container = document.getElementById('pixelfed-posts');
         container.innerHTML = '';
