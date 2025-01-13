@@ -5,10 +5,10 @@ date: 2025-01-13 11:32
 categories:
     - "Fediverse"
 tag: [fediverse, mastodon, wafrn, sharkey]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113822058000713188
 ---
 A while back, last year now, I briefly launched a Sharkey instance, and replaced my managed-host Mastodon instance, and since my fediverse comments on this blog weren't completely compatible, I removed them and replaced them with an embedded comment section that makes calls to my VPS in order to store them. This is *pretty* memory intensive on a 6 dollar VPS that I'm not interested in upgrading, just so that I can host a bajillion different proxy servers.
 
