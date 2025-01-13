@@ -2169,3 +2169,45 @@ li {
   height: 470px;
   background-color: #000 !important;
 }
+
+/* Suggested posts styles */
+#suggested-posts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+.suggested-post {
+  flex: 1 1 calc(33.333% - 10px); 
+  box-sizing: border-box;
+  border: 1px solid rgb(4, 243, 171);
+  padding: 10px;
+  background-color: #353535;
+}
+
+.light-mode .suggested-post {
+  border-color: #000;
+  background-color: #ffffff;
+}
+
+.suggested-post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.suggested-post h4 {
+  margin: 0;
+  font-size: 1em; 
+}
+
+.suggested-post p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #ececec;
+}
+
+.light-mode .suggested-post p {
+  color: #000;
+}
