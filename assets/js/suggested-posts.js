@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', function() {
           return;
         }
   
-        // Shuffle the posts array
+        // Shuffle the posts array, and spin the wheel of misfortune
         for (let i = posts.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [posts[i], posts[j]] = [posts[j], posts[i]];
         }
   
-        // Select a few random posts (e.g., 3)
+        // Select a few random posts (e.g., 3), can be increased if you're out of your mind
         const randomPosts = posts.slice(0, 3);
   
         // Function to check if URL leads to a 404 page
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
           fetch(url, { method: 'HEAD' })
             .then(response => {
               if (response.status === 404) {
-                // Subtract one day from the date in the URL
+                // Subtract one day from the date in the URL if things get fucky
                 const dateParts = post.date.split(' ')[0].split('-');
                 const date = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
                 date.setDate(date.getDate() - 1);
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
   
-        // Insert the random posts into the page
+        // Insert random posts onto the page
         randomPosts.forEach(post => {
           let url = post.url;
           checkUrl(url, post, function(validUrl) {
