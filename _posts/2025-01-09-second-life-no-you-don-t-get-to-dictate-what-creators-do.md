@@ -5,6 +5,10 @@ date: 2025-01-09 22:11
 categories:
     - "Second-Life"
 tag: [secondlife, metaverse, creators, stores, virtualworld]
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113802127797725350
 ---
 In Second Life, anyone can be a creator, and make their creations available to the virtual world for purchase, and some have found major success with this. Others, it exists, maybe, as more of a hobby. For me, that's mostly what it is, for now. But this all comes with a downside, because, like in the real world, the customer sometimes thinks they know best, and if you've ever worked retail, you know how very wrong that is.
 

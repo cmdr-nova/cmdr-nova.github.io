@@ -5,6 +5,10 @@ date: 2025-01-11 22:35
 categories:
     - "Thoughts"
 tag: [thoughts, secondlife, ramen, food]
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113813426800710211
 ---
 I get off of work, third day of my work week, whole body aching, staving off the pain with exactly three Ibuprofen and nothing else, and I log onto Second Life. Standing outside my static mansion on a hill that no one visits but me, because nobody else is allowed, I try to think of something interesting to write about. I *do* kind of tire of writing on negative topics, and topics I have to constantly cite with outbound links, screenshots, and facts. That stuff takes me such a long time to write. But today, I think I want to talk about ramen.
 

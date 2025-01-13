@@ -355,7 +355,7 @@ rel="stylesheet"/>
   <h3>More of my posts:</h3>
   <div id="suggested-posts-list"></div>
 </div>
-
+<!-- Proxied Comments
 <div id="post-comments-section">
   <h3>Comments</h3>
   <p><em>Note: Inflammatory or rude comments will be removed.</em></p>
@@ -368,9 +368,10 @@ rel="stylesheet"/>
 </div>
 <div id="post-comments-list"></div>
 <script defer src="/assets/js/post-comments.js"></script>
+-->
 <script defer src="/assets/js/suggested-posts.js"></script>
 
-<!--<section class="page__comments">
+<!-- Fediverse Comments --><section class="page__comments">
   <h4 class="page__comments-title">COMMENTS</h4>
   <p>You can use your <a href="https://joinmastodon.org">Mastodon</a> or other <a class="page-link" href="/pages/activitypub/">ActivityPub</a> account to comment on this article by replying to the associated <a class="link" href="https://mkultra.monster/@cmdr_nova/113536179074390734">post</a>.</p>
   <p id="mastodon-comments-list">
@@ -409,7 +410,15 @@ rel="stylesheet"/>
       const host = "mkultra.monster";
       const username = "cmdr_nova";
       const postId = "113536179074390734";
-      const hostAccountId = "111939142189797780"; // Host account ID
+
+      // List of account IDs from mkultra.monster, including the host account ID
+      const mkultraMonsterAccountIds = [
+        "113586888967478228", // Host account ID, i.e., cmdr_nova
+        "113586993703495507"
+      ];
+
+      // Reference the host account ID from the list
+      const hostAccountId = mkultraMonsterAccountIds[0];
 
       fetch(`https://${host}/api/v1/statuses/${postId}/context`)
         .then(function(response) {
@@ -435,56 +444,55 @@ rel="stylesheet"/>
 
               console.log('Grouped comments by parent ID:', commentsByParentId);
 
-              // Render comments
-              function renderComments(parentId, depth) {
-                if (depth > 10) return; // Determine depth of comments
-                const comments = commentsByParentId[parentId] || [];
-                comments.forEach(function(reply) {
-                  const replyClass = parentId === postId ? 'reply-original' : 'reply-child';
-                  const instance = reply.account.id === hostAccountId ? 'mkultra.monster' : getInstanceFromAcct(reply.account.acct);
-                  console.log(`Comment ID: ${reply.id}, Instance: ${instance}, Host: ${host}, Account: ${reply.account.acct}`);
-                  if(reply.account.display_name.length > 0) {
-                    reply.account.display_name = escapeHtml(reply.account.display_name);
-                    reply.account.emojis.forEach(emoji => {
-                      reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
-                      `<img class="no-center" src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
-                    });
-                  } else {
-                    reply.account.display_name = reply.account.acct;
-                  };
-                  const sanitizedContent = DOMPurify.sanitize(reply.content, { ALLOWED_TAGS: ['img', 'p', 'a', 'span', 'br', 'strong', 'em', 'blockquote', 'code', 'pre'], ALLOWED_ATTR: ['src', 'alt', 'href', 'title', 'class', 'target', 'rel'] });
-                  const mediaAttachments = renderMediaAttachments(reply.media_attachments);
-                  const mastodonComment =
-                    `<article id="comment-${reply.id}" class="js-comment comment ${replyClass}" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
-                       <div class="js-comment comment">
-                         ${replyClass === 'reply-child' ? '<i class="ph ph-arrow-elbow-down-right" style="font-size: 1.5em; position: absolute; left: -1.5em; top: 0.5em;"></i>' : ''}
-                         <div class="comment__content-wrapper">
-                          <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person"> <img class="comment__avatar no-center" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
-                            <a rel="external nofollow" itemprop="url" href="${reply.account.url}" rel="nofollow">
-                              <span>${reply.account.display_name}</span>
-                            </a>
-                          </h3>
-                          <span class="comment__instance">@${instance}</span>
-                          <p class="comment__date">
-                            <a itemprop="url" href="${reply.uri}" rel="nofollow">${reply.created_at.substr(0, 10)}</a>
-                          </p>
-                          <br />
-                          <div itemprop="text">${sanitizedContent}</div>
-                          ${mediaAttachments}
-                          <div class="status">
-                            <i class="ph ph-arrow-bend-up-left ph-fw"></i> ${reply.replies_count}&nbsp; 
-                            <i class="ph ph-repeat ph-fw"></i> ${reply.reblogs_count}&nbsp;
-                            <i class="ph ph-star ph-fw"></i> ${reply.favourites_count}
-                          </div> 
-                         </div>
-                        </div>
-                      </article>`;
-                  const commentElement = DOMPurify.sanitize(mastodonComment, {RETURN_DOM_FRAGMENT: true});
-                  document.getElementById('mastodon-comments-list').appendChild(commentElement);
-                  console.log(`Rendered comment ID: ${reply.id}, Parent ID: ${parentId}, Depth: ${depth}`);
-                  renderComments(reply.id, depth + 1); // Render child comments
-                });
-              }
+// Render comments
+function renderComments(parentId, depth) {
+  if (depth > 10) return; // Determine depth of comments
+  const comments = commentsByParentId[parentId] || [];
+  comments.forEach(function(reply) {
+    const replyClass = parentId === postId ? 'reply-original' : 'reply-child';
+    const instance = mkultraMonsterAccountIds.includes(reply.account.id) ? 'mkultra.monster' : reply.account.acct.split('@')[1];
+    console.log(`Comment ID: ${reply.id}, Instance: ${instance}, Host: ${host}, Account: ${reply.account.acct}`);
+    if(reply.account.display_name.length > 0) {
+      reply.account.display_name = escapeHtml(reply.account.display_name);
+      reply.account.emojis.forEach(emoji => {
+        reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+        `<img class="no-center" src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+      });
+    } else {
+      reply.account.display_name = reply.account.acct;
+    };
+    const sanitizedContent = DOMPurify.sanitize(reply.content, { ALLOWED_TAGS: ['img', 'p', 'a', 'span', 'br', 'strong', 'em', 'blockquote', 'code', 'pre'], ALLOWED_ATTR: ['src', 'alt', 'href', 'title', 'class', 'target', 'rel'] });
+    const mediaAttachments = renderMediaAttachments(reply.media_attachments);
+    const mastodonComment =
+      `<article id="comment-${reply.id}" class="js-comment comment ${replyClass}" itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+           ${replyClass === 'reply-child' ? '<i class="ph ph-arrow-elbow-down-right" style="font-size: 1.5em; position: absolute; left: -1.5em; top: 0.5em;"></i>' : ''}
+           <div class="comment__content-wrapper">
+            <h3 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person"> 
+              <img class="comment__avatar no-center" src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
+              <a rel="external nofollow" itemprop="url" href="${reply.account.url}" rel="nofollow">
+                <span>${reply.account.display_name}</span>
+              </a>
+            </h3>
+            <span class="comment__instance">@${instance}</span>
+            <p class="comment__date">
+              <a itemprop="url" href="${reply.uri}" rel="nofollow">${reply.created_at.substr(0, 10)}</a>
+            </p>
+            <br />
+            <div itemprop="text">${sanitizedContent}</div>
+            ${mediaAttachments}
+            <div class="status">
+              <i class="ph ph-arrow-bend-up-left ph-fw"></i> ${reply.replies_count}&nbsp; 
+              <i class="ph ph-repeat ph-fw"></i> ${reply.reblogs_count}&nbsp;
+              <i class="ph ph-star ph-fw"></i> ${reply.favourites_count}
+            </div> 
+           </div>
+        </article>`;
+    const commentElement = DOMPurify.sanitize(mastodonComment, {RETURN_DOM_FRAGMENT: true});
+    document.getElementById('mastodon-comments-list').appendChild(commentElement);
+    console.log(`Rendered comment ID: ${reply.id}, Parent ID: ${parentId}, Depth: ${depth}`);
+    renderComments(reply.id, depth + 1); // Render child comments
+  });
+}
 
               // Start rendering from the root post ID
               console.log('Rendering comments for post ID:', postId);
@@ -499,7 +507,7 @@ rel="stylesheet"/>
         });
       });
   </script>
-</section>-->
+</section><!-- End Fediverse Comments -->
 
 <meta name="fediverse:creator" content="@cmdr_nova@mkultra.monster">
 

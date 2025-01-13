@@ -6,6 +6,10 @@ author: 𐕣 C M D R ░ NOVA 𐕣
 categories:
     - "Social-Media"
 tag: [meta, threads, facebook, instagram]
+#comments:
+#    host: mkultra.monster
+#    username: cmdr_nova
+#    id: 
 ---
 We all (or most of us) remember when Musk took over Twitter. People got fired, the website became increasingly unstable, the algorithm got tweaked to be less "biased" toward fascist propaganda, lies, and hate, and then everyone left in droves. Then, in response to this, Meta launched Threads, a Twitter alternative. And it was actually *nice* ... for a time. About a year ago. But then Trump got elected, and like billionaires do, Marky Knuckleburger decided that it was time to pander, by eliminating safe-guards against the exact same things that turned Twitter into 4chan 2.
 

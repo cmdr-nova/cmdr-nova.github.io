@@ -5,6 +5,10 @@ date: 2025-01-13 01:10
 categories:
     - "Backrooms"
 tag: [thebackrooms, backrooms]
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113819634481871128
 ---
 So, there's been a bit of a Kane Pixels drought, ever since <a href="https://youtu.be/acdYs9tPLko?si=lKMN9wQ8WRGbjgWn" target="_blank">Found Footage 3</a> was released, and if you haven't watched that yet, *you need to*. I'm assuming the release of these shorts has been slower, due to the production of the full length feature film that was announced ... quite some time ago, at this point. In conjunction with A24, Backrooms, or The Complex, the MOVIE, is set to release ... uh, sometime before I die of old age, hopefully! But, until then, we have content to watch from other, smaller-time creators.
 
