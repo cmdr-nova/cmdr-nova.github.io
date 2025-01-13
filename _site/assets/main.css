@@ -385,16 +385,18 @@ code {
   font-weight: 100;
   text-align: left;
   letter-spacing: 1px;
+  border-style: solid;
+  border-color: #575757;
   word-spacing: -1px;
-  /* background-color: var(--desc-bg-color); */
+  background-color: var(--desc-bg-color);
   color: var(--excerpt-text);
-  padding: 5px;
-  /* box-shadow: inset 0 0 15px var(--desc-inset); */
+  padding: 15px;
+  /*box-shadow: inset 0 0 15px var(--desc-inset);*/
   margin-bottom: 15px;
 }
 
 .light-mode .excerpt {
-  background-color: #d1d1d1;
+  background-color: #b8b8b8;
   color: #000;
 }
 
@@ -414,13 +416,14 @@ code {
   line-height: 34px;
   word-spacing: -1px;
   border-style: none;
+  background-color: var(--desc-bg-color);
   /* box-shadow: inset 0 0 15px var(--other-inset); */
   margin-top: 5px;
   color: var(--read-text);
 }
 
 .light-mode .read-title {
-  background-color: #d1d1d1;
+  background-color: #b8b8b8;
   color: #000;
 }
 
@@ -430,9 +433,13 @@ code {
 }
 
 .read-title:hover {
-  /* background-color: var(--button-bgcolor-hover); */
+  /*background-color: var(--button-bgcolor-hover);*/
   transition: 0.7s ease-in-out;
   color: var(--feed-text);
+}
+
+.light-mode .read-title:hover {
+  color: #eeff00;
 }
 
 /** Page content */
@@ -2164,7 +2171,7 @@ li {
 
 /* Pixelfed Embed Styles */
 .pixelfed__embed {
-  max-width: 100%;
+  max-width: 95%;
   border: 0;
   height: 470px;
   background-color: #000 !important;
