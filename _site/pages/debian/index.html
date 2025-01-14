@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="cmdr-nova's personal blog and home on the indie-web.">
 <meta property="og:image" content="https://nova.mkultra.monster/img/nova.png">
-<meta property="og:url" content="http://localhost:4000/pages/debian/">
+<meta property="og:url" content="https://nova.mkultra.monster/pages/debian/">
 <meta property="og:site_name" content="cmdr-nova@internet:~$" />
 <meta property="og:type" content="website" />
 
@@ -34,7 +34,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "http://localhost:4000",
+    "url": "https://nova.mkultra.monster",
     "name": "cmdr-nova@internet:~$",
     "description": "cmdr-nova's personal blog and home on the indie-web.",
     "publisher": {
@@ -42,16 +42,6 @@
       "name": ""
     }
   }
-</script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MRCTJW03JZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MRCTJW03JZ');
 </script>
 
 <link rel="stylesheet" href="/assets/main.css">
@@ -82,6 +72,7 @@ rel="stylesheet"/>
 
 </head><body><header class="site-header" role="banner">
 <!-- vanishing sidebar -->
+ <div class="menu-wrapper">
 <table>
   <tr>
     <td>
@@ -104,25 +95,26 @@ rel="stylesheet"/>
       <p>░ Main</p>
 
       <a class="page-link" href="/">&#8711; H O M E &#8711; <i class="ph ph-house"></i></a>
-      <a class="page-link" href="/pages/about/">About <i class="ph ph-user"></i></a>
-      <a class="page-link" href="/pages/debian/">Install Debian <i class="ph ph-linux-logo"></i></i></a>
-      <a class="page-link" href="/pages/activitypub/">Join ActivityPub <i class="ph ph-network-x"></i></a>
+      <a class="page-link" href="/pages/about/">/about <i class="ph ph-user"></i></a>
+      <a class="page-link" href="/pages/debian/">/install_debian <i class="ph ph-linux-logo"></i></i></a>
+      <a class="page-link" href="/pages/activitypub/">/join_activitypub <i class="ph ph-network-x"></i></a>
       <!--<a class="page-link" href="/pages/install-mastodon/">Install Mastodon <i class="ph ph-floppy-disk"></i></a>-->
-      <a class="page-link" href="/pages/feditips/">Fediverse Tips <i class="ph ph-play"></i></i></a>
-      <a class="page-link" href="/pages/fedi-starter/">Fedi Starter Pack <i class="ph ph-play"></i></i></a>
-      <a class="page-link" href="/pages/why/">Why <i class="ph ph-question"></i></a>
-      <a class="page-link" href="/pages/disco/">Discography <i class="ph ph-disc"></i></a>
-      <a class="page-link" href="/pages/next/">Next <i class="ph ph-arrow-circle-right"></i></a>
-      <a class="page-link" href="/pages/blogroll/">Blogroll <i class="ph ph-door-open"></i></a>
-      <a class="page-link" href="/pages/podroll/">Podroll <i class="ph ph-broadcast"></i></a>
-      <a class="page-link" href="/pages/books/">Books <i class="ph ph-book"></i></a>
-      <a class="page-link" href="/pages/second-life/">Second Life <i class="ph ph-cube-focus"></i></a>
-      <a class="page-link" href="/pages/howtosl/">HowtoSL <i class="ph ph-tag-chevron"></i></a>
-      <a class="page-link" href="/pages/scrap/">Scrap <i class="ph ph-film-strip"></i></a>
-      <a class="page-link" href="/pages/dnd/">DnD <i class="ph ph-sword"></i></a>
-      <a class="page-link" href="/pages/haxpunks/">haxPunks <i class="ph ph-images-square"></i></a>
-      <a class="page-link" href="/pages/archives/">Archives <i class="ph ph-archive"></i></a>
-      <a class="page-link" href="/pages/log/">Log <i class="ph ph-dev-to-logo"></i></a>
+      <a class="page-link" href="/pages/feditips/">/fediverse_tips <i class="ph ph-play"></i></i></a>
+      <a class="page-link" href="/pages/fedi-starter/">/fedi_starter_pack <i class="ph ph-play"></i></i></a>
+      <a class="page-link" href="/pages/bookmarks/">/bookmarks <i class="ph ph-bookmark"></i></a>
+      <a class="page-link" href="/pages/why/">/why <i class="ph ph-question"></i></a>
+      <a class="page-link" href="/pages/disco/">/discography <i class="ph ph-disc"></i></a>
+      <a class="page-link" href="/pages/next/">/next <i class="ph ph-arrow-circle-right"></i></a>
+      <a class="page-link" href="/pages/blogroll/">/blogroll <i class="ph ph-door-open"></i></a>
+      <a class="page-link" href="/pages/podroll/">/podroll <i class="ph ph-broadcast"></i></a>
+      <a class="page-link" href="/pages/books/">/books <i class="ph ph-book"></i></a>
+      <a class="page-link" href="/pages/second-life/">/second_life <i class="ph ph-cube-focus"></i></a>
+      <a class="page-link" href="/pages/howtosl/">/howtoSL <i class="ph ph-tag-chevron"></i></a>
+      <a class="page-link" href="/pages/scrap/">/scrap <i class="ph ph-film-strip"></i></a>
+      <a class="page-link" href="/pages/dnd/">/dnd <i class="ph ph-sword"></i></a>
+      <a class="page-link" href="/pages/haxpunks/">/haxpunks <i class="ph ph-images-square"></i></a>
+      <a class="page-link" href="/pages/archives/">/archives <i class="ph ph-archive"></i></a>
+      <a class="page-link" href="/pages/log/">/log <i class="ph ph-dev-to-logo"></i></a>
       <br />
     </div>
   
@@ -130,17 +122,17 @@ rel="stylesheet"/>
 
       <p>░ Me</p>
 
-      <a class="page-link" href="/portfolio/">Portfolio <i class="ph ph-briefcase"></i></a>
-      <a class="page-link" href="https://mkultra.monster/@cmdr_nova" target="_blank">Mastodon <i class="ph ph-mastodon-logo"></i></a>
-      <a class="page-link" href="https://bsky.app/profile/mkultra.monster" target="_blank">Bluesky <i class="ph ph-butterfly"></i></a>
-      <a class="page-link" href="https://pixelfed.social/i/web/profile/589916902467976131" target="_blank">Pixelfed <i class="ph ph-aperture"></i></a>
-      <a class="page-link" href="https://video.infosec.exchange/c/callmenova/videos" target="_blank">Peertube <i class="ph ph-youtube-logo"></i></a>
-      <a class="page-link" href="https://www.patreon.com/c/cmdr_nova" target="_blank">Patreon <i class="ph ph-patreon-logo"></i></a>
-      <a class="page-link" href="https://github.com/cmdr-nova" target="_blank">Github <i class="ph ph-github-logo"></i></a>
-      <a class="page-link" href="https://discord.gg/2yfrCBDjnK" target="_blank">Discord <i class="ph ph-discord-logo"></i></a>
-      <a class="page-link" href="https://www.primfeed.com/nova.ayashi" target="_blank">Primfeed <i class="ph ph-codepen-logo"></i></a>
-      <a class="page-link" href="https://matrix.to/#/@cmdr_nova:matrix.org" target="_blank">Matrix <i class="ph ph-matrix-logo"></i></a>
-      <a class="page-link" href="https://www.linkedin.com/in/fortney-ryan" target="_blank">LinkedIn <i class="ph ph-linkedin-logo"></i></a>
+      <a class="page-link" href="/portfolio/">/portfolio <i class="ph ph-briefcase"></i></a>
+      <a class="page-link" href="https://mkultra.monster/@cmdr_nova" target="_blank">/mastodon <i class="ph ph-mastodon-logo"></i></a>
+      <a class="page-link" href="https://bsky.app/profile/mkultra.monster" target="_blank">/bluesky <i class="ph ph-butterfly"></i></a>
+      <a class="page-link" href="https://app.wafrn.net/blog/net_run" target="_blank">/wafrn <i class="ph ph-shooting-star"></i></a>
+      <a class="page-link" href="https://pixelfed.social/i/web/profile/589916902467976131" target="_blank">/pixelfed <i class="ph ph-aperture"></i></a>
+      <a class="page-link" href="https://video.infosec.exchange/c/callmenova/videos" target="_blank">/peertube <i class="ph ph-youtube-logo"></i></a>
+      <a class="page-link" href="https://www.patreon.com/c/cmdr_nova" target="_blank">/patreon <i class="ph ph-patreon-logo"></i></a>
+      <a class="page-link" href="https://github.com/cmdr-nova" target="_blank">/github <i class="ph ph-github-logo"></i></a>
+      <a class="page-link" href="https://discord.gg/2yfrCBDjnK" target="_blank">/discord <i class="ph ph-discord-logo"></i></a>
+      <a class="page-link" href="https://www.primfeed.com/nova.ayashi" target="_blank">/primfeed <i class="ph ph-codepen-logo"></i></a>
+      <a class="page-link" href="https://signal.me/#eu/kP7fFg6gc8Jflbl6XwgczC2ppSRP58XseB4hRwf_LGEsNuJ3u41Bx6aobnsWVKBc" target="_blank">/signal <i class="ph ph-chat-circle"></i></a>
       <br />
     </div>
     
@@ -150,6 +142,7 @@ rel="stylesheet"/>
   </td>
   </tr>
   </table>
+  </div>
   <!-- vanishing sidebar -->
 
 <!-- Sidebar Section-->
@@ -215,17 +208,22 @@ rel="stylesheet"/>
 <hr class="solid">
 <br />
 
-<!-- Pixelfed Embed -->
+<div id="calendar">
+  <script src="/assets/js/calendar.js"></script>
+</div>
+<br />
+
+<!-- Pixelfed Embed
 <div class="tumblr-title">Recent Photos:</div>
 <iframe src="https://pixelfed.social/cmdr_nova/embed" class="pixelfed__embed" allowfullscreen="allowfullscreen"></iframe>
- <!-- End Pixelfed Embed-->
+ End Pixelfed Embed-->
 
-<!-- PixelFed Posts Start
+<!-- PixelFed Posts Start -->
 <div class="tumblr-title">Recent Photos:</div>
 <div id="pixelfed-posts" class="pixelfed-grid">
 </div>
 <script src="/assets/js/pixelfed.js"></script>
- PixelFed Posts End -->
+ <!-- PixelFed Posts End -->
 
 <br />
 
@@ -402,6 +400,10 @@ rel="stylesheet"/>
           <img src="/img/selfie/ryan.jpg">
         </div>
       -->
+      <form id="search-form" action="/search.html" method="get">
+        <input type="text" id="search-input" name="query" placeholder="Search, choomba...">
+      </form>  
+
         <a href="https://mkultra.monster" target="_blank"><img src="/img/mkmo.png"></a>
       <!-- Mastodon Feed Start-->
       <div id="mastodon"></div>
@@ -476,6 +478,8 @@ rel="stylesheet"/>
 </div>
 <script src="/assets/js/github-repos.js"></script>
 
+<img src="/img/the_v.png">
+
 <!-- Link to Launch Doom -->
       <p align="center">
         <a href="/assets/doom/doom.html" target="_blank"><img src="/img/doom-guy.gif" height="100" width="100"></a>
@@ -500,21 +504,50 @@ rel="stylesheet"/>
   </td>
 
   <td class="second-right">
-    
-    <form id="search-form" action="/search.html" method="get">
-      <input type="text" id="search-input" name="query" placeholder="Search, choomba...">
-    </form>
+    <div class="nav-list">
+      <p>░ Main</p>
 
-    <div id="calendar">
-      <script src="/assets/js/calendar.js"></script>
+      <a class="page-link" href="/">&#8711; H O M E &#8711; <i class="ph ph-house"></i></a><br />
+      <a class="page-link" href="/pages/about/">/about <i class="ph ph-user"></i></a><br />
+      <a class="page-link" href="/pages/debian/">/install_debian <i class="ph ph-linux-logo"></i></i></a><br />
+      <a class="page-link" href="/pages/activitypub/">/join_activitypub <i class="ph ph-network-x"></i></a><br />
+      <!--<a class="page-link" href="/pages/install-mastodon/">Install Mastodon <i class="ph ph-floppy-disk"></i></a><br />-->
+      <a class="page-link" href="/pages/feditips/">/fediverse_tips <i class="ph ph-play"></i></i></a><br />
+      <a class="page-link" href="/pages/fedi-starter/">/fedi_starter_pack <i class="ph ph-play"></i></i></a><br />
+      <a class="page-link" href="/pages/bookmarks/">/bookmarks <i class="ph ph-bookmark"></i></a><br />
+      <a class="page-link" href="/pages/why/">/why <i class="ph ph-question"></i></a><br />
+      <a class="page-link" href="/pages/disco/">/discography <i class="ph ph-disc"></i></a><br />
+      <a class="page-link" href="/pages/next/">/next <i class="ph ph-arrow-circle-right"></i></a><br />
+      <a class="page-link" href="/pages/blogroll/">/blogroll <i class="ph ph-door-open"></i></a><br />
+      <a class="page-link" href="/pages/podroll/">/podroll <i class="ph ph-broadcast"></i></a><br />
+      <a class="page-link" href="/pages/books/">/books <i class="ph ph-book"></i></a><br />
+      <a class="page-link" href="/pages/second-life/">/second_life <i class="ph ph-cube-focus"></i></a><br />
+      <a class="page-link" href="/pages/howtosl/">/howtoSL <i class="ph ph-tag-chevron"></i></a><br />
+      <a class="page-link" href="/pages/scrap/">/scrap <i class="ph ph-film-strip"></i></a><br />
+      <a class="page-link" href="/pages/dnd/">/dnd <i class="ph ph-sword"></i></a><br />
+      <a class="page-link" href="/pages/haxpunks/">/haxpunks <i class="ph ph-images-square"></i></a><br />
+      <a class="page-link" href="/pages/archives/">/archives <i class="ph ph-archive"></i></a><br />
+      <a class="page-link" href="/pages/log/">/log <i class="ph ph-dev-to-logo"></i></a><br />
+      <br />
+      <p>░ Me</p>
+
+      <a class="page-link" href="/portfolio/">/portfolio <i class="ph ph-briefcase"></i></a><br />
+      <a class="page-link" href="https://mkultra.monster/@cmdr_nova" target="_blank">/mastodon <i class="ph ph-mastodon-logo"></i></a><br />
+      <a class="page-link" href="https://bsky.app/profile/mkultra.monster" target="_blank">/bluesky <i class="ph ph-butterfly"></i></a><br />
+      <a class="page-link" href="https://app.wafrn.net/blog/net_run" target="_blank">/wafrn <i class="ph ph-shooting-star"></i></a><br />
+      <a class="page-link" href="https://pixelfed.social/i/web/profile/589916902467976131" target="_blank">/pixelfed <i class="ph ph-aperture"></i></a><br />
+      <a class="page-link" href="https://video.infosec.exchange/c/callmenova/videos" target="_blank">/peertube <i class="ph ph-youtube-logo"></i></a><br />
+      <a class="page-link" href="https://www.patreon.com/c/cmdr_nova" target="_blank">/patreon <i class="ph ph-patreon-logo"></i></a><br />
+      <a class="page-link" href="https://github.com/cmdr-nova" target="_blank">/github <i class="ph ph-github-logo"></i></a><br />
+      <a class="page-link" href="https://discord.gg/2yfrCBDjnK" target="_blank">/discord <i class="ph ph-discord-logo"></i></a><br />
+      <a class="page-link" href="https://www.primfeed.com/nova.ayashi" target="_blank">/primfeed <i class="ph ph-codepen-logo"></i></a><br />
+      <a class="page-link" href="https://signal.me/#eu/kP7fFg6gc8Jflbl6XwgczC2ppSRP58XseB4hRwf_LGEsNuJ3u41Bx6aobnsWVKBc" target="_blank">/signal <i class="ph ph-chat-circle"></i></a><br />
+      <br />
     </div>
-    <br />
 
+    <!--
     <img src="/img/2001/rei_sidebar(2024).png">
-
-    <br />
-
-    <img src="/img/the_v.png">
+  -->
 
     <!-- Latest Image Section
 <div class="tumblr-title">Procedural Python</div>

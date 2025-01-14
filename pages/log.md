@@ -4,6 +4,12 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+<code>01/14/2025</code>
+<ul>
+<li>- put the navbar to the right of the site on desktop, and kept the vanishing menu for mobile users.</li>
+<li>- added a new page for bookmarks i'd like to share.</li>
+</ul>
+
 <code>12/27/2024</code>
 <ul>
 <li>- added a new full search function to the site</li>

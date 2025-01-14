@@ -177,6 +177,12 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   order: 1;
 }
 
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 #main {
   margin-top: 2px;
   letter-spacing: 1px;
@@ -197,6 +203,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   overflow-x: auto;
 }
 
+.menu-wrapper {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
   #main { 
     display: flex;
@@ -209,6 +219,9 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
     word-spacing: 1px;
     letter-spacing: 1px;
     padding-right: 20px;
+  }
+  .menu-wrapper {
+    display: block;
   }
   #sidebar, footer {
     display: none;
