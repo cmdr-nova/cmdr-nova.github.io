@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-14T11:09:01-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Fediverse Comments Have Returned</title><link href="http://localhost:4000/fediverse/2025/01/13/fediverse-comments-have-returned.html" rel="alternate" type="text/html" title="Fediverse Comments Have Returned" /><published>2025-01-13T11:32:00-05:00</published><updated>2025-01-13T11:32:00-05:00</updated><id>http://localhost:4000/fediverse/2025/01/13/fediverse-comments-have-returned</id><content type="html" xml:base="http://localhost:4000/fediverse/2025/01/13/fediverse-comments-have-returned.html"><![CDATA[<p>A while back, last year now, I briefly launched a Sharkey instance, and replaced my managed-host Mastodon instance, and since my fediverse comments on this blog weren’t completely compatible, I removed them and replaced them with an embedded comment section that makes calls to my VPS in order to store them. This is <em>pretty</em> memory intensive on a 6 dollar VPS that I’m not interested in upgrading, just so that I can host a bajillion different proxy servers.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-14T12:11:56-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Don’t Just Ask AI to Stay Away, Block Them</title><link href="http://localhost:4000/tech/2025/01/14/don-t-just-ask-ai-to-stay-away-block-them.html" rel="alternate" type="text/html" title="Don’t Just Ask AI to Stay Away, Block Them" /><published>2025-01-14T11:18:00-05:00</published><updated>2025-01-14T11:18:00-05:00</updated><id>http://localhost:4000/tech/2025/01/14/don-t-just-ask-ai-to-stay-away-block-them</id><content type="html" xml:base="http://localhost:4000/tech/2025/01/14/don-t-just-ask-ai-to-stay-away-block-them.html"><![CDATA[<p>If you’ve been on the internet in the past year and a half to two years, you’re probably very familiar with company’s like OpenAI, where Sam Altman argues that <a href="https://futurism.com/the-byte/openai-copyrighted-material-parliament" target="_blank">his bots <em>must</em> steal in order for his company to be profitable</a>. And, you’re probably also <em>very</em> aware of the endless two-braincell-tech-dudes who post and write about how awesome it is to plagiarize and steal the work of artists to generate some quick, sloppy garbage for short-term gains. Well, if you’re like me, this <em>pisses you the frick off</em>, and in today’s post I’m going to help you completely block their grungy asses from accessing your website.</p>
+
+<p>You may already have a robots.txt file, which provides the internets with a list of ai-gen slop-machines that you’d like to ask nicely, “Don’t crawl or scrape my site.” But, as we know, asking bots made by people and companies who don’t believe in the concept of consent, is like asking a serial killer not to kill. So, we’re not going to ask. We’re going to tell them to take their scraping, <a href="https://techcrunch.com/2025/01/10/how-openais-bot-crushed-this-seven-person-companys-web-site-like-a-ddos-attack/" target="_blank">DDOS machines</a>, and make like a screen door on a battleship, and get outta here.</p>
+
+<p>This is <em>very</em> important to do, especially if you’re an independent party who hosts a website, or, say, a <em>Mastodon instance</em>, on your own personal VPS, that you pay for. A service that probably jacks up prices based on overages related to traffic.</p>
+
+<p>So, let’s take off our pants and jacket, and get to it.</p>
+
+<p>There are a lot of complicated ways to do this, that require all kinds of know-how about Apache and Nginx and all sorts of stuff that’ll probably give you a migraine. So, we’re going to make this really simple.</p>
+
+<p>We’re going to use an .htaccess file.</p>
+
+<p>Normally, you could use this to block access to your entire website for everyone <em>but you</em>, which can be useful for testing purposes, or to hide what you’re working on, or what-have-you. But, instead of doing that, we’re going to make it so these bots simply <em>do not</em> access your website, <em>at all</em>. No asking. Just punching them in the face, and leaving them unconscious in a gutter.</p>
+
+<p>I run my website on Jekyll, so I decided to make a ruby that compiles my .htaccess file based on a json file that contains a list of AI scrapers. Once I build and serve my site, it regenerates the .htaccess file, <em>every single time</em>, based on what’s written in crawlers.json. In this way, I can <em>easily</em> add to it in the future, as morally corrupt businesses and corporations roll out even <em>more</em> <a href="https://cee.illinois.edu/news/AIs-Challenging-Waters#:~:text=Data%20centers%20are%20growing%20like%20weeds%2C%20and%20they%20are%20thirsty&amp;text=For%20example%2C%20Google's%20hyperscale%20data,day%20over%20the%20past%20year." target="_blank">water guzzling</a>, <a href="https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about" target="_blank">climate destroying</a> shit-machines.</p>
+
+<p>You <em>could</em> simply copy/paste the .htaccess file, but before we do that, I want to show you how to make it so you can do what I’m doing, if you’re using Jekyll, or something similar.</p>
+
+<p>First, make the ruby gem in your site’s root directory, and call it something like, “generate_htaccess.rb”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>require 'json'
+
+# Read the JSON file containing a list of crawlers, i.e., ai bots (the file doesn't *need* to be in assets/data/, that's just where I personally put it)
+file_path = 'assets/data/crawlers.json'
+crawlers = JSON.parse(File.read(file_path))['crawlers']
+
+# Generate .htaccess
+htaccess_content = &lt;&lt;~HTACCESS
+  RewriteEngine On
+  RewriteCond %{HTTP_USER_AGENT} (#{crawlers.join('|')}) [NC]
+  RewriteRule ^ - [F]
+HTACCESS
+
+# Write .htaccess
+File.open('.htaccess', 'w') do |file|
+  file.write(htaccess_content)
+end
+# Show output in the terminal
+puts ".htaccess file generated successfully."
+</code></pre></div></div>
+
+<p>Next, create your “crawlers.json” file in whichever directory you’d like. Mine is in /assets/data, but if you change this, you’ll have to edit the “file_path” in the ruby gem in order for this to work. Here’s my crawlers.json:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+    "crawlers": [
+      "AI2Bot",
+      "Ai2Bot-Dolma",
+      "Amazonbot",
+      "anthropic-ai",
+      "Applebot",
+      "Applebot-Extended",
+      "Bytespider",
+      "CCBot",
+      "ChatGPT-User",
+      "Claude-Web",
+      "ClaudeBot",
+      "cohere-ai",
+      "cohere-training-data-crawler",
+      "Diffbot",
+      "DuckAssistBot",
+      "FacebookBot",
+      "FriendlyCrawler",
+      "Google-Extended",
+      "GoogleOther",
+      "GoogleOther-Image",
+      "GoogleOther-Video",
+      "GPTBot",
+      "iaskspider/2.0",
+      "ICC-Crawler",
+      "ImagesiftBot",
+      "img2dataset",
+      "ISSCyberRiskCrawler",
+      "Kangaroo Bot",
+      "Meta-ExternalAgent",
+      "Meta-ExternalFetcher",
+      "OAI-SearchBot",
+      "omgili",
+      "omgilibot",
+      "PanguBot",
+      "PerplexityBot",
+      "PetalBot",
+      "Scrapy",
+      "SemrushBot",
+      "Sidetrade indexer bot",
+      "Timpibot",
+      "VelenPublicWebCrawler",
+      "Webzio-Extended",
+      "YouBot"
+    ]
+  }
+</code></pre></div></div>
+
+<p>If you’ve been following any of my Python projects, this will look similar to ways that I list, for example, subreddits for my “bots” to pull images from, and then post them to Mastodon. I like these json lists. It makes things real simple-like.</p>
+
+<p>I took this list, and other ideas on how to do this, from <a href="https://github.com/ai-robots-txt/ai.robots.txt?tab=readme-ov-file" target="_blank">this GitHub repository</a>. I am personally subscribed to their RSS feed so that I can stay up-to-date with slop that’s being rolled out by the likes of Meta and other terrible corporations.</p>
+
+<p>Finally, when building my Jekyll site locally, I use a shell script that does all sorts of things for me, such as, indexing all of my posts for my search engine, generating post metadata so that random posts can be shown at the bottom of other posts, and so on, and so forth. For this, though, we don’t need all of that. So, make a “serve.sh” (in your site’s root directory) that looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+
+# Generate .htaccess file
+ruby generate_htaccess.rb
+
+# Build
+bundle exec jekyll build
+
+# Serve
+bundle exec jekyll serve --watch
+</code></pre></div></div>
+
+<p>Now, as you’re updating your site on the local machine, and updating the build in order to admire your changes, or confirm that things are working, it’ll build a new .htaccess file, <em>every time you run this script</em>, and it’ll use the list of AI bots you’ve already provided (crawlers.json). This way, you can update the crawlers any time you want, and whenever you build your site locally, .htaccess gets updated (you should note, that executing Ruby without Ruby being installed, will do nothing, and it is assumed, that because you’re running Jekyll, you <em>do</em> have it installed).</p>
+
+<p>Once you commit the site to live, it’ll already be done and generated, and for all intents and purposes, <em>this should stop these greedy, power-hungry mother assheads from accessing your website</em>.</p>
+
+<p>The generated file should look something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (AI2Bot|Ai2Bot-Dolma|Amazonbot|anthropic-ai|Applebot|Applebot-Extended|Bytespider|CCBot|ChatGPT-User|Claude-Web|ClaudeBot|cohere-ai|cohere-training-data-crawler|Diffbot|DuckAssistBot|FacebookBot|FriendlyCrawler|Google-Extended|GoogleOther|GoogleOther-Image|GoogleOther-Video|GPTBot|iaskspider/2.0|ICC-Crawler|ImagesiftBot|img2dataset|ISSCyberRiskCrawler|Kangaroo Bot|Meta-ExternalAgent|Meta-ExternalFetcher|OAI-SearchBot|omgili|omgilibot|PanguBot|PerplexityBot|PetalBot|Scrapy|SemrushBot|Sidetrade indexer bot|Timpibot|VelenPublicWebCrawler|Webzio-Extended|YouBot) [NC]
+RewriteRule ^ - [F]
+</code></pre></div></div>
+
+<p>Now, this website and <a href="https://mkultra.monster" target="_blank">my Mastodon instance</a> are on the same domain, but they <em>are not</em> on the same server. So, what I did for my Mastodon instance was this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh root@your_mastodon_instance_ip
+
+su - mastodon
+
+cd live
+
+cd public
+
+nano .htaccess
+
+# copy/paste the generated .htaccess into this file with ctrl+shift+v
+
+ctrl+O
+
+ctrl+X
+</code></pre></div></div>
+
+<p>Done.</p>
+
+<p>The reason I’ve also included this on my Mastodon instance, is, partially, because I’ve noticed at least once a week, or every other week, there’s a <em>massive</em> spike of activity that causes my entire instance to go offline. And it <em>doesn’t come back up again</em>, until I force a power cycle, and then restart Mastodon streaming. I have some … <em>suspicions</em> that this is to do with sludge-scrapers, and so, <em>hopefully</em>, this does <em>something</em> for me.</p>
+
+<p>And maybe also you.</p>
+
+<p>But, there you have it. Block these sumbitches.</p>]]></content><author><name></name></author><category term="Tech" /><category term="blockai" /><category term="ai" /><category term="block" /><category term="htaccess" /><category term="robots" /><summary type="html"><![CDATA[If you’ve been on the internet in the past year and a half to two years, you’re probably very familiar with company’s like OpenAI, where Sam Altman argues that his bots must steal in order for his company to be profitable. And, you’re probably also very aware of the endless two-braincell-tech-dudes who post and write about how awesome it is to plagiarize and steal the work of artists to generate some quick, sloppy garbage for short-term gains. Well, if you’re like me, this pisses you the frick off, and in today’s post I’m going to help you completely block their grungy asses from accessing your website.]]></summary></entry><entry><title type="html">Fediverse Comments Have Returned</title><link href="http://localhost:4000/fediverse/2025/01/13/fediverse-comments-have-returned.html" rel="alternate" type="text/html" title="Fediverse Comments Have Returned" /><published>2025-01-13T11:32:00-05:00</published><updated>2025-01-13T11:32:00-05:00</updated><id>http://localhost:4000/fediverse/2025/01/13/fediverse-comments-have-returned</id><content type="html" xml:base="http://localhost:4000/fediverse/2025/01/13/fediverse-comments-have-returned.html"><![CDATA[<p>A while back, last year now, I briefly launched a Sharkey instance, and replaced my managed-host Mastodon instance, and since my fediverse comments on this blog weren’t completely compatible, I removed them and replaced them with an embedded comment section that makes calls to my VPS in order to store them. This is <em>pretty</em> memory intensive on a 6 dollar VPS that I’m not interested in upgrading, just so that I can host a bajillion different proxy servers.</p>
 
 <p>Now that I’ve been back to Mastodon, except, this time, hosting it myself, I figured, “Why not put the Fediverse comment sections back on each post?”</p>
 
@@ -331,22 +477,4 @@ Each time these AI tools are prompted, there’s a cost that few consider. Resea
   <li>
     <p>Or, <a href="https://jointhefediverse.net/?lang=en-us" target="_blank">surf through numerous different ActivityPub instances</a> that span even more than just Mastodon.</p>
   </li>
-</ul>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social-media" /><category term="meta" /><category term="threads" /><category term="instagram" /><category term="facebook" /><summary type="html"><![CDATA[So, last week, I wrote about Meta inadvertently planning to confirm the “Dead Internet Theory,” with cringy fake people (AI bots), and how enthusiastic the Zuck was about all of this, despite there being no value, or any verifiable reason for it all to exist. And, almost immediately afterward, scores of people began planning their move away from Threads across the platform (post-2023 social media is just a game of digital hot potato). Other users scoured Instagram and Facebook to find a slew of 20 some bots … including a fake black woman pretending to have a family, and culture.]]></summary></entry><entry><title type="html">The Year Was 2025</title><link href="http://localhost:4000/thoughts/2025/01/01/the-year-was-2025.html" rel="alternate" type="text/html" title="The Year Was 2025" /><published>2025-01-01T17:46:00-05:00</published><updated>2025-01-01T17:46:00-05:00</updated><id>http://localhost:4000/thoughts/2025/01/01/the-year-was-2025</id><content type="html" xml:base="http://localhost:4000/thoughts/2025/01/01/the-year-was-2025.html"><![CDATA[<p>Happy new year, everyone! I don’t know that I have any resolutions this time. I have … goals! Goals I would like to actually meet this year. I want to pay down this debt that I incurred from veterinarians more than three years ago now. I want to … find work in a tech field! Even if that may be <em>even more</em> impossible than it was six months ago. And, most of all, I want to revitalize my Patreon. Here’s why …</p>
-
-<p>I’ve been running <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">my Patreon</a> since October 2014. It has been … <em>a very long time</em>. Ten years! And in that time, I’ve posted downloadable releases of my <em>very first book</em> I ever self published, and then <em>two more</em> that came after. I have over twenty musical releases up, that I’ve posted about over the years, and you can download <em>all of them</em> (as a paid member). I have posts containing spotlights and information about nearly <em>everything I’ve ever</em> put into my Second Life store, and then I also have regular updates that include my blog posts (which have been on <em>multiple websites since then</em>).</p>
-
-<p>There was a time when my paid subscribers reached the height of <em>thirty active subs</em>, and then, over time, I lost focus, bad things happened in the synthwave scene, and a lot of them left.</p>
-
-<p>I’m going to put this out there, though: I appreciate <em>every single person</em> who has been on my Patreon, is there, and/or is even just <em>following</em> for free (except for Czarina, she was only subscribed for selfish reasons that she could later hold over my head in the midst of her retaliation to my outspoken views on the transphobia within the synthwave scene).</p>
-
-<p>On the topic of my Patreon, though, I <em>did</em> sort of stop updating it for a little bit of 2024. I thought I could move to Ko-fi, or other sites like it, because for a while <em>it did</em> feel easier to provide updates on things I’ve been doing, and creating. But … most of the sites that are <em>like</em> Patreon, are kind of also missing a lot of the features Patreon has. And … why abandon something I’ve been using <em>for ten years</em>?</p>
-
-<p>It may as well be an archive of everything I’ve ever done, right?</p>
-
-<p>I currently have a Python script running on a remote server that posts a snippet of information about my Patreon to my Mastodon account once daily, and I wanted to write this post, as well, to give a little bit of deeper insight. One of the things I was doing, that got me to where I used to be (before I returned to the offline work-world), was that I <em>shared</em> what I do, and what I create, <em>on a daily basis</em>. Sometimes <em>multiple</em> times a day.</p>
-
-<p>Since I returned to offline work, I’ve really slacked on actually sharing what I do, and I feel like that’s a big contributor as to why, <em>even with having a bestselling darksynth album</em>, I’ve kind of sifted into the background noise a bit.</p>
-
-<p>But, you should sign up to: support what I do, help me get out of this friggin’ debt, and, also? Help me <em>leave retail work once and for all</em>.</p>
-
-<p>That’s it. That’s the goal.</p>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Thoughts" /><category term="blogging" /><category term="thoughts" /><category term="newyear" /><summary type="html"><![CDATA[Happy new year, everyone! I don’t know that I have any resolutions this time. I have … goals! Goals I would like to actually meet this year. I want to pay down this debt that I incurred from veterinarians more than three years ago now. I want to … find work in a tech field! Even if that may be even more impossible than it was six months ago. And, most of all, I want to revitalize my Patreon. Here’s why …]]></summary></entry></feed>
+</ul>]]></content><author><name>𐕣 C M D R ░ NOVA 𐕣</name></author><category term="Social-media" /><category term="meta" /><category term="threads" /><category term="instagram" /><category term="facebook" /><summary type="html"><![CDATA[So, last week, I wrote about Meta inadvertently planning to confirm the “Dead Internet Theory,” with cringy fake people (AI bots), and how enthusiastic the Zuck was about all of this, despite there being no value, or any verifiable reason for it all to exist. And, almost immediately afterward, scores of people began planning their move away from Threads across the platform (post-2023 social media is just a game of digital hot potato). Other users scoured Instagram and Facebook to find a slew of 20 some bots … including a fake black woman pretending to have a family, and culture.]]></summary></entry></feed>
