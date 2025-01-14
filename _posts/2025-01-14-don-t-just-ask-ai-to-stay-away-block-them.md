@@ -5,10 +5,10 @@ date: 2025-01-14 11:18
 categories:
     - "Tech"
 tag: [blockai, ai, block, htaccess, robots]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113827854911928651
 ---
 If you've been on the internet in the past year and a half to two years, you're probably very familiar with company's like OpenAI, where Sam Altman argues that <a href="https://futurism.com/the-byte/openai-copyrighted-material-parliament" target="_blank">his bots *must* steal in order for his company to be profitable</a>. And, you're probably also *very* aware of the endless two-braincell-tech-dudes who post and write about how awesome it is to plagiarize and steal the work of artists to generate some quick, sloppy garbage for short-term gains. Well, if you're like me, this *pisses you the frick off*, and in today's post I'm going to help you completely block their grungy asses from accessing your website.
 
