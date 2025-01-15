@@ -130,6 +130,10 @@ body {
     background-color: black;
     border: 1px solid white;
     border-radius: 5px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
   @media (max-width: 768px) {
     .arrow-controls {
