@@ -3,7 +3,7 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2025-01-14T19:38:36-05:00</updated>
+  <updated>2025-01-14T20:03:46-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
@@ -26,6 +26,8 @@ Never-the-less, you can try it out, and also listen to soma.fm while you play.
 There is no end-goal, there are no objectives.
 
 The only point is to fly through infinite space while enjoying some music. Maybe we can call it, a self-care space exploration game, in JavaScript.
+
+
 
     ]]></content>
   </entry>

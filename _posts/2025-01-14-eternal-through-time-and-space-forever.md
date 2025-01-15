@@ -5,10 +5,10 @@ date: 2025-01-14 19:30
 categories:
     - "Gaming"
 tag: [javascript-game, java, gaming, space]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113829610158609211
 ---
 Months, and months, and months ago, I started making a really simple space flight game that I wanted to be like Elite. And then I found out that making a game exactly like Elite is actually extremely hard, and takes a very long time (I work a full time job that pretty much puts me to sleep the second I walk in the door at home, which leaves me with hardly any time to mess with code). I put the Python version of ETERNAL down, and let it roast, seemingly, *forever*. But then, I, more recently, thought, "What if it was just a simple space thing you do in JavaScript, and you put it in your website?"
 
@@ -21,3 +21,5 @@ Never-the-less, you can try it out, and also listen to soma.fm while you play.
 There is no end-goal, there are no objectives.
 
 The only point is to fly through infinite space while enjoying some music. Maybe we can call it, a self-care space exploration game, in JavaScript.
+
+<iframe title="ETERNAL: A little JavaScript game I made" width="560" height="315" src="https://video.infosec.exchange/videos/embed/61ea56c5-75e9-489c-aa47-99e67c521efe" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
