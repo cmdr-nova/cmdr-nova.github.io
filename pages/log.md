@@ -8,6 +8,7 @@ permalink: /pages/log/
 <ul>
 <li>- put the navbar to the right of the site on desktop, and kept the vanishing menu for mobile users.</li>
 <li>- added a new page for bookmarks i'd like to share.</li>
+<li>- added my simple javascript space game, 'eternal'</li>
 </ul>
 
 <code>12/27/2024</code>

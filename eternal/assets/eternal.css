@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: yellow;
+  }
+  a:visited {
+    color: white;
+  }
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .audio-controls {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .volume-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+  }
+  
+  .audio-controls button, .audio-controls input {
+    margin: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+  }
+  
+  .audio-controls input[type="range"] {
+    width: 100px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: black;
+  }
+  
+  .audio-controls input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 20px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .audio-controls input[type="range"]::-moz-range-thumb {
+    width: 10px;
+    height: 20px;
+    background: white;
+    cursor: pointer;
+  }
+  .instructions {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  .gauges {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-family: 'Press Start 2P', cursive; 
+  }
+  .gauge {
+    margin-bottom: 20px;
+  }
+  .gauge-label {
+    margin-bottom: 5px;
+  }
+  .gauge-bar {
+    width: 200px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    position: relative;
+  }
+  .gauge-fill {
+    height: 100%;
+    background-color: white;
+    width: 0;
+  }
+  .arrow-controls {
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .arrow-controls button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  @media (max-width: 768px) {
+    .arrow-controls {
+      display: flex;
+    }
+    .audio-controls {
+      bottom: 60px;
+    }
+    .instructions {
+      font-size: 10px;
+    }
+  }

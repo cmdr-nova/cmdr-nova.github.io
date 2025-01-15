@@ -404,7 +404,7 @@ code {
   background-color: var(--desc-bg-color);
   color: var(--excerpt-text);
   padding: 15px;
-  /*box-shadow: inset 0 0 15px var(--desc-inset);*/
+  box-shadow: inset 0 0 5px var(--desc-inset);
   margin-bottom: 15px;
 }
 
@@ -2161,6 +2161,7 @@ li {
 #search-pagination {
   margin-top: 20px;
   text-align: center;
+  overflow: hidden;
 }
 
 .search-page-link {
@@ -2230,4 +2231,32 @@ li {
 
 .light-mode .suggested-post p {
   color: #000;
+}
+
+.tags-label {
+  position: relative;
+  top: -15px;
+  margin-right: 5px;
+}
+
+/* Dimmed styling */
+
+.dimmer {
+  color: #666; 
+}
+
+.dimmer a {
+  color: #666;
+}
+
+.dimmer a:hover {
+  color: #333; 
+}
+
+.dimmer a:visited {
+  color: #666;
+}
+
+.dimmer code {
+  border-left: 5px solid #333333;
 }

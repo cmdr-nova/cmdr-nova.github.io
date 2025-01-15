@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETERNAL</title>
+  <link rel="stylesheet" href="assets/eternal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <audio id="backgroundMusic" src="https://ice2.somafm.com/deepspaceone-128-mp3" loop></audio>
+  <div class="audio-controls">
+    <button id="playPauseButton">play music</button>
+    <div class="volume-container">
+      <label for="volumeControl" class="volume-control" style="color: white;">volume:</label>
+      <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.3">
+    </div>
+  </div>
+  <div class="instructions">use arrow keys to move
+    <br> 
+    music streamed from <a href="https://somafm.com" target="_blank">SomaFM</a>
+    <br>
+    <a href="/">return home</a>
+    <br />
+    made by <a href="https://mkultra.monster/@cmdr_nova" target="_blank">cmdr_nova</a>
+  </div>
+  <div class="gauges">
+    <div class="gauge">
+      <div class="gauge-label">Power</div>
+      <div class="gauge-bar">
+        <div id="powerFill" class="gauge-fill"></div>
+      </div>
+    </div>
+    <div class="gauge">
+      <div class="gauge-label">Fuel</div>
+      <div class="gauge-bar">
+        <div id="fuelFill" class="gauge-fill"></div>
+      </div>
+    </div>
+  </div>
+  <div class="arrow-controls">
+    <button id="upButton">↑</button>
+    <div>
+      <button id="leftButton">←</button>
+      <button id="downButton">↓</button>
+      <button id="rightButton">→</button>
+    </div>
+  </div>
+  <script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    const ship = {
+      x: canvas.width / 2,
+      y: canvas.height / 2,
+      width: 40,
+      height: 40,
+      speed: 5,
+      dx: 0,
+      dy: 0,
+      angle: 0,
+      power: 0,
+      fuel: 100,
+      thrusting: false,
+      refueling: false
+    };
+
+    const stars = [];
+    const particles = [];
+    const numStars = 100;
+
+    function createStars() {
+      for (let i = 0; i < numStars; i++) {
+        stars.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          radius: Math.random() * 2,
+          alpha: Math.random(),
+          dx: (Math.random() - 0.5) * 0.1,
+          dy: (Math.random() - 0.5) * 0.1
+        });
+      }
+    }
+
+    function drawStars() {
+      stars.forEach(star => {
+        ctx.fillStyle = `rgba(255, 255, 255, ${star.alpha})`;
+        ctx.beginPath();
+        ctx.arc(star.x, star.y, star.radius, 0, Math.PI * 2);
+        ctx.fill();
+      });
+    }
+
+    function drawShip() {
+      ctx.save();
+      ctx.translate(ship.x, ship.y);
+      ctx.rotate(ship.angle);
+
+      ctx.fillStyle = 'white';
+      const pixelSize = 4;
+      const pixels = [
+        { x: 0, y: -3 * pixelSize },
+        { x: -1 * pixelSize, y: -2 * pixelSize },
+        { x: 1 * pixelSize, y: -2 * pixelSize },
+        { x: -2 * pixelSize, y: -1 * pixelSize },
+        { x: 2 * pixelSize, y: -1 * pixelSize },
+        { x: -3 * pixelSize, y: 0 },
+        { x: -1 * pixelSize, y: 0 },
+        { x: 1 * pixelSize, y: 0 },
+        { x: 3 * pixelSize, y: 0 },
+        { x: -2 * pixelSize, y: 1 * pixelSize },
+        { x: 2 * pixelSize, y: 1 * pixelSize },
+        { x: -1 * pixelSize, y: 2 * pixelSize },
+        { x: 1 * pixelSize, y: 2 * pixelSize },
+      ];
+
+      pixels.forEach(pixel => {
+        ctx.fillRect(pixel.x, pixel.y, pixelSize, pixelSize);
+      });
+
+      ctx.restore();
+    }
+
+    function createParticles(direction) {
+      for (let i = 0; i < 5; i++) {
+        let particleX = ship.x;
+        let particleY = ship.y;
+
+        if (direction === 'up') {
+          particleY += ship.height / 2;
+        } else if (direction === 'down') {
+          particleY -= ship.height / 2;
+        } else if (direction === 'left') {
+          particleX += ship.width / 2;
+        } else if (direction === 'right') {
+          particleX -= ship.width / 2;
+        }
+
+        particles.push({
+          x: particleX,
+          y: particleY,
+          dx: (Math.random() - 0.5) * 2,
+          dy: (Math.random() - 0.5) * 2,
+          alpha: 1,
+          size: Math.random() * 2
+        });
+      }
+    }
+
+    function drawParticles() {
+      particles.forEach((particle, index) => {
+        ctx.fillStyle = `rgba(255, 255, 255, ${particle.alpha})`;
+        ctx.beginPath();
+        ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
+        ctx.fill();
+
+        particle.x += particle.dx;
+        particle.y += particle.dy;
+        particle.alpha -= 0.02;
+
+        if (particle.alpha <= 0) {
+          particles.splice(index, 1);
+        }
+      });
+    }
+
+    function updateStars() {
+      stars.forEach(star => {
+        star.x -= ship.dx * 0.5;
+        star.y -= ship.dy * 0.5;
+
+        star.x += star.dx;
+        star.y += star.dy;
+
+        star.alpha += (Math.random() - 0.5) * 0.05;
+        if (star.alpha < 0.1) star.alpha = 0.1;
+        if (star.alpha > 1) star.alpha = 1;
+
+        if (star.x < 0) star.x = canvas.width;
+        if (star.x > canvas.width) star.x = 0;
+        if (star.y < 0) star.y = canvas.height;
+        if (star.y > canvas.height) star.y = 0;
+      });
+    }
+
+    function clear() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+    function update() {
+      clear();
+      drawStars();
+      drawParticles();
+      drawShip();
+      updateStars();
+      updateGauges();
+      updatePower();
+      requestAnimationFrame(update);
+    }
+
+    function updateGauges() {
+      const powerFill = document.getElementById('powerFill');
+      const fuelFill = document.getElementById('fuelFill');
+
+      powerFill.style.width = `${ship.power}%`;
+      fuelFill.style.width = `${ship.fuel}%`;
+
+      if (ship.fuel <= 0 && !ship.refueling) {
+        refuelShip();
+      }
+    }
+
+    function updatePower() {
+      if (!ship.thrusting) {
+        ship.power = Math.max(ship.power - 0.5, 0);
+      }
+    }
+
+    function refuelShip() {
+      ship.refueling = true;
+      ship.fuel = 0;
+      ship.power = 0;
+
+      setTimeout(() => {
+        ship.fuel = 100;
+        ship.refueling = false;
+      }, 5000);
+    }
+
+    function moveUp() {
+      if (!ship.refueling) {
+        ship.dy = -ship.speed;
+        ship.thrusting = true;
+        ship.power = Math.min(ship.power + 1, 100);
+        ship.fuel = Math.max(ship.fuel - 0.1, 0);
+        createParticles('up');
+      }
+    }
+
+    function moveDown() {
+      if (!ship.refueling) {
+        ship.dy = ship.speed;
+        ship.thrusting = true;
+        ship.power = Math.min(ship.power + 1, 100);
+        ship.fuel = Math.max(ship.fuel - 0.1, 0);
+        createParticles('down');
+      }
+    }
+
+    function moveLeft() {
+      if (!ship.refueling) {
+        ship.dx = -ship.speed;
+        ship.angle = -0.1; // Tilt left
+        ship.thrusting = true;
+        ship.power = Math.min(ship.power + 1, 100);
+        ship.fuel = Math.max(ship.fuel - 0.1, 0);
+        createParticles('left');
+      }
+    }
+
+    function moveRight() {
+      if (!ship.refueling) {
+        ship.dx = ship.speed;
+        ship.angle = 0.1; // Tilt right
+        ship.thrusting = true;
+        ship.power = Math.min(ship.power + 1, 100);
+        ship.fuel = Math.max(ship.fuel - 0.1, 0);
+        createParticles('right');
+      }
+    }
+
+    function keyDown(e) {
+      if (e.key === 'ArrowUp' || e.key === 'w') moveUp();
+      if (e.key === 'ArrowDown' || e.key === 's') moveDown();
+      if (e.key === 'ArrowLeft' || e.key === 'a') moveLeft();
+      if (e.key === 'ArrowRight' || e.key === 'd') moveRight();
+    }
+
+    function keyUp(e) {
+      if (e.key === 'ArrowUp' || e.key === 'w') ship.dy = 0;
+      if (e.key === 'ArrowDown' || e.key === 's') ship.dy = 0;
+      if (e.key === 'ArrowLeft' || e.key === 'a') {
+        ship.dx = 0;
+        ship.angle = 0; // Reset tilt
+      }
+      if (e.key === 'ArrowRight' || e.key === 'd') {
+        ship.dx = 0;
+        ship.angle = 0; // Reset tilt
+      }
+      ship.thrusting = false;
+    }
+
+    createStars();
+    update();
+
+    const backgroundMusic = document.getElementById('backgroundMusic');
+    backgroundMusic.volume = 0.3;
+
+    const playPauseButton = document.getElementById('playPauseButton');
+    const volumeControl = document.getElementById('volumeControl');
+
+    playPauseButton.addEventListener('click', () => {
+      if (backgroundMusic.paused) {
+        backgroundMusic.play();
+        playPauseButton.textContent = 'Pause';
+      } else {
+        backgroundMusic.pause();
+        playPauseButton.textContent = 'Play';
+      }
+    });
+
+    volumeControl.addEventListener('input', () => {
+      backgroundMusic.volume = volumeControl.value;
+    });
+
+    window.addEventListener('keydown', keyDown);
+    window.addEventListener('keyup', keyUp);
+  </script>
+  <script src="controls/mobile-controls.js"></script>
+</body>
+</html>
