@@ -5,10 +5,10 @@ date: 2025-01-14 21:34
 categories:
     - "Thoughts"
 tag: [tumblr, thoughts, banned, ode]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113830117421194996
 ---
 Twas a month before Christmas, and all through the web, not a creature was stirring, not even a pleb. When all of a sudden, and out of the blue, my blog was deleted, like a silent *fuck you*. No e-mail, no support, no response, and no word--They took all my work, and left but a turd. And time, that would pass, I sit and I think, "Damn ... that sucks ass." 
 
