@@ -5,10 +5,10 @@ date: 2025-01-15 23:49
 categories:
     - "Webdev"
 tag: [webdev, indieweb, webmaster]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113836318957810150
 ---
 I was surfing the <a href="https://forum.melonland.net" target="_blank">MelonLand forums</a>, looking for interesting topics to read, or even reply to, and then I noticed one I had once replied to late last year, where a user was asking how to stay invested in their own website. And I posted in reply, where I talked about how I was extending my website to make calls to a VPS in order to utilize Python to make it less "static." But, that's not really *the best* way to stay invested in maintaining your own personal website. You should stay invested, because, at the end of it all, and everything, and the oligarch-tech-complex that looms overhead, *it could end up being the only place where you're able to speak.*
 
