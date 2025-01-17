@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-17T08:02:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">So, It’s Been Over 20 Years</title><link href="http://localhost:4000/thoughts/2025/01/16/so-it-s-been-over-20-years.html" rel="alternate" type="text/html" title="So, It’s Been Over 20 Years" /><published>2025-01-16T22:30:00-05:00</published><updated>2025-01-16T22:30:00-05:00</updated><id>http://localhost:4000/thoughts/2025/01/16/so-it-s-been-over-20-years</id><content type="html" xml:base="http://localhost:4000/thoughts/2025/01/16/so-it-s-been-over-20-years.html"><![CDATA[<p>It’s not a secret that I turn 40 in May. Not a secret, because I can’t stop talking about how conflicted and melancholy this makes me feel. It forces me to look back into the past, twenty some years ago when life was completely different. When things were simpler, and I was simultaneously more comfortable, and less worried, but angsty, and angry all of the time. Back when I lived in a most definitely haunted house, that still stands to this day. That I’ve promised to myself, that if ever I can afford to buy a house: That’s the one I’ll buy.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-17T09:22:28-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">MKULTRA GAMING NEWS: Brought to You By Python</title><link href="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html" rel="alternate" type="text/html" title="MKULTRA GAMING NEWS: Brought to You By Python" /><published>2025-01-17T09:04:00-05:00</published><updated>2025-01-17T09:04:00-05:00</updated><id>http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python</id><content type="html" xml:base="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html"><![CDATA[<p>Today, I’m feeling a bit under-the-weather. I’ve got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, <em>regardless</em>, and I thought to myself, “You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people’s timelines.” In that, I mean, a lot of bots I’ve seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.</p>
+
+<p>What sparked me wanting to do this, was me, suddenly remembering how I asked one of the gaming news bot curators if he could … you know, put some kind of limit or interval on posts that his bot shares, or curate it in a way that it doesn’t share the same news ten times in five minutes.</p>
+
+<p>I remember him saying something like, “Well, I don’t know how to do that.”</p>
+
+<p>Being me, and knowing how to use a cronjob, I did it myself, with my own Python code, and my own bot. You can follow that bot <a href="https://mkultra.monster/@mkultra_gaming" target="_blank">here</a>, from my Mastodon instance.</p>
+
+<p>Here’s how it’s done.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import feedparser
+import random
+from mastodon import Mastodon
+import time
+
+# List of RSS feed URLs
+rss_feeds = [
+    'https://www.polygon.com/rss/index.xml',
+    'https://www.dualshockers.com/feed/',
+    'https://kotaku.com/rss',
+    'https://www.vg247.com/feed/',
+    'https://toucharcade.com/feed/',
+    'https://www.gamespot.com/feeds/mashup',
+    'https://www.ign.com/rss/articles/feed?tags=games',
+    'https://www.gematsu.com/feed',
+    'https://www.destructoid.com/feed/',
+    'https://www.rockpapershotgun.com/feed',
+    'https://www.siliconera.com/feed/',
+    'https://nichegamer.com/feed/',
+    'https://massivelyop.com/feed/',
+    'https://www.gamingonlinux.com/article_rss.php',
+    'https://www.tabletopgamingnews.com/feed/'
+]
+
+# Grab the latest item from a feed, and use retry logic, just in case a feed is dead
+def get_latest_item(feed_url, retries=3):
+    for attempt in range(retries):
+        try:
+            feed = feedparser.parse(feed_url)
+            if feed.entries:
+                return feed.entries[0]
+        except Exception as e:
+            print(f"Error fetching {feed_url}: {e}")
+            if attempt &lt; retries - 1:
+                time.sleep(2)  # Wait before retrying
+            else:
+                return None
+    return None
+
+# Look at all feeds
+latest_items = []
+for feed in rss_feeds:
+    item = get_latest_item(feed)
+    if item:
+        latest_items.append(item)
+
+# Select one at random
+if latest_items:
+    selected_item = random.choice(latest_items)
+
+    # Custom text
+    custom_text = "The latest gaming news! Brought to you and personally curated by cmdr_nova:\n\n"
+
+    # Mastodon credentials
+    mastodon = Mastodon(
+        access_token='an_access_token_from_mastodon',
+        api_base_url='https://mkultra.monster'
+    )
+
+    # Post that shit, bro!
+    status = f"{custom_text}[{selected_item.title}]\n\n{selected_item.link}"
+    mastodon.toot(status)
+else:
+    print("No items to share.")
+</code></pre></div></div>
+
+<p>Here are your requirements:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>feedparser==6.0.10
+Mastodon.py==1.5.1
+</code></pre></div></div>
+
+<p>And here’s a cronjob using a shell script so that it can activate an environment, execute the script, and then close the environment.</p>
+
+<p>Shell script:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+cd folder_location_of_script
+source environment_name/bin/activate
+python3 mkultra-gaming.py
+deactivate
+</code></pre></div></div>
+<p>Cronjob:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 * * * * folder_location_of_script/gaming.sh
+</code></pre></div></div>
+
+<p>And you’re good to go! This shares once an hour, from a feed, at random, and has retry logic just in case a feed doesn’t work, or blocks scripts, or whatever.</p>
+
+<p>Voila.</p>]]></content><author><name></name></author><category term="Development" /><category term="gamingnews" /><category term="programming" /><category term="bots" /><summary type="html"><![CDATA[Today, I’m feeling a bit under-the-weather. I’ve got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, regardless, and I thought to myself, “You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people’s timelines.” In that, I mean, a lot of bots I’ve seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.]]></summary></entry><entry><title type="html">So, It’s Been Over 20 Years</title><link href="http://localhost:4000/thoughts/2025/01/16/so-it-s-been-over-20-years.html" rel="alternate" type="text/html" title="So, It’s Been Over 20 Years" /><published>2025-01-16T22:30:00-05:00</published><updated>2025-01-16T22:30:00-05:00</updated><id>http://localhost:4000/thoughts/2025/01/16/so-it-s-been-over-20-years</id><content type="html" xml:base="http://localhost:4000/thoughts/2025/01/16/so-it-s-been-over-20-years.html"><![CDATA[<p>It’s not a secret that I turn 40 in May. Not a secret, because I can’t stop talking about how conflicted and melancholy this makes me feel. It forces me to look back into the past, twenty some years ago when life was completely different. When things were simpler, and I was simultaneously more comfortable, and less worried, but angsty, and angry all of the time. Back when I lived in a most definitely haunted house, that still stands to this day. That I’ve promised to myself, that if ever I can afford to buy a house: That’s the one I’ll buy.</p>
 
 <p>Thinking back 23 to 24 years ago, the memories in my head feel like … like something from another dimension. Something that wraps me in a lukewarm blanket of black and white, in the midst of Fall, and the silence of my bedroom where I once slept. Where I smoked cigarettes out the side-window, and sat at my 486 computer and waited for hours, <em>everyday</em>, for my internet girlfriends to log on AOL Instant Messenger. Where I spent most of my time trying to decide on the coolest anime wallpaper for my desktop, or prattling on and on about meaningless things on the message board, <a href="https://web.archive.org/web/20030207160624/http://animeboards.com/" target="_blank">animeboards.com</a>. Where I decorated my room with goth and death inspired candles, and incense, and listened to KoRn and Marilyn Manson for hours and hours on infinite repeat.</p>
 
@@ -359,52 +456,4 @@ There are so many stores that are less shiny on the outside but their stuff is a
 
 <p>They remind me of the people who walk into Walmarts with shitty attitudes, who yell at staff about pricing, and about item availability, and then stomp their feet and whine like a baby.</p>
 
-<p>Because that’s what they are.</p>]]></content><author><name></name></author><category term="Second-Life" /><category term="secondlife" /><category term="metaverse" /><category term="creators" /><category term="stores" /><category term="virtualworld" /><summary type="html"><![CDATA[In Second Life, anyone can be a creator, and make their creations available to the virtual world for purchase, and some have found major success with this. Others, it exists, maybe, as more of a hobby. For me, that’s mostly what it is, for now. But this all comes with a downside, because, like in the real world, the customer sometimes thinks they know best, and if you’ve ever worked retail, you know how very wrong that is.]]></summary></entry><entry><title type="html">MKMO (mkultra.monster) Now Blocks Federation with Threads, Once, and For All</title><link href="http://localhost:4000/social-media/2025/01/07/mkmo-mkultra-monster-now-blocks-federation-with-threads-once-and-for-all.html" rel="alternate" type="text/html" title="MKMO (mkultra.monster) Now Blocks Federation with Threads, Once, and For All" /><published>2025-01-07T13:21:00-05:00</published><updated>2025-01-07T13:21:00-05:00</updated><id>http://localhost:4000/social-media/2025/01/07/mkmo-mkultra-monster-now-blocks-federation-with-threads-once-and-for-all</id><content type="html" xml:base="http://localhost:4000/social-media/2025/01/07/mkmo-mkultra-monster-now-blocks-federation-with-threads-once-and-for-all.html"><![CDATA[<p>As per <a class="pages-link" href="https://nova.mkultra.monster/social-media/2025/01/07/meta-to-end-fact-checking-to-become-twitter-2-or-3">my last post</a> this morning (in regard to Meta’s loosening of moderation, as if it wasn’t already loose enough), I, as the admin of <a href="https://mkultra.monster" target="_blank">mkultra.monster</a>, will be blocking federation with Threads. For a long period of time, I hadn’t been doing this, partially because I don’t like bandwagons, and also because there are <em>regular, decent</em> people on Threads that I personally wanted to see. But, now it’s a bit more than a lost cause, and the social network is nothing <em>but</em> a detriment to the open social web.</p>
-
-<p>The people I liked seeing updates from will just have to move to Mastodon, or some other fediverse software.</p>
-
-<p>But, the other reason I wanted to post this, is because there are a lot of people who trot out their reasoning, or why they’ve blocked them from the start. Whether it’s performative or not, I remained skeptical for a long period of time. Skeptical, because I have experience from within the fediverse of numerous people, moderators, and admins saying one thing, or that they <em>stand</em> for one thing, and then they do the opposite.</p>
-
-<p>And this has made me <em>more</em> critical, <em>more</em> skeptical, and <em>more</em> distrusting of others.</p>
-
-<p>Yes, I have spoken about this before, but since it’s been about a year or so (or more?) since this all happened, I want to <em>again</em> bring light to the actions of the administrator and moderation team behind the Mastodon instance … hackers.town.</p>
-
-<p>It was some time around August 25th of 2023, that I was posting on my timeline over at HT about … I don’t know, something to do with how resilient my Macbook was. I was kind of stanning Apple real hard around that time, just because I enjoyed/liked their hardware. Never-the-less, a user by the name of 0xSH00T (who now, at least, appears to be banned and erased, over a <em>year</em> later) jumped in to make some vitriolic remarks about myself, my having posted on the timeline, and my choice in hardware.</p>
-
-<p>It was a <em>stupid</em> thing to get angry about, and it was a <em>stupid</em> thing to troll someone over.</p>
-
-<p>He escalated, <em>I</em> escalated, and I don’t claim to be of perfect cognitive or mental health. <em>I have my issues</em>, and I deal with them.</p>
-
-<p>I told him, and I quote, “Go fuck yourself, eat a pile of dicks and delete your goddamn account.”</p>
-
-<p>Yes, this is kind of … haha, ANGRY.</p>
-
-<p>And I had every right to be.</p>
-
-<p>In a direct message that no longer contains the originating message from the admin (@thegibson), I responded, “I’m here minding my own business mostly just talking to myself, and this person comes into my mentions swinging, I’m not tolerating any both sides-ing bullshit. Delete the instigator or I’m out.”</p>
-
-<p>Because, he and his mod-team, very much <em>were</em> playing the “both sides” card. In response to a troll, who was, in fact, instigating a fight.</p>
-
-<p>I didn’t really <em>want</em> to leave hackers.town (and I wouldn’t have, anyway, I just wanted the troll to, at minimum, be moderated). I was in a blood-haze, and kind of spiraling a bit. Just like when it happened on the instance over at deadinsi.de, where just about the same things had gone on, and the admin and moderator team had a lapse in judgment. That’s … that’s what we’ll call it, I guess.</p>
-
-<p>I made an off-the-cuff post about PTSD, I told Gibson again something like, “either you ban this asshole, or you ban me” and rather than doing any real moderation work, I was, of course, banned.</p>
-
-<p>This was not the outcome I <em>thought</em> would take place. At least not at the time.</p>
-
-<p>Again, I was spiraling. I was in a much worse mental place than I am now.</p>
-
-<p><em>Of course</em>, I shouldn’t have been banned. If someone is having a break in mental health, and spiraling out (crashing out, as the zoomers would say) over being harassed over and over, as a responsible administrator, or moderator, <em>you take action against the instigator, no matter the personal relationship you hold with them.</em></p>
-
-<p>Over this <em>tiny</em>, insignificant instance of abuse, I lost <em>years</em> of my presence on the fediverse, <em>indefinitely</em>. There were never any talks or apologies once the dust had settled. There was never any further action taken, appeals never read, never looked at, never considered. And yet, for <em>whatever reason</em>, my account still stands, frozen in time (suspended, but viewable), and now linking to my account on my own instance … <em>where this type of thing will never happen</em>.</p>
-
-<p>You cannot call yourself an instance, a server, that is tolerant, and forward-thinking, and “for the people,” if your personal relationships come first. Especially if those personal relationships are with instigative assholes who shouldn’t exist on your platform. This is going to sound really self-absorbed, but <em>I am a better administrator and moderator than anyone at hackers.town by 1000 miles,</em> and I will stand by that, into the future. Because I will never let this happen.</p>
-
-<p>Even if my server is only ever myself, and one other person, trolls will never gain the upper-hand, because I will never make excuses for anyone who’s being a shit.</p>
-
-<p>And that’s why, when people start posting on the federated timeline, about how bad you are if you don’t, or haven’t had Threads blocked, I have to stop and question: Is there an ulterior motive here? Should I <em>care</em> what any of these people think? What have they done in their positions that they likely haven’t answered for?</p>
-
-<p>And, thankfully, in a lot of instances, none of this applies. They’re just thoughts … most of the time.</p>
-
-<p>But there are people out there in the fediverse who are <em>just as bad</em> as the people you’d hope to escape by leaving Twitter, or Threads, and I think it’s important to realize that no place is perfect. The open social web, Mastodon, and ActivityPub is something I will continue to, and <em>always</em> support. But … it’s important to know that it’s not all just roses and candy.</p>
-
-<p>Jerks, and people not fit to moderate, exist, <em>everywhere</em>.</p>]]></content><author><name></name></author><category term="Social-Media" /><category term="mastodon" /><category term="fediverse" /><category term="meta" /><category term="threads" /><category term="facebook" /><category term="instagram" /><summary type="html"><![CDATA[As per my last post this morning (in regard to Meta’s loosening of moderation, as if it wasn’t already loose enough), I, as the admin of mkultra.monster, will be blocking federation with Threads. For a long period of time, I hadn’t been doing this, partially because I don’t like bandwagons, and also because there are regular, decent people on Threads that I personally wanted to see. But, now it’s a bit more than a lost cause, and the social network is nothing but a detriment to the open social web.]]></summary></entry></feed>
+<p>Because that’s what they are.</p>]]></content><author><name></name></author><category term="Second-Life" /><category term="secondlife" /><category term="metaverse" /><category term="creators" /><category term="stores" /><category term="virtualworld" /><summary type="html"><![CDATA[In Second Life, anyone can be a creator, and make their creations available to the virtual world for purchase, and some have found major success with this. Others, it exists, maybe, as more of a hobby. For me, that’s mostly what it is, for now. But this all comes with a downside, because, like in the real world, the customer sometimes thinks they know best, and if you’ve ever worked retail, you know how very wrong that is.]]></summary></entry></feed>
