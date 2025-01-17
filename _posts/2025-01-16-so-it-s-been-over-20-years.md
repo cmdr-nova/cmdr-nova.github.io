@@ -5,10 +5,10 @@ date: 2025-01-16 22:30
 categories:
     - "Thoughts"
 tag: [blogging, thoughts, aging]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113841697923292019
 ---
 It's not a secret that I turn 40 in May. Not a secret, because I can't stop talking about how conflicted and melancholy this makes me feel. It forces me to look back into the past, twenty some years ago when life was completely different. When things were simpler, and I was simultaneously more comfortable, and less worried, but angsty, and angry all of the time. Back when I lived in a most definitely haunted house, that still stands to this day. That I've promised to myself, that if ever I can afford to buy a house: That's the one I'll buy.
 
