@@ -5,10 +5,10 @@ date: 2025-01-17 09:04
 categories:
     - "Development"
 tag: [gamingnews, programming, bots]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113844171971935712
 ---
 Today, I'm feeling a bit under-the-weather. I've got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, *regardless*, and I thought to myself, "You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people's timelines." In that, I mean, a lot of bots I've seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.
 
