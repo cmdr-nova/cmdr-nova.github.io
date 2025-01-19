@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-17T09:30:31-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">MKULTRA GAMING NEWS: Brought to You By Python</title><link href="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html" rel="alternate" type="text/html" title="MKULTRA GAMING NEWS: Brought to You By Python" /><published>2025-01-17T09:04:00-05:00</published><updated>2025-01-17T09:04:00-05:00</updated><id>http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python</id><content type="html" xml:base="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html"><![CDATA[<p>Today, I’m feeling a bit under-the-weather. I’ve got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, <em>regardless</em>, and I thought to myself, “You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people’s timelines.” In that, I mean, a lot of bots I’ve seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-01-19T12:29:13-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Tik Tok, Popular Sludge Content Platform: Banned</title><link href="http://localhost:4000/social-media/2025/01/19/tik-tok-popular-sludge-content-platform-banned.html" rel="alternate" type="text/html" title="Tik Tok, Popular Sludge Content Platform: Banned" /><published>2025-01-19T11:48:00-05:00</published><updated>2025-01-19T11:48:00-05:00</updated><id>http://localhost:4000/social-media/2025/01/19/tik-tok-popular-sludge-content-platform-banned</id><content type="html" xml:base="http://localhost:4000/social-media/2025/01/19/tik-tok-popular-sludge-content-platform-banned.html"><![CDATA[<p>Yes, yes. It is absolutely a travesty and a violation of the first amendment for the government to ban a platform that the public uses to speak, and express themselves. Does that mean it was a perfect, and good platform? No. Just like Facebook, Instagram, Threads, and Twitter, there are, or have been, surface-level good things, with extremely very not good things just centimeters beneath the surface. From sludge that’s made to maintain a viewer’s attention for as long as possible, to manipulative content that pushes falsehoods and lies for engagement, to ByteDance’s own AI crawler that’s been scraping the entire internet for use in their image and video filters, <em>for years</em>. You definitely should not shed any tears.</p>
+
+<p>“But what about the content creators who were making thousands of dollars off of engagement bait? The NPC actors making millions of dollars in a year?!” You might ask, and I’ll begrudgingly respond: I’m sure Instagram will welcome them with open arms.</p>
+
+<p>You see, there <em>were</em> good things about Tik Tok, and I know it’s probably not gone forever, but I personally feel like the platform has been a net negative for the human population, overall, and I also realize that this makes it sound like I <em>agree</em> with the government. I do not.</p>
+
+<p>I do not believe that the Chinese government gives two flying ballsacks what a random American person is doing on an app where people shovel food in their mouths and try not to puke, in hopes they get forty five million views and a 5000 dollar paycheck. I feel like, if the president and corporations don’t want our information being sold to China, they should first <em>stop</em> allowing Elon Musk and Mark Zuckerberg to do so.</p>
+
+<p>With that out of the way, <em>fuck Tik Tok</em>.</p>
+
+<p>From <a href="https://www.haproxy.com/blog/nearly-90-of-our-ai-crawler-traffic-is-from-tiktok-parent-bytedance-lessons-learned" target="_blank">an article</a> written in October 2024,</p>
+
+<blockquote>
+This month, Fortune.com reported that TikTok’s web scraper — known as Bytespider — is aggressively sucking up content to fuel generative AI models. We noticed the same thing when looking at bot management analytics produced by HAProxy Edge — our global network that we ourselves use to serve traffic for haproxy.com. Some of the numbers we are seeing are fairly shocking, so let’s review the traffic sources and where they originate.
+</blockquote>
+
+<p>Out of the slew of bots I have to block on both my website, and also my Mastodon instance, I’m praying that their bot gets shutdown. Just so that I can count on one less DDOS scraper violating my consent.</p>
+
+<p>But, I’m also aware that Tik Tok is a staple of generation Z social networking. Like, it’s their monument, or whatever. It is to Gen Z, what MySpace is to Millennials. And while MySpace had the superficial “top 8” and spam in your inbox, I don’t recall an algorithm that <a href="https://www.theguardian.com/technology/2023/apr/04/how-tiktoks-algorithm-exploits-the-vulnerability-of-children" target="_blank">intentionally exploited children</a> in order to promote addiction.</p>
+
+<p>This also has a lot to do with parents not properly reviewing what their kids are doing online, whether it be scrolling sludge for 6 hours, or screaming at adults in Call of Duty. I can’t really speak <em>too badly</em> about parents in this day and age though, because I’m sure <em>many</em> millennials were doing things online that they shouldn’t have been doing, as well.</p>
+
+<p>Never-the-less, there is a bit of an influx of people from Tik Tok, to Mastodon, and ActivityPub, which is surprising. I’m not sure what characteristics of written social media Tik Tok users would enjoy. Either way, there’s always <a href="https://pixelfed.org/how-to-join" target="_blank">Pixelfed</a> and the upcoming <a href="https://loops.video" target="_blank">Loops.video</a> to replace predatory algorithm apps, and I hope they take off just the same way these scummy corporate apps have.</p>
+
+<p>At the end of the day, remember: Tik Tok, Threads, Twitter, Instagram, and even Bluesky: These apps and websites can be banned. All of them. But you can’t ban ActivityPub, not unless you’re going to expend billions in resources to track down thousands to hundreds of thousands of apps and servers.</p>
+
+<p>Welcome to the future.</p>]]></content><author><name></name></author><category term="Social-Media" /><category term="tiktokban" /><category term="socialmedia" /><category term="tik tok" /><summary type="html"><![CDATA[Yes, yes. It is absolutely a travesty and a violation of the first amendment for the government to ban a platform that the public uses to speak, and express themselves. Does that mean it was a perfect, and good platform? No. Just like Facebook, Instagram, Threads, and Twitter, there are, or have been, surface-level good things, with extremely very not good things just centimeters beneath the surface. From sludge that’s made to maintain a viewer’s attention for as long as possible, to manipulative content that pushes falsehoods and lies for engagement, to ByteDance’s own AI crawler that’s been scraping the entire internet for use in their image and video filters, for years. You definitely should not shed any tears.]]></summary></entry><entry><title type="html">MKULTRA GAMING NEWS: Brought to You By Python</title><link href="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html" rel="alternate" type="text/html" title="MKULTRA GAMING NEWS: Brought to You By Python" /><published>2025-01-17T09:04:00-05:00</published><updated>2025-01-17T09:04:00-05:00</updated><id>http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python</id><content type="html" xml:base="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html"><![CDATA[<p>Today, I’m feeling a bit under-the-weather. I’ve got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, <em>regardless</em>, and I thought to myself, “You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people’s timelines.” In that, I mean, a lot of bots I’ve seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.</p>
 
 <p>What sparked me wanting to do this, was me, suddenly remembering how I asked one of the gaming news bot curators if he could … you know, put some kind of limit or interval on posts that his bot shares, or curate it in a way that it doesn’t share the same news ten times in five minutes.</p>
 
@@ -358,102 +384,4 @@ ctrl+X
 <p>Which brings me to what made me want to post this, and that is this video posted by someone I know on the fediverse, of multiple professional chefs critiquing instant ramen noodles. I recommend a watch!</p>
 
 <blockquote class="mastodon-embed" data-embed-url="https://mastodon.social/@ManiacalV/113813166547141709/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;"> <a href="https://mastodon.social/@ManiacalV/113813166547141709" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75"><path d="M74.7135 16.6043C73.6199 8.54587 66.5351 2.19527 58.1366 0.964691C56.7196 0.756754 51.351 0 38.9148 0H38.822C26.3824 0 23.7135 0.756754 22.2966 0.964691C14.1319 2.16118 6.67571 7.86752 4.86669 16.0214C3.99657 20.0369 3.90371 24.4888 4.06535 28.5726C4.29578 34.4289 4.34049 40.275 4.877 46.1075C5.24791 49.9817 5.89495 53.8251 6.81328 57.6088C8.53288 64.5968 15.4938 70.4122 22.3138 72.7848C29.6155 75.259 37.468 75.6697 44.9919 73.971C45.8196 73.7801 46.6381 73.5586 47.4475 73.3063C49.2737 72.7302 51.4164 72.086 52.9915 70.9542C53.0131 70.9384 53.0308 70.9178 53.0433 70.8942C53.0558 70.8706 53.0628 70.8445 53.0637 70.8179V65.1661C53.0634 65.1412 53.0574 65.1167 53.0462 65.0944C53.035 65.0721 53.0189 65.0525 52.9992 65.0371C52.9794 65.0218 52.9564 65.011 52.9318 65.0056C52.9073 65.0002 52.8819 65.0003 52.8574 65.0059C48.0369 66.1472 43.0971 66.7193 38.141 66.7103C29.6118 66.7103 27.3178 62.6981 26.6609 61.0278C26.1329 59.5842 25.7976 58.0784 25.6636 56.5486C25.6622 56.5229 25.667 56.4973 25.6775 56.4738C25.688 56.4502 25.7039 56.4295 25.724 56.4132C25.7441 56.397 25.7678 56.3856 25.7931 56.3801C25.8185 56.3746 25.8448 56.3751 25.8699 56.3816C30.6101 57.5151 35.4693 58.0873 40.3455 58.086C41.5183 58.086 42.6876 58.086 43.8604 58.0553C48.7647 57.919 53.9339 57.6701 58.7591 56.7361C58.8794 56.7123 58.9998 56.6918 59.103 56.6611C66.7139 55.2124 73.9569 50.665 74.6929 39.1501C74.7204 38.6967 74.7892 34.4016 74.7892 33.9312C74.7926 32.3325 75.3085 22.5901 74.7135 16.6043ZM62.9996 45.3371H54.9966V25.9069C54.9966 21.8163 53.277 19.7302 49.7793 19.7302C45.9343 19.7302 44.0083 22.1981 44.0083 27.0727V37.7082H36.0534V27.0727C36.0534 22.1981 34.124 19.7302 30.279 19.7302C26.8019 19.7302 25.0651 21.8163 25.0617 25.9069V45.3371H17.0656V25.3172C17.0656 21.2266 18.1191 17.9769 20.2262 15.568C22.3998 13.1648 25.2509 11.9308 28.7898 11.9308C32.8859 11.9308 35.9812 13.492 38.0447 16.6111L40.036 19.9245L42.0308 16.6111C44.0943 13.492 47.1896 11.9308 51.2788 11.9308C54.8143 11.9308 57.6654 13.1648 59.8459 15.568C61.9529 17.9746 63.0065 21.2243 63.0065 25.3172L62.9996 45.3371Z" fill="currentColor" /></svg> <div style="color: #787588; margin-top: 16px;">Post by @ManiacalV@mastodon.social</div> <div style="font-weight: 500;">View on Mastodon</div> </a> </blockquote>
-<script data-allowed-prefixes="https://mastodon.social/" async="" src="https://mastodon.social/embed.js"></script>]]></content><author><name></name></author><category term="Thoughts" /><category term="thoughts" /><category term="secondlife" /><category term="ramen" /><category term="food" /><summary type="html"><![CDATA[I get off of work, third day of my work week, whole body aching, staving off the pain with exactly three Ibuprofen and nothing else, and I log onto Second Life. Standing outside my static mansion on a hill that no one visits but me, because nobody else is allowed, I try to think of something interesting to write about. I do kind of tire of writing on negative topics, and topics I have to constantly cite with outbound links, screenshots, and facts. That stuff takes me such a long time to write. But today, I think I want to talk about ramen.]]></summary></entry><entry><title type="html">Second Life: No, You Don’t Get to Dictate What Creators Do</title><link href="http://localhost:4000/second-life/2025/01/09/second-life-no-you-don-t-get-to-dictate-what-creators-do.html" rel="alternate" type="text/html" title="Second Life: No, You Don’t Get to Dictate What Creators Do" /><published>2025-01-09T22:11:00-05:00</published><updated>2025-01-09T22:11:00-05:00</updated><id>http://localhost:4000/second-life/2025/01/09/second-life-no-you-don-t-get-to-dictate-what-creators-do</id><content type="html" xml:base="http://localhost:4000/second-life/2025/01/09/second-life-no-you-don-t-get-to-dictate-what-creators-do.html"><![CDATA[<p>In Second Life, anyone can be a creator, and make their creations available to the virtual world for purchase, and some have found major success with this. Others, it exists, maybe, as more of a hobby. For me, that’s mostly what it is, for now. But this all comes with a downside, because, like in the real world, the customer sometimes thinks they know best, and if you’ve ever worked retail, you know how very wrong that is.</p>
-
-<p>I touched on this topic a little bit via Mastodon while I was on break at work, but I wanted to break it down in more detail, because this is a problem I see a lot of in Second Life. I’m not saying this is <em>every person in the virtual world who buys things</em>, but it is more or less, a pretty pervasive idea that I don’t think gets challenged enough. But, to break <em>that</em> down, basically, when people sell things in Second Life, you can sell it with permissions that allow a buyer to modify your content to their liking. You can <em>also</em> choose not to do this, in order to keep your work the way it is when it’s sold (especially if you want to sell different variations, which is, again, entirely up to the creator). Some people have a <em>very big problem</em> with the latter …</p>
-
-<p><img src="/img/posts/sl-stores/IMG_8137.jpg" /></p>
-
-<p>This is a screenshot of a Reddit post that got a lot of traction … a lot of people in agreement, and because Reddit is a place where dissenting opinions get buried and heckled, I felt it a good idea to write it all up here. So, let’s tear this apart, shall we?</p>
-
-<blockquote>
-As I'm customising my avatar more and getting more creative. I'm realising that there's no good reason for 99% of clothing to be non mod Perm (especially if it's a fatpack).
-</blockquote>
-
-<p>A lot of this language will probably be pretty alien to people who don’t peruse Second Life, so … “fatpack” is something creators make that contain all variations of a certain product, such as a shirt. We’ll go with that. So, a creator makes a black shirt, and a white shirt, and then maybe five other colors, and they sell them all individually. Then, what they’ll do, is they’ll make a pack that contains all of them together, along with, maybe, a couple bonuses for buying that pack, i.e., a “fatpack.”</p>
-
-<p>I don’t see any real problem with this, but we’ll get into that when I’m done here.</p>
-
-<p>This Redditor believes there’s “no good reason” for most clothing to not to be modifiable by the buyer. And I say, there is a good reason! If a creator <em>wants</em> to sell their virtual clothing in specific colors, patterns and textures, and not allow people to change this, that’s up to them! You are <em>not</em> the person running the store. You are not the person <em>creating</em> these things. And <em>most of it</em> is sold for prices <em>below</em> 2000 linden.</p>
-
-<p>A fatpack will usually run anywhere between 600 to 1200 linden. And maybe you’re thinking, “Whoa, is that expensive?”</p>
-
-<p>No.</p>
-
-<p>Some people look at that pricing, <em>within</em> Second Life, and they’ll call it expensive. They always do. But why don’t we look at the actual exchange rate.</p>
-
-<p><img src="/img/posts/sl-stores/Screenshot from 2025-01-09 22-29-48.png" /></p>
-
-<p>So … for less than a value meal at McDonalds, or a cup of coffee at Starbucks, you can buy an entire set of clothing? For a little bit less than 5 dollars USD?</p>
-
-<p>Another way to look at this, is that people are spending <em>hours</em> and <em>hours</em> on making clothing and accessories for people to buy, to customize their avatars, and to spice up their little virtual lives, <em>for almost nothing</em>. For less than a Fiverr gig. When, in the real world, if I were making you a custom 3D modeled product for a <em>game</em>, with complete textures, UV mapping, skeleton rigging, and weight painting … I would charge you <em>at least 500 dollars</em>.</p>
-
-<p>Fortunately, we’re talking about Second Life, where all of that work is done behind-the-scenes, and people sell things at prices that are easily digestible to the masses, which, I think <em>is beyond fair.</em> It’s almost highway robbery.</p>
-
-<blockquote>
-Removing hidden faces, unliking and linking items is a must. Especially because you often start running against attachment limits.
-</blockquote>
-
-<p>We step into the next point of this user’s argument, in that, their perceived issue, is that clothing in link-sets should be able to be de-linked, because sometimes you run into an issue where your avatar has <em>too many attachments</em>, and you can’t wear something that you want. And, a linkset, is basically just <em>gluing</em> different items together so that they count more as one, but, even in doing that, they still cost server resources.</p>
-
-<p>So you can only attach so many resources to your avatar until you hit that limit, you know, so that you don’t become a walking DDoS.</p>
-
-<p>But … what’s the attachment limit in 2025, for a Second Life avatar?</p>
-
-<p>Quoted directly from the <a href="https://wiki.secondlife.com/wiki/Limits#:~:text=general%20inworld%20experience.-,Avatar,and%20choosing%20Edit%20My%20Outfit." target="_blank">Second Life Wiki</a>, “Max. # of attachments - 38 combined HUD and body attachments.”</p>
-
-<p>An outfit someone might wear, will usually consist of a top, a bottom, and maybe shoes. So we’re talking … three to four attachment points. But then, of course, you have to account for your body, whether the hands and feet are separate, your hair, maybe custom eyes, and even fingernails.</p>
-
-<p>So what would that run you?</p>
-
-<p>To be generous, we’ll just say … 15. Even though that’s more than what I’ve listed, we’ll go with 15, to be fair to the original quoted post.</p>
-
-<p>You’ve <em>still got 23 additional attachment points</em>.</p>
-
-<p>Now, some people like to wear HUDs, like body HUDs that make hiding texture faces on your body easier (although, I’m not sure why you would wear this at all times), or gaming HUDs, like a system that makes it so your avatar is a vampire, or sexual HUDs that make your virtual life a little more … spicy. And, of course, you probably walk around with the HUD for your head on, at least, <em>sometimes</em>, so that you can control your eye and mouth movements.</p>
-
-<p>But … that’s like, maybe 3 to 5 more attachment points.</p>
-
-<p>You’ve still got a lot to go.</p>
-
-<p>I can’t remember if server weight is counted in addition to attachment points, but we’ll just say, <em>it is</em>, and some of these attachments are taking up multiple points. Odds are, you’ve still got room to put more stuff on your avatar.</p>
-
-<p>My point here, is that, <em>in most cases</em>, this is a complete non-issue, and it’s an excuse being made in order to aid the original argument. That creator’s should do what non-creator’s say, or else. And maybe you’re thinking, “Wh … what do you mean by that?”</p>
-
-<p>Just wait.</p>
-
-<blockquote>
-When you're new, you don't care and I think it's a bit cash grabby to sell non mod Items with shiny branding pages and stores.
-<br /><br />
-There are so many stores that are less shiny on the outside but their stuff is amazing and mod Perm.
-</blockquote>
-
-<p>I’m going to tackle both of these points together, because this is already pretty long. So. This kind of circles back to my point on pricing, and how <em>utterly entitled it is</em> to say that creators in Second Life are pushing out “cash grabs” when they decide they want to sell specific colors and designs, that you can’t rip out and replace with … whatever.</p>
-
-<p>That sounds, not just entitled, but … and this is a little ironic, but <em>greedy</em>.</p>
-
-<p>I’m not sure what being “new” has to do with this.</p>
-
-<p>But then in their continued final point, basically, stores that aren’t flashy and less established are, apparently, more inclined to sell their products with the ability to tear things apart, and do with them whatever a customer pleases. And hey, that’s also fine! If someone wants to sell their products in a way that makes it so customers can do whatever they want, go ahead!</p>
-
-<p>There is no wrong way to be a creator in Second Life, and you can do whatever you want, <em>because it is your work.</em></p>
-
-<p>And now, we’re going to circle back to my comment that hinted at an ultimatum …</p>
-
-<p><img src="/img/posts/sl-stores/Screenshot from 2025-01-09 22-56-08.png" /></p>
-
-<p>So, and this is also a point I’ve seen come up elsewhere, in that, and I’m going to be blunt, these <em>entitled as all hell people</em>, are trying to say that if a creator sells their work in a way that you can’t modify it, this <em>incentivizes</em> people to steal. To use ToS breaking scripts to rip your work out of Second Life, and to then re-upload it so that anything they want to do with it, can be done, for <em>free</em>.</p>
-
-<p>It’s no secret that there are unscrupulous, grifting, uncreative, jerks out there in the world. We know this, <em>especially now</em>, because of generative AI. But to say that creators should let you tear their work apart, or have it stolen … That’s just ridiculous. It’s <em>especially</em> ridiculous, when you realize that there <em>are</em> people stealing work in Second Life, that costs, <em>most of the time</em>, less than five dollars to have.</p>
-
-<p>When I say, there are some petty, entitled people in Second Life, <strong>I mean it</strong>.</p>
-
-<p><em>A large majority of work sold on the Second Life marketplace goes for less than even a dollar, sometimes 30 to 50 cents!</em></p>
-
-<p>And there are people <em>threatening to steal the work of these creators</em>, because they want to color the shirt you made baby-puke green.</p>
-
-<p>I have enjoyed running a store in Second Life for 10 years, and I’ll continue to do so, in exactly the way that I want, with complete disregard for what people like this think. Because they need hobbies. They need things to occupy themselves.</p>
-
-<p>They remind me of the people who walk into Walmarts with shitty attitudes, who yell at staff about pricing, and about item availability, and then stomp their feet and whine like a baby.</p>
-
-<p>Because that’s what they are.</p>]]></content><author><name></name></author><category term="Second-Life" /><category term="secondlife" /><category term="metaverse" /><category term="creators" /><category term="stores" /><category term="virtualworld" /><summary type="html"><![CDATA[In Second Life, anyone can be a creator, and make their creations available to the virtual world for purchase, and some have found major success with this. Others, it exists, maybe, as more of a hobby. For me, that’s mostly what it is, for now. But this all comes with a downside, because, like in the real world, the customer sometimes thinks they know best, and if you’ve ever worked retail, you know how very wrong that is.]]></summary></entry></feed>
+<script data-allowed-prefixes="https://mastodon.social/" async="" src="https://mastodon.social/embed.js"></script>]]></content><author><name></name></author><category term="Thoughts" /><category term="thoughts" /><category term="secondlife" /><category term="ramen" /><category term="food" /><summary type="html"><![CDATA[I get off of work, third day of my work week, whole body aching, staving off the pain with exactly three Ibuprofen and nothing else, and I log onto Second Life. Standing outside my static mansion on a hill that no one visits but me, because nobody else is allowed, I try to think of something interesting to write about. I do kind of tire of writing on negative topics, and topics I have to constantly cite with outbound links, screenshots, and facts. That stuff takes me such a long time to write. But today, I think I want to talk about ramen.]]></summary></entry></feed>

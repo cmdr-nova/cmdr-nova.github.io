@@ -3,11 +3,49 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2025-01-17T09:30:31-05:00</updated>
+  <updated>2025-01-19T12:29:13-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>Tik Tok, Popular Sludge Content Platform: Banned</title>
+    <link href="http://localhost:4000/social-media/2025/01/19/tik-tok-popular-sludge-content-platform-banned.html"/>
+    <updated>2025-01-19T11:48:00-05:00</updated>
+    <id>http://localhost:4000/social-media/2025/01/19/tik-tok-popular-sludge-content-platform-banned.html</id>
+    <content type="html"><![CDATA[
+      Yes, yes. It is absolutely a travesty and a violation of the first amendment for the government to ban a platform that the public uses to speak, and express themselves. Does that mean it was a perfect, and good platform? No. Just like Facebook, Instagram, Threads, and Twitter, there are, or have been, surface-level good things, with extremely very not good things just centimeters beneath the surface. From sludge that’s made to maintain a viewer’s attention for as long as possible, to manipulative content that pushes falsehoods and lies for engagement, to ByteDance’s own AI crawler that’s been scraping the entire internet for use in their image and video filters, for years. You definitely should not shed any tears.
+
+“But what about the content creators who were making thousands of dollars off of engagement bait? The NPC actors making millions of dollars in a year?!” You might ask, and I’ll begrudgingly respond: I’m sure Instagram will welcome them with open arms.
+
+You see, there were good things about Tik Tok, and I know it’s probably not gone forever, but I personally feel like the platform has been a net negative for the human population, overall, and I also realize that this makes it sound like I agree with the government. I do not.
+
+I do not believe that the Chinese government gives two flying ballsacks what a random American person is doing on an app where people shovel food in their mouths and try not to puke, in hopes they get forty five million views and a 5000 dollar paycheck. I feel like, if the president and corporations don’t want our information being sold to China, they should first stop allowing Elon Musk and Mark Zuckerberg to do so.
+
+With that out of the way, fuck Tik Tok.
+
+From an article written in October 2024,
+
+
+This month, Fortune.com reported that TikTok’s web scraper — known as Bytespider — is aggressively sucking up content to fuel generative AI models. We noticed the same thing when looking at bot management analytics produced by HAProxy Edge — our global network that we ourselves use to serve traffic for haproxy.com. Some of the numbers we are seeing are fairly shocking, so let’s review the traffic sources and where they originate.
+
+
+Out of the slew of bots I have to block on both my website, and also my Mastodon instance, I’m praying that their bot gets shutdown. Just so that I can count on one less DDOS scraper violating my consent.
+
+But, I’m also aware that Tik Tok is a staple of generation Z social networking. Like, it’s their monument, or whatever. It is to Gen Z, what MySpace is to Millennials. And while MySpace had the superficial “top 8” and spam in your inbox, I don’t recall an algorithm that intentionally exploited children in order to promote addiction.
+
+This also has a lot to do with parents not properly reviewing what their kids are doing online, whether it be scrolling sludge for 6 hours, or screaming at adults in Call of Duty. I can’t really speak too badly about parents in this day and age though, because I’m sure many millennials were doing things online that they shouldn’t have been doing, as well.
+
+Never-the-less, there is a bit of an influx of people from Tik Tok, to Mastodon, and ActivityPub, which is surprising. I’m not sure what characteristics of written social media Tik Tok users would enjoy. Either way, there’s always Pixelfed and the upcoming Loops.video to replace predatory algorithm apps, and I hope they take off just the same way these scummy corporate apps have.
+
+At the end of the day, remember: Tik Tok, Threads, Twitter, Instagram, and even Bluesky: These apps and websites can be banned. All of them. But you can’t ban ActivityPub, not unless you’re going to expend billions in resources to track down thousands to hundreds of thousands of apps and servers.
+
+Welcome to the future.
+
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>MKULTRA GAMING NEWS: Brought to You By Python</title>
