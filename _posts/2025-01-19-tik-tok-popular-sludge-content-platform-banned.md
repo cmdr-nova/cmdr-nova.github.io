@@ -5,10 +5,10 @@ date: 2025-01-19 11:48
 categories:
     - "Social-Media"
 tag: [tiktokban, socialmedia, tik tok]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113856234709242857
 ---
 Yes, yes. It is absolutely a travesty and a violation of the first amendment for the government to ban a platform that the public uses to speak, and express themselves. Does that mean it was a perfect, and good platform? No. Just like Facebook, Instagram, Threads, and Twitter, there are, or have been, surface-level good things, with extremely very not good things just centimeters beneath the surface. From sludge that's made to maintain a viewer's attention for as long as possible, to manipulative content that pushes falsehoods and lies for engagement, to ByteDance's own AI crawler that's been scraping the entire internet for use in their image and video filters, *for years*. You definitely should not shed any tears.
 
