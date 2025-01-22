@@ -5,10 +5,10 @@ date: 2025-01-21 17:17
 categories:
     - "Linux"
 tag: [linux, terminal]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113869023454100713
 ---
 I'm still sort of sick, but also actively participating in going to work (because I don't have sick time to use right now), but! I wanted to write something on the blog here, despite being tired, and stuffy, and having pains in my body, and so I thought, "What about neat things you can do in your Linux terminal that some might not be aware of?" I know, yes. This is a very nerdy thing to think about, or even do, and I'm sure the Windows-holdouts are giving this paragraph the stink-eye. Never-you-mind them, though. Let's open up that terminal.
 
