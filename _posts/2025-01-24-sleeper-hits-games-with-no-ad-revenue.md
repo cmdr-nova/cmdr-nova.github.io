@@ -5,10 +5,10 @@ date: 2025-01-24 21:43
 categories:
     - "Gaming"
 tag: [gamingnews, gaming]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113886967337232374
 ---
 Today, I wanted to write about some games that I enjoy that also appear to have no advertising, *ever*, for one reason or another. Either the studio just doesn't spend any money on ads, or they have no money to spend. In the past, I firmly believe this has been the reason games like Wildstar were eventually shutdown. You probably heard of that MMO, and also probably its demise, but had you seen any advertisements for or about it years after its launch? Probably not. Or, with how Second Life has been running for over 20 years, and there are virtually no and/or never any advertising campaigns about it. Yet, somehow, it thrives based on word-of-mouth, *alone*.
 
