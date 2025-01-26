@@ -5,10 +5,10 @@ date: 2025-01-26 03:48
 categories:
     - "Tech"
 tag: [ai, linux, climatechange]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113897041781756748
 ---
 It's a pretty widely known fact, at this point, that the development and continued use of AI is <a href="https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about" target="_blank">killing the planet</a>. It's killing the planet at an even more accelerated rate than the world's richest people and their corporations were, already. And yet, you can log onto Twitter (if you dare), Threads, Bluesky, and even Mastodon, and see tech-hype-brained, uncritical idiots (for lack of a better term), celebrating the thought of the expansion of LLMs to the point where we're now apparently even talking of wasting the potential of Linux-based operating systems on our phones, on its continued development and use.
 
