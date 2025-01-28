@@ -1,4 +1,4 @@
-name: Post to Mastodon
+name: Deploy to Neocities & Post to Mastodon
 
 on:
   push:
@@ -40,6 +40,13 @@ jobs:
 
     - name: List _site directory
       run: ls -la _site
+
+    - name: Deploy to Neocities
+      uses: bcomnes/deploy-to-neocities@v2.0.2
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_KEY }} # Uses API key from Neocities
+        cleanup: false
+        dist_dir: _site
 
     - name: Check for new posts
       id: check_new_posts
