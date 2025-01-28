@@ -5,10 +5,10 @@ date: 2025-01-28 16:07
 categories:
     - "Gaming"
 tag: [gamingnews, sims4, gaming]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113908125417785409
 ---
 So, I was thinking today, "Hey, my old website used to have a section dedicated to The Sims 4 where I hosted a downloadable version of my game template." And, after some consideration, I decided to put it back! Although, as of posting this, EA released an update to Sims 4 that *somehow* completely broke their servers, and now you can't launch the game ... at all. Which means, I can't finish editing my new 2025 Sims 4 world template. Thanks EA! But, that's not the only thing I've added to the site.
 

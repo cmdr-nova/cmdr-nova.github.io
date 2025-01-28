@@ -22,4 +22,12 @@ At this point, I have as many save files as I do years I've been alive.
 
 And now, with these updates and changes in mind, you can download my up-to-date world template, <a href="#" target="_blank">here</a>. (will be linked once EA fixes their own servers, which they've broken, currently)
 
-In this file, you'll find all of the sims I've made, and still use to this day. The sims pictured above, though, are a bit hidden in the mix. The sim pictured on the left, Morgan Karga, lives as a vampire in a renovated trailer with her brother and mother, who are both also vampires. The sim on the right, who, in this save file, goes by "Merrill Kavanagh," can be found as a child, living with her family in a rather large home. It's up to you if these two sims ever meet!
+In this file, you'll find all of the sims I've made, and still use to this day. The sims pictured above, though, are a bit hidden in the mix. The sim pictured on the left, Morgan Karga, lives as a vampire in a renovated trailer with her brother and mother, who are both also vampires. 
+
+<img src="/img/thesims/Screenshot from 2025-01-28 16-31-27.png">
+
+The sim on the right, who, in this save file, goes by "Merrill Kavanagh," can be found as a child, living with her family in a rather large home.
+
+<img src="/img/thesims/Screenshot from 2025-01-28 16-28-36.png">
+
+It's up to you if these two sims ever meet!
