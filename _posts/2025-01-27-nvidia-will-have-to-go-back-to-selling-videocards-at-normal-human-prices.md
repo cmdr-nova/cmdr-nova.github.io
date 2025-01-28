@@ -5,10 +5,10 @@ date: 2025-01-27 22:37
 categories:
     - "Tech"
 tag: [ai, tech, nvidia]
-#comments:
-#    host: mkultra.monster
-#    username: cmdr_nova
-#    id: 
+comments:
+    host: mkultra.monster
+    username: cmdr_nova
+    id: 113903994362122817
 ---
 It's been a hell of a week. Work has been busy. I've been tentatively trying to get back to finding new work as a web developer, because that's the career I should've been in twenty some odd years ago, and by golly gee whiz, I'm going to get it. But that's not why I'm writing you today, Mr. Internet. I'm writing, because the AI bubble is having a giant shit, and it's popping, and Nvidia is tanking. Thank the all mighty Flying Spaghetti Monster, and Venus' molten atmosphere: AI might be finished, or, at least, seriously diminished to the point that it's no longer a fad that annoying bastards on public social media timelines spam you about all day.
 
