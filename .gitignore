@@ -10,3 +10,4 @@ Gemfile.lock
 .bundle
 generate_tags.py
 serve.sh
+publish_site.sh

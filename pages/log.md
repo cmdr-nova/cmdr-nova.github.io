@@ -4,6 +4,13 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+<code>01/28/2025</code>
+<ul>
+<li>- migrated the site back to neocities, on a brand new account.</li>
+<li>- added a page for my sims 4 templates</li>
+<li>- added a page dedicated to my sims 4 vamphouse challenge</li>
+</ul>
+
 <code>01/14/2025</code>
 <ul>
 <li>- put the navbar to the right of the site on desktop, and kept the vanishing menu for mobile users.</li>
