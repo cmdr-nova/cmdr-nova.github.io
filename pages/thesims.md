@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Sims Stuff
+title: My Sims 4 Template
 permalink: /pages/thesims/
 ---
 
@@ -32,7 +32,7 @@ It's up to you if these two sims ever meet!
 
 <b>More about this new template:</b> 
 
-Some of the default sims in this world have been replaced with the "post purge" version of themselves that I made a few years back after EA updated The Sims 4, causing some kind of bug that rapidly aged almost all sims across a save file. This, in-turn, created a strange, but interesting new handful of "default sims." I kept a lot of them, updating their looks, and gave them new things.
+Some of the default sims in this world have been replaced with the "post purge" version of themselves that I made a few years back after EA updated The Sims 4, causing some kind of bug that rapidly aged almost all sims across a save file. This, in-turn, created a strange, but interesting new handful of "default sims." I kept a lot of them, updated their looks, and gave them new things.
 
 This template is *based* on the template I linked up at the beginning of this page, so it includes the pre-update Goth family, in their original form.
 
