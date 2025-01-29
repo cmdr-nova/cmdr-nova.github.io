@@ -17,7 +17,7 @@ Regardless, here are some pointers / instructions on how to clear up issues peop
 How in the world do I choose a server, and then sign-up?
 </code>
 
-I've detailed different ways to find Mastodon servers to join in the past, through my <a class="pages-link" href="/pages/activitypub">Join ActivityPub</a> page, and even <a href="https://mkultra.monster" target="_blank">offered up my own</a>. But, just so it's crystal clear, you can look through a list of servers on the <a href="https://joinmastodon.org/servers" target="_blank">joinmastodon.org</a> page. This *doesn't* include *all* instances, because it specifically *only* lists instances that make daily backups, and have more than one person running them. But it's a *good place to start*.
+I've detailed different ways to find Mastodon servers to join in the past, through my <a class="pages-link" href="/pages/activitypub">Join ActivityPub</a> page. But, just so it's crystal clear, you can look through a list of servers on the <a href="https://joinmastodon.org/servers" target="_blank">joinmastodon.org</a> page. This *doesn't* include *all* instances, because it specifically *only* lists instances that make daily backups, and have more than one person running them. But it's a *good place to start*.
 
 Once you've decided on an instance, and, to be completely clear about this: You don't *need* to choose something that's incredibly specific to your interests. And even if you choose an instance that is specific *to* an interest, most of them don't care all that much if you don't happen to post about that specific thing *at all times*.
 

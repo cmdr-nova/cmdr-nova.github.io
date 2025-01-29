@@ -9,23 +9,27 @@ Bluesky has automated starter packs that you add users to in a list, that other 
 *Fedi following is a bit different if you're unfamiliar with it. Each link leads to the version of these accounts that exist on my instance via federation, but you can follow either by copying their usernames plus instance name, or by clicking the "Follow" button on their profiles and entering the address to the instance you're currently logged into.*
 
 <img class="no-center pack-avatar dynamic-avatar" src="/img/avatar/nova.webp" height="100" width="100">
-<b>@cmdr_nova@mkultra.monster</b> <button class="post-buttons" onclick="window.open('https://mkultra.monster/@cmdr_nova', '_blank')">Follow</button>
+<b>@daemon_nova@labyrinth.zone</b> <button class="post-buttons" onclick="window.open('https://labyrinth.zone/daemon_nova', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
-░ Admin of mkultra.monster. // .. Artist behind Eyeshadow 2600 FM & #PLEXX // Author of upcoming space opera, DISSOLUTION PROTOCOL, SL creator at [REVOSA]
+░Artist behind #Eyeshadow2600FM & #PLEXX // Author of upcoming space opera, DISSOLUTION PROTOCOL, Second Life creator at [REVOSA] & AyaSys
 </p>
+
 <p>
 ░I am a: Writer, composer, designer, linux-enjoyer & webdev
 </p>
+
 <p>
-░ Pronouns : They/them // Gender : Immortal Machine // Sexuality : Pan // Age: 39
+░ Pronouns : Whatever // Gender : Immortal Machine // Sexuality : Pan // Age: 39
 </p>
+
 <p>
-░ Matrix: @cmdr_nova:matrix.org
+░ Signal: cmdr_nova.69
 </p>
+
 <p>
-#fedi22 #indieauthor #musician #webdev #lgbtqia #linux #artist #secondlife #furry #fuckai
+#fedi22 #indieauthor #musician #webdev #lgbtqia #linux #artist #secondlife #fuckai #dev
 </p>
 </div>
 

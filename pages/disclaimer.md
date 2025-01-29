@@ -34,6 +34,6 @@ You acknowledge that you have read this Disclaimer and agree to all its terms an
 
 **Contact**
 
-If you would like to contact the Webmaster for any questions, or further inquiries in regard to the Disclaimer, you may contact me <a href="mailto:net_run@mkultra.monster">here</a>.
+If you would like to contact the Webmaster for any questions, or further inquiries in regard to the Disclaimer, you may contact me <a href="mailto:cmdr-nova@mkultra.monster">here</a>.
 
 **Last update: July 27th, 2024**

@@ -3,7 +3,7 @@ layout: page
 title:  The VampHouse Challenge
 permalink: /sims4/vamphouse/
 ---
-Created by RavennaSanguine on the Sims 4 Gallery, a.k.a. <a href="https://mkultra.monster/@cmdr_nova" target="_blank">CMDR Nova</a>, producer of retrowave outfit <a href="https://eyeshadow2600fm.bandcamp.com" target="_blank">Eyeshadow 2600 FM</a>.
+Created by RavennaSanguine on the Sims 4 Gallery, a.k.a. <a href="https://labyrinth.zone/daemon_nova" target="_blank">CMDR Nova</a>, producer of retrowave outfit <a href="https://eyeshadow2600fm.bandcamp.com" target="_blank">Eyeshadow 2600 FM</a>.
 
 [I will be updating and revising this as I see fit, but as of right now this challenge is fully written and ready to be played]
 

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const profileUrl = 'https://mkultra.monster/@cmdr_nova';
+  const profileUrl = 'https://labyrinth.zone/users/daemon_nova';
   const authorLinks = document.querySelectorAll('.author-link'); // Select all elements with the class 'author-link'
 
   async function updateAuthor() {
@@ -15,16 +15,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const text = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(text, 'text/html');
-        const metaProfileUsername = doc.querySelector('meta[property="profile:username"]');
+        const metaProfileUsername = doc.querySelector('meta[name="twitter:title"]');
         const profileUsername = metaProfileUsername ? metaProfileUsername.content : null;
 
         if (profileUsername) {
+          const usernameMatch = profileUsername.match(/\(@([^)]+)\)/); // Extract the username within parentheses
+          const username = usernameMatch ? `@${usernameMatch[1]}` : profileUsername; // Use the extracted username or fallback to fullUsername
+
           authorLinks.forEach(authorLink => {
-            authorLink.textContent = profileUsername;
+            authorLink.textContent = username;
           });
-          console.log('Author updated to:', profileUsername);
+          console.log('Author updated to:', username);
         } else {
-          console.error('No profile:username meta tag found in the profile page');
+          console.error('No twitter:title meta tag found in the profile page');
         }
       } else {
         console.error('Failed to fetch the profile page');

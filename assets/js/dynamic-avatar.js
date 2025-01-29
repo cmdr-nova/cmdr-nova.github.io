@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const avatarElements = document.querySelectorAll('.dynamic-avatar'); // Select all elements with the class 'dynamic-avatar'
-    const profileUrl = 'https://mkultra.monster/@cmdr_nova';
+    const profileUrl = 'https://labyrinth.zone/daemon_nova';
   
     async function updateAvatar() {
       try {

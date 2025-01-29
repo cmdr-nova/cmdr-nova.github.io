@@ -625,7 +625,7 @@ code {
 .comment__content-wrapper {
   width: (100% * 60);
   margin-bottom: 15px;
-  background-color: var(--masto-comment-bg);
+  /*background-color: var(--masto-comment-bg);*/
   padding: 0px 0px;
 }
 
@@ -2260,4 +2260,68 @@ li {
 
 .dimmer code {
   border-left: 5px solid #333333;
+}
+
+#nuthead-ring {
+  margin: 0 auto;
+  padding: 5px;
+  width: 100% !important;
+}
+
+/* embedded akkoma */
+
+.akkoma-feed-container {
+  padding: 20px;
+  background-color: #111111d5;
+  color: #fff;
+  height: 25rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  right: 0;
+  border: 2px solid rgba(43, 43, 43, 0.404);
+  min-width: 260px;
+  max-width: 260px;
+}
+
+.akkoma-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.akkoma-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.akkoma-avatar {
+  width: 60px;
+  height: 60px;
+  border-color: #000;
+  border-style: solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.akkoma-username {
+  font-size: .9em;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.akkoma-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.akkoma-description {
+  margin-bottom: 5px;
+}
+
+.akkoma-pubdate {
+  font-size: 0.9em;
+  color: #666;
 }
