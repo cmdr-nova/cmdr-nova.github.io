@@ -5,10 +5,10 @@ date: 2025-01-29 13:24
 categories:
     - "SocialMedia"
 tag: [fediverse, akkoma, migration]
-#comments:
-#    host: labyrinth.zone
-#    username: daemon_nova
-#    id: 
+comments:
+    host: labyrinth.zone
+    username: daemon_nova
+    id: AqaEHdgdVks0Cjtiue
 ---
 So, last night I was poking around in my VPS billing reports, and I was going over some things. Basically, I have *plenty* of bandwidth for the mass of incoming media across the fediverse on my Mastodon instance ... *but*, all the things I have running, in order to keep it operating smoothly, are costing me nearly 70-80 USD a month, **and** my instance is beginning to experience slow-down. This is not good. If I felt more secure in my current job, and wanted to keep spending that much, maybe this wouldn't be an issue. But, for now, it kinda is. Therefore, I'm migrating away from hosting my own instance, for now.
 
