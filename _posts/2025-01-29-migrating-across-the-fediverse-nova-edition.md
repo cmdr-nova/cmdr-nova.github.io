@@ -28,4 +28,4 @@ Either way, the migration process was *sort of* smooth. I think I briefly nearly
 
 Thanks for coming along in my fediverse journey. We'll see where it goes from here! I'm mainly doing this, *also*, because I wanted to focus more on maintaining my website, rather than doing that, *plus* being the full-time admin of my own Mastodon instance.
 
-So, I think things will only get cooler from here.
+So, I think things will only get cooler from here, especially as mkultra.monster will now direct to this website.
