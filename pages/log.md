@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+<code>01/30/2025</code>
+<ul>
+<li>- started the basic foundation for writing a guide on building a website</li>
+</ul>
+
 <code>01/29/2025</code>
 <ul>
 <li>- removed fedi comments and replaced them with integrate comments</li>
