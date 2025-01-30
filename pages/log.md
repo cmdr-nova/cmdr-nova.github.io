@@ -4,6 +4,13 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+<code>01/29/2025</code>
+<ul>
+<li>- removed fedi comments and replaced them with integrate comments</li>
+<li>- redid the mastodon feed to fit my akkoma feed at labyrinth.zone</li>
+<li>- added a random lemmy post element to the left sidebar (to supplement no longer running bots on the fediverse)</li>
+</ul>
+
 <code>01/28/2025</code>
 <ul>
 <li>- migrated the site back to neocities, on a brand new account.</li>

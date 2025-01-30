@@ -2337,3 +2337,60 @@ li {
   font-weight: 500;
   text-align: center;
 }
+
+/* Random post fetcher */
+
+.random-post-container {
+  max-width: 240px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #111111d5;
+  border: 2px solid rgba(43, 43, 43, 0.404);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.light-mode .random-post-container {
+  background-color: #d1d1d1;
+  color: #000;
+}
+
+.random-post-container a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.light-mode .random-post-container a {
+  color: #000;
+}
+
+.random-post-container .post {
+  text-align: center;
+}
+
+.random-post-container .post h3 {
+  font-size: .9em;
+  margin-bottom: 10px;
+}
+
+.random-post-container .post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.random-post-container .post p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.light-mode .random-post-container .post p {
+  color: #000;
+}
+
+/* Small text */
+
+.small {
+  font-size: 0.8em;
+  text-align: center;
+}
