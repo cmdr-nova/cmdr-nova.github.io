@@ -11,25 +11,35 @@ I've seen people compare owning or building a website to the act of buying and o
 
 So, I decided I wanted to write a guide on how to get started with your own website!
 
-***SECTION 1***
+***SECTION 1*** THE BASICS
 
-> > > Guide 1: Getting Started With the Basics
+> > > Guide 1: Getting Started With The Basics
 
 > > > Guide 2: Building A File Structure
 
-> > > Guide 3: Using CSS to Beautify Your Site
+> > > Guide 3: Using CSS To Beautify Your Site
 
 > > > Guide 4: Making Your Website More Discoverable
 
-> > > Guide 5: Setting Up a Robots.txt
+> > > Guide 5: Setting Up A Robots.txt
 
-***SECTION 2***
+***SECTION 2*** GOING LIVE
 
 > > > Guide 1: Setting Up Neocities
 
 > > > Guide 2: Uploading Your Site
 
 > > > Guide 3: Create a Blog Section
+
+***SECTION 3*** BECOME A WEBHACKER
+
+> > > Guide 1: Make Your Site Mobile Friendly
+
+> > > Guide 2: Use JavaScript To Spice Things Up
+
+> > > Guide 3: Launch A Jekyll Site As A Static Blog
+
+> > > Guide 4: Make A Comment Section With A VPS As A Proxy
 
 ***USEFUL RESOURCES***
 
