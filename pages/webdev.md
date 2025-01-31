@@ -13,7 +13,7 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 ***SECTION 1*** THE BASICS
 
-> > > Guide 1: Getting Started With The Basics
+> > > Guide 1: <a class="page-link" href="/webdev/basics/guide1/">Getting Started With The Basics</a>
 
 > > > Guide 2: Building A File Structure
 
