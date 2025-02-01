@@ -23,7 +23,7 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 5: <a class="page-link" href="/webdev/basics/guide5/">Add Some Pages To Your Site</a>
 
-> > > Guide 6: <a class="page-link" href="/webdev/basics/guide5/">Making Your Website More Discoverable</a>
+> > > Guide 6: <a class="page-link" href="/webdev/basics/guide6/">Making Your Website More Discoverable</a>
 
 > > > Guide 7: Setting Up A Robots.txt
 
