@@ -17,7 +17,7 @@ Instead of doing, that, though, if you don't want to, we'll go over the easier w
 
 If you're on Windows, go ahead and download <a href="https://cyberduck.io/" target="_blank">Cyberduck</a>. Then (and I'm saying this based off of memory, because I'm not on Windows and haven't used it in quite some time) create a new connection. For the server, input "https://neocities.org/webdav" and for username and password, use your Neocities login name, and then password.
 
-If done correctly, you should be able to connect directly to your site directory, and in doing so, it'll be ultra easy to just drag and drop your whole entire sit right into that window.
+If done correctly, you should be able to connect directly to your site directory, and in doing so, it'll be ultra easy to just drag and drop your whole entire site right into that window.
 
 Now, if you're on Linux, this is *even easier*. No downloads required.
 
@@ -27,7 +27,7 @@ Voila.
 
 Your Neocities account is now a temporarily mounted drive on your PC, where you can drag your website files.
 
-Once you've done all of this, and you're *sure* everything is uploaded, and nothing's missing, simply navigate to your site url! This is going to be the name your registered with on Neocities and then .neocities.org.
+Once you've done all of this, and you're *sure* everything is uploaded, and nothing's missing, simply navigate to your site url! This is going to be the name you registered with on Neocities and then .neocities.org.
 
 So, your-username.neocities.org.
 
