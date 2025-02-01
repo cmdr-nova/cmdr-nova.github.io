@@ -17,7 +17,7 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 2: <a class="page-link" href="/webdev/basics/guide2/">Building A File Structure</a>
 
-> > > Guide 3: Using CSS To Beautify Your Site
+> > > Guide 3: <a class="page-link" href="/webdev/basics/guide3/">Using CSS To Beautify Your Site</a>
 
 > > > Guide 4: Making Your Website More Discoverable
 

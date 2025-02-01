@@ -9,7 +9,7 @@ Pull up a text editor.
 
  - If you're on Windows ...
 
-<code>
+```
 Windows Key + R
 Type in "notepad.exe"
 Press Enter
@@ -18,30 +18,32 @@ Choose where you want your site to be and create a folder
 Example: My Site
 Double-click the folder
 Name this file "index.html" and then save
-</code>
+```
 
  - If you're on Linux ...
 
-<code>
+```
 Open a terminal
 mkdir my-site (or whatever you want the folder to be called)
 cd my-site
 nano index.html
 Ctrl + O and then hit the Enter key
-</code>
+```
+
+(Remember, if using Nano as your editor in a Linux Terminal, that CTRL + X will exit the file.)
 
 Now, whether you're on Windows, or Linux, you're ready!
 
 We're making the initial file "index.html," because this acts as the page that a browser will load by default. And now, with that file open, we want to get started with the full basic structure of the page. So ...
 
-<code>
-&lt;html&gt;
-&lt;head&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code>
+```
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+```
 
 What this does:
 
@@ -51,29 +53,29 @@ Remember to periodically save what you're doing, either with Ctrl + S (on Window
 
 Now, we'll want to fill the head with identifying information, so ...
 
-<code>
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;My Cool Site&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code>
+```
+<html>
+<head>
+<title>My Cool Site</title>
+</head>
+<body>
+</body>
+</html>
+```
 
 With that out of the way, let's put some stuff into the page's body.
 
-<code>
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;My Cool Site&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Welcome to the best site on the world wide web!&lt;/h1&gt;
-&lt;p&gt;Here you will find all sorts of things about me, such as how to boil pizza in water, where to find cool rocks, and what to do if you find yourself in an abandoned mall.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code>
+```
+<html>
+<head>
+<title>My Cool Site</title>
+</head>
+<body>
+<h1>Welcome to the best site on the world wide web!</h1>
+<p>Here you will find all sorts of things about me, such as how to boil pizza in water, where to find cool rocks, and what to do if you find yourself in an abandoned mall.</p>
+</body>
+</html>
+```
 
 Now, you'll notice these tags I used in the body, "h1" and "p".
 
@@ -89,18 +91,18 @@ Take the image you want to use and place it in here. Make sure the name of the i
 
 In order to accomplish this, we'll use the HTML tag for images, "img." Press the Enter key at the end of your header line, and then do this:
 
-<code>
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;My Cool Site&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;Welcome to the best site on the world wide web!&lt;/h1&gt;
-&lt;img src="img/cool.jpg"&gt;&lt;/img&gt;
-&lt;p&gt;Here you will find all sorts of things about me, such as how to boil pizza in water, where to find cool rocks, and what to do if you find yourself in an abandoned mall.&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code>
+```
+<html>
+<head>
+<title>My Cool Site</title>
+</head>
+<body>
+<h1>Welcome to the best site on the world wide web!</h1>
+<img src="img/cool.jpg">
+<p>Here you will find all sorts of things about me, such as how to boil pizza in water, where to find cool rocks, and what to do if you find yourself in an abandoned mall.</p>
+</body>
+</html>
+```
 
 And it should look something like <a href="/webdev/basics/examples/index2.html" target="_blank">this</a>.
 

@@ -15,14 +15,14 @@ So, let's get that file structure built.
 
 Go into your root directory, and start creating folders. I'm going to show you what I mean, here, with a structure basis.
 
-<code>
+```
 | root
 || img
 || assets
 ||| css
 ||| js
 || pages
-</code>
+```
 
 You can see here that there are some folders you don't have. Where you place things is up to you. I always have the images folder one depth in from the root, but you don't need to do this. You could *actually* also place this in the assets folder (note, that if you move the img folder into the assets folder, you'll need to edit the location reference for the image on your page).
 
