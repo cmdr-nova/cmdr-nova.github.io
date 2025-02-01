@@ -21,7 +21,7 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 4: <a class="page-link" href="/webdev/basics/guide4/">Create Navigation for Multiple Pages</a>
 
-> > > Guide 5: Add Some Pages To Your Site
+> > > Guide 5: <a class="page-link" href="/webdev/basics/guide5/">Add Some Pages To Your Site</a>
 
 > > > Guide 6: Make Your Site Mobile Friendly
 

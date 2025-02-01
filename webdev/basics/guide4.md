@@ -284,6 +284,7 @@ THE MENU
 **
 </p>
 
+<p>Home</p>
 <p>About Me</p>
 <p>Writings</p>
 <p>Space Anomalies</p>
@@ -350,6 +351,7 @@ THE MENU
 **
 </p>
 
+<p>Home</p>
 <p>About Me</p>
 <p>Writings</p>
 <p>Space Anomalies</p>
