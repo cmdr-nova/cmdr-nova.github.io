@@ -55,7 +55,7 @@ VS Code is *really* useful. With content-aware code highlighting, and autocomple
 
 > > > <a href="https://obsidian.md/" target="_blank">Obsidian</a>
 
-Obsidian is like Apple Note, but on steroids, and it has code highlighting! Notes are markdown files by default, so this is *especially* useful if you decide to use something like Jekyll to maintain a combination website and blog (for more advanced users).
+Obsidian is like Apple Notes, but on steroids, and it has code highlighting! Notes are markdown files by default, so this is *especially* useful if you decide to use something like Jekyll to maintain a combination website and blog (for more advanced users).
 
 You can also use Obsidian to create and host a website, but this isn't something I've explored (because you have to pay for it, and I already pay for Obsidian).
 
