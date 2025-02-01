@@ -21,9 +21,13 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 4: <a class="page-link" href="/webdev/basics/guide4/">Create Navigation for Multiple Pages</a>
 
-> > > Guide 5: Making Your Website More Discoverable
+> > > Guide 5: Add Some Pages To Your Site
 
-> > > Guide 6: Setting Up A Robots.txt
+> > > Guide 6: Make Your Site Mobile Friendly
+
+> > > Guide 7: Making Your Website More Discoverable
+
+> > > Guide 8: Setting Up A Robots.txt
 
 ***SECTION 2*** GOING LIVE
 
@@ -33,13 +37,11 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 ***SECTION 3*** BECOME A WEBHACKER
 
-> > > Guide 1: Make Your Site Mobile Friendly
+> > > Guide 1: Use JavaScript To Spice Things Up
 
-> > > Guide 2: Use JavaScript To Spice Things Up
+> > > Guide 2: Launch A Jekyll Site As A Static Blog
 
-> > > Guide 3: Launch A Jekyll Site As A Static Blog
-
-> > > Guide 4: Make A Comment Section With A VPS As A Proxy
+> > > Guide 3: Make A Comment Section With A VPS As A Proxy
 
 ***USEFUL RESOURCES***
 
