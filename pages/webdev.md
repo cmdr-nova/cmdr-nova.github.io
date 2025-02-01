@@ -27,11 +27,13 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 7: <a class="page-link" href="/webdev/basics/guide7/">Setting Up A Robots.txt</a>
 
+<p>See the final result of the website built in these guides, <a href="/webdev/basics/examples/index9.html" target="_blank">here</a>.</p>
+
 ***SECTION 2*** GOING LIVE
 
 > > > Guide 1: <a class="page-link" href="/webdev/goinglive/guide1/">Setting Up Neocities</a>
 
-> > > Guide 2: Uploading Your Site
+> > > Guide 2: <a class="page-link" href="/webdev/goinglive/guide2/">Uploading Your Site</a>
 
 ***SECTION 2*** ADVANCED WEB CRAFTING
 
