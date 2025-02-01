@@ -208,6 +208,12 @@ Webrings
 ```
 And there you have it! We'll use a forward slash in front of the links just to avoid any errors the browser may have in locating where you're trying to send visitors, and now, you'll <a href="/webdev/basics/examples/index9.html" target="_blank">see on the page</a>, both the index and the "about me" section can be navigated, and all you had to do was update *one* file.
 
-With this knowledge, you can add more links to your page, yourself, and continue on your journey of crafting your very own website.
+With this knowledge, you can add more links to your page, *yourself*, and continue on your journey of crafting your very own website.
+
+"But what about a blog section?" You might ask.
+
+A blog is a bit trickier, and there is a way to do it, even on a static site like the one we've built here, and I'll go over more in-depth ways on how to do this, without getting too wild. But, for now, you *could* easily add a new page for "blogging", and then start writing. Maybe write the title of your blog post onto a "blog" page, and then link to a separate page within a "blog" folder containing the text of your update, utilizing the same methods we've gone over to create pages.
+
+Again, though, this is something I'll explain in more detail in the "advanced web crafting" section.
 
 <a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
