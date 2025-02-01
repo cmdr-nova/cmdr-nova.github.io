@@ -2394,3 +2394,59 @@ li {
   font-size: 0.8em;
   text-align: center;
 }
+
+/* CSS for Notes Page */
+
+.toots {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toot {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.toot-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.toot-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  border-width: 2px;
+  margin-right: 10px;
+}
+
+.toot-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.toot-username {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 15px;
+}
+
+.toot-handle {
+  color: #666666;
+  font-size: 0.9em;
+  margin-left: 15px;
+}
+
+.toot-content {
+  margin-bottom: 10px;
+}
+
+.toot-footer {
+  text-align: right;
+  color: #999999;
+  font-size: 0.8em;
+}

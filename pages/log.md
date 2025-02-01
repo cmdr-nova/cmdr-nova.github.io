@@ -4,6 +4,11 @@ title: Changelog
 permalink: /pages/log/
 ---
 
+<code>01/31/2025</code>
+<ul>
+<li>- added a new page to put posts from social media i want to save and showcase</li>
+</ul>
+
 <code>01/30/2025</code>
 <ul>
 <li>- started the basic foundation for writing a guide on building a website</li>
