@@ -174,7 +174,9 @@ We can test this out, by typing more things onto the page, while using multiple 
 
 See how this looks, <a href="/webdev/basics/examples/index5.html" target="_blank">here</a>.
 
-Pretty cool, right? But ... Uh oh, the link doesn't color itself correctly. It's clashing with the rest of your website and you can hardly read it!
+Pretty cool, right? We add links by wrapping a piece of text *that we want to be linked* in an anchor element referencing whatever page or website we want it to navigate to (upon being clicked), and then we tell it what to target. In this case, it's "_blank," which will open the link in a new tab. If you don't include a "target" element within an anchor tag, the link, once clicked, will simply open *in place of the page* the viewer is currently on. In *some cases*, we don't want to do this. 
+
+But ... Uh oh, the link doesn't color itself correctly. It's clashing with the rest of your website and you can hardly read it!
 
 Let's fix that.
 

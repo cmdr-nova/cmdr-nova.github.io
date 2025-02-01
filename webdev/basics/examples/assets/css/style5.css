@@ -5,6 +5,7 @@
     --visited-color: #CCCCCC;
     --socials: #295548;
     --text-shadow: #000000;
+    --nav-bg: #294155;
 }
 
 body {
@@ -21,8 +22,10 @@ a:visited {
 }
 
 .content-wrapper {
+    display: flex;
     margin: 0 auto;
-    width: 50%;
+    max-width: 1000px;
+    padding: 20px;
 }
 
 .content-wrapper h1 {
@@ -38,6 +41,28 @@ a:visited {
 
 .content-wrapper p {
     text-indent: 20px;
+}
+
+.nav {
+    flex: 0 0 200px;
+    background-color: var(--nav-bg);
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.nav p {
+    text-indent: 0;
+    text-shadow: 1px 1px 2px var(--text-shadow);
+}
+
+.main-content {
+    flex: 1;
+    max-width: 800px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .socials {
