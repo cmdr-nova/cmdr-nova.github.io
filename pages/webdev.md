@@ -63,6 +63,10 @@ Obsidian is like Apple Notes, but on steroids, and it has code highlighting! Not
 
 You can also use Obsidian to create and host a website, but this isn't something I've explored (because you have to pay for it, and I already pay for Obsidian).
 
+> > > <a href="https://strawberrystarter.neocities.org/" target="_blank">Strawberry Starter</a>
+
+Strawberry Starter is a simple tool that you can use on the command line to write, and upload to Neocities, with *zero knowledge of HTML required.*
+
 **WEBSITES**
 
 > > > <a href="https://forum.melonland.net/" target="_blank">melonland forums</a>
