@@ -7,7 +7,7 @@ permalink: /pages/notes/
 <div class="toots">
   <div class="toot">
     <div class="toot-header">
-          <img class="no-center toot-avatar pack-avatar dynamic-avatar" src="/img/avatar/nova.webp" height="100" width="100">
+          <img class="no-center toot-avatar pack-avatar" src="/img/avatar/daemon.jpeg" height="100" width="100">
       <div class="toot-user-info">
         <span class="toot-username">⸸ commander ░ nova ⸸ :~$</span>
         <span class="toot-handle">@daemon_nova</span>
@@ -80,6 +80,27 @@ permalink: /pages/notes/
       <span class="toot-link">link</span> |
       <span class="toot-instance">instance: mkultra.monster</span> |
       <span class="toot-timestamp">01.09.2025 12:33AM EST</span>
+    </div>
+  </div>
+</div>
+
+<div class="toots">
+  <div class="toot">
+    <div class="toot-header">
+          <img class="no-center toot-avatar pack-avatar" src="/img/avatar/net_run.webp" height="100" width="100">
+      <div class="toot-user-info">
+        <span class="toot-username">⸸Punished Venom Nova⸸</span>
+        <span class="toot-handle">@net_run</span>
+      </div>
+    </div>
+    <div class="toot-content">
+      <p>"no fact checking? but there's little dudes in there, checking facts right now"</p>
+      <img src="/img/gifs/tim_robinson.webp">
+    </div>
+    <div class="toot-footer">
+      <span class="toot-link"><a href="https://app.wafrn.net/fediverse/post/84d4a55e-d7ad-46d9-8a0a-971c347fcf8c" target="_blank">link</a></span> |
+      <span class="toot-instance">instance: app.wafrn.net</span> |
+      <span class="toot-timestamp">01.08.2025 01:01AM EST</span>
     </div>
   </div>
 </div>

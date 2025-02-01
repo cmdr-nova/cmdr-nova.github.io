@@ -5,10 +5,10 @@ date: 2025-01-31 22:16
 categories:
     - "Webdev"
 tag: [webdev, tutorials, socialmedia]
-#comments:
-#    host: labyrinth.zone
-#    username: daemon_nova
-#    id: 
+comments:
+    host: labyrinth.zone
+    username: daemon_nova
+    id: Aqf8S1aLspuHHnKKXY
 ---
 I meant to write about this earlier, but I guess I'll do that now as I wait for The Sims 1 and 2 Legacy Editions to download (which, I've had to reinstall on my SSD so that they'll load???) But, a few days ago (before I migrated to another instance), I saw someone basically, kind of, sort of, complaining that making a website is like this unattainable act, or practice, and that this is why most people just post on short-form media. My initial reaction was to be like, "What the hell are you talking about?" But, I realize, that things I find extremely simple, like writing HTML, or signing up on a fediverse instance, are actually really complicated for some.
 
