@@ -3,11 +3,30 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2025-02-01T16:24:07-05:00</updated>
+  <updated>2025-02-01T16:31:10-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>Nine Guides Complete, More To Come</title>
+    <link href="http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come.html"/>
+    <updated>2025-02-01T16:25:00-05:00</updated>
+    <id>http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come.html</id>
+    <content type="html"><![CDATA[
+      In my last post on here, I mentioned that I had started writing web development guides, but got interrupted by work, and tiredness. Well, do I have news for you. Today, I had off of work, and after having some caffeine and breakfast this morning, I spent about eight hours writing through nine different guides, from getting started with ultra-basic HTML, to constructing JavaScript that makes updating links while having many pages, way easy, to getting setup on Neocities.
+
+If you’ve never made a website before, or are interested in learning things, I’m confidence these guides will do something for you, in the very least.
+
+And, although it’s shown on the guide page itself, here’s the finished website you’ll be making alongside the guides.
+
+This took … a lot of time to write, and there are some things that could be more technically explained, but I think I’ve at least done enough that someone new to web development can at least get started. If even you just copy and paste what I’ve written in order to hack around and mess with stuff. I mean. That’s fine too!
+
+Either way, enjoy. I’m going to go take a break.
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Tutorials and Post Archiving</title>
