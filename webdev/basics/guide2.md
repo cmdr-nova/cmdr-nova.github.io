@@ -34,4 +34,4 @@ This is mostly self explanatory. In the "css" folder, this is where we'll store 
 
 And, that's it! We're ready to continue with the rest of the tutorial!
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index.</a>
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.

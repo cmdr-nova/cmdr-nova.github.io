@@ -114,4 +114,4 @@ Back in the day, you could use tags within the HTML body itself to center, justi
 
 But, congratulations! You now have the basics of putting a very simple website together, where you can write things, and display images!
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index.</a>
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.

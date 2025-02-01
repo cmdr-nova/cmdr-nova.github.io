@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #202020;
+    --text-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color)
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.content-wrapper h1 {
+    text-align: center;
+}
+
+.content-wrapper img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.content-wrapper p {
+    text-indent: 20px;
+}

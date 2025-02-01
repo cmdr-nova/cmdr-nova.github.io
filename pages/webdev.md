@@ -19,17 +19,17 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 3: <a class="page-link" href="/webdev/basics/guide3/">Using CSS To Beautify Your Site</a>
 
-> > > Guide 4: Making Your Website More Discoverable
+> > > Guide 4: Create Navigation for Multiple Pages
 
-> > > Guide 5: Setting Up A Robots.txt
+> > > Guide 5: Making Your Website More Discoverable
+
+> > > Guide 6: Setting Up A Robots.txt
 
 ***SECTION 2*** GOING LIVE
 
 > > > Guide 1: Setting Up Neocities
 
 > > > Guide 2: Uploading Your Site
-
-> > > Guide 3: Create a Blog Section
 
 ***SECTION 3*** BECOME A WEBHACKER
 
