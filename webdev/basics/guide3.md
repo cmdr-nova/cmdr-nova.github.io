@@ -183,7 +183,7 @@ Let's fix that.
     --bg-color: #202020;
     --text-color: #FFFFFF;
     --link-color: #CCCCCC;
-    --visited-color: #CCCCCC
+    --visited-color: #CCCCCC;
 }
 
 body {

@@ -19,7 +19,7 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 3: <a class="page-link" href="/webdev/basics/guide3/">Using CSS To Beautify Your Site</a>
 
-> > > Guide 4: Create Navigation for Multiple Pages
+> > > Guide 4: <a class="page-link" href="/webdev/basics/guide4/">Create Navigation for Multiple Pages</a>
 
 > > > Guide 5: Making Your Website More Discoverable
 
