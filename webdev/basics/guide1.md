@@ -24,8 +24,8 @@ Name this file "index.html" and then save
 
 <code>
 Open a terminal
-mkdir My Site (or whatever you want the folder to be called)
-cd My Site
+mkdir my-site (or whatever you want the folder to be called)
+cd my-site
 nano index.html
 Ctrl + O and then hit the Enter key
 </code>
