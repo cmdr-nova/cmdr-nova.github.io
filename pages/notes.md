@@ -7,6 +7,26 @@ permalink: /pages/notes/
 <div class="toots">
   <div class="toot">
     <div class="toot-header">
+          <img class="no-center toot-avatar pack-avatar" src="/img/avatar/net_run.webp" height="100" width="100">
+      <div class="toot-user-info">
+        <span class="toot-username">⸸Punished Venom Nova⸸</span>
+        <span class="toot-handle">@net_run</span>
+      </div>
+    </div>
+    <div class="toot-content">
+      <p>not sure how it happened but i just woke up in my car with the seat fully reclined, the hazard lights on, and a receipt for 40 chicken nuggets</p>
+    </div>
+    <div class="toot-footer">
+      <span class="toot-link"><a href="https://app.wafrn.net/fediverse/post/75568c5b-7f1f-418d-8fba-190f97c678d1" target="_blank">link</a></span> |
+      <span class="toot-instance">instance: app.wafrn.net</span> |
+      <span class="toot-timestamp">02.02.2025 01:00PM EST</span>
+    </div>
+  </div>
+</div>
+
+<div class="toots">
+  <div class="toot">
+    <div class="toot-header">
           <img class="no-center toot-avatar pack-avatar" src="/img/avatar/daemon.jpeg" height="100" width="100">
       <div class="toot-user-info">
         <span class="toot-username">⸸ commander ░ nova ⸸ :~$</span>
