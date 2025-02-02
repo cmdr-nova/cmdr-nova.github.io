@@ -27,7 +27,7 @@ So, I decided I wanted to write a guide on how to get started with your own webs
 
 > > > Guide 7: <a class="page-link" href="/webdev/basics/guide7/">Setting Up A Robots.txt</a>
 
-<p>See the final result of the website built in these guides, <a href="/webdev/basics/examples/index9.html" target="_blank">here</a>.</p>
+<p>See the final result of the website built in these guides, <a href="/webdev/basics/examples/index10.html" target="_blank">here</a>.</p>
 
 ***SECTION 2*** GOING LIVE
 
