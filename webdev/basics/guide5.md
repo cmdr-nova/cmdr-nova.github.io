@@ -206,7 +206,7 @@ Webrings
 
 <p><- Alien Ring -></p>
 ```
-And there you have it! We'll use a forward slash in front of the links just to avoid any errors the browser may have in locating where you're trying to send visitors, and now, you'll <a href="/webdev/basics/examples/index9.html" target="_blank">see on the page</a>, both the index and the "about me" section can be navigated, and all you had to do was update *one* file.
+And there you have it! We'll use a forward slash in front of the links just to avoid any errors the browser may have in locating where you're trying to send visitors, and now, you'll <a href="/webdev/basics/examples/index10.html" target="_blank">see on the page</a>, both the index and the "about me" section can be navigated, and all you had to do was update *one* file.
 
 With this knowledge, you can add more links to your page, *yourself*, and continue on your journey of crafting your very own website.
 
