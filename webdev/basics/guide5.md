@@ -216,4 +216,4 @@ A blog is a bit trickier, and there is a way to do it, even on a static site lik
 
 Again, though, this is something I'll explain in more detail in the "advanced web crafting" section.
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>, or <a class="page-link" href="/webdev/basics/guide6/">move on to the next tutorial</a>.

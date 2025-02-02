@@ -59,4 +59,4 @@ This is also all entirely optional, but it *will* make your site a bit more disc
 
 And that's absolutely it for this section!
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>, or <a class="page-link" href="/webdev/basics/guide7/">move on to the next tutorial</a>.

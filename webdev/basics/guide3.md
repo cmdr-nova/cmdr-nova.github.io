@@ -229,4 +229,4 @@ And that's it for *basic* CSS development. Now your site can have cool colors, c
 
 Next, we'll talk about creating a navigation bar so that you can build more pages for people to visit on your site.
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>, or <a class="page-link" href="/webdev/basics/guide4/">move on to the next tutorial</a>.

@@ -21,4 +21,4 @@ But, if you're just making a tiny little site with mostly text, I wouldn't worry
 
 In the next guide, I'll go over the easiest way to upload, without having to use just the dashboard for this.
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>, or <a class="page-link" href="/webdev/goinglive/guide2/">move on to the next tutorial</a>.

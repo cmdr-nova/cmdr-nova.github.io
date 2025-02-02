@@ -429,4 +429,4 @@ So, there you go! Navigation!
 
 Now, none of the links in the navigation bar in our current example go anywhere, but we'll go over how we can build more pages in the next guide.
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>, or <a class="page-link" href="/webdev/basics/guide5/">move on to the next tutorial</a>.

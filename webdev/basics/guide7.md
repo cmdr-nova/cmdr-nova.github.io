@@ -61,4 +61,4 @@ What this does, is simply asks all these scraper bots not to scrape. That doesn'
 
 And that's it! Simple, huh?
 
-<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>.
+<a class="page-link" href="/pages/webdev">Click here to return to the tutorial index</a>, or <a class="page-link" href="/webdev/goinglive/guide1/">move on to the next tutorial</a>.
