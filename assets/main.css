@@ -1,5 +1,5 @@
 :root {
-  --body-txt: #ffffff;
+  --body-txt: #b5c0c2;
   --button-bgcolor: hsla(73, 87%, 57%, 0.726);
   --button-bgcolor-hover: #161616ab;
   --desc-bg-color: #181818c9;
@@ -8,28 +8,28 @@
   --desc-inset: #000000;
   --desc-border-color: #b3fd0665;
   --feed-text: #53d8f0;
-  --excerpt-text: #ffffff;
+  --excerpt-text: #839496;
   --author-bg: #13131377;
   --author-border-color: #b3fd0665;
   --author-dropshadow-color: rgba(234, 238, 4, 0.897);
   --link-container-color: #1f1f1f;
   --drop-shadow: rgba(234, 238, 4, 0.774);
   --svg-fill: #828282;
-  --read-text: #c8ff00;
+  --read-text: #00a2fff6;
   --other-inset: #000000;
   --main-inset: #141414bd;
   --sidebar-inset: #c8ff00;
   --post-link-text: #b5f81ad3;
   --waifu-bg: #131313;
   --waifu-txt: #00fc69;
-  --site-bg: #0e0e0e;
+  --site-bg: #002B36;
   --main-border: #131313;
   --masto-avies: #c8ff00;
   --masto-comment-bg: #181818c9;
   --masto-content-bg: #131313;
   --btn-border: #131313;
   --button-txt: #c8ff00;
-  --btn-bg: #1f1f1f;
+  --btn-bg: #2b4938;
   --sidenav-bg: #1c1c1c;
   /** Gradient colors */
   --grad-1: #232425;
@@ -179,8 +179,18 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 .nav-list {
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
+  min-width: 260px;
+  max-width: 260px;
+  border-style: solid;
+  border-color:rgb(0, 0, 0);
   margin: 0;
+  margin-left: 20px;
+  background-color: #202020;
+}
+
+.light-mode .nav-list {
+  background-color: #d1d1d1;
 }
 
 #main {
@@ -314,7 +324,7 @@ a {
 }
 
 a:visited { 
-  color: #c8ff00; 
+  color: #82dcf8; 
 }
 
 .light-mode a:visited {
@@ -369,7 +379,7 @@ code {
   display: inline-block;
   margin: 5px 5px 5px 0px; 
   padding: 7px; 
-  border-left: 5px solid #d9ff00;
+  border-left: 5px solid #00e1ff;
   font-family: monospace; 
   white-space: pre-wrap; 
   overflow-x: auto; 
@@ -1116,6 +1126,8 @@ iframe {
 #calendar {
   font-family: Montserrat, sans-serif;
   border-collapse: collapse;
+  border-style: solid;
+  border-color: #000000;
   max-width: 240px;
   background-size: cover; 
   background-position: center; 
@@ -1301,11 +1313,12 @@ iframe {
 }
 
 .post-buttons {
-  background-color:#000000 !important;
-  color:rgb(217, 255, 0) !important;
+  background-color:#2b4938 !important;
+  color:rgb(226, 226, 226) !important;
   margin-top: 1px !important;
   margin-bottom: 1px !important;
   cursor: pointer;
+  padding: 2px;
 }
 
 .light-mode .post-buttons {
@@ -1499,6 +1512,7 @@ li {
 .repos ul {
   list-style-type: disc;
   padding: 0;
+  text-align: left;
 }
 
 .repos li {
