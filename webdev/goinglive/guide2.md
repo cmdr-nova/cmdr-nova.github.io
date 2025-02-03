@@ -13,6 +13,8 @@ And now, I don't use this method to upload my site to Neocities, but you *should
 
 *If that doesn't work*, then I am fairly certain you have to select individual files with the "upload" button. But make sure you get everything!
 
+*I have been informed that the WebDAV method only works for those who are paying for Neocities, which was an oversight on my end. Because I've just always paid for Neocities. But the former methods should also work, and if your site isn't huge, it shouldn't be too much of a hassle to get it uploaded.*
+
 Instead of doing, that, though, if you don't want to, we'll go over the easier way to do this.
 
 If you're on Windows, go ahead and download <a href="https://cyberduck.io/" target="_blank">Cyberduck</a>. Then (and I'm saying this based off of memory, because I'm not on Windows and haven't used it in quite some time) create a new connection. For the server, input "https://neocities.org/webdav" and for username and password, use your Neocities login name, and then password.
