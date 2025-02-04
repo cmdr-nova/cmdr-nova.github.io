@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-03T22:29:31-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Nine Guides Complete, More To Come</title><link href="http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come.html" rel="alternate" type="text/html" title="Nine Guides Complete, More To Come" /><published>2025-02-01T16:25:00-05:00</published><updated>2025-02-01T16:25:00-05:00</updated><id>http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come</id><content type="html" xml:base="http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come.html"><![CDATA[<p>In my last post on here, I mentioned that I had started writing web development guides, but got interrupted by work, and tiredness. Well, do I have news for you. Today, I had off of work, and after having some caffeine and breakfast this morning, I spent about eight hours writing through nine different guides, from getting started with ultra-basic HTML, to constructing JavaScript that makes updating links while having many pages, <em>way easy</em>, to getting setup on Neocities.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-03T22:59:16-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Brain Too Thought For Sleep</title><link href="http://localhost:4000/thoughts/2025/02/03/brain-too-thought-for-sleep.html" rel="alternate" type="text/html" title="Brain Too Thought For Sleep" /><published>2025-02-03T22:46:00-05:00</published><updated>2025-02-03T22:46:00-05:00</updated><id>http://localhost:4000/thoughts/2025/02/03/brain-too-thought-for-sleep</id><content type="html" xml:base="http://localhost:4000/thoughts/2025/02/03/brain-too-thought-for-sleep.html"><![CDATA[<p>I haven’t written anything on here in a few days, not since I wrote up nine guides for budding web developers, and then promptly returned to work to be exhausted and run through the grinder of the grind. And, with one day left til my “weekend,” I got a little bit more to go. But I don’t really like to talk about my offline job in social places online. I mean, it’s my job. Yes, some day I would either like to promote upward until I don’t have to worry about anything anymore, <em>or</em> find a career in web development, but that’s besides the point.</p>
+
+<p>I just get tired.</p>
+
+<p>And it’s hard to think.</p>
+
+<p>Yeah, it’s tax time. Worst time of the year, when single people with lots of bills and a day job get pennies back from the IRS, and then charges from the local bureau because fuck you, that’s why.</p>
+
+<p>I find a lot of the time, if I don’t stop to write, and if I don’t stop to think about the things around me, and how life’s going, I tend to … <em>lose</em> myself. I lose track of where I am and where I’m headed. I get stuck in a brain-fog where I feel like I’m an outsider watching myself move through the motions of the everyday monotony. Some people might call that, uh, dissociation.</p>
+
+<p>Not sure why I’d be dissociating, but hey, whatever.</p>
+
+<p>Here’s a picture of my cat.</p>
+
+<p><img src="/img/steve/IMG_8256.jpg" /></p>
+
+<p>Today I was thinking to myself, “I can use my time while I’m at work to low-key try to think of ideas on how I can use my website to turn out some kind of income.” But then I got distracted by being at work, and by being busy, and I came up with no ideas on how to do that. And, no, I am not going to start stuffing ad-sense into this site.</p>
+
+<p>I don’t want Google’s haphazard ad-malware painted all over this castle of web design that I’ve spent almost a year building. It’d be like putting brussels sprouts on pizza. Why the hell would you do that?</p>
+
+<p>Anyway, my neck hurts. These are my night-time thoughts for the third of February.</p>]]></content><author><name></name></author><category term="Thoughts" /><category term="thoughts" /><category term="blogging" /><summary type="html"><![CDATA[I haven’t written anything on here in a few days, not since I wrote up nine guides for budding web developers, and then promptly returned to work to be exhausted and run through the grinder of the grind. And, with one day left til my “weekend,” I got a little bit more to go. But I don’t really like to talk about my offline job in social places online. I mean, it’s my job. Yes, some day I would either like to promote upward until I don’t have to worry about anything anymore, or find a career in web development, but that’s besides the point.]]></summary></entry><entry><title type="html">Nine Guides Complete, More To Come</title><link href="http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come.html" rel="alternate" type="text/html" title="Nine Guides Complete, More To Come" /><published>2025-02-01T16:25:00-05:00</published><updated>2025-02-01T16:25:00-05:00</updated><id>http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come</id><content type="html" xml:base="http://localhost:4000/webdev/2025/02/01/nine-guides-complete-more-to-come.html"><![CDATA[<p>In my last post on here, I mentioned that I had started writing web development guides, but got interrupted by work, and tiredness. Well, do I have news for you. Today, I had off of work, and after having some caffeine and breakfast this morning, I spent about eight hours writing through nine different guides, from getting started with ultra-basic HTML, to constructing JavaScript that makes updating links while having many pages, <em>way easy</em>, to getting setup on Neocities.</p>
 
 <p>If you’ve never made a website before, or are interested in learning things, I’m confidence <a class="page-link" href="/pages/webdev/">these guides</a> will do <em>something</em> for you, in the very least.</p>
 
@@ -276,101 +296,4 @@ This month, Fortune.com reported that TikTok’s web scraper — known as Bytesp
 
 <p>Welcome to the future.</p>
 
-<p>(My thoughts throughout this blog post may seem disjointed and frayed, and that’s because I’m at home with the flu, and a fever right now)</p>]]></content><author><name></name></author><category term="Social-Media" /><category term="tiktokban" /><category term="socialmedia" /><category term="tik tok" /><summary type="html"><![CDATA[Yes, yes. It is absolutely a travesty and a violation of the first amendment for the government to ban a platform that the public uses to speak, and express themselves. Does that mean it was a perfect, and good platform? No. Just like Facebook, Instagram, Threads, and Twitter, there are, or have been, surface-level good things, with extremely very not good things just centimeters beneath the surface. From sludge that’s made to maintain a viewer’s attention for as long as possible, to manipulative content that pushes falsehoods and lies for engagement, to ByteDance’s own AI crawler that’s been scraping the entire internet for use in their image and video filters, for years. You definitely should not shed any tears.]]></summary></entry><entry><title type="html">MKULTRA GAMING NEWS: Brought to You By Python</title><link href="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html" rel="alternate" type="text/html" title="MKULTRA GAMING NEWS: Brought to You By Python" /><published>2025-01-17T09:04:00-05:00</published><updated>2025-01-17T09:04:00-05:00</updated><id>http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python</id><content type="html" xml:base="http://localhost:4000/development/2025/01/17/mkultra-gaming-news-brought-to-you-by-python.html"><![CDATA[<p>Today, I’m feeling a bit under-the-weather. I’ve got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, <em>regardless</em>, and I thought to myself, “You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people’s timelines.” In that, I mean, a lot of bots I’ve seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.</p>
-
-<p>What sparked me wanting to do this, was me, suddenly remembering how I asked one of the gaming news bot curators if he could … you know, put some kind of limit or interval on posts that his bot shares, or curate it in a way that it doesn’t share the same news ten times in five minutes.</p>
-
-<p>I remember him saying something like, “Well, I don’t know how to do that.”</p>
-
-<p>Being me, and knowing how to use a cronjob, I did it myself, with my own Python code, and my own bot. You can follow that bot <a href="https://mkultra.monster/@mkultra_gaming" target="_blank">here</a>, from my Mastodon instance.</p>
-
-<p>Here’s how it’s done.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import feedparser
-import random
-from mastodon import Mastodon
-import time
-
-# List of RSS feed URLs
-rss_feeds = [
-    'https://www.polygon.com/rss/index.xml',
-    'https://www.dualshockers.com/feed/',
-    'https://kotaku.com/rss',
-    'https://www.vg247.com/feed/',
-    'https://toucharcade.com/feed/',
-    'https://www.gamespot.com/feeds/mashup',
-    'https://www.ign.com/rss/articles/feed?tags=games',
-    'https://www.gematsu.com/feed',
-    'https://www.destructoid.com/feed/',
-    'https://www.rockpapershotgun.com/feed',
-    'https://www.siliconera.com/feed/',
-    'https://nichegamer.com/feed/',
-    'https://massivelyop.com/feed/',
-    'https://www.gamingonlinux.com/article_rss.php',
-    'https://www.tabletopgamingnews.com/feed/'
-]
-
-# Grab the latest item from a feed, and use retry logic, just in case a feed is dead
-def get_latest_item(feed_url, retries=3):
-    for attempt in range(retries):
-        try:
-            feed = feedparser.parse(feed_url)
-            if feed.entries:
-                return feed.entries[0]
-        except Exception as e:
-            print(f"Error fetching {feed_url}: {e}")
-            if attempt &lt; retries - 1:
-                time.sleep(2)  # Wait before retrying
-            else:
-                return None
-    return None
-
-# Look at all feeds
-latest_items = []
-for feed in rss_feeds:
-    item = get_latest_item(feed)
-    if item:
-        latest_items.append(item)
-
-# Select one at random
-if latest_items:
-    selected_item = random.choice(latest_items)
-
-    # Custom text
-    custom_text = "The latest gaming news! Brought to you and personally curated by cmdr_nova:\n\n"
-
-    # Mastodon credentials
-    mastodon = Mastodon(
-        access_token='an_access_token_from_mastodon',
-        api_base_url='https://mkultra.monster'
-    )
-
-    # Post that shit, bro!
-    status = f"{custom_text}[{selected_item.title}]\n\n{selected_item.link}"
-    mastodon.toot(status)
-else:
-    print("No items to share.")
-</code></pre></div></div>
-
-<p>Here are your requirements:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>feedparser==6.0.10
-Mastodon.py==1.5.1
-</code></pre></div></div>
-
-<p>And here’s a cronjob using a shell script so that it can activate an environment, execute the script, and then close the environment.</p>
-
-<p>Shell script:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
-cd folder_location_of_script
-source environment_name/bin/activate
-python3 mkultra-gaming.py
-deactivate
-</code></pre></div></div>
-<p>Cronjob:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 * * * * folder_location_of_script/gaming.sh
-</code></pre></div></div>
-
-<p>And you’re good to go! This shares once an hour, from a feed, at random, and has retry logic just in case a feed doesn’t work, or blocks scripts, or whatever.</p>
-
-<p>Voila.</p>]]></content><author><name></name></author><category term="Development" /><category term="gamingnews" /><category term="programming" /><category term="bots" /><summary type="html"><![CDATA[Today, I’m feeling a bit under-the-weather. I’ve got the aches, the pains, and the coughing fits. Never-the-less, I wanted to do something, regardless, and I thought to myself, “You know, there are a few gaming news related bots on the fediverse, and most of them kinda suck, because they have no regard for people’s timelines.” In that, I mean, a lot of bots I’ve seen will pump a handful of rounds of feed items into a shotgun, and blast them all over your timeline in extremely short time spans. This sucks, because attempting to read your timeline while a bot spams it, is annoying! So, I solved the problem.]]></summary></entry></feed>
+<p>(My thoughts throughout this blog post may seem disjointed and frayed, and that’s because I’m at home with the flu, and a fever right now)</p>]]></content><author><name></name></author><category term="Social-Media" /><category term="tiktokban" /><category term="socialmedia" /><category term="tik tok" /><summary type="html"><![CDATA[Yes, yes. It is absolutely a travesty and a violation of the first amendment for the government to ban a platform that the public uses to speak, and express themselves. Does that mean it was a perfect, and good platform? No. Just like Facebook, Instagram, Threads, and Twitter, there are, or have been, surface-level good things, with extremely very not good things just centimeters beneath the surface. From sludge that’s made to maintain a viewer’s attention for as long as possible, to manipulative content that pushes falsehoods and lies for engagement, to ByteDance’s own AI crawler that’s been scraping the entire internet for use in their image and video filters, for years. You definitely should not shed any tears.]]></summary></entry></feed>
