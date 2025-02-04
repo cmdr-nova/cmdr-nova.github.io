@@ -7,6 +7,26 @@ permalink: /pages/notes/
 <div class="toots">
   <div class="toot">
     <div class="toot-header">
+          <img class="no-center toot-avatar pack-avatar" src="/img/avatar/daemon.jpeg" height="100" width="100">
+      <div class="toot-user-info">
+        <span class="toot-username">⸸ commander ░ nova ⸸ :~$</span>
+        <span class="toot-handle">@daemon_nova</span>
+      </div>
+    </div>
+    <div class="toot-content">
+      <p>dentist asked ‘do you smoke and drink coffee’ mothefucer how do you smoke coffee</p>
+    </div>
+    <div class="toot-footer">
+      <span class="toot-link"><a href="https://labyrinth.zone/notice/Aql8PMWqj21kJxB8zY" target="_blank">link</a></span> |
+      <span class="toot-instance">instance: labyrinth.zone</span> |
+      <span class="toot-timestamp">02.03.2025 08:17PM EST</span>
+    </div>
+  </div>
+</div>
+
+<div class="toots">
+  <div class="toot">
+    <div class="toot-header">
           <img class="no-center toot-avatar pack-avatar" src="/img/avatar/net_run.webp" height="100" width="100">
       <div class="toot-user-info">
         <span class="toot-username">⸸Punished Venom Nova⸸</span>
