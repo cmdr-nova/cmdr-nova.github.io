@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Toots, Woots, Posts, & More
+title: A Compendium of Posts
 permalink: /pages/notes/
 ---
 <div id="toots-container">
