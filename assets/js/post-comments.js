@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   console.log('post-comments.js loaded'); // Debugging output
 
-  const postId = window.location.pathname; // Makes sure that each post has it's own dang ol' comments
   const commentsList = document.getElementById('post-comments-list');
   const commentForm = document.getElementById('post-comment-form');
   const commentAuthor = document.getElementById('post-comment-author');
@@ -11,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function fetchComments() {
     try {
-      const response = await fetch(`${proxyUrl}?postId=${encodeURIComponent(postId)}`);
+      const response = await fetch(proxyUrl);
       if (response.ok) {
         const comments = await response.json();
         commentsList.innerHTML = '';
@@ -44,21 +43,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function submitComment(event) {
     event.preventDefault();
-    const author = commentAuthor.value;
-    const fediverse = commentFediverse.value;
-    const content = commentContent.value;
-
-    console.log('Submitting comment:', { postId, author, fediverse, content });
-
     try {
       const response = await fetch(proxyUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ postId, author, fediverse, content })
+        body: JSON.stringify({
+          author: commentAuthor.value,
+          fediverse: commentFediverse.value,
+          content: commentContent.value,
+          postId: window.location.pathname // Use the current path as the postId
+        })
       });
-
       if (response.ok) {
         console.log('Comment submitted successfully');
         commentAuthor.value = '';
