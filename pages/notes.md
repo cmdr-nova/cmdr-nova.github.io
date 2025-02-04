@@ -4,6 +4,27 @@ title: Toots, Woots, Posts, & More
 permalink: /pages/notes/
 ---
 <div id="toots-container">
+
+<div class="toots">
+  <div class="toot">
+    <div class="toot-header">
+          <img class="no-center toot-avatar pack-avatar" src="/img/avatar/net_run.webp" height="100" width="100">
+      <div class="toot-user-info">
+        <span class="toot-username">⸸Punished Venom Nova⸸</span>
+        <span class="toot-handle">@net_run</span>
+      </div>
+    </div>
+    <div class="toot-content">
+      <p>i am not 'refusing to sleep', the concept of exhaustion has no power over me</p>
+    </div>
+    <div class="toot-footer">
+      <span class="toot-link"><a href="https://app.wafrn.net/fediverse/post/417ab69a-4d1a-4cdb-b405-ea12f3848e0d" target="_blank">link</a></span> |
+      <span class="toot-instance">instance: app.wafrn.net</span> |
+      <span class="toot-timestamp">02.03.2025 11:10PM EST</span>
+    </div>
+  </div>
+</div>
+
 <div class="toots">
   <div class="toot">
     <div class="toot-header">
