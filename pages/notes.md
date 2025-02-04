@@ -3,7 +3,7 @@ layout: page
 title: Toots, Woots, Posts, & More
 permalink: /pages/notes/
 ---
-
+<div id="toots-container">
 <div class="toots">
   <div class="toot">
     <div class="toot-header">
@@ -204,3 +204,10 @@ permalink: /pages/notes/
     </div>
   </div>
 </div>
+</div>
+<div class="pagination-buttons">
+  <button id="prev-page" onclick="prevPage()" style="display: none;">Previous Page</button>
+  <button id="next-page" onclick="nextPage()">Next Page</button>
+</div>
+
+  <script src="/assets/js/toot-paginate.js"></script>

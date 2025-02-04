@@ -2417,6 +2417,7 @@ li {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
   margin-bottom: 10px;
   border-radius: 10px;
+  display: none;
 }
 
 .toot {
@@ -2472,4 +2473,34 @@ li {
 
 .light-mode .toot-footer {
   color: #333;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px; 
+}
+
+#prev-page, #next-page {
+  padding: 10px 20px;
+  background-color: #2b4938;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.light-mode #prev-page, .light-mode #next-page {
+  background-color: #a1a1a1;
+  color: #000;
+}
+
+#prev-page:hover, #next-page:hover {
+  background-color: #3a5a47;
+}
+
+.light-mode #prev-page:hover, .light-mode #next-page:hover {
+  background-color: #e2e2e2;
 }
