@@ -6,7 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const commentAuthor = document.getElementById('post-comment-author');
   const commentFediverse = document.getElementById('post-comment-fediverse');
   const commentContent = document.getElementById('post-comment-content');
-  const proxyUrl = `https://server.mkultra.monster:3003/post-comments`;
+  const postId = window.location.pathname; // Use the current path as the postId
+  const proxyUrl = `https://server.mkultra.monster:3003/post-comments?postId=${encodeURIComponent(postId)}`;
 
   async function fetchComments() {
     try {
@@ -44,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function submitComment(event) {
     event.preventDefault();
     try {
-      const response = await fetch(proxyUrl, {
+      const response = await fetch('https://server.mkultra.monster:3003/post-comments', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
           author: commentAuthor.value,
           fediverse: commentFediverse.value,
           content: commentContent.value,
-          postId: window.location.pathname // Use the current path as the postId
+          postId: postId // Use the current path as the postId
         })
       });
       if (response.ok) {
