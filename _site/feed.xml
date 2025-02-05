@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-05T09:16:27-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Music Questions Challenge!</title><link href="http://localhost:4000/questions/2025/02/05/music-questions-challenge.html" rel="alternate" type="text/html" title="Music Questions Challenge!" /><published>2025-02-05T00:32:00-05:00</published><updated>2025-02-05T00:32:00-05:00</updated><id>http://localhost:4000/questions/2025/02/05/music-questions-challenge</id><content type="html" xml:base="http://localhost:4000/questions/2025/02/05/music-questions-challenge.html"><![CDATA[<p>So, I was tagged by <a href="https://malici.ous.computer/@shellsharks" target="_blank">@shellsharks@malici.ous.computer</a> (you can visit the post on his own site that he references, <a href="https://shellsharks.com/music-questions-challenge" target="_blank">here</a>) on the Fedi to answer some questions about music! This is new to me, because, I was <em>mostly</em> unaware that there’s some kind of blog challenge thing that goes around every once in a while. But, that’s great! It gives me something to write about on days where I have no brain-space for things to write about.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-02-05T10:00:14-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">The Time To Leave Reddit Was Two Years Ago</title><link href="http://localhost:4000/socialmedia/2025/02/05/the-time-to-leave-reddit-was-two-years-ago.html" rel="alternate" type="text/html" title="The Time To Leave Reddit Was Two Years Ago" /><published>2025-02-05T09:27:00-05:00</published><updated>2025-02-05T09:27:00-05:00</updated><id>http://localhost:4000/socialmedia/2025/02/05/the-time-to-leave-reddit-was-two-years-ago</id><content type="html" xml:base="http://localhost:4000/socialmedia/2025/02/05/the-time-to-leave-reddit-was-two-years-ago.html"><![CDATA[<p>Two years ago, <a href="https://zuplo.com/blog/2024/10/01/reddit-api-guide" target="_blank">Reddit decided to follow in the footsteps of Twitter (and Elon Musk)</a>, and restricted access to its API <em>mostly</em> only to those who paid for it (aside from small personal-use projects). This is what ended up spawning the ActivityPub alternative to Reddit, <a href="https://join-lemmy.org/" target="_blank">Lemmy</a>. But, this was only the beginning of the wider and rapid enshitification of <em>all</em> corporate-controlled social media.</p>
+
+<p>What we have today, <em>is much worse</em>.</p>
+
+<p>Twitter has become a bull-horn of fascism and oligarchy, Threads has <a href="https://www.wired.com/story/meta-immigration-gender-policies-change/" target="_blank">altered its ToS in order to encourage bullying marginalized people</a>, and <a href="https://mastodon.online/@mastodonmigration/113801236486095587" target="_blank">Bluesky is owned by crypto-bros</a>.</p>
+
+<p>Before we go any further, there has never been a better time than now to get over your fear of choosing a server on Mastodon, or <a href="https://jointhefediverse.net/?lang=en-us" target="_blank">any other associated ActivityPub software</a>.</p>
+
+<p>But now, as recently as <em>today</em>, Reddit has begun nuking its communities that are critical of Elon Musk, communities it deems “un-moderated”, such as NSFW communities, and specifically trans related communities. This is really no surprise, because it’s just Reddit being Reddit. Taking ideas from larger social media platforms that it thinks’ll win it points with investors, and then following through entirely regardless of whether these decisions are actually beneficial to maintaining a website and healthy communities. As if corporate-controlled social media owners give any <em>shits</em> about community.</p>
+
+<p>Hours after doing so, though, an admin stepped-in to declare all of this a glitch. But, with everything going on in this country, especially related to the trans community, <em>I don’t believe him</em>.</p>
+
+<p><a href="https://old.reddit.com/r/SubredditDrama/comments/1ii6qa1/rporn_rrule34_are_banned_tissue_paper_sales/" target="_blank">See the post for yourself</a>, and you can decide what you think of the situation.</p>
+
+<p>But, in the notion of being critical of colossal assholes, as Elon Musk stages a coup against the federal government, with <a href="https://fortune.com/2025/02/03/elon-musk-19-24-year-old-aides-take-control-6-trillion-government-payment-system-social-security-medicare/" target="_blank">a bunch of literal children no-less</a>, there has never been a better time to be critical of the world’s most unintelligent billionaire. Just like there has never been a better time to <em>finally</em> concede that you are not safe on corporate social media.</p>
+
+<p>I realize that this may not even be a good idea to post, while my website is being pushed <em>through</em> Github (which is owned by Microsoft) <em>to</em> Neocities, but I’m not worried. I have contingencies in place for this sort of thing, if bad situations should arise.</p>
+
+<p>The fact of the matter is, though, is that <em>even if</em> Reddit <em>isn’t</em> beginning a years-long purge of marginalized communities, and especially those that are critical of billionaires, from its website, <em>you should still leave</em>. Just like you should have left Twitter 4 years ago. I am absolutely flabbergasted when I log onto Akkoma / Mastodon, and see people continuing to make their first posts on the Fediverse like, “I finally left Twitter.”</p>
+
+<p>You <em>just</em> left? <em>Today?</em> Have you been living under a ROCK?</p>
+
+<p>Unless your online presence is that of a bland influencer who has no original ideas, who only logs on to ask an inane question to an audience of none, <em>you should leave any piece of media that is in the hands of someone with enough money to buy a planet.</em></p>
+
+<p>The internet began as a collection of disjointed websites where nobody had the ability to wield money and power over others, and it is there that it will return.</p>]]></content><author><name></name></author><category term="Socialmedia" /><category term="reddit" /><category term="socialmedia" /><category term="oligarchy" /><summary type="html"><![CDATA[Two years ago, Reddit decided to follow in the footsteps of Twitter (and Elon Musk), and restricted access to its API mostly only to those who paid for it (aside from small personal-use projects). This is what ended up spawning the ActivityPub alternative to Reddit, Lemmy. But, this was only the beginning of the wider and rapid enshitification of all corporate-controlled social media.]]></summary></entry><entry><title type="html">Music Questions Challenge!</title><link href="http://localhost:4000/questions/2025/02/05/music-questions-challenge.html" rel="alternate" type="text/html" title="Music Questions Challenge!" /><published>2025-02-05T00:32:00-05:00</published><updated>2025-02-05T00:32:00-05:00</updated><id>http://localhost:4000/questions/2025/02/05/music-questions-challenge</id><content type="html" xml:base="http://localhost:4000/questions/2025/02/05/music-questions-challenge.html"><![CDATA[<p>So, I was tagged by <a href="https://malici.ous.computer/@shellsharks" target="_blank">@shellsharks@malici.ous.computer</a> (you can visit the post on his own site that he references, <a href="https://shellsharks.com/music-questions-challenge" target="_blank">here</a>) on the Fedi to answer some questions about music! This is new to me, because, I was <em>mostly</em> unaware that there’s some kind of blog challenge thing that goes around every once in a while. But, that’s great! It gives me something to write about on days where I have no brain-space for things to write about.</p>
 
 <p>The questions are as follows:</p>
 
@@ -332,64 +356,4 @@
 
 <p>But anyway, I’m not writing this post to talk about why I think Quake Champions is never talked about or even mentioned, <em>anywhere</em>.</p>
 
-<p>No matter if you’re a fan of liminal horror, Farcry, or shooters, I’m sure everyone reading this will find something they enjoy about at least <em>one</em> of the three titles I’ve mentioned.</p>]]></content><author><name></name></author><category term="Gaming" /><category term="gamingnews" /><category term="gaming" /><summary type="html"><![CDATA[Today, I wanted to write about some games that I enjoy that also appear to have no advertising, ever, for one reason or another. Either the studio just doesn’t spend any money on ads, or they have no money to spend. In the past, I firmly believe this has been the reason games like Wildstar were eventually shutdown. You probably heard of that MMO, and also probably its demise, but had you seen any advertisements for or about it years after its launch? Probably not. Or, with how Second Life has been running for over 20 years, and there are virtually no and/or never any advertising campaigns about it. Yet, somehow, it thrives based on word-of-mouth, alone.]]></summary></entry><entry><title type="html">Fun Things To Do in Your Linux Terminal</title><link href="http://localhost:4000/linux/2025/01/21/fun-things-to-do-in-your-linux-terminal.html" rel="alternate" type="text/html" title="Fun Things To Do in Your Linux Terminal" /><published>2025-01-21T17:17:00-05:00</published><updated>2025-01-21T17:17:00-05:00</updated><id>http://localhost:4000/linux/2025/01/21/fun-things-to-do-in-your-linux-terminal</id><content type="html" xml:base="http://localhost:4000/linux/2025/01/21/fun-things-to-do-in-your-linux-terminal.html"><![CDATA[<p>I’m still sort of sick, but also actively participating in going to work (because I don’t have sick time to use right now), but! I wanted to write something on the blog here, despite being tired, and stuffy, and having pains in my body, and so I thought, “What about neat things you can do in your Linux terminal that some might not be aware of?” I know, yes. This is a very nerdy thing to think about, or even do, and I’m sure the Windows-holdouts are giving this paragraph the stink-eye. Never-you-mind them, though. Let’s open up that terminal.</p>
-
-<p>First, let’s do a ‘sudo apt install cowsay’, and then once it’s finished, type in something like,</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cowsay 'At the stripted club, jorkin my peanits'
-</code></pre></div></div>
-
-<p>And enjoy the result:</p>
-
-<p><img src="/img/posts/funlinux/Screenshot from 2025-01-21 17-21-32.png" /></p>
-
-<p>Or, maybe you want to generate some quick ascii text for your blog header, or social profile? Easy peasy, dude. First, make sure you have figlet installed, by typing, ‘sudo apt install figlet’, and then go ahead and do something like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>figlet cmdr nova
-</code></pre></div></div>
-
-<p>Example result:</p>
-
-<p><img src="/img/posts/funlinux/Screenshot from 2025-01-21 17-28-34.png" /></p>
-
-<p>Our next little easter-egg-ish thing (depending on whether it’s already installed on your system or not) is more just kind of neat. Just in case, since not all systems will have this, type in ‘sudo apt install sl’, and then run this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sl
-</code></pre></div></div>
-
-<p>(No, it won’t delete your entire hdd)</p>
-
-<p>Or, maybe you want to do something a little more complicated, but fun, nonetheless. If you’re a 90s baby, or even a mid-80s baby, this will suddenly feel like, <em>maybe</em>, you’re being warped back in time a bit. Type ‘sudo apt install sudoku’ into your terminal, and then run it with:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudoku
-</code></pre></div></div>
-
-<p>And enjoy:</p>
-
-<p><img src="/img/posts/funlinux/Screenshot from 2025-01-21 17-33-11.png" /></p>
-
-<p>Perhaps you want something a bit more complex, so let’s install NetHack, and become a Wizard!</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install nethack-console
-</code></pre></div></div>
-<p>and then run:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nethack
-</code></pre></div></div>
-
-<p><img src="/img/posts/funlinux/Screenshot from 2025-01-21 17-40-45.png" /></p>
-
-<p>But, maybe this is too complicated, and you’re looking for something … a bit more straight-forward, and maybe even <em>retro</em>? I got you.</p>
-
-<p>Do this:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install colossal-cave-adventure
-</code></pre></div></div>
-
-<p>And then, in any terminal, just type in ‘adventure.’</p>
-
-<p><img src="/img/posts/funlinux/Screenshot from 2025-01-21 18-35-10.png" /></p>
-
-<p>Okay, so, obviously, we went a little bit further here than just playing with random little quirky things in a Linux terminal, but I wanted to showcase how, even if you don’t want to install Steam, even if you mainly use your Linux computer for work, or productivity, and there really aren’t any games, or fun things on it … you can just <em>do</em> things, in the Terminal, and this is just the beginning.</p>
-
-<p>An entire era of lost art, and a type of gaming, living freely in your Linux terminal, rather than a DOS machine from 1985.</p>
-
-<p>One thing I <em>do</em> remember from those times, is a text adventure Twilight Zone game, and I would <em>very much</em> like to find it again, or, to be more specific, <em>find it</em>, and then load it up in the terminal and play it that way. I’m pretty sure it’s easily available on DOSbox somewhere. But, you know, I have a terminal. Let me play it like that. The way it was <em>meant to be played</em>. If you’ve done this, or can point me in the right direction: Let me know!</p>]]></content><author><name></name></author><category term="Linux" /><category term="linux" /><category term="terminal" /><summary type="html"><![CDATA[I’m still sort of sick, but also actively participating in going to work (because I don’t have sick time to use right now), but! I wanted to write something on the blog here, despite being tired, and stuffy, and having pains in my body, and so I thought, “What about neat things you can do in your Linux terminal that some might not be aware of?” I know, yes. This is a very nerdy thing to think about, or even do, and I’m sure the Windows-holdouts are giving this paragraph the stink-eye. Never-you-mind them, though. Let’s open up that terminal.]]></summary></entry></feed>
+<p>No matter if you’re a fan of liminal horror, Farcry, or shooters, I’m sure everyone reading this will find something they enjoy about at least <em>one</em> of the three titles I’ve mentioned.</p>]]></content><author><name></name></author><category term="Gaming" /><category term="gamingnews" /><category term="gaming" /><summary type="html"><![CDATA[Today, I wanted to write about some games that I enjoy that also appear to have no advertising, ever, for one reason or another. Either the studio just doesn’t spend any money on ads, or they have no money to spend. In the past, I firmly believe this has been the reason games like Wildstar were eventually shutdown. You probably heard of that MMO, and also probably its demise, but had you seen any advertisements for or about it years after its launch? Probably not. Or, with how Second Life has been running for over 20 years, and there are virtually no and/or never any advertising campaigns about it. Yet, somehow, it thrives based on word-of-mouth, alone.]]></summary></entry></feed>
