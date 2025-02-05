@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const fediverseParts = comment.fediverse.split('@').filter(Boolean);
             if (fediverseParts.length === 2) {
               fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${comment.fediverse}</a></p>`;
+            } else if (fediverseParts.length === 1) {
+              fediverseLink = `<p><a href="https://${fediverseParts[0]}/${fediverseParts[0]}" target="_blank">${comment.fediverse}</a></p>`;
             } else {
               fediverseLink = `<p>${comment.fediverse}</p>`;
             }
@@ -72,6 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
           const fediverseParts = newComment.fediverse.split('@').filter(Boolean);
           if (fediverseParts.length === 2) {
             fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${newComment.fediverse}</a></p>`;
+          } else if (fediverseParts.length === 1) {
+            fediverseLink = `<p><a href="https://${fediverseParts[0]}/${fediverseParts[0]}" target="_blank">${newComment.fediverse}</a></p>`;
           } else {
             fediverseLink = `<p>${newComment.fediverse}</p>`;
           }
