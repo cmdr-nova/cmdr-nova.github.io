@@ -59,10 +59,29 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       if (response.ok) {
         console.log('Comment submitted successfully');
+        const newComment = await response.json();
         commentAuthor.value = '';
         commentFediverse.value = '';
         commentContent.value = '';
-        fetchComments(); // Refreshes the comments
+
+        // Create and append the new comment element
+        const commentElement = document.createElement('div');
+        commentElement.classList.add('comment');
+        let fediverseLink = '';
+        if (newComment.fediverse) {
+          const fediverseParts = newComment.fediverse.split('@').filter(Boolean);
+          if (fediverseParts.length === 2) {
+            fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${newComment.fediverse}</a></p>`;
+          } else {
+            fediverseLink = `<p>${newComment.fediverse}</p>`;
+          }
+        }
+        commentElement.innerHTML = `
+          <p><strong>${newComment.author}</strong> <em>${new Date(newComment.timestamp).toLocaleString()}</em></p>
+          ${fediverseLink}
+          <p>${newComment.content}</p>
+        `;
+        commentsList.appendChild(commentElement);
       } else {
         console.error('Failed to submit comment', response.status, response.statusText);
       }
