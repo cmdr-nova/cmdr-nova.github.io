@@ -6,7 +6,7 @@ categories:
     - "Socialmedia"
 tag: [reddit, socialmedia, oligarchy]
 ---
-Two years ago, <a href="https://zuplo.com/blog/2024/10/01/reddit-api-guide" target="_blank">Reddit decided to follow in the footsteps of Twitter (and Elon Musk)</a>, and restricted access to its API *mostly* only to those who paid for it (aside from small personal-use projects). This is what ended up spawning the ActivityPub alternative to Reddit, <a href="https://join-lemmy.org/" target="_blank">Lemmy</a>. But, this was only the beginning of the wider and rapid enshitification of *all* corporate-controlled social media.
+Two years ago, <a href="https://zuplo.com/blog/2024/10/01/reddit-api-guide" target="_blank">Reddit decided to follow in the footsteps of Twitter (and Elon Musk)</a>, and restricted access to its API, allowing usage *mostly* only to those who paid for it (aside from small personal-use projects). This is what ended up spawning the ActivityPub alternative to Reddit, <a href="https://join-lemmy.org/" target="_blank">Lemmy</a>. But, this was only the beginning of the wider and rapid enshitification of *all* corporate-controlled social media.
 
 What we have today, *is much worse*.
 
