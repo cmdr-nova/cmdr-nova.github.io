@@ -83,7 +83,12 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         commentsList.appendChild(commentElement);
       } else {
-        console.error('Failed to submit comment', response.status, response.statusText);
+        const errorData = await response.json();
+        if (errorData.error) {
+          alert(errorData.error); // Display the error message in a dialog popup
+        } else {
+          console.error('Failed to submit comment', response.status, response.statusText);
+        }
       }
     } catch (error) {
       console.error('Error submitting comment:', error);
