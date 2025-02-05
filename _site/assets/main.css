@@ -2504,3 +2504,22 @@ li {
 .light-mode #prev-page:hover, .light-mode #next-page:hover {
   background-color: #e2e2e2;
 }
+
+/* Dimming */
+
+.dim-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+  pointer-events: none;
+}
+
+.dim-exclude {
+  position: relative;
+  z-index: 9999;
+  pointer-events: auto;
+}
