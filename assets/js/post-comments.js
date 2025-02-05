@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
           commentsList.appendChild(commentElement);
         });
       } else {
-        console.error('Failed to fetch comments');
+        console.error('Failed to fetch comments', response.status, response.statusText);
       }
     } catch (error) {
       console.error('Error fetching comments:', error);
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         commentContent.value = '';
         fetchComments(); // Refreshes the comments
       } else {
-        console.error('Failed to submit comment');
+        console.error('Failed to submit comment', response.status, response.statusText);
       }
     } catch (error) {
       console.error('Error submitting comment:', error);
