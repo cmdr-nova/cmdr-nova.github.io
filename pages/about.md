@@ -18,13 +18,13 @@ permalink: /pages/about/
 
 ░ Hi, I go by Ryan, CMDR Nova, and a bunch of other things depending on what I’m currently doing, or working on.
 
-░ I’ve been writing since 2008, making music since 2017, and developing cool stuff in Second Life since 2015.
+░ I’ve been doing web development since 1999, writing since 2008, making music since 2017, and developing cool stuff in Second Life since 2015.
 
 ░ Neofetch of my current personal system:
 
 ![my neofetch](/img/about/fetch/fetch3.png)
 
-░ I’m also a webdev and a sysadmin. My website is hosted via Github and pushed to Neocities.
+My website is hosted via Github and pushed to Neocities.
 
 ░ Best-selling artist behind the retrowave/darksynth moniker Eyeshadow 2600 FM, long-time Second Life creator behind the in-world brand [REVOSA], and life-long word cruncher and self published author, currently writing the next two novels in a series of topsy-turvy science fiction, starting with the companion novel to the album, DISSOLUTION PROTOCOL.
 
@@ -51,5 +51,5 @@ Ed, PaxCorpus, 2013
 
 ░ IN WRITING … I’ve been, and am currently working on my next book, DISSOLUTION PROTOCOL. A story about the degradation of the entire universe. You can see my other, much older works, [here](https://www.amazon.com/stores/Ryan-S.-Fortney/author/B004XWM2X4?ref=sr_ntt_srch_lnk_1&qid=1715877791&sr=8-1&isDramIntegrated=true&shoppingPortalEnabled=true){:target="_blank"}. I, of course, also, maintain this website as a place where I can stretch my writing muscles whenever I feel the need.
 
-░ You can support what I do by subscribing or donating to my [Patreon](https://www.patreon.com/c/cmdr_nova){:target="_blank"}, a platform where I’ve been posting my work since as early as 2012. Thank you~
+░ You can support what I do by subscribing or donating to my [Patreon](https://www.patreon.com/c/cmdr_nova){:target="_blank"}, a platform where I’ve been posting my work since as early as 2012. Alternatively, you can also jump onto my [Liberapay](https://liberapay.com/cmdr-nova/){:target="_blank"}. Thank you~
 
