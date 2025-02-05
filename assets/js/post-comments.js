@@ -20,7 +20,18 @@ document.addEventListener('DOMContentLoaded', () => {
           commentElement.classList.add('comment');
           let fediverseLink = '';
           if (comment.fediverse) {
-            fediverseLink = `<p><a href="${comment.fediverse}" target="_blank">${comment.fediverse}</a></p>`;
+            if (comment.fediverse.startsWith('http')) {
+              fediverseLink = `<p><a href="${comment.fediverse}" target="_blank">${comment.fediverse}</a></p>`;
+            } else {
+              const fediverseParts = comment.fediverse.split('@').filter(Boolean);
+              if (fediverseParts.length === 2) {
+                fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${comment.fediverse}</a></p>`;
+              } else if (fediverseParts.length === 1) {
+                fediverseLink = `<p><a href="https://${fediverseParts[0]}/${fediverseParts[0]}" target="_blank">${comment.fediverse}</a></p>`;
+              } else {
+                fediverseLink = `<p>${comment.fediverse}</p>`;
+              }
+            }
           }
           commentElement.innerHTML = `
             <p><strong>${comment.author}</strong> <em>${new Date(comment.timestamp).toLocaleString()}</em></p>
@@ -64,7 +75,18 @@ document.addEventListener('DOMContentLoaded', () => {
         commentElement.classList.add('comment');
         let fediverseLink = '';
         if (newComment.fediverse) {
-          fediverseLink = `<p><a href="${newComment.fediverse}" target="_blank">${newComment.fediverse}</a></p>`;
+          if (newComment.fediverse.startsWith('http')) {
+            fediverseLink = `<p><a href="${newComment.fediverse}" target="_blank">${newComment.fediverse}</a></p>`;
+          } else {
+            const fediverseParts = newComment.fediverse.split('@').filter(Boolean);
+            if (fediverseParts.length === 2) {
+              fediverseLink = `<p><a href="https://${fediverseParts[1]}/@${fediverseParts[0]}" target="_blank">${newComment.fediverse}</a></p>`;
+            } else if (fediverseParts.length === 1) {
+              fediverseLink = `<p><a href="https://${fediverseParts[0]}/${fediverseParts[0]}" target="_blank">${newComment.fediverse}</a></p>`;
+            } else {
+              fediverseLink = `<p>${newComment.fediverse}</p>`;
+            }
+          }
         }
         commentElement.innerHTML = `
           <p><strong>${newComment.author}</strong> <em>${new Date(newComment.timestamp).toLocaleString()}</em></p>
