@@ -20,7 +20,7 @@ Hours after doing so, though, an admin stepped-in to declare all of this a glitc
 
 <a href="https://old.reddit.com/r/SubredditDrama/comments/1ii6qa1/rporn_rrule34_are_banned_tissue_paper_sales/" target="_blank">See the post for yourself</a>, and you can decide what you think of the situation.
 
-But, in the notion of being critical of colossal assholes, as Elon Musk stages a coup against the federal government, with <a href="https://fortune.com/2025/02/03/elon-musk-19-24-year-old-aides-take-control-6-trillion-government-payment-system-social-security-medicare/" target="_blank">a bunch of literal children no-less</a>, there has never been a better time to be critical of the world's most unintelligent billionaire. Just like there has never been a better time to *finally* concede that you are not safe on corporate social media.
+But, in the notion of being critical of colossal assholes, as Elon Musk stages a coup against the federal government, with <a href="https://fortune.com/2025/02/03/elon-musk-19-24-year-old-aides-take-control-6-trillion-government-payment-system-social-security-medicare/" target="_blank">a bunch of literal children, no-less</a>, there has never been a better time to be critical of the world's most unintelligent billionaire. Just like there has never been a better time to *finally* concede that you are not safe on corporate social media.
 
 I realize that this may not even be a good idea to post, while my website is being pushed *through* Github (which is owned by Microsoft) *to* Neocities, but I'm not worried. I have contingencies in place for this sort of thing, if bad situations should arise.
 
