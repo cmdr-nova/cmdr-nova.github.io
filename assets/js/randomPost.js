@@ -17,16 +17,16 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
   
     const LEMMY_COMMUNITIES = [
-      'ecchi@lemmynsfw.com',
+      /*'ecchi@lemmynsfw.com',*/
       'anime@hexbear.net',
-      'animemidriff@lemmynsfw.com',
+      /*'animemidriff@lemmynsfw.com',*/
       'anime@ani.social',
       'animewallpapers@ani.social',
-      'cosplay_girls@lemmynsfw.com',
+      /*'cosplay_girls@lemmynsfw.com',
       'cosplaygirls@lemmy.world',
       'cosplaybabes@lemmy.world',
       'alt@lemmynsfw.com',
-      'monstergirl@lemmynsfw.com',
+      'monstergirl@lemmynsfw.com', */
       'space@lemmy.world',
       'liminalspace@lemmy.world',
       'cyberpunk@lemmy.ml',
