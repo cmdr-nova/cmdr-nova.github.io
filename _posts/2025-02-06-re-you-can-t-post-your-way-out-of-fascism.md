@@ -6,7 +6,7 @@ categories:
     - "Socialmedia"
 tag: [socialmedia, oligarchy, bluesky, mastodon]
 ---
-This post in response to <a href="https://www.404media.co/you-cant-post-your-way-out-of-fascism/" target="_blank">a post made by Janus Rose over at 404 Media</a>. A website I mostly respect, and like to see every so often. But, when writers and journalists start talking about social media, and opposition to fascism, you have to take into account their own view of the world, and the internet, in order to begin to dissect what they're saying. Like many, a lot of people know social media as the corporate algorithm farms that Twitter, Threads, and Instagram *are*, and it's through this lens that I believe, "You Can't Post Your Way Out of Fascism," was written.
+This post is in response to <a href="https://www.404media.co/you-cant-post-your-way-out-of-fascism/" target="_blank">a post made by Janus Rose over at 404 Media</a>. A website I mostly respect, and like to see every so often. But, when writers and journalists start talking about social media, and opposition to fascism, you have to take into account their own view of the world, and the internet, in order to begin to dissect what they're saying. Like many, a lot of people know social media as the corporate algorithm farms that Twitter, Threads, and Instagram *are*, and it's through this lens that I believe, "You Can't Post Your Way Out of Fascism," was written.
 
 Never-the-less, I'd like to dissect it.
 
