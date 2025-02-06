@@ -357,6 +357,7 @@ blockquote {
   font-size: 18px; 
   letter-spacing: -1px; 
   font-style: italic; 
+  text-indent: 0;
 }
 
 .light-mode blockquote { 
@@ -2522,4 +2523,12 @@ li {
   position: relative;
   z-index: 9999;
   pointer-events: auto;
+}
+
+.notice {
+  background-color: #6f94593d;
+  color: #111111;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
 }
