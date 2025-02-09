@@ -3,11 +3,22 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2025-02-08T23:57:36-05:00</updated>
+  <updated>2025-02-09T01:20:49-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>Directions For Life</title>
+    <link href="http://localhost:4000/image/2025/02/09/directions-for-life.html"/>
+    <updated>2025-02-09T01:19:00-05:00</updated>
+    <id>http://localhost:4000/image/2025/02/09/directions-for-life.html</id>
+    <content type="html"><![CDATA[
+      
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>Dexter: Original Sin Is A Redemption</title>
