@@ -55,6 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
       const content = contentElement ? decodeHtml(contentElement.textContent) : "";
       const pubDate = item.querySelector("updated").textContent;
 
+      console.log("Feed item content:", content);
+
       const itemElement = document.createElement("div");
       itemElement.classList.add("akkoma-item");
 
@@ -76,6 +78,39 @@ document.addEventListener("DOMContentLoaded", function() {
       const contentElementDiv = document.createElement("p");
       contentElementDiv.classList.add("akkoma-content");
       contentElementDiv.innerHTML = content;
+
+      // Extract and append images from the content
+      const tempDiv = document.createElement("div");
+      tempDiv.innerHTML = content;
+      console.log("Temp div content:", tempDiv.innerHTML);
+      const imageDivs = tempDiv.querySelectorAll(".still-image, .image");
+      console.log("Image divs:", imageDivs);
+      imageDivs.forEach(div => {
+        console.log("Image div content:", div.innerHTML);
+        const img = div.querySelector("img");
+        if (img) {
+          console.log("Found image:", img.src);
+          const imgElement = document.createElement("img");
+          imgElement.src = img.src;
+          imgElement.alt = img.alt || "Image";
+          imgElement.classList.add("akkoma-image");
+          contentElementDiv.appendChild(imgElement);
+        }
+      });
+
+      // Extract and append images identified by a type tag with the label image/png
+      const mediaContent = item.querySelectorAll("media\\:content[type='image/png']");
+      mediaContent.forEach(media => {
+        const imgUrl = media.getAttribute("url");
+        if (imgUrl) {
+          console.log("Found media image:", imgUrl);
+          const imgElement = document.createElement("img");
+          imgElement.src = imgUrl;
+          imgElement.alt = "Image";
+          imgElement.classList.add("akkoma-image");
+          contentElementDiv.appendChild(imgElement);
+        }
+      });
 
       const pubDateElement = document.createElement("p");
       pubDateElement.classList.add("akkoma-pubdate");
