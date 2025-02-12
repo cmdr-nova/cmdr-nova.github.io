@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const LEMMY_INSTANCES = [
       'https://lemmynsfw.com',
-      'https://hexbear.net',
       'https://ani.social',
       'https://lemmy.world',
       'https://lemmy.ml',
