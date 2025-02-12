@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const LEMMY_COMMUNITIES = [
       /*'ecchi@lemmynsfw.com',*/
-      'anime@hexbear.net',
       /*'animemidriff@lemmynsfw.com',*/
       'anime@ani.social',
       'animewallpapers@ani.social',
