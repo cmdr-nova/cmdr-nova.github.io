@@ -3,11 +3,28 @@
   <title>cmdr-nova@internet:~$</title>
   <link href="http://localhost:4000/atom.xml" rel="self"/>
   <link href="http://localhost:4000/"/>
-  <updated>2025-02-13T16:39:17-05:00</updated>
+  <updated>2025-02-14T15:45:50-05:00</updated>
   <id>http://localhost:4000/</id>
   <author>
     <name></name>
   </author>
+  
+  <entry>
+    <title>The HTML Element Quiz!</title>
+    <link href="http://localhost:4000/quiz/2025/02/14/the-html-element-quiz.html"/>
+    <updated>2025-02-14T15:12:00-05:00</updated>
+    <id>http://localhost:4000/quiz/2025/02/14/the-html-element-quiz.html</id>
+    <content type="html"><![CDATA[
+      Today I was looking for things to write about while I push through the main story quests in Zenless Zone Zero. Which, might I add, has like, 400 million lines of dialogue to move through in-between all the latter half of the game’s action. But, it was suggested to me via @shellsharks that I take the, “Which HTML element are you quit?” (you can find that here)
+
+And, it turns out, I am the “canvas” element.
+
+
+
+Which element are you?
+
+    ]]></content>
+  </entry>
   
   <entry>
     <title>GameDevs Working Against Linux Users For Reasons</title>
