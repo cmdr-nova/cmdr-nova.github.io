@@ -52,7 +52,7 @@ jobs:
       id: check_new_posts
       run: |
           current_date=$(TZ=America/New_York date +%Y-%m-%d)
-          base_url="https://nova.mkultra.monster"
+          base_url="https://mkultra.monster"
           echo "Current date: $current_date"
           new_posts=()
           for file in $(git log --diff-filter=A --name-only HEAD); do
