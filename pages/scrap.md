@@ -3,6 +3,10 @@ layout: page
 title: A Digital Scrapbook of Fictional Characters I've Been ...
 permalink: /pages/scrap/
 ---
+*Ceela Dral*
+
+![a photo of my character from Knights of the Old Republic](/img/scrap/ceela_dral.png)
+
 *Luziva Aayla*
 
 ![a photo of my character from Star Wars Galaxies](/img/scrap/Luziva_Aayla.png)
