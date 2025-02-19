@@ -49,7 +49,8 @@ creator of everything -->
         {% assign total_notes = site.notes | size %}
         {% assign total_items = total_posts | plus: total_logs | plus: total_notes %}
 
-        <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: 100 Billion <b>Followers</b>: 8 Gajillion</p>
+        <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
+        <script src="/assets/js/fake-follows.js"></script>
         
         <div class="score">HIGH SCORE!</div>
         
