@@ -3,34 +3,49 @@ require 'nokogiri'
 require 'yaml'
 require 'kramdown'
 
-# Initialize an empty array to hold the index data
 index = []
 
-# Function to extract text content from HTML
 def extract_text(html)
   Nokogiri::HTML(html).text
 end
 
-# Process posts
-Dir.glob("_posts/*.md").each do |file|
-  puts "Processing post: #{file}"
-  content = File.read(file)
-  front_matter, body = content.split("---\n")[1..2]
-  metadata = YAML.load(front_matter)
-  title = metadata['title'] || 'No title'
-  categories = metadata['categories'] || []
-  category_path = categories.map(&:downcase).join('/')
-  date = File.basename(file, '.md').split('-')[0..2].join('/')
-  post_name = File.basename(file, '.md').split('-', 4).last
-  html_body = Kramdown::Document.new(body).to_html
-  content_text = extract_text(html_body)
-  index << {
-    id: File.basename(file, '.md'),
-    title: title,
-    url: "/#{category_path}/#{date}/#{post_name}.html",
-    content: content_text
-  }
+# Function to process markdown files
+def process_markdown_files(directory, type, index)
+  Dir.glob("#{directory}/*.md").each do |file|
+    puts "Processing #{type}: #{file}"
+    content = File.read(file)
+    front_matter, body = content.split("---\n")[1..2]
+    metadata = YAML.load(front_matter)
+    date = File.basename(file, '.md').split('-')[0..2].join('/')
+    post_name = File.basename(file, '.md').split('-', 4).last
+    category = metadata['categories'] ? metadata['categories'].first.downcase.gsub(' ', '%20') : directory.sub('_', '') # Use category from metadata or directory name
+    html_body = Kramdown::Document.new(body).to_html
+    content_text = extract_text(html_body)
+    index_entry = {
+      id: File.basename(file, '.md'),
+      url: "/#{category}/#{date}/#{post_name}.html",
+      content: content_text,
+      type: type
+    }
+    if type == 'note' || type == 'log'
+      index_entry[:avatar] = metadata['avatar']
+      index_entry[:author] = metadata['author']
+      index_entry[:date] = metadata['date']
+    else
+      index_entry[:title] = metadata['title'] || 'No title'
+    end
+    index << index_entry
+  end
 end
+
+# Process posts
+process_markdown_files('_posts', 'post', index)
+
+# Process notes
+process_markdown_files('_notes', 'note', index)
+
+# Process logs
+process_markdown_files('_logs', 'log', index)
 
 # Process pages
 Dir.glob("*.html").each do |file|
@@ -43,11 +58,11 @@ Dir.glob("*.html").each do |file|
     id: File.basename(file, '.html'),
     title: title,
     url: "/#{file}",
-    content: content
+    content: content,
+    type: 'page'
   }
 end
 
-# Write the index to a JSON file in the root directory
 json_file_path = "search-index.json"
 File.open(json_file_path, 'w') do |file|
   file.write(JSON.pretty_generate(index))
@@ -55,7 +70,6 @@ end
 
 puts "Search index written to #{json_file_path}"
 
-# Verify the file exists in the root directory
 if File.exist?(json_file_path)
   puts "Search index successfully created at #{json_file_path}"
 else

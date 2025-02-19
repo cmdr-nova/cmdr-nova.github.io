@@ -1,20 +1,14 @@
 ---
 layout: page
-title: A Compendium of My Posts
+title: Recent Posts
 permalink: /pages/posts/
 ---
 
 {% assign posts_array = site.posts | sort: 'date' | reverse %}
-{% assign total_posts = posts_array | size %}
-{% assign posts_per_page = 10 %}
-{% assign total_pages = total_posts | divided_by: posts_per_page | ceil %}
-{% assign current_page = paginator.page %}
-{% assign start_index = posts_per_page | times: current_page | minus: posts_per_page %}
-{% assign end_index = posts_per_page | times: current_page %}
-{% assign paginated_posts = posts_array | slice: start_index, posts_per_page %}
+{% assign limited_posts = posts_array | slice: 0, 10 %}
 
 <div class="posts-section">
-  {% for post in paginated_posts %}
+  {% for post in limited_posts %}
     <div class="posts-item item">
       {% if post.avatar %}
         <img src="{{ post.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
@@ -64,24 +58,3 @@ permalink: /pages/posts/
     </div>
   {% endfor %}
 </div>
-
-<!-- Pagination links -->
-{% if total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">
-        ░ Previous
-      </a>
-    {% else %}
-      <span class="previous" style="visibility: hidden;">░ Previous</span>
-    {% endif %}
-    <span class="page_number ">
-      Page: {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
-    {% else %}
-      <span class="next ">Next ░</span>
-    {% endif %}
-  </div>
-{% endif %}

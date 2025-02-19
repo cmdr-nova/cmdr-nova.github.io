@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Dexter: Original Sin Is A Redemption'
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-08 23:39
 categories:
     - "Dexter"

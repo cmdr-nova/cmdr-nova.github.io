@@ -2738,3 +2738,46 @@ li {
   background-image: url('/img/nova.png');
   background-size: cover;
 }
+@media only screen and (max-width: 480px) {
+  .profile-header {
+    display: none;
+  }
+}
+
+.search-result-item {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #202020;
+}
+
+.search-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  border-width: 2px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+/* Specific styles for notes and logs */
+.note-log-result {
+  display: flex;
+  align-items: flex-start;
+}
+
+.note-log-result .search-avatar {
+  margin-right: 10px;
+}
+
+.note-log-result .content-container {
+  display: flex;
+  flex-direction: column;
+}
