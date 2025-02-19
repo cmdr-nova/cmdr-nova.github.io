@@ -2758,6 +2758,10 @@ li {
   background-color: #202020;
 }
 
+.light-mode .search-result-item {
+  background-color: #a7a7a7;
+}
+
 .search-avatar {
   width: 50px;
   height: 50px;
