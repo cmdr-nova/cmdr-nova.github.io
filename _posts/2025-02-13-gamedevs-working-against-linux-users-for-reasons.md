@@ -1,6 +1,8 @@
 ---
 layout: post
 title: GameDevs Working Against Linux Users For Reasons
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-13 11:08
 categories:
     - "Linux"

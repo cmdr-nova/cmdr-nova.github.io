@@ -1,10 +1,18 @@
 ---
 layout: post
+collections: posts
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 title: 'Writing Prompt: Describe Your Dream Home'
 date: 2025-02-17 18:59
 categories:
     - "WritingPrompt"
 tag: [writing-prompt, thoughts]
+akkoma:  
+bluesky: 
+wafrn:
+mastodon: https://mastodon.social/@mkultra_bot/114022120067785329
+none: 
 ---
 Today, I'm taking a prompt from the old Jetpack app that I've had installed on my phone ever since I still ran a Wordpress blog. It's a pretty useless app, now, but there are at least some ideas for things to write about. Although, I'm *almost certain* there are probably easier ways to get daily writing prompts in order to fuel my need to write things. Never-the-less, today's prompt is all about just ... describing your dream home. As a millennial, this is a pipe-dream. A far-away thing that will likely never happen. But, if I could *somehow* have a home, that I own, what would it be, really?
 

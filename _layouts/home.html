@@ -20,15 +20,11 @@ _________     _____  ________ __________
                                   
 creator of everything -->
 
-
-
 <!-- Main Body Start -->
 <div id="main">
   <table>
 <tr>
 <td>
-
-<div class="rainbow">cmdr-nova<img class="no-center" src="/img/gifs/at.gif">internet:~$: <b>Nova Prime</b> <span class="blinking-cursor">░</span></div>
 
     <!-- Mobile Light Mode Toggle -->
       <div id="mobile-light-mode-toggle" class="mobile-only center">
@@ -42,9 +38,31 @@ creator of everything -->
       </div>
       </p>
 
+      <div class="head-section">
+        <div class="profile-header"></div>
+        
+        <div class="rainbow">cmdr-nova<img class="no-center" src="/img/gifs/at.gif">internet:~$: <b>Nova Prime</b> <span class="blinking-cursor">░</span></div>
+        <br>
+        
+        {% assign total_posts = site.posts | size %}
+        {% assign total_logs = site.logs | size %}
+        {% assign total_notes = site.notes | size %}
+        {% assign total_items = total_posts | plus: total_logs | plus: total_notes %}
+
+        <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: 100 Billion <b>Followers</b>: 8 Gajillion</p>
+        
+        <div class="score">HIGH SCORE!</div>
+        
+        <p>░Artist behind #Eyeshadow2600FM // Author of upcoming space opera, DISSOLUTION PROTOCOL, Second Life creator at [REVOSA] & AyaSys
+        <br /><br />
+        ░I am a: Writer, composer, designer, linux-enjoyer & webdev</p>
+        
+        </div>
+
       <div class="desktop-only center">
 
-        <div class="quote"></div> <!-- Quote of the Day -->
+        <!--
+        <div class="quote"></div>
         <script src="/assets/js/randomQuote.js"></script>
 
         <p>
@@ -58,63 +76,123 @@ creator of everything -->
             Subscribe to <a href="https://mkultra.monster/feed.xml">RSS Feed <i class="ph ph-rss"></i></a>
             </p>
           </div>
-          <!--Featured Content
-          <div class="tumblr-title"><b>Featured Content</b></div>
-          <br />
-          <iframe title="PLEXX - c o m p l ex" width="560" height="315" src="https://video.infosec.exchange/videos/embed/0e608634-7a28-43b7-b8ea-7aeff52f1a8a" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
-          -->
+        -->
           </div>
-
+        
 <p align="center"><img src="/img/gifs/rainbow.gif"></p>
 <p><em>... and here's where I keep all of my brain juice:</em></p>
 
-{% for post in paginator.posts %}
+<!-- New Posts Section -->
 
-<div class="excerpt">
-  <a class="read-title" href="{{ post.url }}">{{ post.title }}</a>
-
-    <p>
-    <i class="ph ph-pencil-line"></i> <a class="author-link" href="https://labyrinth.zone/daemon_nova" target="_blank"><!--{{ page.author }}--></a><br />
-    <i class="ph ph-calendar"></i> {{ post.date |     date_to_string }}<br />
-    </p>
-
-    <div class="indent">
-      {{ post.excerpt }}
-    </div>
-      > > > <a href="{{ post.url }}">read more</a>
-    <br />
-    <div class="dimmer">
-      <span class="tags-label">tags:</span>
-        <span>
-        {% for tag in post.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/{{ tag_name }}"><code class="highligher"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-        {% endfor %}
-      </span>
+<div class="posts-section">
+    {% assign notes_array = site.notes %}
+    {% assign logs_array = site.logs %}
+    {% assign posts_array = site.posts %}
+    {% assign combined_array = posts_array | concat: notes_array | concat: logs_array %}
+    {% assign combined_array = combined_array | sort: "date" | reverse %}
+  
+    {% assign items_per_page = paginator.per_page %}
+    {% assign current_page = paginator.page %}
+    {% assign total_items = combined_array.size %}
+    {% assign total_pages = total_items | divided_by: items_per_page | ceil %}
+    {% assign start_index = items_per_page | times: current_page | minus: items_per_page %}
+    {% assign end_index = items_per_page | times: current_page %}
+    {% assign paginated_array = combined_array | slice: start_index, items_per_page %}
+  
+    {% for item in paginated_array %}
+      {% assign post_type = item.collection %}
+      {% if post_type == "notes" %}
+        {% assign icon = "ph ph-note" %}
+        {% assign verb = "Noted" %}
+        {% assign content = item.content %}
+      {% elsif post_type == "logs" %}
+        {% assign icon = "ph ph-notebook" %}
+        {% assign verb = "Logged" %}
+        {% assign content = item.content %}
+      {% elsif post_type == "posts" %}
+        {% assign icon = "ph ph-article" %}
+        {% assign verb = "Posted" %}
+        {% assign content = item.content | strip_newlines | truncatewords: 50 %}
+      {% else %}
+        {% assign icon = "ph ph-chat-text" %}
+        {% assign verb = "Shared" %}
+      {% endif %}
+  
+      <div class="item">
+        <div>
+          <span class="verb"><i class="{{ icon }}"></i> {{ verb }}:</span>
+          <br /><br />
+          {% if item.avatar %}
+            <img src="{{ item.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
+          {% endif %}
+          {% if item.author %}
+            {{ item.author }}
+          {% endif %}
+          <br /><br />
+          {% if post_type == "posts" %}
+            <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+          {% endif %}
+          <div>{{ content }}</div>
+          <span class="date"><i>published</i> {{ item.date | date: '%B %e, %Y' }}</span>
+          <div class="syndicate">
+            <i class="ph ph-broadcast" title="Syndication"></i>
+            {% if item.akkoma %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.akkoma }}" target="_blank">Akkoma</a>
+              </span>
+            {% endif %}
+            {% if item.bluesky %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.bluesky }}" target="_blank">Bluesky</a>
+              </span>
+            {% endif %}
+            {% if item.wafrn %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.wafrn }}" target="_blank">Wafrn</a>
+              </span>
+            {% endif %}
+            {% if item.mastodon %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.mastodon }}" target="_blank">Mastodon</a>
+              </span>
+            {% endif %}
+            {% if item.none %}
+              <span style="padding:0px 5px 0px 5px;">
+                {{ item.none }}
+              </span>
+            {% endif %}
+          </div>
+          {% if item.tags %}
+            <div class="tags">
+              {% for tag in item.tags %}
+                <span>#{{tag}}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
       </div>
-    
-    </div>
-
-{% endfor %}
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      ░ Previous
-    </a>
-  {% else %}
-    <span class="previous">░ Previous</span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
-  {% else %}
-    <span class="next ">Next ░</span>
-  {% endif %}
+    {% endfor %}
   </div>
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">
+        ░ Previous
+      </a>
+    {% else %}
+      <span class="previous" style="visibility: hidden;">░ Previous</span>
+    {% endif %}
+    <span class="page_number ">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+    {% else %}
+      <span class="next ">Next ░</span>
+    {% endif %}
+  </div>
+
   <br />
   <!-- Guestbook is disabled for now
   <p align="center">

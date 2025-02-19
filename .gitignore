@@ -11,3 +11,5 @@ Gemfile.lock
 generate_tags.py
 serve.sh
 publish_site.sh
+create_note.rb
+create_log.rb

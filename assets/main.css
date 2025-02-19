@@ -2619,3 +2619,122 @@ li {
   font-size: 16px;
   cursor: pointer;
 }
+
+/* New Main */
+
+.item {
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #202020;
+}
+
+.light-mode .item {
+  background-color: #a7a7a7;
+}
+
+.item .verb {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.item .date {
+  color: #999999;
+  font-size: 0.8em;
+}
+
+.light-mode .item .date {
+  color: #333;
+}
+
+.item .tags {
+  margin-top: 10px;
+}
+
+.item .tags span {
+  display: inline-block;
+  background-color: #444;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.light-mode .item .tags span {
+  background-color: #ddd;
+  color: #000;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination .previous, .pagination .next {
+  padding: 10px 20px;
+  background-color: #2b4938;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.light-mode .pagination .previous, .light-mode .pagination .next {
+  background-color: #a1a1a1;
+  color: #000;
+}
+
+.pagination .previous:hover, .pagination .next:hover {
+  background-color: #3a5a47;
+}
+
+.light-mode .pagination .previous:hover, .light-mode .pagination .next:hover {
+  background-color: #e2e2e2;
+}
+
+.head-section {
+  background-color: #202020;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.light-mode .head-section {
+  background-color: #a7a7a7;
+}
+
+.score {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+                 -8px 8px #f48fb1,
+                 -12px 12px #7e57c2,
+                 -16px 16px #2196f3,
+                 -20px 20px #26c6da,
+                 -24px 24px #43a047,
+                 -28px 28px #eeff41,
+                 -32px 32px #f9a825,
+                 -36px 36px #ff5722;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 145px;
+  background-image: url('/img/nova.png');
+  background-size: cover;
+}

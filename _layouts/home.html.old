@@ -1,0 +1,169 @@
+---
+layout: default
+---
+
+<!-- commander nova, ceo of the pixel
+                         
+_________     _____  ________ __________  
+\_   ___ \   /     \ \______ \\______   \ 
+/    \  \/  /  \ /  \ |    |  \|       _/ 
+\     \____/    Y    \|    `   \    |   \ 
+ \______  /\____|__  /_______  /____|_  / 
+        \/         \/        \/       \/  
+ _______   ____________   _________       
+ \      \  \_____  \   \ /   /  _  \      
+ /   |   \  /   |   \   Y   /  /_\  \     
+/    |    \/    |    \     /    |    \    
+\____|__  /\_______  /\___/\____|__  /    
+        \/         \/              \/
+                        
+                                  
+creator of everything -->
+
+
+
+<!-- Main Body Start -->
+<div id="main">
+  <table>
+<tr>
+<td>
+
+<div class="rainbow">cmdr-nova<img class="no-center" src="/img/gifs/at.gif">internet:~$: <b>Nova Prime</b> <span class="blinking-cursor">░</span></div>
+
+    <!-- Mobile Light Mode Toggle -->
+      <div id="mobile-light-mode-toggle" class="mobile-only center">
+        <p class="symbols">
+          <i class="ph ph-moon"></i> / <i class="ph ph-sun"></i>
+        </p>
+        <label class="switch">
+          <input type="checkbox" id="mobile-light-mode-checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+      </p>
+
+      <div class="desktop-only center">
+
+        <div class="quote"></div> <!-- Quote of the Day -->
+        <script src="/assets/js/randomQuote.js"></script>
+
+        <p>
+        Welcome to my <b><em>PERSONAL HELL</em></b>
+        </p>
+          <div class="site-desc">
+            <p>
+            I am an: artist, developer, designer, and a writer.
+          </p>
+          <p>
+            Subscribe to <a href="https://mkultra.monster/feed.xml">RSS Feed <i class="ph ph-rss"></i></a>
+            </p>
+          </div>
+          <!--Featured Content
+          <div class="tumblr-title"><b>Featured Content</b></div>
+          <br />
+          <iframe title="PLEXX - c o m p l ex" width="560" height="315" src="https://video.infosec.exchange/videos/embed/0e608634-7a28-43b7-b8ea-7aeff52f1a8a" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+          -->
+          </div>
+
+<p align="center"><img src="/img/gifs/rainbow.gif"></p>
+<p><em>... and here's where I keep all of my brain juice:</em></p>
+
+{% for post in paginator.posts %}
+
+<div class="excerpt">
+  <a class="read-title" href="{{ post.url }}">{{ post.title }}</a>
+
+    <p>
+    <i class="ph ph-pencil-line"></i> <a class="author-link" href="https://labyrinth.zone/daemon_nova" target="_blank"><!--{{ page.author }}--></a><br />
+    <i class="ph ph-calendar"></i> {{ post.date |     date_to_string }}<br />
+    </p>
+
+    <div class="indent">
+      {{ post.excerpt }}
+    </div>
+      > > > <a href="{{ post.url }}">read more</a>
+    <br />
+    <div class="dimmer">
+      <span class="tags-label">tags:</span>
+        <span>
+        {% for tag in post.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}"><code class="highligher"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
+      </span>
+      </div>
+    
+    </div>
+
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      ░ Previous
+    </a>
+  {% else %}
+    <span class="previous">░ Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+  {% else %}
+    <span class="next ">Next ░</span>
+  {% endif %}
+  </div>
+  <br />
+  <!-- Guestbook is disabled for now
+  <p align="center">
+    <a href="/pages/guestbook" class="guestbook-button">Sign My Guestbook</a>
+  </p>
+  -->
+  <p align="center">
+    © <script>document.write(new Date().getFullYear())</script> CMDR Nova
+  </p>
+
+  <p align="center">
+    <a href="https://web.archive.org/web/19970613204222/http://home.netscape.com/comprod/mirror/client_download.html" target="_blank"><img class="no-center" src="/img/gifs/netscape.gif" height="50" width="50"></a> <a href="https://web.archive.org/web/19961226182558/http://www3.geocities.com/" target="_blank"><img class="no-center" src="/img/gifs/geocities.gif"></a> <img class="no-center" src="/img/gifs/Y2K.png">  <a href="https://melonland.net" target="_blank"><img class="no-center" src="/img/melonland-badge.png"></a>
+  </p>
+
+  <p><a href="https://labyrinth.zone" target="_blank"><img src="/img/lzbadge.gif"></a></p>
+
+
+  <p align="center">
+    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    </p> 
+
+  <p align="center">
+    <img class="no-center" src="/img/buttons/button.png"> <a href="https://humantooth.neocities.org" target="_blank"><img class="no-center" src="/img/sitebuttons/tooth4.png"></a> <img class="no-center" src="/img/sitebuttons/nova.png"> <a href="https://neocities.org/site/boot-cmd" target="_blank"><img class="no-center" src="/img/gifs/neocities_button.gif"></a>
+  </p>
+  <p>
+    <a href="https://web.archive.org/web/20010401015509/http://animeboards.com:80/" target="_blank"><img src="/img/bbtitlebk.jpg"></a>
+  </p>
+
+  <p align="center">
+    <a class="page-link" href="/pages/disclaimer">License + Disclaimer</a>
+    <br />
+    <a class="page-link" href="/pages/privacy/">Privacy Policy </a>
+    <br />
+    <a class="page-link" href="/classic">Old Version</a>
+    </p>
+  </div>
+    <script data-goatcounter="https://nova.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  
+          <a href="https://github.com/cmdr-nova" rel="me"></a>
+
+          <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+          <a rel="me" href="https://labyrinth.zone/daemon_nova" target="_blank"></a>
+          <a rel="me" href="https://mastodon.social/@mkultra_bot"></a>
+          <!-- <a rel="me" href="https://mastodon.social/@net_run"></a> -->
+
+  
+</td>
+</tr>
+</table>
+</div>
+<!-- Main Body End -->

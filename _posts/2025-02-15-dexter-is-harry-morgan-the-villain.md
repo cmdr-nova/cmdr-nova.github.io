@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Dexter: Is Harry Morgan The Villain?'
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-15 20:12
 categories:
     - "Dexter"

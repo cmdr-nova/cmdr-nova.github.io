@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Tumblr Trying To Squeeze Into ActivityPub
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-12 11:34
 categories:
     - "Tumblr"

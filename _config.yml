@@ -42,9 +42,8 @@ plugins:
   - jekyll-compose
   - jekyll-compress-images
 
-paginate: 5
-per_page: 5
-#paginate_path: "/blog/page:num/"
+paginate: 10
+paginate_path: "/page:num/"
 
 future: true
 
@@ -52,11 +51,12 @@ compress_images:
   images_path: "/img/**/*.{gif,png,jpg,jpeg,svg}"
 
 collections:
-  posts:
-    output: true
   notes:
     output: true
-    permalink: /notes/:path/
+  posts:
+    output: true
+  logs:
+    output: true
 
 # New fields not defaulted by jekyll-new with the minima theme
 # Add a copyright. A copyright symbol and year will be added automatically

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The HTML Element Quiz!
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-14 15:12
 categories:
     - "Quiz"

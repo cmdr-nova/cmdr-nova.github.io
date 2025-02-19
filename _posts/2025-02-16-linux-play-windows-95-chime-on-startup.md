@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 'Linux: Play Windows 95 Chime On Startup'
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-16 19:59
 categories:
     - "Linux"

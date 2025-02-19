@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The Breaking Point
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-10 22:21
 categories:
     - "Thoughts"

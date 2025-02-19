@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Too Tired To Game?
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
 date: 2025-02-09 23:12
 categories:
     - "Gaming"
