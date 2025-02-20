@@ -2668,6 +2668,10 @@ li {
   color: #000;
 }
 
+.small-link {
+  font-size: 0.8em;
+}
+
 .pagination {
   display: flex;
   justify-content: center;
@@ -2784,4 +2788,18 @@ li {
 .note-log-result .content-container {
   display: flex;
   flex-direction: column;
+}
+
+.clipboard-message {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  font-size: 0.9em;
 }
