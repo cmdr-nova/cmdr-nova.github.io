@@ -18,3 +18,4 @@ generate_posts_metadata.rb
 generate_tags.py
 generate_search_index.rb
 generate_feed.rb
+create_post.rb
