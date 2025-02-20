@@ -38,12 +38,6 @@ Ed, PaxCorpus, 2013
 - [Spotify](https://open.spotify.com/artist/355TNaPlosj1FwN7sfSvAe?si=NGAJSqgsTVKfMbw-HSeDcA){:target="_blank"}
 - [Apple Music](https://music.apple.com/us/artist/eyeshadow-2600-fm/1210249781){:target="_blank"}
 
-░ And, starting 2024, I’ve begun a new musical venture by the name of PLEXX, a vaporwave, liminal horror experience.
-
-- [Bandcamp](https://plexx.bandcamp.com/album/disc-error-1992-de-lux){:target="_blank"}
-- [Spotify](https://open.spotify.com/artist/2jkEsRdWQYWla3H6Ut4Wed?si=6fSDZwCCTnaCCR9uJp6_UA){:target="_blank"}
-- [Apple Music](https://music.apple.com/us/album/c-o-m-p-l-e-x-single/1751222634){:target="_blank"}
-
 ░ IN SECOND LIFE … I’ve been designing and releasing 3D objects for use with avatars since 2015, as a result of losing my original attempt at the same thing (due to quite a catastrophic romantic breakup). Here’s where you can view what I’m doing now:
 
 - [[REVOSA] Marketplace](https://marketplace.secondlife.com/en-US/stores/165186){:target="_blank"}

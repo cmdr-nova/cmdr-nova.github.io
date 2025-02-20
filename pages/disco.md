@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "The Discography of Eyeshadow 2600 FM, and PLEXX"
+title: "The Discography of Eyeshadow 2600 FM"
 permalink: /pages/disco/
 ---
 Listen to my music [direct on the fediverse](https://bandwagon.fm/@cmdr_nova){:target="_blank"}!
