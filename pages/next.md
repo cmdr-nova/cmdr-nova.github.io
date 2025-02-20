@@ -6,7 +6,7 @@ permalink: /pages/next/
 
 As of July 27th, 2024, I'm currently working on: 
 
-- My next musical album under the new name, PLEXX
+- My next musical album
     * disc eRROR 19​.​92 ~DE​-​LUX 
  ![my neofetch](/img/pages/disc-error.png)
 

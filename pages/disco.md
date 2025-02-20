@@ -65,10 +65,8 @@ Listen to my music [direct on the fediverse](https://bandwagon.fm/@cmdr_nova){:t
         * Initiate the Protocol [[Patreon Download]](https://www.patreon.com/posts/02-initiate-42189312){:target="_blank"}
         * 永 遠 の [[Patreon Download]](https://www.patreon.com/posts/yong-yuan-no-87608010){:target="_blank"}
 
-**PLEXX** [[Spotify]](https://open.spotify.com/artist/2jkEsRdWQYWla3H6Ut4Wed?si=zM7EnLDzSTiBaOMZs1_sPg){:target="_blank"} x [[Bandcamp]](https://plexx.bandcamp.com/album/disc-error-1992-de-lux){:target="_blank"} x [[Apple Music]](https://music.apple.com/us/artist/plexx/1751206223){:target="_blank"}
-
-- Cycle One *(2024 - )*
+- Cycle Five *(2025 - )*
     - Albums
         * disc eRROR 19​.​92 ~DE​-​LUX [*in development*]
     - Singles
-        * c o m p l e x [[Patreon Download]](https://www.patreon.com/posts/106227529){:target="_blank"}
+        * BOOT CMD [[Patreon Download]](https://www.patreon.com/posts/122726451?pr=true){:target="_blank"}
