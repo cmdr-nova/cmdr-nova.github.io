@@ -2541,6 +2541,15 @@
     "date": "2025-02-19 17:12:55 -0500"
   },
   {
+    "id": "2025-02-19-pillowfortnite",
+    "url": "/notes/2025/02/19/pillowfortnite.html",
+    "content": "Hello Pillowfortnite, it’s been a little while since I’ve posted here, and that’s mostly because I’m constantly scattering back and forth between social websites due to the fact that, once Twitter died, I kind of lost my feeling of centrality on the internet.\n\nI think I’ve got the handle on that though, because, even though I post here, I post on ActivityPub, I post on Bluesky, you know, I’ve been running a website this whole time.\n\nSo, what I did was, is I decided to make my website the central place of balance of my internet presence. In that, along with blog posts on the main feed on the site itself, it now also features “notes” and “logs.\n\nNotes are basically social media posts that I’ve written directly onto my website, as well, with links to their social media counterpart (as if it’s syndicated), and logs are just me posting changelogs about my site.\n\nIt creates this unique kind of opportunity to turn my website into my own personal social feed.\n\n… if only I could figure out an easy way to create a note, build it via Jekyll, and then push it to github and then Neocities … via my phone!\n\nI know one way I could do this, but it’s kind of a major project to setup, and I’ve got this feeling in my brain juice that I could probably think of an even easier way to do it.\n\nMaybe.\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-19 18:08:38 -0500"
+  },
+  {
     "id": "2025-02-18-major-site-update",
     "url": "/logs/2025/02/18/major-site-update.html",
     "content": "Today the site has been updated in a major way. So, here’s a list of things I’ve done:\n\n\n  \n    -Used liquid code from @shellsharks in order to implement more than just blog posts onto the site! Now includes short-form, social media-esque type posts, and these change logs.\n  \n  \n    -Redesigned the front of the website to look like a pretend social media profile!\n  \n  \n    -Changed the standalone “/notes” page to display only notes, sans logs and posts.\n  \n\n\nWhile I’m still looking for a way to list each type of content (posts, notes, and logs) on their own pages, or somehow separately from each other, everything else is done, for now. I’m gonna go try out that game Kingdom Delivery pizza.\n",
