@@ -19,3 +19,4 @@ generate_tags.py
 generate_search_index.rb
 generate_feed.rb
 create_post.rb
+preprocess_pinned_items.rb

@@ -2646,6 +2646,17 @@ li {
   font-size: 0.8em;
 }
 
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 480px) {
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .light-mode .item .date {
   color: #333;
 }
