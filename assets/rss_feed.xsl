@@ -90,6 +90,8 @@
           <div class="subscribe-box">
             <p>Subscribe to this feed with this url: <a href="https://mkultra.monster/rss_feed.xml" class="item-link">https://mkultra.monster/rss_feed.xml</a></p>
             <p>This blog is run independently from a garage on Jupiter's moon, Io. Gotcha. You really thought I was being serious? Anyway, check out my <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">Patreon</a>.</p>
+
+            <p>Visit the full website <a href="https://mkultra.monster">here</a>.</p>
           </div>
           <xsl:for-each select="rss/channel/item[position() &lt;= 10]">
             <div class="item">
