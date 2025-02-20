@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div id="main">
+
+  <a class="read-title" href="/">{{ page.title }}</a> 
+
+  <div class="item">
+    <p><img src="/img/avatar/daemon.jpeg" alt="Avatar" class="no-center toot-avatar pack-avatar"> Author: {{ page.author }}</p>
+    
+
+    {{ content }}
+
+    <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+
+  </div>
+  </div>

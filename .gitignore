@@ -13,3 +13,8 @@ serve.sh
 publish_site.sh
 create_note.rb
 create_log.rb
+generate_htaccess.rb
+generate_posts_metadata.rb
+generate_tags.py
+generate_search_index.rb
+generate_feed.rb
