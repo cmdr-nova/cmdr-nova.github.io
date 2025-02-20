@@ -53,6 +53,10 @@ permalink: /pages/notes/
           {% endfor %}
         </div>
       {% endif %}
+        <div style="text-align: right;">
+        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ note.url }}')">link</a>
+      </div>
+      <script src="/assets/js/clipboard.js"></script>
     </div>
   {% endfor %}
 </div>

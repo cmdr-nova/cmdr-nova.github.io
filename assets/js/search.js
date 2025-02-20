@@ -31,34 +31,56 @@ document.addEventListener('DOMContentLoaded', function() {
           paginatedResults.forEach(function(result) {
             var item = data.find(d => d.id === result.ref);
             var div = document.createElement('div');
-            div.classList.add('search-result-item');
+            div.classList.add('search-result-item', 'item');
 
             if (item.type === 'note' || item.type === 'log') {
-              div.classList.add('note-log-result'); // Add specific class for notes and logs
-
-              var avatar = document.createElement('img');
-              avatar.src = item.avatar;
-              avatar.alt = 'Avatar';
-              avatar.classList.add('avatar', 'search-avatar'); // Add 'search-avatar' class
-
-              var contentContainer = document.createElement('div');
-              contentContainer.classList.add('content-container');
-
               var author = document.createElement('p');
-              author.textContent = `Author: ${item.author}`;
+              author.textContent = item.author;
 
-              var date = document.createElement('p');
-              date.textContent = `Published: ${new Date(item.date).toLocaleDateString()}`;
+              var date = document.createElement('span');
+              date.classList.add('date');
+              date.innerHTML = `<i>published</i> ${new Date(item.date).toLocaleDateString()}`;
 
-              var content = document.createElement('p');
-              content.textContent = item.content;
+              var content = document.createElement('div');
+              content.innerHTML = item.content.substring(0, 200) + '...'; // Truncate content to 200 characters
 
-              contentContainer.appendChild(author);
-              contentContainer.appendChild(date);
-              contentContainer.appendChild(content);
+              var tags = document.createElement('div');
+              tags.classList.add('tags');
+              if (item.tags) {
+                item.tags.forEach(function(tag) {
+                  var tagSpan = document.createElement('span');
+                  tagSpan.textContent = `#${tag}`;
+                  tags.appendChild(tagSpan);
+                });
+              }
 
-              div.appendChild(avatar);
-              div.appendChild(contentContainer);
+              var copyLink = document.createElement('a');
+              copyLink.href = "javascript:void(0);";
+              copyLink.classList.add('small-link');
+              copyLink.textContent = 'share';
+              copyLink.onclick = function() {
+                copyToClipboard(item.url);
+              };
+
+              var separator = document.createElement('span');
+              separator.textContent = ' | ';
+
+              var viewLink = document.createElement('a');
+              viewLink.href = 'https://mkultra.monster' + item.url;
+              viewLink.classList.add('small-link');
+              viewLink.textContent = 'view';
+
+              var linkContainer = document.createElement('div');
+              linkContainer.style.textAlign = 'right';
+              linkContainer.appendChild(copyLink);
+              linkContainer.appendChild(separator);
+              linkContainer.appendChild(viewLink);
+
+              div.appendChild(author);
+              div.appendChild(content);
+              div.appendChild(date);
+              div.appendChild(tags);
+              div.appendChild(linkContainer);
             } else {
               var title = document.createElement('h2');
               var link = document.createElement('a');
@@ -105,4 +127,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
       renderResults(currentPage);
     });
+
+  function copyToClipboard(url) {
+    const fullUrl = 'https://mkultra.monster' + url;
+    navigator.clipboard.writeText(fullUrl).then(function() {
+      // Show the message
+      var message = document.createElement('div');
+      message.className = 'clipboard-message';
+      message.innerText = 'Copied to clipboard';
+      document.body.appendChild(message);
+
+      // Remove the message after 2 seconds
+      setTimeout(function() {
+        document.body.removeChild(message);
+      }, 2000);
+    }, function(err) {
+      console.error('Could not copy text: ', err);
+    });
+  }
 });
