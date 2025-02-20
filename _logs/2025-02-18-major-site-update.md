@@ -8,6 +8,7 @@ avatar: /img/avatar/daemon.jpeg
 akkoma: 
 bluesky: 
 wafrn: 
+pillowfort: 
 none: no_syndication_available 
 ---
 Today the site has been updated in a major way. So, here's a list of things I've done:

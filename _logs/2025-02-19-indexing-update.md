@@ -7,7 +7,8 @@ author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 akkoma: 
 bluesky: 
-wafrn: 
+wafrn:
+pillowfort:  
 none: no_syndication_available 
 ---
 Created three new pages: Posts, Notes, and Logs, where the ten latest items for each category are displayed, and, on top of that, created new conditions in the search indexing to include both notes and logs.

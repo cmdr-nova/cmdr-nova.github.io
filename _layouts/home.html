@@ -166,6 +166,11 @@ creator of everything -->
                 <a href="{{ item.mastodon }}" target="_blank">Mastodon</a>
               </span>
             {% endif %}
+            {% if item.pillowfort %}
+            <span style="padding:0px 5px 0px 5px;">
+              <a href="{{ item.pillowfort }}" target="_blank">Pillowfort</a>
+            </span>
+          {% endif %}
             {% if item.none %}
               <span style="padding:0px 5px 0px 5px;">
                 {{ item.none }}
