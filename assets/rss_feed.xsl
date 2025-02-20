@@ -101,15 +101,7 @@
                 </a>
               </div>
               <div class="item-description">
-                <xsl:choose>
-                  <xsl:when test="string-length(description) &gt; 500">
-                    <xsl:value-of select="substring(description, 1, 500)"/>...
-                    <a class="item-link" href="{link}">Read more</a>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="description"/>
-                  </xsl:otherwise>
-                </xsl:choose>
+                <xsl:copy-of select="description/node()"/>
               </div>
               <div class="item-pubDate">
                 <xsl:value-of select="pubDate"/>

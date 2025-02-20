@@ -2603,6 +2603,13 @@
     "type": "page"
   },
   {
+    "id": "rss_feed",
+    "title": "Nova Feed",
+    "url": "/rss_feed.html",
+    "content": "\n    cmdr-nova @ internet:~$: Nova Prime ░\n    \n        Subscribe to this feed with this url: https://mkultra.monster/rss_feed.xml\n        This blog is run independently from a garage on Jupiter's moon, Io. Gotcha. You really thought I was being serious? Anyway, check out my Patreon.\n\n        Visit the full website here.\n      \n    \n  \n  \n    async function fetchRSSFeed() {\n      const response = await fetch('/rss_feed.xml');\n      const text = await response.text();\n      const parser = new DOMParser();\n      const xml = parser.parseFromString(text, 'application/xml');\n      const items = xml.querySelectorAll('item');\n      const feedContainer = document.getElementById('feed');\n\n      items.forEach(item => {\n        const title = item.querySelector('title').textContent;\n        const link = item.querySelector('link').textContent;\n        const description = item.querySelector('description').textContent;\n        const pubDate = new Date(item.querySelector('pubDate').textContent).toLocaleDateString();\n\n        const itemDiv = document.createElement('div');\n        itemDiv.classList.add('item');\n\n        const itemTitle = document.createElement('div');\n        itemTitle.classList.add('item-title');\n        itemTitle.innerHTML = `<a href=\"${link}\" class=\"item-link\">${title}</a>`;\n\n        const itemDescription = document.createElement('div');\n        itemDescription.classList.add('item-description');\n        itemDescription.innerHTML = description;\n\n        const itemPubDate = document.createElement('div');\n        itemPubDate.classList.add('item-pubDate');\n        itemPubDate.textContent = pubDate;\n\n        itemDiv.appendChild(itemTitle);\n        itemDiv.appendChild(itemDescription);\n        itemDiv.appendChild(itemPubDate);\n\n        feedContainer.appendChild(itemDiv);\n      });\n    }\n\n    fetchRSSFeed();\n  \n",
+    "type": "page"
+  },
+  {
     "id": "search",
     "title": "No title",
     "url": "/search.html",
