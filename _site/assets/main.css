@@ -207,6 +207,12 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   order: 2;
 }
 
+.posts-section {
+  max-width: 100%;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
 #main table {
   table-layout: auto;
   width: 100%;
@@ -2621,6 +2627,8 @@ li {
 }
 
 /* New Main */
+
+
 
 .item {
   max-width: 100%;
