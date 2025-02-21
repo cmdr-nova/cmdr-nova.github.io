@@ -2650,6 +2650,7 @@ li {
 }
 
 .posts-section {
+  width: 100%;
   max-width: 100%;
   overflow-x: hidden;
   word-wrap: break-word;
@@ -2657,6 +2658,7 @@ li {
 
 .item {
   box-sizing: border-box;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
