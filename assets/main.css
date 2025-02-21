@@ -2670,6 +2670,13 @@ li {
   padding: 15px;
   background-color: #202020;
   overflow-x: hidden;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.item a {
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 .item img {
