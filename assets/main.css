@@ -2739,6 +2739,7 @@ li {
   justify-content: center;
   gap: 10px;
   margin-top: 20px;
+  max-width: 100%;
 }
 
 .pagination .previous, .pagination .next {
@@ -2749,6 +2750,7 @@ li {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1em;
+  max-width: 100%;
 }
 
 .pagination .previous.disabled {
