@@ -2751,6 +2751,11 @@ li {
   font-size: 1em;
 }
 
+.pagination .previous.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 .light-mode .pagination .previous, .light-mode .pagination .next {
   background-color: #a1a1a1;
   color: #000;
