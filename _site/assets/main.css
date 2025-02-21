@@ -2672,12 +2672,25 @@ li {
   overflow-x: hidden;
 }
 
+.item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 480px) {
   .posts-section {
     padding: 0 10px;
   }
   .item {
     padding: 10px;
+  }
+  .item img {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -2693,22 +2706,6 @@ li {
 .item .date {
   color: #999999;
   font-size: 0.8em;
-}
-
-.item img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
-}
-
-@media only screen and (max-width: 480px) {
-  .item img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 .light-mode .item .date {
