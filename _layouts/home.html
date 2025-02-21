@@ -22,6 +22,9 @@ creator of everything -->
 
 <!-- Main Body Start -->
 <div id="main">
+  <table>
+<tr>
+<td>
 
     <!-- Mobile Light Mode Toggle -->
       <div id="mobile-light-mode-toggle" class="mobile-only center">
@@ -34,8 +37,11 @@ creator of everything -->
         </label>
       </div>
       </p>
+        
 
       <div class="head-section">
+        <div class="quote"></div>
+        <script src="/assets/js/randomQuote.js"></script>
         <div class="profile-header"></div>
         
         <div class="rainbow">cmdr-nova<img class="no-center" src="/img/gifs/at.gif">internet:~$: <b>Nova Prime</b> <span class="blinking-cursor">░</span></div>
@@ -48,9 +54,9 @@ creator of everything -->
 
         <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
         <script src="/assets/js/fake-follows.js"></script>
-        <!--
+        
         <div class="score">HIGH SCORE!</div>
-      -->
+        
         <p>░Artist behind #Eyeshadow2600FM // Author of upcoming space opera, DISSOLUTION PROTOCOL, Second Life creator at [REVOSA] & AyaSys
         <br /><br />
         ░I am a: Writer, composer, designer, linux-enjoyer & webdev</p>
@@ -72,7 +78,18 @@ creator of everything -->
 
       <div class="desktop-only center">
 
-      </div>
+        <!--
+
+        <p>
+        Welcome to my <b><em>PERSONAL HELL</em></b>
+        </p>
+          <div class="site-desc">
+            <p>
+            I am an: artist, developer, designer, and a writer.
+          </p>
+          </div>
+        -->
+          </div>
         
 <p align="center"><img src="/img/gifs/rainbow.gif"></p>
 <p><em>... and here's where I keep all of my brain juice:</em></p>
@@ -80,114 +97,105 @@ creator of everything -->
 <!-- New Posts Section -->
 
 <div class="posts-section">
-  {% assign notes_array = site.notes %}
-  {% assign logs_array = site.logs %}
-  {% assign posts_array = site.posts %}
-  {% assign combined_array = posts_array | concat: notes_array | concat: logs_array %}
-  {% assign combined_array = combined_array | sort: "date" | reverse %}
-
-  {% assign pinned_items = combined_array | where: "pinned", true %}
-  {% assign unpinned_items = combined_array | where_exp: "item", "item.pinned != true" %}
-  {% assign combined_array = pinned_items | concat: unpinned_items %}
-
-  {% assign items_per_page = paginator.per_page %}
-  {% assign current_page = paginator.page %}
-  {% assign total_items = combined_array.size %}
-  {% assign total_pages = total_items | divided_by: items_per_page | ceil %}
-  {% assign start_index = items_per_page | times: current_page | minus: items_per_page %}
-  {% assign end_index = items_per_page | times: current_page %}
-  {% assign paginated_array = combined_array | slice: start_index, items_per_page %}
-
-  {% for item in paginated_array %}
-    {% assign post_type = item.collection %}
-    {% if post_type == "notes" %}
-      {% assign icon = "ph ph-note" %}
-      {% assign verb = "Noted" %}
-      {% assign content = item.content %}
-    {% elsif post_type == "logs" %}
-      {% assign icon = "ph ph-notebook" %}
-      {% assign verb = "Logged" %}
-      {% assign content = item.content %}
-    {% elsif post_type == "posts" %}
-      {% assign icon = "ph ph-article" %}
-      {% assign verb = "Posted" %}
-      {% assign content = item.content | strip_newlines | truncatewords: 50 %}
-    {% else %}
-      {% assign icon = "ph ph-chat-text" %}
-      {% assign verb = "Shared" %}
-    {% endif %}
-
-    <div class="item">
-      <div>
-        {% if item.pinned %}
-          <div class="pin-icon" style="text-align: right; padding: 5px; font-size: 1.5em;">
-            <i class="ph ph-push-pin"></i>
-          </div>
-        {% endif %}
-        <span class="verb"><i class="{{ icon }}"></i> {{ verb }}:</span>
-        <br /><br />
-        {% if item.avatar %}
-          <img src="{{ item.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
-        {% endif %}
-        {% if item.author %}
-          {{ item.author }}
-        {% endif %}
-        <br /><br />
-        {% if post_type == "posts" %}
-          <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-        {% endif %}
-        <div>{{ content }}</div>
-        <span class="date"><i>published</i> {{ item.date | date: '%B %e, %Y' }}</span>
-        <div class="syndicate">
-          <i class="ph ph-broadcast" title="Syndication"></i>
-          {% if item.akkoma %}
-            <span style="padding:0px 5px 0px 5px;">
-              <a href="{{ item.akkoma }}" target="_blank">Akkoma</a>
-            </span>
-          {% endif %}
-          {% if item.bluesky %}
-            <span style="padding:0px 5px 0px 5px;">
-              <a href="{{ item.bluesky }}" target="_blank">Bluesky</a>
-            </span>
-          {% endif %}
-          {% if item.wafrn %}
-            <span style="padding:0px 5px 0px 5px;">
-              <a href="{{ item.wafrn }}" target="_blank">Wafrn</a>
-            </span>
-          {% endif %}
-          {% if item.mastodon %}
-            <span style="padding:0px 5px 0px 5px;">
-              <a href="{{ item.mastodon }}" target="_blank">Mastodon</a>
-            </span>
-          {% endif %}
-          {% if item.pillowfort %}
-          <span style="padding:0px 5px 0px 5px;">
-            <a href="{{ item.pillowfort }}" target="_blank">Pillowfort</a>
-          </span>
-        {% endif %}
-          {% if item.none %}
-            <span style="padding:0px 5px 0px 5px;">
-              {{ item.none }}
-            </span>
-          {% endif %}
-        </div>
-        {% if item.tags %}
-          <div class="tags">
-            {% for tag in item.tags %}
-              <span>#{{tag}}</span>
-            {% endfor %}
-          </div>
-        {% endif %}
-        {% if post_type == "notes" or post_type == "logs" %}
-        <div style="text-align: right;">
-          <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
-        </div>
-        <script src="/assets/js/clipboard.js"></script>
+    {% assign notes_array = site.notes %}
+    {% assign logs_array = site.logs %}
+    {% assign posts_array = site.posts %}
+    {% assign combined_array = posts_array | concat: notes_array | concat: logs_array %}
+    {% assign combined_array = combined_array | sort: "date" | reverse %}
+  
+    {% assign items_per_page = paginator.per_page %}
+    {% assign current_page = paginator.page %}
+    {% assign total_items = combined_array.size %}
+    {% assign total_pages = total_items | divided_by: items_per_page | ceil %}
+    {% assign start_index = items_per_page | times: current_page | minus: items_per_page %}
+    {% assign end_index = items_per_page | times: current_page %}
+    {% assign paginated_array = combined_array | slice: start_index, items_per_page %}
+  
+    {% for item in paginated_array %}
+      {% assign post_type = item.collection %}
+      {% if post_type == "notes" %}
+        {% assign icon = "ph ph-note" %}
+        {% assign verb = "Noted" %}
+        {% assign content = item.content %}
+      {% elsif post_type == "logs" %}
+        {% assign icon = "ph ph-notebook" %}
+        {% assign verb = "Logged" %}
+        {% assign content = item.content %}
+      {% elsif post_type == "posts" %}
+        {% assign icon = "ph ph-article" %}
+        {% assign verb = "Posted" %}
+        {% assign content = item.content | strip_newlines | truncatewords: 50 %}
+      {% else %}
+        {% assign icon = "ph ph-chat-text" %}
+        {% assign verb = "Shared" %}
       {% endif %}
+  
+      <div class="item">
+        <div>
+          <span class="verb"><i class="{{ icon }}"></i> {{ verb }}:</span>
+          <br /><br />
+          {% if item.avatar %}
+            <img src="{{ item.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
+          {% endif %}
+          {% if item.author %}
+            {{ item.author }}
+          {% endif %}
+          <br /><br />
+          {% if post_type == "posts" %}
+            <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+          {% endif %}
+          <div>{{ content }}</div>
+          <span class="date"><i>published</i> {{ item.date | date: '%B %e, %Y' }}</span>
+          <div class="syndicate">
+            <i class="ph ph-broadcast" title="Syndication"></i>
+            {% if item.akkoma %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.akkoma }}" target="_blank">Akkoma</a>
+              </span>
+            {% endif %}
+            {% if item.bluesky %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.bluesky }}" target="_blank">Bluesky</a>
+              </span>
+            {% endif %}
+            {% if item.wafrn %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.wafrn }}" target="_blank">Wafrn</a>
+              </span>
+            {% endif %}
+            {% if item.mastodon %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.mastodon }}" target="_blank">Mastodon</a>
+              </span>
+            {% endif %}
+            {% if item.pillowfort %}
+            <span style="padding:0px 5px 0px 5px;">
+              <a href="{{ item.pillowfort }}" target="_blank">Pillowfort</a>
+            </span>
+          {% endif %}
+            {% if item.none %}
+              <span style="padding:0px 5px 0px 5px;">
+                {{ item.none }}
+              </span>
+            {% endif %}
+          </div>
+          {% if item.tags %}
+            <div class="tags">
+              {% for tag in item.tags %}
+                <span>#{{tag}}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+          {% if post_type == "notes" or post_type == "logs" %}
+          <div style="text-align: right;">
+            <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
+          </div>
+          <script src="/assets/js/clipboard.js"></script>
+        {% endif %}
+        </div>
       </div>
-    </div>
-  {% endfor %}
-</div>
+    {% endfor %}
+  </div>
   
   <!-- Pagination links -->
   <div class="pagination">
@@ -209,13 +217,11 @@ creator of everything -->
   </div>
 
   <br />
-
   <!-- Guestbook is disabled for now
   <p align="center">
     <a href="/pages/guestbook" class="guestbook-button">Sign My Guestbook</a>
   </p>
   -->
-
   <p align="center">
     © <script>document.write(new Date().getFullYear())</script> CMDR Nova
   </p>
@@ -256,5 +262,9 @@ creator of everything -->
           <a rel="me" href="https://mastodon.social/@mkultra_bot"></a>
           <!-- <a rel="me" href="https://mastodon.social/@net_run"></a> -->
 
+  
+</td>
+</tr>
+</table>
 </div>
 <!-- Main Body End -->
