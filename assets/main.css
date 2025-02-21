@@ -2630,19 +2630,22 @@ li {
 
 .head-section {
   box-sizing: border-box;
+  width: 100%;
   max-width: 100%;
   margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
   word-wrap: break-word;
-  background-color: #202020;
   border-radius: 10px;
   padding: 15px;
   margin-bottom: 10px;
+  background-color: #202020;
 }
 
 .head-section img {
   max-width: 100%;
   height: auto;
 }
+
 @media only screen and (max-width: 480px) {
   .head-section {
     padding: 10px;
@@ -2666,6 +2669,7 @@ li {
   border-radius: 10px;
   padding: 15px;
   background-color: #202020;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 480px) {
@@ -2694,6 +2698,10 @@ li {
 .item img {
   max-width: 100%;
   height: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 480px) {
   .item img {
