@@ -2628,9 +2628,14 @@ li {
 
 /* New Main */
 
-
+.posts-section {
+  max-width: 100%;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
 
 .item {
+  box-sizing: border-box;
   max-width: 100%;
   margin: 0 auto;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
@@ -2638,6 +2643,15 @@ li {
   border-radius: 10px;
   padding: 15px;
   background-color: #202020;
+}
+
+@media only screen and (max-width: 480px) {
+  .posts-section {
+    padding: 0 10px;
+  }
+  .item {
+    padding: 10px;
+  }
 }
 
 .light-mode .item {
