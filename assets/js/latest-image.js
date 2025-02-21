@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const accountId = '113586993703495507'; // Directly use the provided account ID
-  const statusesUrl = `https://mkultra.monster/api/v1/accounts/${accountId}/statuses?limit=5`;
+  const accountId = '113922737999995988'; // Directly use the provided account ID
+  const statusesUrl = `https://mastodon.social/api/v1/accounts/${accountId}/statuses?limit=5`;
 
   // Fetch the latest statuses
   fetch(statusesUrl)
