@@ -10,7 +10,17 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Thu, 20 Feb 2025 22:43:55 -0500</pubDate>
+    <pubDate>Fri, 21 Feb 2025 18:05:32 -0500</pubDate>
+    <item>
+      <title>New Log</title>
+      <link>/logs/2025/02/21/pinned-function/</link>
+      <description>&lt;p&gt;I’ve put together a way, utilizing Liquid and some CSS, to pin a Post, Note, or Log to the top of the feed here on the site. It’s still a little wonky though, because, currently, in order to unpin something, I have to manually &lt;em&gt;go to the post&lt;/em&gt;, and then delete the “pinned: true” function.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, it works!&lt;/p&gt;
+</description>
+      <pubDate>Fri, 21 Feb 2025 13:00:59 -0500</pubDate>
+      <dc:date>2025-02-21T13:00:59-05:00</dc:date>
+    </item>
     <item>
       <title>Kingdom Come: I Keep Messing Up</title>
       <link>/gaming/2025/02/20/kingdom-come-i-keep-messing-up/</link>
@@ -14611,6 +14621,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-20T22:43:55-05:00</dc:date>
+    <dc:date>2025-02-21T18:05:32-05:00</dc:date>
   </channel>
 </rss>
