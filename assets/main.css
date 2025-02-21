@@ -2744,25 +2744,39 @@ li {
 .pagination {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
   max-width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
-.pagination .previous, .pagination .next {
-  padding: 10px 20px;
-  background-color: #2b4938;
+.pagination .previous,
+.pagination .next {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: #202020;
   color: #fff;
-  border: none;
+  text-decoration: none;
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-  max-width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
 }
 
 .pagination .previous.disabled {
   opacity: 0.5;
   pointer-events: none;
+}
+
+.pagination .page_number {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 10px 0;
+  color: #999999;
 }
 
 .light-mode .pagination .previous, .light-mode .pagination .next {
