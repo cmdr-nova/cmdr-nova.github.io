@@ -11,9 +11,9 @@ tags: [gaming, kingdom-come]
 akkoma:  
 bluesky: 
 wafrn:
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114039823863061885
 pillowfort: 
-none: no_syndication_available 
+none:
 ---
 I've been spending a couple of days sprucing up my site, adding things to the feed, making it more like ... a *social media* feed, and then I got myself a copy of Kingdom Come: Deliverance 2. Now, I played a little bit of the first one, but that was years back, and I got confused or stuck around the beginning, so I didn't really pick it up again. At the time, it was a game I never really saw anyone talk about, so I didn't really assume much of it.
 
