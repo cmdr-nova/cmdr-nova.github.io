@@ -11,13 +11,7 @@ layout: default
 
   <a class="read-title" href="/">{{ page.title }}</a> 
 <div class="item">
-  <div class="author-info">
-    <img class="no-center pack-avatar dynamic-avatar" src="" height="100" width="100">
-    <div class="author-text">
-      <p><i class="ph ph-pencil-line"></i> Author: <b>⸸ commander ░ nova ⸸ :~$</b></p>
-      <p><i class="ph ph-calendar"></i> Published: {{ page.date | date_to_string }}</p>
-    </div>
-  </div>
+  <p><img src="/img/avatar/daemon.jpeg" alt="Avatar" class="no-center toot-avatar pack-avatar"> Author: {{ page.author }}</p>
   <div class="center">
     <p style="margin-bottom: 1%; margin-top: 1%;"><b>Subscribe via:</b></p>
       <button class="post-buttons" onclick="window.open('https://www.patreon.com/c/cmdr_nova', '_blank')">Patreon <i class="ph ph-patreon-logo"></i></button>
@@ -38,6 +32,9 @@ layout: default
 <div class="indent">
 {{ content }}
 </div>
+
+<span class="date"><i class="ph ph-calendar"></i> Published: {{ page.date | date_to_string }}</span>
+<br />
 <br />
 <hr>
 <br />
