@@ -6,11 +6,11 @@ tags: [webdev, css]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-akkoma: 
+akkoma: https://labyrinth.zone/notice/ArNj4fvrb3uzhBAd4i
 bluesky: 
 wafrn: 
 pillowfort: 
-none: no_syndication_available 
+none: 
 ---
 Went ahead and unified a lot of the styling between Posts, Notes, and Logs. On the main feed, you can now navigate directly to a Note, or Log in order to view it separately, and all three content types look exactly the same when viewing them.
 
