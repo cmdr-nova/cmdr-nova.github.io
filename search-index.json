@@ -2636,6 +2636,15 @@
     "date": "2025-02-22 04:03:23 -0500"
   },
   {
+    "id": "2025-02-22-unified-styling-update",
+    "url": "/logs/2025/02/22/unified-styling-update.html",
+    "content": "Went ahead and unified a lot of the styling between Posts, Notes, and Logs. On the main feed, you can now navigate directly to a Note, or Log in order to view it separately, and all three content types look exactly the same when viewing them.\n\n",
+    "type": "log",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-22 06:01:43 -0500"
+  },
+  {
     "id": "doom",
     "title": "Play Doom",
     "url": "/doom.html",
