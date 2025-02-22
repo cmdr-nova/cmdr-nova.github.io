@@ -4,14 +4,60 @@ layout: default
 <div id="main">
 
   <a class="read-title" href="/">{{ page.title }}</a> 
-
   <div class="item">
     <p><img src="/img/avatar/daemon.jpeg" alt="Avatar" class="no-center toot-avatar pack-avatar"> Author: {{ page.author }}</p>
-    
+
+    <div class="center">
+      <p style="margin-bottom: 1%; margin-top: 1%;"><b>Subscribe via:</b></p>
+        <button class="post-buttons" onclick="window.open('https://www.patreon.com/c/cmdr_nova', '_blank')">Patreon <i class="ph ph-patreon-logo"></i></button>
+        <button class="post-buttons" onclick="window.open('https://liberapay.com/cmdr-nova/', '_blank')">Liberapay <i class="ph ph-coin-vertical"></i></button>
+    </div>
+    <div class="center">
+      <p style="margin-bottom: 1%; margin-top: 1%;"><b>Follow me via:</b></p>
+        <button class="post-buttons" onclick="window.open('https://mkultra.monster/rss_feed.xml', '_blank')">RSS <i class="ph ph-rss"></i></button>
+        <button class="post-buttons" onclick="window.open('https://labyrinth.zone/daemon_nova', '_blank')">Akkoma <i class="ph ph-fediverse-logo"></i></button>
+        <button class="post-buttons" onclick="window.open('https://bsky.app/profile/mkultra.monster', '_blank')">Bluesky <i class="ph ph-butterfly"></i></button>
+        <button class="post-buttons" onclick="window.open('https://app.wafrn.net/blog/net_run', '_blank')">Wafrn <i class="ph ph-shooting-star"></i></button>
+        <button class="post-buttons" onclick="window.open('https://www.pillowfort.social/cmdr-nova', '_blank')">Pillowfort <i class="ph ph-bed"></i></button>
+      </div>
+    <br />
+    <hr>
+    <br />
 
     {{ content }}
 
     <span class="date">{{ page.date | date: "%B %d, %Y" }}</span>
+    <br />
+    <br />
+<hr>
+<br />
+<span class="tags-label">tags:</span>
+<span>
+  {% for tag in page.tags %}
+    {% capture tag_name %}{{ tag }}{% endcapture %}
+    <a href="/tag/{{ tag_name }}"><code class="highligher"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  {% endfor %}
+</span>
 
+  </div>
+  <br />
+  <div class="notice">
+    mkultra.monster is independent, in that it is written, developed, and maintained by one person. Written, developed, and maintained, not for scrapers, bots, scammers, algorithms, or grifters: But for people to follow and read, just like the way it used to be, back in the golden age of the internet.
+  </div>
+  <br />
+  <div class="center">
+    <button class="mastodon-share"></button> 
+    <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0A{{ site.url }}{{ page.url }}', '_blank')">Share on Bluesky</button>
+    <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url }}', '_blank')">Share on Reddit</button>
+    <button class="post-buttons" onclick="copyToClipboard('{{ page.url }}')">Copy Link</button>
+    <script src="/assets/js/clipboard.js"></script>
+  </div>
+  <br />
+
+  <br />
+  <div id="suggested-posts-section">
+    <h3>More of my posts:</h3>
+    <div id="suggested-posts-list"></div>
+    <script defer src="/assets/js/suggested-posts.js"></script>
   </div>
   </div>
