@@ -10,11 +10,11 @@ categories:
 tags: [socialmedia, creators, webdev]
 pinned: false
 akkoma:  
-bluesky: 
+bluesky: https://bsky.app/profile/mkultra.monster/post/3liq6z22n6227
 wafrn:
-mastodon: 
-pillowfort: 
-none: no_syndication_available
+mastodon: https://mastodon.social/@mkultra_bot/114044991589543623
+pillowfort: https://www.pillowfort.social/posts/5954512
+none: 
 ---
 I see, sometimes, people talking about how they don't really use any specific social media app as reinforcement of anything they do, or share, in regard to work, or art, and that if they *did* ... if that was their *main mode* of deriving support, money, and so on, and so forth: They'd be screwed. And, well, yeah. That's exactly correct. For all intents and purposes, if you're just online to chat, and make friends with random people, that's cool. You can do that in any space you choose, and you *should*. That's the way the internet used to be.
 
