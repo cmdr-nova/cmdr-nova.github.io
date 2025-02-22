@@ -8,7 +8,7 @@ date: 2025-02-21 19:25
 categories:
     - "Social-Media"
 tags: [socialmedia, creators, webdev]
-pinned: false
+pinned: 
 akkoma:  
 bluesky: https://bsky.app/profile/mkultra.monster/post/3liq6z22n6227
 wafrn:
