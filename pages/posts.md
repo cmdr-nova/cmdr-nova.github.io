@@ -55,6 +55,11 @@ permalink: /pages/posts/
           {% endfor %}
         </div>
       {% endif %}
+        <div style="text-align: right;">
+        <a href="{{ post.url }}" class="small-link">view</a> |
+        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ post.url }}')">share</a>
+        <script src="/assets/js/clipboard.js"></script>
+      </div>
     </div>
   {% endfor %}
 </div>

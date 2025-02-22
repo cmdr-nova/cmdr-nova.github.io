@@ -54,7 +54,8 @@ permalink: /pages/log/
         </div>
       {% endif %}
         <div style="text-align: right;">
-        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ log.url }}')">link</a>
+        <a href="{{ log.url }}" class="small-link">view</a> |
+        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ log.url }}')">share</a>
         <script src="/assets/js/clipboard.js"></script>
       </div>
     </div>

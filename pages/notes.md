@@ -54,7 +54,8 @@ permalink: /pages/notes/
         </div>
       {% endif %}
         <div style="text-align: right;">
-        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ note.url }}')">link</a>
+        <a href="{{ note.url }}" class="small-link">view</a> | 
+        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ note.url }}')">share</a>
       </div>
       <script src="/assets/js/clipboard.js"></script>
     </div>
