@@ -42,7 +42,7 @@ plugins:
   - jekyll-compose
   - jekyll-compress-images
 
-paginate: 5
+paginate: 7
 paginate_path: "/page:num/"
 
 future: true

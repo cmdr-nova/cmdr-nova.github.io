@@ -7,15 +7,25 @@ layout: default
     <td>
 
 
-<a class="read-title" href="/">Tag: {{ page.tag }}</a>
-<br />
-<ul>
-{% for post in site.tags[page.tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date |     date_to_string }})<br>
-    {{ post.description }}
-  </li>
-{% endfor %}
-</ul>
+      <h1>Posts tagged with "{{ page.tag }}"</h1>
+
+      <ul>
+        {% for post in site.posts %}
+          {% if post.tags contains page.tag %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        {% for note in site.notes %}
+          {% if note.tags contains page.tag %}
+            <li><a href="{{ note.url }}">{{ note.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        {% for log in site.logs %}
+          {% if log.tags contains page.tag %}
+            <li><a href="{{ log.url }}">{{ log.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
 </div>
 
 

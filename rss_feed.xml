@@ -10,7 +10,32 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Sat, 22 Feb 2025 00:07:43 -0500</pubDate>
+    <pubDate>Sat, 22 Feb 2025 09:18:29 -0500</pubDate>
+    <item>
+      <title>New Log</title>
+      <link>/logs/2025/02/22/simplified-posting/</link>
+      <description>&lt;p&gt;screwing with my website more an hour and a half before i have to go to work again lol&lt;/p&gt;
+
+&lt;p&gt;create a python script that combines 3 different ruby scripts that i use locally to create notes, posts, and logs, and simplified it all down to a single python script where I tell it what kind of content I want to publish, and then provide a title&lt;/p&gt;
+
+&lt;p&gt;```
+import os
+from datetime import datetime&lt;/p&gt;
+
+&lt;p&gt;def create_post(post_type, title):
+    date = datetime.now()
+    formatted_date = date.strftime(‘%Y-%m-%d’)
+    formatted_time = date.strftime(‘%Y-%m-%d %H:%M:%S’)
+    filename = f”{formatted_date}-{title.lower().replace(‘ ‘, ‘-‘)}.md”&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if post_type.lower() == 'log':
+    directory = '_logs'
+    front_matter = f&quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+      <pubDate>Sat, 22 Feb 2025 04:03:23 -0500</pubDate>
+      <dc:date>2025-02-22T04:03:23-05:00</dc:date>
+    </item>
     <item>
       <title>New Note</title>
       <link>/notes/2025/02/21/stolen-horse/</link>
@@ -14689,6 +14714,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-22T00:07:43-05:00</dc:date>
+    <dc:date>2025-02-22T09:18:29-05:00</dc:date>
   </channel>
 </rss>
