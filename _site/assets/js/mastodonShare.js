@@ -21,7 +21,7 @@ addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('button.mastodon-share');
     buttons.forEach((btn) => {
         btn.classList.add('post-buttons'); // Add the post-buttons class
-        btn.textContent = 'Share on Mastodon'; // Set the button text
+        btn.innerHTML = 'Share on Mastodon <i class="ph ph-mastodon-logo"></i>'; // Set the button HTML
         btn.addEventListener('click', mastodonShareButtonClick);
     });
 });
