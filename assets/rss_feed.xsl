@@ -96,7 +96,7 @@
           <xsl:for-each select="rss/channel/item[position() &lt;= 10]">
             <div class="item">
               <div class="item-title">
-                <a class="item-link" href="{link}">
+                <a class="item-link" href="https://mkultra.monster{link}">
                   <xsl:value-of select="title"/>
                 </a>
               </div>
@@ -105,6 +105,9 @@
               </div>
               <div class="item-pubDate">
                 <xsl:value-of select="pubDate"/>
+              </div>
+                  <div class="item-more">
+                    <p>More: <a href="https://mkultra.monster{link}" class="item-link">Read more</a></p>
               </div>
             </div>
           </xsl:for-each>

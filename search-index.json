@@ -2636,6 +2636,15 @@
     "date": "2025-02-21 13:00:59 -0500"
   },
   {
+    "id": "2025-02-22-rss-edits",
+    "url": "/logs/2025/02/22/rss-edits.html",
+    "content": "Had to make some edits to the RSS feed items, because, I noticed, in certain readers, and especially if you subscribe through an e-mail client (like Thunderbird), it serves the RSS item, and … zero links back to the original content! That … should be fixed, now.\n",
+    "type": "log",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-22 16:56:51 -0500"
+  },
+  {
     "id": "2025-02-22-simplified-posting",
     "url": "/logs/2025/02/22/simplified-posting.html",
     "content": "screwing with my website more an hour and a half before i have to go to work again lol\n\ncreate a python script that combines 3 different ruby scripts that i use locally to create notes, posts, and logs, and simplified it all down to a single python script where I tell it what kind of content I want to publish, and then provide a title\n\n```\nimport os\nfrom datetime import datetime\n\ndef create_post(post_type, title):\n    date = datetime.now()\n    formatted_date = date.strftime(‘%Y-%m-%d’)\n    formatted_time = date.strftime(‘%Y-%m-%d %H:%M:%S’)\n    filename = f”{formatted_date}-{title.lower().replace(‘ ‘, ‘-‘)}.md”\n\nif post_type.lower() == 'log':\n    directory = '_logs'\n    front_matter = f\"\"\"\n\n",
