@@ -93,24 +93,24 @@
 
             <p>Visit the full website <a href="https://mkultra.monster">here</a>.</p>
           </div>
-          <xsl:for-each select="rss/channel/item[position() &lt;= 10]">
-            <div class="item">
-              <div class="item-title">
-                <a class="item-link" href="https://mkultra.monster{link}">
-                  <xsl:value-of select="title"/>
-                </a>
-              </div>
-              <div class="item-description">
-                <xsl:copy-of select="description/node()"/>
-              </div>
-              <div class="item-pubDate">
-                <xsl:value-of select="pubDate"/>
-              </div>
-                  <div class="item-more">
-                    <p>More: <a href="https://mkultra.monster{link}" class="item-link">Read more</a></p>
-              </div>
-            </div>
-          </xsl:for-each>
+<xsl:for-each select="rss/channel/item[position() &lt;= 10]">
+  <div class="item">
+    <div class="item-title">
+      <a class="item-link" href="https://mkultra.monster{xsl:value-of select='link'}">
+        <xsl:value-of select="title"/>
+      </a>
+    </div>
+    <div class="item-description">
+      <xsl:copy-of select="description/node()"/>
+    </div>
+    <div class="item-pubDate">
+      <xsl:value-of select="pubDate"/>
+    </div>
+    <div class="item-more">
+      <p><a href="https://mkultra.monster{xsl:value-of select='link'}" class="item-link">Read more</a></p>
+    </div>
+  </div>
+</xsl:for-each>
         </div>
       </body>
     </html>
