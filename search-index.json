@@ -2636,13 +2636,13 @@
     "date": "2025-02-21 13:00:59 -0500"
   },
   {
-    "id": "2025-02-22-rss-edits",
-    "url": "/logs/2025/02/22/rss-edits.html",
-    "content": "Had to make some edits to the RSS feed items, because, I noticed, in certain readers, and especially if you subscribe through an e-mail client (like Thunderbird), it serves the RSS item, and … zero links back to the original content! That … should be fixed, now.\n",
+    "id": "2025-02-22-rss-edits-again",
+    "url": "/logs/2025/02/22/rss-edits-again.html",
+    "content": "Had to make some edits to the RSS feed items, because, I noticed, in certain readers, and especially if you subscribe through an e-mail client (like Thunderbird), it serves the RSS item, and … zero links back to the original content! That … should be fixed, now.\n\n",
     "type": "log",
     "avatar": "/img/avatar/daemon.jpeg",
     "author": "⸸ commander ░ nova ⸸ :~$",
-    "date": "2025-02-22 16:56:51 -0500"
+    "date": "2025-02-22 17:26:00 -0500"
   },
   {
     "id": "2025-02-22-simplified-posting",
