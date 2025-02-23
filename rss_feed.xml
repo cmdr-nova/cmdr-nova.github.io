@@ -10,7 +10,17 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Sat, 22 Feb 2025 11:04:34 -0500</pubDate>
+    <pubDate>Sat, 22 Feb 2025 21:42:03 -0500</pubDate>
+    <item>
+      <title>New Note</title>
+      <link>/notes/2025/02/22/i-am-become-label/</link>
+      <description>&lt;p&gt;the one cool thing about using the distrokid secondary yearly sub for artists, is I am now my own label&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/notes/label/bee84c82d49924a6ac665b7f1329f3a87e0b9d97e3241786b6ed5c5ccd1cb90f.png&quot; /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Sat, 22 Feb 2025 16:39:48 -0500</pubDate>
+      <dc:date>2025-02-22T16:39:48-05:00</dc:date>
+    </item>
     <item>
       <title>New Log</title>
       <link>/logs/2025/02/22/unified-styling-update/</link>
@@ -14723,6 +14733,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-22T11:04:34-05:00</dc:date>
+    <dc:date>2025-02-22T21:42:03-05:00</dc:date>
   </channel>
 </rss>
