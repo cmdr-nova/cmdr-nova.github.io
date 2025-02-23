@@ -2,9 +2,6 @@
 layout: default
 ---
 <div id="main">
-  <table>
-    <tr>
-    <td>
 
 
       <h1>Posts tagged with "{{ page.tag }}"</h1>
@@ -29,10 +26,8 @@ layout: default
 </div>
 
 
-{% include archive.html %}
-
-  </td>
-  </tr>
-  </table>
+<div style="overflow-x: auto;">
+  {% include archive.html %}
+</div>
 
 </div>

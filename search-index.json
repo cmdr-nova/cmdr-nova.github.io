@@ -2681,6 +2681,15 @@
     "date": "2025-02-22 06:01:43 -0500"
   },
   {
+    "id": "2025-02-23-archives-now-categorized",
+    "url": "/logs/2025/02/23/archives-now-categorized.html",
+    "content": "Did a quick little update before I have to rush off to work (once again), where I’ve taken the tag-cloud on the /archives page and given the tags categorized, so that it’s less of a mess of words all over the page.\n\n",
+    "type": "log",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-23 05:35:12 -0500"
+  },
+  {
     "id": "doom",
     "title": "Play Doom",
     "url": "/doom.html",

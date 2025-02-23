@@ -11,3 +11,4 @@ permalink: /pages/blogroll/
 - [Furnation](https://furnationreborn.com/){:target="_blank"} // What I'm considering probably the oldest furry webring on the internet, currently. Maintained and brought back to life by Logan, someone I met through Second Life who is also currently hosting my store. Not *really* a blog, but definitely worth a mention. Here lies pieces of the nineties, forever preserved.
 
 - [Blau's Blog](https://blaurascon.nfshost.com){:target="_blank"} // Blau, who I met via Mastodon, who helped me transition from Second Life to VR Chat, and introduced me to a handful of groups and communities.
+

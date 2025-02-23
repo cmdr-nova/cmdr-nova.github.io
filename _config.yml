@@ -60,6 +60,160 @@ collections:
     output: true
     permalink: /logs/:year/:month/:day/:title/
 
+tag_categories:
+  tech:
+    - linux
+    - webdev
+    - programming
+    - webdev
+    - tech
+    - scripting
+    - python
+    - jekyll
+    - github
+    - computing
+    - htaccess
+    - javascript
+    - tags
+    - modding
+    - html
+    - terminal
+    - startup
+    - robots
+    - nvidia
+    - internet
+    - install
+    - blockai
+    - block
+  projects:
+    - release
+  lifestyle:
+    - travel
+    - food
+    - health
+    - ramen
+  nature:
+    - space
+  gaming:
+    - gaming
+    - gamingnews
+    - blizzard
+    - sims4
+    - thewitcher4
+    - thesims2
+    - diablo4
+    - kingdom-come
+    - javascript-game
+    - masseffectandromeda
+    - intergalactic
+    - anticheat
+  metaverse:
+    - second-life
+    - secondlife
+    - vr-chat
+    - virtualworld
+    - lindenlabs
+    - stores
+    - products
+    - revosa
+    - metaverse
+    - firestorm
+  social media:
+    - activitypub
+    - mastodon
+    - akkoma
+    - bluesky
+    - threads
+    - twitter
+    - instagram
+    - social-media
+    - socialmedia
+    - meta
+    - facebook
+    - reddit
+    - sharkey
+    - fediverse
+    - tumblr
+    - lemmy
+    - pixelfed
+    - wafrn
+    - tiktokban
+    - toxicity
+    - migration
+    - banned
+  call to action:
+    - donations
+  politics:
+    - oligarchy
+    - bechdel
+    - bechdel-test
+    - bechdeltest
+    - lgbtq+
+    - lgbtq
+    - uhc
+    - deny
+    - defend
+    - depose
+    - climatechange
+    - politics
+    - gamergate
+    - ai
+    - controversy
+  television:
+    - dexter
+    - television
+    - media
+    - tv
+  media:
+    - backrooms
+    - thebackrooms
+  expression:
+    - writing
+    - thoughts
+    - writing-prompt
+    - quiz
+    - questions
+    - blogging
+    - indieweb
+    - image
+    - creators
+    - aging
+    - writer
+    - work
+    - webmaster
+    - waybackmachine
+    - rich
+    - oldnet
+    - ode
+    - nineties
+    - not
+    - newyear
+    - inspiration
+    - happen
+    - gonna
+    - famous
+    - challenge
+  writing:
+    - fiction
+  music: 
+    - music
+    - spotify
+    - wrapped
+    - numetal
+    - orgy
+    - streaming
+  logging:
+    - updates
+    - website
+    - comments
+    - testing
+    - test
+    - design
+    - consolidate
+  help:
+    - tutorials
+  # Add more categories and tags as needed
+
 # New fields not defaulted by jekyll-new with the minima theme
 # Add a copyright. A copyright symbol and year will be added automatically
 # copyright: Company Name, Inc. 
