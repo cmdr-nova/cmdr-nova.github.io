@@ -1,241 +1,219 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: cmdr-nova@internet:~$
-home: NOVA PRIME
-email: cmdr-nova@mkultra.monster
-timezone: America/New_York
-description: >- # this means to ignore newlines until "baseurl:"
-  cmdr-nova's personal blog and home on the indie-web.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mkultra.monster" # the base hostname & protocol for your site, e.g. http://example.com
-lang: "en-US"
-github_username:  cmdr-nova
-mastodon:
-- username: daemon_nova
-  instance: labyrinth.zone
-
-# Build settings
-theme: minima
-plugins_dir: _plugins
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate 
-  - jekyll-compose
-  - jekyll-compress-images
-  - jekyll-tagging
-
-paginate: 7
-paginate_path: "/page:num/"
-
-future: true
-
-compress_images:
-  images_path: "/img/**/*.{gif,png,jpg,jpeg,svg}"
-
+baseurl: ''
 collections:
+  logs:
+    output: true
+    permalink: /logs/:year/:month/:day/:title/
   notes:
     output: true
     permalink: /notes/:year/:month/:day/:title/
   posts:
     output: true
-  logs:
-    output: true
-    permalink: /logs/:year/:month/:day/:title/
-
+compress_images:
+  images_path: /img/**/*.{gif,png,jpg,jpeg,svg}
+description: cmdr-nova's personal blog and home on the indie-web.
+email: cmdr-nova@mkultra.monster
+future: true
+github_username: cmdr-nova
+home: NOVA PRIME
+lang: en-US
+mastodon:
+- instance: labyrinth.zone
+  username: daemon_nova
+paginate: 7
+paginate_path: /page:num/
+plugins:
+- jekyll-feed
+- jekyll-paginate
+- jekyll-compose
+- jekyll-compress-images
+- jekyll-tagging
+plugins_dir: _plugins
 tag_categories:
-  tech:
-    - linux
-    - webdev
-    - programming
-    - tech
-    - scripting
-    - python
-    - jekyll
-    - github
-    - computing
-    - htaccess
-    - javascript
-    - tags
-    - modding
-    - html
-    - terminal
-    - startup
-    - robots
-    - nvidia
-    - internet
-    - install
-    - blockai
-    - block
-  projects:
-    - release
-    - eyeshadow2600fm
-  lifestyle:
-    - travel
-    - food
-    - health
-    - ramen
-  nature:
-    - space
-  gaming:
-    - gaming
-    - gamingnews
-    - blizzard
-    - sims4
-    - thewitcher4
-    - thesims2
-    - diablo4
-    - kingdom-come
-    - javascript-game
-    - masseffectandromeda
-    - intergalactic
-    - anticheat
-  metaverse:
-    - second-life
-    - secondlife
-    - vr-chat
-    - virtualworld
-    - lindenlabs
-    - stores
-    - products
-    - revosa
-    - metaverse
-    - firestorm
-  social media:
-    - activitypub
-    - mastodon
-    - akkoma
-    - bluesky
-    - threads
-    - twitter
-    - instagram
-    - social-media
-    - socialmedia
-    - meta
-    - facebook
-    - reddit
-    - sharkey
-    - fediverse
-    - tumblr
-    - lemmy
-    - pixelfed
-    - wafrn
-    - tiktokban
-    - toxicity
-    - migration
-    - banned
   call to action:
-    - donations
-  politics:
-    - oligarchy
-    - bechdel
-    - bechdel-test
-    - bechdeltest
-    - lgbtq+
-    - lgbtq
-    - uhc
-    - deny
-    - defend
-    - depose
-    - climatechange
-    - politics
-    - gamergate
-    - ai
-    - controversy
-  television:
-    - dexter
-    - television
-    - media
-    - tv
-  media:
-    - backrooms
-    - thebackrooms
+  - donations
   expression:
-    - writing
-    - thoughts
-    - writing-prompt
-    - quiz
-    - questions
-    - blogging
-    - indieweb
-    - image
-    - creators
-    - aging
-    - writer
-    - work
-    - webmaster
-    - waybackmachine
-    - rich
-    - oldnet
-    - ode
-    - nineties
-    - not
-    - newyear
-    - inspiration
-    - happen
-    - gonna
-    - famous
-    - challenge
-  writing:
-    - fiction
-  music: 
-    - music
-    - spotify
-    - wrapped
-    - numetal
-    - orgy
-    - streaming
-  logging:
-    - updates
-    - website
-    - comments
-    - testing
-    - test
-    - design
-    - consolidate
+  - writing
+  - thoughts
+  - writing-prompt
+  - quiz
+  - questions
+  - blogging
+  - indieweb
+  - image
+  - creators
+  - aging
+  - writer
+  - work
+  - webmaster
+  - waybackmachine
+  - rich
+  - oldnet
+  - ode
+  - nineties
+  - not
+  - newyear
+  - inspiration
+  - happen
+  - gonna
+  - famous
+  - challenge
+  gaming:
+  - gaming
+  - gamingnews
+  - blizzard
+  - sims4
+  - thewitcher4
+  - thesims2
+  - diablo4
+  - kingdom-come
+  - javascript-game
+  - masseffectandromeda
+  - intergalactic
+  - anticheat
   help:
-    - tutorials
-  # Add more categories and tags as needed
-
-# New fields not defaulted by jekyll-new with the minima theme
-# Add a copyright. A copyright symbol and year will be added automatically
-# copyright: Company Name, Inc. 
-#copyright: "Commander Nova"
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - tutorials
+  lifestyle:
+  - travel
+  - food
+  - health
+  - ramen
+  logging:
+  - updates
+  - website
+  - comments
+  - testing
+  - test
+  - design
+  - consolidate
+  media:
+  - backrooms
+  - thebackrooms
+  metaverse:
+  - second-life
+  - secondlife
+  - vr-chat
+  - virtualworld
+  - lindenlabs
+  - stores
+  - products
+  - revosa
+  - metaverse
+  - firestorm
+  music:
+  - music
+  - spotify
+  - wrapped
+  - numetal
+  - orgy
+  - streaming
+  nature:
+  - space
+  politics:
+  - oligarchy
+  - bechdel
+  - bechdel-test
+  - bechdeltest
+  - lgbtq+
+  - lgbtq
+  - uhc
+  - deny
+  - defend
+  - depose
+  - climatechange
+  - politics
+  - gamergate
+  - ai
+  - controversy
+  projects:
+  - release
+  - eyeshadow2600fm
+  social media:
+  - activitypub
+  - mastodon
+  - akkoma
+  - bluesky
+  - threads
+  - twitter
+  - instagram
+  - social-media
+  - socialmedia
+  - meta
+  - facebook
+  - reddit
+  - sharkey
+  - fediverse
+  - tumblr
+  - lemmy
+  - pixelfed
+  - wafrn
+  - tiktokban
+  - toxicity
+  - migration
+  - banned
+  tech:
+  - linux
+  - webdev
+  - programming
+  - tech
+  - scripting
+  - python
+  - jekyll
+  - github
+  - computing
+  - htaccess
+  - javascript
+  - tags
+  - modding
+  - html
+  - terminal
+  - startup
+  - robots
+  - nvidia
+  - internet
+  - install
+  - blockai
+  - block
+  television:
+  - dexter
+  - television
+  - media
+  - tv
+  uncategorized:
+  - overhaul
+  - amongus
+  - bots
+  - pandora
+  - sleep
+  - baby
+  - post
+  - cats
+  - nuggets
+  - update
+  - mac
+  - grave
+  - indexing
+  - share-links
+  - coffee
+  - second
+  - css
+  - sad
+  - label
+  - tik tok
+  - oof
+  - pillowfort
+  - note
+  - shitpost
+  - app
+  - life
+  - java
+  - posting
+  - littledudes
+  - blog
+  - night
+  - bread
+  writing:
+  - fiction
+theme: minima
+timezone: America/New_York
+title: cmdr-nova@internet:~$
+url: https://mkultra.monster

@@ -43,26 +43,10 @@ permalink: /tags/
     </ul>
   {% endfor %}
 
-  {% for post in site.posts %}
-    {% assign all_tags = all_tags | concat: post.tags %}
-  {% endfor %}
-  
-  {% for note in site.notes %}
-    {% assign all_tags = all_tags | concat: note.tags %}
-  {% endfor %}
-  
-  {% for log in site.logs %}
-    {% assign all_tags = all_tags | concat: log.tags %}
-  {% endfor %}
-  
-  {% assign all_tags = all_tags | uniq %}
-  {% assign uncategorized_tags = all_tags | difference: categorized_tags %}
-
-  <!--
-  {% if uncategorized_tags.size > 0 %}
+  {% if site.tag_categories.uncategorized %}
     <h2 class="category-title">Uncategorized <span class="expand-indicator">[+]</span></h2>
     <ul class="tag-list">
-      {% for tag in uncategorized_tags %}
+      {% for tag in site.tag_categories.uncategorized %}
         {% assign tag_count = 0 %}
         
         {% for post in site.posts %}
@@ -91,7 +75,6 @@ permalink: /tags/
       {% endfor %}
     </ul>
   {% endif %}
--->
 </div>
 
 <script>
