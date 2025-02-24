@@ -2609,6 +2609,15 @@
     "date": "2025-02-21 19:05:27 -0500"
   },
   {
+    "id": "2025-02-23-boot-cmd-now-streaming",
+    "url": "/notes/2025/02/23/boot-cmd-now-streaming.html",
+    "content": "My new single/EP is now up on Apple Music, and Spotify.\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-23 16:31:22 -0500"
+  },
+  {
     "id": "2025-02-23-help-me-gordon",
     "url": "/notes/2025/02/23/help-me-gordon.html",
     "content": "Hotel Hell: CEO walks in I have all my favorite items on the menu, like ground fish sticks and hairy Brussels sprouts, and my hotel rooms are replica dirty toilet bowls. Help me Gordon my family is dying\n\n",
@@ -2616,6 +2625,15 @@
     "avatar": "/img/avatar/daemon.jpeg",
     "author": "⸸ commander ░ nova ⸸ :~$",
     "date": "2025-02-22 20:06:18 -0500"
+  },
+  {
+    "id": "2025-02-24-testing-some-tags",
+    "url": "/notes/2025/02/24/testing-some-tags.html",
+    "content": "fart\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-23 19:16:56 -0500"
   },
   {
     "id": "2025-02-18-major-site-update",
@@ -2736,6 +2754,13 @@
     "title": "No title",
     "url": "/search.html",
     "content": "---\nlayout: page\ntitle: Search Results\n---\n\n\n\n\n\n",
+    "type": "page"
+  },
+  {
+    "id": "tag_index",
+    "title": "No title",
+    "url": "/tag_index.html",
+    "content": "---\nlayout: default\ntitle: Tag Index\npermalink: /tags/\n---\n{{ page.title }}\n\n\n\n  {% assign categorized_tags = \"\" | split: \"\" %}\n  {% assign all_tags = \"\" | split: \"\" %}\n\n  {% for category in site.tag_categories %}\n    {{ category[0] | capitalize }}\n    \n      {% for tag in category[1] %}\n        {% assign tag_count = 0 %}\n        \n        {% for post in site.posts %}\n          {% if post.tags contains tag %}\n            {% assign tag_count = tag_count | plus: 1 %}\n          {% endif %}\n        {% endfor %}\n        \n        {% for note in site.notes %}\n          {% if note.tags contains tag %}\n            {% assign tag_count = tag_count | plus: 1 %}\n          {% endif %}\n        {% endfor %}\n        \n        {% for log in site.logs %}\n          {% if log.tags contains tag %}\n            {% assign tag_count = tag_count | plus: 1 %}\n          {% endif %}\n        {% endfor %}\n        \n        {% if tag_count > 0 %}\n          \n            {{ tag }} ({{ tag_count }})\n          \n          {% assign categorized_tags = categorized_tags | push: tag %}\n        {% endif %}\n      {% endfor %}\n    \n  {% endfor %}\n\n  {% for post in site.posts %}\n    {% assign all_tags = all_tags | concat: post.tags %}\n  {% endfor %}\n  \n  {% for note in site.notes %}\n    {% assign all_tags = all_tags | concat: note.tags %}\n  {% endfor %}\n  \n  {% for log in site.logs %}\n    {% assign all_tags = all_tags | concat: log.tags %}\n  {% endfor %}\n  \n  {% assign all_tags = all_tags | uniq %}\n  {% assign uncategorized_tags = all_tags | difference: categorized_tags %}\n\n  {% if uncategorized_tags.size > 0 %}\n    Uncategorized\n    \n      {% for tag in uncategorized_tags %}\n        {% assign tag_count = 0 %}\n        \n        {% for post in site.posts %}\n          {% if post.tags contains tag %}\n            {% assign tag_count = tag_count | plus: 1 %}\n          {% endif %}\n        {% endfor %}\n        \n        {% for note in site.notes %}\n          {% if note.tags contains tag %}\n            {% assign tag_count = tag_count | plus: 1 %}\n          {% endif %}\n        {% endfor %}\n        \n        {% for log in site.logs %}\n          {% if log.tags contains tag %}\n            {% assign tag_count = tag_count | plus: 1 %}\n          {% endif %}\n        {% endfor %}\n        \n        {% if tag_count > 0 %}\n          \n            {{ tag }} ({{ tag_count }})\n          \n        {% endif %}\n      {% endfor %}\n    \n  {% endif %}\n\n\n\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    var categoryTitles = document.querySelectorAll(\".category-title\");\n    categoryTitles.forEach(function(title) {\n      title.addEventListener(\"click\", function() {\n        var tagList = this.nextElementSibling;\n        if (tagList.style.display === \"none\" || tagList.style.display === \"\") {\n          tagList.style.display = \"block\";\n        } else {\n          tagList.style.display = \"none\";\n        }\n      });\n    });\n\n    // Initially collapse all categories\n    var tagLists = document.querySelectorAll(\".tag-list\");\n    tagLists.forEach(function(list) {\n      list.style.display = \"none\";\n    });\n  });\n",
     "type": "page"
   },
   {

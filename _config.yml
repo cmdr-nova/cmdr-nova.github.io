@@ -41,6 +41,7 @@ plugins:
   - jekyll-paginate 
   - jekyll-compose
   - jekyll-compress-images
+  - jekyll-tagging
 
 paginate: 7
 paginate_path: "/page:num/"
@@ -65,7 +66,6 @@ tag_categories:
     - linux
     - webdev
     - programming
-    - webdev
     - tech
     - scripting
     - python
@@ -87,6 +87,7 @@ tag_categories:
     - block
   projects:
     - release
+    - eyeshadow2600fm
   lifestyle:
     - travel
     - food

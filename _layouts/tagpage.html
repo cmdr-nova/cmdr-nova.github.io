@@ -1,33 +1,38 @@
 ---
 layout: default
 ---
-<div id="main">
+<div id="main" class="tag-page">
+  <h1>Posts tagged with "{{ page.tag }}"</h1>
 
+  <ul>
+    {% assign tagged_items = "" | split: "" %}
+    
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+        {% assign tagged_items = tagged_items | push: post %}
+      {% endif %}
+    {% endfor %}
+    
+    {% for note in site.notes %}
+      {% if note.tags contains page.tag %}
+        {% assign tagged_items = tagged_items | push: note %}
+      {% endif %}
+    {% endfor %}
+    
+    {% for log in site.logs %}
+      {% if log.tags contains page.tag %}
+        {% assign tagged_items = tagged_items | push: log %}
+      {% endif %}
+    {% endfor %}
+    
+    {% for item in tagged_items %}
+      <li>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <h1>Posts tagged with "{{ page.tag }}"</h1>
-
-      <ul>
-        {% for post in site.posts %}
-          {% if post.tags contains page.tag %}
-            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        {% for note in site.notes %}
-          {% if note.tags contains page.tag %}
-            <li><a href="{{ note.url }}">{{ note.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        {% for log in site.logs %}
-          {% if log.tags contains page.tag %}
-            <li><a href="{{ log.url }}">{{ log.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-</div>
-
-
-<div style="overflow-x: auto;">
-  {% include archive.html %}
-</div>
-
+  <div class="center">
+    <button class="post-buttons" onclick="window.location.href='{{ site.baseurl }}/tags'">Return to /tags/ <i class="ph ph-arrow-left"></i></button>
+  </div>
 </div>

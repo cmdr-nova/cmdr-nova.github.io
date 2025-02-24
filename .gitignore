@@ -22,3 +22,4 @@ create_post.rb
 preprocess_pinned_items.rb
 poast.py
 /poast
+/node_modules

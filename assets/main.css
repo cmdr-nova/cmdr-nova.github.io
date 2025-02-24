@@ -2886,3 +2886,77 @@ li {
   z-index: 1000;
   font-size: 0.9em;
 }
+
+/* new tag styling */
+
+.tag-page {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.tag-page #main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tag-page h1, .tag-page h2 {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.light-mode .tag-page h1, .light-mode .tag-page h2 {
+  color: #000;
+}
+
+.tag-page .expand-indicator {
+  font-size: 0.8em;
+  color: #adadad;
+}
+
+.light-mode .tag-page .expand-indicator {
+  color: #333;
+}
+
+.tag-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tag-page ul li {
+  background: #252525;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.light-mode .tag-page ul li {
+  background: #d1d1d1;
+}
+
+.tag-page ul li a {
+  display: block;
+  text-decoration: none;
+  color: #d1d1d1;
+}
+
+.light-mode .tag-page ul li a {
+  color: #000;
+}
+
+.tag-page ul li:hover {
+  background: #5d8370;
+}
+
+.tag-page a {
+  color: #adadad;
+}
+
+.light-mode .tag-page a {
+  color: #333;
+}
+
+.tag-page a:hover {
+  text-decoration: underline;
+}

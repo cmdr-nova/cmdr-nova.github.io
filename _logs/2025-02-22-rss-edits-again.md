@@ -2,7 +2,7 @@
 layout: log
 collection: logs
 date: 2025-02-22 22:26:00
-tags: []
+tags: [updates]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg

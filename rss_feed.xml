@@ -10,7 +10,26 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Sun, 23 Feb 2025 10:35:58 -0500</pubDate>
+    <pubDate>Mon, 24 Feb 2025 00:54:01 -0500</pubDate>
+    <item>
+      <title>New Note</title>
+      <link>https://mkultra.monster/notes/2025/02/23/testing-some-tags/</link>
+      <description>
+&lt;p&gt;fart&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 23 Feb 2025 19:16:56 -0500</pubDate>
+      <dc:date>2025-02-23T19:16:56-05:00</dc:date>
+    </item>
+    <item>
+      <title>New Note</title>
+      <link>https://mkultra.monster/notes/2025/02/23/boot-cmd-now-streaming/</link>
+      <description>&lt;p&gt;My new single/EP is now up on &lt;a href=&quot;https://music.apple.com/us/album/boot-cmd-single/1798073064&quot; target=&quot;_blank&quot;&gt;Apple Music&lt;/a&gt;, and &lt;a href=&quot;https://open.spotify.com/album/3xiKJY1l55d2blp9nqDcEW?si=Pmw8S8nsR0CWSpbNgEmHcQ&quot; target=&quot;_blank&quot;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 23 Feb 2025 16:31:22 -0500</pubDate>
+      <dc:date>2025-02-23T16:31:22-05:00</dc:date>
+    </item>
     <item>
       <title>New Log</title>
       <link>https://mkultra.monster/logs/2025/02/23/archives-now-categorized/</link>
@@ -14769,6 +14788,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-23T10:35:58-05:00</dc:date>
+    <dc:date>2025-02-24T00:54:01-05:00</dc:date>
   </channel>
 </rss>
