@@ -10,7 +10,59 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Mon, 24 Feb 2025 20:21:43 -0500</pubDate>
+    <pubDate>Tue, 25 Feb 2025 00:49:08 -0500</pubDate>
+    <item>
+      <title>Make The Move To RSS</title>
+      <link>https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss.html</link>
+      <description>&lt;p&gt;It’s been a while since I’ve written some kind of long-form post on my site. At least, since I introduced writing Notes and Logs on here, in a quick and simple way to just &lt;em&gt;post something&lt;/em&gt; without worrying about it sounding coherent and planned. It’s only going to continue, from here, though, when I figure out how I can do this &lt;em&gt;easily&lt;/em&gt; from my phone. But, I’m not writing this to talk about how much I like shotgunning random crap into the world via my own website. I wanted to talk about RSS.&lt;/p&gt;
+
+&lt;p&gt;Sure, I could talk about Bluesky again, and how, no matter how much I try and enjoy or like the app, the feed keeps working &lt;em&gt;against&lt;/em&gt; my interest and attention.&lt;/p&gt;
+
+&lt;p&gt;I could talk about how I’m entering day five of my offline job, five days after having one day off that I had after three days of work. A nine day stretch where I’ve had little rest, and hardly any sleep.&lt;/p&gt;
+
+&lt;p&gt;But, no! It’s RSS time.&lt;/p&gt;
+
+&lt;p&gt;So, what &lt;em&gt;is&lt;/em&gt; RSS?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RSS (RDF Site Summary or Really Simple Syndication)[2] is a web feed[3] that allows users and applications to access updates to websites in a standardized, computer-readable format. Subscribing to RSS feeds can allow a user to keep track of many different websites in a single news aggregator, which constantly monitors sites for new content, removing the need for the user to manually check them. News aggregators (or “RSS readers”) can be built into a browser, installed on a desktop computer, or installed on a mobile device.[4]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/RSS&quot; target=&quot;_blank&quot;&gt;&lt;i&gt;via Wikipedia.&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;RSS is something that “came out” a little over 25 years ago, now, in 1999, when Netscape was still a browser you could use. Fun fact! Did you know the corporate bloodsuckers destroying Mozilla own Netscape, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Mozilla_Application_Suite#History_and_development&quot; target=&quot;_blank&quot;&gt;it’s called Firefox&lt;/a&gt;?&lt;/p&gt;
+
+&lt;p&gt;Ever since its beginnings, it’s always just been this plain text thing that you can plug into a reader, and use to keep tabs on your favorite subjects, or people’s blogs. And that’s what it &lt;em&gt;remains&lt;/em&gt;, today. But, as social media eats itself alive, and the options grow fewer (aside from ActivityPub and &lt;em&gt;maybe&lt;/em&gt; Bluesky), RSS becomes &lt;em&gt;very important&lt;/em&gt;, once again.&lt;/p&gt;
+
+&lt;p&gt;Fun fact, number two! Did you know that Youtube channels have RSS feeds? Did you know that you can subvert all of Google’s ads no matter &lt;em&gt;what they do&lt;/em&gt;, by simply using &lt;a href=&quot;https://freetubeapp.io&quot; target=&quot;_blank&quot;&gt;FreeTube&lt;/a&gt;, an app that pulls from Youtube RSS feeds?&lt;/p&gt;
+
+&lt;p&gt;I’ve talked before about how you should have a website. How all of your data should &lt;em&gt;belong to you&lt;/em&gt;, and not some billionaire jerk-ass who can and &lt;em&gt;will&lt;/em&gt; delete everything you’ve ever done in the snap of a finger, just because. And I’ve &lt;em&gt;even&lt;/em&gt; written guides on how to build one yourself.&lt;/p&gt;
+
+&lt;p&gt;But, what do you do &lt;em&gt;after&lt;/em&gt; that? Well, … you setup an RSS feed, of course.&lt;/p&gt;
+
+&lt;p&gt;And it’s really simple, and maybe I’ll write a guide on how to do that, if whatever you’re using for your site doesn’t already provide you with one. You just setup an XML that reads your posts from a directory and then shoots them out into the digital universe.&lt;/p&gt;
+
+&lt;p&gt;I mean, okay. It’s a &lt;em&gt;little&lt;/em&gt; more complicated than that. But! A lot of prebuilt blogging software &lt;em&gt;already&lt;/em&gt; has this built-in. Wordpress has it. Ghost has it. Heck, I think Jekyll has a plugin, or a feature &lt;em&gt;built-in&lt;/em&gt; to the software that generates one &lt;em&gt;for you&lt;/em&gt;, but I made one myself. Because I’m not &lt;em&gt;just&lt;/em&gt; sharing posts. And also, there’s some kind of weird timezone discrepancy I still haven’t figured out, that’s causing all kinds of issues.&lt;/p&gt;
+
+&lt;p&gt;You can see my RSS feed &lt;a href=&quot;https://mkultra.monster/rss_feed.xml&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;, and, depending on what you’re using to view my site, it &lt;em&gt;might&lt;/em&gt; show up as plain text versions of everything I post, &lt;em&gt;or&lt;/em&gt;, it’ll look like a jumble of code with some words. Which is fine! Just plug the URL into a reader, or even your e-mail client (if it allows it), and voila!&lt;/p&gt;
+
+&lt;p&gt;Fun fact, number three! Did you know the &lt;a href=&quot;https://vivaldi.com&quot; target=&quot;_blank&quot;&gt;Vivaldi browser&lt;/a&gt; has a reader built-in? And it’ll just automatically convert all of that weird code into a feed cloud that looks &lt;em&gt;a lot&lt;/em&gt; like the Tumblr feeds of old (you know, that page you get when you’re viewing all of someone’s posts at once).&lt;/p&gt;
+
+&lt;p&gt;Say hello to long-form posts, without all the styling you have on your website (a great way for people to keep up with what you’re writing and saying, without having to go all the way to your site, itself), in a simple-to-read interface.&lt;/p&gt;
+
+&lt;p&gt;The thing is, you don’t &lt;em&gt;have&lt;/em&gt; to keep it confined to &lt;em&gt;just&lt;/em&gt; long-form blog posts, though. You can, essentially, use it as a mailing list. You can use it as a one-way social feed of your thoughts, to readers. You can use it to share pictures of your cat with &lt;em&gt;anyone who subscribes to your feed&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Bro.&lt;/p&gt;
+
+&lt;p&gt;Welcome to social media, 1999.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, if you don’t want to do &lt;em&gt;any of this&lt;/em&gt;, I would &lt;em&gt;at least&lt;/em&gt; recommend finding a nice home on a solid server via Mastodon, or some-such ActivityPub app. But, if you want to get into the &lt;em&gt;really&lt;/em&gt; hardcore nerd shit, definitely start using an RSS feed. And plug it &lt;em&gt;everywhere&lt;/em&gt;. It’s like … a podcast, of your THOUGHTS! IT’S TELEPATHY!&lt;/p&gt;
+
+&lt;p&gt;For real though, as the infrastructure of everything crumbles and corporations destroy all that’s left that’s good in the world, you should have a contingency. Even if it means speaking to the internet the way that we used to, before Google destroyed everything.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 24 Feb 2025 19:19:25 -0500</pubDate>
+      <dc:date>2025-02-24T19:19:25-05:00</dc:date>
+    </item>
     <item>
       <title>New Log</title>
       <link>https://mkultra.monster/logs/2025/02/24/wrangling-the-rss/</link>
@@ -14805,6 +14857,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-24T20:21:43-05:00</dc:date>
+    <dc:date>2025-02-25T00:49:08-05:00</dc:date>
   </channel>
 </rss>
