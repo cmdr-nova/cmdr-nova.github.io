@@ -10,11 +10,11 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
-bluesky: 
+akkoma: https://labyrinth.zone/notice/ArTvbiZNB2ovpTvsTw
+bluesky: https://bsky.app/profile/mkultra.monster/post/3liz7zgg6b22d
 wafrn: 
 pillowfort: 
-none: no_syndication_available 
+none: 
 ---
 It's been a while since I've written some kind of long-form post on my site. At least, since I introduced writing Notes and Logs on here, in a quick and simple way to just *post something* without worrying about it sounding coherent and planned. It's only going to continue, from here, though, when I figure out how I can do this *easily* from my phone. But, I'm not writing this to talk about how much I like shotgunning random crap into the world via my own website. I wanted to talk about RSS.
 
