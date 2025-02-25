@@ -23,3 +23,6 @@ preprocess_pinned_items.rb
 poast.py
 /poast
 /node_modules
+rss-feed.py
+bsky-rss.py
+post_to_bluesky.js

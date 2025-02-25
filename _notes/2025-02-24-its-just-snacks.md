@@ -7,7 +7,7 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 akkoma: https://labyrinth.zone/notice/ArSZos3snxKcsq6tUG
-bluesky: https://bsky.app/profile/mkultra.monster/post/3lixlkfgyjs2j
+bluesky: https://bsky.app/profile/mkultra.monster/post/3lixncamt4w2v
 wafrn: 
 pillowfort: 
 none: 
