@@ -27,3 +27,4 @@ rss-feed.py
 bsky-rss.py
 post_to_bluesky.js
 /backups
+generate_sitemap.py
