@@ -2960,3 +2960,22 @@ li {
 .tag-page a:hover {
   text-decoration: underline;
 }
+
+
+
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag-cloud a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.tag-cloud a:hover {
+  color: #0073e6;
+}

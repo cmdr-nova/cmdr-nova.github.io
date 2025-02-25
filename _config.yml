@@ -34,6 +34,7 @@ tag_categories:
   expression:
   - writing
   - thoughts
+  - shitpost
   - writing-prompt
   - quiz
   - questions
@@ -137,11 +138,13 @@ tag_categories:
   - instagram
   - social-media
   - socialmedia
+  - pillowfort
   - meta
   - facebook
   - reddit
   - sharkey
   - fediverse
+  - tik tok
   - tumblr
   - lemmy
   - pixelfed
@@ -198,11 +201,8 @@ tag_categories:
   - css
   - sad
   - label
-  - tik tok
   - oof
-  - pillowfort
   - note
-  - shitpost
   - app
   - life
   - java
