@@ -10,7 +10,16 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Mon, 24 Feb 2025 19:21:47 -0500</pubDate>
+    <pubDate>Mon, 24 Feb 2025 20:21:43 -0500</pubDate>
+    <item>
+      <title>New Log</title>
+      <link>https://mkultra.monster/logs/2025/02/24/wrangling-the-rss/</link>
+      <description>&lt;p&gt;With my site’s RSS feed tamed, and working (mostly), I’m now serving brand new feed items directly to bluesky, mastodon, and a discord channel simultaneously. Not exactly a site update, but a way in which I can post here, and communicate outward more easily&lt;/p&gt;
+
+</description>
+      <pubDate>Mon, 24 Feb 2025 15:20:13 -0500</pubDate>
+      <dc:date>2025-02-24T15:20:13-05:00</dc:date>
+    </item>
     <item>
       <title>New Note</title>
       <link>https://mkultra.monster/notes/2025/02/24/its-just-snacks/</link>
@@ -14796,6 +14805,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-24T19:21:47-05:00</dc:date>
+    <dc:date>2025-02-24T20:21:43-05:00</dc:date>
   </channel>
 </rss>
