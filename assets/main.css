@@ -2659,11 +2659,6 @@ li {
   word-wrap: break-word;
 }
 
-.posts-section a {
-  word-break: normal;
-  overflow-wrap: break-word;
-}
-
 .item {
   box-sizing: border-box;
   width: 100%;
@@ -2680,8 +2675,8 @@ li {
 }
 
 .item a {
-  word-break: normal;
   overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .item img {

@@ -11,10 +11,10 @@ author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
 akkoma: 
-bluesky: 
+bluesky: https://bsky.app/profile/mkultra.monster/post/3lj3yu4dbyz26
 wafrn: 
 pillowfort: 
-tumblr: 
+tumblr: https://www.tumblr.com/nova-ayashi/776569447038287872/thats-very-decentralized-of-you-bluesky
 none: no_syndication_available 
 ---
 You've probably heard it by now, or have seen my *many* posts on here about Bluesky, and their false claims of decentralization, or of what kind of social network they're even *trying to be.* From their blockchain, crypto investors, to the extreme right-wing accounts they refuse to moderate: Welcome to Twitter 2: The Reckoning.
