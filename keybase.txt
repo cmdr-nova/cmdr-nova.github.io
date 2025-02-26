@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cmdr_nova
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mkultra.monster
+  * I am cmdr_nova (https://keybase.io/cmdr_nova) on keybase.
+  * I have a public key ASDCm_Se93DwxgemlpMhDm93NOA1Pql-diVbH3H4PWLMRwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010113cc0a420a3a17a8a25478c6ba2b4504614d6ec699bd0c32764319021e871eaa0a",
+      "host": "keybase.io",
+      "kid": "0120c29bf49ef770f0c607a69693210e6f7734e0353ea97e76255b1f71f83d62cc470a",
+      "uid": "40c59b89e38880954325269370e35219",
+      "username": "cmdr_nova"
+    },
+    "merkle_root": {
+      "ctime": 1740610542,
+      "hash": "6e0d4aa8db51299d6e35bd306476287275570576bc658b09884ea54fe2ecdbd43427e9e7e93d4588bba8e7fd93c8214b014b1f43cde823a433f15a301a86704a",
+      "hash_meta": "b31103a00d328d04027a2f8f214444f81b33e4659d2fbf70b4fde3238c008400",
+      "seqno": 26581354
+    },
+    "service": {
+      "entropy": "lfxDaTRSyH8XnS+CfJpD1i4W",
+      "hostname": "mkultra.monster",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1740610562,
+  "expire_in": 504576000,
+  "prev": "b3b9224f8beec5a829e2fe2bfe0439d9611ca49bf0db0e4603d14ca8868e2957",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgwpv0nvdw8MYHppaTIQ5vdzTgNT6pfnYlWx9x+D1izEcKp3BheWxvYWTESpcCHcQgs7kiT4vuxagp4v4r/gQ52WEcpJvw2w5GA9FMqIaOKVfEIGljJMrjnrntk78MrdZVl0o929lxKVAOzqsa7WKmfITRAgHCo3NpZ8RAtIXVMw/OdMX9P2ieT4PuviuVyqhUTs60t1nrAWLRlUAhIMo9dFZAPCgElluMn5OUbCwEVUiptBB03Z5pwevLC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHaHMNZGsCTQCaEjG69qZQqZamxrY3cXhPYrFqSxa8gKo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cmdr_nova
+
+==================================================================
