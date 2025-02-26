@@ -2659,6 +2659,11 @@ li {
   word-wrap: break-word;
 }
 
+.posts-section a {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
 .item {
   box-sizing: border-box;
   width: 100%;
