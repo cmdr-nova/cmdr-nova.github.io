@@ -31,3 +31,4 @@ generate_sitemap.py
 tumblr-rss.py
 redd-lemm.py
 rando-tumbly.py
+masto-rss.py

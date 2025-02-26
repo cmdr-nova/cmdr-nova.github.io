@@ -9,7 +9,7 @@ tags: [bluesky, social-media]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114071629501889842
 akkoma: 
 bluesky: https://bsky.app/profile/mkultra.monster/post/3lj3yu4dbyz26
 wafrn: 
