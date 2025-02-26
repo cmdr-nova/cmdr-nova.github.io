@@ -29,3 +29,5 @@ post_to_bluesky.js
 /backups
 generate_sitemap.py
 tumblr-rss.py
+redd-lemm.py
+rando-tumbly.py
