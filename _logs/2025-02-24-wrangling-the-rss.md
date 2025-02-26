@@ -8,7 +8,7 @@ author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 akkoma: 
 bluesky: https://bsky.app/profile/mkultra.monster/post/3lixpenm7ai2z
-mastodon: https://mastodon.social/@mkultra_bot/114061916430374917 
+mastodon: 
 wafrn: 
 pillowfort: 
 none: 

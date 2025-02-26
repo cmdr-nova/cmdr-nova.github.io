@@ -6,6 +6,7 @@ tags: [eyeshadow2600fm, music, release]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
+mastodon: https://mastodon.online/@cmdr_nova/114068279656971583
 akkoma: https://labyrinth.zone/notice/ArQSIQXSVkZsGDbg2q
 bluesky: https://bsky.app/profile/mkultra.monster/post/3liuzbjasgs2d
 wafrn: 

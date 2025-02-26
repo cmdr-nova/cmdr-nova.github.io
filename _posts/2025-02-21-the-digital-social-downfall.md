@@ -12,7 +12,7 @@ pinned:
 akkoma:  
 bluesky: https://bsky.app/profile/mkultra.monster/post/3liq6z22n6227
 wafrn:
-mastodon: https://mastodon.social/@mkultra_bot/114044991589543623
+mastodon: 
 pillowfort: https://www.pillowfort.social/posts/5954512
 none: 
 ---

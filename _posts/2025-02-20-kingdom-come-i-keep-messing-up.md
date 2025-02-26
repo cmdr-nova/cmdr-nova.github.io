@@ -11,7 +11,7 @@ tags: [gaming, kingdom-come]
 akkoma:  
 bluesky: 
 wafrn:
-mastodon: https://mastodon.social/@mkultra_bot/114039823863061885
+mastodon: 
 pillowfort: 
 none:
 ---
