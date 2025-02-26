@@ -212,6 +212,7 @@ tag_categories:
   - night
   - bread
   - rss
+  - ''
   writing:
   - fiction
 theme: minima
