@@ -2675,7 +2675,7 @@ li {
 }
 
 .item a {
-  word-break: break-all;
+  word-break: normal;
   overflow-wrap: break-word;
 }
 
