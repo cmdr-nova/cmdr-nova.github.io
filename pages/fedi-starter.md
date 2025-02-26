@@ -9,22 +9,16 @@ Bluesky has automated starter packs that you add users to in a list, that other 
 *Fedi following is a bit different if you're unfamiliar with it. Each link leads to the version of these accounts that exist on my instance via federation, but you can follow either by copying their usernames plus instance name, or by clicking the "Follow" button on their profiles and entering the address to the instance you're currently logged into.*
 
 <img class="no-center pack-avatar dynamic-avatar" src="" height="100" width="100">
-<b>@daemon_nova@labyrinth.zone</b> <button class="post-buttons" onclick="window.open('https://labyrinth.zone/daemon_nova', '_blank')">Follow</button>
+<b>@cmdr_nova@mastodon.online</b> <button class="post-buttons" onclick="window.open('https://mastodon.online/@cmdr_nova', '_blank')">Follow</button>
 
 <div class="pack-profile">
 <p>
-░Artist behind #Eyeshadow2600FM & #PLEXX // Author of upcoming space opera, DISSOLUTION PROTOCOL, Second Life creator at [REVOSA] & AyaSys
-</p>
-
-<p>
+░ Webmaster of mkultra.monster // Artist behind #Eyeshadow2600FM // Author of upcoming space opera, DISSOLUTION PROTOCOL, Second Life creator at [REVOSA] & AyaSys
+<br />
 ░I am a: Writer, composer, designer, linux-enjoyer & webdev
-</p>
-
-<p>
+<br />
 ░ Pronouns : Whatever // Gender : Immortal Machine // Sexuality : Pan // Age: 39
-</p>
-
-<p>
+<br />
 ░ Signal: cmdr_nova.69
 </p>
 

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const profileUrl = 'https://labyrinth.zone/users/daemon_nova';
+  const profileUrl = 'https://mastodon.online/@cmdr_nova';
   const authorLinks = document.querySelectorAll('.author-link'); // Select all elements with the class 'author-link'
 
   async function updateAuthor() {
