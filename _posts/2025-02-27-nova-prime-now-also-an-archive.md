@@ -34,8 +34,31 @@ Here's my bash script for backing up my Mastodon posts to a directory on my loca
 ```
 #!/bin/bash
 
+export MASTODON_ACCESS_TOKEN=your_access_token_here
+
+PREVIOUS_SINCE_ID=""
+
+# Function to delete posts containing the specified phrase
+delete_posts_with_phrase() {
+  local phrase="$1"
+  local directory="$2"
+  for post_file in "$directory"/*.md; do
+    if grep -q "$phrase" "$post_file"; then
+      echo "Excluding post: $post_file"
+      rm "$post_file"
+    fi
+  done
+}
+
 while true; do
-  command="mastodon-markdown-archive --dist=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots \
+  SINCE_ID=$(test -f /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first && cat /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first || echo '')
+  
+  if [[ "$SINCE_ID" == "$PREVIOUS_SINCE_ID" ]]; then
+    echo "No new posts. Exiting"
+    break
+  fi
+
+  command="/home/cmdr-nova/.local/go/bin/mastodon-markdown-archive --dist=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots \
     --exclude-replies=true \
     --exclude-reblogs=true \
     --user=https://mastodon.online/@cmdr_nova \
@@ -43,17 +66,23 @@ while true; do
     --visibility=public \
     --download-media=bundle \
     --threaded=true \
-    --persist-last=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last \
-    --max-id=$(test -f /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last && cat /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last || echo '') \
+    --persist-first=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first \
+    --since-id=$SINCE_ID \
     --template=/home/cmdr-nova/jekyll.tmpl \
     --filename={{.Post.Id}}.md"
+  
   output=$($command)
 
   if [[ "$output" -eq 0 ]]; then
-    echo "No posts returned. Exiting"
+    echo "No new posts. Exiting"
     break
   fi
   echo "Fetched $output posts. Continuing."
+  
+  # Delete posts containing the phrase "Posted via Nova Prime:"
+  delete_posts_with_phrase "Posted via Nova Prime:" "/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots"
+  
+  PREVIOUS_SINCE_ID=$SINCE_ID
   sleep 1
 done
 ```

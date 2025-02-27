@@ -10,7 +10,7 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Thu, 27 Feb 2025 15:54:23 -0500</pubDate>
+    <pubDate>Thu, 27 Feb 2025 16:05:03 -0500</pubDate>
     <item>
       <title>Nova Prime, Now Also An Archive</title>
       <link>https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive.html</link>
@@ -31,8 +31,31 @@
 ```
 #!/bin/bash&lt;/p&gt;
 
+&lt;p&gt;export MASTODON_ACCESS_TOKEN=your_access_token_here&lt;/p&gt;
+
+&lt;p&gt;PREVIOUS_SINCE_ID=””&lt;/p&gt;
+
+&lt;h1 id=&quot;function-to-delete-posts-containing-the-specified-phrase&quot;&gt;Function to delete posts containing the specified phrase&lt;/h1&gt;
+&lt;p&gt;delete_posts_with_phrase() {
+  local phrase=”$1”
+  local directory=”$2”
+  for post_file in “$directory”/*.md; do
+    if grep -q “$phrase” “$post_file”; then
+      echo “Excluding post: $post_file”
+      rm “$post_file”
+    fi
+  done
+}&lt;/p&gt;
+
 &lt;p&gt;while true; do
-  command=”mastodon-markdown-archive –dist=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots \
+  SINCE_ID=$(test -f /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first &amp;amp;&amp;amp; cat /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first || echo ‘’)&lt;/p&gt;
+
+&lt;p&gt;if [[ “$SINCE_ID” == “$PREVIOUS_SINCE_ID” ]]; then
+    echo “No new posts. Exiting”
+    break
+  fi&lt;/p&gt;
+
+&lt;p&gt;command=”/home/cmdr-nova/.local/go/bin/mastodon-markdown-archive –dist=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots \
     –exclude-replies=true \
     –exclude-reblogs=true \
     –user=https://mastodon.online/@cmdr_nova \
@@ -40,17 +63,23 @@
     –visibility=public \
     –download-media=bundle \
     –threaded=true \
-    –persist-last=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last \
-    –max-id=$(test -f /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last &amp;amp;&amp;amp; cat /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last || echo ‘’) \
+    –persist-first=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first \
+    –since-id=$SINCE_ID \
     –template=/home/cmdr-nova/jekyll.tmpl \
-    –filename={{.Post.Id}}.md”
-  output=$($command)&lt;/p&gt;
+    –filename={{.Post.Id}}.md”&lt;/p&gt;
+
+&lt;p&gt;output=$($command)&lt;/p&gt;
 
 &lt;p&gt;if [[ “$output” -eq 0 ]]; then
-    echo “No posts returned. Exiting”
+    echo “No new posts. Exiting”
     break
   fi
-  echo “Fetched $output posts. Continuing.”
+  echo “Fetched $output posts. Continuing.”&lt;/p&gt;
+
+&lt;p&gt;# Delete posts containing the phrase “Posted via Nova Prime:”
+  delete_posts_with_phrase “Posted via Nova Prime:” “/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots”&lt;/p&gt;
+
+&lt;p&gt;PREVIOUS_SINCE_ID=$SINCE_ID
   sleep 1
 done
 ```
@@ -15070,6 +15099,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-27T15:54:23-05:00</dc:date>
+    <dc:date>2025-02-27T16:05:03-05:00</dc:date>
   </channel>
 </rss>
