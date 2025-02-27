@@ -89,4 +89,4 @@ bundle exec jekyll build
 # Commit and sync to GitHub
 git add .
 git commit -m "Update site with new posts"
-git push origin main
+git push origin master  # Change 'main' to 'master' if your default branch is 'master'
