@@ -33,3 +33,4 @@ redd-lemm.py
 rando-tumbly.py
 masto-rss.py
 syndicate_toots.py
+generate_toots_metadata.rb

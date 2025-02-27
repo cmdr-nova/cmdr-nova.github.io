@@ -27,7 +27,7 @@ def process_markdown_files(directory, type, index)
       content: content_text,
       type: type
     }
-    if type == 'note' || type == 'log'
+    if type == 'note' || type == 'log' || type == 'toot'
       index_entry[:avatar] = metadata['avatar']
       index_entry[:author] = metadata['author']
       index_entry[:date] = metadata['date']
@@ -46,6 +46,9 @@ process_markdown_files('_notes', 'note', index)
 
 # Process logs
 process_markdown_files('_logs', 'log', index)
+
+# Process toots
+process_markdown_files('_toots', 'toot', index)
 
 # Process pages
 Dir.glob("*.html").each do |file|
