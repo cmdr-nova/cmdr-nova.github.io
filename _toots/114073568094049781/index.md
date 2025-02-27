@@ -9,7 +9,7 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: https://mastodon.online/@cmdr_nova/114073568094049781
-image: 114073568094049781/114073566084980750.png
+image: /toots/114073568094049781/114073566084980750.png
 ---
 
 Hell yeah, I'll walk around with a piece of bark on my face [#avowed](https://mastodon.online/tags/avowed)

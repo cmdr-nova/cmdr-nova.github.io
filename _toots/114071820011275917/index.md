@@ -9,7 +9,7 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: https://mastodon.online/@cmdr_nova/114071820011275917
-image: 114071820011275917/114071817421398542.png
+image: /toots/114071820011275917/114071817421398542.png
 ---
 
 Man, I"ve had my mastodon.online account for 1 day lol

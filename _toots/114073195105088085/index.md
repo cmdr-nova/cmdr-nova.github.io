@@ -9,7 +9,7 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: https://mastodon.online/@cmdr_nova/114073195105088085
-image: 114073195105088085/114073191057963202.png
+image: /toots/114073195105088085/114073191057963202.png
 ---
 
 Decided on snapping up Avowed, and so while I wait for it to download, I have to refresh myself on the world of Eora

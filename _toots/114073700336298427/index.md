@@ -9,7 +9,7 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: https://mastodon.online/@cmdr_nova/114073700336298427
-image: 114073700336298427/114073697479558454.png
+image: /toots/114073700336298427/114073697479558454.png
 ---
 
 I just started the game and they're trying to make me decide if someone lives or dies lol
