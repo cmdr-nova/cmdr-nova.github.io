@@ -9,13 +9,13 @@ tags: [webdev, syndication]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114077429788624732
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-none: no_syndication_available 
+none: 
 ---
 I've been doing *a lot* in order to get my website to act as a more *central* place where all of my thoughts and posts are stored. One of the issues I was having, is that it's *really* cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities ... *just to put up one Post, Note, or Log*. To me, this is useful, and really cool, but it also doesn't *feel* like posting on social media. So what do you do?
 
