@@ -8,6 +8,9 @@ collections:
     permalink: /notes/:year/:month/:day/:title/
   posts:
     output: true
+  toots:
+    output: true
+    permalink: /toots/:path/
 compress_images:
   images_path: /img/**/*.{gif,png,jpg,jpeg,svg}
 description: cmdr-nova's personal blog and home on the indie-web.

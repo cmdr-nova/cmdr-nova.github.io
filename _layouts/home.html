@@ -82,7 +82,8 @@ creator of everything -->
   {% assign notes_array = site.notes %}
   {% assign logs_array = site.logs %}
   {% assign posts_array = site.posts %}
-  {% assign combined_array = posts_array | concat: notes_array | concat: logs_array %}
+  {% assign toots_array = site.toots %}
+  {% assign combined_array = posts_array | concat: notes_array | concat: logs_array | concat: toots_array %}
   {% assign combined_array = combined_array | sort: "date" | reverse %}
 
   {% assign pinned_items = combined_array | where: "pinned", true %}
@@ -111,6 +112,10 @@ creator of everything -->
       {% assign icon = "ph ph-article" %}
       {% assign verb = "Posted" %}
       {% assign content = item.content | strip_newlines | truncatewords: 50 %}
+    {% elsif post_type == "toots" %}
+      {% assign icon = "ph ph-chat-text" %}
+      {% assign verb = "Tooted" %}
+      {% assign content = item.content %}
     {% else %}
       {% assign icon = "ph ph-chat-text" %}
       {% assign verb = "Shared" %}
@@ -182,7 +187,7 @@ creator of everything -->
             {% endfor %}
           </div>
         {% endif %}
-        {% if post_type == "notes" or post_type == "logs" or post_type == "posts" %}
+        {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" %}
         <div style="text-align: right;">
           <a href="{{ item.url }}" class="small-link">view</a> | 
           <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
