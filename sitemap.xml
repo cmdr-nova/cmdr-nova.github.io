@@ -2197,6 +2197,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_notes/2025-02-26-diving-into-eora.md</loc>
+    <lastmod>2025-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_notes/2025-02-19-mourning.md</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -6115,6 +6121,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/notes/2025/02/26/diving-into-eora/index.html</loc>
+    <lastmod>2025-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/notes/2025/02/03/coffee/index.html</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -6254,6 +6266,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/tag/twitter.html</loc>
+    <lastmod>2025-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/tag/pillars-of-eternity.html</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -6446,6 +6464,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/tag/gonna.html</loc>
+    <lastmod>2025-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/tag/eora.html</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -8461,6 +8485,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/tag/eora.md</loc>
+    <lastmod>2025-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/tag/jekyll.md</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -8744,6 +8774,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/tag/wafrn.md</loc>
+    <lastmod>2025-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/tag/pillars-of-eternity.md</loc>
     <lastmod>2025-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

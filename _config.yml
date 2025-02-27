@@ -17,8 +17,8 @@ github_username: cmdr-nova
 home: NOVA PRIME
 lang: en-US
 mastodon:
-- instance: labyrinth.zone
-  username: daemon_nova
+- instance: mastodon.online
+  username: cmdr_nova
 paginate: 7
 paginate_path: /page:num/
 plugins:
@@ -213,6 +213,8 @@ tag_categories:
   - bread
   - rss
   - ''
+  - pillars-of-eternity
+  - eora
   writing:
   - fiction
 theme: minima

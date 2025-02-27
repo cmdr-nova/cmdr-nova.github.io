@@ -10,7 +10,17 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Wed, 26 Feb 2025 15:11:35 -0500</pubDate>
+    <pubDate>Wed, 26 Feb 2025 20:17:40 -0500</pubDate>
+    <item>
+      <title>New Note</title>
+      <link>https://mkultra.monster/notes/2025/02/26/diving-into-eora/</link>
+      <description>&lt;p&gt;Decided on snapping up Avowed, and so while I wait for it to download, I have to refresh myself on the world of Eora&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/notes/eora/Screenshot from 2025-02-26 20-11-52.png&quot; /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 26 Feb 2025 15:12:50 -0500</pubDate>
+      <dc:date>2025-02-26T15:12:50-05:00</dc:date>
+    </item>
     <item>
       <title>New Note</title>
       <link>https://mkultra.monster/notes/2025/02/26/nearly-40/</link>
@@ -14927,6 +14937,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-26T15:11:35-05:00</dc:date>
+    <dc:date>2025-02-26T20:17:40-05:00</dc:date>
   </channel>
 </rss>
