@@ -59555,6 +59555,24 @@
     "date": "2025-02-27"
   },
   {
+    "id": "114078128329289806",
+    "url": "/toots/114078128329289806/114078128329289806.html",
+    "content": "I’ve got over 6000 toots in a folder on my site, BUT, Jekyll seems to stop paginating at like 50 pages haha\n\nNever-the-less, I have an entire year of fediverse posting just, on my website\n\nand I think it’s like 6 megabytes total.\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-27"
+  },
+  {
+    "id": "114078272407132377",
+    "url": "/toots/114078272407132377/114078272407132377.html",
+    "content": "Since Jekyll pagination stops at 50 pages, and I’ve got 6000+ old toots backed up on my website, I’ve instead configured my search indexing to include all of it\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-27"
+  },
+  {
     "id": "1204211300",
     "url": "/toots/1204211300/1204211300.html",
     "content": "yeah, I think I’m going to setup the release of my next album to be under Eyeshadow 2600 FM, just cause I don’t have energy to rebuild any kind of following lol\n",

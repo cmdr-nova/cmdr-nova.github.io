@@ -16,10 +16,35 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       var results = idx.search(query);
+      console.log('Search results:', results); // Debugging log
+
+      // Sort results to prioritize notes, logs, and posts over toots
+      results.sort((a, b) => {
+        var itemA = data.find(d => d.id === a.ref);
+        var itemB = data.find(d => d.id === b.ref);
+        var priorityA = getPriority(itemA.type);
+        var priorityB = getPriority(itemB.type);
+        return priorityA - priorityB;
+      });
+
+      function getPriority(type) {
+        switch (type) {
+          case 'note':
+          case 'log':
+          case 'post':
+            return 1;
+          case 'toot':
+            return 2;
+          default:
+            return 3;
+        }
+      }
+
       var resultsContainer = document.getElementById('search-results');
       var paginationContainer = document.getElementById('search-pagination');
       var resultsPerPage = 10;
       var currentPage = 1;
+      var maxPageLinks = 5;
 
       function renderResults(page) {
         resultsContainer.innerHTML = '';
@@ -30,10 +55,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (paginatedResults.length) {
           paginatedResults.forEach(function(result) {
             var item = data.find(d => d.id === result.ref);
+            console.log('Processing item:', item); // Debugging log
             var div = document.createElement('div');
             div.classList.add('search-result-item', 'item');
 
-            if (item.type === 'note' || item.type === 'log') {
+            if (item.type === 'note' || item.type === 'log' || item.type === 'toot') {
               var author = document.createElement('p');
               author.textContent = item.author;
 
@@ -66,7 +92,13 @@ document.addEventListener('DOMContentLoaded', function() {
               separator.textContent = ' | ';
 
               var viewLink = document.createElement('a');
-              viewLink.href = 'https://mkultra.monster' + item.url;
+              if (item.type === 'toot') {
+                var tootFilename = item.id.replace('.md', '');
+                viewLink.href = '/toots/' + encodeURIComponent(tootFilename) + '/';
+                console.log('Toot view link:', viewLink.href); // Debugging log
+              } else {
+                viewLink.href = 'https://mkultra.monster' + item.url;
+              }
               viewLink.classList.add('small-link');
               viewLink.textContent = 'view';
 
@@ -107,8 +139,29 @@ document.addEventListener('DOMContentLoaded', function() {
       function renderPagination() {
         paginationContainer.innerHTML = '';
         var totalPages = Math.ceil(results.length / resultsPerPage);
+        var startPage = Math.max(1, currentPage - Math.floor(maxPageLinks / 2));
+        var endPage = Math.min(totalPages, startPage + maxPageLinks - 1);
 
-        for (var i = 1; i <= totalPages; i++) {
+        if (startPage > 1) {
+          var firstPageLink = document.createElement('a');
+          firstPageLink.href = '#';
+          firstPageLink.innerText = '1';
+          firstPageLink.classList.add('search-page-link');
+          firstPageLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            currentPage = 1;
+            renderResults(currentPage);
+          });
+          paginationContainer.appendChild(firstPageLink);
+
+          if (startPage > 2) {
+            var dots = document.createElement('span');
+            dots.innerText = '...';
+            paginationContainer.appendChild(dots);
+          }
+        }
+
+        for (var i = startPage; i <= endPage; i++) {
           var pageLink = document.createElement('a');
           pageLink.href = '#';
           pageLink.innerText = i;
@@ -122,6 +175,25 @@ document.addEventListener('DOMContentLoaded', function() {
             renderResults(currentPage);
           });
           paginationContainer.appendChild(pageLink);
+        }
+
+        if (endPage < totalPages) {
+          if (endPage < totalPages - 1) {
+            var dots = document.createElement('span');
+            dots.innerText = '...';
+            paginationContainer.appendChild(dots);
+          }
+
+          var lastPageLink = document.createElement('a');
+          lastPageLink.href = '#';
+          lastPageLink.innerText = totalPages;
+          lastPageLink.classList.add('search-page-link');
+          lastPageLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            currentPage = totalPages;
+            renderResults(currentPage);
+          });
+          paginationContainer.appendChild(lastPageLink);
         }
       }
 

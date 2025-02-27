@@ -12,11 +12,14 @@ python3 "$BASE_DIR/generate_sitemap.py"
 # Generate tags
 python3 "$BASE_DIR/generate_tags.py"
 
-# Generate the search index
-ruby "$BASE_DIR/generate_search_index.rb"
+# Generate toots metadata
+ruby "$BASE_DIR/generate_toots_metadata.rb"
 
 # Generate post metadata
 ruby "$BASE_DIR/generate_posts_metadata.rb"
+
+# Generate the search index
+ruby "$BASE_DIR/generate_search_index.rb"
 
 # Generate .htaccess file
 ruby "$BASE_DIR/generate_htaccess.rb"
