@@ -10,7 +10,140 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Thu, 27 Feb 2025 13:36:18 -0500</pubDate>
+    <pubDate>Thu, 27 Feb 2025 14:08:01 -0500</pubDate>
+    <item>
+      <title>Nova Prime, Now Also An Archive</title>
+      <link>https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive.html</link>
+      <description>&lt;p&gt;I’ve been doing &lt;em&gt;a lot&lt;/em&gt; in order to get my website to act as a more &lt;em&gt;central&lt;/em&gt; place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s &lt;em&gt;really&lt;/em&gt; cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … &lt;em&gt;just to put up one Post, Note, or Log&lt;/em&gt;. To me, this is useful, and really cool, but it also doesn’t &lt;em&gt;feel&lt;/em&gt; like posting on social media. So what do you do?&lt;/p&gt;
+
+&lt;p&gt;Well, of course, you setup reverse publishing/syndication, and backup every single thing you post to Mastodon in converted markdown files formatted for Jekyll, that are then fed into a Liquid feed!&lt;/p&gt;
+
+&lt;p&gt;How?&lt;/p&gt;
+
+&lt;p&gt;By using &lt;a href=&quot;https://git.garrido.io/gabriel/mastodon-markdown-archive#installation&quot; target=&quot;_blank&quot;&gt;this repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Basically, you go through the process of getting this thing setup, and &lt;em&gt;make sure&lt;/em&gt; you specify that you want to use a Jekyll template (you’ve got to set that up yourself), and point it at a directory on your website, so that you can effectively setup a cronjob that just backs up all of your posts, &lt;em&gt;daily&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s my bash script for backing up my Mastodon posts to a directory on my local machine, where my website is stored:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;graboots.sh&lt;/em&gt;
+{% raw %}
+```
+#!/bin/bash&lt;/p&gt;
+
+&lt;p&gt;while true; do
+  command=”mastodon-markdown-archive –dist=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots \
+    –exclude-replies=true \
+    –exclude-reblogs=true \
+    –user=https://mastodon.online/@cmdr_nova \
+    –porcelain=true \
+    –visibility=public \
+    –download-media=bundle \
+    –threaded=true \
+    –persist-last=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last \
+    –max-id=$(test -f /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last &amp;amp;&amp;amp; cat /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/last || echo ‘’) \
+    –template=/home/cmdr-nova/jekyll.tmpl \
+    –filename={{.Post.Id}}.md”
+  output=$($command)&lt;/p&gt;
+
+&lt;p&gt;if [[ “$output” -eq 0 ]]; then
+    echo “No posts returned. Exiting”
+    break
+  fi
+  echo “Fetched $output posts. Continuing.”
+  sleep 1
+done
+```
+{% endraw %}&lt;/p&gt;
+
+&lt;p&gt;But then, this isn’t &lt;em&gt;everything&lt;/em&gt; you need to do in order to make this work, right? So, you probably &lt;em&gt;also&lt;/em&gt; want each of these posts on your site to link back to their original location (for as long as they exist), and to &lt;em&gt;also&lt;/em&gt; use the images include in posts that are backed up, &lt;em&gt;that have images&lt;/em&gt;, right?&lt;/p&gt;
+
+&lt;p&gt;Okay, so run this script every single time you build your Jekyll site:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;syndicate_toots.py&lt;/em&gt;
+{% raw %}
+```
+import os
+import glob
+import shutil&lt;/p&gt;
+
+&lt;h1 id=&quot;directory-containing-your-toots&quot;&gt;Directory containing your toots&lt;/h1&gt;
+&lt;p&gt;toots_dir = ‘/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots’&lt;/p&gt;
+
+&lt;h1 id=&quot;function-to-update-the-front-matter-and-content-of-a-toot&quot;&gt;Function to update the front matter and content of a toot&lt;/h1&gt;
+&lt;p&gt;def update_toot_file(toot_file, post_id, image_path=None):
+    # Construct the Mastodon syndication
+    mastodon_link = f’https://mastodon.online/@cmdr_nova/{post_id}’&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Read the content of the toot
+with open(toot_file, 'r') as file:
+    content = file.readlines()
+
+# Check if the mastodon link is already present
+if not any(line.startswith('mastodon:') for line in content):
+    # Insert the mastodon link into the front matter
+    for i, line in enumerate(content):
+        if line.strip() == '---' and i != 0:
+            content.insert(i, f'mastodon: {mastodon_link}\n')
+            break
+
+# Check if the image path is provided and not already present
+if image_path and not any(line.startswith('image:') for line in content):
+    # Insert the image path into the front matter
+    for i, line in enumerate(content):
+        if line.strip() == '---' and i != 0:
+            content.insert(i, f'image: {image_path}\n')
+            break
+
+# Insert the image tag at the end of the content if not already present
+if image_path and not any(f'&amp;lt;img src=&quot;{image_path}&quot;' in line for line in content):
+    content.append(f'\n&amp;lt;img src=&quot;{image_path}&quot; alt=&quot;Image&quot;&amp;gt;\n')
+
+# Write the updated content back to the toot
+with open(toot_file, 'w') as file:
+    file.writelines(content)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;process-individual-markdown-files-in-the-toots-directory&quot;&gt;Process individual markdown files in the toots directory&lt;/h1&gt;
+&lt;p&gt;for toot_file in glob.glob(os.path.join(toots_dir, ‘*.md’)):
+    # Extract the post ID from the filename
+    post_id = os.path.basename(toot_file).replace(‘.md’, ‘’)
+    update_toot_file(toot_file, post_id)&lt;/p&gt;
+
+&lt;h1 id=&quot;process-folders-containing-an-indexmd-file-in-the-toots-directory&quot;&gt;Process folders containing an index.md file in the toots directory&lt;/h1&gt;
+&lt;p&gt;for toot_folder in glob.glob(os.path.join(toots_dir, ‘&lt;em&gt;/’)):
+    index_file = os.path.join(toot_folder, ‘index.md’)
+    if os.path.exists(index_file):
+        # Extract the post ID from the folder name
+        post_id = os.path.basename(os.path.dirname(index_file))
+        # Find the image file in the folder (assuming only one image per folder)
+        image_files = glob.glob(os.path.join(toot_folder, ‘&lt;/em&gt;.*’))
+        image_path = None
+        for image_file in image_files:
+            if image_file != index_file:
+                # Construct the relative image path
+                image_path = f’/toots/{post_id}/{os.path.basename(image_file)}’
+                break
+        update_toot_file(index_file, post_id, image_path)&lt;/p&gt;
+
+&lt;p&gt;print(“Toots updated successfully.”)
+```
+{% endraw %}&lt;/p&gt;
+
+&lt;p&gt;Now, &lt;em&gt;obviously&lt;/em&gt;, this is going to take a bit more setup than just putting both of these scripts together. You probably keep your files in different places than I do, and you might not even &lt;em&gt;want&lt;/em&gt; a Jekyll template. Furthermore, you also still need to construct your site in order to be &lt;em&gt;able&lt;/em&gt; to include these markdown files &lt;em&gt;within&lt;/em&gt; the Liquid feed that’s already included on a Jekyll website.&lt;/p&gt;
+
+&lt;p&gt;But, other than that, there we go!&lt;/p&gt;
+
+&lt;p&gt;Everything I post on Mastodon, will now post to my website (as long as I remember to commit and sync daily), using this cronjob:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+0 2 * * * /home/cmdr-nova/grabtoots.sh
+&lt;/code&gt;
+This is, &lt;em&gt;essentially&lt;/em&gt;, my answer as to &lt;em&gt;how&lt;/em&gt; to make it so that I can post to my website from my phone, albeit, a little bit of an extreme work-around, but very simple once you’ve got it all up and running.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 27 Feb 2025 08:50:19 -0500</pubDate>
+      <dc:date>2025-02-27T08:50:19-05:00</dc:date>
+    </item>
     <item>
       <title>New Note</title>
       <link>https://mkultra.monster/notes/2025/02/26/diving-into-eora/</link>
@@ -14937,6 +15070,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-02-27T13:36:18-05:00</dc:date>
+    <dc:date>2025-02-27T14:08:01-05:00</dc:date>
   </channel>
 </rss>
