@@ -42,9 +42,10 @@ creator of everything -->
         <br>
 
         {% assign total_posts = site.posts | size %}
+        {% assign total_toots = site.toots | size %}
         {% assign total_logs = site.logs | size %}
         {% assign total_notes = site.notes | size %}
-        {% assign total_items = total_posts | plus: total_logs | plus: total_notes %}
+        {% assign total_items = total_posts | plus: total_logs | plus: total_notes | plus: total_toots %}
 
         <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
         <script src="/assets/js/fake-follows.js"></script>
