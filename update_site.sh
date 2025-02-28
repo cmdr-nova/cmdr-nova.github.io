@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Redirect output to a log file
+exec > /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/update_site.log 2>&1
+
 # Navigate to the website directory
 cd /home/cmdr-nova/Documents/Website/cmdr-nova.github.io
 
@@ -60,33 +63,24 @@ done
 BASE_DIR="/home/cmdr-nova/Documents/Website/cmdr-nova.github.io"
 
 # Syndicate Toots
-python3 "$BASE_DIR/syndicate_toots.py"
+/usr/bin/python3 "$BASE_DIR/syndicate_toots.py"
 
-# Generate new sitemap
-python3 "$BASE_DIR/generate_sitemap.py"
+/usr/bin/python3 "$BASE_DIR/generate_sitemap.py"
 
-# Generate tags
-python3 "$BASE_DIR/generate_tags.py"
+/usr/bin/python3 "$BASE_DIR/generate_tags.py"
 
-# Generate toots metadata
-ruby "$BASE_DIR/generate_toots_metadata.rb"
+/usr/bin/ruby "$BASE_DIR/generate_toots_metadata.rb"
 
-# Generate post metadata
-ruby "$BASE_DIR/generate_posts_metadata.rb"
+/usr/bin/ruby "$BASE_DIR/generate_posts_metadata.rb"
 
-# Generate the search index
-ruby "$BASE_DIR/generate_search_index.rb"
+/usr/bin/ruby "$BASE_DIR/generate_search_index.rb"
 
-# Generate .htaccess file
-ruby "$BASE_DIR/generate_htaccess.rb"
+/usr/bin/ruby "$BASE_DIR/generate_htaccess.rb"
 
-# Generate RSS feed
-ruby "$BASE_DIR/generate_feed.rb"
+/usr/bin/ruby "$BASE_DIR/generate_feed.rb"
 
-# Build the Jekyll site
-bundle exec jekyll build
+/usr/local/bin/bundle exec jekyll build
 
-# Commit and sync to GitHub
-git add .
-git commit -m "Update site with new posts"
-git push origin master  # Change 'main' to 'master' if your default branch is 'master'
+/usr/bin/git add .
+/usr/bin/git commit -m "Update site with new posts"
+/usr/bin/git push origin master
