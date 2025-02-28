@@ -81,6 +81,7 @@ BASE_DIR="/home/cmdr-nova/Documents/Website/cmdr-nova.github.io"
 
 /usr/local/bin/bundle exec jekyll build
 
+# Commit and sync to GitHub
 /usr/bin/git add .
 /usr/bin/git commit -m "Update site with new posts"
-/usr/bin/git push origin master
+GIT_SSH_COMMAND="ssh -i /home/cmdr-nova/.ssh/pop-nova" /usr/bin/git push origin master
