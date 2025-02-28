@@ -3,7 +3,7 @@ layout: page
 title: Recent Toots
 permalink: /pages/toots/
 ---
-<p class="center">An archive of my toots from mastodon.online</p>
+<p class="center">An archive of my toots from Mastodon</p>
 <p class="center" style="font-size: .9em;">displaying the latest ten, <i>only</i></p>
 
 <div class="notes-section">
