@@ -3,6 +3,10 @@
 # Redirect output to a log file
 exec > /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/update_site.log 2>&1
 
+# Start the SSH agent and add the SSH key
+eval "$(ssh-agent -s)"
+ssh-add /home/cmdr-nova/.ssh/pop-nova
+
 # Navigate to the website directory
 cd /home/cmdr-nova/Documents/Website/cmdr-nova.github.io
 
