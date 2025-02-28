@@ -59573,6 +59573,24 @@
     "date": "2025-02-27"
   },
   {
+    "id": "114078453770650426",
+    "url": "/toots/114078453770650426/114078453770650426.html",
+    "content": "Oh heck nah, github isn’t letting my scripts upload 6000 files lol\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-27"
+  },
+  {
+    "id": "114078541505009404",
+    "url": "/toots/114078541505009404/114078541505009404.html",
+    "content": "It looks like, if I want Jekyll’s pagination to show potentially thousands of posts, toots, logs, and notes to navigate through, I need to install the v2 plugin, except that doesn’t work on Github\n\nBut, if I abandoned Github and fed the generated _site directory to Neocities, it’d be fine\n\nBut also, Neocities doesn’t have a quick seamless way to upload your site (I’ve tried doing it manually from my hdd before, with the site mounted)\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-02-27"
+  },
+  {
     "id": "1204211300",
     "url": "/toots/1204211300/1204211300.html",
     "content": "yeah, I think I’m going to setup the release of my next album to be under Eyeshadow 2600 FM, just cause I don’t have energy to rebuild any kind of following lol\n",
