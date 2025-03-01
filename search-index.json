@@ -2711,6 +2711,15 @@
     "date": "2025-03-01 12:31:04 -0500"
   },
   {
+    "id": "2025-03-01-kc2-so-far",
+    "url": "/notes/2025/03/01/kc2-so-far.html",
+    "content": "My game so far in Kingdom Come Deliverance 2 has been littered with … ridiculousness. I started the game (after the prologue) wanting to find the camping spot where all my buddies were apparently murdered, and got side-tracked looking for quests. Upon finally finding some, I descended about a few of them. One … in which you’re tasked with stealing a lute, and then finding new strings after they break it, and so on.\n\nBasically, I’ve murdered three people in order to get and maintain a lute for no other reason than a hopeful reward? haha\n\nBut I did get my dog back.\n\nProblem is, there are a few dead bodies hiding around that nobody’s found, yet …\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-01 13:34:19 -0500"
+  },
+  {
     "id": "2025-03-01-testing-tumblr-function",
     "url": "/notes/2025/03/01/testing-tumblr-function.html",
     "content": "With this post, I’m testing functionality of using a Python script to post the full content of a feed item from my website to Tumblr, with some links and what-not at the bottom. This, will, of course, update to all sources that receive my RSS feed, but if you’re viewing this from Tumblr, specifically, this should show the full text, with a link to the original feed item, plus a link to where you can find me on Mastodon.\n\nLet’s pop this baby in and see what happens.\n\n",

@@ -2383,6 +2383,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_notes/2025-03-01-kc2-so-far.md</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/classic/haxpunks.html</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -15014,6 +15020,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/toots/0725070000/index.html</loc>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/toots/114089577806206570/index/index.html</loc>
     <lastmod>2025-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
