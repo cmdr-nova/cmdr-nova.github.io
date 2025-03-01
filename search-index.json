@@ -2702,6 +2702,15 @@
     "date": "2025-02-26 09:13:26 -0500"
   },
   {
+    "id": "2025-03-01-testing-tumblr-function",
+    "url": "/notes/2025/03/01/testing-tumblr-function.html",
+    "content": "With this post, I’m testing functionality of using a Python script to post the full content of a feed item from my website to Tumblr, with some links and what-not at the bottom. This, will, of course, update to all sources that receive my RSS feed, but if you’re viewing this from Tumblr, specifically, this should show the full text, with a link to the original feed item, plus a link to where you can find me on Mastodon.\n\nLet’s pop this baby in and see what happens.\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-01 11:03:34 -0500"
+  },
+  {
     "id": "2025-02-18-major-site-update",
     "url": "/logs/2025/02/18/major-site-update.html",
     "content": "Today the site has been updated in a major way. So, here’s a list of things I’ve done:\n\n\n  \n    -Used liquid code from @shellsharks in order to implement more than just blog posts onto the site! Now includes short-form, social media-esque type posts, and these change logs.\n  \n  \n    -Redesigned the front of the website to look like a pretend social media profile!\n  \n  \n    -Changed the standalone “/notes” page to display only notes, sans logs and posts.\n  \n\n\nWhile I’m still looking for a way to list each type of content (posts, notes, and logs) on their own pages, or somehow separately from each other, everything else is done, for now. I’m gonna go try out that game Kingdom Delivery pizza.\n",
