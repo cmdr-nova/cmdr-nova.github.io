@@ -11,8 +11,8 @@ akkoma:
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/776857261714849792/doing-one-more-tumblr-test-to-see-if-ive-got
+none: 
 ---
 Doing one more Tumblr test to see if I've got paragraph returns working correctly.
 
