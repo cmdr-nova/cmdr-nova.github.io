@@ -2720,6 +2720,15 @@
     "date": "2025-03-01 13:34:19 -0500"
   },
   {
+    "id": "2025-03-01-so-much-work",
+    "url": "/notes/2025/03/01/so-much-work.html",
+    "content": "I’m made a lot of progress on the website. All of my Mastodon posts are feeding in-ward and posting automatically as separate feed items, and the RSS is out-ward processing Posts, Logs, and Notes as feed items for subscribers separate from Mastodon to read. And, now, feed items also (should) post to Tumblr as if they’re regular posts.\n\nWhat’s next?\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-01 14:09:05 -0500"
+  },
+  {
     "id": "2025-03-01-testing-tumblr-function",
     "url": "/notes/2025/03/01/testing-tumblr-function.html",
     "content": "With this post, I’m testing functionality of using a Python script to post the full content of a feed item from my website to Tumblr, with some links and what-not at the bottom. This, will, of course, update to all sources that receive my RSS feed, but if you’re viewing this from Tumblr, specifically, this should show the full text, with a link to the original feed item, plus a link to where you can find me on Mastodon.\n\nLet’s pop this baby in and see what happens.\n\n",
