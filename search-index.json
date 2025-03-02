@@ -2720,6 +2720,15 @@
     "date": "2025-03-01 13:34:19 -0500"
   },
   {
+    "id": "2025-03-01-prepping-for-the-return-of-neo-machina",
+    "url": "/notes/2025/03/01/prepping-for-the-return-of-neo-machina.html",
+    "content": "Getting my #secondlife avatar prepped for the possible return of my cyberpunk city, Neo Machina.\n\n\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-01 14:41:35 -0500"
+  },
+  {
     "id": "2025-03-01-so-much-work",
     "url": "/notes/2025/03/01/so-much-work.html",
     "content": "I’m made a lot of progress on the website. All of my Mastodon posts are feeding in-ward and posting automatically as separate feed items, and the RSS is out-ward processing Posts, Logs, and Notes as feed items for subscribers separate from Mastodon to read. And, now, feed items also (should) post to Tumblr as if they’re regular posts.\n\nWhat’s next?\n",
