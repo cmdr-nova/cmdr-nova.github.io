@@ -25,6 +25,8 @@ Updates in regard to writing, a whole lot of music (seriously, a *huge* amount),
 
 I'm not really a traditional creator in the sense that, I don't have a merch store, I don't really have any material rewards that I offer, and I'm not a big streamer, or Youtuber who enjoys posting my face online at all times. Mostly, if you're on my Patreon for, at minimum, a dollar, you can download a zip archive of *every single album I've ever released*, plus copies of my old books that, at this point, I'm not sure anyone even knows exists anymore. And, then, of course, there's my, admittedly, *pretty quiet* Discord channel with auto-roles, where you can join, and hey, maybe start up some conversations!
 
+In regard to Second Life, I have a Patreon group in-world that gives an automatic discount on all of my digital products.
+
 But, you don't even have to pay. You can just follow my Patreon, and this helps boost its visibility to others.
 
 The reason I'm writing this, though, is, why? Why do I have a Patreon?
