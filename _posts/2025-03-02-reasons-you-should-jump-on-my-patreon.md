@@ -9,13 +9,13 @@ tags: [patreon, music, webdev]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114095331079525968
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/776949432220565504/i-was-trying-to-think-of-something-i-could-write
+none: 
 ---
 I was trying to think of something I could write long-form. It's always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of *anything* to write about. There's plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it's time for a change of pace. I want to talk <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">about my Patreon</a>, and hopefully bring in some new faces.
 
