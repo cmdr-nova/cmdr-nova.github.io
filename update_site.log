@@ -1,5 +1,6 @@
-Agent pid 540881
+Agent pid 543991
 Identity added: /home/cmdr-nova/.ssh/pop-nova (cmdr-nova@pop-os)
+Fetched 3 posts. Continuing.
 No new posts. Exiting
 Toot files updated successfully.
 Sitemap generated: /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/sitemap.xml
@@ -1054,7 +1055,7 @@ File tags: ['writing-prompt']
 Reading file: _posts/2019-07-28-terminus-the-album-to-end-all-albums-get-it.md
 Found tags line: music
 File tags: ['music']
-Post tags: {'writing-prompt', 'oldnet', 'testing', 'politics', 'defend', 'nineties', 'tv', 'social-media', 'thesims2', 'instagram', 'happen', 'javascript', 'deny', 'streaming', 'diablo4', 'thoughts', 'tumblr', 'wrapped', 'akkoma', 'blog', 'space', 'famous', 'webmaster', 'music', 'startup', 'gonna', 'blogging', 'lgbtq+', 'kingdom-come', 'inspiration', 'mastodon', 'fediverse', 'orgy', 'facebook', 'github', 'nvidia', 'firestorm', 'internet', 'jekyll', 'programming', 'website', 'bluesky', 'ai', 'meta', 'fiction', 'masseffectandromeda', 'challenge', 'bechdeltest', 'climatechange', 'lgbtq', 'sims4', 'lemmy', 'thebackrooms', 'questions', 'block', 'htaccess', 'design', 'pixelfed', 'waybackmachine', 'backrooms', 'bots', 'tik tok', 'ramen', 'java', 'blizzard', 'python', 'socialmedia', 'tech', 'spotify', 'install', 'scripting', 'writer', 'anticheat', 'bechdel', 'syndication', 'gaming', 'updates', 'lindenlabs', 'tiktokban', 'sharkey', 'numetal', 'dexter', 'gamingnews', 'stores', 'indieweb', 'secondlife', 'gamergate', 'test', 'virtualworld', 'not', 'rich', 'javascript-game', 'terminal', 'donations', 'intergalactic', 'metaverse', 'media', 'creators', 'tags', 'revosa', 'app', 'oligarchy', 'aging', 'reddit', 'vr-chat', 'activitypub', 'modding', 'rss', 'consolidate', 'toxicity', 'mac', 'food', 'robots', 'television', 'work', 'newyear', 'second-life', 'webdev', 'thewitcher4', 'depose', 'ode', 'blockai', 'writing', 'release', 'controversy', 'tutorials', 'image', 'migration', 'second', 'comments', 'threads', 'html', 'quiz', 'products', 'life', 'wafrn', 'linux', 'uhc', 'banned', 'computing'}
+Post tags: {'linux', 'toxicity', 'pixelfed', 'social-media', 'anticheat', 'webmaster', 'blockai', 'python', 'tags', 'life', 'htaccess', 'gamingnews', 'comments', 'java', 'streaming', 'modding', 'thesims2', 'akkoma', 'image', 'masseffectandromeda', 'threads', 'tumblr', 'donations', 'happen', 'ramen', 'mac', 'quiz', 'thewitcher4', 'writer', 'controversy', 'blog', 'nvidia', 'activitypub', 'revosa', 'github', 'bechdel', 'second-life', 'firestorm', 'bluesky', 'webdev', 'intergalactic', 'rss', 'blogging', 'climatechange', 'website', 'ode', 'sharkey', 'music', 'bechdeltest', 'products', 'migration', 'updates', 'banned', 'test', 'not', 'release', 'syndication', 'mastodon', 'metaverse', 'gonna', 'lemmy', 'uhc', 'food', 'startup', 'javascript', 'blizzard', 'secondlife', 'wafrn', 'indieweb', 'television', 'backrooms', 'lgbtq+', 'challenge', 'inspiration', 'testing', 'wrapped', 'computing', 'spotify', 'terminal', 'vr-chat', 'reddit', 'thebackrooms', 'ai', 'jekyll', 'creators', 'defend', 'stores', 'tiktokban', 'deny', 'oligarchy', 'fiction', 'programming', 'instagram', 'internet', 'facebook', 'fediverse', 'waybackmachine', 'robots', 'tv', 'nineties', 'media', 'rich', 'questions', 'space', 'aging', 'thoughts', 'dexter', 'virtualworld', 'block', 'second', 'socialmedia', 'gaming', 'work', 'writing', 'tik tok', 'famous', 'tech', 'tutorials', 'depose', 'oldnet', 'numetal', 'writing-prompt', 'kingdom-come', 'consolidate', 'install', 'orgy', 'design', 'sims4', 'newyear', 'scripting', 'lgbtq', 'lindenlabs', 'diablo4', 'gamergate', 'bots', 'meta', 'politics', 'javascript-game', 'html', 'app'}
 Collecting tags from notes...
 Reading file: _notes/2025-02-26-diving-into-eora.md
 Found tags line: [eora, pillars-of-eternity]
@@ -1155,7 +1156,7 @@ File tags: ['pillowfort', 'post']
 Reading file: _notes/2025-03-01-kc2-so-far.md
 Found tags line: [kingdomcome2, gaming]
 File tags: ['kingdomcome2', 'gaming']
-Note tags: {'sad', '', 'gaming', 'ai', 'note', 'social-media', 'nuggets', 'shitpost', 'posting', 'pillowfort', 'label', 'grave', 'webdev', 'pillars-of-eternity', 'littledudes', 'cats', 'tumblr', 'pandora', 'space', 'night', 'eora', 'release', 'baby', 'kingdomcome2', 'secondlife', 'music', 'oof', 'amongus', 'post', 'coffee', 'spotify', 'bread', 'kingdom-come', 'sleep', 'eyeshadow2600fm', 'mastodon'}
+Note tags: {'', 'spotify', 'sleep', 'gaming', 'social-media', 'music', 'pandora', 'littledudes', 'shitpost', 'ai', 'eora', 'pillars-of-eternity', 'pillowfort', 'coffee', 'baby', 'nuggets', 'release', 'kingdom-come', 'oof', 'tumblr', 'post', 'mastodon', 'night', 'sad', 'grave', 'bread', 'amongus', 'cats', 'posting', 'space', 'secondlife', 'webdev', 'note', 'kingdomcome2', 'label', 'eyeshadow2600fm'}
 Collecting tags from logs...
 Reading file: _logs/2025-02-22-rss-edits-again.md
 Found tags line: [updates]
@@ -1184,8 +1185,8 @@ File tags: ['webdev']
 Reading file: _logs/2025-02-22-simplified-posting.md
 Found tags line: [programming, webdev]
 File tags: ['programming', 'webdev']
-Log tags: {'overhaul', 'programming', 'update', 'updates', 'scripting', 'webdev', 'indexing', 'css', 'share-links'}
-All tags found: {'', 'writing-prompt', 'oldnet', 'testing', 'politics', 'defend', 'nineties', 'tv', 'social-media', 'thesims2', 'instagram', 'happen', 'posting', 'javascript', 'deny', 'label', 'streaming', 'diablo4', 'littledudes', 'thoughts', 'tumblr', 'wrapped', 'akkoma', 'blog', 'space', 'famous', 'webmaster', 'kingdomcome2', 'music', 'oof', 'startup', 'gonna', 'blogging', 'bread', 'lgbtq+', 'kingdom-come', 'inspiration', 'mastodon', 'fediverse', 'orgy', 'facebook', 'github', 'nvidia', 'firestorm', 'sad', 'internet', 'jekyll', 'programming', 'website', 'bluesky', 'ai', 'meta', 'fiction', 'masseffectandromeda', 'challenge', 'bechdeltest', 'climatechange', 'grave', 'lgbtq', 'sims4', 'lemmy', 'thebackrooms', 'questions', 'block', 'htaccess', 'design', 'pixelfed', 'waybackmachine', 'backrooms', 'bots', 'baby', 'tik tok', 'ramen', 'java', 'blizzard', 'amongus', 'python', 'socialmedia', 'tech', 'spotify', 'install', 'sleep', 'eyeshadow2600fm', 'scripting', 'writer', 'anticheat', 'bechdel', 'syndication', 'gaming', 'updates', 'lindenlabs', 'tiktokban', 'note', 'sharkey', 'pillowfort', 'numetal', 'dexter', 'gamingnews', 'stores', 'eora', 'indieweb', 'secondlife', 'gamergate', 'test', 'css', 'virtualworld', 'not', 'post', 'rich', 'javascript-game', 'terminal', 'donations', 'intergalactic', 'metaverse', 'media', 'creators', 'tags', 'revosa', 'app', 'oligarchy', 'aging', 'reddit', 'vr-chat', 'update', 'activitypub', 'modding', 'rss', 'indexing', 'consolidate', 'nuggets', 'toxicity', 'mac', 'food', 'shitpost', 'robots', 'television', 'overhaul', 'work', 'newyear', 'second-life', 'webdev', 'pillars-of-eternity', 'thewitcher4', 'cats', 'depose', 'pandora', 'ode', 'blockai', 'writing', 'night', 'release', 'controversy', 'tutorials', 'share-links', 'image', 'migration', 'second', 'comments', 'threads', 'html', 'quiz', 'products', 'life', 'coffee', 'wafrn', 'linux', 'uhc', 'banned', 'computing'}
+Log tags: {'indexing', 'css', 'programming', 'overhaul', 'scripting', 'webdev', 'share-links', 'update', 'updates'}
+All tags found: {'', 'linux', 'toxicity', 'pixelfed', 'social-media', 'anticheat', 'webmaster', 'blockai', 'python', 'eora', 'tags', 'life', 'htaccess', 'gamingnews', 'comments', 'java', 'baby', 'streaming', 'modding', 'thesims2', 'akkoma', 'image', 'masseffectandromeda', 'threads', 'tumblr', 'donations', 'happen', 'ramen', 'mac', 'quiz', 'thewitcher4', 'writer', 'controversy', 'blog', 'nvidia', 'cats', 'activitypub', 'revosa', 'github', 'bechdel', 'second-life', 'firestorm', 'bluesky', 'webdev', 'intergalactic', 'rss', 'blogging', 'climatechange', 'website', 'ode', 'sharkey', 'music', 'bechdeltest', 'littledudes', 'products', 'migration', 'pillars-of-eternity', 'updates', 'coffee', 'banned', 'test', 'not', 'release', 'share-links', 'syndication', 'mastodon', 'metaverse', 'gonna', 'lemmy', 'uhc', 'food', 'bread', 'startup', 'javascript', 'blizzard', 'secondlife', 'kingdomcome2', 'wafrn', 'indieweb', 'television', 'sleep', 'backrooms', 'lgbtq+', 'challenge', 'inspiration', 'indexing', 'testing', 'wrapped', 'computing', 'spotify', 'terminal', 'vr-chat', 'reddit', 'thebackrooms', 'ai', 'jekyll', 'pillowfort', 'creators', 'defend', 'stores', 'tiktokban', 'deny', 'oligarchy', 'fiction', 'programming', 'instagram', 'internet', 'facebook', 'post', 'fediverse', 'waybackmachine', 'night', 'robots', 'sad', 'tv', 'nineties', 'amongus', 'media', 'rich', 'questions', 'space', 'aging', 'thoughts', 'note', 'update', 'eyeshadow2600fm', 'dexter', 'virtualworld', 'block', 'second', 'socialmedia', 'gaming', 'work', 'overhaul', 'writing', 'tik tok', 'pandora', 'famous', 'shitpost', 'tech', 'tutorials', 'depose', 'oldnet', 'css', 'numetal', 'nuggets', 'writing-prompt', 'kingdom-come', 'consolidate', 'install', 'oof', 'orgy', 'design', 'sims4', 'newyear', 'scripting', 'lgbtq', 'lindenlabs', 'grave', 'diablo4', 'posting', 'gamergate', 'bots', 'meta', 'politics', 'javascript-game', 'label', 'html', 'app'}
 Added 0 new tags to the uncategorized section.
 Metadata for toots generated in toots_metadata.json
 _posts metadata generated at assets/js/posts_metadata.json
@@ -7928,6 +7929,9 @@ Processing toot: _toots/114090149337662117.md
 Processing toot: _toots/114090563744666810.md
 Processing toot: _toots/114091071341633748.md
 Processing toot: _toots/114091669714841033.md
+Processing toot: _toots/114094188487658144.md
+Processing toot: _toots/114094234557511916.md
+Processing toot: _toots/114094296681764543.md
 Processing toot: _toots/1204211300.md
 Processing toot: _toots/1204211500.md
 Processing toot: _toots/1204213000.md
@@ -8477,7 +8481,7 @@ Processing page: tag_index.html
 Processing page: wormhole.html
 Search index written to search-index.json
 Search index successfully created at search-index.json
-Search index generated with 7284 entries at search-index.json.
+Search index generated with 7287 entries at search-index.json.
 .htaccess file generated successfully.
 RSS feed generated at rss_feed.xml
 Configuration file: /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_config.yml
@@ -8487,5 +8491,5 @@ To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
  Incremental build: disabled. Enable with --incremental
       Generating... 
        Jekyll Feed: Generating feed for posts
-                    done in 16.076 seconds.
+                    done in 15.81 seconds.
  Auto-regeneration: disabled. Use --watch to enable.
