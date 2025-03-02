@@ -11,8 +11,8 @@ akkoma:
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/776865444195860480/getting-my-secondlife-avatar-prepped-for-the
+none: 
 ---
 Getting my #secondlife avatar prepped for the possible return of my cyberpunk city, *Neo Machina*.
 
