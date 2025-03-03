@@ -313,7 +313,7 @@ creator of everything -->
         
         
 
-        <p class="center"><b>Posts</b>: 7305 <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
+        <p class="center"><b>Posts</b>: 7306 <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
         <script src="/assets/js/fake-follows.js"></script>
 
         <div class="score">HIGH SCORE!</div>
@@ -365,6 +365,146 @@ creator of everything -->
   
   
 
+  
+    
+    
+
+    <div class="item">
+      <div>
+        
+        <span class="verb"><i class="ph ph-notebook"></i> Logged:</span>
+        <br /><br />
+        
+          <img src="/img/avatar/daemon.jpeg" alt="Avatar" class="no-center toot-avatar pack-avatar">
+        
+        
+          ⸸ commander ░ nova ⸸ :~$
+        
+        <br /><br />
+        
+        <div><p>screwing with my website more an hour and a half before i have to go to work again lol</p>
+
+<p>create a python script that combines 3 different ruby scripts that i use locally to create notes, posts, and logs, and simplified it all down to a single python script where I tell it what kind of content I want to publish, and then provide a title</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
+from datetime import datetime
+
+def create_post(post_type, title):
+    date = datetime.now()
+    formatted_date = date.strftime('%Y-%m-%d')
+    formatted_time = date.strftime('%Y-%m-%d %H:%M:%S')
+    filename = f"{formatted_date}-{title.lower().replace(' ', '-')}.md"
+
+    if post_type.lower() == 'log':
+        directory = '_logs'
+        front_matter = f"""---
+layout: log
+collection: logs
+date: {formatted_time}
+tags: []
+pinned: false
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
+akkoma: 
+bluesky: 
+wafrn: 
+pillowfort: 
+none: no_syndication_available 
+---"""
+    elif post_type.lower() == 'note':
+        directory = '_notes'
+        front_matter = f"""---
+layout: note
+collection: notes
+date: {formatted_time}
+tags: []
+pinned: false
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
+akkoma: 
+bluesky: 
+wafrn: 
+pillowfort: 
+none: no_syndication_available 
+---"""
+    elif post_type.lower() == 'post':
+        directory = '_posts'
+        front_matter = f"""---
+layout: post
+collection: posts
+date: {formatted_time}
+tags: []
+pinned: false
+author: ⸸ commander ░ nova ⸸ :~$
+avatar: /img/avatar/daemon.jpeg
+akkoma: 
+bluesky: 
+wafrn: 
+pillowfort: 
+none: no_syndication_available 
+---"""
+    else:
+        print("Invalid post type. Please choose Note, Log, or Post.")
+        return
+
+    # Make sure the directory exists, and create it if it doesn't
+    os.makedirs(directory, exist_ok=True)
+
+    filepath = os.path.join(directory, filename)
+
+    # Import the predefined front matter
+    content = f"{front_matter}\n\n# {title}\n\n"
+
+    # Write it to a file
+    with open(filepath, 'w') as file:
+        file.write(content)
+
+    print(f"{post_type.capitalize()} created: {filepath}")
+
+def main():
+    post_type = input("Enter the type of post (Note, Log, Post): ")
+    title = input("Enter the title of the post: ")
+
+    create_post(post_type, title)
+
+if __name__ == "__main__":
+    main()
+</code></pre></div></div>
+
+</div>
+        <span class="date"><i>published</i> February 22, 2025</span>
+        <div class="syndicate">
+          <i class="ph ph-broadcast" title="Syndication"></i>
+          
+          
+            <span style="padding:0px 5px 0px 5px;">
+              <a href="https://labyrinth.zone/notice/ArNXsf8rbuEqH1Jvuq" target="_blank">Akkoma</a>
+            </span>
+          
+          
+          
+          
+        
+          
+        </div>
+        
+          <div class="tags">
+            
+              <span>#programming</span>
+            
+              <span>#webdev</span>
+            
+          </div>
+        
+        
+        <div style="text-align: right;">
+          <a href="/logs/2025/02/22/simplified-posting/" class="small-link">view</a> | 
+          <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('/logs/2025/02/22/simplified-posting/')">share</a>
+        </div>
+        <script src="/assets/js/clipboard.js"></script>
+      
+      </div>
+    </div>
   
     
     
@@ -682,72 +822,6 @@ creator of everything -->
         <div style="text-align: right;">
           <a href="/notes/2025/02/20/ai-poster/" class="small-link">view</a> | 
           <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('/notes/2025/02/20/ai-poster/')">share</a>
-        </div>
-        <script src="/assets/js/clipboard.js"></script>
-      
-      </div>
-    </div>
-  
-    
-    
-
-    <div class="item">
-      <div>
-        
-        <span class="verb"><i class="ph ph-note"></i> Noted:</span>
-        <br /><br />
-        
-          <img src="/img/avatar/daemon.jpeg" alt="Avatar" class="no-center toot-avatar pack-avatar">
-        
-        
-          ⸸ commander ░ nova ⸸ :~$
-        
-        <br /><br />
-        
-        <div><p>Hello Pillowfortnite, it’s been a little while since I’ve posted here, and that’s mostly because I’m constantly scattering back and forth between social websites due to the fact that, once Twitter died, I kind of lost my feeling of centrality on the internet.</p>
-
-<p>I think I’ve got the handle on that though, because, even though I post here, I post on ActivityPub, I post on Bluesky, you know, I’ve been running a website this whole time.</p>
-
-<p>So, what I did was, is I decided to make my website the central place of balance of my internet presence. In that, along with blog posts on the main feed on the site itself, it now also features “notes” and “logs.</p>
-
-<p>Notes are basically social media posts that I’ve written directly onto my website, as well, with links to their social media counterpart (as if it’s syndicated), and logs are just me posting changelogs about my site.</p>
-
-<p>It creates this unique kind of opportunity to turn my website into my own personal social feed.</p>
-
-<p>… if only I could figure out an easy way to create a note, build it via Jekyll, and then push it to github and then Neocities … via my phone!</p>
-
-<p>I know one way I could do this, but it’s kind of a major project to setup, and I’ve got this feeling in my brain juice that I could probably think of an even easier way to do it.</p>
-
-<p>Maybe.</p>
-</div>
-        <span class="date"><i>published</i> February 19, 2025</span>
-        <div class="syndicate">
-          <i class="ph ph-broadcast" title="Syndication"></i>
-          
-          
-          
-          
-          
-          <span style="padding:0px 5px 0px 5px;">
-            <a href="https://www.pillowfort.social/posts/5948600" target="_blank">Pillowfort</a>
-          </span>
-        
-        
-          
-        </div>
-        
-          <div class="tags">
-            
-              <span>#pillowfort</span>
-            
-              <span>#post</span>
-            
-          </div>
-        
-        
-        <div style="text-align: right;">
-          <a href="/notes/2025/02/19/pillowfortnite/" class="small-link">view</a> | 
-          <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('/notes/2025/02/19/pillowfortnite/')">share</a>
         </div>
         <script src="/assets/js/clipboard.js"></script>
       
