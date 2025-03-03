@@ -2754,6 +2754,15 @@
     "date": "2025-03-01 11:03:34 -0500"
   },
   {
+    "id": "2025-03-03-consequences",
+    "url": "/notes/2025/03/03/consequences.html",
+    "content": "Every single time I play Kingdom Come Deliverance 2 I end up in a situation where I’m hiding bodies, because something I did pissed off an innocent person, and I refuse to face consequences.\n\nSo many dead quest tippers.\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-02 19:02:01 -0500"
+  },
+  {
     "id": "2025-02-18-major-site-update",
     "url": "/logs/2025/02/18/major-site-update.html",
     "content": "Today the site has been updated in a major way. So, here’s a list of things I’ve done:\n\n\n  \n    -Used liquid code from @shellsharks in order to implement more than just blog posts onto the site! Now includes short-form, social media-esque type posts, and these change logs.\n  \n  \n    -Redesigned the front of the website to look like a pretend social media profile!\n  \n  \n    -Changed the standalone “/notes” page to display only notes, sans logs and posts.\n  \n\n\nWhile I’m still looking for a way to list each type of content (posts, notes, and logs) on their own pages, or somehow separately from each other, everything else is done, for now. I’m gonna go try out that game Kingdom Delivery pizza.\n",
