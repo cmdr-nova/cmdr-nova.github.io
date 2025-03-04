@@ -9,13 +9,13 @@ tags: [second-life, neo-machina]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114106381363691594
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/777126224686415872/its-been-quite-a-while-since-my-city-in-second
+none:
 ---
 It's been quite a while since my city in Second Life has been online, or even *seen* any light of day. For the most part, it's been inactive in Linden Lab's backup servers for well over six months, maybe longer? I have a hard time keeping up with ... time. Never-the-less, it's back. Due to offline circumstances, and having a little bit more money from my job, I've decided it's totally feasible to have my own *thing* in Second Life running, again. A place where I simultaneously host my store.
 

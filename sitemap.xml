@@ -48175,6 +48175,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/tag/neo-machina.html</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/tag/github.html</loc>
     <lastmod>2025-03-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -91730,6 +91736,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/tag/jekyll.md</loc>
+    <lastmod>2025-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/tag/neo-machina.md</loc>
     <lastmod>2025-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
