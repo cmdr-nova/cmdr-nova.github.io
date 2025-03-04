@@ -11,7 +11,7 @@ permalink: /pages/second-life/
 <p><b>AyaSys</b> is a side store that I started back in 2016, under the name Horcrux Solutions, and later (in 2023) changed its name to AyaSys. This store is more geared toward scripts and scripted items, with a dash of decorative props.</p>
 
 <p>
-<a href="http://maps.secondlife.com/secondlife/Necrotee/218/229/3551" target="_blank">[REVOSA] x AyaSys</a> store location, in-world.
+<a href="http://maps.secondlife.com/secondlife/Neo%20Machina/179/171/25" target="_blank">[REVOSA] x AyaSys</a> store location, in-world.
 </p>
 
 <p>
@@ -26,7 +26,6 @@ permalink: /pages/second-life/
 <img src="/img/revosa/revosa.png">
 </p>
 
-<!--
 <div class="rainbow"><h1>NEO MACHINA</h1></div>
 
 <p>
@@ -35,15 +34,8 @@ Neo Machina has had ... kind of a wild journey. It didn't actually <i>begin</i> 
 
 <p>I wanted to keep visiting, and make a home for myself there, you know?</p>
 
-<p>So, I got the wild idea to upgrade my Second Life membership, and rent a Homstead directly from Linden Labs, and rebuild it myself, in my own image. Which I did!</p>
+<p>So, I got the wild idea to upgrade my Second Life membership, and rent a Homestead directly from Linden Labs, and rebuild it myself, in my own image. Which I did!</p>
 
-<p>This lasted for about a year and 8 months, until inflation, and debt kind of made it not so fiscally responsible to maintain ... since Linden Labs charges over 100 USD a month in order to maintain a Homestead. And, for about two months, Neo Machina was completely gone (although, I tried a few different ways in order to resurrect it).</p>
-
-<p>But then, I got another wild idea. In order to avoid paying land barons, and in order to keep costs down, I decided to go and buy a ton of Mainland space for myself, and then rebuild Neo Machina <i>that way</i></p>
-
-<p>And then, voila, my city returned! Neo Machina now stands at Auriga, directly next to protected roadways.</p>
-
-<p>You can visit Neo Machina, <a href="http://maps.secondlife.com/secondlife/Auriga/150/185/68" target="_blank">here</a>.</p>
+<p>You can visit Neo Machina, <a href="http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23" target="_blank">here</a>.</p>
 
 <img src="/img/revosa/nm.png">
--->
