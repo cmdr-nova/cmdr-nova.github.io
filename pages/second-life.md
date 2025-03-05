@@ -6,7 +6,7 @@ permalink: /pages/second-life/
 
 <div class="rainbow"><h1>[REVOSA] x AyaSys</h1></div>
 
-<p><b>[REVOSA]</b> is my long-time standing Second Life store, which was opened in 2015 at the end of something of a tumultuous relationship. Since, it has grown exponentially, and although I've had to make a lot of express space in my time for a daily offline job, it's still running, and <i>still going</i>.</p>
+<p><b>[REVOSA]</b> is my long-time standing Second Life store, which was opened in 2015 at the end of something of a tumultuous relationship. Since, it has grown exponentially, and although I've had to make a lot of space in my time for a daily offline job, it's still running, and <i>still going</i>.</p>
 
 <p><b>AyaSys</b> is a side store that I started back in 2016, under the name Horcrux Solutions, and later (in 2023) changed its name to AyaSys. This store is more geared toward scripts and scripted items, with a dash of decorative props.</p>
 
@@ -23,7 +23,7 @@ permalink: /pages/second-life/
 </p>
 
 <p>
-<img src="/img/revosa/revosa.png">
+<img src="/img/revosa/screeny_071.png">
 </p>
 
 <div class="rainbow"><h1>NEO MACHINA</h1></div>
@@ -38,4 +38,4 @@ Neo Machina has had ... kind of a wild journey. It didn't actually <i>begin</i> 
 
 <p>You can visit Neo Machina, <a href="http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23" target="_blank">here</a>.</p>
 
-<img src="/img/revosa/nm.png">
+<img src="/img/revosa/screeny_070.png">
