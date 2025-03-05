@@ -17,7 +17,7 @@ pillowfort:
 tumblr: https://www.tumblr.com/nova-ayashi/777215875605512192/i-wasnt-going-to-write-about-all-of-this-at
 none: 
 ---
-Update: I've been made aware that Mozilla's AUP has been the same *for decades*, and this is only coming to light, because the egregious changes they've made more recently have brought *more* strange things to the surface.
+**Update**: I've been made aware that Mozilla's AUP has been the same *for decades*, and this is only coming to light, because the egregious changes they've made more recently have brought *more* strange things to the surface.
 
 I wasn't going to write about all of this, at first, because it's just one thing in a years-long trend of Mozilla betraying everything they're supposed to stand for in order to ride the generative theft and destruction train. But! I've seen maybe ... *one* person talk about their new acceptable use policy, and for all intents and purposes, they *absolutely* now prohibit the use of their services to display pornographic material.
 
