@@ -10,7 +10,18 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Wed, 05 Mar 2025 13:00:14 -0500</pubDate>
+    <pubDate>Wed, 05 Mar 2025 13:51:28 -0500</pubDate>
+    <item>
+      <title>New Note</title>
+      <link>https://mkultra.monster/notes/2025/03/05/return-to-form/</link>
+      <description>&lt;p&gt;With the return of my dystopian cyberpunk city in Second Life, that also means it’s time to become the scariest cybernetic being on the entire grid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/notes/cyber/screeny_068.png&quot; /&gt;&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 05 Mar 2025 08:50:27 -0500</pubDate>
+      <dc:date>2025-03-05T08:50:27-05:00</dc:date>
+    </item>
     <item>
       <title>Neo Machina: Online</title>
       <link>https://mkultra.monster/secondlife/2025/03/04/neo-machina-online.html</link>
@@ -15221,6 +15232,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-05T13:00:14-05:00</dc:date>
+    <dc:date>2025-03-05T13:51:28-05:00</dc:date>
   </channel>
 </rss>

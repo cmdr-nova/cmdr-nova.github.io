@@ -2359,6 +2359,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_notes/2025-03-05-return-to-form.md</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_notes/2025-03-01-testing-tumblr-function.md</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -26918,6 +26924,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/toots/1220094800/index.html</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/toots/114111071260128191/index/index.html</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
