@@ -222,10 +222,53 @@
                     />
               </div>
             -->
-              <div class="feed">
-                <h3>Blog feed:</h3>
-                <script src="//rss.bloople.net/?url=https%3A%2F%2Fmkultra.monster%2Frss_feed.xml&detail=100&limit=3&showtitle=false&type=js"></script>
-              </div>
+            <div class="feed">
+              <h3>Blog feed:</h3>
+              <script>
+                fetch('https://mkultra.monster/rss_feed.xml')
+                  .then(response => response.text())
+                  .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                  .then(data => {
+                    const items = data.querySelectorAll("item");
+                    let html = "";
+                    const rootDomain = 'https://mkultra.monster'; // Define the root domain
+                    items.forEach((el, index) => {
+                      if (index < 3) { // Limit to 3 items
+                        const title = el.querySelector("title").textContent;
+                        const link = el.querySelector("link").textContent;
+                        const description = el.querySelector("description").textContent;
+                        const summary = description.length > 200 ? description.substring(0, 200) + '...' : description;
+                        let image = '';
+              
+                        // Find the first image within the first couple of paragraphs
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(description, 'text/html');
+                        const paragraphs = doc.querySelectorAll('p');
+                        for (let i = 0; i < Math.min(paragraphs.length, 2); i++) {
+                          const img = paragraphs[i].querySelector('img');
+                          if (img) {
+                            image = img.getAttribute('src');
+                            if (image && !image.startsWith('http')) {
+                              image = rootDomain + image;
+                            }
+                            break;
+                          }
+                        }
+              
+                        html += `<div class="feed-item">`;
+                        html += `<p><a href="${link}" target="_blank">${title}</a></p>`;
+                        html += `<p>${summary}</p>`;
+                        if (image) {
+                          html += `<img src="${image}" alt="${title}" class="feed-image" onerror="this.onerror=null;this.src='/img/placeholder.png';"/>`;
+                        }
+                        html += `</div>`;
+                      }
+                    });
+                    document.querySelector(".feed").innerHTML += html;
+                  })
+                  .catch(err => console.error(err));
+              </script>
+            </div>
 
               <div class="links">
                 <a href="https://mkultra.monster/linkgarden/for_you/" 
