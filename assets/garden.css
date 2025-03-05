@@ -318,6 +318,13 @@ h1, h2, h3 {
   text-indent: 20px;
 }
 
+.feed img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .feed a {
   color: var(--feed-text);
 }

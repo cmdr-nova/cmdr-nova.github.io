@@ -9,13 +9,13 @@ tags: [tech, mozilla, firefox]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114111991195410747
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/777215875605512192/i-wasnt-going-to-write-about-all-of-this-at
+none: 
 ---
 I wasn't going to write about all of this, at first, because it's just one thing in a years-long trend of Mozilla betraying everything they're supposed to stand for in order to ride the generative theft and destruction train. But! I've seen maybe ... *one* person talk about their new acceptable use policy, and for all intents and purposes, they *absolutely* now prohibit the use of their services to display pornographic material.
 
