@@ -1861,6 +1861,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_posts/2025-03-05-did-mozilla-ban-pornography.md</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_posts/2024-05-17-reddit-following-in-twitters-footsteps-like-a-lost-puppy.md</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -47377,6 +47383,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/tech/2025/03/05/did-mozilla-ban-pornography.html</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/tech/2025/02/24/make-the-move-to-rss.html</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -48289,6 +48301,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/tag/mozilla.html</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/tag/post.html</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -48332,6 +48350,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/tag/rich.html</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/tag/firefox.html</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -92545,6 +92569,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/tag/firefox.md</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/tag/ode.md</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -92612,6 +92642,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/tag/politics.md</loc>
+    <lastmod>2025-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/tag/mozilla.md</loc>
     <lastmod>2025-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

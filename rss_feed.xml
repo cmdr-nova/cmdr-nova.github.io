@@ -10,7 +10,42 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Wed, 05 Mar 2025 16:00:05 -0500</pubDate>
+    <pubDate>Wed, 05 Mar 2025 16:34:58 -0500</pubDate>
+    <item>
+      <title>Did Mozilla Ban Pornography?</title>
+      <link>https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography.html</link>
+      <description>&lt;p&gt;I wasn’t going to write about all of this, at first, because it’s just one thing in a years-long trend of Mozilla betraying everything they’re supposed to stand for in order to ride the generative theft and destruction train. But! I’ve seen maybe … &lt;em&gt;one&lt;/em&gt; person talk about their new acceptable use policy, and for all intents and purposes, they &lt;em&gt;absolutely&lt;/em&gt; now prohibit the use of their services to display pornographic material.&lt;/p&gt;
+
+&lt;p&gt;You might be thinking, “Who cares? Is porn that important?”&lt;/p&gt;
+
+&lt;p&gt;Most people are online to look at porn, or, &lt;em&gt;at least&lt;/em&gt;, they &lt;em&gt;do&lt;/em&gt; at some point. It’s human nature.&lt;/p&gt;
+
+&lt;p&gt;Via their own new &lt;a href=&quot;https://www.mozilla.org/en-US/about/legal/acceptable-use/&quot; target=&quot;_blank&quot;&gt;Acceptable Use Policy&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+You may not use any of Mozilla’s services to:&lt;br /&gt;&lt;br /&gt;
+
+Upload, download, transmit, display, or grant access to content that includes graphic depictions of sexuality...
+&lt;/blockquote&gt;
+
+&lt;p&gt;Because, you &lt;em&gt;definitely&lt;/em&gt; need a tech company to decide for you what you can view using a web browser, or technology connected to it.&lt;/p&gt;
+
+&lt;p&gt;Now, this doesn’t &lt;em&gt;explicitly&lt;/em&gt; state that viewing porn &lt;em&gt;with&lt;/em&gt; Firefox is a breach of their AUP. It’s more to do with their cloud and/or other services, like syncing, tab sharing between devices, and so on. But! If you’re a &lt;em&gt;regular&lt;/em&gt; Firefox user, you probably do &lt;em&gt;at least&lt;/em&gt; one of these things, and you’ve probably &lt;em&gt;already&lt;/em&gt; violated their updated Acceptable Use Policy.&lt;/p&gt;
+
+&lt;p&gt;This news came alongside other changes they made, such as casually talking about how they’re &lt;a href=&quot;https://support.mozilla.org/en-US/kb/technical-and-interaction-data&quot; target=&quot;_blank&quot;&gt;collecting your browser interaction data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So … actually, maybe it &lt;em&gt;would&lt;/em&gt; be a violation of their AUP to even so much as search for something like “boobies.”&lt;/p&gt;
+
+&lt;p&gt;You be the judge!&lt;/p&gt;
+
+&lt;p&gt;I’ll be on &lt;a href=&quot;https://vivaldi.com&quot; target=&quot;_blank&quot;&gt;Vivaldi&lt;/a&gt;. Not because porn is a central reason for my using the internet (I switched to Vivaldi months and months ago after Mozilla introduced AI “features” into their browser), but because Mozilla wants &lt;em&gt;everything you do&lt;/em&gt; to be a record that they can collect, and use for their own gain, &lt;em&gt;including&lt;/em&gt; training AI, among a million other things they shouldn’t be doing. And I just don’t have any time, or energy for all of that. Everything is &lt;em&gt;already&lt;/em&gt; exhausting and annoying, &lt;em&gt;enough&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;With the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 05 Mar 2025 11:05:40 -0500</pubDate>
+      <dc:date>2025-03-05T11:05:40-05:00</dc:date>
+    </item>
     <item>
       <title>New Note</title>
       <link>https://mkultra.monster/notes/2025/03/05/return-to-form/</link>
@@ -15232,6 +15267,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-05T16:00:05-05:00</dc:date>
+    <dc:date>2025-03-05T16:34:58-05:00</dc:date>
   </channel>
 </rss>
