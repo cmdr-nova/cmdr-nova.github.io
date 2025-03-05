@@ -9,9 +9,9 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: https://mastodon.online/@cmdr_nova/114107813380426274
-image: /toots/114107813380426274/114107810139295242.png
+image: /toots/114107813380426274/114107830321218039.png
 ---
 
 This new posing tool they made is SWEET
 
-<img src="/toots/114107813380426274/114107810139295242.png" alt="Image">
+<img src="/toots/114107813380426274/114107830321218039.png" alt="Image">
