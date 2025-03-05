@@ -1,5 +1,5 @@
 :root {
-  --page-bgcolor: #1c1c1c;
+  --page-bgcolor: #002B36;
   --textcolor: #edfd06;
   --container-bordercolor: none;
   --h-colors: #edfd06;
@@ -111,6 +111,7 @@ a:active {
   -ms-flex-align: center;
   align-items: center;
   margin-top: -50px;
+  margin-bottom: -20px;
 }
 
 h1, h2, h3 {
@@ -318,6 +319,11 @@ h1, h2, h3 {
   text-indent: 20px;
 }
 
+.feed-item-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .feed img {
   max-width: 100%;
   height: auto;
@@ -327,6 +333,12 @@ h1, h2, h3 {
 
 .feed a {
   color: var(--feed-text);
+  font-weight: 400;
+}
+
+.feed a:visited {
+  color: var(--feed-text);
+  font-weight: bold;
 }
 
 .feed h3 {

@@ -33,14 +33,14 @@
                 <img
                   width="100"
                   height="100"
-                  src="/img/garden/nova_2025_3.png"
+                  src="/img/avatar/daemon.jpeg"
                   alt="Avatar img"
                   class="img2"
                   />
       
                 <h1
                 class="username rainbow">
-                &#xa9;o&#x2133;&#x2133;ande&#x211B; &#x2116;&#x2207;a
+                /usr/CMDR ░ NOVA :~$
               </h1>
               <h1>
               @cmdr_nova
@@ -48,53 +48,11 @@
               <h2
                 class="main-desc">
       
-                &#x2591; hobbyist webdev, artist behind <b>Eyeshadow 2600 FM</b>, independent author and writer, and Second Life designer under the names <b>[REVOSA]</b> & <b>AyaSys</b>
+                &#x2591; The artist behind <b>Eyeshadow 2600 FM</b>, author of multiple novels that lay dormant in the void, and a Second Life creator at <b>[REVOSA]</b> & <b>AyaSys</b>. I am a writer, composer, designer, linux-enjoyer & webdev.
               
               </h2>
             
             </div>
-          </div>
-          <div class="links">
-            <a
-              href="https://mkultra.monster"
-              target="_blank"
-              >Website
-            </a>
-          </div>
-      
-          <div class="links">
-            <a
-              href="https://mkultra.monster/portfolio/"
-              target="_blank"
-              >Portfolio</a>
-          </div>
-          
-          <div class="links">
-            <a
-              href="https://www.patreon.com/c/cmdr_nova"
-              target="_blank"
-              >Patreon</a>
-      
-          </div>
-      
-          <div class="links">
-            <a
-              href="https://marketplace.secondlife.com/en-US/stores/165186"
-              target="_blank"
-              >[REVOSA]</a>
-          </div>
-
-          <div class="links">
-            <a
-              href="https://discord.com/channels/1062366132343939173/1062387444240089189"
-              target="_blank"
-              >Discord</a>
-          </div>
-      
-          <div class="links">
-            <a
-              href="mailto:cmdr-nova@mkultra.monster"
-              >Contact me</a>
           </div>
 
           <h1>
@@ -103,6 +61,7 @@
                 <a
                   href="https://mastodon.online/@cmdr_nova"
                   aria-label="Mastodon"
+                  alt="Mastodon"
                   rel="me"
                   target="_blank"
                   >
@@ -193,6 +152,56 @@
             </div>
           </h1>
 
+          <div class="links">
+            <a
+              href="https://mkultra.monster"
+              target="_blank"
+              >Website
+            </a>
+          </div>
+      
+          <div class="links">
+            <a
+              href="https://mkultra.monster/portfolio/"
+              target="_blank"
+              >Portfolio</a>
+          </div>
+          
+          <div class="links">
+            <a
+              href="https://www.patreon.com/c/cmdr_nova"
+              target="_blank"
+              >Patreon</a>
+      
+          </div>
+      
+          <div class="links">
+            <a
+              href="https://marketplace.secondlife.com/en-US/stores/165186"
+              target="_blank"
+              >[REVOSA]</a>
+          </div>
+
+          <div class="links">
+            <a
+              href="https://marketplace.secondlife.com/en-US/stores/186986"
+              target="_blank"
+              >AyaSys</a>
+          </div>
+
+          <div class="links">
+            <a
+              href="https://discord.com/channels/1062366132343939173/1062387444240089189"
+              target="_blank"
+              >Discord</a>
+          </div>
+      
+          <div class="links">
+            <a
+              href="mailto:cmdr-nova@mkultra.monster"
+              >Contact me</a>
+          </div>
+
           <div class="featured">
             <a
               href="https://eyeshadow2600fm.bandcamp.com"
@@ -223,7 +232,6 @@
               </div>
             -->
             <div class="feed">
-              <h3>Blog feed:</h3>
               <script>
                 fetch('https://mkultra.monster/rss_feed.xml')
                   .then(response => response.text())
@@ -237,7 +245,6 @@
                         const title = el.querySelector("title").textContent;
                         const link = el.querySelector("link").textContent;
                         const description = el.querySelector("description").textContent;
-                        const summary = description.length > 200 ? description.substring(0, 200) + '...' : description;
                         let image = '';
               
                         // Find the first image within the first couple of paragraphs
@@ -255,12 +262,16 @@
                           }
                         }
               
+                        // Truncate the description after extracting the image
+                        const summary = doc.body.textContent.length > 200 ? doc.body.textContent.substring(0, 200) + '...' : doc.body.textContent;
+              
                         html += `<div class="feed-item">`;
-                        html += `<p><a href="${link}" target="_blank">${title}</a></p>`;
+                        html += `<p class="feed-item-title"><a href="${link}" target="_blank">${title}</a></p>`;
                         html += `<p>${summary}</p>`;
                         if (image) {
-                          html += `<img src="${image}" alt="${title}" class="feed-image" onerror="this.onerror=null;this.src='/img/placeholder.png';"/>`;
+                          html += `<img src="${image}" alt="${title}" class="feed-image"/>`;
                         }
+                        html += `<p><a href="${link}" target="_blank"> > > Read more ...</a></p>`;
                         html += `</div>`;
                       }
                     });
