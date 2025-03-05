@@ -239,15 +239,14 @@
                   .then(data => {
                     const items = data.querySelectorAll("item");
                     let html = "";
-                    const rootDomain = 'https://mkultra.monster'; // Define the root domain
+                    const rootDomain = 'https://mkultra.monster';
                     items.forEach((el, index) => {
-                      if (index < 3) { // Limit to 3 items
+                      if (index < 3) { 
                         const title = el.querySelector("title").textContent;
                         const link = el.querySelector("link").textContent;
                         const description = el.querySelector("description").textContent;
                         let image = '';
               
-                        // Find the first image within the first couple of paragraphs
                         const parser = new DOMParser();
                         const doc = parser.parseFromString(description, 'text/html');
                         const paragraphs = doc.querySelectorAll('p');
@@ -262,7 +261,6 @@
                           }
                         }
               
-                        // Truncate the description after extracting the image
                         const summary = doc.body.textContent.length > 200 ? doc.body.textContent.substring(0, 200) + '...' : doc.body.textContent;
               
                         html += `<div class="feed-item">`;

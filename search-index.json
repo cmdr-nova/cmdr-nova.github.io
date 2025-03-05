@@ -2466,7 +2466,7 @@
   {
     "id": "2025-03-05-did-mozilla-ban-pornography",
     "url": "/tech/2025/03/05/did-mozilla-ban-pornography.html",
-    "content": "I wasn’t going to write about all of this, at first, because it’s just one thing in a years-long trend of Mozilla betraying everything they’re supposed to stand for in order to ride the generative theft and destruction train. But! I’ve seen maybe … one person talk about their new acceptable use policy, and for all intents and purposes, they absolutely now prohibit the use of their services to display pornographic material.\n\nYou might be thinking, “Who cares? Is porn that important?”\n\nMost people are online to look at porn, or, at least, they do at some point. It’s human nature.\n\nVia their own new Acceptable Use Policy\n\n\nYou may not use any of Mozilla’s services to:\n\nUpload, download, transmit, display, or grant access to content that includes graphic depictions of sexuality...\n\n\nBecause, you definitely need a tech company to decide for you what you can view using a web browser, or technology connected to it.\n\nNow, this doesn’t explicitly state that viewing porn with Firefox is a breach of their AUP. It’s more to do with their cloud and/or other services, like syncing, tab sharing between devices, and so on. But! If you’re a regular Firefox user, you probably do at least one of these things, and you’ve probably already violated their updated Acceptable Use Policy.\n\nThis news came alongside other changes they made, such as casually talking about how they’re collecting your browser interaction data.\n\nSo … actually, maybe it would be a violation of their AUP to even so much as search for something like “boobies.”\n\nYou be the judge!\n\nI’ll be on Vivaldi. Not because porn is a central reason for my using the internet (I switched to Vivaldi months and months ago after Mozilla introduced AI “features” into their browser), but because Mozilla wants everything you do to be a record that they can collect, and use for their own gain, including training AI, among a million other things they shouldn’t be doing. And I just don’t have any time, or energy for all of that. Everything is already exhausting and annoying, enough.\n\nWith the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.\n\n",
+    "content": "Update: I’ve been made aware that Mozilla’s AUP has been the same for decades, and this is only coming to light, because the egregious changes they’ve made more recently have brought more strange things to the surface.\n\nI wasn’t going to write about all of this, at first, because it’s just one thing in a years-long trend of Mozilla betraying everything they’re supposed to stand for in order to ride the generative theft and destruction train. But! I’ve seen maybe … one person talk about their new acceptable use policy, and for all intents and purposes, they absolutely now prohibit the use of their services to display pornographic material.\n\nYou might be thinking, “Who cares? Is porn that important?”\n\nMost people are online to look at porn, or, at least, they do at some point. It’s human nature.\n\nVia their own new Acceptable Use Policy\n\n\nYou may not use any of Mozilla’s services to:\n\nUpload, download, transmit, display, or grant access to content that includes graphic depictions of sexuality...\n\n\nBecause, you definitely need a tech company to decide for you what you can view using a web browser, or technology connected to it.\n\nNow, this doesn’t explicitly state that viewing porn with Firefox is a breach of their AUP. It’s more to do with their cloud and/or other services, like syncing, tab sharing between devices, and so on. But! If you’re a regular Firefox user, you probably do at least one of these things, and you’ve probably already violated their updated Acceptable Use Policy.\n\nThis news came alongside other changes they made, such as casually talking about how they’re collecting your browser interaction data.\n\nSo … actually, maybe it would be a violation of their AUP to even so much as search for something like “boobies.”\n\nYou be the judge!\n\nI’ll be on Vivaldi. Not because porn is a central reason for my using the internet (I switched to Vivaldi months and months ago after Mozilla introduced AI “features” into their browser), but because Mozilla wants everything you do to be a record that they can collect, and use for their own gain, including training AI, among a million other things they shouldn’t be doing. And I just don’t have any time, or energy for all of that. Everything is already exhausting and annoying, enough.\n\nWith the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.\n\n",
     "type": "post",
     "title": "Did Mozilla Ban Pornography?"
   },
@@ -60164,6 +60164,24 @@
     "id": "114111506372169778",
     "url": "/toots/114111506372169778/114111506372169778.html",
     "content": "I haven’t used it at all in well over years and years, but I finally deleted my other decade+ old twitter account\n\nHolding onto hope that the platform would ever return to normal is pointless, especially because it was bad when it was normal, too\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-05"
+  },
+  {
+    "id": "114112163333413228",
+    "url": "/toots/114112163333413228/114112163333413228.html",
+    "content": "i’ve been using someone else’s script for the longest time to display my RSS feed on my linkgarden page\n\ndecided I’ll just use my own script, why not lol\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-05"
+  },
+  {
+    "id": "114112236755921928",
+    "url": "/toots/114112236755921928/114112236755921928.html",
+    "content": "Updated my link page to be cooler, more prominently feature my socials, and to use my own script for displaying my RSS feed\n\nhttps://mkultra.monster/linkgarden\n",
     "type": "toot",
     "avatar": "/img/avatar/daemon.jpeg",
     "author": "⸸ commander ░ nova ⸸ :~$",
