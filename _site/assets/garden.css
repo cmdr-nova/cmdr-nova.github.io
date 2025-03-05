@@ -1,10 +1,10 @@
 :root {
-  --page-bgcolor: #002B36;
+  --page-bgcolor: #1c1c1c;
   --textcolor: #edfd06;
   --container-bordercolor: none;
   --h-colors: #edfd06;
   --link-color: #edfd06;
-  --link-color-hover: #353535;
+  --link-color-hover: #25df54;
   --link-color-visited: #edfd06;
   --link-container-color: #1f1f1f;
   --drop-shadow: rgba(234, 238, 4, 0.774);
