@@ -9,13 +9,13 @@ tags: [social-media, tech, ai]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114117975243820890
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/777311814901022720/its-been-a-while-since-ive-written-about-the
+none: 
 ---
 It's been a while since I've written about the egregious battle of attrition basically *anyone* who does *anything* creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on *every single social platform*. But, is that enough?
 
@@ -37,14 +37,14 @@ During the rise of Nazi Germany, the fascist party decided for the population wh
 
 Also, take note that *a lot* of AI generative theft is geared toward <a href="https://www.404media.co/chinese-ai-video-generators-unleash-a-flood-of-new-nonconsensual-porn-3/" target="_blank">non-consensual porn</a>, *but that's no surprise*, because the entire grift is based on a complete lack of consent.
 
-Outside of these aspects, anyone else is just using it to "make" things they want to see, and then claiming that they've *done* something, that it's *their* work (even though 99.9% of the time it looks like utter trash).
+Outside of these aspects, anyone else is just using it to "make" things they want to see, and then claiming that they've *done* something, that it's *their* work (even though 99.9% of the time it looks like utter trash, and is based on the real work of millions of people who never even so much as received any notice that their work was scraped).
 
-But, why?
+But, why? Why do they do this?
 
 A fascist is incapable of creating. A fascist can only destroy.
 
-Generative AI is fascist. Stop sharing AI, stop posting slop, and push these parasites *off* of community-owned social media, before they're allowed to invade, unhindered.
+Generative AI is a fascist, total destruction of the arts. *Mostly* deployed by billionaire scum fueling misinformation, and largely used by people who either *can't* create, or have some other agenda related to instant gratification, or things that *should be crimes against humanity*. Stop sharing AI, stop posting slop, and push these parasites *off* of community-owned social media, before they're allowed to invade, unhindered.
 
-No, I don't care if the instance you're on makes exceptions for AI slop in that as long as a user discloses that it's AI, they're allowed. If you ask me, that's too soft. Admins and moderators on Mastodon, especially, *have got to stop being soft*.
+No, in relation to Mastodon, I don't care if the instance you're on makes exceptions for AI slop in that as long as a user discloses that it's AI, they're allowed. If you ask me, that's too soft. Admins and moderators on Mastodon, especially, *have got to stop being soft*.
 
 End of discussion.
