@@ -25,6 +25,8 @@ layout: default
       {% endif %}
     {% endfor %}
     
+    {% assign tagged_items = tagged_items | uniq %}
+    
     {% for item in tagged_items %}
       <li>
         <a href="{{ item.url }}">{{ item.title }}</a>
