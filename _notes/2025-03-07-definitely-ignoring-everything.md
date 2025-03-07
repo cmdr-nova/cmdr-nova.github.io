@@ -18,4 +18,4 @@ Love when people I'm mutuals with on social media, with whom I've interacted wit
 
 Bro is definitely listening when we say, these algorithms are the tools of fascism.
 
-<img src="/img/notes/theft-enjoyer/Screenshot from 2025-03-07 17-22-56.png">
+<img src="/img/notes/theft-enjoyer/kye.png">
