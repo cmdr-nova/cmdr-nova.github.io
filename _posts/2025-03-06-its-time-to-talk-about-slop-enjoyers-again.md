@@ -11,7 +11,7 @@ author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: https://mastodon.online/@cmdr_nova/114117975243820890
 akkoma: 
-bluesky: 
+bluesky: https://bsky.app/profile/mkultra.monster/post/3ljqpdnlc5k27
 wafrn: 
 pillowfort: 
 tumblr: https://www.tumblr.com/nova-ayashi/777311814901022720/its-been-a-while-since-ive-written-about-the
