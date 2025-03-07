@@ -11,7 +11,7 @@ ssh-add /home/cmdr-nova/.ssh/pop-nova
 cd /home/cmdr-nova/Documents/Website/cmdr-nova.github.io
 
 # Fetch new posts
-export MASTODON_ACCESS_TOKEN=your_access_token_here
+export MASTODON_ACCESS_TOKEN=Pa50h9CehxTU3ruRWmBXXlbHh-QXQbjcHt5etGMm0OY
 
 PREVIOUS_SINCE_ID=""
 
