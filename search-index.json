@@ -60231,6 +60231,15 @@
     "date": "2025-03-06"
   },
   {
+    "id": "114118218549639134",
+    "url": "/toots/114118218549639134/114118218549639134.html",
+    "content": "I work on updating my site, and because I have my auto-commit script running hourly, I’m always making myself race against that timer\n\n… even though I could just open crontab and turn it off temporarily, if I happen to be editing my site while the script is firing 😂\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-06"
+  },
+  {
     "id": "1204211300",
     "url": "/toots/1204211300/1204211300.html",
     "content": "yeah, I think I’m going to setup the release of my next album to be under Eyeshadow 2600 FM, just cause I don’t have energy to rebuild any kind of following lol\n",
