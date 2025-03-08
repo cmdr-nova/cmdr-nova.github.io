@@ -73,6 +73,7 @@ jobs:
                 elif [[ $file == _logs/* ]]; then
                   post_url="$base_url/logs/$post_year/$post_month/$post_day/$post_title.html"
                 fi
+                echo "Post URL: $post_url"
                 echo "Post date: $post_date"
                 echo "Current date: $current_date"
                 if [[ $post_date == $current_date ]]; then
@@ -87,6 +88,7 @@ jobs:
             done
             echo "new_content=${new_content[@]}" >> $GITHUB_ENV
             echo "New content: ${new_content[@]}"
+            echo "New content array: ${new_content[@]}"
 
     - name: Start SSH agent
       uses: webfactory/ssh-agent@v0.5.3
