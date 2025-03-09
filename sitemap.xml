@@ -3805,6 +3805,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_layouts/skeet.html</loc>
+    <lastmod>2025-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_layouts/post.html</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>

@@ -36,3 +36,4 @@ syndicate_toots.py
 generate_toots_metadata.rb
 update_site.log
 update_site.sh
+feed_converter.rb
