@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var results = idx.search(query);
       console.log('Search results:', results); // Debugging log
 
-      // Sort results to prioritize notes, logs, and posts over toots
+      // Sort results to prioritize notes, logs, and posts over toots and skeets
       results.sort((a, b) => {
         var itemA = data.find(d => d.id === a.ref);
         var itemB = data.find(d => d.id === b.ref);
@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
           case 'post':
             return 1;
           case 'toot':
+          case 'skeet':
             return 2;
           default:
             return 3;
@@ -59,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var div = document.createElement('div');
             div.classList.add('search-result-item', 'item');
 
-            if (item.type === 'note' || item.type === 'log' || item.type === 'toot') {
+            if (item.type === 'note' || item.type === 'log' || item.type === 'toot' || item.type === 'skeet') {
               var author = document.createElement('p');
               author.textContent = item.author;
 
@@ -96,6 +97,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 var tootFilename = item.id.replace('.md', '');
                 viewLink.href = '/toots/' + encodeURIComponent(tootFilename) + '/';
                 console.log('Toot view link:', viewLink.href); // Debugging log
+              } else if (item.type === 'skeet') {
+                var skeetFilename = item.id.replace('.md', '');
+                viewLink.href = '/skeets/' + encodeURIComponent(skeetFilename) + '/';
+                console.log('Skeet view link:', viewLink.href); // Debugging log
               } else {
                 viewLink.href = 'https://mkultra.monster' + item.url;
               }

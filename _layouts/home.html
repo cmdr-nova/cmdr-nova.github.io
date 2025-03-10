@@ -199,7 +199,7 @@ creator of everything -->
             {% endfor %}
           </div>
         {% endif %}
-        {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" %}
+        {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" or post_type == "skeets" %}
         <div style="text-align: right;">
           <a href="{{ item.url }}" class="small-link">view</a> | 
           <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>

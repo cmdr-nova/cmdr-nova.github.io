@@ -49,3 +49,4 @@ end
 generate_metadata('_posts', 'assets/js/posts_metadata.json')
 generate_metadata('_notes', 'assets/js/notes_metadata.json')
 generate_metadata('_logs', 'assets/js/logs_metadata.json')
+generate_metadata('_skeets', 'assets/js/skeets_metadata.json')

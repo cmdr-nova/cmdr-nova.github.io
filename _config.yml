@@ -10,7 +10,7 @@ collections:
     output: true
   skeets:
     output: true
-    permalink: /skeets/:year/:month/:day/:title/
+    permalink: /skeets/:path/
   toots:
     output: true
     permalink: /toots/:path/
@@ -189,49 +189,49 @@ tag_categories:
   - tv
   uncategorized:
   - ''
-  - blog
-  - world-of-warcraft
   - cyberpunk
-  - share-links
-  - baby
-  - second
-  - sad
-  - syndication
-  - bread
-  - overhaul
-  - app
-  - update
-  - label
-  - international-womens-day
-  - littledudes
-  - kingdomcome2
-  - amongus
-  - bots
-  - pandora
-  - sleep
-  - note
-  - patreon
-  - night
-  - css
-  - posting
-  - coffee
-  - mozilla
-  - pillars-of-eternity
-  - mutuals
   - neo-machina
-  - nuggets
-  - post
-  - life
-  - firefox
-  - avowed
-  - cats
-  - java
   - oof
-  - grave
-  - rss
-  - eora
+  - bread
+  - second
+  - world-of-warcraft
+  - pillars-of-eternity
+  - international-womens-day
   - indexing
+  - grave
+  - bots
+  - eora
+  - kingdomcome2
+  - java
+  - sad
+  - label
+  - night
+  - cats
+  - rss
+  - coffee
+  - sleep
+  - share-links
+  - firefox
+  - mozilla
+  - littledudes
+  - nuggets
+  - update
+  - life
+  - baby
+  - post
+  - patreon
+  - blog
+  - pandora
+  - overhaul
+  - avowed
+  - note
+  - posting
+  - app
   - mac
+  - syndication
+  - mutuals
+  - amongus
+  - css
   writing:
   - fiction
 theme: minima
