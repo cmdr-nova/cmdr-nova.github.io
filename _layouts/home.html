@@ -122,7 +122,7 @@ creator of everything -->
       {% assign verb = "Posted" %}
       {% assign content = item.content | strip_newlines | truncatewords: 50 %}
     {% elsif post_type == "toots" %}
-      {% assign icon = "ph ph-chat-text" %}
+      {% assign icon = "ph ph-mastodon-logo" %}
       {% assign verb = "Tooted" %}
       {% assign content = item.content %}
     {% elsif post_type == "skeets" %}
