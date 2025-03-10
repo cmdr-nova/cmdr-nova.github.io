@@ -65530,6 +65530,15 @@
     "date": "Sun, 09 Mar 2025 08:46:00 +0000"
   },
   {
+    "id": "3ljydnygad226",
+    "url": "/skeets/3ljydnygad226/3ljydnygad226.html",
+    "content": "With a simple Ruby script, all of my posts on Bluesky are now ingested into my website to display on my “master” feed, that contains native posts, notes, logs, and also my ingested toots from Mastodon.\n\nA compendium of everything\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Mon, 10 Mar 2025 00:53:00 +0000"
+  },
+  {
     "id": "doom",
     "title": "Play Doom",
     "url": "/doom.html",
