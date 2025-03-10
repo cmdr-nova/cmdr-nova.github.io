@@ -1,4 +1,165 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mkultra.monster/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mkultra.monster/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-09T21:13:15-04:00</updated><id>https://mkultra.monster/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">International Women’s Day: My Favorite Female Characters</title><link href="https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters.html" rel="alternate" type="text/html" title="International Women’s Day: My Favorite Female Characters" /><published>2025-03-08T12:33:34-05:00</published><updated>2025-03-08T12:33:34-05:00</updated><id>https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters</id><content type="html" xml:base="https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters.html"><![CDATA[<p>As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about <em>real</em> women?” But, aha! I gotchu. Female characters are voiced by women!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-09T22:18:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Ingest Your Bluesky Posts To Jekyll</title><link href="http://localhost:4000/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html" rel="alternate" type="text/html" title="Ingest Your Bluesky Posts To Jekyll" /><published>2025-03-09T17:21:03-04:00</published><updated>2025-03-09T17:21:03-04:00</updated><id>http://localhost:4000/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll</id><content type="html" xml:base="http://localhost:4000/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html"><![CDATA[<p>Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, <a href="https://git.garrido.io/gabriel/mastodon-markdown-archive#installation" target="_blank">here</a>. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I <em>lost</em> my entire decade-old Twitter account and all of its content, I also want to make sure that <em>never happens again</em>.</p>
+
+<p>So, I’ve made a Ruby script that you can use on a Jekyll site to automatically import anything from your Bluesky RSS feed, directly into your website under a “_skeets” directory, which includes images as media, and excludes reposts, quote posts, and replies (or should!)</p>
+
+<p>It is as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>require 'rss'
+require 'fileutils'
+require 'jekyll'
+require 'open-uri'
+require 'nokogiri'
+
+# Defining the RSS feed URL and where it should be located on your site
+RSS_FEED_URL = 'https://bsky.app/profile/did:plc:zzofxcatgqb5wpkqetnng4wo/rss' # Don't use my feed URL, replace this with your own
+OUTPUT_DIR = '_skeets'
+MEDIA_DIR = 'assets/media'
+LAST_IMPORTED_FILE = 'last_imported_guid.txt'
+
+# Script creates directories if they don't already exist
+FileUtils.mkdir_p(OUTPUT_DIR)
+FileUtils.mkdir_p(MEDIA_DIR)
+
+# Sanitize filenames, because bsky does it all weird and stuff
+def sanitize_filename(filename)
+  base = File.basename(filename, ".*")
+  ext = File.extname(filename).gsub('@', '.')
+  sanitized_base = base.gsub(/[^0-9A-Za-z.\-]/, '_').gsub(/_+/, '_')
+  "#{sanitized_base}#{ext}"
+end
+
+# Convert URLs included in posts into an anchor that can be clicked
+def convert_urls_to_links(content)
+  content.gsub(/(https?:\/\/[^\s]+)(?![^&lt;]*&gt;)/, '&lt;a href="\1" target="_blank"&gt;\1&lt;/a&gt;')
+end
+
+# Download images as media, and update the content
+def download_images_and_update_content(content, media_dir)
+  content.gsub(/&lt;img src="(https?:\/\/[^\s]+)"[^&gt;]*&gt;/) do |match|
+    image_url = $1
+    image_filename = sanitize_filename(File.basename(image_url).gsub('@', '.'))
+    image_path = "#{media_dir}/#{image_filename}"
+    
+    puts "Found image URL: #{image_url}"
+    puts "Downloading image: #{image_url} to #{image_path}"
+    
+    begin
+      # Download media
+      URI.open(image_url) do |image|
+        File.open(image_path, 'wb') do |file|
+          file.write(image.read)
+        end
+      end
+      puts "Successfully downloaded image: #{image_url}"
+    rescue StandardError =&gt; e
+      puts "Failed to download image: #{image_url}. Error: #{e.message}"
+    end
+    
+    # Update the path to the image so that it displays correctly
+    "&lt;img src=\"/#{image_path}\" alt=\"Image\"&gt;"
+  end
+end
+
+# Fetch and parse post content in order to find images, because, by default, they aren't displayed in the RSS feed
+def fetch_and_parse_skeet_content(url)
+  begin
+    html_content = URI.open(url).read
+    document = Nokogiri::HTML(html_content)
+    images = document.css('meta[property="og:image"]').map { |meta| meta['content'] }
+    puts "Found images: #{images}" if images.any?
+    images
+  rescue StandardError =&gt; e
+    puts "Failed to fetch or parse skeet content: #{url}. Error: #{e.message}"
+    []
+  end
+end
+
+# Read the last imported GUID from the created file
+last_imported_guid = if File.exist?(LAST_IMPORTED_FILE)
+                       File.read(LAST_IMPORTED_FILE).strip
+                     else
+                       nil
+                     end
+
+# Fetch and parse the RSS feed
+begin
+  rss_content = URI.open(RSS_FEED_URL).read
+  rss = RSS::Parser.parse(rss_content, false)
+
+  # Iterate through each item in the RSS feed
+  rss.items.each do |item|
+    puts "Processing item: #{item.title}"
+    puts "Description: #{item.description}"
+    
+    break if item.guid.content == last_imported_guid
+
+    # Exclude replies, reposts, and quote posts
+    next if item.title&amp;.start_with?('Re:') || item.title&amp;.start_with?('RT:') || item.description.include?("[contains quote post or other embedded content]")
+
+    # Sanitize the filename
+    sanitized_filename = sanitize_filename(item.guid.content)
+    filename = "#{OUTPUT_DIR}/#{sanitized_filename}.md"
+    
+    # Fetch and parse content to find images
+    images = fetch_and_parse_skeet_content(item.link)
+    images.each do |image_url|
+      # Download image and update
+      downloaded_image_tag = download_images_and_update_content("&lt;img src=\"#{image_url}\" alt=\"Image\"&gt;", MEDIA_DIR)
+      item.description += downloaded_image_tag
+    end
+
+    # Create a Markdown file for each feed item with Jekyll front matter (customize this do be whatever you normally use)
+    File.open(filename, 'w') do |file|
+      file.write("---\n")
+      file.write("layout: skeet\n")
+      file.write("title: \"#{item.title || 'New Skeet'}\"\n")
+      file.write("date: #{item.pubDate}\n")
+      file.write("author: ⸸ commander ░ nova ⸸ :~$\n")
+      file.write("collection: skeets\n")
+      file.write("guid: #{item.guid.content}\n")
+      file.write("avatar: /img/avatar/daemon.jpeg\n")
+      file.write("bluesky: #{item.link}\n")
+      file.write("---\n\n")
+  
+      # Convert URLs in the content to HTML anchors
+      content = convert_urls_to_links(item.description)
+      
+      file.write("#{content}\n")
+    end
+  end
+
+  # Update the last imported GUID
+  File.write(LAST_IMPORTED_FILE, rss.items.first.guid.content) if rss.items.any?
+
+  puts "Successfully converted RSS feed to Markdown files in #{OUTPUT_DIR}."
+
+rescue StandardError =&gt; e
+  puts "An error occurred: #{e.message}"
+end
+</code></pre></div></div>
+
+<p>And there you have it. Using this Ruby alongside Jekyll, you can import everything you post to Bluesky as native “posts” on a Jekyll site, from just your Bluesky RSS feed! Now, this <em>isn’t</em> going to import your entire posting history thus far (that would be problematic, especially if you’ve got a large history), but, it’s a good starting point to making yourself billionaire proof.</p>
+
+<p>I don’t fully believe, or <em>trust</em> that Bluesky can’t be corrupted by money and corporations, and that doesn’t have to even matter, if all of your content, and the essence of <em>you</em>, is hosted on <em>your own site</em>.</p>
+
+<p>Obviously, other things, like <em>displaying</em> these on a Jekyll feed, are things you’ll need to configure. But it <em>should</em> be as easy as specifying …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% assign skeets_array = site.skeets %}
+</code></pre></div></div>
+
+<p>and then …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {% for item in paginated_array %}
+    {% assign post_type = item.collection %}
+        {% elsif post_type == "skeets" %}
+      {% assign icon = "ph ph-butterfly" %}
+      {% assign verb = "Skeeted" %}
+      {% assign content = item.content %}
+</code></pre></div></div>
+
+<p>But, it <em>is</em> assumed that if you’re doing this, you <em>might</em> have some knowledge of how Jekyll and Liquid syntax works.</p>
+
+<p>Either way, have fun turning your website into a compendium of everything you say and do!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="social-media" /><category term="webdev" /><category term="social-media" /><category term="bluesky" /><summary type="html"><![CDATA[Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, here. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I lost my entire decade-old Twitter account and all of its content, I also want to make sure that never happens again.]]></summary></entry><entry><title type="html">International Women’s Day: My Favorite Female Characters</title><link href="http://localhost:4000/media/2025/03/08/international-womens-day-my-favorite-female-characters.html" rel="alternate" type="text/html" title="International Women’s Day: My Favorite Female Characters" /><published>2025-03-08T12:33:34-05:00</published><updated>2025-03-08T12:33:34-05:00</updated><id>http://localhost:4000/media/2025/03/08/international-womens-day-my-favorite-female-characters</id><content type="html" xml:base="http://localhost:4000/media/2025/03/08/international-womens-day-my-favorite-female-characters.html"><![CDATA[<p>As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about <em>real</em> women?” But, aha! I gotchu. Female characters are voiced by women!</p>
 
 <p>This is in no particular order, and is not an exhaustive list. More-so, <em>just my top faves</em>, so, let’s go.</p>
 
@@ -80,7 +241,7 @@
 
 <p>Who are your top five female characters? Name a woman!</p>
 
-<p><img src="/img/posts/iwd-2025/name-a-woman.png" /></p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Media" /><category term="international-womens-day" /><category term="gaming" /><category term="media" /><summary type="html"><![CDATA[As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about real women?” But, aha! I gotchu. Female characters are voiced by women!]]></summary></entry><entry><title type="html">It’s Time To Talk About Slop Enjoyers, Again</title><link href="https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html" rel="alternate" type="text/html" title="It’s Time To Talk About Slop Enjoyers, Again" /><published>2025-03-06T12:37:10-05:00</published><updated>2025-03-06T12:37:10-05:00</updated><id>https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again</id><content type="html" xml:base="https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html"><![CDATA[<p>It’s been a while since I’ve written about the egregious battle of attrition basically <em>anyone</em> who does <em>anything</em> creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on <em>every single social platform</em>. But, is that enough?</p>
+<p><img src="/img/posts/iwd-2025/name-a-woman.png" /></p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Media" /><category term="international-womens-day" /><category term="gaming" /><category term="media" /><summary type="html"><![CDATA[As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about real women?” But, aha! I gotchu. Female characters are voiced by women!]]></summary></entry><entry><title type="html">It’s Time To Talk About Slop Enjoyers, Again</title><link href="http://localhost:4000/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html" rel="alternate" type="text/html" title="It’s Time To Talk About Slop Enjoyers, Again" /><published>2025-03-06T12:37:10-05:00</published><updated>2025-03-06T12:37:10-05:00</updated><id>http://localhost:4000/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again</id><content type="html" xml:base="http://localhost:4000/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html"><![CDATA[<p>It’s been a while since I’ve written about the egregious battle of attrition basically <em>anyone</em> who does <em>anything</em> creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on <em>every single social platform</em>. But, is that enough?</p>
 
 <p>Is it enough, when accounts like this sign up on a fediverse instance and just start spamming the federated feed with glossy garbage that 100% <em>more than likely</em> has stolen the likeness of a real person, and other people’s work?</p>
 
@@ -110,7 +271,7 @@
 
 <p>No, in relation to Mastodon, I don’t care if the instance you’re on makes exceptions for AI slop in that as long as a user discloses that it’s AI, they’re allowed. If you ask me, that’s too soft. Admins and moderators on Mastodon, especially, <em>have got to stop being soft</em>.</p>
 
-<p>End of discussion.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="social-media" /><category term="tech" /><category term="ai" /><summary type="html"><![CDATA[It’s been a while since I’ve written about the egregious battle of attrition basically anyone who does anything creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on every single social platform. But, is that enough?]]></summary></entry><entry><title type="html">Did Mozilla Ban Pornography?</title><link href="https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography.html" rel="alternate" type="text/html" title="Did Mozilla Ban Pornography?" /><published>2025-03-05T11:05:40-05:00</published><updated>2025-03-05T11:05:40-05:00</updated><id>https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography</id><content type="html" xml:base="https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography.html"><![CDATA[<p><strong>Update</strong>: I’ve been made aware that Mozilla’s AUP has been the same <em>for decades</em>, and this is only coming to light, because the egregious changes they’ve made more recently have brought <em>more</em> strange things to the surface.</p>
+<p>End of discussion.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="social-media" /><category term="tech" /><category term="ai" /><summary type="html"><![CDATA[It’s been a while since I’ve written about the egregious battle of attrition basically anyone who does anything creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on every single social platform. But, is that enough?]]></summary></entry><entry><title type="html">Did Mozilla Ban Pornography?</title><link href="http://localhost:4000/tech/2025/03/05/did-mozilla-ban-pornography.html" rel="alternate" type="text/html" title="Did Mozilla Ban Pornography?" /><published>2025-03-05T11:05:40-05:00</published><updated>2025-03-05T11:05:40-05:00</updated><id>http://localhost:4000/tech/2025/03/05/did-mozilla-ban-pornography</id><content type="html" xml:base="http://localhost:4000/tech/2025/03/05/did-mozilla-ban-pornography.html"><![CDATA[<p><strong>Update</strong>: I’ve been made aware that Mozilla’s AUP has been the same <em>for decades</em>, and this is only coming to light, because the egregious changes they’ve made more recently have brought <em>more</em> strange things to the surface.</p>
 
 <p>I wasn’t going to write about all of this, at first, because it’s just one thing in a years-long trend of Mozilla betraying everything they’re supposed to stand for in order to ride the generative theft and destruction train. But! I’ve seen maybe … <em>one</em> person talk about their new acceptable use policy, and for all intents and purposes, they <em>absolutely</em> now prohibit the use of their services to display pornographic material.</p>
 
@@ -138,7 +299,7 @@ Upload, download, transmit, display, or grant access to content that includes gr
 
 <p>I’ll be on <a href="https://vivaldi.com" target="_blank">Vivaldi</a>. Not because porn is a central reason for my using the internet (I switched to Vivaldi months and months ago after Mozilla introduced AI “features” into their browser), but because Mozilla wants <em>everything you do</em> to be a record that they can collect, and use for their own gain, <em>including</em> training AI, among a million other things they shouldn’t be doing. And I just don’t have any time, or energy for all of that. Everything is <em>already</em> exhausting and annoying, <em>enough</em>.</p>
 
-<p>With the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="tech" /><category term="mozilla" /><category term="firefox" /><summary type="html"><![CDATA[Update: I’ve been made aware that Mozilla’s AUP has been the same for decades, and this is only coming to light, because the egregious changes they’ve made more recently have brought more strange things to the surface.]]></summary></entry><entry><title type="html">Neo Machina: Online</title><link href="https://mkultra.monster/secondlife/2025/03/04/neo-machina-online.html" rel="alternate" type="text/html" title="Neo Machina: Online" /><published>2025-03-04T11:27:51-05:00</published><updated>2025-03-04T11:27:51-05:00</updated><id>https://mkultra.monster/secondlife/2025/03/04/neo-machina-online</id><content type="html" xml:base="https://mkultra.monster/secondlife/2025/03/04/neo-machina-online.html"><![CDATA[<p>It’s been quite a while since my city in Second Life has been online, or even <em>seen</em> any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own <em>thing</em> in Second Life running, again. A place where I simultaneously host my store.</p>
+<p>With the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="tech" /><category term="mozilla" /><category term="firefox" /><summary type="html"><![CDATA[Update: I’ve been made aware that Mozilla’s AUP has been the same for decades, and this is only coming to light, because the egregious changes they’ve made more recently have brought more strange things to the surface.]]></summary></entry><entry><title type="html">Neo Machina: Online</title><link href="http://localhost:4000/secondlife/2025/03/04/neo-machina-online.html" rel="alternate" type="text/html" title="Neo Machina: Online" /><published>2025-03-04T11:27:51-05:00</published><updated>2025-03-04T11:27:51-05:00</updated><id>http://localhost:4000/secondlife/2025/03/04/neo-machina-online</id><content type="html" xml:base="http://localhost:4000/secondlife/2025/03/04/neo-machina-online.html"><![CDATA[<p>It’s been quite a while since my city in Second Life has been online, or even <em>seen</em> any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own <em>thing</em> in Second Life running, again. A place where I simultaneously host my store.</p>
 
 <p><img src="/img/posts/neo-machina-returns-again/Screenshot from 2025-03-04 10-24-30.png" /></p>
 
@@ -148,7 +309,7 @@ Upload, download, transmit, display, or grant access to content that includes gr
 
 <p>That’ll no longer be an issue.</p>
 
-<p>But, if you’re in Second Life, you should definitely come on down and see the re-opening of <a href="http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23" target="_blank">Neo Machina</a>!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="secondlife" /><category term="second-life" /><category term="neo-machina" /><summary type="html"><![CDATA[It’s been quite a while since my city in Second Life has been online, or even seen any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own thing in Second Life running, again. A place where I simultaneously host my store.]]></summary></entry><entry><title type="html">Reasons You Should Jump On My Patreon</title><link href="https://mkultra.monster/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html" rel="alternate" type="text/html" title="Reasons You Should Jump On My Patreon" /><published>2025-03-02T12:35:53-05:00</published><updated>2025-03-02T12:35:53-05:00</updated><id>https://mkultra.monster/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon</id><content type="html" xml:base="https://mkultra.monster/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html"><![CDATA[<p>I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of <em>anything</em> to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">about my Patreon</a>, and hopefully bring in some new faces.</p>
+<p>But, if you’re in Second Life, you should definitely come on down and see the re-opening of <a href="http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23" target="_blank">Neo Machina</a>!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="secondlife" /><category term="second-life" /><category term="neo-machina" /><summary type="html"><![CDATA[It’s been quite a while since my city in Second Life has been online, or even seen any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own thing in Second Life running, again. A place where I simultaneously host my store.]]></summary></entry><entry><title type="html">Reasons You Should Jump On My Patreon</title><link href="http://localhost:4000/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html" rel="alternate" type="text/html" title="Reasons You Should Jump On My Patreon" /><published>2025-03-02T12:35:53-05:00</published><updated>2025-03-02T12:35:53-05:00</updated><id>http://localhost:4000/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon</id><content type="html" xml:base="http://localhost:4000/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html"><![CDATA[<p>I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of <em>anything</em> to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">about my Patreon</a>, and hopefully bring in some new faces.</p>
 
 <p>In October 2014, right on the heels of having lost my job at the time (see: harassment, bullying, failures of HR, etc.), I started up a Patreon that would be central to my creative writing. I mostly used it to upload little drafts of snippets as I worked my way through a novel I was writing. For a while, though, I kind of stopped posting (as I began maintaining a store in Second Life), and didn’t really pick it up again until 2017. And, ever since, I’ve been giving regular updates.</p>
 
@@ -174,7 +335,7 @@ Upload, download, transmit, display, or grant access to content that includes gr
 
 <p>I know times are rough, and nobody’s got any money anymore, but the only way to build a future, is to <em>actually talk about that future.</em></p>
 
-<p>Thank you for reading.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Patreon" /><category term="patreon" /><category term="music" /><category term="webdev" /><summary type="html"><![CDATA[I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of anything to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk about my Patreon, and hopefully bring in some new faces.]]></summary></entry><entry><title type="html">Nova Prime, Now Also An Archive</title><link href="https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive.html" rel="alternate" type="text/html" title="Nova Prime, Now Also An Archive" /><published>2025-02-27T08:50:19-05:00</published><updated>2025-02-27T08:50:19-05:00</updated><id>https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive</id><content type="html" xml:base="https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive.html"><![CDATA[<p>I’ve been doing <em>a lot</em> in order to get my website to act as a more <em>central</em> place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s <em>really</em> cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … <em>just to put up one Post, Note, or Log</em>. To me, this is useful, and really cool, but it also doesn’t <em>feel</em> like posting on social media. So what do you do?</p>
+<p>Thank you for reading.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Patreon" /><category term="patreon" /><category term="music" /><category term="webdev" /><summary type="html"><![CDATA[I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of anything to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk about my Patreon, and hopefully bring in some new faces.]]></summary></entry><entry><title type="html">Nova Prime, Now Also An Archive</title><link href="http://localhost:4000/webdev/2025/02/27/nova-prime-now-also-an-archive.html" rel="alternate" type="text/html" title="Nova Prime, Now Also An Archive" /><published>2025-02-27T08:50:19-05:00</published><updated>2025-02-27T08:50:19-05:00</updated><id>http://localhost:4000/webdev/2025/02/27/nova-prime-now-also-an-archive</id><content type="html" xml:base="http://localhost:4000/webdev/2025/02/27/nova-prime-now-also-an-archive.html"><![CDATA[<p>I’ve been doing <em>a lot</em> in order to get my website to act as a more <em>central</em> place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s <em>really</em> cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … <em>just to put up one Post, Note, or Log</em>. To me, this is useful, and really cool, but it also doesn’t <em>feel</em> like posting on social media. So what do you do?</p>
 
 <p>Well, of course, you setup reverse publishing/syndication, and backup every single thing you post to Mastodon in converted markdown files formatted for Jekyll, that are then fed into a Liquid feed!</p>
 
@@ -322,7 +483,7 @@ print("Toots updated successfully.")
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 2 * * * /home/cmdr-nova/grabtoots.sh
 </code></pre></div></div>
-<p>This is, <em>essentially</em>, my answer as to <em>how</em> to make it so that I can post to my website from my phone, albeit, a little bit of an extreme work-around, but very simple once you’ve got it all up and running.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Webdev" /><category term="webdev" /><category term="syndication" /><summary type="html"><![CDATA[I’ve been doing a lot in order to get my website to act as a more central place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s really cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … just to put up one Post, Note, or Log. To me, this is useful, and really cool, but it also doesn’t feel like posting on social media. So what do you do?]]></summary></entry><entry><title type="html">That’s Very Decentralized Of You, Bluesky</title><link href="https://mkultra.monster/socialmedia/2025/02/26/thats-very-decentralized-of-you-bluesky.html" rel="alternate" type="text/html" title="That’s Very Decentralized Of You, Bluesky" /><published>2025-02-26T07:29:44-05:00</published><updated>2025-02-26T07:29:44-05:00</updated><id>https://mkultra.monster/socialmedia/2025/02/26/thats-very-decentralized-of-you-bluesky</id><content type="html" xml:base="https://mkultra.monster/socialmedia/2025/02/26/thats-very-decentralized-of-you-bluesky.html"><![CDATA[<p>You’ve probably heard it by now, or have seen my <em>many</em> posts on here about Bluesky, and their false claims of decentralization, or of what kind of social network they’re even <em>trying to be.</em> From their blockchain, crypto investors, to the extreme right-wing accounts they refuse to moderate: Welcome to Twitter 2: The Reckoning.</p>
+<p>This is, <em>essentially</em>, my answer as to <em>how</em> to make it so that I can post to my website from my phone, albeit, a little bit of an extreme work-around, but very simple once you’ve got it all up and running.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Webdev" /><category term="webdev" /><category term="syndication" /><summary type="html"><![CDATA[I’ve been doing a lot in order to get my website to act as a more central place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s really cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … just to put up one Post, Note, or Log. To me, this is useful, and really cool, but it also doesn’t feel like posting on social media. So what do you do?]]></summary></entry><entry><title type="html">That’s Very Decentralized Of You, Bluesky</title><link href="http://localhost:4000/socialmedia/2025/02/26/thats-very-decentralized-of-you-bluesky.html" rel="alternate" type="text/html" title="That’s Very Decentralized Of You, Bluesky" /><published>2025-02-26T07:29:44-05:00</published><updated>2025-02-26T07:29:44-05:00</updated><id>http://localhost:4000/socialmedia/2025/02/26/thats-very-decentralized-of-you-bluesky</id><content type="html" xml:base="http://localhost:4000/socialmedia/2025/02/26/thats-very-decentralized-of-you-bluesky.html"><![CDATA[<p>You’ve probably heard it by now, or have seen my <em>many</em> posts on here about Bluesky, and their false claims of decentralization, or of what kind of social network they’re even <em>trying to be.</em> From their blockchain, crypto investors, to the extreme right-wing accounts they refuse to moderate: Welcome to Twitter 2: The Reckoning.</p>
 
 <p>What I’m writing about today, is more on that same subject, and also in regard to someone I once looked up to.</p>
 
@@ -355,7 +516,7 @@ print("Toots updated successfully.")
 
 <p>Yeah, I have an account on Bluesky, where I’m mostly feeding RSS updates. Just like I have a <em>mostly</em> inactive account on Threads where I occasionally log on to see if the influencers, who don’t talk to anyone, are still complaining about nobody interacting with them.</p>
 
-<p>But, like I do, each time that Bluesky fucks up, I’ll provide a link here to a site where you can decide for yourself, if you’d like to <a href="https://jointhefediverse.net/?lang=en-us" target="_blank">join the ActivityPub network</a>.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="socialmedia" /><category term="bluesky" /><category term="social-media" /><summary type="html"><![CDATA[You’ve probably heard it by now, or have seen my many posts on here about Bluesky, and their false claims of decentralization, or of what kind of social network they’re even trying to be. From their blockchain, crypto investors, to the extreme right-wing accounts they refuse to moderate: Welcome to Twitter 2: The Reckoning.]]></summary></entry><entry><title type="html">Make The Move To RSS</title><link href="https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss.html" rel="alternate" type="text/html" title="Make The Move To RSS" /><published>2025-02-24T19:19:25-05:00</published><updated>2025-02-24T19:19:25-05:00</updated><id>https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss</id><content type="html" xml:base="https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss.html"><![CDATA[<p>It’s been a while since I’ve written some kind of long-form post on my site. At least, since I introduced writing Notes and Logs on here, in a quick and simple way to just <em>post something</em> without worrying about it sounding coherent and planned. It’s only going to continue, from here, though, when I figure out how I can do this <em>easily</em> from my phone. But, I’m not writing this to talk about how much I like shotgunning random crap into the world via my own website. I wanted to talk about RSS.</p>
+<p>But, like I do, each time that Bluesky fucks up, I’ll provide a link here to a site where you can decide for yourself, if you’d like to <a href="https://jointhefediverse.net/?lang=en-us" target="_blank">join the ActivityPub network</a>.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="socialmedia" /><category term="bluesky" /><category term="social-media" /><summary type="html"><![CDATA[You’ve probably heard it by now, or have seen my many posts on here about Bluesky, and their false claims of decentralization, or of what kind of social network they’re even trying to be. From their blockchain, crypto investors, to the extreme right-wing accounts they refuse to moderate: Welcome to Twitter 2: The Reckoning.]]></summary></entry><entry><title type="html">Make The Move To RSS</title><link href="http://localhost:4000/tech/2025/02/24/make-the-move-to-rss.html" rel="alternate" type="text/html" title="Make The Move To RSS" /><published>2025-02-24T19:19:25-05:00</published><updated>2025-02-24T19:19:25-05:00</updated><id>http://localhost:4000/tech/2025/02/24/make-the-move-to-rss</id><content type="html" xml:base="http://localhost:4000/tech/2025/02/24/make-the-move-to-rss.html"><![CDATA[<p>It’s been a while since I’ve written some kind of long-form post on my site. At least, since I introduced writing Notes and Logs on here, in a quick and simple way to just <em>post something</em> without worrying about it sounding coherent and planned. It’s only going to continue, from here, though, when I figure out how I can do this <em>easily</em> from my phone. But, I’m not writing this to talk about how much I like shotgunning random crap into the world via my own website. I wanted to talk about RSS.</p>
 
 <p>Sure, I could talk about Bluesky again, and how, no matter how much I try and enjoy or like the app, the feed keeps working <em>against</em> my interest and attention.</p>
 
@@ -399,7 +560,7 @@ print("Toots updated successfully.")
 
 <p>At the end of the day, if you don’t want to do <em>any of this</em>, I would <em>at least</em> recommend finding a nice home on a solid server via Mastodon, or some-such ActivityPub app. But, if you want to get into the <em>really</em> hardcore nerd shit, definitely start using an RSS feed. And plug it <em>everywhere</em>. It’s like … a podcast, of your THOUGHTS! IT’S TELEPATHY!</p>
 
-<p>For real though, as the infrastructure of everything crumbles and corporations destroy all that’s left that’s good in the world, you should have a contingency. Even if it means speaking to the internet the way that we used to, before Google destroyed everything.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Tech" /><category term="tech" /><category term="rss" /><summary type="html"><![CDATA[It’s been a while since I’ve written some kind of long-form post on my site. At least, since I introduced writing Notes and Logs on here, in a quick and simple way to just post something without worrying about it sounding coherent and planned. It’s only going to continue, from here, though, when I figure out how I can do this easily from my phone. But, I’m not writing this to talk about how much I like shotgunning random crap into the world via my own website. I wanted to talk about RSS.]]></summary></entry><entry><title type="html">The Digital Social Downfall</title><link href="https://mkultra.monster/social-media/2025/02/21/the-digital-social-downfall.html" rel="alternate" type="text/html" title="The Digital Social Downfall" /><published>2025-02-21T19:25:00-05:00</published><updated>2025-02-21T19:25:00-05:00</updated><id>https://mkultra.monster/social-media/2025/02/21/the-digital-social-downfall</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/02/21/the-digital-social-downfall.html"><![CDATA[<p>I see, sometimes, people talking about how they don’t really use any specific social media app as reinforcement of anything they do, or share, in regard to work, or art, and that if they <em>did</em> … if that was their <em>main mode</em> of deriving support, money, and so on, and so forth: They’d be screwed. And, well, yeah. That’s exactly correct. For all intents and purposes, if you’re just online to chat, and make friends with random people, that’s cool. You can do that in any space you choose, and you <em>should</em>. That’s the way the internet used to be.</p>
+<p>For real though, as the infrastructure of everything crumbles and corporations destroy all that’s left that’s good in the world, you should have a contingency. Even if it means speaking to the internet the way that we used to, before Google destroyed everything.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Tech" /><category term="tech" /><category term="rss" /><summary type="html"><![CDATA[It’s been a while since I’ve written some kind of long-form post on my site. At least, since I introduced writing Notes and Logs on here, in a quick and simple way to just post something without worrying about it sounding coherent and planned. It’s only going to continue, from here, though, when I figure out how I can do this easily from my phone. But, I’m not writing this to talk about how much I like shotgunning random crap into the world via my own website. I wanted to talk about RSS.]]></summary></entry><entry><title type="html">The Digital Social Downfall</title><link href="http://localhost:4000/social-media/2025/02/21/the-digital-social-downfall.html" rel="alternate" type="text/html" title="The Digital Social Downfall" /><published>2025-02-21T19:25:00-05:00</published><updated>2025-02-21T19:25:00-05:00</updated><id>http://localhost:4000/social-media/2025/02/21/the-digital-social-downfall</id><content type="html" xml:base="http://localhost:4000/social-media/2025/02/21/the-digital-social-downfall.html"><![CDATA[<p>I see, sometimes, people talking about how they don’t really use any specific social media app as reinforcement of anything they do, or share, in regard to work, or art, and that if they <em>did</em> … if that was their <em>main mode</em> of deriving support, money, and so on, and so forth: They’d be screwed. And, well, yeah. That’s exactly correct. For all intents and purposes, if you’re just online to chat, and make friends with random people, that’s cool. You can do that in any space you choose, and you <em>should</em>. That’s the way the internet used to be.</p>
 
 <p>For people like me, I use the internet for this reason as well, even though I’m … <em>terrible</em> at making friends in my near 40s, as a closeted trans woman, who spends most of my life, nowadays, hiding <em>everything about myself</em> in public spaces, and just … surviving.</p>
 
@@ -447,56 +608,4 @@ print("Toots updated successfully.")
 
 <p>It’s rough out there on the world wide web, and it’s <em>never</em> been harder for creatives to find their people, and their audience. But, it <em>can be done</em>. The first step, is to <em>own your content</em>.</p>
 
-<p>Now, <em>of course</em>, some select few people might see this sort of idea as “nerd shit.” And they’re free to think that way. I remember back in middle and high school, when “nerd” was a legitimate insult that inspired all kinds of bullying. And, I’m thankful, that the internet is <em>not</em> high school, and that people who are mentally <em>stuck</em> there, <em>probably</em> won’t be a real big part of the future digital social landscape.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="socialmedia" /><category term="creators" /><category term="webdev" /><summary type="html"><![CDATA[I see, sometimes, people talking about how they don’t really use any specific social media app as reinforcement of anything they do, or share, in regard to work, or art, and that if they did … if that was their main mode of deriving support, money, and so on, and so forth: They’d be screwed. And, well, yeah. That’s exactly correct. For all intents and purposes, if you’re just online to chat, and make friends with random people, that’s cool. You can do that in any space you choose, and you should. That’s the way the internet used to be.]]></summary></entry><entry><title type="html">Kingdom Come: I Keep Messing Up</title><link href="https://mkultra.monster/gaming/2025/02/20/kingdom-come-i-keep-messing-up.html" rel="alternate" type="text/html" title="Kingdom Come: I Keep Messing Up" /><published>2025-02-20T22:28:00-05:00</published><updated>2025-02-20T22:28:00-05:00</updated><id>https://mkultra.monster/gaming/2025/02/20/kingdom-come-i-keep-messing-up</id><content type="html" xml:base="https://mkultra.monster/gaming/2025/02/20/kingdom-come-i-keep-messing-up.html"><![CDATA[<p>I’ve been spending a couple of days sprucing up my site, adding things to the feed, making it more like … a <em>social media</em> feed, and then I got myself a copy of Kingdom Come: Deliverance 2. Now, I played a little bit of the first one, but that was years back, and I got confused or stuck around the beginning, so I didn’t really pick it up again. At the time, it was a game I never really saw anyone talk about, so I didn’t really assume much of it.</p>
-
-<p>That was, until the second one released.</p>
-
-<p>Long story short, I have it. I played through … the beginning.</p>
-
-<p>Not to spoil too much, I <em>eventually</em> made it to the point where the game drops you off into the world, and pushes you in the direction of doing <em>whatever the heck it was you want to do.</em></p>
-
-<p>Oh boy.</p>
-
-<p>I got let out of the pillory (yes, you get arrested, for reasons), and my buddy, the stuck-up dude, well, he abandoned me. I’m not sure if this was a consequence of your own actions, or if it’s meant to happen. So, I’m just going to assume that this is <em>supposed</em> to happen.</p>
-
-<p>A lady stops you and helps you out a little, mentions something about finding work.</p>
-
-<p>See, I’m someone who comes from games like Skyrim and Baldur’s Gate. I’m pretty familiar with finding quests in RPGs.</p>
-
-<p>Haha.</p>
-
-<p>I think I spent about ten minutes running around trying to figure out who would pay me to do things, until I ran into someone’s house and saw a bowl of food. I figured, “Hey, nobody’s here, and I need to eat!” So <em>I did</em>.</p>
-
-<p>Upon immediately turning around, there’s a guy staring at me, and you can probably guess what happened next.</p>
-
-<p>I was back in the pillories.</p>
-
-<p>Another day later, I’m notified that if I commit another crime, I’ll be marked by an executioner or something, and that my character is fed up.</p>
-
-<p>I put my clothes back on and head back into town again, hoping that maybe <em>this time</em> I’ll find some work. I wander around for a bit, and almost get hit with multiple trespassing charges.</p>
-
-<p>It’s at this point that I’m getting kind of tired with my bumbling self almost, or completely breaking the law. I ran all the way out of town into the woods, and fell asleep in some abandoned camp under a bunch of trees. Finally, I was fully healed, and eating an apple out of my pocket.</p>
-
-<p>Yeah. I had food in my pockets that I forgot about.</p>
-
-<p>But now it was night time and pitch black. I’m warned about carrying a torch, in that, it’s a crime if I don’t have one. Another crime!</p>
-
-<p>So I ran. I ran and ran directly into more woods, until I stumbled upon another small village. Nobody’s around. Perfect chance to … steal a horse! Which, was pretty easy, but I’m assuming that because it was dark, nobody saw me!</p>
-
-<p>I decided for myself that my quest was to find my dog, so I road off into the dark again. Fell off the horse a few times, got back on. Eventually, after fumbling with my map and not being able to see where I’m going, I make it to where my dog is supposed to be, and I’m stopped by some guy.</p>
-
-<p>I killed that guy, and took all his money.</p>
-
-<p>Then I found 125 moneys in a pot under another tree by a rock.</p>
-
-<p>With my dog still missing, I figured I’d run around the lake and at least see if … I can find anymore dead bodies with loot.</p>
-
-<p>No such luck.</p>
-
-<p>I run into a pack of wild dogs, and after about three minutes of flailing my sword around, I am dead.</p>
-
-<p>And back at the village that I ran away from.</p>
-
-<p>The game is pretty cool so far! I’ve definitely been experiencing some sort of deliverance, that’s for sure. Delivering my own self into pillories and death.</p>
-
-<p>We’ll see how it goes next time I load it up.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Gaming" /><category term="gaming" /><category term="kingdom-come" /><summary type="html"><![CDATA[I’ve been spending a couple of days sprucing up my site, adding things to the feed, making it more like … a social media feed, and then I got myself a copy of Kingdom Come: Deliverance 2. Now, I played a little bit of the first one, but that was years back, and I got confused or stuck around the beginning, so I didn’t really pick it up again. At the time, it was a game I never really saw anyone talk about, so I didn’t really assume much of it.]]></summary></entry></feed>
+<p>Now, <em>of course</em>, some select few people might see this sort of idea as “nerd shit.” And they’re free to think that way. I remember back in middle and high school, when “nerd” was a legitimate insult that inspired all kinds of bullying. And, I’m thankful, that the internet is <em>not</em> high school, and that people who are mentally <em>stuck</em> there, <em>probably</em> won’t be a real big part of the future digital social landscape.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="socialmedia" /><category term="creators" /><category term="webdev" /><summary type="html"><![CDATA[I see, sometimes, people talking about how they don’t really use any specific social media app as reinforcement of anything they do, or share, in regard to work, or art, and that if they did … if that was their main mode of deriving support, money, and so on, and so forth: They’d be screwed. And, well, yeah. That’s exactly correct. For all intents and purposes, if you’re just online to chat, and make friends with random people, that’s cool. You can do that in any space you choose, and you should. That’s the way the internet used to be.]]></summary></entry></feed>

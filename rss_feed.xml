@@ -10,7 +10,184 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Sun, 09 Mar 2025 21:13:15 -0400</pubDate>
+    <pubDate>Sun, 09 Mar 2025 22:18:28 -0400</pubDate>
+    <item>
+      <title>Ingest Your Bluesky Posts To Jekyll</title>
+      <link>https://mkultra.monster/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html</link>
+      <description>&lt;p&gt;Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, &lt;a href=&quot;https://git.garrido.io/gabriel/mastodon-markdown-archive#installation&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I &lt;em&gt;lost&lt;/em&gt; my entire decade-old Twitter account and all of its content, I also want to make sure that &lt;em&gt;never happens again&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, I’ve made a Ruby script that you can use on a Jekyll site to automatically import anything from your Bluesky RSS feed, directly into your website under a “_skeets” directory, which includes images as media, and excludes reposts, quote posts, and replies (or should!)&lt;/p&gt;
+
+&lt;p&gt;It is as follows:&lt;/p&gt;
+
+&lt;p&gt;{% raw %}
+```
+require ‘rss’
+require ‘fileutils’
+require ‘jekyll’
+require ‘open-uri’
+require ‘nokogiri’&lt;/p&gt;
+
+&lt;h1 id=&quot;defining-the-rss-feed-url-and-where-it-should-be-located-on-your-site&quot;&gt;Defining the RSS feed URL and where it should be located on your site&lt;/h1&gt;
+&lt;p&gt;RSS_FEED_URL = ‘https://bsky.app/profile/did:plc:zzofxcatgqb5wpkqetnng4wo/rss’ # Don’t use my feed URL, replace this with your own
+OUTPUT_DIR = ‘_skeets’
+MEDIA_DIR = ‘assets/media’
+LAST_IMPORTED_FILE = ‘last_imported_guid.txt’&lt;/p&gt;
+
+&lt;h1 id=&quot;script-creates-directories-if-they-dont-already-exist&quot;&gt;Script creates directories if they don’t already exist&lt;/h1&gt;
+&lt;p&gt;FileUtils.mkdir_p(OUTPUT_DIR)
+FileUtils.mkdir_p(MEDIA_DIR)&lt;/p&gt;
+
+&lt;h1 id=&quot;sanitize-filenames-because-bsky-does-it-all-weird-and-stuff&quot;&gt;Sanitize filenames, because bsky does it all weird and stuff&lt;/h1&gt;
+&lt;p&gt;def sanitize_filename(filename)
+  base = File.basename(filename, “.*”)
+  ext = File.extname(filename).gsub(‘@’, ‘.’)
+  sanitized_base = base.gsub(/[^0-9A-Za-z.-]/, ‘&lt;em&gt;’).gsub(/&lt;/em&gt;+/, ‘_’)
+  “#{sanitized_base}#{ext}”
+end&lt;/p&gt;
+
+&lt;h1 id=&quot;convert-urls-included-in-posts-into-an-anchor-that-can-be-clicked&quot;&gt;Convert URLs included in posts into an anchor that can be clicked&lt;/h1&gt;
+&lt;p&gt;def convert_urls_to_links(content)
+  content.gsub(/(https?:\/\/[^\s]+)(?![^&amp;lt;]*&amp;gt;)/, ‘&lt;a href=&quot;\1&quot; target=&quot;_blank&quot;&gt;\1&lt;/a&gt;’)
+end&lt;/p&gt;
+
+&lt;h1 id=&quot;download-images-as-media-and-update-the-content&quot;&gt;Download images as media, and update the content&lt;/h1&gt;
+&lt;p&gt;def download_images_and_update_content(content, media_dir)
+  content.gsub(/&amp;lt;img src=”(https?:\/\/[^\s]+)”[^&amp;gt;]*&amp;gt;/) do |match|
+    image_url = $1
+    image_filename = sanitize_filename(File.basename(image_url).gsub(‘@’, ‘.’))
+    image_path = “#{media_dir}/#{image_filename}”&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;puts &quot;Found image URL: #{image_url}&quot;
+puts &quot;Downloading image: #{image_url} to #{image_path}&quot;
+
+begin
+  # Download media
+  URI.open(image_url) do |image|
+    File.open(image_path, 'wb') do |file|
+      file.write(image.read)
+    end
+  end
+  puts &quot;Successfully downloaded image: #{image_url}&quot;
+rescue StandardError =&amp;gt; e
+  puts &quot;Failed to download image: #{image_url}. Error: #{e.message}&quot;
+end
+
+# Update the path to the image so that it displays correctly
+&quot;&amp;lt;img src=\&quot;/#{image_path}\&quot; alt=\&quot;Image\&quot;&amp;gt;&quot;   end end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;fetch-and-parse-post-content-in-order-to-find-images-because-by-default-they-arent-displayed-in-the-rss-feed&quot;&gt;Fetch and parse post content in order to find images, because, by default, they aren’t displayed in the RSS feed&lt;/h1&gt;
+&lt;p&gt;def fetch_and_parse_skeet_content(url)
+  begin
+    html_content = URI.open(url).read
+    document = Nokogiri::HTML(html_content)
+    images = document.css(‘meta[property=”og:image”]’).map { |meta| meta[‘content’] }
+    puts “Found images: #{images}” if images.any?
+    images
+  rescue StandardError =&amp;gt; e
+    puts “Failed to fetch or parse skeet content: #{url}. Error: #{e.message}”
+    []
+  end
+end&lt;/p&gt;
+
+&lt;h1 id=&quot;read-the-last-imported-guid-from-the-created-file&quot;&gt;Read the last imported GUID from the created file&lt;/h1&gt;
+&lt;p&gt;last_imported_guid = if File.exist?(LAST_IMPORTED_FILE)
+                       File.read(LAST_IMPORTED_FILE).strip
+                     else
+                       nil
+                     end&lt;/p&gt;
+
+&lt;h1 id=&quot;fetch-and-parse-the-rss-feed&quot;&gt;Fetch and parse the RSS feed&lt;/h1&gt;
+&lt;p&gt;begin
+  rss_content = URI.open(RSS_FEED_URL).read
+  rss = RSS::Parser.parse(rss_content, false)&lt;/p&gt;
+
+&lt;p&gt;# Iterate through each item in the RSS feed
+  rss.items.each do |item|
+    puts “Processing item: #{item.title}”
+    puts “Description: #{item.description}”&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;break if item.guid.content == last_imported_guid
+
+# Exclude replies, reposts, and quote posts
+next if item.title&amp;amp;.start_with?('Re:') || item.title&amp;amp;.start_with?('RT:') || item.description.include?(&quot;[contains quote post or other embedded content]&quot;)
+
+# Sanitize the filename
+sanitized_filename = sanitize_filename(item.guid.content)
+filename = &quot;#{OUTPUT_DIR}/#{sanitized_filename}.md&quot;
+
+# Fetch and parse content to find images
+images = fetch_and_parse_skeet_content(item.link)
+images.each do |image_url|
+  # Download image and update
+  downloaded_image_tag = download_images_and_update_content(&quot;&amp;lt;img src=\&quot;#{image_url}\&quot; alt=\&quot;Image\&quot;&amp;gt;&quot;, MEDIA_DIR)
+  item.description += downloaded_image_tag
+end
+
+# Create a Markdown file for each feed item with Jekyll front matter (customize this do be whatever you normally use)
+File.open(filename, 'w') do |file|
+  file.write(&quot;---\n&quot;)
+  file.write(&quot;layout: skeet\n&quot;)
+  file.write(&quot;title: \&quot;#{item.title || 'New Skeet'}\&quot;\n&quot;)
+  file.write(&quot;date: #{item.pubDate}\n&quot;)
+  file.write(&quot;author: ⸸ commander ░ nova ⸸ :~$\n&quot;)
+  file.write(&quot;collection: skeets\n&quot;)
+  file.write(&quot;guid: #{item.guid.content}\n&quot;)
+  file.write(&quot;avatar: /img/avatar/daemon.jpeg\n&quot;)
+  file.write(&quot;bluesky: #{item.link}\n&quot;)
+  file.write(&quot;---\n\n&quot;)
+  
+  # Convert URLs in the content to HTML anchors
+  content = convert_urls_to_links(item.description)
+  
+  file.write(&quot;#{content}\n&quot;)
+end   end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;# Update the last imported GUID
+  File.write(LAST_IMPORTED_FILE, rss.items.first.guid.content) if rss.items.any?&lt;/p&gt;
+
+&lt;p&gt;puts “Successfully converted RSS feed to Markdown files in #{OUTPUT_DIR}.”&lt;/p&gt;
+
+&lt;p&gt;rescue StandardError =&amp;gt; e
+  puts “An error occurred: #{e.message}”
+end
+```
+{% endraw %}&lt;/p&gt;
+
+&lt;p&gt;And there you have it. Using this Ruby alongside Jekyll, you can import everything you post to Bluesky as native “posts” on a Jekyll site, from just your Bluesky RSS feed! Now, this &lt;em&gt;isn’t&lt;/em&gt; going to import your entire posting history thus far (that would be problematic, especially if you’ve got a large history), but, it’s a good starting point to making yourself billionaire proof.&lt;/p&gt;
+
+&lt;p&gt;I don’t fully believe, or &lt;em&gt;trust&lt;/em&gt; that Bluesky can’t be corrupted by money and corporations, and that doesn’t have to even matter, if all of your content, and the essence of &lt;em&gt;you&lt;/em&gt;, is hosted on &lt;em&gt;your own site&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Obviously, other things, like &lt;em&gt;displaying&lt;/em&gt; these on a Jekyll feed, are things you’ll need to configure. But it &lt;em&gt;should&lt;/em&gt; be as easy as specifying …&lt;/p&gt;
+
+&lt;p&gt;{% raw %}
+&lt;code&gt;
+{% assign skeets_array = site.skeets %}
+&lt;/code&gt;
+{% endraw %}&lt;/p&gt;
+
+&lt;p&gt;and then …&lt;/p&gt;
+
+&lt;p&gt;{% raw %}
+&lt;code&gt;
+  {% for item in paginated_array %}
+    {% assign post_type = item.collection %}
+        {% elsif post_type == &quot;skeets&quot; %}
+      {% assign icon = &quot;ph ph-butterfly&quot; %}
+      {% assign verb = &quot;Skeeted&quot; %}
+      {% assign content = item.content %}
+&lt;/code&gt;
+{% endraw %}&lt;/p&gt;
+
+&lt;p&gt;But, it &lt;em&gt;is&lt;/em&gt; assumed that if you’re doing this, you &lt;em&gt;might&lt;/em&gt; have some knowledge of how Jekyll and Liquid syntax works.&lt;/p&gt;
+
+&lt;p&gt;Either way, have fun turning your website into a compendium of everything you say and do!&lt;/p&gt;
+</description>
+      <pubDate>Sun, 09 Mar 2025 17:21:03 -0400</pubDate>
+      <dc:date>2025-03-09T17:21:03-04:00</dc:date>
+    </item>
     <item>
       <title>International Women's Day: My Favorite Female Characters</title>
       <link>https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters.html</link>
@@ -15428,6 +15605,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-09T21:13:15-04:00</dc:date>
+    <dc:date>2025-03-09T22:18:28-04:00</dc:date>
   </channel>
 </rss>

@@ -223,6 +223,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_posts/2025-03-09-ingest-your-bluesky-posts-to-jekyll.md</loc>
+    <lastmod>2025-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_posts/2024-07-06-threads-vs-twitter.md</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -4394,6 +4400,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/lgbtq/2024/12/29/the-bechdel-test-and-why-it-s-tainted.html</loc>
+    <lastmod>2025-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html</loc>
     <lastmod>2025-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
