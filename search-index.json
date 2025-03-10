@@ -60506,6 +60506,24 @@
     "date": "2025-03-09"
   },
   {
+    "id": "114135547313374600",
+    "url": "/toots/114135547313374600/114135547313374600.html",
+    "content": "setting Monster Hunter Wilds to proton experimental appears to make it function just fine on #linux_gaming\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-09"
+  },
+  {
+    "id": "114135859575544803",
+    "url": "/toots/114135859575544803/114135859575544803.html",
+    "content": "My MHW character actually has a spoken voice this time around (last MH game I played was Worlds)\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-09"
+  },
+  {
     "id": "1204211300",
     "url": "/toots/1204211300/1204211300.html",
     "content": "yeah, I think I’m going to setup the release of my next album to be under Eyeshadow 2600 FM, just cause I don’t have energy to rebuild any kind of following lol\n",
@@ -65544,6 +65562,15 @@
     "avatar": "/img/avatar/daemon.jpeg",
     "author": "⸸ commander ░ nova ⸸ :~$",
     "date": "Mon, 10 Mar 2025 00:53:00 +0000"
+  },
+  {
+    "id": "3ljyjvbhpzk26",
+    "url": "/skeets/3ljyjvbhpzk26/3ljyjvbhpzk26.html",
+    "content": "Today on the blog, I’ve written a Ruby script to ingest a #Bluesky account’s RSS feed and convert them into markdown files, for a Jekyll (or similar) website. This effectively archives your posts\n\nhttps://mkultra.monster/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Mon, 10 Mar 2025 02:45:00 +0000"
   },
   {
     "id": "doom",
