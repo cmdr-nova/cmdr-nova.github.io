@@ -1,0 +1,12 @@
+---
+layout: skeet
+title: "New Skeet"
+date: Fri, 07 Mar 2025 14:08:00 +0000
+author: ⸸ commander ░ nova ⸸ :~$
+collection: skeets
+guid: at://did:plc:zzofxcatgqb5wpkqetnng4wo/app.bsky.feed.post/3ljs6o2r36c23
+avatar: /img/avatar/daemon.jpeg
+bluesky: https://bsky.app/profile/mkultra.monster/post/3ljs6o2r36c23
+---
+
+Spending what little time I have before I have to sleep standing in Second Life in front of my green screen and security orb so vampires can't bite me, like we all do, am I right<img src="/_skeets/media/bafkreib4jnvwwe63gm72qgmnqzoaxuy3m5wdfuly5ruechatvp5asp7zja_jpeg" alt="Image">
