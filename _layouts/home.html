@@ -45,7 +45,8 @@ creator of everything -->
         {% assign total_toots = site.toots | size %}
         {% assign total_logs = site.logs | size %}
         {% assign total_notes = site.notes | size %}
-        {% assign total_items = total_posts | plus: total_logs | plus: total_notes | plus: total_toots %}
+        {% assign total_skeets = site.skeets | size %}
+        {% assign total_items = total_posts | plus: total_logs | plus: total_notes | plus: total_toots | plus: total_skeets %}
 
         <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
         <script src="/assets/js/fake-follows.js"></script>
@@ -89,7 +90,8 @@ creator of everything -->
   {% assign logs_array = site.logs %}
   {% assign posts_array = site.posts %}
   {% assign toots_array = site.toots %}
-  {% assign combined_array = posts_array | concat: notes_array | concat: logs_array | concat: toots_array %}
+  {% assign skeets_array = site.skeets %}
+  {% assign combined_array = posts_array | concat: notes_array | concat: logs_array | concat: toots_array | concat: skeets_array %}
   {% assign combined_array = combined_array | sort: "date" | reverse %}
 
   {% assign pinned_items = combined_array | where: "pinned", true %}
@@ -121,6 +123,10 @@ creator of everything -->
     {% elsif post_type == "toots" %}
       {% assign icon = "ph ph-chat-text" %}
       {% assign verb = "Tooted" %}
+      {% assign content = item.content %}
+    {% elsif post_type == "skeets" %}
+      {% assign icon = "ph ph-butterfly" %}
+      {% assign verb = "Skeeted" %}
       {% assign content = item.content %}
     {% else %}
       {% assign icon = "ph ph-chat-text" %}

@@ -11,4 +11,4 @@ bluesky: https://bsky.app/profile/mkultra.monster/post/3ljsa2ut5ls26
 
 Testing out photo taking with this katana in #secondlife
 
-Depth of field is a wild thing<img src="/_skeets/media/bafkreic4cfqpmdezmrbjmaqlo53bemh6axhugvls5mc6ravsiky67zemzm_jpeg" alt="Image">
+Depth of field is a wild thing<img src="/assets/media/bafkreic4cfqpmdezmrbjmaqlo53bemh6axhugvls5mc6ravsiky67zemzm.jpeg" alt="Image">

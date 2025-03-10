@@ -9,4 +9,4 @@ avatar: /img/avatar/daemon.jpeg
 bluesky: https://bsky.app/profile/mkultra.monster/post/3ljuo27dt6s2a
 ---
 
-fun's over guys<img src="/_skeets/media/bafkreibxhxudjxpfvvpustjczvlfcirdq3h2he2qr6e43d2scny3bly6iy_jpeg" alt="Image">
+fun's over guys<img src="/assets/media/bafkreibxhxudjxpfvvpustjczvlfcirdq3h2he2qr6e43d2scny3bly6iy.jpeg" alt="Image">
