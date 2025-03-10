@@ -98,13 +98,14 @@ creator of everything -->
   {% assign unpinned_items = combined_array | where_exp: "item", "item.pinned != true" %}
   {% assign combined_array = pinned_items | concat: unpinned_items %}
 
+  {% assign prioritized_array = combined_array | sort: "type" %}
   {% assign items_per_page = paginator.per_page %}
   {% assign current_page = paginator.page %}
-  {% assign total_items = combined_array.size %}
+  {% assign total_items = prioritized_array.size %}
   {% assign total_pages = total_items | divided_by: items_per_page | ceil %}
   {% assign start_index = items_per_page | times: current_page | minus: items_per_page %}
   {% assign end_index = items_per_page | times: current_page %}
-  {% assign paginated_array = combined_array | slice: start_index, items_per_page %}
+  {% assign paginated_array = prioritized_array | slice: start_index, items_per_page %}
 
   {% for item in paginated_array %}
     {% assign post_type = item.collection %}
