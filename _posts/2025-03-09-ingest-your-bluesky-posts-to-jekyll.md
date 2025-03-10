@@ -9,13 +9,13 @@ tags: [webdev, social-media, bluesky]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114135755156614585
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-none: no_syndication_available 
+none: 
 ---
 Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, <a href="https://git.garrido.io/gabriel/mastodon-markdown-archive#installation" target="_blank">here</a>. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I *lost* my entire decade-old Twitter account and all of its content, I also want to make sure that *never happens again*.
 
