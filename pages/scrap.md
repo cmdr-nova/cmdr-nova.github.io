@@ -88,6 +88,34 @@ permalink: /pages/scrap/
     </div>
   </div>
   <div class="image-item">
+    <img src="/img/scrap/meryl_fo4.png" alt="a photo of my character from Fallout 4.">
+    <div class="image-caption">Meryl (modded) //
+    <br />
+    <span style="font-size: .7em;">Fallout 4 (2015)</span>
+    </div>
+  </div>
+  <div class="image-item">
+    <img src="/img/scrap/nomans.png" alt="a photo of my character from No Man's Sky.">
+    <div class="image-caption">Traveler (meryl, nova) //
+    <br />
+    <span style="font-size: .7em;">No Man's Sky (2016)</span>
+    </div>
+  </div>
+  <div class="image-item">
+    <img src="/img/scrap/meryl_skyrim.png" alt="a photo of my character from Skyrim.">
+    <div class="image-caption">Meryl (modded) //
+    <br />
+    <span style="font-size: .7em;">Skyrim (2017)</span>
+    </div>
+  </div>
+  <div class="image-item">
+    <img src="/img/scrap/meryl_76.png" alt="a photo of my character from Fallout 76">
+    <div class="image-caption">Meryl //
+    <br />
+    <span style="font-size: .7em;">Fallout 76 (2018)</span>
+    </div>
+  </div>
+  <div class="image-item">
     <img src="/img/scrap/merewin2.png" alt="a photo of my character from Red Dead Online">
     <div class="image-caption">Merewin Aldervale //
     <br />
