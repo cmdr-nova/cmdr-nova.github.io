@@ -9,13 +9,13 @@ tags: [world-of-warcraft, gaming]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114149021046224220
 akkoma: 
-bluesky: 
+bluesky: https://bsky.app/profile/mkultra.monster/post/3lk6fdf2duc2o
 wafrn: 
 pillowfort: 
 tumblr: 
-none: no_syndication_available 
+none: 
 ---
 You might look at the headline, "I spent two days playing World of Warcraft," and go, "What is this, 2008?" And, honestly? I wish it was. But, the past it is not. Recently, I had a position change at work, and now I have to sleep during the day. But, an added bonus? I work longer days, and have more days off. So, I decided to take a sizeable chunk of that time off, and get back into the World of Warcraft. But, how long have I had characters in this game?
 
