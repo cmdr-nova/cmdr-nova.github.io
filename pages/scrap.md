@@ -42,6 +42,13 @@ permalink: /pages/scrap/
     </div>
   </div>
   <div class="image-item">
+    <img src="/img/scrap/karga.png" alt="a photo of one of my main sims in The Sims 3">
+    <div class="image-caption">Morgan Karga //
+    <br />
+    <span style="font-size: .7em;">The Sims 3 (2009)</span>
+    </div>
+  </div>
+  <div class="image-item">
     <img src="/img/scrap/Darth_Vulena.png" alt="a photo of my character from Star Wars The Old Republic MMO">
     <div class="image-caption">Darth Vulena //
     <br />
@@ -67,17 +74,24 @@ permalink: /pages/scrap/
     <div class="image-caption">Meryl Anne Shepard</div>
   </div>-->
   <div class="image-item">
-    <img src="/img/scrap/me3.png" alt="another photo of my character from the Mass Effect trilogy.">
+    <img src="/img/scrap/me3.png" alt="A photo of my character from the Mass Effect trilogy.">
     <div class="image-caption">Meryl Anne Shepard //
     <br />
     <span style="font-size: .7em;">Mass Effect Trilogy (2007-2012)</span>
     </div>
   </div>
-    <div class="image-item">
-    <img src="/img/scrap/meryl_eve.png" alt="another photo of my character from the EVE Online.">
+  <div class="image-item">
+    <img src="/img/scrap/meryl_eve.png" alt="A photo of my character from the EVE Online.">
     <div class="image-caption">Meryl SinGarda //
     <br />
     <span style="font-size: .7em;">EVE Online (2012)</span>
+    </div>
+  </div>
+  <div class="image-item">
+    <img src="/img/scrap/kalcia_ember.png" alt="A photo of my character from the Guild Wars 2.">
+    <div class="image-caption">Kalicia Ember //
+    <br />
+    <span style="font-size: .7em;">Guild Wars 2 (2012)</span>
     </div>
   </div>
   <div class="image-item">
@@ -99,6 +113,13 @@ permalink: /pages/scrap/
     <div class="image-caption">Traveler (meryl, nova) //
     <br />
     <span style="font-size: .7em;">No Man's Sky (2016)</span>
+    </div>
+  </div>
+  <div class="image-item">
+    <img src="/img/scrap/phaedra.png" alt="a photo of my character from Diablo 3.">
+    <div class="image-caption">Phaedra //
+    <br />
+    <span style="font-size: .7em;">Diablo 3 (2017)</span>
     </div>
   </div>
   <div class="image-item">
@@ -161,6 +182,12 @@ permalink: /pages/scrap/
     <img src="/img/scrap/the_sarentu.png" alt="a photo of my character from Starfield.">
     <div class="image-caption">The Sarentu //
     <span style="font-size: .7em;">Avatar: Frontiers of Pandora (2023)</span>
+    </div>
+  </div>
+  <div class="image-item">
+    <img src="/img/scrap/ludyvena.png" alt="a photo of my character from Diablo 4.">
+    <div class="image-caption">Ludyvena //
+    <span style="font-size: .7em;">Diablo 4 (2023)</span>
     </div>
   </div>
   <div class="image-item">
