@@ -14,7 +14,7 @@ akkoma:
 bluesky: https://bsky.app/profile/mkultra.monster/post/3lk6fdf2duc2o
 wafrn: 
 pillowfort: 
-tumblr: 
+tumblr: https://www.tumblr.com/nova-ayashi/777808524111659008/you-might-look-at-the-headline-i-spent-two-days
 none: 
 ---
 You might look at the headline, "I spent two days playing World of Warcraft," and go, "What is this, 2008?" And, honestly? I wish it was. But, the past it is not. Recently, I had a position change at work, and now I have to sleep during the day. But, an added bonus? I work longer days, and have more days off. So, I decided to take a sizeable chunk of that time off, and get back into the World of Warcraft. But, how long have I had characters in this game?
