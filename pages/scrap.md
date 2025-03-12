@@ -109,6 +109,13 @@ permalink: /pages/scrap/
     </div>
   </div>
   <div class="image-item">
+    <img src="/img/scrap/sims4.png" alt="a photo of my main sims in The Sims 4, circa 2016.">
+    <div class="image-caption">Kavanagh Family //
+    <br />
+    <span style="font-size: .7em;">The Sims 4 (2016)</span>
+    </div>
+  </div>
+  <div class="image-item">
     <img src="/img/scrap/nomans.png" alt="a photo of my character from No Man's Sky.">
     <div class="image-caption">Traveler (meryl, nova) //
     <br />
