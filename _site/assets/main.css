@@ -3012,21 +3012,21 @@ li {
 
 @media (min-width: 481px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* Two items per row for larger screens */
+    grid-template-columns: repeat(2, 1fr); 
   }
 
   .grid-item img {
-    max-height: 200px; /* Restrict image height on larger screens */
+    max-height: 200px; 
   }
 }
 
 @media (max-width: 480px) {
   .grid-container {
-    grid-template-columns: 1fr; /* One item per row for mobile devices */
+    grid-template-columns: 1fr;
   }
 
   .grid-item img {
-    height: auto; /* Maintain image height on mobile view */
+    height: auto;
   }
 }
 
