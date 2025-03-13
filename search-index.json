@@ -2929,6 +2929,15 @@
     "date": "2025-03-07 14:51:05 -0500"
   },
   {
+    "id": "2025-03-13-new-pagination",
+    "url": "/logs/2025/03/13/new-pagination.html",
+    "content": "Did a quick, but major site update to re-order all of the content on the site. The homepage now only shows the latest content from each content type, while the links to each type of content in the sidebar (posts, notes, logs, toots, and skeets) now show a full range of all content, but paginated.\n\n",
+    "type": "log",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-13 13:45:27 -0400"
+  },
+  {
     "id": "0101002700",
     "url": "/toots/0101002700/0101002700.html",
     "content": "Welp it’s another year\n",
