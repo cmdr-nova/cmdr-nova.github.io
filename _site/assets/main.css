@@ -1206,12 +1206,13 @@ iframe {
   max-width: 100%;
 }
 
+/*
 #tumblr-feed {
   display: block;
   margin: 0 auto;
   width: 240px;
 }
-
+*/
 .tumblr-post {
   margin-bottom: 20px; 
   border-bottom: 1px solid #ccc;
@@ -3074,4 +3075,25 @@ li {
   flex-grow: 1;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+#tumblr-feed {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #202020;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+#tumblr-feed h3 {
+  font-weight: bold;
+}
+
+#tumblr-feed .date {
+  font-size: 0.9em;
+  color: #666;
 }
