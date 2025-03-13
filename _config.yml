@@ -29,7 +29,7 @@ paginate: 7
 paginate_path: /page:num/
 plugins:
 - jekyll-feed
-- jekyll-paginate
+- jekyll-paginate-v2
 - jekyll-compose
 - jekyll-compress-images
 - jekyll-tagging
