@@ -7,6 +7,7 @@ pagination:
   collection: logs
   per_page: 10
 ---
+<p class="center">Listed on this page are update logs related to changes I've made to the site.</p>
 
 <div class="logs-section">
   {% for log in paginator.posts %}

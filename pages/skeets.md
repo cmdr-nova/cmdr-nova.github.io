@@ -7,6 +7,7 @@ pagination:
   collection: skeets
   per_page: 10
 ---
+<p class="center">An archive of posts I've made to my Bluesky account, archived here, and starting from March 2025.</p>
 
 <div class="skeets-section">
   {% for skeet in paginator.posts %}

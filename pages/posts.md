@@ -7,6 +7,7 @@ pagination:
   collection: posts
   per_page: 10
 ---
+<p class="center">A listing of all long-form posts published to-date. Herein, you'll find my thoughts on concepts, ideas, politics, and more.</p>
 
 <div class="posts-section">
   {% for post in paginator.posts %}

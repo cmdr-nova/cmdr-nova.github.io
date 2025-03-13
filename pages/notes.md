@@ -7,6 +7,7 @@ pagination:
   collection: notes
   per_page: 10
 ---
+<p class="center">A compendium of each note posted directly to the site. Like social media posts, but written by hand, down to the HTML.</p>
 
 <div class="notes-section">
   {% for note in paginator.posts %}

@@ -7,6 +7,7 @@ pagination:
   collection: toots
   per_page: 10
 ---
+<p class="center">An archived page containing Mastodon posts I've made since the start of 2024.</p>
 
 <div class="toots-section">
   {% for toot in paginator.posts %}
