@@ -3,6 +3,8 @@ layout: page
 title: Recent Skeets
 permalink: /pages/skeets/
 ---
+<p class="center">An archive of my posts from Bluesky</p>
+<p class="center" style="font-size: .9em;">displaying the latest ten, <i>only</i></p>
 
 <div class="skeets-section">
   {% assign skeets_array = site.skeets | sort: 'date' | reverse %}

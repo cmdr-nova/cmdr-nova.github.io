@@ -9,13 +9,13 @@ tags: [social-media, webdev]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114155653287420485 
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-none: no_syndication_available 
+none: 
 ---
 Yeah, I'm writing about something I've written about a few times now, but it echoes my feelings of getting older, and wishing we could take at least *parts* of the world back twenty five years or so. But, why? Would I, or anyone else, really actually enjoy interacting with an internet where they can't just immediately connect with a thousand people and get some likes and shares? Am I being uncharitable in assuming this is all people care about anymore?
 

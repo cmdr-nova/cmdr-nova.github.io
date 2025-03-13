@@ -60853,6 +60853,33 @@
     "date": "2025-03-13"
   },
   {
+    "id": "114155263590550083",
+    "url": "/toots/114155263590550083/114155263590550083.html",
+    "content": "Everyday my wish for the internet to return to the 90s is more and more justified and very much not a rose tinted glasses thing\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-13"
+  },
+  {
+    "id": "114155462676191439",
+    "url": "/toots/114155462676191439/114155462676191439.html",
+    "content": "I feel like I missed a whole era of 90s internet, because my parents could never afford, or were never interested in Usenet, so I never got to see it (I know it still exists, but I doubt it looks or feels anything like 90s internet)\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-13"
+  },
+  {
+    "id": "114155704267507497",
+    "url": "/toots/114155704267507497/114155704267507497.html",
+    "content": "I feel like I should put a main array on my site that shows my latest post, note, log, toot, and skeet, and then have links on the sidebar that go to a custom paginated page for each type where you can see them all\n\nProbably is, I think Jekyll pagination (at least the version github lets you use) only works with one feed, which is why the current feed is everything from everywhere all at once\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-13"
+  },
+  {
     "id": "1204211300",
     "url": "/toots/1204211300/1204211300.html",
     "content": "yeah, I think I’m going to setup the release of my next album to be under Eyeshadow 2600 FM, just cause I don’t have energy to rebuild any kind of following lol\n",
@@ -66161,6 +66188,15 @@
     "avatar": "/img/avatar/daemon.jpeg",
     "author": "⸸ commander ░ nova ⸸ :~$",
     "date": "Thu, 13 Mar 2025 08:26:00 +0000"
+  },
+  {
+    "id": "3lkb7qfsjjc2s",
+    "url": "/skeets/3lkb7qfsjjc2s/3lkb7qfsjjc2s.html",
+    "content": "Someone on Mastodon posted this screenshot of an old tweet from Twitter, and I was reminded of it, how appalling and hilarious it was\n\nBecause this is what being in a feedback loop does to a mfer\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Thu, 13 Mar 2025 13:37:00 +0000"
   },
   {
     "id": "doom",
