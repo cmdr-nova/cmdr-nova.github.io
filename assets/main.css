@@ -3089,6 +3089,10 @@ li {
   position: relative;
 }
 
+.light-mode #tumblr-feed {
+  background-color: #a7a7a7;
+}
+
 #tumblr-feed h3 {
   font-weight: bold;
 }
