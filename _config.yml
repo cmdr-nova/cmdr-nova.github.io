@@ -25,8 +25,16 @@ lang: en-US
 mastodon:
 - instance: mastodon.online
   username: cmdr_nova
-paginate: 7
-paginate_path: /page:num/
+pagination:
+  enabled: true
+  limit: 0
+  per_page: 10
+  sort_field: date
+  sort_reverse: true
+  title: :title - page :num
+  trail:
+    after: 2
+    before: 2
 plugins:
 - jekyll-feed
 - jekyll-paginate-v2
@@ -189,49 +197,49 @@ tag_categories:
   - tv
   uncategorized:
   - ''
-  - neo-machina
-  - patreon
-  - mac
-  - sad
-  - night
-  - pillars-of-eternity
-  - bread
-  - bots
-  - oof
-  - firefox
-  - pandora
-  - littledudes
-  - css
-  - posting
-  - cats
-  - mutuals
-  - java
-  - overhaul
-  - mozilla
-  - eora
-  - label
   - share-links
-  - world-of-warcraft
-  - grave
-  - post
-  - update
-  - app
-  - rss
-  - coffee
-  - amongus
-  - indexing
-  - cyberpunk
-  - sleep
-  - life
-  - note
-  - blog
-  - second
-  - syndication
-  - international-womens-day
-  - avowed
   - kingdomcome2
-  - baby
   - nuggets
+  - cyberpunk
+  - eora
+  - baby
+  - mutuals
+  - pandora
+  - life
+  - international-womens-day
+  - coffee
+  - bread
+  - indexing
+  - syndication
+  - sleep
+  - java
+  - sad
+  - bots
+  - second
+  - cats
+  - overhaul
+  - note
+  - pillars-of-eternity
+  - littledudes
+  - grave
+  - oof
+  - mac
+  - patreon
+  - post
+  - mozilla
+  - update
+  - avowed
+  - firefox
+  - label
+  - neo-machina
+  - world-of-warcraft
+  - posting
+  - amongus
+  - rss
+  - night
+  - app
+  - blog
+  - css
   writing:
   - fiction
 theme: minima

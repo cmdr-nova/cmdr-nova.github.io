@@ -2,13 +2,14 @@
 layout: page
 title: Recent Posts
 permalink: /pages/posts/
+pagination:
+  enabled: true
+  collection: posts
+  per_page: 10
 ---
 
-{% assign posts_array = site.posts | sort: 'date' | reverse %}
-{% assign limited_posts = posts_array | slice: 0, 10 %}
-
 <div class="posts-section">
-  {% for post in limited_posts %}
+  {% for post in paginator.posts %}
     <div class="posts-item item">
       {% if post.avatar %}
         <img src="{{ post.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
@@ -18,7 +19,7 @@ permalink: /pages/posts/
       {% endif %}
       <br /><br />
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <div>{{ post.excerpt | strip_html | truncatewords: 50 }}</div>
+      <div>{{ post.content | strip_newlines | truncatewords: 50 }}</div>
       <span class="date"><i>published</i> {{ post.date | date: '%B %e, %Y' }}</span>
       <div class="syndicate">
         <i class="ph ph-broadcast" title="Syndication"></i>
@@ -62,4 +63,19 @@ permalink: /pages/posts/
       </div>
     </div>
   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  <a href="{{ paginator.previous_page_path }}" class="previous {% if paginator.page == 1 %}disabled{% endif %}">
+    ░ Previous
+  </a>
+  <span class="page_number">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+  {% else %}
+    <span class="next">Next ░</span>
+  {% endif %}
 </div>

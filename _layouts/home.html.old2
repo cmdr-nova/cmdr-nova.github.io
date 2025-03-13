@@ -80,129 +80,152 @@ creator of everything -->
 
       </div>
         
-      <p align="center"><img src="/img/gifs/rainbow.gif"></p>
-      <p><em>... and here's where I keep all of my brain juice:</em></p>
-      
-      <!-- New Posts Section -->
-       
-      <div class="posts-section">
-        {% assign latest_post = site.posts | sort: "date" | last %}
-        {% assign latest_note = site.notes | sort: "date" | last %}
-        {% assign latest_log = site.logs | sort: "date" | last %}
-        {% assign latest_toot = site.toots | sort: "date" | last %}
-        {% assign latest_skeet = site.skeets | sort: "date" | last %}
-      
-        {% assign latest_items = "" | split: "" %}
-        {% if latest_post %} {% assign latest_items = latest_items | push: latest_post %} {% endif %}
-        {% if latest_note %} {% assign latest_items = latest_items | push: latest_note %} {% endif %}
-        {% if latest_log %} {% assign latest_items = latest_items | push: latest_log %} {% endif %}
-        {% if latest_toot %} {% assign latest_items = latest_items | push: latest_toot %} {% endif %}
-        {% if latest_skeet %} {% assign latest_items = latest_items | push: latest_skeet %} {% endif %}
-      
-        {% for item in latest_items %}
-          {% assign post_type = item.collection %}
-          {% if post_type == "posts" %}
-            {% assign icon = "ph ph-article" %}
-            {% assign verb = "Posted" %}
-            {% assign content = item.content | strip_newlines | truncatewords: 50 %}
-          {% elsif post_type == "notes" %}
-            {% assign icon = "ph ph-note" %}
-            {% assign verb = "Noted" %}
-            {% assign content = item.content %}
-          {% elsif post_type == "logs" %}
-            {% assign icon = "ph ph-notebook" %}
-            {% assign verb = "Logged" %}
-            {% assign content = item.content %}
-          {% elsif post_type == "toots" %}
-            {% assign icon = "ph ph-mastodon-logo" %}
-            {% assign verb = "Tooted" %}
-            {% assign content = item.content %}
-          {% elsif post_type == "skeets" %}
-            {% assign icon = "ph ph-butterfly" %}
-            {% assign verb = "Skeeted" %}
-            {% assign content = item.content %}
-          {% else %}
-            {% assign icon = "ph ph-chat-text" %}
-            {% assign verb = "Shared" %}
-          {% endif %}
-      
-          <div class="item">
-            <div>
-              {% if item.pinned %}
-                <div class="pin-icon" style="text-align: right; padding: 5px; font-size: 1.5em;">
-                  <i class="ph ph-push-pin"></i>
-                </div>
-              {% endif %}
-              <span class="verb"><i class="{{ icon }}"></i> {{ verb }}:</span>
-              <br /><br />
-              {% if item.avatar %}
-                <img src="{{ item.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
-              {% endif %}
-              {% if item.author %}
-                {{ item.author }}
-              {% endif %}
-              <br /><br />
-              {% if post_type == "posts" %}
-                <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-              {% endif %}
-              <div>{{ content }}</div>
-              <span class="date"><i>published</i> {{ item.date | date: '%B %e, %Y' }}</span>
-              <div class="syndicate">
-                <i class="ph ph-broadcast" title="Syndication"></i>
-                {% if item.mastodon %}
-                <span style="padding:0px 5px 0px 5px;">
-                  <a href="{{ item.mastodon }}" target="_blank">Mastodon</a>
-                </span>
-              {% endif %}
-                {% if item.akkoma %}
-                  <span style="padding:0px 5px 0px 5px;">
-                    <a href="{{ item.akkoma }}" target="_blank">Akkoma</a>
-                  </span>
-                {% endif %}
-                {% if item.bluesky %}
-                  <span style="padding:0px 5px 0px 5px;">
-                    <a href="{{ item.bluesky }}" target="_blank">Bluesky</a>
-                  </span>
-                {% endif %}
-                {% if item.wafrn %}
-                  <span style="padding:0px 5px 0px 5px;">
-                    <a href="{{ item.wafrn }}" target="_blank">Wafrn</a>
-                  </span>
-                {% endif %}
-                {% if item.pillowfort %}
-                <span style="padding:0px 5px 0px 5px;">
-                  <a href="{{ item.pillowfort }}" target="_blank">Pillowfort</a>
-                </span>
-              {% endif %}
-              {% if item.tumblr %}
-              <span style="padding:0px 5px 0px 5px;">
-                <a href="{{ item.tumblr }}" target="_blank">Tumblr</a>
-              </span>
-            {% endif %}
-                {% if item.none %}
-                  <span style="padding:0px 5px 0px 5px;">
-                    {{ item.none }}
-                  </span>
-                {% endif %}
-              </div>
-              {% if item.tags %}
-                <div class="tags">
-                  {% for tag in item.tags %}
-                    <span>#{{tag}}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
-              {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" or post_type == "skeets" %}
-              <div style="text-align: right;">
-                <a href="{{ item.url }}" class="small-link">view</a> | 
-                <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
-              </div>
-              <script src="/assets/js/clipboard.js"></script>
-            {% endif %}
-            </div>
+<p align="center"><img src="/img/gifs/rainbow.gif"></p>
+<p><em>... and here's where I keep all of my brain juice:</em></p>
+
+<!-- New Posts Section -->
+
+<div class="posts-section">
+  {% assign notes_array = site.notes %}
+  {% assign logs_array = site.logs %}
+  {% assign posts_array = site.posts %}
+  {% assign toots_array = site.toots %}
+  {% assign skeets_array = site.skeets %}
+  {% assign combined_array = posts_array | concat: notes_array | concat: logs_array | concat: toots_array | concat: skeets_array %}
+  {% assign combined_array = combined_array | sort: "date" | reverse %}
+
+  {% assign pinned_items = combined_array | where: "pinned", true %}
+  {% assign unpinned_items = combined_array | where_exp: "item", "item.pinned != true" %}
+  {% assign combined_array = pinned_items | concat: unpinned_items %}
+
+  {% assign prioritized_array = combined_array | sort: "type" %}
+  {% assign items_per_page = paginator.per_page %}
+  {% assign current_page = paginator.page %}
+  {% assign total_items = prioritized_array.size %}
+  {% assign total_pages = total_items | divided_by: items_per_page | ceil %}
+  {% assign start_index = items_per_page | times: current_page | minus: items_per_page %}
+  {% assign end_index = items_per_page | times: current_page %}
+  {% assign paginated_array = prioritized_array | slice: start_index, items_per_page %}
+
+  {% for item in paginated_array %}
+    {% assign post_type = item.collection %}
+    {% if post_type == "notes" %}
+      {% assign icon = "ph ph-note" %}
+      {% assign verb = "Noted" %}
+      {% assign content = item.content %}
+    {% elsif post_type == "logs" %}
+      {% assign icon = "ph ph-notebook" %}
+      {% assign verb = "Logged" %}
+      {% assign content = item.content %}
+    {% elsif post_type == "posts" %}
+      {% assign icon = "ph ph-article" %}
+      {% assign verb = "Posted" %}
+      {% assign content = item.content | strip_newlines | truncatewords: 50 %}
+    {% elsif post_type == "toots" %}
+      {% assign icon = "ph ph-mastodon-logo" %}
+      {% assign verb = "Tooted" %}
+      {% assign content = item.content %}
+    {% elsif post_type == "skeets" %}
+      {% assign icon = "ph ph-butterfly" %}
+      {% assign verb = "Skeeted" %}
+      {% assign content = item.content %}
+    {% else %}
+      {% assign icon = "ph ph-chat-text" %}
+      {% assign verb = "Shared" %}
+    {% endif %}
+
+    <div class="item">
+      <div>
+        {% if item.pinned %}
+          <div class="pin-icon" style="text-align: right; padding: 5px; font-size: 1.5em;">
+            <i class="ph ph-push-pin"></i>
           </div>
-        {% endfor %}
+        {% endif %}
+        <span class="verb"><i class="{{ icon }}"></i> {{ verb }}:</span>
+        <br /><br />
+        {% if item.avatar %}
+          <img src="{{ item.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
+        {% endif %}
+        {% if item.author %}
+          {{ item.author }}
+        {% endif %}
+        <br /><br />
+        {% if post_type == "posts" %}
+          <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        {% endif %}
+        <div>{{ content }}</div>
+        <span class="date"><i>published</i> {{ item.date | date: '%B %e, %Y' }}</span>
+        <div class="syndicate">
+          <i class="ph ph-broadcast" title="Syndication"></i>
+          {% if item.mastodon %}
+          <span style="padding:0px 5px 0px 5px;">
+            <a href="{{ item.mastodon }}" target="_blank">Mastodon</a>
+          </span>
+        {% endif %}
+          {% if item.akkoma %}
+            <span style="padding:0px 5px 0px 5px;">
+              <a href="{{ item.akkoma }}" target="_blank">Akkoma</a>
+            </span>
+          {% endif %}
+          {% if item.bluesky %}
+            <span style="padding:0px 5px 0px 5px;">
+              <a href="{{ item.bluesky }}" target="_blank">Bluesky</a>
+            </span>
+          {% endif %}
+          {% if item.wafrn %}
+            <span style="padding:0px 5px 0px 5px;">
+              <a href="{{ item.wafrn }}" target="_blank">Wafrn</a>
+            </span>
+          {% endif %}
+          {% if item.pillowfort %}
+          <span style="padding:0px 5px 0px 5px;">
+            <a href="{{ item.pillowfort }}" target="_blank">Pillowfort</a>
+          </span>
+        {% endif %}
+        {% if item.tumblr %}
+        <span style="padding:0px 5px 0px 5px;">
+          <a href="{{ item.tumblr }}" target="_blank">Tumblr</a>
+        </span>
+      {% endif %}
+          {% if item.none %}
+            <span style="padding:0px 5px 0px 5px;">
+              {{ item.none }}
+            </span>
+          {% endif %}
+        </div>
+        {% if item.tags %}
+          <div class="tags">
+            {% for tag in item.tags %}
+              <span>#{{tag}}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" or post_type == "skeets" %}
+        <div style="text-align: right;">
+          <a href="{{ item.url }}" class="small-link">view</a> | 
+          <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
+        </div>
+        <script src="/assets/js/clipboard.js"></script>
+      {% endif %}
       </div>
+    </div>
+  {% endfor %}
+</div>
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+    <a href="{{ paginator.previous_page_path }}" class="previous {% if paginator.page == 1 %}disabled{% endif %}">
+      ░ Previous
+    </a>
+    <span class="page_number">
+      Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+    {% else %}
+      <span class="next">Next ░</span>
+    {% endif %}
+  </div>
 
   <br />
 

@@ -2,13 +2,15 @@
 layout: page
 title: Recent Notes
 permalink: /pages/notes/
+pagination:
+  enabled: true
+  collection: notes
+  per_page: 10
 ---
 
 <div class="notes-section">
-  {% assign notes_array = site.notes | sort: 'date' | reverse %}
-  {% assign limited_notes = notes_array | slice: 0, 10 %}
-  {% for note in limited_notes %}
-    <div class="note-item item">
+  {% for note in paginator.posts %}
+    <div class="notes-item item">
       {% if note.avatar %}
         <img src="{{ note.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
       {% endif %}
@@ -54,10 +56,25 @@ permalink: /pages/notes/
         </div>
       {% endif %}
         <div style="text-align: right;">
-        <a href="{{ note.url }}" class="small-link">view</a> | 
+        <a href="{{ note.url }}" class="small-link">view</a> |
         <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ note.url }}')">share</a>
+        <script src="/assets/js/clipboard.js"></script>
       </div>
-      <script src="/assets/js/clipboard.js"></script>
     </div>
   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  <a href="{{ paginator.previous_page_path }}" class="previous {% if paginator.page == 1 %}disabled{% endif %}">
+    ░ Previous
+  </a>
+  <span class="page_number">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+  {% else %}
+    <span class="next">Next ░</span>
+  {% endif %}
 </div>

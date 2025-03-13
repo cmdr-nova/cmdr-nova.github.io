@@ -2,12 +2,14 @@
 layout: page
 title: Recent Logs
 permalink: /pages/log/
+pagination:
+  enabled: true
+  collection: logs
+  per_page: 10
 ---
 
 <div class="logs-section">
-  {% assign logs_array = site.logs | sort: 'date' | reverse %}
-  {% assign limited_logs = logs_array | slice: 0, 10 %}
-  {% for log in limited_logs %}
+  {% for log in paginator.posts %}
     <div class="logs-item item">
       {% if log.avatar %}
         <img src="{{ log.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
@@ -60,4 +62,19 @@ permalink: /pages/log/
       </div>
     </div>
   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  <a href="{{ paginator.previous_page_path }}" class="previous {% if paginator.page == 1 %}disabled{% endif %}">
+    ░ Previous
+  </a>
+  <span class="page_number">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+  {% else %}
+    <span class="next">Next ░</span>
+  {% endif %}
 </div>

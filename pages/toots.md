@@ -2,15 +2,15 @@
 layout: page
 title: Recent Toots
 permalink: /pages/toots/
+pagination:
+  enabled: true
+  collection: toots
+  per_page: 10
 ---
-<p class="center">An archive of my toots from Mastodon</p>
-<p class="center" style="font-size: .9em;">displaying the latest ten, <i>only</i></p>
 
-<div class="notes-section">
-  {% assign toots_array = site.toots | sort: 'date' | reverse %}
-  {% assign limited_toots = toots_array | slice: 0, 10 %}
-  {% for toot in limited_toots %}
-    <div class="note-item item">
+<div class="toots-section">
+  {% for toot in paginator.posts %}
+    <div class="toots-item item">
       {% if toot.avatar %}
         <img src="{{ toot.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
       {% endif %}
@@ -56,10 +56,25 @@ permalink: /pages/toots/
         </div>
       {% endif %}
         <div style="text-align: right;">
-        <a href="{{ toot.url }}" class="small-link">view</a> | 
-        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ note.url }}')">share</a>
+        <a href="{{ toot.url }}" class="small-link">view</a> |
+        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ toot.url }}')">share</a>
+        <script src="/assets/js/clipboard.js"></script>
       </div>
-      <script src="/assets/js/clipboard.js"></script>
     </div>
   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  <a href="{{ paginator.previous_page_path }}" class="previous {% if paginator.page == 1 %}disabled{% endif %}">
+    ░ Previous
+  </a>
+  <span class="page_number">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next ░</a>
+  {% else %}
+    <span class="next">Next ░</span>
+  {% endif %}
 </div>
