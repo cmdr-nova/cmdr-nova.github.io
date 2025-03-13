@@ -4261,6 +4261,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/logs/2025/03/13/new-pagination/index.html</loc>
+    <lastmod>2025-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/logs/2025/03/07/poasting-edit/index.html</loc>
     <lastmod>2025-03-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -50209,6 +50215,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/pages/log/page2/index.html</loc>
+    <lastmod>2025-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/pages/posts/index.html</loc>
     <lastmod>2025-03-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -70442,6 +70454,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_toots/0726202600.md</loc>
+    <lastmod>2025-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_toots/114157333248561339.md</loc>
     <lastmod>2025-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

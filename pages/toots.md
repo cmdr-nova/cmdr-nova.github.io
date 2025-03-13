@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recent Toots
+title: Toots
 permalink: /pages/toots/
 pagination:
   enabled: true

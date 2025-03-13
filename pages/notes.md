@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recent Notes
+title: Notes
 permalink: /pages/notes/
 pagination:
   enabled: true

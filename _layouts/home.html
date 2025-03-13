@@ -85,7 +85,7 @@ creator of everything -->
       
       <!-- New Posts Section -->
        
-      <div class="posts-section">
+      <div class="posts-section grid-container">
         {% assign latest_post = site.posts | sort: "date" | last %}
         {% assign latest_note = site.notes | sort: "date" | last %}
         {% assign latest_log = site.logs | sort: "date" | last %}
@@ -126,7 +126,7 @@ creator of everything -->
             {% assign verb = "Shared" %}
           {% endif %}
       
-          <div class="item">
+          <div class="item grid-item">
             <div>
               {% if item.pinned %}
                 <div class="pin-icon" style="text-align: right; padding: 5px; font-size: 1.5em;">

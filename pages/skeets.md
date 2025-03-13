@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recent Skeets
+title: Skeets
 permalink: /pages/skeets/
 pagination:
   enabled: true

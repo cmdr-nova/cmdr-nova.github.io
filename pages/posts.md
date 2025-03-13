@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recent Posts
+title: Posts
 permalink: /pages/posts/
 pagination:
   enabled: true

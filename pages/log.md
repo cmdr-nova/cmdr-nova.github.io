@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recent Logs
+title: Logs
 permalink: /pages/log/
 pagination:
   enabled: true
