@@ -47,6 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     .catch(error => {
       console.error("Error fetching the Tumblr feed:", error);
-      tumblrContent.innerHTML = "<p>Error fetching the Tumblr feed.</p>";
+      tumblrContent.innerHTML = "<p>Error fetching Tumblr feed</p>";
     });
 });
