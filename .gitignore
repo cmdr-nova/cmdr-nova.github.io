@@ -37,3 +37,4 @@ generate_toots_metadata.rb
 update_site.log
 update_site.sh
 feed_converter.rb
+reddit_feed_converter.rb

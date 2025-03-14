@@ -60970,6 +60970,33 @@
     "date": "2025-03-14"
   },
   {
+    "id": "114161144252505009",
+    "url": "/toots/114161144252505009/114161144252505009.html",
+    "content": "I mean, I am technically publishing to my site, every single time I make a new, single post to Mastodon.\n\nI could rename “toots” on my site to “notes”, and have them be part of my RSS, and essentially make Mastodon my website publishing software lol\n\nBut I also shotgun posts out on here like wild sometimes and that would explode an RSS feed\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-14"
+  },
+  {
+    "id": "114161157350706282",
+    "url": "/toots/114161157350706282/114161157350706282.html",
+    "content": "I think Jekyll just needs a plugin that’s connected to a mobile app that let’s you set custom front matter and then post to your site\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-14"
+  },
+  {
+    "id": "114161218528611426",
+    "url": "/toots/114161218528611426/114161218528611426.html",
+    "content": "huh, if I can convert any RSS feed into a markdown file that posts ot my site, then, essentially, I could also do that with any RSS feed on any piece of ActivityPub software\n\nDon’t even need to be on Mastodon, could migrate back to labyrinth and continue archiving everything I post lol\n",
+    "type": "toot",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-14"
+  },
+  {
     "id": "1204211300",
     "url": "/toots/1204211300/1204211300.html",
     "content": "yeah, I think I’m going to setup the release of my next album to be under Eyeshadow 2600 FM, just cause I don’t have energy to rebuild any kind of following lol\n",
