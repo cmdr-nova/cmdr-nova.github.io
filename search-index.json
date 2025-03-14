@@ -2839,6 +2839,15 @@
     "date": "2025-03-07 14:14:00 -0500"
   },
   {
+    "id": "2025-03-14-spitballing-changes",
+    "url": "/notes/2025/03/14/spitballing-changes.html",
+    "content": "Sitting in the endless dark of my room, spitballing ideas on how to make my website more friendly to be posted to from my phone, outside of just posting to Mastodon, and waiting for my local script to fire. It’s an endless grind, and there are a few solutions. But none of them are a simple as, open an app > post.\n\nI will solve this problem! … erm, someday.\n\n",
+    "type": "note",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-14 06:11:19 -0400"
+  },
+  {
     "id": "2025-02-18-major-site-update",
     "url": "/logs/2025/02/18/major-site-update.html",
     "content": "Today the site has been updated in a major way. So, here’s a list of things I’ve done:\n\n\n  \n    -Used liquid code from @shellsharks in order to implement more than just blog posts onto the site! Now includes short-form, social media-esque type posts, and these change logs.\n  \n  \n    -Redesigned the front of the website to look like a pretend social media profile!\n  \n  \n    -Changed the standalone “/notes” page to display only notes, sans logs and posts.\n  \n\n\nWhile I’m still looking for a way to list each type of content (posts, notes, and logs) on their own pages, or somehow separately from each other, everything else is done, for now. I’m gonna go try out that game Kingdom Delivery pizza.\n",

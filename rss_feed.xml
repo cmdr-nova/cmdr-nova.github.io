@@ -10,7 +10,18 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Fri, 14 Mar 2025 10:00:40 -0400</pubDate>
+    <pubDate>Fri, 14 Mar 2025 10:12:46 -0400</pubDate>
+    <item>
+      <title>New Note</title>
+      <link>https://mkultra.monster/notes/2025/03/14/spitballing-changes/</link>
+      <description>&lt;p&gt;Sitting in the endless dark of my room, spitballing ideas on how to make my website more friendly to be posted to from my phone, outside of just posting to Mastodon, and waiting for my local script to fire. It’s an endless grind, and there are a few solutions. But none of them are a simple as, open an app &amp;gt; post.&lt;/p&gt;
+
+&lt;p&gt;I will solve this problem! … erm, someday.&lt;/p&gt;
+
+</description>
+      <pubDate>Fri, 14 Mar 2025 06:11:19 -0400</pubDate>
+      <dc:date>2025-03-14T06:11:19-04:00</dc:date>
+    </item>
     <item>
       <title>New Log</title>
       <link>https://mkultra.monster/logs/2025/03/13/new-pagination/</link>
@@ -15742,6 +15753,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-14T10:00:40-04:00</dc:date>
+    <dc:date>2025-03-14T10:12:46-04:00</dc:date>
   </channel>
 </rss>
