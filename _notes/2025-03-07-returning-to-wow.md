@@ -11,8 +11,8 @@ akkoma:
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/777407133072424960/returning-to-world-of-warcraft-for-my-druid-and-my
+none: 
 ---
 Returning to World of Warcraft for my Druid and my Druid *only*.
 
