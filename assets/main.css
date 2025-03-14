@@ -18,7 +18,7 @@
   --read-text: #00a2fff6;
   --other-inset: #000000;
   --main-inset: #141414bd;
-  --sidebar-inset: #c8ff00;
+  --sidebar-inset: #131313;
   --post-link-text: #b5f81ad3;
   --waifu-bg: #131313;
   --waifu-txt: #00fc69;
@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 }
 /*
 .menu-wrapper {
-  display: none;
+  display: block;
 }
 */
 @media only screen and (max-width: 480px) {

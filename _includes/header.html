@@ -73,7 +73,38 @@
     </div>
     
   </div>
-  <span style="text-decoration: none; font-size:21px;cursor:pointer;" onclick="openNav()"><center><i class="ph ph-list"></i>N A V</center></span>
+  <span id="menuToggle" 
+  style="
+    text-decoration: none; 
+    font-size:21px;
+    cursor:pointer; 
+    font-weight: 400;
+    ">
+    <center>
+      <i class="ph ph-list"></i>
+      N A V
+    </center>
+  </span>
+
+  <script>
+    const menuButton = document.getElementById('menuToggle');
+    const sidenav = document.getElementById('mySidenav');
+    
+    menuButton.addEventListener('click', () => {
+      if (sidenav.style.width === '450px') {
+        sidenav.style.width = '0';
+      } else {
+        sidenav.style.width = '450px';
+      }
+    });
+    
+    document.addEventListener('click', (event) => {
+      if (!sidenav.contains(event.target) && !menuButton.contains(event.target)) {
+        sidenav.style.width = '0';
+      }
+    });
+    </script>  
+
   </div>
   </td>
   </tr>

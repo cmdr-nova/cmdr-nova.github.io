@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="cmdr-nova's personal blog and home on the indie-web.">
 <meta property="og:image" content="https://mkultra.monster/img/nova.png">
-<meta property="og:url" content="https://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html">
+<meta property="og:url" content="http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html">
 <meta property="og:site_name" content="cmdr-nova@internet:~$" />
 <meta property="og:type" content="website" />
 
@@ -34,7 +34,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "https://mkultra.monster",
+    "url": "http://localhost:4000",
     "name": "cmdr-nova@internet:~$",
     "description": "cmdr-nova's personal blog and home on the indie-web.",
     "publisher": {
@@ -137,8 +137,37 @@ rel="stylesheet"/>
     </div>
     
   </div>
-  <span style="text-decoration: none; font-size:21px;cursor:pointer;" onclick="openNav()"><center>
-<i class="ph ph-list"></i>N A V</center></span>
+  <span id="menuToggle" style="
+    text-decoration: none; 
+    font-size:21px;
+    cursor:pointer; 
+    font-weight: 400;
+    ">
+    <center>
+      <i class="ph ph-list"></i>
+      N A V
+    </center>
+  </span>
+
+  <script>
+    const menuButton = document.getElementById('menuToggle');
+    const sidenav = document.getElementById('mySidenav');
+    
+    menuButton.addEventListener('click', () => {
+      if (sidenav.style.width === '450px') {
+        sidenav.style.width = '0';
+      } else {
+        sidenav.style.width = '450px';
+      }
+    });
+    
+    document.addEventListener('click', (event) => {
+      if (!sidenav.contains(event.target) && !menuButton.contains(event.target)) {
+        sidenav.style.width = '0';
+      }
+    });
+    </script>  
+
   </div>
   </td>
   </tr>
@@ -280,15 +309,15 @@ rel="stylesheet"/>
 <meta property="og:locale" content="en_US">
 <meta name="description" content="So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and sometimes playing Dragon Age and Baldur’s Gate.">
 <meta property="og:description" content="So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and sometimes playing Dragon Age and Baldur’s Gate.">
-<link rel="canonical" href="https://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html">
-<meta property="og:url" content="https://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html">
+<link rel="canonical" href="http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html">
+<meta property="og:url" content="http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html">
 <meta property="og:site_name" content="cmdr-nova@internet:~$">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2024-11-04T00:09:00-05:00">
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="Work, Sleep, Code, Repeat">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"𐕣 C M D R ░ NOVA 𐕣"},"dateModified":"2024-11-04T00:09:00-05:00","datePublished":"2024-11-04T00:09:00-05:00","description":"So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and sometimes playing Dragon Age and Baldur’s Gate.","headline":"Work, Sleep, Code, Repeat","mainEntityOfPage":{"@type":"WebPage","@id":"https://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html"},"url":"https://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"𐕣 C M D R ░ NOVA 𐕣"},"dateModified":"2024-11-04T00:09:00-05:00","datePublished":"2024-11-04T00:09:00-05:00","description":"So, like you do, I got home from work, and immediately dove back into the code machine, i.e., my monstrous PC that I primarily use for writing website stuff, or python scripts, and sometimes playing Dragon Age and Baldur’s Gate.","headline":"Work, Sleep, Code, Repeat","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html"},"url":"http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -549,8 +578,8 @@ if __name__ == "__main__":
 <br>
 <div class="center">
   <button class="mastodon-share"></button> 
-  <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0Ahttps://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html', '_blank')">Share on Bluesky <i class="ph ph-butterfly"></i></button>
-  <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url=https://mkultra.monster/programming/2024/11/04/work-sleep-code-repeat.html', '_blank')">Share on Reddit <i class="ph ph-reddit-logo"></i></button>
+  <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0Ahttp://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html', '_blank')">Share on Bluesky <i class="ph ph-butterfly"></i></button>
+  <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url=http://localhost:4000/programming/2024/11/04/work-sleep-code-repeat.html', '_blank')">Share on Reddit <i class="ph ph-reddit-logo"></i></button>
   <button class="post-buttons" onclick="copyToClipboard('/programming/2024/11/04/work-sleep-code-repeat.html')">Copy Link <i class="ph ph-copy"></i></button>
   <script src="/assets/js/clipboard.js"></script>
 </div>
