@@ -43,6 +43,11 @@ pagination:
             <a href="{{ log.mastodon }}" target="_blank">Mastodon</a>
           </span>
         {% endif %}
+                {% if log.tumblr %}
+          <span style="padding:0px 5px 0px 5px;">
+            <a href="{{ log.tumblr }}" target="_blank">Tumblr</a>
+          </span>
+        {% endif %}
         {% if log.none %}
           <span style="padding:0px 5px 0px 5px;">
             {{ log.none }}
