@@ -10,7 +10,72 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Sat, 15 Mar 2025 09:00:07 -0400</pubDate>
+    <pubDate>Sat, 15 Mar 2025 10:05:36 -0400</pubDate>
+    <item>
+      <title>Today, I Have To Defend Bluesky</title>
+      <link>https://mkultra.monster/social-media/2025/03/15/today-i-have-to-defend-bluesky.html</link>
+      <description>&lt;p&gt;I’m writing this, partially because, I need something to write about to take my mind off the pain of potentially having broken my toe at work, and because I’ve seen and kind of keep seeing people sharing this as a way to say, “Hey, Bluesky is about to start scraping its users data for profit in relation to AI companies.” And, I really do think it needs to be highlighted, that that’s not what any of this says.&lt;/p&gt;
+
+&lt;p&gt;In the below article …&lt;/p&gt;
+
+&lt;div class=&quot;link-preview&quot; data-url=&quot;https://techcrunch.com/2025/03/10/bluesky-is-weighing-a-proposal-that-gives-users-consent-over-how-their-data-is-used-for-ai/&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It reads:&lt;/p&gt;
+
+&lt;blockquote&gt;
+The demand for AI training data means the new social network has to think about its AI policy, even though it doesn’t plan to train its own AI systems on users’ posts.
+&lt;br /&gt;&lt;br /&gt;
+However, the public nature of Bluesky’s social network has already allowed others to train their AI systems on users’ content, as was discovered last year when 404 Media came across a dataset built from 1 million Bluesky posts hosted on Hugging Face.
+&lt;br /&gt;&lt;br /&gt;
+Bluesky competitor X, meanwhile, is feeding users’ posts into sister company xAI to help train its AI chatbot Grok. Last fall, it changed its privacy policy to allow third parties to train their AI on users’ X posts, as well. The move, followed by the U.S. elections that elevated X owner Elon Musk’s status within the Trump administration, helped fuel another exodus of users from X to Bluesky.
+&lt;br /&gt;&lt;br /&gt;
+As a result, Bluesky’s open source, decentralized X alternative has grown to over 32 million users in just two years’ time.
+&lt;br /&gt;&lt;br /&gt;
+Speaking at SXSW, Graber explained that the company has engaged with partners to develop a framework for user consent over how they would want their data to be used — or not used — for generative AI.
+&lt;br /&gt;&lt;br /&gt;
+“We really believe in user choice,” Graber said, saying that users would be able to specify how they want their Bluesky content to be used.
+&lt;br /&gt;&lt;br /&gt;
+“It could be something similar to how websites specify whether they want to be scraped by search engines or not,” she continued.
+&lt;br /&gt;&lt;br /&gt;
+“Search engines can still scrape websites, whether or not you have this, because websites are open on the public internet. But in general, this robots.txt file gets respected by a lot of search engines,” she said. “So you need something to be widely adopted and to have users and companies and regulators to go with this framework. But I think it’s something that could work here.”
+&lt;/blockquote&gt;
+
+&lt;p&gt;And while I don’t agree that Bluesky is &lt;em&gt;actually&lt;/em&gt; decentralized, and I feel like, at the current moment, they’re really just using this as a buzzword, and I also don’t think it’s a great idea to put any faith in AI companies &lt;em&gt;actually&lt;/em&gt; respecting a robots.txt, the part you should pay attention to, is …&lt;/p&gt;
+
+&lt;blockquote&gt;
+However, the public nature of Bluesky’s social network has already allowed others to train their AI systems on users’ content, as was discovered last year when 404 Media came across a dataset built from 1 million Bluesky posts hosted on Hugging Face.
+&lt;/blockquote&gt;
+
+&lt;p&gt;That a company &lt;em&gt;has already&lt;/em&gt; scraped Bluesky, and that’s what this is about.&lt;/p&gt;
+
+&lt;p&gt;Bluesky wants to offer its users the ability to say whether or not they want this to happen. It doesn’t mean these companies will &lt;em&gt;respect&lt;/em&gt; that, but &lt;em&gt;not even Mastodon&lt;/em&gt; has a toggle in preferences that embeds a robots.txt file into &lt;em&gt;your profile&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In fact,&lt;/em&gt; there are &lt;em&gt;quite a few instances&lt;/em&gt; across the Fediverse, whose rules completely ignore the existence of AI, don’t mention it at all, and even some actively protect users who &lt;em&gt;post&lt;/em&gt;, or even &lt;strong&gt;sell&lt;/strong&gt;, generated slop.&lt;/p&gt;
+
+&lt;p&gt;So, unfortunately, I think I do have to say here, that Bluesky might actually be ahead on this, in that they’ve somehow managed to think of this, &lt;em&gt;before&lt;/em&gt; any working on Mastodon has.&lt;/p&gt;
+
+&lt;p&gt;But, back to my main point here, you &lt;em&gt;also&lt;/em&gt; have to pay attention to that first line. Aha! You thought I forgot about that, didn’t you?&lt;/p&gt;
+
+&lt;blockquote&gt;
+The demand for AI training data means the new social network has to think about its AI policy, even though it doesn’t plan to train its own AI systems on users’ posts.&lt;/blockquote&gt;
+
+&lt;p&gt;This is kind of interesting wording. One &lt;em&gt;might&lt;/em&gt; assume that the people behind Bluesky &lt;em&gt;have&lt;/em&gt; an AI system that they’re running. Or, you could take it to mean, &lt;em&gt;if&lt;/em&gt; they develop a system, they don’t plan to use it to scrape your posts.&lt;/p&gt;
+
+&lt;p&gt;I guess you could take it either way, honestly.&lt;/p&gt;
+
+&lt;p&gt;All of that said, and this article sliced into bite-sized pieces, absolutely don’t get me wrong, people &lt;em&gt;definitely&lt;/em&gt; have reason to be skeptical, and ask questions, as I do, &lt;em&gt;all of the time&lt;/em&gt;. Social media has come crashing down all around us over the past five years. Many people have &lt;em&gt;lost&lt;/em&gt; the basis of their livelihoods because of it. Some just picked a new place, and set up shop.&lt;/p&gt;
+
+&lt;p&gt;Heck, I &lt;em&gt;used to have&lt;/em&gt; 3000+ followers on Twitter, and some of that (aside from Mastodon), was &lt;em&gt;the basis&lt;/em&gt; for my ability to &lt;em&gt;actually sell music.&lt;/em&gt; And I gave that up. I don’t mean that as a, “I sacrificed more than you,” but more as a like, “I understand your skepticism and fears.”&lt;/p&gt;
+
+&lt;p&gt;But I feel it’s &lt;em&gt;important&lt;/em&gt; to get the facts straight, and even if you vehemently &lt;em&gt;hate&lt;/em&gt; everything that Bluesky stands for, you should make sure that everything you say &lt;em&gt;accurately&lt;/em&gt; represents and depicts who they are, and what they’re doing. It’s all about credibility. At least, if you want people to believe you.&lt;/p&gt;
+
+&lt;p&gt;For further clarification on all that’s going on here, you can &lt;a href=&quot;https://github.com/bluesky-social/proposals/tree/main/0008-user-intents&quot; target=&quot;_blank&quot;&gt;read the actual proposal on Github&lt;/a&gt; in order to dive deeper into what Bluesky is putting forth.&lt;/p&gt;
+
+&lt;p&gt;And I definitely want to reiterate, Mastodon has &lt;em&gt;a lot&lt;/em&gt; of work to do in making itself &lt;em&gt;less&lt;/em&gt; friendly to scrapers and AI scammers.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 15 Mar 2025 05:19:27 -0400</pubDate>
+      <dc:date>2025-03-15T05:19:27-04:00</dc:date>
+    </item>
     <item>
       <title>New Note</title>
       <link>https://mkultra.monster/notes/2025/03/14/spitballing-changes/</link>
@@ -15753,6 +15818,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-15T09:00:07-04:00</dc:date>
+    <dc:date>2025-03-15T10:05:36-04:00</dc:date>
   </channel>
 </rss>

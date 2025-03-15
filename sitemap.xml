@@ -679,6 +679,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_posts/2025-03-15-today-i-have-to-defend-bluesky.md</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_posts/2024-10-13-31-years-later-let-s-look-at-doom-s-lore-the-original.md</loc>
     <lastmod>2025-03-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -4376,6 +4382,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/social-media/2025/03/13/social-media-was-good-for-a-while.html</loc>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/social-media/2025/03/15/today-i-have-to-defend-bluesky.html</loc>
     <lastmod>2025-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

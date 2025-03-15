@@ -1,0 +1,39 @@
+.link-preview {
+    overflow: hidden;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link-preview a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link-preview-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .link-preview-content {
+    padding: 10px;
+  }
+  
+  .link-preview-content h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+  .link-preview-content p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0 0 10px;
+  }
+  
+  .link-preview-content span {
+    font-size: 0.8em;
+    color: #999;
+  }
