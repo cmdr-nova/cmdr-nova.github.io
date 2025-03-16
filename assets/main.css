@@ -3006,6 +3006,7 @@ li {
   display: grid;
   gap: 20px;
   margin: 0 auto;
+  padding: 0 10px;
   max-width: 100%;
 }
 
@@ -3041,7 +3042,6 @@ li {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
-  width: 100%;
 }
 
 @media only screen and (max-width: 480px) {
