@@ -15,7 +15,7 @@ bluesky:
 wafrn: 
 pillowfort: 
 tumblr: https://www.tumblr.com/nova-ayashi/778093845555625984/im-writing-this-partially-because-i-need
-none: no_syndication_available 
+none:
 ---
 I'm writing this, partially because, I need something to write about to take my mind off the pain of potentially having broken my toe at work, and because I've seen and kind of keep seeing people sharing this as a way to say, "Hey, Bluesky is about to start scraping its users data for profit in relation to AI companies." And, I really do think it needs to be highlighted, that that's not what any of this says.
 
