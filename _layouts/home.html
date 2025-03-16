@@ -92,7 +92,6 @@ creator of everything -->
         {% assign latest_log = site.logs | sort: "date" | last %}
         {% assign latest_toot = site.toots | sort: "date" | last %}
         {% assign latest_skeet = site.skeets | sort: "date" | last %}
-        {% assign latest_submission = site.submissions | sort: "date" | last %}
       
         {% assign latest_items = "" | split: "" %}
         {% if latest_post %} {% assign latest_items = latest_items | push: latest_post %} {% endif %}
@@ -100,7 +99,6 @@ creator of everything -->
         {% if latest_log %} {% assign latest_items = latest_items | push: latest_log %} {% endif %}
         {% if latest_toot %} {% assign latest_items = latest_items | push: latest_toot %} {% endif %}
         {% if latest_skeet %} {% assign latest_items = latest_items | push: latest_skeet %} {% endif %}
-        {% if latest_submission %} {% assign latest_items = latest_items | push: latest_submission %} {% endif %}
       
         {% for item in latest_items %}
           {% assign post_type = item.collection %}
@@ -124,10 +122,6 @@ creator of everything -->
             {% assign icon = "ph ph-butterfly" %}
             {% assign verb = "Skeeted" %}
             {% assign content = item.content %}
-          {% elsif post_type == "submissions" %}
-            {% assign icon = "ph ph-reddit-logo" %}
-            {% assign verb = "Submitted" %}
-            {% assign content = item.content %} 
           {% else %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Shared" %}
