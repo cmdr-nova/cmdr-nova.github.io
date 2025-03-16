@@ -46,7 +46,8 @@ creator of everything -->
         {% assign total_logs = site.logs | size %}
         {% assign total_notes = site.notes | size %}
         {% assign total_skeets = site.skeets | size %}
-        {% assign total_items = total_posts | plus: total_logs | plus: total_notes | plus: total_toots | plus: total_skeets %}
+        {% assign total_submissions = site.submissions | size %}
+        {% assign total_items = total_posts | plus: total_logs | plus: total_notes | plus: total_toots | plus: total_skeets | plus: total_submissions %}
 
         <p class="center"><b>Posts</b>: {{ total_items }} <b>Follows</b>: <span id="follows-count"></span> <b>Followers</b>: <span id="followers-count"></span></p>
         <script src="/assets/js/fake-follows.js"></script>
@@ -91,6 +92,7 @@ creator of everything -->
         {% assign latest_log = site.logs | sort: "date" | last %}
         {% assign latest_toot = site.toots | sort: "date" | last %}
         {% assign latest_skeet = site.skeets | sort: "date" | last %}
+        {% assign latest_submission = site.submissions | sort: "date" | last %}
       
         {% assign latest_items = "" | split: "" %}
         {% if latest_post %} {% assign latest_items = latest_items | push: latest_post %} {% endif %}
@@ -98,6 +100,7 @@ creator of everything -->
         {% if latest_log %} {% assign latest_items = latest_items | push: latest_log %} {% endif %}
         {% if latest_toot %} {% assign latest_items = latest_items | push: latest_toot %} {% endif %}
         {% if latest_skeet %} {% assign latest_items = latest_items | push: latest_skeet %} {% endif %}
+        {% if latest_submission %} {% assign latest_items = latest_items | push: latest_submission %} {% endif %}
       
         {% for item in latest_items %}
           {% assign post_type = item.collection %}
@@ -121,6 +124,10 @@ creator of everything -->
             {% assign icon = "ph ph-butterfly" %}
             {% assign verb = "Skeeted" %}
             {% assign content = item.content %}
+          {% elsif post_type == "submissions" %}
+            {% assign icon = "ph ph-reddit-logo" %}
+            {% assign verb = "Submitted" %}
+            {% assign content = item.content %} 
           {% else %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Shared" %}
@@ -180,7 +187,12 @@ creator of everything -->
               <span style="padding:0px 5px 0px 5px;">
                 <a href="{{ item.tumblr }}" target="_blank">Tumblr</a>
               </span>
-            {% endif %}
+              {% endif %}
+              {% if item.reddit %}
+              <span style="padding:0px 5px 0px 5px;">
+                <a href="{{ item.reddit }}" target="_blank">Reddit</a>
+              </span>
+              {% endif %}
                 {% if item.none %}
                   <span style="padding:0px 5px 0px 5px;">
                     {{ item.none }}
@@ -194,7 +206,7 @@ creator of everything -->
                   {% endfor %}
                 </div>
               {% endif %}
-              {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" or post_type == "skeets" %}
+              {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" or post_type == "skeets" or post_type == "submissions" %}
               <div style="text-align: right;">
                 <a href="{{ item.url }}" class="small-link">view</a> | 
                 <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
@@ -209,46 +221,6 @@ creator of everything -->
 <div class="item grid-item" id="tumblr-feed">
   <h3>MKULTRA Bot via Tumblr</h3>
   <div id="tumblr-content"></div>
-</div>
-
-<!-- New Submission Section -->
-<div class="item grid-item" id="submission-feed">
-  <h3>Latest Submission</h3>
-  {% assign latest_submission = site.submissions | sort: "date" | last %}
-  {% if latest_submission %}
-    <div class="submission-details">
-      {% if latest_submission.avatar %}
-        <div class="submission-avatar">
-          <img src="{{ latest_submission.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
-        </div>
-      {% endif %}
-      <div class="submission-content">
-        <h4><a href="{{ latest_submission.url }}">{{ latest_submission.title }}</a></h4>
-        {{ latest_submission.content | truncatewords: 50 | markdownify }}
-      </div>
-      <span class="date"><i>published</i> {{ latest_submission.date | date: '%B %e, %Y' }}</span>
-      <div class="syndicate">
-        <i class="ph ph-broadcast" title="Syndication"></i>
-        {% if latest_submission.reddit %}
-          <span style="padding:0px 5px 0px 5px;">
-            <a href="{{ latest_submission.reddit }}" target="_blank">Reddit</a>
-          </span>
-        {% endif %}
-        {% if latest_submission.none %}
-          <span style="padding:0px 5px 0px 5px;">
-            {{ latest_submission.none }}
-          </span>
-        {% endif %}
-      </div>
-      <div style="text-align: right;">
-        <a href="{{ latest_submission.url }}" class="small-link">view</a> |
-        <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ latest_submission.url }}')">share</a>
-        <script src="/assets/js/clipboard.js"></script>
-      </div>
-    </div>
-  {% else %}
-    <p>No submissions found.</p>
-  {% endif %}
 </div>
 
 </div>

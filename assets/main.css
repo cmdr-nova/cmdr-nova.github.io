@@ -3032,7 +3032,7 @@ li {
 
 .grid-item {
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #202020;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
   overflow: hidden;
@@ -3044,13 +3044,6 @@ li {
   max-width: 100%;
 }
 
-@media only screen and (max-width: 480px) {
-  .grid-item,
-  .reddit-item {
-    padding: 10px;
-    margin: 0 10px;
-  }
-}
 .grid-item img {
   max-width: 100%;
   display: block;
