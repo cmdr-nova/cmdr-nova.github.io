@@ -3139,7 +3139,36 @@ li {
   margin-top: 10px;
 }
 
+.submission-content p {
+  margin: 0;
+  padding: 0;
+}
+
+.submission-content a {
+  display: inline;
+}
+
 .submission-content img {
   display: block;
   margin: 10px auto; /* Center the images and add margin above and below */
+}
+
+.submission-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-link {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #0056b3;
 }
