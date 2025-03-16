@@ -85,7 +85,7 @@ creator of everything -->
       
       <!-- New Posts Section -->
        
-      <div class="posts-section grid-container">
+      <div class="grid-container">
         {% assign latest_post = site.posts | sort: "date" | last %}
         {% assign latest_note = site.notes | sort: "date" | last %}
         {% assign latest_log = site.logs | sort: "date" | last %}
@@ -213,7 +213,7 @@ creator of everything -->
 </div>
 
 <!-- New Submission Section -->
-<div class="item" id="submission-feed">
+<div class="reddit-item" id="submission-feed">
   <h3>Latest Submission</h3>
   {% assign latest_submission = site.submissions | sort: "date" | last %}
   {% if latest_submission %}
@@ -251,6 +251,7 @@ creator of everything -->
     <p>No submissions found.</p>
   {% endif %}
 </div>
+
 </div>
 
 <script src="/assets/js/tumblr-feed.js"></script>

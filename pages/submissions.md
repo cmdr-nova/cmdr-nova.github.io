@@ -40,10 +40,6 @@ pagination:
             </span>
           {% endif %}
         </div>
-        <div class="submission-links">
-          <a href="{{ submission.link }}" class="button-link">[link]</a>
-          <a href="{{ submission.comments }}" class="button-link">[comments]</a>
-        </div>
         <div style="text-align: right;">
           <a href="{{ submission.url }}" class="small-link">view</a> |
           <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ submission.url }}')">share</a>

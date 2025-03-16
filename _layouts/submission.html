@@ -21,32 +21,30 @@ layout: default
     <br />
     <hr>
     <br />
-            {{ content }}
-            <span class="date"><i class="ph ph-calendar"></i> Published: {{ page.date | date: "%B %d, %Y" }}</span>
-            <br />
-            <br />
-        
-          </div>
-          <br />
-          <div class="notice">
-            mkultra.monster is independent, in that it is written, developed, and maintained by one person. Written, developed, and maintained, not for scrapers, bots, scammers, algorithms, or grifters: But for people to follow and read, just like the way it used to be, back in the golden age of the internet.
-          </div>
-          <br />
-          <div class="center">
-            <button class="mastodon-share"></button> 
-            <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0A{{ site.url }}{{ page.url }}', '_blank')">Share on Bluesky <i class="ph ph-butterfly"></i></button>
-            <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url }}', '_blank')">Share on Reddit <i class="ph ph-reddit-logo"></i></button>
-            <button class="post-buttons" onclick="copyToClipboard('{{ page.url }}')">Copy Link <i class="ph ph-copy"></i></button>
-            <script src="/assets/js/clipboard.js"></script>
-          </div>
-          <br />
-        
-          <br />
-          <div id="suggested-posts-section">
-            <h3>More of my posts:</h3>
-            <div id="suggested-posts-list"></div>
-            <script defer src="/assets/js/suggested-posts.js"></script>
-        
-            <meta name="fediverse:creator" content="@cmdr_nova@mastodon.online">
-          </div>
-          </div>
+    <div class="submission-content">
+      {{ content }}
+    </div>
+    <span class="date"><i class="ph ph-calendar"></i> Published: {{ page.date | date: "%B %d, %Y" }}</span>
+    <br />
+    <br />
+  </div>
+  <br />
+  <div class="notice">
+    mkultra.monster is independent, in that it is written, developed, and maintained by one person. Written, developed, and maintained, not for scrapers, bots, scammers, algorithms, or grifters: But for people to follow and read, just like the way it used to be, back in the golden age of the internet.
+  </div>
+  <br />
+  <div class="center">
+    <button class="mastodon-share"></button> 
+    <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0A{{ site.url }}{{ page.url }}', '_blank')">Share on Bluesky <i class="ph ph-butterfly"></i></button>
+    <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url={{ site.url }}{{ page.url }}', '_blank')">Share on Reddit <i class="ph ph-reddit-logo"></i></button>
+    <button class="post-buttons" onclick="copyToClipboard('{{ page.url }}')">Copy Link <i class="ph ph-copy"></i></button>
+    <script src="/assets/js/clipboard.js"></script>
+  </div>
+  <br />
+  <div id="suggested-posts-section">
+    <h3>More of my posts:</h3>
+    <div id="suggested-posts-list"></div>
+    <script defer src="/assets/js/suggested-posts.js"></script>
+    <meta name="fediverse:creator" content="@cmdr_nova@mastodon.online">
+  </div>
+</div>
