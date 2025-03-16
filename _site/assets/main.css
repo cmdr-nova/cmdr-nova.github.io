@@ -197,8 +197,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   margin-top: 2px;
   letter-spacing: 1px;
   word-spacing: 1px;
-  min-width: 720px;
-  max-width: 720px;
+  min-width: 740px;
+  max-width: 740px;
   padding-right: 5px;
   padding-left: 5px;
   top: 0;
@@ -3162,16 +3162,8 @@ li {
   margin-top: 10px;
 }
 
-.button-link {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: #292929;
-  color: rgb(20, 20, 20);
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.button-link:hover {
-  background-color: #080808;
+#nuthead-ring {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
