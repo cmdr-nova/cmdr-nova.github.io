@@ -260,6 +260,13 @@ permalink: /pages/scrap/
     <span style="font-size: .7em;">Guild Wars 2 (2025)</span>
     </div>
   </div>
+  <div class="image-item">
+    <img src="/img/scrap/merethyl.png" alt="a photo of my character in Avowed.">
+    <div class="image-caption">Merethyl //
+    <br />
+    <span style="font-size: .7em;">Avowed (2025)</span>
+    </div>
+  </div>
 
 </div>
 
