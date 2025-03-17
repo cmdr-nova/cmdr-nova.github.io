@@ -9,13 +9,13 @@ tags: [social-media, fediverse, scams]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.online/@cmdr_nova/114177174051799223
 akkoma: 
-bluesky: 
+bluesky: https://bsky.app/profile/mkultra.monster/post/3lkkvr2vshk22
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/778258998554181632/if-youve-been-on-the-fediverse-for-a-while-now
+none: 
 ---
 If you've been on the fediverse for a while now, it's very likely you've been "nicoled," in that an account on a random instance, calling herself "Nicole the Fediverse Chick" has sent you a private message, talking about who she is, and where you can follow her. At first glance, you'll notice that she's creating *many* accounts, *everywhere*. And this is probably the result of a script running on a VPS somewhere that's creating accounts, and then sending messages via a headless browser that watches the federated network of an instance.
 
