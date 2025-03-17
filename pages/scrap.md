@@ -34,6 +34,13 @@ permalink: /pages/scrap/
     <span style="font-size: .7em;">Star Wars Galaxies (2004)</span>
     </div>
   </div>
+    <div class="image-item">
+    <img src="/img/scrap/gw1.png" alt="a photo of my character from Guild Wars 1">
+    <div class="image-caption">Nuhmu Diira //
+    <br />
+    <span style="font-size: .7em;">Guild Wars (2005)</span>
+    </div>
+  </div>
   <div class="image-item">
     <img src="/img/scrap/merrill.png" alt="a photo of my character from Dragon Age Origins">
     <div class="image-caption">Merrill Mahariel //
@@ -237,6 +244,13 @@ permalink: /pages/scrap/
     <div class="image-caption">CMDR_Nova //
     <br />
     <span style="font-size: .7em;">Monster Hunter Wilds (2025)</span>
+    </div>
+  </div>
+    <div class="image-item">
+    <img src="/img/scrap/gw2-2025.png" alt="a photo of my character in Guild Wars 2, taken 2025.">
+    <div class="image-caption">Kalicia Ember //
+    <br />
+    <span style="font-size: .7em;">Guild Wars 2 (2025)</span>
     </div>
   </div>
 
