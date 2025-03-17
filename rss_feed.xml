@@ -10,7 +10,57 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Mon, 17 Mar 2025 05:00:26 -0400</pubDate>
+    <pubDate>Mon, 17 Mar 2025 05:51:34 -0400</pubDate>
+    <item>
+      <title>You've Been Nicoled: A Fediverse User With Too Much Time On Her Hands, Or A Vengeful Stalker?</title>
+      <link>https://mkultra.monster/social-media/2025/03/17/youve-been-nicoled.html</link>
+      <description>&lt;p&gt;If you’ve been on the fediverse for a while now, it’s very likely you’ve been “nicoled,” in that an account on a random instance, calling herself “Nicole the Fediverse Chick” has sent you a private message, talking about who she is, and where you can follow her. At first glance, you’ll notice that she’s creating &lt;em&gt;many&lt;/em&gt; accounts, &lt;em&gt;everywhere&lt;/em&gt;. And this is probably the result of a script running on a VPS somewhere that’s creating accounts, and then sending messages via a headless browser that watches the federated network of an instance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/fediverse-chick/nicole.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But … the question is, why?&lt;/p&gt;
+
+&lt;p&gt;Surely, someone couldn’t &lt;em&gt;possibly&lt;/em&gt; think that spamming millions of people, nonstop, for two years or more, is going to gain them any amount of positive clout, or follower-ship.&lt;/p&gt;
+
+&lt;p&gt;Unless … unless you look at it through the eyes of a stalker who feels he’s been wronged by a woman, some way, or somehow, and in his attempt at revenge, he’s set out on one of the nastiest, and most dangerous doxxing efforts I’ve ever seen.&lt;/p&gt;
+
+&lt;p&gt;But … what would make you think this is an attempt a doxxing someone to a mass amount of people, out of some sick, twisted attempt at revenge?&lt;/p&gt;
+
+&lt;p&gt;Firstly, in some of the profiles created that send out these messages, there are … strangely enough, real-world addresses included. I’m not going to &lt;em&gt;post&lt;/em&gt; those addresses here, but you have to ask yourself … why would someone include the address to where they work in a social media profile?&lt;/p&gt;
+
+&lt;p&gt;That’s strange.&lt;/p&gt;
+
+&lt;p&gt;And then there’s the fact that every single photo of her that exists on Mastodon, has some strange aura to it. As if … they’re all screenshots from video calls.&lt;/p&gt;
+
+&lt;p&gt;For example, look at this profile …&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/fediverse-chick/nicole2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only do these look like screen-grabs from some kind of video call app, but &lt;em&gt;who in the world&lt;/em&gt; structures a profile like this? Your selfie in the banner, and your selfie in the avatar?&lt;/p&gt;
+
+&lt;p&gt;In my opinion, more evidence showing that this is likely more than some scripted clout-grab.&lt;/p&gt;
+
+&lt;p&gt;Then, if you get extra sleuthy, you can attempt to reverse image search one of these photos, and do you know what kind of results you get?&lt;/p&gt;
+
+&lt;p&gt;Nothing.&lt;/p&gt;
+
+&lt;p&gt;At least, nothing outside of the Mastodon source that all of these images are posted to.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;only&lt;/em&gt; way this would be possible, is if these photos were never actually shot, and taken, and then uploaded somewhere. This would only be possible, if some dude were screenshotting your face in video-to-video calls, and saving them to his hdd in order to use later.&lt;/p&gt;
+
+&lt;p&gt;Such as, in an attempt to get some kind of revenge against you, by making an entire social network think that you’re some annoying person who thinks script-spamming thousands to millions of random people will get you follows. And, for all intents and purposes, that whole idea would work just fine … if all of the photos didn’t look like screengrabs, and if real world addresses weren’t included in some of the profiles.&lt;/p&gt;
+
+&lt;p&gt;There &lt;em&gt;is&lt;/em&gt; one central profile this seems to be coming from, or, at least, an account that’s mentioned in &lt;em&gt;most&lt;/em&gt; of the messages. And, maybe it’s just not been properly moderated, maybe nobody at friendica.world is paying attention to this account. But, &lt;em&gt;most&lt;/em&gt; of the messages sent to people include mentioning the profile &lt;a href=&quot;https://friendica.world/contact/1462572&quot; target=&quot;_blank&quot;&gt;@fediversechick@friendica.world&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But, if you were hoping that this would answer any questions, &lt;em&gt;it doesn’t&lt;/em&gt;. Although, I do now have an account on friendica.world!&lt;/p&gt;
+
+&lt;p&gt;This is about as far as my investigating has gotten. I know there are usually Discord and Matrix servers mentioned along with some, or all of these messages, but I’ve never joined them, because … &lt;em&gt;who&lt;/em&gt; in the right mind would do that?&lt;/p&gt;
+
+&lt;p&gt;But, I’m not sure I believe that this is some random girl who can’t keep her scripts to herself.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 17 Mar 2025 01:03:13 -0400</pubDate>
+      <dc:date>2025-03-17T01:03:13-04:00</dc:date>
+    </item>
     <item>
       <title>Today, I Have To Defend Bluesky</title>
       <link>https://mkultra.monster/social-media/2025/03/15/today-i-have-to-defend-bluesky.html</link>
@@ -15818,6 +15868,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-17T05:00:26-04:00</dc:date>
+    <dc:date>2025-03-17T05:51:34-04:00</dc:date>
   </channel>
 </rss>

@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mkultra.monster/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mkultra.monster/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-17T05:00:27-04:00</updated><id>https://mkultra.monster/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Today, I Have To Defend Bluesky</title><link href="https://mkultra.monster/social-media/2025/03/15/today-i-have-to-defend-bluesky.html" rel="alternate" type="text/html" title="Today, I Have To Defend Bluesky" /><published>2025-03-15T05:19:27-04:00</published><updated>2025-03-15T05:19:27-04:00</updated><id>https://mkultra.monster/social-media/2025/03/15/today-i-have-to-defend-bluesky</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/03/15/today-i-have-to-defend-bluesky.html"><![CDATA[<p>I’m writing this, partially because, I need something to write about to take my mind off the pain of potentially having broken my toe at work, and because I’ve seen and kind of keep seeing people sharing this as a way to say, “Hey, Bluesky is about to start scraping its users data for profit in relation to AI companies.” And, I really do think it needs to be highlighted, that that’s not what any of this says.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-17T05:52:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">You’ve Been Nicoled: A Fediverse User With Too Much Time On Her Hands, Or A Vengeful Stalker?</title><link href="http://localhost:4000/social-media/2025/03/17/youve-been-nicoled.html" rel="alternate" type="text/html" title="You’ve Been Nicoled: A Fediverse User With Too Much Time On Her Hands, Or A Vengeful Stalker?" /><published>2025-03-17T01:03:13-04:00</published><updated>2025-03-17T01:03:13-04:00</updated><id>http://localhost:4000/social-media/2025/03/17/youve-been-nicoled</id><content type="html" xml:base="http://localhost:4000/social-media/2025/03/17/youve-been-nicoled.html"><![CDATA[<p>If you’ve been on the fediverse for a while now, it’s very likely you’ve been “nicoled,” in that an account on a random instance, calling herself “Nicole the Fediverse Chick” has sent you a private message, talking about who she is, and where you can follow her. At first glance, you’ll notice that she’s creating <em>many</em> accounts, <em>everywhere</em>. And this is probably the result of a script running on a VPS somewhere that’s creating accounts, and then sending messages via a headless browser that watches the federated network of an instance.</p>
+
+<p><img src="/img/posts/fediverse-chick/nicole.png" /></p>
+
+<p>But … the question is, why?</p>
+
+<p>Surely, someone couldn’t <em>possibly</em> think that spamming millions of people, nonstop, for two years or more, is going to gain them any amount of positive clout, or follower-ship.</p>
+
+<p>Unless … unless you look at it through the eyes of a stalker who feels he’s been wronged by a woman, some way, or somehow, and in his attempt at revenge, he’s set out on one of the nastiest, and most dangerous doxxing efforts I’ve ever seen.</p>
+
+<p>But … what would make you think this is an attempt a doxxing someone to a mass amount of people, out of some sick, twisted attempt at revenge?</p>
+
+<p>Firstly, in some of the profiles created that send out these messages, there are … strangely enough, real-world addresses included. I’m not going to <em>post</em> those addresses here, but you have to ask yourself … why would someone include the address to where they work in a social media profile?</p>
+
+<p>That’s strange.</p>
+
+<p>And then there’s the fact that every single photo of her that exists on Mastodon, has some strange aura to it. As if … they’re all screenshots from video calls.</p>
+
+<p>For example, look at this profile …</p>
+
+<p><img src="/img/posts/fediverse-chick/nicole2.png" /></p>
+
+<p>Not only do these look like screen-grabs from some kind of video call app, but <em>who in the world</em> structures a profile like this? Your selfie in the banner, and your selfie in the avatar?</p>
+
+<p>In my opinion, more evidence showing that this is likely more than some scripted clout-grab.</p>
+
+<p>Then, if you get extra sleuthy, you can attempt to reverse image search one of these photos, and do you know what kind of results you get?</p>
+
+<p>Nothing.</p>
+
+<p>At least, nothing outside of the Mastodon source that all of these images are posted to.</p>
+
+<p>The <em>only</em> way this would be possible, is if these photos were never actually shot, and taken, and then uploaded somewhere. This would only be possible, if some dude were screenshotting your face in video-to-video calls, and saving them to his hdd in order to use later.</p>
+
+<p>Such as, in an attempt to get some kind of revenge against you, by making an entire social network think that you’re some annoying person who thinks script-spamming thousands to millions of random people will get you follows. And, for all intents and purposes, that whole idea would work just fine … if all of the photos didn’t look like screengrabs, and if real world addresses weren’t included in some of the profiles.</p>
+
+<p>There <em>is</em> one central profile this seems to be coming from, or, at least, an account that’s mentioned in <em>most</em> of the messages. And, maybe it’s just not been properly moderated, maybe nobody at friendica.world is paying attention to this account. But, <em>most</em> of the messages sent to people include mentioning the profile <a href="https://friendica.world/contact/1462572" target="_blank">@fediversechick@friendica.world</a>.</p>
+
+<p>But, if you were hoping that this would answer any questions, <em>it doesn’t</em>. Although, I do now have an account on friendica.world!</p>
+
+<p>This is about as far as my investigating has gotten. I know there are usually Discord and Matrix servers mentioned along with some, or all of these messages, but I’ve never joined them, because … <em>who</em> in the right mind would do that?</p>
+
+<p>But, I’m not sure I believe that this is some random girl who can’t keep her scripts to herself.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="fediverse" /><category term="scams" /><summary type="html"><![CDATA[If you’ve been on the fediverse for a while now, it’s very likely you’ve been “nicoled,” in that an account on a random instance, calling herself “Nicole the Fediverse Chick” has sent you a private message, talking about who she is, and where you can follow her. At first glance, you’ll notice that she’s creating many accounts, everywhere. And this is probably the result of a script running on a VPS somewhere that’s creating accounts, and then sending messages via a headless browser that watches the federated network of an instance.]]></summary></entry><entry><title type="html">Today, I Have To Defend Bluesky</title><link href="http://localhost:4000/social-media/2025/03/15/today-i-have-to-defend-bluesky.html" rel="alternate" type="text/html" title="Today, I Have To Defend Bluesky" /><published>2025-03-15T05:19:27-04:00</published><updated>2025-03-15T05:19:27-04:00</updated><id>http://localhost:4000/social-media/2025/03/15/today-i-have-to-defend-bluesky</id><content type="html" xml:base="http://localhost:4000/social-media/2025/03/15/today-i-have-to-defend-bluesky.html"><![CDATA[<p>I’m writing this, partially because, I need something to write about to take my mind off the pain of potentially having broken my toe at work, and because I’ve seen and kind of keep seeing people sharing this as a way to say, “Hey, Bluesky is about to start scraping its users data for profit in relation to AI companies.” And, I really do think it needs to be highlighted, that that’s not what any of this says.</p>
 
 <p>In the below article …</p>
 
@@ -55,7 +97,7 @@ The demand for AI training data means the new social network has to think about 
 
 <p>For further clarification on all that’s going on here, you can <a href="https://github.com/bluesky-social/proposals/tree/main/0008-user-intents" target="_blank">read the actual proposal on Github</a> in order to dive deeper into what Bluesky is putting forth.</p>
 
-<p>And I definitely want to reiterate, Mastodon has <em>a lot</em> of work to do in making itself <em>less</em> friendly to scrapers and AI scammers.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="bluesky" /><category term="scrapers" /><summary type="html"><![CDATA[I’m writing this, partially because, I need something to write about to take my mind off the pain of potentially having broken my toe at work, and because I’ve seen and kind of keep seeing people sharing this as a way to say, “Hey, Bluesky is about to start scraping its users data for profit in relation to AI companies.” And, I really do think it needs to be highlighted, that that’s not what any of this says.]]></summary></entry><entry><title type="html">Social Media Was Good For A While</title><link href="https://mkultra.monster/social-media/2025/03/13/social-media-was-good-for-a-while.html" rel="alternate" type="text/html" title="Social Media Was Good For A While" /><published>2025-03-13T05:56:26-04:00</published><updated>2025-03-13T05:56:26-04:00</updated><id>https://mkultra.monster/social-media/2025/03/13/social-media-was-good-for-a-while</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/03/13/social-media-was-good-for-a-while.html"><![CDATA[<p>Yeah, I’m writing about something I’ve written about a few times now, but it echoes my feelings of getting older, and wishing we could take at least <em>parts</em> of the world back twenty five years or so. But, why? Would I, or anyone else, really actually enjoy interacting with an internet where they can’t just immediately connect with a thousand people and get some likes and shares? Am I being uncharitable in assuming this is all people care about anymore?</p>
+<p>And I definitely want to reiterate, Mastodon has <em>a lot</em> of work to do in making itself <em>less</em> friendly to scrapers and AI scammers.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="bluesky" /><category term="scrapers" /><summary type="html"><![CDATA[I’m writing this, partially because, I need something to write about to take my mind off the pain of potentially having broken my toe at work, and because I’ve seen and kind of keep seeing people sharing this as a way to say, “Hey, Bluesky is about to start scraping its users data for profit in relation to AI companies.” And, I really do think it needs to be highlighted, that that’s not what any of this says.]]></summary></entry><entry><title type="html">Social Media Was Good For A While</title><link href="http://localhost:4000/social-media/2025/03/13/social-media-was-good-for-a-while.html" rel="alternate" type="text/html" title="Social Media Was Good For A While" /><published>2025-03-13T05:56:26-04:00</published><updated>2025-03-13T05:56:26-04:00</updated><id>http://localhost:4000/social-media/2025/03/13/social-media-was-good-for-a-while</id><content type="html" xml:base="http://localhost:4000/social-media/2025/03/13/social-media-was-good-for-a-while.html"><![CDATA[<p>Yeah, I’m writing about something I’ve written about a few times now, but it echoes my feelings of getting older, and wishing we could take at least <em>parts</em> of the world back twenty five years or so. But, why? Would I, or anyone else, really actually enjoy interacting with an internet where they can’t just immediately connect with a thousand people and get some likes and shares? Am I being uncharitable in assuming this is all people care about anymore?</p>
 
 <p>I feel like there was a turning point in the early 2000s, where we were kind of <em>forced</em> to say goodbye to everything that was good about the internet, and introduced to a monster. But, we didn’t <em>know</em> it was a monster. We went along with it, because it was <em>new</em>, and if you grew up in the 90s, new things were happening <em>constantly</em>. And you rolled with it.</p>
 
@@ -122,7 +164,7 @@ The demand for AI training data means the new social network has to think about 
 
 <p>I just wish everything about being online didn’t seem <em>so bad</em>, <em>all of the time.</em></p>
 
-<p>But that’s why I have this website.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="webdev" /><summary type="html"><![CDATA[Yeah, I’m writing about something I’ve written about a few times now, but it echoes my feelings of getting older, and wishing we could take at least parts of the world back twenty five years or so. But, why? Would I, or anyone else, really actually enjoy interacting with an internet where they can’t just immediately connect with a thousand people and get some likes and shares? Am I being uncharitable in assuming this is all people care about anymore?]]></summary></entry><entry><title type="html">I Spent Two Days Playing World Of Warcraft</title><link href="https://mkultra.monster/gaming/2025/03/12/i-spent-two-days-playing-world-of-warcraft.html" rel="alternate" type="text/html" title="I Spent Two Days Playing World Of Warcraft" /><published>2025-03-12T02:06:10-04:00</published><updated>2025-03-12T02:06:10-04:00</updated><id>https://mkultra.monster/gaming/2025/03/12/i-spent-two-days-playing-world-of-warcraft</id><content type="html" xml:base="https://mkultra.monster/gaming/2025/03/12/i-spent-two-days-playing-world-of-warcraft.html"><![CDATA[<p>You might look at the headline, “I spent two days playing World of Warcraft,” and go, “What is this, 2008?” And, honestly? I wish it was. But, the past it is not. Recently, I had a position change at work, and now I have to sleep during the day. But, an added bonus? I work longer days, and have more days off. So, I decided to take a sizeable chunk of that time off, and get back into the World of Warcraft. But, how long have I had characters in this game?</p>
+<p>But that’s why I have this website.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="webdev" /><summary type="html"><![CDATA[Yeah, I’m writing about something I’ve written about a few times now, but it echoes my feelings of getting older, and wishing we could take at least parts of the world back twenty five years or so. But, why? Would I, or anyone else, really actually enjoy interacting with an internet where they can’t just immediately connect with a thousand people and get some likes and shares? Am I being uncharitable in assuming this is all people care about anymore?]]></summary></entry><entry><title type="html">I Spent Two Days Playing World Of Warcraft</title><link href="http://localhost:4000/gaming/2025/03/12/i-spent-two-days-playing-world-of-warcraft.html" rel="alternate" type="text/html" title="I Spent Two Days Playing World Of Warcraft" /><published>2025-03-12T02:06:10-04:00</published><updated>2025-03-12T02:06:10-04:00</updated><id>http://localhost:4000/gaming/2025/03/12/i-spent-two-days-playing-world-of-warcraft</id><content type="html" xml:base="http://localhost:4000/gaming/2025/03/12/i-spent-two-days-playing-world-of-warcraft.html"><![CDATA[<p>You might look at the headline, “I spent two days playing World of Warcraft,” and go, “What is this, 2008?” And, honestly? I wish it was. But, the past it is not. Recently, I had a position change at work, and now I have to sleep during the day. But, an added bonus? I work longer days, and have more days off. So, I decided to take a sizeable chunk of that time off, and get back into the World of Warcraft. But, how long have I had characters in this game?</p>
 
 <p><img src="/img/posts/wow-2025/mokk.png" /></p>
 
@@ -166,7 +208,7 @@ The demand for AI training data means the new social network has to think about 
 
 <p>Did I almost feel like things were normal for short stints over a two day period? Sort of. But … with a whole lot less friends.</p>
 
-<p>On that note, got a guild? I’m looking for one on my Alliance Druid! The one I joined yesterday is <em>dead in the water</em>. Hit me up!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Gaming" /><category term="world-of-warcraft" /><category term="gaming" /><summary type="html"><![CDATA[You might look at the headline, “I spent two days playing World of Warcraft,” and go, “What is this, 2008?” And, honestly? I wish it was. But, the past it is not. Recently, I had a position change at work, and now I have to sleep during the day. But, an added bonus? I work longer days, and have more days off. So, I decided to take a sizeable chunk of that time off, and get back into the World of Warcraft. But, how long have I had characters in this game?]]></summary></entry><entry><title type="html">Ingest Your Bluesky Posts To Jekyll</title><link href="https://mkultra.monster/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html" rel="alternate" type="text/html" title="Ingest Your Bluesky Posts To Jekyll" /><published>2025-03-09T17:21:03-04:00</published><updated>2025-03-09T17:21:03-04:00</updated><id>https://mkultra.monster/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html"><![CDATA[<p>Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, <a href="https://git.garrido.io/gabriel/mastodon-markdown-archive#installation" target="_blank">here</a>. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I <em>lost</em> my entire decade-old Twitter account and all of its content, I also want to make sure that <em>never happens again</em>.</p>
+<p>On that note, got a guild? I’m looking for one on my Alliance Druid! The one I joined yesterday is <em>dead in the water</em>. Hit me up!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Gaming" /><category term="world-of-warcraft" /><category term="gaming" /><summary type="html"><![CDATA[You might look at the headline, “I spent two days playing World of Warcraft,” and go, “What is this, 2008?” And, honestly? I wish it was. But, the past it is not. Recently, I had a position change at work, and now I have to sleep during the day. But, an added bonus? I work longer days, and have more days off. So, I decided to take a sizeable chunk of that time off, and get back into the World of Warcraft. But, how long have I had characters in this game?]]></summary></entry><entry><title type="html">Ingest Your Bluesky Posts To Jekyll</title><link href="http://localhost:4000/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html" rel="alternate" type="text/html" title="Ingest Your Bluesky Posts To Jekyll" /><published>2025-03-09T17:21:03-04:00</published><updated>2025-03-09T17:21:03-04:00</updated><id>http://localhost:4000/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll</id><content type="html" xml:base="http://localhost:4000/social-media/2025/03/09/ingest-your-bluesky-posts-to-jekyll.html"><![CDATA[<p>Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, <a href="https://git.garrido.io/gabriel/mastodon-markdown-archive#installation" target="_blank">here</a>. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I <em>lost</em> my entire decade-old Twitter account and all of its content, I also want to make sure that <em>never happens again</em>.</p>
 
 <p>So, I’ve made a Ruby script that you can use on a Jekyll site to automatically import anything from your Bluesky RSS feed, directly into your website under a “_skeets” directory, which includes images as media, and excludes reposts, quote posts, and replies (or should!)</p>
 
@@ -327,7 +369,7 @@ end
 
 <p>But, it <em>is</em> assumed that if you’re doing this, you <em>might</em> have some knowledge of how Jekyll and Liquid syntax works.</p>
 
-<p>Either way, have fun turning your website into a compendium of everything you say and do!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="social-media" /><category term="webdev" /><category term="social-media" /><category term="bluesky" /><summary type="html"><![CDATA[Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, here. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I lost my entire decade-old Twitter account and all of its content, I also want to make sure that never happens again.]]></summary></entry><entry><title type="html">International Women’s Day: My Favorite Female Characters</title><link href="https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters.html" rel="alternate" type="text/html" title="International Women’s Day: My Favorite Female Characters" /><published>2025-03-08T12:33:34-05:00</published><updated>2025-03-08T12:33:34-05:00</updated><id>https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters</id><content type="html" xml:base="https://mkultra.monster/media/2025/03/08/international-womens-day-my-favorite-female-characters.html"><![CDATA[<p>As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about <em>real</em> women?” But, aha! I gotchu. Female characters are voiced by women!</p>
+<p>Either way, have fun turning your website into a compendium of everything you say and do!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="social-media" /><category term="webdev" /><category term="social-media" /><category term="bluesky" /><summary type="html"><![CDATA[Recently, I figured out how to get the mastodon-markdown-archive script working, which is a great script, and you should check it out, here. But! I wanted to do the same thing with Bluesky, in the case that Bluesky could be bought out by billionaires and destroyed in the same way that Twitter was. And, because I lost my entire decade-old Twitter account and all of its content, I also want to make sure that never happens again.]]></summary></entry><entry><title type="html">International Women’s Day: My Favorite Female Characters</title><link href="http://localhost:4000/media/2025/03/08/international-womens-day-my-favorite-female-characters.html" rel="alternate" type="text/html" title="International Women’s Day: My Favorite Female Characters" /><published>2025-03-08T12:33:34-05:00</published><updated>2025-03-08T12:33:34-05:00</updated><id>http://localhost:4000/media/2025/03/08/international-womens-day-my-favorite-female-characters</id><content type="html" xml:base="http://localhost:4000/media/2025/03/08/international-womens-day-my-favorite-female-characters.html"><![CDATA[<p>As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about <em>real</em> women?” But, aha! I gotchu. Female characters are voiced by women!</p>
 
 <p>This is in no particular order, and is not an exhaustive list. More-so, <em>just my top faves</em>, so, let’s go.</p>
 
@@ -409,7 +451,7 @@ end
 
 <p>Who are your top five female characters? Name a woman!</p>
 
-<p><img src="/img/posts/iwd-2025/name-a-woman.png" /></p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Media" /><category term="international-womens-day" /><category term="gaming" /><category term="media" /><summary type="html"><![CDATA[As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about real women?” But, aha! I gotchu. Female characters are voiced by women!]]></summary></entry><entry><title type="html">It’s Time To Talk About Slop Enjoyers, Again</title><link href="https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html" rel="alternate" type="text/html" title="It’s Time To Talk About Slop Enjoyers, Again" /><published>2025-03-06T12:37:10-05:00</published><updated>2025-03-06T12:37:10-05:00</updated><id>https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again</id><content type="html" xml:base="https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html"><![CDATA[<p>It’s been a while since I’ve written about the egregious battle of attrition basically <em>anyone</em> who does <em>anything</em> creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on <em>every single social platform</em>. But, is that enough?</p>
+<p><img src="/img/posts/iwd-2025/name-a-woman.png" /></p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Media" /><category term="international-womens-day" /><category term="gaming" /><category term="media" /><summary type="html"><![CDATA[As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about real women?” But, aha! I gotchu. Female characters are voiced by women!]]></summary></entry><entry><title type="html">It’s Time To Talk About Slop Enjoyers, Again</title><link href="http://localhost:4000/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html" rel="alternate" type="text/html" title="It’s Time To Talk About Slop Enjoyers, Again" /><published>2025-03-06T12:37:10-05:00</published><updated>2025-03-06T12:37:10-05:00</updated><id>http://localhost:4000/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again</id><content type="html" xml:base="http://localhost:4000/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html"><![CDATA[<p>It’s been a while since I’ve written about the egregious battle of attrition basically <em>anyone</em> who does <em>anything</em> creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on <em>every single social platform</em>. But, is that enough?</p>
 
 <p>Is it enough, when accounts like this sign up on a fediverse instance and just start spamming the federated feed with glossy garbage that 100% <em>more than likely</em> has stolen the likeness of a real person, and other people’s work?</p>
 
@@ -439,7 +481,7 @@ end
 
 <p>No, in relation to Mastodon, I don’t care if the instance you’re on makes exceptions for AI slop in that as long as a user discloses that it’s AI, they’re allowed. If you ask me, that’s too soft. Admins and moderators on Mastodon, especially, <em>have got to stop being soft</em>.</p>
 
-<p>End of discussion.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="social-media" /><category term="tech" /><category term="ai" /><summary type="html"><![CDATA[It’s been a while since I’ve written about the egregious battle of attrition basically anyone who does anything creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on every single social platform. But, is that enough?]]></summary></entry><entry><title type="html">Did Mozilla Ban Pornography?</title><link href="https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography.html" rel="alternate" type="text/html" title="Did Mozilla Ban Pornography?" /><published>2025-03-05T11:05:40-05:00</published><updated>2025-03-05T11:05:40-05:00</updated><id>https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography</id><content type="html" xml:base="https://mkultra.monster/tech/2025/03/05/did-mozilla-ban-pornography.html"><![CDATA[<p><strong>Update</strong>: I’ve been made aware that Mozilla’s AUP has been the same <em>for decades</em>, and this is only coming to light, because the egregious changes they’ve made more recently have brought <em>more</em> strange things to the surface.</p>
+<p>End of discussion.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="social-media" /><category term="tech" /><category term="ai" /><summary type="html"><![CDATA[It’s been a while since I’ve written about the egregious battle of attrition basically anyone who does anything creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on every single social platform. But, is that enough?]]></summary></entry><entry><title type="html">Did Mozilla Ban Pornography?</title><link href="http://localhost:4000/tech/2025/03/05/did-mozilla-ban-pornography.html" rel="alternate" type="text/html" title="Did Mozilla Ban Pornography?" /><published>2025-03-05T11:05:40-05:00</published><updated>2025-03-05T11:05:40-05:00</updated><id>http://localhost:4000/tech/2025/03/05/did-mozilla-ban-pornography</id><content type="html" xml:base="http://localhost:4000/tech/2025/03/05/did-mozilla-ban-pornography.html"><![CDATA[<p><strong>Update</strong>: I’ve been made aware that Mozilla’s AUP has been the same <em>for decades</em>, and this is only coming to light, because the egregious changes they’ve made more recently have brought <em>more</em> strange things to the surface.</p>
 
 <p>I wasn’t going to write about all of this, at first, because it’s just one thing in a years-long trend of Mozilla betraying everything they’re supposed to stand for in order to ride the generative theft and destruction train. But! I’ve seen maybe … <em>one</em> person talk about their new acceptable use policy, and for all intents and purposes, they <em>absolutely</em> now prohibit the use of their services to display pornographic material.</p>
 
@@ -467,7 +509,7 @@ Upload, download, transmit, display, or grant access to content that includes gr
 
 <p>I’ll be on <a href="https://vivaldi.com" target="_blank">Vivaldi</a>. Not because porn is a central reason for my using the internet (I switched to Vivaldi months and months ago after Mozilla introduced AI “features” into their browser), but because Mozilla wants <em>everything you do</em> to be a record that they can collect, and use for their own gain, <em>including</em> training AI, among a million other things they shouldn’t be doing. And I just don’t have any time, or energy for all of that. Everything is <em>already</em> exhausting and annoying, <em>enough</em>.</p>
 
-<p>With the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="tech" /><category term="mozilla" /><category term="firefox" /><summary type="html"><![CDATA[Update: I’ve been made aware that Mozilla’s AUP has been the same for decades, and this is only coming to light, because the egregious changes they’ve made more recently have brought more strange things to the surface.]]></summary></entry><entry><title type="html">Neo Machina: Online</title><link href="https://mkultra.monster/secondlife/2025/03/04/neo-machina-online.html" rel="alternate" type="text/html" title="Neo Machina: Online" /><published>2025-03-04T11:27:51-05:00</published><updated>2025-03-04T11:27:51-05:00</updated><id>https://mkultra.monster/secondlife/2025/03/04/neo-machina-online</id><content type="html" xml:base="https://mkultra.monster/secondlife/2025/03/04/neo-machina-online.html"><![CDATA[<p>It’s been quite a while since my city in Second Life has been online, or even <em>seen</em> any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own <em>thing</em> in Second Life running, again. A place where I simultaneously host my store.</p>
+<p>With the rise of generative theft continuing, and the general masses growing closer and closer to excusing it, or turning a blind eye to it: You certainly don’t have to be among them. And you shouldn’t be okay with your personal data being used to train the fascist destruction of the arts.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="tech" /><category term="mozilla" /><category term="firefox" /><summary type="html"><![CDATA[Update: I’ve been made aware that Mozilla’s AUP has been the same for decades, and this is only coming to light, because the egregious changes they’ve made more recently have brought more strange things to the surface.]]></summary></entry><entry><title type="html">Neo Machina: Online</title><link href="http://localhost:4000/secondlife/2025/03/04/neo-machina-online.html" rel="alternate" type="text/html" title="Neo Machina: Online" /><published>2025-03-04T11:27:51-05:00</published><updated>2025-03-04T11:27:51-05:00</updated><id>http://localhost:4000/secondlife/2025/03/04/neo-machina-online</id><content type="html" xml:base="http://localhost:4000/secondlife/2025/03/04/neo-machina-online.html"><![CDATA[<p>It’s been quite a while since my city in Second Life has been online, or even <em>seen</em> any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own <em>thing</em> in Second Life running, again. A place where I simultaneously host my store.</p>
 
 <p><img src="/img/posts/neo-machina-returns-again/Screenshot from 2025-03-04 10-24-30.png" /></p>
 
@@ -477,7 +519,7 @@ Upload, download, transmit, display, or grant access to content that includes gr
 
 <p>That’ll no longer be an issue.</p>
 
-<p>But, if you’re in Second Life, you should definitely come on down and see the re-opening of <a href="http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23" target="_blank">Neo Machina</a>!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="secondlife" /><category term="second-life" /><category term="neo-machina" /><summary type="html"><![CDATA[It’s been quite a while since my city in Second Life has been online, or even seen any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own thing in Second Life running, again. A place where I simultaneously host my store.]]></summary></entry><entry><title type="html">Reasons You Should Jump On My Patreon</title><link href="https://mkultra.monster/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html" rel="alternate" type="text/html" title="Reasons You Should Jump On My Patreon" /><published>2025-03-02T12:35:53-05:00</published><updated>2025-03-02T12:35:53-05:00</updated><id>https://mkultra.monster/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon</id><content type="html" xml:base="https://mkultra.monster/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html"><![CDATA[<p>I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of <em>anything</em> to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">about my Patreon</a>, and hopefully bring in some new faces.</p>
+<p>But, if you’re in Second Life, you should definitely come on down and see the re-opening of <a href="http://maps.secondlife.com/secondlife/Neo%20Machina/87/116/23" target="_blank">Neo Machina</a>!</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="secondlife" /><category term="second-life" /><category term="neo-machina" /><summary type="html"><![CDATA[It’s been quite a while since my city in Second Life has been online, or even seen any light of day. For the most part, it’s been inactive in Linden Lab’s backup servers for well over six months, maybe longer? I have a hard time keeping up with … time. Never-the-less, it’s back. Due to offline circumstances, and having a little bit more money from my job, I’ve decided it’s totally feasible to have my own thing in Second Life running, again. A place where I simultaneously host my store.]]></summary></entry><entry><title type="html">Reasons You Should Jump On My Patreon</title><link href="http://localhost:4000/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html" rel="alternate" type="text/html" title="Reasons You Should Jump On My Patreon" /><published>2025-03-02T12:35:53-05:00</published><updated>2025-03-02T12:35:53-05:00</updated><id>http://localhost:4000/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon</id><content type="html" xml:base="http://localhost:4000/patreon/2025/03/02/reasons-you-should-jump-on-my-patreon.html"><![CDATA[<p>I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of <em>anything</em> to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">about my Patreon</a>, and hopefully bring in some new faces.</p>
 
 <p>In October 2014, right on the heels of having lost my job at the time (see: harassment, bullying, failures of HR, etc.), I started up a Patreon that would be central to my creative writing. I mostly used it to upload little drafts of snippets as I worked my way through a novel I was writing. For a while, though, I kind of stopped posting (as I began maintaining a store in Second Life), and didn’t really pick it up again until 2017. And, ever since, I’ve been giving regular updates.</p>
 
@@ -503,152 +545,4 @@ Upload, download, transmit, display, or grant access to content that includes gr
 
 <p>I know times are rough, and nobody’s got any money anymore, but the only way to build a future, is to <em>actually talk about that future.</em></p>
 
-<p>Thank you for reading.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Patreon" /><category term="patreon" /><category term="music" /><category term="webdev" /><summary type="html"><![CDATA[I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of anything to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk about my Patreon, and hopefully bring in some new faces.]]></summary></entry><entry><title type="html">Nova Prime, Now Also An Archive</title><link href="https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive.html" rel="alternate" type="text/html" title="Nova Prime, Now Also An Archive" /><published>2025-02-27T08:50:19-05:00</published><updated>2025-02-27T08:50:19-05:00</updated><id>https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive</id><content type="html" xml:base="https://mkultra.monster/webdev/2025/02/27/nova-prime-now-also-an-archive.html"><![CDATA[<p>I’ve been doing <em>a lot</em> in order to get my website to act as a more <em>central</em> place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s <em>really</em> cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … <em>just to put up one Post, Note, or Log</em>. To me, this is useful, and really cool, but it also doesn’t <em>feel</em> like posting on social media. So what do you do?</p>
-
-<p>Well, of course, you setup reverse publishing/syndication, and backup every single thing you post to Mastodon in converted markdown files formatted for Jekyll, that are then fed into a Liquid feed!</p>
-
-<p>How?</p>
-
-<p>By using <a href="https://git.garrido.io/gabriel/mastodon-markdown-archive#installation" target="_blank">this repository</a>.</p>
-
-<p>Basically, you go through the process of getting this thing setup, and <em>make sure</em> you specify that you want to use a Jekyll template (you’ve got to set that up yourself), and point it at a directory on your website, so that you can effectively setup a cronjob that just backs up all of your posts, <em>daily</em>.</p>
-
-<p>Here’s my bash script for backing up my Mastodon posts to a directory on my local machine, where my website is stored:</p>
-
-<p><em>graboots.sh</em></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
-
-export MASTODON_ACCESS_TOKEN=your_access_token_here
-
-PREVIOUS_SINCE_ID=""
-
-# Function to delete posts containing the specified phrase
-delete_posts_with_phrase() {
-  local phrase="$1"
-  local directory="$2"
-  for post_file in "$directory"/*.md; do
-    if grep -q "$phrase" "$post_file"; then
-      echo "Excluding post: $post_file"
-      rm "$post_file"
-    fi
-  done
-}
-
-while true; do
-  SINCE_ID=$(test -f /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first &amp;&amp; cat /home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first || echo '')
-  
-  if [[ "$SINCE_ID" == "$PREVIOUS_SINCE_ID" ]]; then
-    echo "No new posts. Exiting"
-    break
-  fi
-
-  command="/home/cmdr-nova/.local/go/bin/mastodon-markdown-archive --dist=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots \
-    --exclude-replies=true \
-    --exclude-reblogs=true \
-    --user=https://mastodon.online/@cmdr_nova \
-    --porcelain=true \
-    --visibility=public \
-    --download-media=bundle \
-    --threaded=true \
-    --persist-first=/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots/first \
-    --since-id=$SINCE_ID \
-    --template=/home/cmdr-nova/jekyll.tmpl \
-    --filename={{.Post.Id}}.md"
-  
-  output=$($command)
-
-  if [[ "$output" -eq 0 ]]; then
-    echo "No new posts. Exiting"
-    break
-  fi
-  echo "Fetched $output posts. Continuing."
-  
-  # Delete posts containing the phrase "Posted via Nova Prime:"
-  delete_posts_with_phrase "Posted via Nova Prime:" "/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots"
-  
-  PREVIOUS_SINCE_ID=$SINCE_ID
-  sleep 1
-done
-</code></pre></div></div>
-
-<p>But then, this isn’t <em>everything</em> you need to do in order to make this work, right? So, you probably <em>also</em> want each of these posts on your site to link back to their original location (for as long as they exist), and to <em>also</em> use the images include in posts that are backed up, <em>that have images</em>, right?</p>
-
-<p>Okay, so run this script every single time you build your Jekyll site:</p>
-
-<p><em>syndicate_toots.py</em></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import os
-import glob
-import shutil
-
-# Directory containing your toots
-toots_dir = '/home/cmdr-nova/Documents/Website/cmdr-nova.github.io/_toots'
-
-# Function to update the front matter and content of a toot
-def update_toot_file(toot_file, post_id, image_path=None):
-    # Construct the Mastodon syndication
-    mastodon_link = f'https://mastodon.online/@cmdr_nova/{post_id}'
-
-    # Read the content of the toot
-    with open(toot_file, 'r') as file:
-        content = file.readlines()
-
-    # Check if the mastodon link is already present
-    if not any(line.startswith('mastodon:') for line in content):
-        # Insert the mastodon link into the front matter
-        for i, line in enumerate(content):
-            if line.strip() == '---' and i != 0:
-                content.insert(i, f'mastodon: {mastodon_link}\n')
-                break
-
-    # Check if the image path is provided and not already present
-    if image_path and not any(line.startswith('image:') for line in content):
-        # Insert the image path into the front matter
-        for i, line in enumerate(content):
-            if line.strip() == '---' and i != 0:
-                content.insert(i, f'image: {image_path}\n')
-                break
-
-    # Insert the image tag at the end of the content if not already present
-    if image_path and not any(f'&lt;img src="{image_path}"' in line for line in content):
-        content.append(f'\n&lt;img src="{image_path}" alt="Image"&gt;\n')
-
-    # Write the updated content back to the toot
-    with open(toot_file, 'w') as file:
-        file.writelines(content)
-
-# Process individual markdown files in the toots directory
-for toot_file in glob.glob(os.path.join(toots_dir, '*.md')):
-    # Extract the post ID from the filename
-    post_id = os.path.basename(toot_file).replace('.md', '')
-    update_toot_file(toot_file, post_id)
-
-# Process folders containing an index.md file in the toots directory
-for toot_folder in glob.glob(os.path.join(toots_dir, '*/')):
-    index_file = os.path.join(toot_folder, 'index.md')
-    if os.path.exists(index_file):
-        # Extract the post ID from the folder name
-        post_id = os.path.basename(os.path.dirname(index_file))
-        # Find the image file in the folder (assuming only one image per folder)
-        image_files = glob.glob(os.path.join(toot_folder, '*.*'))
-        image_path = None
-        for image_file in image_files:
-            if image_file != index_file:
-                # Construct the relative image path
-                image_path = f'/toots/{post_id}/{os.path.basename(image_file)}'
-                break
-        update_toot_file(index_file, post_id, image_path)
-
-print("Toots updated successfully.")
-</code></pre></div></div>
-
-<p>Now, <em>obviously</em>, this is going to take a bit more setup than just putting both of these scripts together. You probably keep your files in different places than I do, and you might not even <em>want</em> a Jekyll template. Furthermore, you also still need to construct your site in order to be <em>able</em> to include these markdown files <em>within</em> the Liquid feed that’s already included on a Jekyll website.</p>
-
-<p>But, other than that, there we go!</p>
-
-<p>Everything I post on Mastodon, will now post to my website (as long as I remember to commit and sync daily), using this cronjob:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0 2 * * * /home/cmdr-nova/grabtoots.sh
-</code></pre></div></div>
-<p>This is, <em>essentially</em>, my answer as to <em>how</em> to make it so that I can post to my website from my phone, albeit, a little bit of an extreme work-around, but very simple once you’ve got it all up and running.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Webdev" /><category term="webdev" /><category term="syndication" /><summary type="html"><![CDATA[I’ve been doing a lot in order to get my website to act as a more central place where all of my thoughts and posts are stored. One of the issues I was having, is that it’s really cumbersome to have to generate a post, then make that post, then commit, and sync to NeoCities … just to put up one Post, Note, or Log. To me, this is useful, and really cool, but it also doesn’t feel like posting on social media. So what do you do?]]></summary></entry></feed>
+<p>Thank you for reading.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Patreon" /><category term="patreon" /><category term="music" /><category term="webdev" /><summary type="html"><![CDATA[I was trying to think of something I could write long-form. It’s always some controversial topic, or a topic of interest, and then a week of lulls in inspiration of anything to write about. There’s plenty going on in the world, and there are lots of people talking about that stuff. But, I figured, it’s time for a change of pace. I want to talk about my Patreon, and hopefully bring in some new faces.]]></summary></entry></feed>
