@@ -118,16 +118,18 @@ creator of everything -->
             {% assign icon = "ph ph-mastodon-logo" %}
             {% assign verb = "Tooted" %}
             {% assign content = item.content %}
+            {% assign item_class = "mastodon-item" %}
           {% elsif post_type == "skeets" %}
             {% assign icon = "ph ph-butterfly" %}
             {% assign verb = "Skeeted" %}
             {% assign content = item.content %}
+            {% assign item_class = "bluesky-item" %}
           {% else %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Shared" %}
           {% endif %}
       
-          <div class="item grid-item">
+          <div class="item grid-item {% if item_class %}{{ item_class }}{% endif %}">
             <div>
               {% if item.pinned %}
                 <div class="pin-icon" style="text-align: right; padding: 5px; font-size: 1.5em;">
@@ -208,6 +210,16 @@ creator of everything -->
               <script src="/assets/js/clipboard.js"></script>
             {% endif %}
             </div>
+            {% if post_type == "toots" %}
+            <div class="logo-container">
+              <img src="/img/logo-purple.svg" alt="Logo" class="logo-image">
+            </div>
+          {% endif %}
+          {% if post_type == "skeets" %}
+          <div class="logo-container">
+            <img src="/img/bluesky_logo.png" alt="Bluesky Logo" class="bluesky-logo-image">
+          </div>
+        {% endif %}
           </div>
         {% endfor %}
       
@@ -215,6 +227,9 @@ creator of everything -->
 <div class="item grid-item" id="tumblr-feed">
   <h3>MKULTRA Bot via Tumblr</h3>
   <div id="tumblr-content"></div>
+  <div id="tumblr-logo">
+    <img src="/img/tumblr_logo.png" alt="Tumblr Logo" class="tumblr-logo-image">
+  </div>
 </div>
 
 </div>

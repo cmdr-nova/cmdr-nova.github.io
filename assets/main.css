@@ -3079,10 +3079,60 @@ li {
   text-overflow: ellipsis;
 }
 
+/* Styling for Bluesky and Mastodon parts */
+
+.mastodon-item {
+  background-color: #17063B; 
+  border: 1px solid #2F0C7A; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bluesky-item {
+  background-color: #161e27; 
+  border: 1px solid #0003; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* For Toots */
+
+.logo-container {
+  text-align: center;
+  margin: 36px 0;
+}
+
+.logo-image {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin: 0 auto;
+}
+
+.bluesky-logo-image {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin: 36px auto;
+}
+
+#tumblr-logo {
+  padding: 36px;
+  text-align: center;
+}
+
+.tumblr-logo-image {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin: 0 auto;
+}
+
 #tumblr-feed {
   padding: 10px;
   border-radius: 5px;
-  background-color: #202020;
+  border: 1px solid #0003; 
+  background-color: #35465c;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
   overflow: hidden;
   display: flex;
