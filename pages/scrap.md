@@ -246,7 +246,14 @@ permalink: /pages/scrap/
     <span style="font-size: .7em;">Monster Hunter Wilds (2025)</span>
     </div>
   </div>
-    <div class="image-item">
+  <div class="image-item">
+    <img src="/img/scrap/gw1-2025.png" alt="a photo of my character in Guild Wars 1, taken 2025.">
+    <div class="image-caption">Ms Dimeaner //
+    <br />
+    <span style="font-size: .7em;">Guild Wars (2025)</span>
+    </div>
+  </div>
+  <div class="image-item">
     <img src="/img/scrap/gw2-2025.png" alt="a photo of my character in Guild Wars 2, taken 2025.">
     <div class="image-caption">Kalicia Ember //
     <br />
