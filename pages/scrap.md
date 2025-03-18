@@ -255,7 +255,7 @@ permalink: /pages/scrap/
   </div>
   <div class="image-item">
     <img src="/img/scrap/gw2-2025.png" alt="a photo of my character in Guild Wars 2, taken 2025.">
-    <div class="image-caption">Kalicia Ember //
+    <div class="image-caption">Nova Ayashi //
     <br />
     <span style="font-size: .7em;">Guild Wars 2 (2025)</span>
     </div>
