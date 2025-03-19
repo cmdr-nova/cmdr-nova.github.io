@@ -3282,3 +3282,10 @@ li {
   max-width: 32px;
   max-height: 32px;
 }
+
+.emoji {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: inline-block !important;
+}
