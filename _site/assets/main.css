@@ -3233,3 +3233,12 @@ li {
   cursor: pointer;
   font-weight: 400;
 }
+
+.content_linker {
+  text-align: right;
+}
+
+.melonbutton {
+  width: 100px; 
+  height: 100px;
+}

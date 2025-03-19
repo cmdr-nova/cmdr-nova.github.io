@@ -202,7 +202,7 @@ creator of everything -->
                 </div>
               {% endif %}
               {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "texts" or post_type == "skeets" or post_type == "submissions" %}
-              <div style="text-align: right;">
+              <div class="content_linker">
                 <a href="{{ item.url }}" class="small-link">view</a> | 
                 <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
               </div>
@@ -248,7 +248,7 @@ creator of everything -->
   -->
 
   <p align="center">
-    © <script>document.write(new Date().getFullYear())</script> <a href="https://mkultra.monster" rel="me">CMDR Nova</a>
+    © <script src="/assets/js/year.js"></script> <a href="https://mkultra.monster" rel="me">CMDR Nova</a>
   </p>
 
   <p align="center">
@@ -259,7 +259,7 @@ creator of everything -->
 
 
   <p align="center">
-    <object id="melonland-surf-club" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml" style="width: 100px; height: 100px;"></object>
+    <object id="melonland-surf-club" class="melonbutton" data="https://melonland.net/surf-badge.svg?fill=#8ff0a4" type="image/svg+xml"></object>
     </p> 
 
   <p align="center">
