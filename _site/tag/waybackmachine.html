@@ -153,25 +153,6 @@ rel="stylesheet"/>
     </center>
   </span>
 
-  <script>
-    const menuButton = document.getElementById('menuToggle');
-    const sidenav = document.getElementById('mySidenav');
-    
-    menuButton.addEventListener('click', () => {
-      if (sidenav.style.width === '450px') {
-        sidenav.style.width = '0';
-      } else {
-        sidenav.style.width = '450px';
-      }
-    });
-    
-    document.addEventListener('click', (event) => {
-      if (!sidenav.contains(event.target) && !menuButton.contains(event.target)) {
-        sidenav.style.width = '0';
-      }
-    });
-    </script>  
-
   </div>
   </td>
   </tr>
