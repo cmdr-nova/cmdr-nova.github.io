@@ -3242,3 +3242,30 @@ li {
   width: 100px; 
   height: 100px;
 }
+
+.synd-sizer {
+  padding: 0px 5px 0px 5px;
+}
+
+.fur-wrapper {
+  width: fit-content; 
+  border: 2px outset; 
+  text-align:center
+}
+
+.fur-wrapper p {
+  margin: 0; 
+  padding: 0.1em; 
+  border: 2px inset;
+}
+
+.fur-innie {
+  display: flex;
+}
+
+.fur-innie a {
+  flex: 1; 
+  margin: 0; 
+  padding: 0.1em; 
+  border: 2px inset;
+}
