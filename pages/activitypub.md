@@ -180,7 +180,7 @@ permalink: /pages/activitypub/
 
 
 
-<p>If you have any additional questions, I would be more than happy to speak to you over at <a href="https://mastodon.online/@cmdr_nova" target="_blank" rel="noreferrer noopener nofollow">my account</a>. I hope this list and information has helped, and if you&#8217;ve decided to join us, welcome! Welcome to the open web.</p>
+<p>If you have any additional questions, I would be more than happy to speak to you over at <a href="https://labyrinth.zone/daemon_nova" target="_blank" rel="noreferrer noopener nofollow">my account</a>. I hope this list and information has helped, and if you&#8217;ve decided to join us, welcome! Welcome to the open web.</p>
 
 
 

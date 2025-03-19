@@ -43,6 +43,7 @@ creator of everything -->
 
         {% assign total_posts = site.posts | size %}
         {% assign total_toots = site.toots | size %}
+        {% assign total_texts = site.texts | size %}
         {% assign total_logs = site.logs | size %}
         {% assign total_notes = site.notes | size %}
         {% assign total_skeets = site.skeets | size %}
@@ -59,7 +60,7 @@ creator of everything -->
         <p class="center">
           <button class="post-buttons" onclick="window.open('/rss_feed.xml')">RSS <i class="ph ph-rss"></i></button>
 
-          <button class="post-buttons" onclick="window.open('https://mastodon.online/@cmdr_nova', '_blank')">Mastodon <i class="ph ph-mastodon-logo"></i></button>
+          <button class="post-buttons" onclick="window.open('https://labyrinth.zone/daemon_nova', '_blank')">Akkoma <i class="ph ph-fediverse-logo"></i></button>
 
           <button class="post-buttons" onclick="window.open('https://bsky.app/profile/mkultra.monster', '_blank')">Bluesky <i class="ph ph-butterfly"></i></button>
 
@@ -88,14 +89,14 @@ creator of everything -->
         {% assign latest_post = site.posts | sort: "date" | last %}
         {% assign latest_note = site.notes | sort: "date" | last %}
         {% assign latest_log = site.logs | sort: "date" | last %}
-        {% assign latest_toot = site.toots | sort: "date" | last %}
+        {% assign latest_text = site.texts | sort: "date" | last %}
         {% assign latest_skeet = site.skeets | sort: "date" | last %}
       
         {% assign latest_items = "" | split: "" %}
         {% if latest_post %} {% assign latest_items = latest_items | push: latest_post %} {% endif %}
         {% if latest_note %} {% assign latest_items = latest_items | push: latest_note %} {% endif %}
         {% if latest_log %} {% assign latest_items = latest_items | push: latest_log %} {% endif %}
-        {% if latest_toot %} {% assign latest_items = latest_items | push: latest_toot %} {% endif %}
+        {% if latest_text %} {% assign latest_items = latest_items | push: latest_text %} {% endif %}
         {% if latest_skeet %} {% assign latest_items = latest_items | push: latest_skeet %} {% endif %}
       
         {% for item in latest_items %}
@@ -112,11 +113,11 @@ creator of everything -->
             {% assign icon = "ph ph-notebook" %}
             {% assign verb = "Logged" %}
             {% assign content = item.content %}
-          {% elsif post_type == "toots" %}
-            {% assign icon = "ph ph-mastodon-logo" %}
-            {% assign verb = "Tooted" %}
+          {% elsif post_type == "texts" %}
+            {% assign icon = "ph ph-chat-text" %}
+            {% assign verb = "Texted" %}
             {% assign content = item.content %}
-            {% assign item_class = "mastodon-item" %}
+            {% assign item_class = "akkoma-item" %}
           {% elsif post_type == "skeets" %}
             {% assign icon = "ph ph-butterfly" %}
             {% assign verb = "Skeeted" %}
@@ -200,7 +201,7 @@ creator of everything -->
                   {% endfor %}
                 </div>
               {% endif %}
-              {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "toots" or post_type == "skeets" or post_type == "submissions" %}
+              {% if post_type == "notes" or post_type == "logs" or post_type == "posts" or post_type == "texts" or post_type == "toots" or post_type == "skeets" or post_type == "submissions" %}
               <div style="text-align: right;">
                 <a href="{{ item.url }}" class="small-link">view</a> | 
                 <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('{{ item.url }}')">share</a>
@@ -208,11 +209,16 @@ creator of everything -->
               <script src="/assets/js/clipboard.js"></script>
             {% endif %}
             </div>
+            {% if post_type == "texts" %}
+            <div class="logo-container">
+              <img src="/img/laby.png" alt="Logo" class="logo-image">
+            </div>
+          {% endif %}<!--
             {% if post_type == "toots" %}
             <div class="logo-container">
               <img src="/img/logo-purple.svg" alt="Logo" class="logo-image">
             </div>
-          {% endif %}
+          {% endif %}-->
           {% if post_type == "skeets" %}
           <div class="logo-container">
             <img src="/img/bluesky_logo.png" alt="Bluesky Logo" class="bluesky-logo-image">
@@ -278,6 +284,7 @@ creator of everything -->
 
           <link rel="authorization_endpoint" href="https://indieauth.com/auth">
           <a rel="me" href="https://mastodon.online/@cmdr_nova"></a>
+          <a rel="me" href="https://labyrinth.zone/daemon_nova"></a>
           <!-- <a rel="me" href="https://mastodon.social/@net_run"></a> -->
 
 </div>

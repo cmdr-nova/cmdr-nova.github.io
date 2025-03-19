@@ -14,6 +14,9 @@ collections:
   submissions:
     output: true
     permalink: /submissions/:path/
+  texts:
+    output: true
+    permalink: /texts/:path/
   toots:
     output: true
     permalink: /toots/:path/
@@ -200,53 +203,53 @@ tag_categories:
   - tv
   uncategorized:
   - ''
-  - cyberpunk
-  - java
-  - eora
-  - coffee
-  - post
   - share-links
-  - amongus
-  - app
-  - sad
-  - overhaul
-  - thinking
-  - life
-  - scams
-  - blog
-  - baby
-  - night
-  - second
-  - rss
-  - neo-machina
-  - grave
-  - posting
-  - pillars-of-eternity
-  - mozilla
-  - bots
-  - oof
   - world-of-warcraft
-  - css
   - scrapers
-  - firefox
-  - note
-  - avowed
-  - label
-  - mutuals
-  - syndication
-  - indexing
-  - bread
-  - sleep
-  - nuggets
-  - pandora
-  - international-womens-day
-  - kingdomcome2
+  - post
   - mac
-  - littledudes
-  - patreon
-  - guidwars2
-  - update
+  - amongus
+  - firefox
+  - cyberpunk
+  - sad
+  - avowed
+  - life
+  - kingdomcome2
+  - thinking
+  - scams
+  - pandora
+  - coffee
+  - night
+  - rss
   - cats
+  - bread
+  - bots
+  - indexing
+  - update
+  - grave
+  - blog
+  - oof
+  - second
+  - eora
+  - label
+  - syndication
+  - mozilla
+  - css
+  - sleep
+  - international-womens-day
+  - guidwars2
+  - neo-machina
+  - pillars-of-eternity
+  - posting
+  - overhaul
+  - patreon
+  - java
+  - baby
+  - mutuals
+  - littledudes
+  - nuggets
+  - note
+  - app
   writing:
   - fiction
 theme: minima

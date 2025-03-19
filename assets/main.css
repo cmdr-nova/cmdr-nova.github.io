@@ -3097,11 +3097,18 @@ li {
   border-radius: 5px;
 }
 
+.akkoma-item {
+  background-color: #0a0a0ad5;
+  border: 1px solid rgba(236, 159, 16, 0.89); 
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /* For Toots */
 
 .logo-container {
   text-align: center;
-  margin: 36px 0;
+  margin: 10px 0;
 }
 
 .logo-image {
