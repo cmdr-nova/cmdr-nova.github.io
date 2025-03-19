@@ -3219,3 +3219,10 @@ li {
   justify-content: center;
   gap: 10px;
 }
+
+.menu-toggle {
+  text-decoration: none;
+  font-size: 21px;
+  cursor: pointer;
+  font-weight: 400;
+}

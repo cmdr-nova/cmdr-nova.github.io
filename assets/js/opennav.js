@@ -28,3 +28,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const closeNavButton = document.getElementById("closeNavButton");
+  if (closeNavButton) {
+    closeNavButton.addEventListener("click", closeNav);
+  }
+});
