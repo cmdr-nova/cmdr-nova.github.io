@@ -1,5 +1,8 @@
 baseurl: ''
 collections:
+  hacker-toots:
+    output: true
+    permalink: /hacker-toots/:path/
   logs:
     output: true
     permalink: /logs/:year/:month/:day/:title/
@@ -203,53 +206,53 @@ tag_categories:
   - tv
   uncategorized:
   - ''
-  - post
-  - css
-  - java
-  - scams
+  - cats
+  - update
+  - blog
+  - pandora
+  - app
   - mutuals
-  - international-womens-day
-  - nuggets
-  - firefox
+  - eora
+  - guidwars2
   - life
   - bots
-  - baby
-  - bread
-  - neo-machina
-  - cats
-  - second
-  - blog
-  - scrapers
-  - grave
-  - posting
-  - world-of-warcraft
-  - syndication
-  - mozilla
-  - note
-  - sad
-  - oof
   - avowed
-  - guidwars2
-  - app
-  - pillars-of-eternity
-  - indexing
-  - pandora
-  - label
-  - sleep
-  - share-links
-  - amongus
-  - littledudes
-  - eora
-  - kingdomcome2
-  - night
-  - coffee
-  - patreon
-  - rss
+  - scrapers
+  - note
   - cyberpunk
-  - update
-  - overhaul
-  - mac
+  - css
+  - nuggets
+  - neo-machina
+  - second
+  - kingdomcome2
+  - scams
   - thinking
+  - indexing
+  - international-womens-day
+  - sad
+  - rss
+  - sleep
+  - night
+  - amongus
+  - label
+  - pillars-of-eternity
+  - java
+  - mac
+  - syndication
+  - post
+  - mozilla
+  - littledudes
+  - firefox
+  - baby
+  - world-of-warcraft
+  - grave
+  - patreon
+  - share-links
+  - coffee
+  - oof
+  - posting
+  - overhaul
+  - bread
   writing:
   - fiction
 theme: minima
