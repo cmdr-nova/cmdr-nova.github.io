@@ -3269,3 +3269,16 @@ li {
   padding: 0.1em; 
   border: 2px inset;
 }
+
+.laby-float {
+  float: right;
+  margin-left: 15px;
+  max-width: 100px;
+}
+
+.skeet-float {
+  float: right;
+  margin-left: 15px;
+  max-width: 32px;
+  max-height: 32px;
+}
