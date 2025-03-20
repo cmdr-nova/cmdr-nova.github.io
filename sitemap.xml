@@ -54949,12 +54949,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://mkultra.monster/_site/hacker-toots/2023-08-24-vi4tk/index.html</loc>
-    <lastmod>2025-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://mkultra.monster/_site/hacker-toots/2023-06-23-f0dnk/index.html</loc>
     <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -59977,6 +59971,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/texts/2025-03-19-2c0cec40-9ee5-4c4e-964e-9d28b17b69ea/index.html</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/texts/2025-03-19-6299e3cb-f6fb-41a9-8b4a-d85102822e23/index.html</loc>
     <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -60056,6 +60056,18 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/texts/2025-03-19-2b2d7ca0-d8ef-4898-a1ee-65836802b919/index.html</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/texts/2025-03-19-3900316d-01bf-48c3-99ca-d53ac3d6cdf0/index.html</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/texts/2025-03-19-f1463009-8f12-4ab4-9953-985dd5c969f3/index.html</loc>
     <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -65714,6 +65726,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/pages/texts/index.html</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/pages/texts/page3/index.html</loc>
     <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -108559,6 +108577,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_texts/2025-03-19-2c0cec40-9ee5-4c4e-964e-9d28b17b69ea.md</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_texts/2025-03-19-f1463009-8f12-4ab4-9953-985dd5c969f3.md</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_texts/2025-02-25-682fbe89-b938-428c-a94b-8f77c8a82f2b.md</loc>
     <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -108656,6 +108686,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_texts/2025-03-19-6299e3cb-f6fb-41a9-8b4a-d85102822e23.md</loc>
+    <lastmod>2025-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_texts/2025-03-19-3900316d-01bf-48c3-99ca-d53ac3d6cdf0.md</loc>
     <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
