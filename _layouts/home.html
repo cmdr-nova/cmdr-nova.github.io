@@ -113,7 +113,7 @@ creator of everything -->
           {% elsif post_type == "logs" %}
             {% assign icon = "ph ph-notebook" %}
             {% assign verb = "Logged" %}
-            {% assign content = item.content %}
+            {% assign content = item.content | truncatewords: 75 %}
           {% elsif post_type == "texts" %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Texted" %}
