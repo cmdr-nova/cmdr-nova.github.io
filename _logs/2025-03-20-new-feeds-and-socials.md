@@ -11,8 +11,8 @@ akkoma:
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr: https://www.tumblr.com/nova-ayashi/778575775004803072/almost-forgot-to-write-up-a-changelog-for-the
+none: 
 ---
 Almost forgot to write up a changelog for the site, but! Since I've moved my ActivityPub ... erm, activity, *back* to my account on labyrinth.zone, I used some Ruby to pull from the RSS of said account, and created a new main feed here on the homepage. Not only that, but I retrieved my archive from a certain instance that I no longer have full access to, and imported them to my website, immortalized forever.
 

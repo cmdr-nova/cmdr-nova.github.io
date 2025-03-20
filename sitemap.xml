@@ -4465,6 +4465,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/logs/2025/03/20/new-feeds-and-socials/index.html</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/logs/2025/03/07/poasting-edit/index.html</loc>
     <lastmod>2025-03-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -50432,6 +50438,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/tag/website.html</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/tag/log.html</loc>
     <lastmod>2025-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -109412,6 +109424,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/tag/diablo4.md</loc>
+    <lastmod>2025-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/tag/log.md</loc>
     <lastmod>2025-03-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
