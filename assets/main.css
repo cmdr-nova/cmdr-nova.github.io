@@ -270,6 +270,34 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
   }
 }
 
+.nav-button {
+  background-color: #000000;
+  color: var(--button-txt);
+  border-style: solid;
+  border-color: var(--btn-border);
+  cursor: pointer;
+  padding: 3px 3px 3px 3px;
+}
+
+.light-mode .nav-button {
+  background-color: #d8d8d88c;
+  color: #000;
+}
+
+@media (max-width: 480px) {
+  .nav-button {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.menu-toggle {
+  text-decoration: none;
+  font-size: 21px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
 footer {
   border-style: none;
   border-width: 1px;
@@ -1439,6 +1467,12 @@ li {
 
 .symbols {
   margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .symbols {
+    margin-top: 10px;
+  }
 }
 
 /* PyGen section */
@@ -3225,13 +3259,6 @@ li {
   display: flex;
   justify-content: center;
   gap: 10px;
-}
-
-.menu-toggle {
-  text-decoration: none;
-  font-size: 21px;
-  cursor: pointer;
-  font-weight: 400;
 }
 
 .content_linker {

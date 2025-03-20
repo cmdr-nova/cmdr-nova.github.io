@@ -1,5 +1,12 @@
 function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
+  const sidenav = document.getElementById("mySidenav");
+  if (window.innerWidth <= 480) {
+    // On mobile, make the menu take up 100% of the screen width
+    sidenav.style.width = "100%";
+  } else {
+    // On desktop, use a fixed width
+    sidenav.style.width = "450px";
+  }
 }
 
 function closeNav() {
@@ -13,10 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
   if (menuButton && sidenav) {
     // Toggle the sidebar when the menu button is clicked
     menuButton.addEventListener("click", () => {
-      if (sidenav.style.width === "450px") {
+      if (sidenav.style.width === "450px" || sidenav.style.width === "100%") {
         closeNav(); // Use the existing closeNav function
       } else {
-        sidenav.style.width = "450px"; // Open with a different width
+        openNav(); // Use the updated openNav function
       }
     });
 
@@ -27,9 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-});
 
-document.addEventListener("DOMContentLoaded", () => {
   const closeNavButton = document.getElementById("closeNavButton");
   if (closeNavButton) {
     closeNavButton.addEventListener("click", closeNav);
