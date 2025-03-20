@@ -272,11 +272,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 .nav-button {
   background-color: #000000;
-  color: var(--button-txt);
   border-style: solid;
   border-color: var(--btn-border);
   cursor: pointer;
-  padding: 3px 3px 3px 3px;
+  padding: 3px 10px 3px 3px;
 }
 
 .light-mode .nav-button {
@@ -1471,7 +1470,7 @@ li {
 
 @media (max-width: 480px) {
   .symbols {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 }
 
