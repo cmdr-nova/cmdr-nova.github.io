@@ -3417,7 +3417,11 @@ li {
 } 
 
 .brainz {
-  filter: drop-shadow(5px 5px 5px #181818); 
+  filter: drop-shadow(5px 5px 5px #181818);
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .light-mode .brainz {
