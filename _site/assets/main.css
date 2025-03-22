@@ -1247,7 +1247,7 @@ iframe {
 }
 
 .tumblr-post h4 {
-  margin: 5px 0;
+  margin: -5px 0;
 }
 
 .light-mode .tumblr-post {
@@ -1268,7 +1268,6 @@ iframe {
   height: auto;
   margin-bottom: 10px;
 }
-
 
 #random-image-container {
   max-width: 240px;
