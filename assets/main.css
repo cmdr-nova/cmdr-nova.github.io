@@ -3144,9 +3144,10 @@ li {
 
 .bluesky-item {
   background-color: #161e27; 
-  border: 1px solid #0003; 
+  border: 1px solid rgba(4, 163, 255, 0.555); 
   padding: 10px;
   border-radius: 5px;
+  font-size: 0.9em;
 }
 
 .akkoma-item {
