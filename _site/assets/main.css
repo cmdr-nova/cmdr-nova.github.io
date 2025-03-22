@@ -3044,6 +3044,21 @@ li {
   max-width: 100%;
 }
 
+.grid-container > :first-child {
+  grid-column: 1 / -1;
+}
+
+.grid-container > :last-child {
+  grid-column: 1 / -1;
+}
+
+.grid-container > :last-child img:not(.tumblr-logo-image) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 @media (min-width: 481px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr); 
@@ -3086,6 +3101,7 @@ li {
   z-index: 1;
   margin: 15px auto;
 }
+
 
 .grid-item .verb {
   font-weight: bold;

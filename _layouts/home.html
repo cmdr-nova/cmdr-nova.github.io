@@ -84,7 +84,7 @@ creator of everything -->
       <p align="center"><img src="/img/gifs/rainbow.gif"></p>
       <p><em>... and here's where I keep all of my brain juice:</em></p>
       
-      <!-- New Posts Section -->
+      <!-- New Posts Section for home -->
        
       <div class="grid-container">
         {% assign latest_post = site.posts | sort: "date" | last %}
@@ -105,7 +105,7 @@ creator of everything -->
           {% if post_type == "posts" %}
             {% assign icon = "ph ph-article" %}
             {% assign verb = "Posted" %}
-            {% assign content = item.content | strip_newlines | truncatewords: 50 %}
+            {% assign content = item.content | strip_newlines | truncatewords: 80 %}
           {% elsif post_type == "notes" %}
             {% assign icon = "ph ph-note" %}
             {% assign verb = "Noted" %}
