@@ -1246,6 +1246,10 @@ iframe {
   padding-bottom: 10px;
 }
 
+.tumblr-post h4 {
+  margin: 5px 0;
+}
+
 .light-mode .tumblr-post {
   border-bottom: 1px solid #000;
 }

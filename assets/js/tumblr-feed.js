@@ -28,17 +28,40 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
       if (latestPost) {
-        const title = latestPost.querySelector("title").textContent;
-        const link = latestPost.querySelector("link").textContent;
-        const description = latestPost.querySelector("description").textContent;
+        const title = latestPost.querySelector("title").textContent.trim(); // Get plain text title
+        const link = latestPost.querySelector("link").textContent.trim();
+        let description = latestPost.querySelector("description").textContent.trim().replace(/\n/g, "<br>"); // Preserve paragraph returns
         const pubDate = new Date(latestPost.querySelector("pubDate").textContent).toLocaleDateString();
-
-        console.log("Latest post found:", { title, link, description, pubDate });
-
+      
+        // Extract image URL from <media:content>, <enclosure>, or <description>
+        let imageUrl = latestPost.querySelector("media\\:content, enclosure")?.getAttribute("url") || "";
+      
+        // If no image URL is found, try extracting it from the description
+        if (!imageUrl && description.includes("<img")) {
+          const tempDiv = document.createElement("div");
+          tempDiv.innerHTML = description;
+          const imgElement = tempDiv.querySelector("img");
+          imageUrl = imgElement ? imgElement.src : "";
+        }
+      
+        // Remove any <img> tags from the description to avoid duplication
+        if (description.includes("<img")) {
+          const tempDiv = document.createElement("div");
+          tempDiv.innerHTML = description;
+          tempDiv.querySelectorAll("img").forEach(img => img.remove());
+          description = tempDiv.innerHTML; // Update the description without images
+        }
+      
+        console.log("Latest post found:", { title, link, description, pubDate, imageUrl });
+      
         tumblrContent.innerHTML = `
-          <h4><a href="${link}" target="_blank">${title}</a></h4>
-          <p>${description}</p>
-          <span class="date"><i>published</i> ${pubDate}</span>
+          <div class="tumblr-post">
+            <a href="${link}" target="_blank">
+              <img src="${imageUrl}" alt="${title}" class="tumblr-post-image">
+            </a>
+            <p>${description}</p>
+            <span class="date"><i>published</i> ${pubDate}</span>
+          </div>
         `;
       } else {
         console.log("No recent posts with the tags 'reddit' and 'lemmy'.");
