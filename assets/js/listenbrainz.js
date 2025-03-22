@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const entries = xmlDoc.getElementsByTagName("entry");
   
         if (entries.length === 0) {
-          feedContainer.innerHTML = "<p>No recent listens found.</p>";
+          feedContainer.innerHTML = "<p>Waiting for Nova to listen to something ...</p>";
           return;
         }
   
