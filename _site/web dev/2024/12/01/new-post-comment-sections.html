@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="cmdr-nova's personal blog and home on the indie-web.">
 <meta property="og:image" content="https://mkultra.monster/img/nova.png">
-<meta property="og:url" content="https://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html">
+<meta property="og:url" content="http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html">
 <meta property="og:site_name" content="cmdr-nova@internet:~$" />
 <meta property="og:type" content="website" />
 
@@ -34,7 +34,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "https://mkultra.monster",
+    "url": "http://localhost:4000",
     "name": "cmdr-nova@internet:~$",
     "description": "cmdr-nova's personal blog and home on the indie-web.",
     "publisher": {
@@ -56,11 +56,23 @@ rel="stylesheet"/>
 
 <script src="/assets/js/initial-state.js"></script>
 <script src="/assets/js/mastodonShare.js"></script>
-<script src="https://unpkg.com/@phosphor-icons/web"></script>
+
 <script src="/assets/js/opennav.js"></script>
 <script src="/assets/js/dynamic-avatar.js"></script>
 <script src="/assets/js/dynamic-author.js"></script>
 <script src="/assets/js/light-mode.js"></script>
+
+<link
+rel="stylesheet"
+type="text/css"
+href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+/>
+<link
+rel="stylesheet"
+type="text/css"
+href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+/>
+
 
 <link rel="stylesheet" href="/assets/link_preview.css">
 <script src="/assets/js/link_preview.js"></script>
@@ -289,15 +301,15 @@ rel="stylesheet"/>
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username." />
 <meta property="og:description" content="I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username." />
-<link rel="canonical" href="https://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html" />
-<meta property="og:url" content="https://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html" />
+<link rel="canonical" href="http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html" />
+<meta property="og:url" content="http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html" />
 <meta property="og:site_name" content="cmdr-nova@internet:~$" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-12-01T10:28:00-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="New Post Comment Sections!" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"𐕣 C M D R ░ NOVA 𐕣"},"dateModified":"2024-12-01T10:28:00-05:00","datePublished":"2024-12-01T10:28:00-05:00","description":"I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username.","headline":"New Post Comment Sections!","mainEntityOfPage":{"@type":"WebPage","@id":"https://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html"},"url":"https://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"𐕣 C M D R ░ NOVA 𐕣"},"dateModified":"2024-12-01T10:28:00-05:00","datePublished":"2024-12-01T10:28:00-05:00","description":"I pretty much have zero time to write a fully comprehensive post, because it took an hour and a half to figure out how to do this, and now I have to get ready for work. But! Each post on the website here now has a dedicated comment section that bounces off of a proxy server at my VPS. This means, that comments must be made on-site, but I’ve included an option to allow users to enter their fedi username.","headline":"New Post Comment Sections!","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html"},"url":"http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -362,8 +374,8 @@ rel="stylesheet"/>
 <br />
 <div class="center">
   <button class="mastodon-share"></button> 
-  <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0Ahttps://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html', '_blank')">Share on Bluesky <i class="ph ph-butterfly"></i></button>
-  <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url=https://mkultra.monster/web%20dev/2024/12/01/new-post-comment-sections.html', '_blank')">Share on Reddit <i class="ph ph-reddit-logo"></i></button>
+  <button class="post-buttons" onclick="window.open('https://bsky.app/intent/compose?text=Check%20out%20this%20post%20by%20@mkultra.monster%21%20%F0%9F%A6%8B%0Ahttp://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html', '_blank')">Share on Bluesky <i class="ph ph-butterfly"></i></button>
+  <button class="post-buttons" onclick="window.open('https://reddit.com/submit?url=http://localhost:4000/web%20dev/2024/12/01/new-post-comment-sections.html', '_blank')">Share on Reddit <i class="ph ph-reddit-logo"></i></button>
   <button class="post-buttons" onclick="copyToClipboard('/web%20dev/2024/12/01/new-post-comment-sections.html')">Copy Link <i class="ph ph-copy"></i></button>
   <script src="/assets/js/clipboard.js"></script>
 </div>
