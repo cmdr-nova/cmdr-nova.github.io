@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const tumblrFeedUrl = "https://nova-ayashi.tumblr.com/rss";
   const corsProxyUrl = "https://api.allorigins.win/get?url="; // Alternative CORS proxy service
   const tumblrContent = document.getElementById("tumblr-content");
@@ -6,36 +6,37 @@ document.addEventListener("DOMContentLoaded", function() {
   console.log("Fetching Tumblr feed...");
 
   fetch(corsProxyUrl + encodeURIComponent(tumblrFeedUrl))
-    .then(response => {
+    .then((response) => {
       console.log("Received response:", response);
       return response.json();
     })
-    .then(data => {
+    .then((data) => {
       console.log("Parsing response text...");
       const parser = new window.DOMParser();
       const xmlData = parser.parseFromString(data.contents, "text/xml");
       console.log("Parsed XML data:", xmlData);
-      const items = xmlData.querySelectorAll("item");
-      let latestPost = null;
+      const items = Array.from(xmlData.querySelectorAll("item"));
 
-      items.forEach(item => {
-        const categories = Array.from(item.getElementsByTagName("category")).map(cat => cat.textContent.toLowerCase());
-        console.log("Post categories:", categories);
-        if (categories.includes("reddit") && categories.includes("lemmy")) {
-          latestPost = item;
-          return;
-        }
+      // Filter items to include only those tagged with "reddit" and "lemmy"
+      const filteredItems = items.filter((item) => {
+        const categories = Array.from(item.getElementsByTagName("category")).map((cat) =>
+          cat.textContent.toLowerCase()
+        );
+        return categories.includes("reddit") && categories.includes("lemmy");
       });
 
-      if (latestPost) {
-        const title = latestPost.querySelector("title").textContent.trim(); // Get plain text title
-        const link = latestPost.querySelector("link").textContent.trim();
-        let description = latestPost.querySelector("description").textContent.trim().replace(/\n/g, "<br>"); // Preserve paragraph returns
-        const pubDate = new Date(latestPost.querySelector("pubDate").textContent).toLocaleDateString();
-      
+      if (filteredItems.length > 0) {
+        // Select a random item from the filtered list
+        const randomItem = filteredItems[Math.floor(Math.random() * filteredItems.length)];
+
+        const title = randomItem.querySelector("title").textContent.trim(); // Get plain text title
+        const link = randomItem.querySelector("link").textContent.trim();
+        let description = randomItem.querySelector("description").textContent.trim().replace(/\n/g, "<br>"); // Preserve paragraph returns
+        const pubDate = new Date(randomItem.querySelector("pubDate").textContent).toLocaleDateString();
+
         // Extract image URL from <media:content>, <enclosure>, or <description>
-        let imageUrl = latestPost.querySelector("media\\:content, enclosure")?.getAttribute("url") || "";
-      
+        let imageUrl = randomItem.querySelector("media\\:content, enclosure")?.getAttribute("url") || "";
+
         // If no image URL is found, try extracting it from the description
         if (!imageUrl && description.includes("<img")) {
           const tempDiv = document.createElement("div");
@@ -43,17 +44,17 @@ document.addEventListener("DOMContentLoaded", function() {
           const imgElement = tempDiv.querySelector("img");
           imageUrl = imgElement ? imgElement.src : "";
         }
-      
+
         // Remove any <img> tags from the description to avoid duplication
         if (description.includes("<img")) {
           const tempDiv = document.createElement("div");
           tempDiv.innerHTML = description;
-          tempDiv.querySelectorAll("img").forEach(img => img.remove());
+          tempDiv.querySelectorAll("img").forEach((img) => img.remove());
           description = tempDiv.innerHTML; // Update the description without images
         }
-      
-        console.log("Latest post found:", { title, link, description, pubDate, imageUrl });
-      
+
+        console.log("Random post found:", { title, link, description, pubDate, imageUrl });
+
         tumblrContent.innerHTML = `
           <div class="tumblr-post">
             <a href="${link}" target="_blank">
@@ -64,11 +65,11 @@ document.addEventListener("DOMContentLoaded", function() {
           </div>
         `;
       } else {
-        console.log("No recent posts with the tags 'reddit' and 'lemmy'.");
-        tumblrContent.innerHTML = "<p>No recent posts with the tags 'reddit' and 'lemmy'.</p>";
+        console.log("No posts found with the tags 'reddit' and 'lemmy'.");
+        tumblrContent.innerHTML = "<p>No posts found with the tags 'reddit' and 'lemmy'.</p>";
       }
     })
-    .catch(error => {
+    .catch((error) => {
       console.error("Error fetching the Tumblr feed:", error);
       tumblrContent.innerHTML = "<p>Error fetching Tumblr feed</p>";
     });
