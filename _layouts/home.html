@@ -113,11 +113,11 @@ creator of everything -->
           {% elsif post_type == "logs" %}
             {% assign icon = "ph ph-notebook" %}
             {% assign verb = "Logged" %}
-            {% assign content = item.content | truncatewords: 75 %}
+            {% assign content = item.content %}
           {% elsif post_type == "texts" %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Texted" %}
-            {% assign content = item.content | truncatewords: 100 %}
+            {% assign content = item.content %}
             {% assign item_class = "akkoma-item" %}
           {% elsif post_type == "skeets" %}
             {% assign icon = "ph ph-butterfly" %}
@@ -243,7 +243,7 @@ creator of everything -->
 
   <!-- Random Image Section -->
 <div class="item grid-item" id="random-image">
-    <h3 class="verb"><i class="ph ph-reddit-logo"></i> Reddit/Lemmy Ripper</h3>
+    <h3 class="verb"><i class="ph ph-reddit-logo"></i> Rando//Reddit-Lemmy</h3>
     <div id="random-image-content">
       <!-- The random image will be dynamically loaded here -->
       <script src="/assets/js/redd-lemm.js"></script>
