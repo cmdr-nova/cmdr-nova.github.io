@@ -2979,6 +2979,15 @@
     "date": "2025-03-20 13:42:19 -0400"
   },
   {
+    "id": "2025-03-24-enter-the-matrix",
+    "url": "/logs/2025/03/24/enter-the-matrix.html",
+    "content": "Did some updates to the site this evening.\n\n\n  1: Removed the feed that shows random posts from my Tumblr, since it looks janky anyway, and replaced it with a feed that shows random photo posts from my own personally specified Reddit and Lemmy communities.\n  2: Added a graphic of a hand spinning that does something neato when you click it.\n\n\n",
+    "type": "log",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-24 00:57:31 -0400"
+  },
+  {
     "id": "0101002700",
     "url": "/toots/0101002700/0101002700.html",
     "content": "Welp it’s another year\n",
@@ -67275,6 +67284,15 @@
     "date": "Sun, 23 Mar 2025 22:38:00 +0000"
   },
   {
+    "id": "3ll4eyuvmy22f",
+    "url": "/skeets/3ll4eyuvmy22f/3ll4eyuvmy22f.html",
+    "content": "Ubisoft gave me AC Shadows for 55 bucks instead of the 70, you bet your ass I took that offer\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Mon, 24 Mar 2025 08:53:00 +0000"
+  },
+  {
     "id": "2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "url": "/texts/2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "content": "I posted this last night, but Jekyll messed up the date, and my RSS script that posts to my socials for me misfired, so: What's RSS? Why should you use it?https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss\n",
@@ -67775,6 +67793,13 @@
     "id": "2025-03-24-15d77340-8513-4e0b-933f-d33636a087d2",
     "url": "/texts/2025-03-24-15d77340-8513-4e0b-933f-d33636a087d2",
     "content": "Accidentally deleting a bunch of files on my site and panicking, gotta remember to empty my trash so that there aren't thousands of files in there making everything indistinguishable lol\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
+    "id": "2025-03-24-73f9cfbe-0ccd-4976-a961-433cb2f165c2",
+    "url": "/texts/2025-03-24-73f9cfbe-0ccd-4976-a961-433cb2f165c2",
+    "content": "why would I reactivate Ubisoft+ for AC Shadows when I can just buy it for 3 months worth of Ubisoft+ lol\n",
     "type": "text",
     "title": "Texted"
   },
