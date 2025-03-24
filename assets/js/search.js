@@ -101,6 +101,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 var skeetFilename = item.id.replace('.md', '');
                 viewLink.href = '/skeets/' + encodeURIComponent(skeetFilename) + '/';
                 console.log('Skeet view link:', viewLink.href); // Debugging log
+              } else if (item.type === 'text') {
+                var textFilename = item.id; // Use the id directly, as it now matches the filename
+                viewLink.href = '/texts/' + textFilename; // Exclude .html extension
+                console.log('Text view link:', viewLink.href); // Debugging log
               } else {
                 viewLink.href = 'https://mkultra.monster' + item.url;
               }

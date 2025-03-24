@@ -18,15 +18,17 @@ def process_markdown_files(directory, type, index)
     metadata = YAML.load(front_matter)
     date = File.basename(file, '.md').split('-')[0..2].join('/')
     post_name = File.basename(file, '.md').split('-', 4).last
-    category = metadata['categories'] ? metadata['categories'].first.downcase.gsub(' ', '%20') : directory.sub('_', '') # Use category from metadata or directory name
+    category = metadata['categories'] ? metadata['categories'].first.downcase.gsub(' ', '%20') : directory.sub('_', '')
     html_body = Kramdown::Document.new(body).to_html
     content_text = extract_text(html_body)
+
     index_entry = {
-      id: File.basename(file, '.md'),
-      url: "/#{category}/#{date}/#{post_name}.html",
+      id: type == 'text' ? File.basename(file, '.md') : File.basename(file, '.md'), # For "texts", use only the filename
+      url: type == 'text' ? "/texts/#{File.basename(file, '.md')}" : "/#{category}/#{date}/#{post_name}.html", # Exclude .html for "texts"
       content: content_text,
       type: type
     }
+
     if type == 'note' || type == 'log' || type == 'toot' || type == 'skeet'
       index_entry[:avatar] = metadata['avatar']
       index_entry[:author] = metadata['author']
@@ -34,6 +36,7 @@ def process_markdown_files(directory, type, index)
     else
       index_entry[:title] = metadata['title'] || 'No title'
     end
+
     index << index_entry
   end
 end
@@ -52,6 +55,9 @@ process_markdown_files('_toots', 'toot', index)
 
 # Process skeets
 process_markdown_files('_skeets', 'skeet', index)
+
+# Process texts
+process_markdown_files('_texts', 'text', index) # Added line for "texts" content type
 
 # Process pages
 Dir.glob("*.html").each do |file|
