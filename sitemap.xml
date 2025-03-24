@@ -60571,6 +60571,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/texts/2025-03-24-15d77340-8513-4e0b-933f-d33636a087d2/index.html</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/python/2024/11/22/make-some-noise-on-bluesky.html</loc>
     <lastmod>2025-03-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -66272,6 +66278,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/pages/texts/page4/index.html</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/pages/texts/page8/index.html</loc>
     <lastmod>2025-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -109130,6 +109142,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_texts/2025-03-23-f133c3a9-0c15-4b66-9f1a-085d611de6da.md</loc>
+    <lastmod>2025-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_texts/2025-03-24-15d77340-8513-4e0b-933f-d33636a087d2.md</loc>
     <lastmod>2025-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
