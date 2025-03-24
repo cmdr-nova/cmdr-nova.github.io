@@ -40,3 +40,4 @@ update_site.sh.old
 feed_converter.rb
 reddit_feed_converter.rb
 labyrinth_converter.rb
+markov-nova.py

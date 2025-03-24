@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US" />
 <meta property="og:description" content="cmdr-nova's personal blog and home on the indie-web.">
 <meta property="og:image" content="https://mkultra.monster/img/nova.png">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:url" content="https://mkultra.monster/">
 <meta property="og:site_name" content="cmdr-nova@internet:~$" />
 <meta property="og:type" content="website" />
 
@@ -34,7 +34,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "http://localhost:4000",
+    "url": "https://mkultra.monster",
     "name": "cmdr-nova@internet:~$",
     "description": "cmdr-nova's personal blog and home on the indie-web.",
     "publisher": {
@@ -268,20 +268,19 @@ href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
 <script src="/assets/js/random-book.js"></script>
 -->
 
-<!-- Latest Image Section -->
+<!-- Latest Image Section 
 <div class="tumblr-title">Procedural Python</div>
 <div id="latest-pygen" class="pygen-section">
 </div>
 <script src="/assets/js/latest-image.js"></script>
 
 </div>
- <!-- End image Section -->
+-->
 
-<!-- Random Lemmy Posts -->
-<div class="repo-title">RANDO LEMMY</div>
-<p class="small">Enjoy a random <a href="https://join-lemmy.org/" target="_blank">Lemmy</a> post.</p>
-<div id="random-post" class="random-post-container"></div>
-<script src="/assets/js/randomPost.js"></script>
+ <img src="/img/haxpunks_logo.png" width="240" height="100%">
+<div id="random-image-container"></div>
+<script src="/assets/js/randomImage.js"></script>
+</div>
 
 <br />
 
@@ -597,7 +596,7 @@ creator of everything -->
               <br /><br />
               
               <div class="content">
-                <p>Accidentally deleting a bunch of files on my site and panicking, gotta remember to empty my trash so that there aren't thousands of files in there making everything indistinguishable lol</p>
+                <p>Finished the finale of Sevarance season 2, and hope we don't have to wait 3 years to see what happens next lol</p>
 
               </div>
               <span class="date"><i>published</i> March 23, 2025</span>
@@ -606,7 +605,7 @@ creator of everything -->
                 
                 
                   <span class="synd-sizer">
-                    <a href="https://labyrinth.zone/objects/d4dd40cd-c5fd-44de-80aa-f670df9543ef" target="_blank">Akkoma</a>
+                    <a href="https://labyrinth.zone/objects/40733285-58ed-42be-ad83-d5d1dc22a35c" target="_blank">Akkoma</a>
                   </span>
                 
                 
@@ -627,8 +626,8 @@ creator of everything -->
               
               
               <div class="content_linker">
-                <a href="/texts/2025-03-24-15d77340-8513-4e0b-933f-d33636a087d2/" class="small-link">view</a> | 
-                <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('/texts/2025-03-24-15d77340-8513-4e0b-933f-d33636a087d2/')">share</a>
+                <a href="/texts/2025-03-24-76fd8b6e-e951-4e65-8543-81a335b40f49/" class="small-link">view</a> | 
+                <a href="javascript:void(0);" class="small-link" onclick="copyToClipboard('/texts/2025-03-24-76fd8b6e-e951-4e65-8543-81a335b40f49/')">share</a>
               </div>
               <script src="/assets/js/clipboard.js"></script>
             
@@ -702,19 +701,45 @@ creator of everything -->
         
           </div>
         
-      
-<!-- New Tumblr Feed Section -->
+
+<!-- New Markov-Generated Text Section -->
+<div class="item grid-item" id="markov-generated">
+  <h3 class="verb"><i class="ph ph-robot"></i> Markov Nova</h3>
+  <div id="markov-content">
+    <!-- The Markov-generated text will be dynamically loaded here -->
+    <script src="/assets/js/markov-nova.js"></script>
+  </div>
+</div>
+
+<!-- Galaxy Gif Section -->
+<a href="/matrix.html" class="item grid-item galaxy-gif" id="galaxy-gif">
+</a>
+
+  <!-- Random Image Section -->
+<div class="item grid-item" id="random-image">
+    <h3 class="verb"><i class="ph ph-reddit-logo"></i> Reddit/Lemmy Ripper</h3>
+    <div id="random-image-content">
+      <!-- The random image will be dynamically loaded here -->
+      <script src="/assets/js/redd-lemm.js"></script>
+    </div>
+  </div>
+
+<!-- New Tumblr Feed Section 
 <div class="item grid-item" id="tumblr-feed">
   <h3>MKULTRA Bot via Tumblr</h3>
   <div id="tumblr-content"></div>
   <div id="tumblr-logo">
     <img src="/img/tumblr_logo.png" alt="Tumblr Logo" class="tumblr-logo-image">
+    <script src="/assets/js/tumblr-feed.js"></script>
   </div>
 </div>
-
+-->
 </div>
 
-<script src="/assets/js/tumblr-feed.js"></script>
+
+
+
+
 <br />
 
   <!-- Guestbook is disabled for now
@@ -881,11 +906,6 @@ creator of everything -->
       </p>
 
       <br />
-
-<img src="/img/haxpunks_logo.png" width="240" height="100%">
-<div id="random-image-container"></div>
-<script src="/assets/js/randomImage.js"></script>
-</div>
 
     </div>
 

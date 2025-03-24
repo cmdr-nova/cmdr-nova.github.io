@@ -3055,20 +3055,15 @@ li {
   grid-column: 1 / -1;
 }
 
-.grid-container > :last-child img:not(.tumblr-logo-image) {
+.grid-container > :last-child img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   border-radius: 10px;
 }
 
 @media (min-width: 481px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr); 
-  }
-
-  .grid-item img {
-    max-height: 200px; 
   }
 }
 
@@ -3426,4 +3421,68 @@ li {
 
 .light-mode .brainz {
   filter: drop-shadow(5px 5px 5px #e2e2e2); 
+}
+
+/* Markov Nova Style */
+
+#markov-generated {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to the top */
+  padding: 15px;
+  background-color: #202020; /* Adjust background color if needed */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+}
+
+#markov-generated h3 {
+  margin-bottom: 10px;
+}
+
+#markov-content {
+  font-size: 1rem;
+  color: #b5c0c2; /* Adjust text color */
+  line-height: 1.5;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+/* Redd-Lemm Section */
+
+#random-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+  background-color: #202020;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  font-size: 0.9em;
+}
+
+#random-image h3 {
+  margin-bottom: 10px;
+}
+
+#random-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#random-image p {
+  font-size: 0.9em;
+  color: #b5c0c2;
+}
+
+.galaxy-gif {
+  background-image: url('/img/gifs/hand-space.gif');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  height: 240px; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
 }

@@ -67772,6 +67772,13 @@
     "title": "Texted"
   },
   {
+    "id": "2025-03-24-76fd8b6e-e951-4e65-8543-81a335b40f49",
+    "url": "/texts/2025-03-24-76fd8b6e-e951-4e65-8543-81a335b40f49",
+    "content": "Finished the finale of Sevarance season 2, and hope we don't have to wait 3 years to see what happens next lol\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
     "id": "doom",
     "title": "Play Doom",
     "url": "/doom.html",
@@ -67790,6 +67797,13 @@
     "title": "No title",
     "url": "/index.html",
     "content": "---\n# Feel free to add content and custom Front Matter to this file.\n# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults\n\nlayout: home\n---",
+    "type": "page"
+  },
+  {
+    "id": "matrix",
+    "title": "Knock, knock, Neo ...",
+    "url": "/matrix.html",
+    "content": "\n            \n                \n                    Knock, knock, Neo ...\n                    Follow the white rabbit.\n                \n                \n                    \n                        \n                            function followTheWhiteRabbit() {\n                                return \"Wake up, Neo ...\";\n                            }\n                        \n                    \n                \n            \n        \n    ",
     "type": "page"
   },
   {
