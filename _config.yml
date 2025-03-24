@@ -206,55 +206,55 @@ tag_categories:
   - tv
   uncategorized:
   - ''
-  - mac
-  - coffee
-  - firefox
-  - avowed
-  - eora
-  - oof
-  - note
-  - labyrinth-zone
-  - syndication
-  - patreon
-  - pandora
-  - grave
-  - kingdomcome2
-  - share-links
-  - blog
-  - app
-  - bots
-  - neo-machina
-  - night
-  - littledudes
-  - world-of-warcraft
-  - label
-  - mutuals
-  - life
-  - scrapers
-  - mozilla
-  - rss
-  - baby
-  - scams
-  - amongus
-  - indexing
-  - css
   - thinking
+  - nuggets
+  - baby
+  - grave
+  - life
+  - amongus
+  - mac
+  - avowed
+  - label
+  - cyberpunk
+  - cats
+  - app
   - log
   - java
-  - second
-  - post
   - sleep
-  - international-womens-day
-  - bread
-  - cats
-  - update
-  - sad
-  - cyberpunk
+  - note
   - overhaul
+  - coffee
+  - labyrinth-zone
   - pillars-of-eternity
-  - guidwars2
-  - nuggets
+  - littledudes
+  - syndication
+  - css
+  - post
+  - bread
+  - eora
+  - patreon
+  - night
+  - indexing
   - posting
+  - kingdomcome2
+  - scrapers
+  - sad
+  - bots
+  - mozilla
+  - second
+  - rss
+  - pandora
+  - share-links
+  - world-of-warcraft
+  - guidwars2
+  - oof
+  - mutuals
+  - firefox
+  - blog
+  - international-womens-day
+  - scams
+  - update
+  - neo-machina
   writing:
   - fiction
 theme: minima
