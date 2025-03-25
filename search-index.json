@@ -67354,6 +67354,15 @@
     "date": "Tue, 25 Mar 2025 01:32:00 +0000"
   },
   {
+    "id": "3ll6mdcml2c2r",
+    "url": "/skeets/3ll6mdcml2c2r/3ll6mdcml2c2r.html",
+    "content": "I made a PHPBB forum, like the internet of old\n\nforum.mkultra.monster/index.php\nhttps://forum.mkultra.monster/index.php\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Tue, 25 Mar 2025 06:10:00 +0000"
+  },
+  {
     "id": "2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "url": "/texts/2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "content": "I posted this last night, but Jekyll messed up the date, and my RSS script that posts to my socials for me misfired, so: What's RSS? Why should you use it?https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss\n",
@@ -67917,6 +67926,13 @@
     "id": "2025-03-25-2131c345-1e8d-4282-ad97-48f87d212023",
     "url": "/texts/2025-03-25-2131c345-1e8d-4282-ad97-48f87d212023",
     "content": "I kind of want to setup my own PHPBB forum, and it looks like that could be done on a 5 dollar VPS. Not because I think anyone will actually use it, but because there should be more forums on the internet lol\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
+    "id": "2025-03-25-3bb7313f-afa9-476e-b1df-1fd7f882230b",
+    "url": "/texts/2025-03-25-3bb7313f-afa9-476e-b1df-1fd7f882230b",
+    "content": "Okay, there are things I want to change and add still, but I think my forum is good enough to visit now lolhttps://forum.mkultra.monster\n",
     "type": "text",
     "title": "Texted"
   },
