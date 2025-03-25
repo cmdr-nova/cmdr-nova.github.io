@@ -9,13 +9,13 @@ tags: [thoughts, web, community]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114220819726632761
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-none: no_syndication_available 
+none: 
 ---
 I was reading this article from [a website] that will not be named, since they used and credited Midjourney for images in their article, and we don't do that. As people who care about artists and the work they do, we don't generate sludge, and then also credit the theft machines that are making sludge for us, okay? But anyway, the article was about how we need to *save* discussion forums, and that Reddit and Discord are killing them (a conversation that feels ten years too late). But, *is it* too late to talk about this?
 
