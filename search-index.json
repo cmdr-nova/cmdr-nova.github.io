@@ -2527,6 +2527,13 @@
     "title": "Is It Too Late To Save Discussion Forums?"
   },
   {
+    "id": "2025-03-25-speaking-of-forums",
+    "url": "/webdev/2025/03/25/speaking-of-forums.html",
+    "content": "Earlier last night, I wrote about how I don’t know, or don’t think that discussion forums can be saved. And, I thought about it for a while. How do I know something can’t be saved, if I haven’t tried to fix the problem myself? So, I launched my own old-school PHPBB forum!\n\nBasically, at MKULTRA Board, I copy/pasted a huge part of the old anime forum I used to be part of back in 1999-2001 (somewhere in that era), and then added my own things.\n\nI did this, because I’ve missed it greatly. So much so, that, years back, I contacted the original owner and asked if he’d be willing to part with the database and software, so that it could be resurrected. Unfortunately, if I recall, he wasn’t too interested in doing that, or felt like it would be too much of a hassle, or cost too greatly.\n\nI don’t know about that. I’m running the new forum on a 16 dollar VPS, and it’s pretty smooth!\n\nNow, obviously, if, for some reason, it attracts thousands of people, then yes, it would require much more in hosting.\n\nBut, here’s something. Will you register and begin the discussion?\n\n",
+    "type": "post",
+    "title": "Speaking Of Forums"
+  },
+  {
     "id": "2024-09-28-amogus",
     "url": "/notes/2024/09/28/amogus.html",
     "content": "AMOGUS\n",
