@@ -10,7 +10,40 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Wed, 26 Mar 2025 19:00:12 -0400</pubDate>
+    <pubDate>Wed, 26 Mar 2025 19:30:01 -0400</pubDate>
+    <item>
+      <title>A Summary Of The Past Three Days</title>
+      <link>https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days.html</link>
+      <description>&lt;p&gt;I’m at this point again, where, I’m having trouble thinking of things I want to write about. Not because there’s &lt;em&gt;nothing&lt;/em&gt; to write about, but more-so that everything I &lt;em&gt;could&lt;/em&gt; write about is mostly negative. Negative, like me visiting the forum I’ve endorsed over and over again (Melonland), and speaking out against the pro-AI users and their bad ideas, and then subsequently being moderated by &lt;em&gt;Melooon themselves&lt;/em&gt;, is … discouraging, to say the least.&lt;/p&gt;
+
+&lt;p&gt;I’ve since, unfortunately, scrubbed all mention of Melonland from this website. Not going to support someone (and their projects) who thinks it’s bad form to say, “These people should be mocked and shunned.”&lt;/p&gt;
+
+&lt;p&gt;And then I go on Bluesky, and it’s just a continual waterfall of “Laurelai Bailey this, Laurelai Bailey that,” as it goes, because she keeps gaining influence on every new platform that crops up, and apparently there’s nothing anyone can do about it. Due-in-part to the fact that the newest generation of trans people &lt;em&gt;have no idea who she is&lt;/em&gt;, or any idea at all about the numerous crimes she’s committed, starting from sexual assault, years-long efforts in gaslighting and manipulating people, all the way up to divulging information to the FBI, and working hand-in-hand with admitted neo nazis, and sexual predators.&lt;/p&gt;
+
+&lt;p&gt;But, instead of deep-diving into either of these topics, I just want to summarize the last three days, before I’m shoved back into offline work, and my time is taken up by all of that, plus sleeping and being exhausted for the following next three days.&lt;/p&gt;
+
+&lt;p&gt;So, as you know, I’ve launched a forum over at &lt;a href=&quot;https://forum.mkultra.monster&quot; target=&quot;_blank&quot;&gt;forums.mkultra.monster&lt;/a&gt;. And there are many potential topics to engage in. I’ll be subsequently adding different things to the forum, as I write, and do &lt;em&gt;stuff&lt;/em&gt;, as a way to document and archive &lt;em&gt;what&lt;/em&gt; I’m doing, and also to encourage users to join, and start up a conversation.&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;may&lt;/em&gt; be the hard part, but I’m mostly happy that I finally decided to &lt;em&gt;just make the forum&lt;/em&gt; I’ve been wanting to make, whether people will use it or not.&lt;/p&gt;
+
+&lt;p&gt;I also took a whole bunch of painstaking hours, and added custom thumbnail images &lt;em&gt;to every single&lt;/em&gt; forum, so that each has their own little dash of flavor.&lt;/p&gt;
+
+&lt;p&gt;The only issue I’m working through now, is that e-mail authentication and sending for accounts, &lt;em&gt;does not work at all&lt;/em&gt;. I’ve tried using SendGrid’s SMTP credentials, and even Google’s SMTP credentials.&lt;/p&gt;
+
+&lt;p&gt;So far, this has resulted in … &lt;em&gt;Nothing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, you don’t &lt;em&gt;need&lt;/em&gt; e-mail authentication to sign up, but, you &lt;em&gt;will&lt;/em&gt; need to remember your password, since the only way to recover it is via e-mail. Which currently does not work.&lt;/p&gt;
+
+&lt;p&gt;I’ll be investigating via the official PHPBB forums to figure out why this is the one pain-point of putting together a forum.&lt;/p&gt;
+
+&lt;p&gt;Otherwise … that’s basically it! That’s how I’ve spent the past three days!&lt;/p&gt;
+
+&lt;p&gt;And, continual negative stuff aside, I hope that I’m able to continue building from here, in my quest to bring back and isolate parts of nineties internet culture that were thought to be dead long ago.&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 26 Mar 2025 15:10:24 -0400</pubDate>
+      <dc:date>2025-03-26T15:10:24-04:00</dc:date>
+    </item>
     <item>
       <title>Speaking Of Forums</title>
       <link>https://mkultra.monster/webdev/2025/03/25/speaking-of-forums.html</link>
@@ -15986,6 +16019,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-03-26T19:00:12-04:00</dc:date>
+    <dc:date>2025-03-26T19:30:01-04:00</dc:date>
   </channel>
 </rss>
