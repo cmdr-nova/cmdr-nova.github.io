@@ -67370,6 +67370,15 @@
     "date": "Tue, 25 Mar 2025 06:10:00 +0000"
   },
   {
+    "id": "3llalbvxhos2n",
+    "url": "/skeets/3llalbvxhos2n/3llalbvxhos2n.html",
+    "content": "Made a bunch of new updates to my new PHPBB forum, including a cool background image, Discord implementation, and some more things to look at!\n\nforum.mkultra.monster\nhttps://forum.mkultra.monster\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Wed, 26 Mar 2025 00:56:00 +0000"
+  },
+  {
     "id": "2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "url": "/texts/2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "content": "I posted this last night, but Jekyll messed up the date, and my RSS script that posts to my socials for me misfired, so: What's RSS? Why should you use it?https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss\n",
@@ -68038,6 +68047,13 @@
     "id": "2025-03-25-f7842835-8c18-4228-b6fe-93b892e6edd0",
     "url": "/texts/2025-03-25-f7842835-8c18-4228-b6fe-93b892e6edd0",
     "content": "Reading someone’s Reddit thread about Second Life and where all the community has gone. How there’s essentially the same amount of people in SL as there’s always been, but Discord is responsible for ripping social interaction out of SL lol fuckin Discord\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
+    "id": "2025-03-26-bb5455be-65e3-4d5c-b194-91d66843a628",
+    "url": "/texts/2025-03-26-bb5455be-65e3-4d5c-b194-91d66843a628",
+    "content": "lol alright, now my phpbb forum has Discord integration to send notification of events and topic creation from any forum to a channelWild that people are still developing modern and kinda useful plugins for this software, and to entice people who would otherwise just hang out in Disocrd at all times\n",
     "type": "text",
     "title": "Texted"
   },
