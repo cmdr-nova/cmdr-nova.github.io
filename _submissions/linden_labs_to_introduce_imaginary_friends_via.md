@@ -5,6 +5,7 @@ date: 2024-12-31T13:46:06+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/secondlife/comments/1hqezq5/linden_labs_to_introduce_imaginary_friends_via/
 ---
 

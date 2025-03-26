@@ -5,6 +5,7 @@ date: 2024-11-03T15:51:04+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1gipx1y/website_updates_more/
 ---
 

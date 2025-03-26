@@ -5,6 +5,7 @@ date: 2023-07-30T23:59:45+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/kurtisconner/comments/15e0mcu/f_o_r_t_n_i_t_e/
 ---
 

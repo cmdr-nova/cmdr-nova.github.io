@@ -5,6 +5,7 @@ date: 2024-04-17T19:29:09+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1c6isl3/new_at_the_revosa_second_life_store/
 ---
 

@@ -5,6 +5,7 @@ date: 2024-07-03T20:17:33+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/UsenetInvites/comments/1duo476/w_ds_invite/
 ---
 

@@ -5,6 +5,7 @@ date: 2024-12-12T04:01:07+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/secondlife/comments/1hccnak/whats_everyone_doing/
 ---
 

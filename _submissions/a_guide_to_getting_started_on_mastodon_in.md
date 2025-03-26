@@ -5,6 +5,7 @@ date: 2025-01-08T23:12:15+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/Mastodon/comments/1hwxylu/a_guide_to_getting_started_on_mastodon_in/
 ---
 

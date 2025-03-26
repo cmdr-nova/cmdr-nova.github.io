@@ -5,6 +5,7 @@ date: 2024-09-09T18:00:12+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1fcvvjq/get_your_own_custom_linkgarden_today_no/
 ---
 

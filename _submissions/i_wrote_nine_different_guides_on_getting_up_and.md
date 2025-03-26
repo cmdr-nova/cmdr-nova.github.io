@@ -5,6 +5,7 @@ date: 2025-02-02T02:18:50+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/neocities/comments/1ifmv5q/i_wrote_nine_different_guides_on_getting_up_and/
 ---
 

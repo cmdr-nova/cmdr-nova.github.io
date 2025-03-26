@@ -5,6 +5,7 @@ date: 2024-03-26T15:48:56+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/pop_os/comments/1bob5ie/arctis_5_headset_no_mic_functionality/
 ---
 

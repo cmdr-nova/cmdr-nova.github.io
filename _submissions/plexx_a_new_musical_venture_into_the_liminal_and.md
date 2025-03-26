@@ -5,6 +5,7 @@ date: 2024-09-07T14:13:10+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1fb7up4/plexx_a_new_musical_venture_into_the_liminal_and/
 ---
 

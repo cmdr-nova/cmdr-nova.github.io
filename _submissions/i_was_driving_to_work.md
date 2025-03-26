@@ -5,6 +5,7 @@ date: 2024-10-26T17:25:56+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/Vent/comments/1gcq6pv/i_was_driving_to_work/
 ---
 

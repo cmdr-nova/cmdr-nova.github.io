@@ -5,6 +5,7 @@ date: 2025-02-27T06:40:34+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/kingdomcome/comments/1iz9nzz/kcd2_i_made_a_mistake_and_someone_died_for_it/
 ---
 

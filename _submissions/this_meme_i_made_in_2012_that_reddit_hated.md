@@ -5,6 +5,7 @@ date: 2024-12-06T22:08:56+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1h8d652/this_meme_i_made_in_2012_that_reddit_hated/
 ---
 

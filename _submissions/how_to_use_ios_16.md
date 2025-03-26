@@ -5,6 +5,7 @@ date: 2022-10-11T16:58:17+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/ZeroTwo/comments/y1e6yw/how_to_use_ios_16/
 ---
 

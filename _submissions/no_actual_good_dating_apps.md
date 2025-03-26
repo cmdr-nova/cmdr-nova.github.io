@@ -5,6 +5,7 @@ date: 2023-06-06T21:45:29+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/DatingApps/comments/142uamg/no_actual_good_dating_apps/
 ---
 

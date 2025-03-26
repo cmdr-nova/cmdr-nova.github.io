@@ -5,6 +5,7 @@ date: 2024-10-26T02:24:05+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/unixporn/comments/1gcb1g5/gnome_my_system76_pc_moved_away_from_pop_os_to/
 ---
 

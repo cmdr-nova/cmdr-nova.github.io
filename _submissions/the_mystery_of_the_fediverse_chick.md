@@ -5,6 +5,7 @@ date: 2025-03-19T08:43:59+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1jesh3q/the_mystery_of_the_fediverse_chick/
 ---
 

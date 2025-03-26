@@ -5,6 +5,7 @@ date: 2025-03-09T00:26:01+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
 collection: submissions
+tags: [reddit]
 reddit: https://www.reddit.com/r/u_cmdr_nova69/comments/1j6v7ki/international_womens_day_my_favorite_female/
 ---
 
