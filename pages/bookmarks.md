@@ -4,14 +4,6 @@ title:  Places Worth Visiting
 permalink: /pages/bookmarks/
 ---
 
-- <a href="https://forum.melonland.net" target="_blank">https://forum.melonland.net</a>
-
-```
-if you're looking to get involved in a kind of old-school forum that's actually active, and is simultaneously all about the indie web, melonland's got it.
-
-they are closed on mondays.
-```
-
 - <a href="https://xn--sr8hvo.ws" target="_blank">https://xn--sr8hvo.ws</a>
 
 ```

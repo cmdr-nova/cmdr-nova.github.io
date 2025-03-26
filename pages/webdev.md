@@ -67,12 +67,6 @@ You can also use Obsidian to create and host a website, but this isn't something
 
 Strawberry Starter is a simple tool that you can use on the command line to write, and upload to Neocities, with *zero knowledge of HTML required.*
 
-**WEBSITES**
-
-> > > <a href="https://forum.melonland.net/" target="_blank">melonland forums</a>
-
-I've linked to this website / forum before, but it *really is* useful. You can find ideas, cool retro elements to use on your site, and most importantly, an entire community to help you along your way.
-
 **SUPPORT**
 
 If these guides were helpful to you at all, please consider <a href="https://www.patreon.com/c/cmdr_nova" target="_blank">subscribing via my Patreon</a>, or <a href="https://liberapay.com/cmdr-nova/" target="_blank">via my Liberapay</a>. ++
