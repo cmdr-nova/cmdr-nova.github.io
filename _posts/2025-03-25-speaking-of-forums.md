@@ -15,6 +15,7 @@ bluesky:
 wafrn: 
 pillowfort: 
 tumblr: 
+forum: https://forum.mkultra.monster/viewtopic.php?t=8
 none: 
 ---
 Earlier last night, I wrote about how I don't know, or don't think that discussion forums can be saved. And, I thought about it for a while. How do I know something can't be saved, if I haven't tried to fix the problem myself? So, I launched my own old-school PHPBB forum!
