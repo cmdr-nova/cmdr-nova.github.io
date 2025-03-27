@@ -3488,3 +3488,34 @@ li {
   border-radius: 10px; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
 }
+
+/* PHPBB Sidebar */
+
+.sidebar {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
