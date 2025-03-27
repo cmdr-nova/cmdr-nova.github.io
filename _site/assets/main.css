@@ -3492,11 +3492,11 @@ li {
 /* PHPBB Sidebar */
 
 .terminal-style {
-  background-color: #1b1b1b; /* Black background */
-  color: rgb(0, 183, 255); /* Green text */
-  font-family: "Courier New", Courier, monospace; /* Monospace font */
+  background-color: #1b1b1b; 
+  color: rgb(0, 183, 255); 
+  font-family: "Courier New", Courier, monospace; 
   padding: 15px;
-  border: 2px solid rgb(10, 10, 10); /* Green border */
+  border: 2px solid rgb(10, 10, 10); 
   border-radius: 5px;
 }
 

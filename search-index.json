@@ -3009,6 +3009,15 @@
     "date": "2025-03-24 00:57:31 -0400"
   },
   {
+    "id": "2025-03-27-mkultra-ultra-board",
+    "url": "/logs/2025/03/27/mkultra-ultra-board.html",
+    "content": "Newly added to the site just now: A sidebar element that displays the five most recent posted topics on the forum, displayed on my main website! Woot!\n\n",
+    "type": "log",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "2025-03-27 05:49:18 -0400"
+  },
+  {
     "id": "0101002700",
     "url": "/toots/0101002700/0101002700.html",
     "content": "Welp it’s another year\n",
@@ -67503,6 +67512,15 @@
     "date": "Thu, 27 Mar 2025 07:13:00 +0000"
   },
   {
+    "id": "3lledyqdsts2l",
+    "url": "/skeets/3lledyqdsts2l/3lledyqdsts2l.html",
+    "content": "In more concerning news, the Vivaldi browser team has partnered with Proton, the company with the CEO that publicly embarrassed himself by having bigoted politics\n",
+    "type": "skeet",
+    "avatar": "/img/avatar/daemon.jpeg",
+    "author": "⸸ commander ░ nova ⸸ :~$",
+    "date": "Thu, 27 Mar 2025 12:57:00 +0000"
+  },
+  {
     "id": "2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "url": "/texts/2025-02-25-0b67e17a-09b0-4f36-8f71-ad3e5a3f921e",
     "content": "I posted this last night, but Jekyll messed up the date, and my RSS script that posts to my socials for me misfired, so: What's RSS? Why should you use it?https://mkultra.monster/tech/2025/02/24/make-the-move-to-rss\n",
@@ -68336,6 +68354,13 @@
     "title": "Texted"
   },
   {
+    "id": "2025-03-27-4b54db92-85ca-4327-9b16-5e0518c49cd0",
+    "url": "/texts/2025-03-27-4b54db92-85ca-4327-9b16-5e0518c49cd0",
+    "content": "I get home from work, pull out a can of my cat's food and I ask \"do you want your food?\" and no lie, he goes \"yeah!\"\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
     "id": "2025-03-27-543c566d-ec08-4ea3-999f-284c20880757",
     "url": "/texts/2025-03-27-543c566d-ec08-4ea3-999f-284c20880757",
     "content": "Just caught a ChatGPT scraper viewing my discussion forum in realtime lol frick off sam altman!\n",
@@ -68353,6 +68378,13 @@
     "id": "2025-03-27-a8e59977-cb24-4638-8549-1c3a59e15a2a",
     "url": "/texts/2025-03-27-a8e59977-cb24-4638-8549-1c3a59e15a2a",
     "content": "Oh fricken Jesus Christ, Vivaldi is partnering with ProtonTime to scrub another browser from my system goddangit Bobby\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
+    "id": "2025-03-27-aa782413-33ed-4aff-986c-d1111eafb21e",
+    "url": "/texts/2025-03-27-aa782413-33ed-4aff-986c-d1111eafb21e",
+    "content": "I was going to write about vivaldi partnering with proton, and why its founder endorsing the current US administration is bad news for both proton and now also vivaldi, but honestly?i'm exhausted by this crap\n",
     "type": "text",
     "title": "Texted"
   },
