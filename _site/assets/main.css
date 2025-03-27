@@ -3518,6 +3518,11 @@ li {
   padding-bottom: 5px;
 }
 
+.light-mode .terminal-style h3 {
+  color: #000; 
+  border-bottom: 1px solid #000; 
+}
+
 /* List Styling */
 .terminal-style ul {
   list-style-type: none; 
@@ -3535,7 +3540,15 @@ li {
   transition: color 0.3s ease;
 }
 
+.light-mode .terminal-style ul li a {
+  color: #000; 
+}
+
 .terminal-style ul li a:hover {
   color: rgb(108, 71, 150); 
   text-decoration: underline;
+}
+
+.light-mode .terminal-style ul li a:hover {
+  color: #000; 
 }
