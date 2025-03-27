@@ -191,6 +191,11 @@ creator of everything -->
                 <a href="{{ item.reddit }}" target="_blank">Reddit</a>
               </span>
               {% endif %}
+              {% if item.forum %}
+              <span class="synd-sizer">
+                <a href="{{ item.forum }}" target="_blank">Forum Link</a>
+              </span>
+              {% endif %}
                 {% if item.none %}
                   <span class="synd-sizer">
                     {{ item.none }}

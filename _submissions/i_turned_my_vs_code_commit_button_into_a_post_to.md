@@ -1,6 +1,6 @@
 ---
 layout: submission
-title: "I turned my VS Code commit button into a "post to mastodon" button for blog posts"
+title: "I turned my VS Code commit button into a post to mastodon button for blog posts"
 date: 2024-11-08T03:59:23+00:00
 author: "⸸ commander ░ nova ⸸ :~$"
 avatar: /img/avatar/daemon.jpeg
