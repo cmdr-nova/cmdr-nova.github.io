@@ -9,15 +9,18 @@ tags: [thoughts, updates, webdev]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114231359257947516
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
-tumblr: 
-none: no_syndication_available 
+tumblr:
+forum: https://forum.mkultra.monster/viewtopic.php?t=27 
+none: 
 ---
 I'm at this point again, where, I'm having trouble thinking of things I want to write about. Not because there's *nothing* to write about, but more-so that everything I *could* write about is mostly negative. Negative, like me visiting the forum I've endorsed over and over again (Melonland), and speaking out against the pro-AI users and their bad ideas, and then subsequently being moderated by *Melooon themselves*, is ... discouraging, to say the least.
+
+Read more on that, <a href="https://labyrinth.zone/notice/AsSifF0crLJyf1gsbI" target="_blank">here</a>.
 
 I've since, unfortunately, scrubbed all mention of Melonland from this website. Not going to support someone (and their projects) who thinks it's bad form to say, "These people should be mocked and shunned."
 
