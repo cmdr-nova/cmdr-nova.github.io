@@ -3491,31 +3491,45 @@ li {
 
 /* PHPBB Sidebar */
 
-.sidebar {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #f9f9f9;
+.terminal-style {
+  background-color: #1b1b1b; 
+  color: rgb(0, 183, 255); 
+  font-family: "Courier New", Courier, monospace; 
+  padding: 15px;
+  border: 2px solid rgb(10, 10, 10); 
+  border-radius: 5px;
 }
 
-.sidebar h3 {
-  margin-top: 0;
+/* Header Styling */
+.terminal-style h3 {
+  color: rgb(0, 174, 255);
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(164, 109, 216);
+  padding-bottom: 5px;
 }
 
-.sidebar ul {
-  list-style-type: none;
+/* List Styling */
+.terminal-style ul {
+  list-style-type: none; 
   padding: 0;
+  margin: 0;
 }
 
-.sidebar ul li {
+.terminal-style ul li {
   margin: 5px 0;
 }
 
-.sidebar ul li a {
+.terminal-style ul li a {
+  color: #245a68;
   text-decoration: none;
-  color: #0073e6;
+  transition: color 0.3s ease;
 }
 
-.sidebar ul li a:hover {
+.terminal-style ul li a:hover {
+  color: rgb(108, 71, 150); 
   text-decoration: underline;
 }
