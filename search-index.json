@@ -68486,6 +68486,20 @@
     "title": "Texted"
   },
   {
+    "id": "2025-03-28-3f355b07-26a6-42e3-8b1b-e7b93030738b",
+    "url": "/texts/2025-03-28-3f355b07-26a6-42e3-8b1b-e7b93030738b",
+    "content": "lol what\n\n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
+    "id": "2025-03-28-ece36f2d-65e1-4c45-8402-7d107b448bff",
+    "url": "/texts/2025-03-28-ece36f2d-65e1-4c45-8402-7d107b448bff",
+    "content": "I could maybe setup this open source AIM server on my one VPS, but thanks to my never-ending job, I don't have the time to figure out how to set it up \n",
+    "type": "text",
+    "title": "Texted"
+  },
+  {
     "id": "doom",
     "title": "Play Doom",
     "url": "/doom.html",
