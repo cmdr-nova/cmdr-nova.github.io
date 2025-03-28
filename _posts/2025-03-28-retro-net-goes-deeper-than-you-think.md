@@ -9,14 +9,14 @@ tags: [social-media, webdev, internet]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114240554884862559
 akkoma: 
-bluesky: 
+bluesky: https://bsky.app/profile/mkultra.monster/post/3llh2amgtj22c
 wafrn: 
 pillowfort: 
 tumblr: 
-forum:
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=32
+none: 
 ---
 Queue Inception bwam sound. If you've been following my little journey in hollowing out a piece of the internet that isn't annoying, dominated by corporations, and their engagement tricks, you've likely seen me popping up this website, erecting a phpBB forum, and you've probably also noticed that people all over the place are making GeoCities-ish type websites for fun! Well, the revival of the old-net goes even deeper than that.
 
