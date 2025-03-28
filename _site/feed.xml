@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mkultra.monster/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mkultra.monster/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-28T10:00:11-04:00</updated><id>https://mkultra.monster/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">A Summary Of The Past Three Days</title><link href="https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days.html" rel="alternate" type="text/html" title="A Summary Of The Past Three Days" /><published>2025-03-26T15:10:24-04:00</published><updated>2025-03-26T15:10:24-04:00</updated><id>https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days</id><content type="html" xml:base="https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days.html"><![CDATA[<p>I’m at this point again, where, I’m having trouble thinking of things I want to write about. Not because there’s <em>nothing</em> to write about, but more-so that everything I <em>could</em> write about is mostly negative. Negative, like me visiting the forum I’ve endorsed over and over again (Melonland), and speaking out against the pro-AI users and their bad ideas, and then subsequently being moderated by <em>Melooon themselves</em>, is … discouraging, to say the least.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mkultra.monster/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mkultra.monster/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-03-28T10:32:27-04:00</updated><id>https://mkultra.monster/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Retro Net Goes Deeper Than You Think</title><link href="https://mkultra.monster/social-media/2025/03/28/retro-net-goes-deeper-than-you-think.html" rel="alternate" type="text/html" title="Retro Net Goes Deeper Than You Think" /><published>2025-03-28T06:06:28-04:00</published><updated>2025-03-28T06:06:28-04:00</updated><id>https://mkultra.monster/social-media/2025/03/28/retro-net-goes-deeper-than-you-think</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/03/28/retro-net-goes-deeper-than-you-think.html"><![CDATA[<p>Queue Inception bwam sound. If you’ve been following my little journey in hollowing out a piece of the internet that isn’t annoying, dominated by corporations, and their engagement tricks, you’ve likely seen me popping up this website, erecting a phpBB forum, and you’ve probably also noticed that people all over the place are making GeoCities-ish type websites for fun! Well, the revival of the old-net goes even deeper than that.</p>
+
+<p>Ever since Meta turned on Facebook, things have gotten worse, and worse. MySpace got sold off and changed into something completely different (a janky website for bands???). AOL Instant Messenger went offline, <em>for good</em>. Twitter plopped into the ether, Tumblr became a replacement for LiveJournal, and then for a decade everyone only visited four websites.</p>
+
+<p>That was … until people got tired of the algorithms, and the disingenuous content of people and corps who use social media to pump stats and shun actual social interaction.</p>
+
+<p>Out came Mastodon on the ActivityPub network, and, although ActivityPub existed for <em>a long time</em> before Mastodon’s rise, I feel like <em>this</em> is exactly where people started rebuilding, for <em>real</em>.</p>
+
+<p>You see, the internet is a lot like space. You can build a wall. You can put up a ton of interstellar checkpoints that flash a million ads in your face as you navigate around each system. But, as soon as people realize that space is not a two dimensional plane, and that they can just, fly in a different direction, things start to change.</p>
+
+<p>AOL Instant Messenger, reborn!</p>
+
+<p>Exactly a year ago today, the <a href="https://github.com/mk6i/retro-aim-server" target="_blank">Retro AIM Server</a> repo appeared on Github. A project that effectively open sourced the AOL Instant Messenger servers. In that, <em>you</em>, or <em>anyone</em>, can just host a server that people can use the <em>actual</em> old software to connect to.</p>
+
+<p>But you don’t need to do all of that.</p>
+
+<p>All you need to do is use the links in the repo to download AIM to your system of choice. I’m on Linux, so I had to use Wine to open it. No biggie.</p>
+
+<p>Then, you need a server, right?</p>
+
+<p>I gotchu.</p>
+
+<p>All you’ve got to do is <a href="https://sso.chivanet.org" target="_blank">go here</a>, and create an account. Then, in the AIM section, create your username and password.</p>
+
+<p>You’re done!</p>
+
+<p>Open the original AIM client, follow the instructions from the repo that tell you where to put your connection info, and sign on!</p>
+
+<p>You’re back, or, if you were born in the 2000s, you’re here for the first time!</p>
+
+<p>The <em>only</em> issue, is this is not something that’s on a billion person network. So … having buddies will not be something you … <em>have</em>, right away. But, that’s okay, because you can have me as your first buddy. My AIM name is Atomleiche.</p>
+
+<p>Just click the “+/- setup” button on the bottom right, then click “add buddy” and type in my username. Then confirm it. If I’m online, you’ll hear the sound of a door opening, and then you can just double-click me and send a message!</p>
+
+<p>It’s that simple!</p>
+
+<p>And this is how it worked back on the old-net. You added buddies, and then when they came online, it was time chat. Or not! Some people would just add me back in the day to expand their list, I think. Who knows. But I had a whole lot of buddies, who I’m sure have completely different lives now. Maybe none of them think about this stuff anymore. Maybe they do!</p>
+
+<p>I don’t know.</p>
+
+<p>But, I feel like this is still only the beginning.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="webdev" /><category term="internet" /><summary type="html"><![CDATA[Queue Inception bwam sound. If you’ve been following my little journey in hollowing out a piece of the internet that isn’t annoying, dominated by corporations, and their engagement tricks, you’ve likely seen me popping up this website, erecting a phpBB forum, and you’ve probably also noticed that people all over the place are making GeoCities-ish type websites for fun! Well, the revival of the old-net goes even deeper than that.]]></summary></entry><entry><title type="html">A Summary Of The Past Three Days</title><link href="https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days.html" rel="alternate" type="text/html" title="A Summary Of The Past Three Days" /><published>2025-03-26T15:10:24-04:00</published><updated>2025-03-26T15:10:24-04:00</updated><id>https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days</id><content type="html" xml:base="https://mkultra.monster/updates/2025/03/26/a-summary-of-the-past-three-days.html"><![CDATA[<p>I’m at this point again, where, I’m having trouble thinking of things I want to write about. Not because there’s <em>nothing</em> to write about, but more-so that everything I <em>could</em> write about is mostly negative. Negative, like me visiting the forum I’ve endorsed over and over again (Melonland), and speaking out against the pro-AI users and their bad ideas, and then subsequently being moderated by <em>Melooon themselves</em>, is … discouraging, to say the least.</p>
 
 <p>Read more on that, <a href="https://labyrinth.zone/notice/AsSifF0crLJyf1gsbI" target="_blank">here</a>.</p>
 
@@ -535,34 +575,4 @@ end
 
 <p>Who are your top five female characters? Name a woman!</p>
 
-<p><img src="/img/posts/iwd-2025/name-a-woman.png" /></p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Media" /><category term="international-womens-day" /><category term="gaming" /><category term="media" /><summary type="html"><![CDATA[As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about real women?” But, aha! I gotchu. Female characters are voiced by women!]]></summary></entry><entry><title type="html">It’s Time To Talk About Slop Enjoyers, Again</title><link href="https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html" rel="alternate" type="text/html" title="It’s Time To Talk About Slop Enjoyers, Again" /><published>2025-03-06T12:37:10-05:00</published><updated>2025-03-06T12:37:10-05:00</updated><id>https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again</id><content type="html" xml:base="https://mkultra.monster/tech/2025/03/06/its-time-to-talk-about-slop-enjoyers-again.html"><![CDATA[<p>It’s been a while since I’ve written about the egregious battle of attrition basically <em>anyone</em> who does <em>anything</em> creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on <em>every single social platform</em>. But, is that enough?</p>
-
-<p>Is it enough, when accounts like this sign up on a fediverse instance and just start spamming the federated feed with glossy garbage that 100% <em>more than likely</em> has stolen the likeness of a real person, and other people’s work?</p>
-
-<p><img src="/img/posts/slop-again/Screenshot from 2025-03-06 17-36-37.png" /></p>
-
-<p>Is it <em>enough</em>, when not only do accounts like this pop up on Mastodon and Bluesky, but they’ll also include something in their social bio, like, “committed to celebrating the arts and enriching the cultural landscape.” Which, for all intents and purposes, is an insult to intelligent people, and an insult to anyone who actually <em>does</em> anything.</p>
-
-<p><img src="/img/posts/slop-again/Screenshot from 2025-03-06 17-43-39.png" /></p>
-
-<p>This is just <em>one</em> example, and I include it in this post, because it was especially annoying to see, today.</p>
-
-<p>It reeks of indifferent, superficial influencer-syndrome.</p>
-
-<p>But, maybe we need to start calling this <em>utter shit</em> what it is: The fascist destruction of the arts.</p>
-
-<p>During the rise of Nazi Germany, the fascist party decided for the population what they believed to be <em>acceptable</em> art, and disposed of the rest (see: <a href="https://encyclopedia.ushmm.org/content/en/article/degenerate-art-1" target="_blank">degenerate art</a>). This can easily be correlated to the way AI generated “art” is used in modern society, <em>because every single bit of it is created and controlled by oligarchs who seek to remove and replace real humans with inauthentic algorithms,</em> and much of it is deployed on corporate social media in order to <em>aid</em> misinformation campaigns by those <em>same</em> oligarchs, and their fascist handlers in the government.</p>
-
-<p>Also, take note that <em>a lot</em> of AI generative theft is geared toward <a href="https://www.404media.co/chinese-ai-video-generators-unleash-a-flood-of-new-nonconsensual-porn-3/" target="_blank">non-consensual porn</a>, <em>but that’s no surprise</em>, because the entire grift is based on a complete lack of consent.</p>
-
-<p>Outside of these aspects, anyone else is just using it to “make” things they want to see, and then claiming that they’ve <em>done</em> something, that it’s <em>their</em> work (even though 99.9% of the time it looks like utter trash, and is based on the real work of millions of people who never even so much as received any notice that their work was scraped).</p>
-
-<p>But, why? Why do they do this?</p>
-
-<p>A fascist is incapable of creating. A fascist can only destroy.</p>
-
-<p>Generative AI is a fascist, total destruction of the arts. <em>Mostly</em> deployed by billionaire scum fueling misinformation, and largely used by people who either <em>can’t</em> create, or have some other agenda related to instant gratification, or things that <em>should be crimes against humanity</em>. Stop sharing AI, stop posting slop, and push these parasites <em>off</em> of community-owned social media, before they’re allowed to invade, unhindered.</p>
-
-<p>No, in relation to Mastodon, I don’t care if the instance you’re on makes exceptions for AI slop in that as long as a user discloses that it’s AI, they’re allowed. If you ask me, that’s too soft. Admins and moderators on Mastodon, especially, <em>have got to stop being soft</em>.</p>
-
-<p>End of discussion.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="tech" /><category term="social-media" /><category term="tech" /><category term="ai" /><summary type="html"><![CDATA[It’s been a while since I’ve written about the egregious battle of attrition basically anyone who does anything creative has been having with AI generated sludge. The way I deal with it, is by simply blocking and reporting every single instance of it that I see on every single social platform. But, is that enough?]]></summary></entry></feed>
+<p><img src="/img/posts/iwd-2025/name-a-woman.png" /></p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Media" /><category term="international-womens-day" /><category term="gaming" /><category term="media" /><summary type="html"><![CDATA[As you know, it’s International Women’s Day, and so, instead of writing continually about the dudes trying to steal the world’s creativity and ingenuity for their own profit, I wanted to write about my personal favorite female characters. Maybe you’re thinking, “Shouldn’t Women’s Day posts be about real women?” But, aha! I gotchu. Female characters are voiced by women!]]></summary></entry></feed>
