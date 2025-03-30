@@ -4105,6 +4105,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/submissions/this_apartment_for_rent_in_my_area/index.html</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/submissions/w_ds_invite/index.html</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -112280,6 +112286,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_submissions/whats_everyone_doing.md</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_submissions/this_apartment_for_rent_in_my_area.md</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
