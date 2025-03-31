@@ -9,14 +9,14 @@ tags: [music, albums, bandcamp]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114254609368485126
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?p=43#p43
+none: 
 ---
 So, I decided I wanted to write about albums I buy on Bandcamp, partly because when I was still being extremely, over-the-top prolific about making music back on Twitter (before the twitter-synthwave community effectively excommunicated me due to a large portion of them being extremely bigoted), some didn't think I was buying any music. They thought I was simply releasing music and ignoring everything else.
 
