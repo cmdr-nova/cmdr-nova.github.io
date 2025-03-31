@@ -50053,6 +50053,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_site/tag/bandcamp.html</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_site/tag/night.html</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -50858,6 +50864,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/tag/virtualworld.html</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/tag/albums.html</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -60992,6 +61004,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/texts/2025-03-27-31d0cce5-6521-4cee-af45-d45e77db935b/index.html</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/texts/2025-03-31-b5dc53e9-54da-4ddb-9b87-13849e9eebf4/index.html</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -110473,6 +110491,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_texts/2025-03-31-b5dc53e9-54da-4ddb-9b87-13849e9eebf4.md</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_texts/2025-03-25-7ef72f99-f8d7-47b4-b684-a2f5df2865e2.md</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -111937,6 +111961,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/tag/bandcamp.md</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/tag/computing.md</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -112166,6 +112196,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/tag/challenge.md</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/tag/albums.md</loc>
     <lastmod>2025-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
