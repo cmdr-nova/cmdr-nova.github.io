@@ -3050,11 +3050,11 @@ li {
 .grid-container > :first-child {
   grid-column: 1 / -1;
 }
-
+/*
 .grid-container > :last-child {
   grid-column: 1 / -1;
 }
-
+*/
 .grid-container > :last-child img {
   width: 100%;
   height: auto;
@@ -3063,7 +3063,7 @@ li {
 
 @media (min-width: 481px) {
   .grid-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -3428,25 +3428,73 @@ li {
 /* Markov Nova Style */
 
 #markov-generated {
+  background-color: transparent; 
+  padding: 0; 
+  box-shadow: none; 
+}
+.win95-window {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align content to the top */
-  padding: 15px;
-  background-color: #202020; /* Adjust background color if needed */
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+  border: 2px solid #000;
+  background-color: #c3c7cb;
+  font-family: "MS Sans Serif", Arial, sans-serif;
+  box-shadow: 4px 4px 0px #808080;
+  border-radius: 0;
+  overflow: hidden;
 }
 
-#markov-generated h3 {
-  margin-bottom: 10px;
+.win95-title-bar {
+  background: linear-gradient(to bottom, #000080, #0000a0);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 2px solid #808080;
 }
 
-#markov-content {
-  font-size: 1rem;
-  color: #b5c0c2; /* Adjust text color */
+.win95-title {
+  text-shadow: 1px 1px #000;
+}
+
+.win95-controls {
+  display: flex;
+  gap: 2px;
+}
+
+.win95-control-button {
+  width: 16px;
+  height: 16px;
+  background-color: #c3c7cb;
+  border: 1px solid #000;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.win95-control-button:hover {
+  background-color: #808080;
+  color: #fff;
+}
+
+.win95-content {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #808080;
+  border-top: none;
+  font-size: 12px;
+  color: #000;
+  flex-grow: 1;
+}
+
+.win95-content #markov-content {
+  font-size: 12px;
   line-height: 1.5;
-  text-align: left;
-  font-size: 0.9em;
+  color: #000;
 }
 
 /* Redd-Lemm Section */

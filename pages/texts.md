@@ -11,7 +11,7 @@ pagination:
 
 <div class="texts-section">
   {% for text in paginator.posts %}
-    <div class="texts-item item">
+    <div class="texts-item akkoma-item">
       {% if text.avatar %}
         <img src="{{ text.avatar }}" alt="Avatar" class="no-center toot-avatar pack-avatar">
       {% endif %}

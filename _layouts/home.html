@@ -91,16 +91,12 @@ creator of everything -->
       <div class="grid-container">
         {% assign latest_post = site.posts | sort: "date" | last %}
         {% assign latest_note = site.notes | sort: "date" | last %}
-        {% assign latest_log = site.logs | sort: "date" | last %}
         {% assign latest_text = site.texts | sort: "date" | last %}
-        {% assign latest_skeet = site.skeets | sort: "date" | last %}
       
         {% assign latest_items = "" | split: "" %}
         {% if latest_post %} {% assign latest_items = latest_items | push: latest_post %} {% endif %}
         {% if latest_note %} {% assign latest_items = latest_items | push: latest_note %} {% endif %}
-        {% if latest_log %} {% assign latest_items = latest_items | push: latest_log %} {% endif %}
         {% if latest_text %} {% assign latest_items = latest_items | push: latest_text %} {% endif %}
-        {% if latest_skeet %} {% assign latest_items = latest_items | push: latest_skeet %} {% endif %}
       
         {% for item in latest_items %}
           {% assign post_type = item.collection %}
@@ -112,20 +108,11 @@ creator of everything -->
             {% assign icon = "ph ph-note" %}
             {% assign verb = "Noted" %}
             {% assign content = item.content %}
-          {% elsif post_type == "logs" %}
-            {% assign icon = "ph ph-notebook" %}
-            {% assign verb = "Logged" %}
-            {% assign content = item.content %}
           {% elsif post_type == "texts" %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Texted" %}
             {% assign content = item.content %}
             {% assign item_class = "akkoma-item" %}
-          {% elsif post_type == "skeets" %}
-            {% assign icon = "ph ph-butterfly" %}
-            {% assign verb = "Skeeted" %}
-            {% assign content = item.content %}
-            {% assign item_class = "bluesky-item" %}
           {% else %}
             {% assign icon = "ph ph-chat-text" %}
             {% assign verb = "Shared" %}
@@ -236,11 +223,20 @@ creator of everything -->
         {% endfor %}
 
 <!-- New Markov-Generated Text Section -->
-<div class="item grid-item" id="markov-generated">
-  <h3 class="verb"><i class="ph ph-robot"></i> Markov Nova</h3>
-  <div id="markov-content">
-    <!-- The Markov-generated text will be dynamically loaded here -->
-    <script src="/assets/js/markov-nova.js"></script>
+<div class="item grid-item win95-window" id="markov-generated">
+  <div class="win95-title-bar">
+    <span class="win95-title"><i class="ph ph-robot"></i> Markov Nova</span>
+    <div class="win95-controls">
+      <button class="win95-control-button">_</button>
+      <button class="win95-control-button">□</button>
+      <button class="win95-control-button">X</button>
+    </div>
+  </div>
+  <div class="win95-content">
+    <div id="markov-content">
+      <!-- The Markov-generated text will be dynamically loaded here -->
+      <script src="/assets/js/markov-nova.js"></script>
+    </div>
   </div>
 </div>
 
