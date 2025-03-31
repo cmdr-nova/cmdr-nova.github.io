@@ -9,14 +9,14 @@ tags: [gaming, minecraft, args]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114258066038744890
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=37
+none: 
 ---
 In continuing my new trend of just yapping, I wanted to point out something that I've been kind of enjoying lately (especially since quality Backrooms Youtube content has kind of dried up for me). That thing being, Minecraft ARGs, or "alternate reality games." Wherein, some user will post, or say they're "reposting" something from over a decade ago, of a strange series of videos, from a near vacant Youtube account. And then as you watch said videos, there's a string of creepy, horrific, or sad things that happen as this "Youtuber" plays through Minecraft (and each video will usually have clues or hidden links, etc).
 
