@@ -1,1 +1,1 @@
-image_path, status_text): media = mastodon_client.media_post(image_path) mastodon_client.
+romancing Sera on my local machine, and copy/paste them directly they have feelings, even if only for a sim with an inflated sense of unease.
