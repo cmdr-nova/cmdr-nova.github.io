@@ -1,1 +1,1 @@
-the RSS feed and archives posts it's already installed on my website, because Electronic Arts are incompetent fools In the past year or so.
+image_path, status_text): media = mastodon_client.media_post(image_path) mastodon_client.
