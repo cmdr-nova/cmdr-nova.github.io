@@ -9,14 +9,14 @@ tags: [gaming, nintendo]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114280324406512558
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=39
+none: 
 ---
 So, just a few days ago, it was announced that the Switch 2 will be nearly 500 dollars. This still pales in comparison to what it costs to have a whole entire PC, but hold up a second. Not only will the console cost you 500 dollars, but <a href="https://insider-gaming.com/nintendo-switch-2-games-will-cost-80-for-digital-90-for-physical/" target="_blank">the digital edition of games will be 80 dollars, and the physical copies wil be 90 USD</a>, on a case-by-case basis (apparently). As we all know, the last studio that did something like this, caused a cascade that made nearly *every new title* 70 bucks. But, there's something *all of them* are ignoring.
 
