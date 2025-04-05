@@ -9,14 +9,14 @@ tags: [gaming, ai, inzoi]
 pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
-mastodon: 
+mastodon: https://mastodon.social/@mkultra_bot/114286039079059612
 akkoma: 
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=40
+none: 
 ---
 Just like I thought, the slow-creep of generative AI into gaming continues. Except this time it marches forward with <a href="https://krafton.com/en/more-experience/ai/" target="_blank">Krafton's enthusiastic destruction of the arts</a> with it's latest and highly anticipated life-sim, InZoi. Thought to be a "Sims killer," the game launches as an ultra-realistic sim that *immediately* shoves generative sludge into your face. Because having artists who make designs for clothing in your game is too hard, and having less ways to get involved in game development is definitely the future we're all rooting for (sarcasm).
 
