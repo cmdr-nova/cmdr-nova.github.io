@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
-bluesky: 
+akkoma: https://labyrinth.zone/notice/At1u0u0lVaHNw7suxM
+bluesky: https://bsky.app/profile/mkultra.monster/post/3lmnnrisfws2l
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=41
+none: 
 ---
 It's been a little bit since I've last written directly, here on the site. Most of this has to do with mental burn-out and the current political climate. The rest of it has to do with me being *absolutely* addicted to Minecraft and the little world I've built where I routinely solo-raid the Nether while continually building cobblestone fences around my house. But, I figured I'd write something here before I head off to work for the umpteenth time.
 
