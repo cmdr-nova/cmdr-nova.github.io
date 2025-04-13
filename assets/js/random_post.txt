@@ -1,1 +1,1 @@
-stuff!
+hashtags. def post_to_tumblr(tumblr_client, image_path, tumblr_status_text, tumblr_tags) os.
