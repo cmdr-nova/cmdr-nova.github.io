@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
+akkoma: https://labyrinth.zone/notice/AtFmMTtNDjf3sbe2pE
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=42
+none: 
 ---
 I haven't really written here all that much in the past couple weeks, and it's not entirely because I don't want to, or don't feel like it. I mean, you can see me posting daily on Akkoma from right here on the site. But, I'm deep into the night shift at work now, and coupled with the ten hour shifts, and the constant overtime ... I'm tired?
 
