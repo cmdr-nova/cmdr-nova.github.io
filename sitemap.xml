@@ -391,6 +391,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://mkultra.monster/_posts/2025-04-23-the-fediverse-and-influencers.md</loc>
+    <lastmod>2025-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://mkultra.monster/_posts/2024-09-10-cohost-is-shutting-down.md</loc>
     <lastmod>2025-04-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -4676,6 +4682,12 @@
   </url>
   <url>
     <loc>https://mkultra.monster/_site/social-media/2025/04/21/discord-community-killer.html</loc>
+    <lastmod>2025-04-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mkultra.monster/_site/social-media/2025/04/23/the-fediverse-and-influencers.html</loc>
     <lastmod>2025-04-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

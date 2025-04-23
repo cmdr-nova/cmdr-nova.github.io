@@ -10,7 +10,99 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Wed, 23 Apr 2025 09:00:08 -0400</pubDate>
+    <pubDate>Wed, 23 Apr 2025 10:43:46 -0400</pubDate>
+    <item>
+      <title>Does The Fediverse Need Influencers To Survive?</title>
+      <link>https://mkultra.monster/social-media/2025/04/23/the-fediverse-and-influencers.html</link>
+      <description>&lt;p&gt;Today I’m going to talk about something that someone decided to complain about, on the Fediverse, that &lt;em&gt;most&lt;/em&gt; of us on the aforementioned verse are &lt;em&gt;extremely&lt;/em&gt; opposed to. But, these kinds of takes were inevitable, since corporate social media is already a thunder-dome of garbage, and &lt;em&gt;of course&lt;/em&gt; there are people who want to see Mastodon and other extended ActivityPub apps mirror that. What I’m talking about, this time, though, is “influencers.”&lt;/p&gt;
+
+&lt;p&gt;I wrote last year, somewhere along the line, about how the influencer mindset is a disease, and I &lt;em&gt;still&lt;/em&gt; hold that position.&lt;/p&gt;
+
+&lt;p&gt;Algorithmic feeds have been &lt;em&gt;the worst thing&lt;/em&gt; to happen to the social web, because, again and again, the only thing it does is center and reward people who &lt;em&gt;lie, cheat, and scam&lt;/em&gt;. Wannabe “influential” people who latch onto a trend, or a brand, and say intentionally disingenuous, or sometimes even &lt;em&gt;nasty&lt;/em&gt; things, &lt;em&gt;just to get a reaction.&lt;/em&gt; Because that’s what does numbers on algorithmic social media, and that is, in-turn, &lt;em&gt;how they get paid&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;ActivityPub and the Fediverse is rightfully attractive to many people. Something that’s hundreds to thousands of people hosting their own version of a piece of software, that anyone can use, so that none of the social network is governed by any single entity, therefore ensuring that the Twitter problem, essentially, &lt;em&gt;never happens&lt;/em&gt;. That’s really cool, right?&lt;/p&gt;
+
+&lt;p&gt;So, it would make sense, that, in time, it would attract people who think like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&quot;I like that there's no influencers/clout chasers/celebrities on the fediverse&quot;
+
+Ok, but you do realize you're saying you like that people can't make a living here, right? That what happens here can't affect the larger world. That the big closed networks will never be supplanted by this one. You get that, right? 
+
+I mean, this is a communication tool. We're communicating with each other. It's such a small understanding of what that means if it's not to influence the world we live in. 
+
+And, frankly, it's entitled to insist that everyone else should abide by that narrow sensibility.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, I’m not including who said this, because I’m trying to be a little nicer, and to also not look like I’m trying to target anyone. Partially because I’m now a moderator on a community instance, and it’s important that people don’t think I’m some kind of asshole who hates everything and is trying to take people down, but also because &lt;em&gt;I’m not trying to target anyone&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;But I &lt;em&gt;do&lt;/em&gt; want to talk about this, regardless, because I feel like if people come to the Fediverse with these lines of thinking, and nobody goes, “Hold up, let me tell you why we don’t want this here.” We may just end up with an instance or two full of people trying to exploit others for their own personal gain.&lt;/p&gt;
+
+&lt;p&gt;And that’s honestly what an influencer is. Except, I think we need to look at individual points here.&lt;/p&gt;
+
+&lt;blockquote&gt;
+Ok, but you do realize you're saying you like that people can't make a living here, right? That what happens here can't affect the larger world. That the big closed networks will never be supplanted by this one. You get that, right? 
+&lt;/blockquote&gt;
+
+&lt;p&gt;First of all, I don’t really know of any studies that have ever been done on influencers, but &lt;em&gt;I’m pretty sure&lt;/em&gt; making any kind of a living doing it, is only something that’s afforded to those who are either &lt;em&gt;very lucky&lt;/em&gt;, or &lt;em&gt;already rich&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, saying that … this is bad, because if you can’t make a living and get rich on, say, Mastodon, you’re not affecting the larger world? As if a platform is only important if it’s making someone who posts engagement bait rich, otherwise it’s, what? Trivial? Useless?&lt;/p&gt;
+
+&lt;p&gt;The big closed networks being the way that they are, &lt;em&gt;is the reason&lt;/em&gt; ActivityPub exists. Apps like Mastodon weren’t developed as a replacement for Twitter. They were developed &lt;em&gt;as an alternative&lt;/em&gt; for people who just want a &lt;strong&gt;social&lt;/strong&gt; network. That’s a big thing here, because I feel like the social part of being online has been nearly dead for the past 20 years. And, if you want to get an idea of what I’m even talking about, you don’t even have to look at Twitter.&lt;/p&gt;
+
+&lt;p&gt;Go open Threads. Post a few times, mingle with the people.&lt;/p&gt;
+
+&lt;p&gt;Tell me what it looks like when your social network is nothing but influencers trying to get rich off of engagement.&lt;/p&gt;
+
+&lt;p&gt;Once you’ve done that, I want you to tell me if you feel like Threads is useful, and not entirely pointless to regular people.&lt;/p&gt;
+
+&lt;blockquote&gt;
+I mean, this is a communication tool. We're communicating with each other. It's such a small understanding of what that means if it's not to influence the world we live in. 
+&lt;/blockquote&gt;
+
+&lt;p&gt;You’re right, disembodied voice of someone dissenting about the theme and point of ActivityPub, it is a &lt;em&gt;communication tool&lt;/em&gt;. Communication is not something that influencers engage in.&lt;/p&gt;
+
+&lt;p&gt;And I can tell you right now, that ActivityPub and the Fediverse has very much influenced the world, &lt;em&gt;even if&lt;/em&gt; grind-set, money-brained (or celebrities, if anyone actually cares about what celebrities think) people refuse to use it. You wouldn’t have posted this diatribe via Mastodon if the network hadn’t influenced you to be there. I know, you’re probably looking at this, and if you know me, you’re going, “Hey, but don’t you sell digital albums and other things?”&lt;/p&gt;
+
+&lt;p&gt;Yeah, I do. But we’ll get to that.&lt;/p&gt;
+
+&lt;blockquote&gt;
+And, frankly, it's entitled to insist that everyone else should abide by that narrow sensibility.
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is mostly the end of this person’s rant, and there’s really not a whole lot to address here, aside from the fact that … this is a projection. Yes, &lt;em&gt;it is&lt;/em&gt; entitled to insist that everyone should abide by your narrow sensibilities. Being as that, you are the only one complaining about this.&lt;/p&gt;
+
+&lt;p&gt;Speaking of “making money” on the fediverse, though, I want to share something.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/influencer-problem/sales.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are my all-time sales from Bandcamp, over the course of the past 7 or 8 years. Now, obviously, if you’re a more popular artist, or regularly use algorithmic social media, maybe you’ve made much more than me. That’s not what matters, here, though.&lt;/p&gt;
+
+&lt;p&gt;Where do you think a majority of these sales came from? Twitter?&lt;/p&gt;
+
+&lt;p&gt;Nah.&lt;/p&gt;
+
+&lt;p&gt;Although, these numbers, if you look at them over the span of 7-8 years, really aren’t that huge … but, it’s &lt;em&gt;still pretty huge&lt;/em&gt; that I’ve made around 4000 USD in sales, largely from just sharing and talking about my work on Mastodon.&lt;/p&gt;
+
+&lt;p&gt;Now, obviously, I’m not rich. Most of, if not all of this money has gone toward life expenses and bills, and absolutely none of that is still in any of my accounts.&lt;/p&gt;
+
+&lt;p&gt;But it’s still pretty impressive, at least, if you’re someone who thinks it’s not possible to make money on the Fediverse.&lt;/p&gt;
+
+&lt;p&gt;That’s just it though. I’m not &lt;em&gt;on&lt;/em&gt; the Fediverse to “make money.” Sure, I share my work and sometimes I make sales, but that’s not the reason I’m there. I don’t view social media and people who follow me as a potential transaction. I don’t view other people as numbers on a spreadsheet, with AI-brainstorming about how I can draw more engagement out of them.&lt;/p&gt;
+
+&lt;p&gt;I don’t do &lt;em&gt;any of that shit&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Treating every interaction as a transaction, or the potential for a monetary transaction, is &lt;em&gt;inherently&lt;/em&gt; toxic, manipulative, and antithetical to a social web. If this upsets you, and you don’t want to be part of something like this … you don’t have to be! You can go be on Threads, you can go be on Twitter, or, hey, you can go be on Bluesky! Where they’ve just suddenly &lt;a href=&quot;https://www.axios.com/2025/04/22/bluesky-verification-blue-check-twitter-x&quot; target=&quot;_blank&quot;&gt;decided to start giving “notable” users an ego boost&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s up to you!&lt;/p&gt;
+
+&lt;p&gt;That’s the beauty, or &lt;em&gt;at least was&lt;/em&gt;, the beauty of the internet, before it was overtaken by oligarchs and corporations. You could just … &lt;em&gt;do whatever you wanted&lt;/em&gt;, and it didn’t have to be for any specific reason other than to meet people and chill. Which is (one of) the whole point of the internet!&lt;/p&gt;
+
+&lt;p&gt;Corporatizing ActivityPub would be the beginning of its downfall, and I’m glad that people who think everything should be corporate and influential to grind-set, mindset weirdos, &lt;em&gt;don’t like it.&lt;/em&gt; Let’s keep it that way.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 23 Apr 2025 05:25:08 -0400</pubDate>
+      <dc:date>2025-04-23T05:25:08-04:00</dc:date>
+    </item>
     <item>
       <title>Discord: The Community Killer</title>
       <link>https://mkultra.monster/social-media/2025/04/21/discord-community-killer.html</link>
@@ -16340,6 +16432,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-04-23T09:00:08-04:00</dc:date>
+    <dc:date>2025-04-23T10:43:46-04:00</dc:date>
   </channel>
 </rss>

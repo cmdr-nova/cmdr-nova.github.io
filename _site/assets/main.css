@@ -396,7 +396,12 @@ blockquote {
   letter-spacing: -1px; 
   font-style: italic; 
   text-indent: 0;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  margin: 1em 0;
 }
+
+
 
 .light-mode blockquote { 
   color: #000;

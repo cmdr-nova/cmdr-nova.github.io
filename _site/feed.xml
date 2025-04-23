@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mkultra.monster/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mkultra.monster/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-23T09:00:08-04:00</updated><id>https://mkultra.monster/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Discord: The Community Killer</title><link href="https://mkultra.monster/social-media/2025/04/21/discord-community-killer.html" rel="alternate" type="text/html" title="Discord: The Community Killer" /><published>2025-04-21T19:13:25-04:00</published><updated>2025-04-21T19:13:25-04:00</updated><id>https://mkultra.monster/social-media/2025/04/21/discord-community-killer</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/04/21/discord-community-killer.html"><![CDATA[<p>It’s been a little while since I’ve written on an actual topic. A lot of that has to do with me filling my free time with building a ridiculous world around my base in Minecraft Java (heavily modded), and jumping back into World of Warcraft on my original DeathKnight from … uh, whatever year Wrath of the Lich King released. And that kind of has to do with why I want to write this today. Why I want to write about how Discord, the community chat app, has, and <em>is</em>, killing communities not only around the web, but also within games.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://mkultra.monster/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mkultra.monster/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2025-04-23T10:43:46-04:00</updated><id>https://mkultra.monster/feed.xml</id><title type="html">cmdr-nova@internet:~$</title><subtitle>cmdr-nova&apos;s personal blog and home on the indie-web.</subtitle><entry><title type="html">Does The Fediverse Need Influencers To Survive?</title><link href="https://mkultra.monster/social-media/2025/04/23/the-fediverse-and-influencers.html" rel="alternate" type="text/html" title="Does The Fediverse Need Influencers To Survive?" /><published>2025-04-23T05:25:08-04:00</published><updated>2025-04-23T05:25:08-04:00</updated><id>https://mkultra.monster/social-media/2025/04/23/the-fediverse-and-influencers</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/04/23/the-fediverse-and-influencers.html"><![CDATA[<p>Today I’m going to talk about something that someone decided to complain about, on the Fediverse, that <em>most</em> of us on the aforementioned verse are <em>extremely</em> opposed to. But, these kinds of takes were inevitable, since corporate social media is already a thunder-dome of garbage, and <em>of course</em> there are people who want to see Mastodon and other extended ActivityPub apps mirror that. What I’m talking about, this time, though, is “influencers.”</p>
+
+<p>I wrote last year, somewhere along the line, about how the influencer mindset is a disease, and I <em>still</em> hold that position.</p>
+
+<p>Algorithmic feeds have been <em>the worst thing</em> to happen to the social web, because, again and again, the only thing it does is center and reward people who <em>lie, cheat, and scam</em>. Wannabe “influential” people who latch onto a trend, or a brand, and say intentionally disingenuous, or sometimes even <em>nasty</em> things, <em>just to get a reaction.</em> Because that’s what does numbers on algorithmic social media, and that is, in-turn, <em>how they get paid</em>.</p>
+
+<p>ActivityPub and the Fediverse is rightfully attractive to many people. Something that’s hundreds to thousands of people hosting their own version of a piece of software, that anyone can use, so that none of the social network is governed by any single entity, therefore ensuring that the Twitter problem, essentially, <em>never happens</em>. That’s really cool, right?</p>
+
+<p>So, it would make sense, that, in time, it would attract people who think like this:</p>
+
+<blockquote>
+"I like that there's no influencers/clout chasers/celebrities on the fediverse"
+
+Ok, but you do realize you're saying you like that people can't make a living here, right? That what happens here can't affect the larger world. That the big closed networks will never be supplanted by this one. You get that, right? 
+
+I mean, this is a communication tool. We're communicating with each other. It's such a small understanding of what that means if it's not to influence the world we live in. 
+
+And, frankly, it's entitled to insist that everyone else should abide by that narrow sensibility.
+</blockquote>
+
+<p>Now, I’m not including who said this, because I’m trying to be a little nicer, and to also not look like I’m trying to target anyone. Partially because I’m now a moderator on a community instance, and it’s important that people don’t think I’m some kind of asshole who hates everything and is trying to take people down, but also because <em>I’m not trying to target anyone</em>.</p>
+
+<p>But I <em>do</em> want to talk about this, regardless, because I feel like if people come to the Fediverse with these lines of thinking, and nobody goes, “Hold up, let me tell you why we don’t want this here.” We may just end up with an instance or two full of people trying to exploit others for their own personal gain.</p>
+
+<p>And that’s honestly what an influencer is. Except, I think we need to look at individual points here.</p>
+
+<blockquote>
+Ok, but you do realize you're saying you like that people can't make a living here, right? That what happens here can't affect the larger world. That the big closed networks will never be supplanted by this one. You get that, right? 
+</blockquote>
+
+<p>First of all, I don’t really know of any studies that have ever been done on influencers, but <em>I’m pretty sure</em> making any kind of a living doing it, is only something that’s afforded to those who are either <em>very lucky</em>, or <em>already rich</em>.</p>
+
+<p>And, saying that … this is bad, because if you can’t make a living and get rich on, say, Mastodon, you’re not affecting the larger world? As if a platform is only important if it’s making someone who posts engagement bait rich, otherwise it’s, what? Trivial? Useless?</p>
+
+<p>The big closed networks being the way that they are, <em>is the reason</em> ActivityPub exists. Apps like Mastodon weren’t developed as a replacement for Twitter. They were developed <em>as an alternative</em> for people who just want a <strong>social</strong> network. That’s a big thing here, because I feel like the social part of being online has been nearly dead for the past 20 years. And, if you want to get an idea of what I’m even talking about, you don’t even have to look at Twitter.</p>
+
+<p>Go open Threads. Post a few times, mingle with the people.</p>
+
+<p>Tell me what it looks like when your social network is nothing but influencers trying to get rich off of engagement.</p>
+
+<p>Once you’ve done that, I want you to tell me if you feel like Threads is useful, and not entirely pointless to regular people.</p>
+
+<blockquote>
+I mean, this is a communication tool. We're communicating with each other. It's such a small understanding of what that means if it's not to influence the world we live in. 
+</blockquote>
+
+<p>You’re right, disembodied voice of someone dissenting about the theme and point of ActivityPub, it is a <em>communication tool</em>. Communication is not something that influencers engage in.</p>
+
+<p>And I can tell you right now, that ActivityPub and the Fediverse has very much influenced the world, <em>even if</em> grind-set, money-brained (or celebrities, if anyone actually cares about what celebrities think) people refuse to use it. You wouldn’t have posted this diatribe via Mastodon if the network hadn’t influenced you to be there. I know, you’re probably looking at this, and if you know me, you’re going, “Hey, but don’t you sell digital albums and other things?”</p>
+
+<p>Yeah, I do. But we’ll get to that.</p>
+
+<blockquote>
+And, frankly, it's entitled to insist that everyone else should abide by that narrow sensibility.
+</blockquote>
+
+<p>This is mostly the end of this person’s rant, and there’s really not a whole lot to address here, aside from the fact that … this is a projection. Yes, <em>it is</em> entitled to insist that everyone should abide by your narrow sensibilities. Being as that, you are the only one complaining about this.</p>
+
+<p>Speaking of “making money” on the fediverse, though, I want to share something.</p>
+
+<p><img src="/img/posts/influencer-problem/sales.png" /></p>
+
+<p>These are my all-time sales from Bandcamp, over the course of the past 7 or 8 years. Now, obviously, if you’re a more popular artist, or regularly use algorithmic social media, maybe you’ve made much more than me. That’s not what matters, here, though.</p>
+
+<p>Where do you think a majority of these sales came from? Twitter?</p>
+
+<p>Nah.</p>
+
+<p>Although, these numbers, if you look at them over the span of 7-8 years, really aren’t that huge … but, it’s <em>still pretty huge</em> that I’ve made around 4000 USD in sales, largely from just sharing and talking about my work on Mastodon.</p>
+
+<p>Now, obviously, I’m not rich. Most of, if not all of this money has gone toward life expenses and bills, and absolutely none of that is still in any of my accounts.</p>
+
+<p>But it’s still pretty impressive, at least, if you’re someone who thinks it’s not possible to make money on the Fediverse.</p>
+
+<p>That’s just it though. I’m not <em>on</em> the Fediverse to “make money.” Sure, I share my work and sometimes I make sales, but that’s not the reason I’m there. I don’t view social media and people who follow me as a potential transaction. I don’t view other people as numbers on a spreadsheet, with AI-brainstorming about how I can draw more engagement out of them.</p>
+
+<p>I don’t do <em>any of that shit</em>.</p>
+
+<p>Treating every interaction as a transaction, or the potential for a monetary transaction, is <em>inherently</em> toxic, manipulative, and antithetical to a social web. If this upsets you, and you don’t want to be part of something like this … you don’t have to be! You can go be on Threads, you can go be on Twitter, or, hey, you can go be on Bluesky! Where they’ve just suddenly <a href="https://www.axios.com/2025/04/22/bluesky-verification-blue-check-twitter-x" target="_blank">decided to start giving “notable” users an ego boost</a>.</p>
+
+<p>It’s up to you!</p>
+
+<p>That’s the beauty, or <em>at least was</em>, the beauty of the internet, before it was overtaken by oligarchs and corporations. You could just … <em>do whatever you wanted</em>, and it didn’t have to be for any specific reason other than to meet people and chill. Which is (one of) the whole point of the internet!</p>
+
+<p>Corporatizing ActivityPub would be the beginning of its downfall, and I’m glad that people who think everything should be corporate and influential to grind-set, mindset weirdos, <em>don’t like it.</em> Let’s keep it that way.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Social-Media" /><category term="social-media" /><category term="influencers" /><summary type="html"><![CDATA[Today I’m going to talk about something that someone decided to complain about, on the Fediverse, that most of us on the aforementioned verse are extremely opposed to. But, these kinds of takes were inevitable, since corporate social media is already a thunder-dome of garbage, and of course there are people who want to see Mastodon and other extended ActivityPub apps mirror that. What I’m talking about, this time, though, is “influencers.”]]></summary></entry><entry><title type="html">Discord: The Community Killer</title><link href="https://mkultra.monster/social-media/2025/04/21/discord-community-killer.html" rel="alternate" type="text/html" title="Discord: The Community Killer" /><published>2025-04-21T19:13:25-04:00</published><updated>2025-04-21T19:13:25-04:00</updated><id>https://mkultra.monster/social-media/2025/04/21/discord-community-killer</id><content type="html" xml:base="https://mkultra.monster/social-media/2025/04/21/discord-community-killer.html"><![CDATA[<p>It’s been a little while since I’ve written on an actual topic. A lot of that has to do with me filling my free time with building a ridiculous world around my base in Minecraft Java (heavily modded), and jumping back into World of Warcraft on my original DeathKnight from … uh, whatever year Wrath of the Lich King released. And that kind of has to do with why I want to write this today. Why I want to write about how Discord, the community chat app, has, and <em>is</em>, killing communities not only around the web, but also within games.</p>
 
 <p>I think I’ve written before about how Discord has almost completely killed usage of internet forums (which is partially why I decided to host <a href="https://forum.mkultra.monster/" target="_blank">my own forum</a>, even if nobody feels like joining it), which is <em>terrible</em> for retention of data online. Especially if you’re someone who uses search engines to find answers to questions, none of the problem solving happening within Discord channels is searchable on Google, and is absolutely <em>not permanent</em>.</p>
 
@@ -268,14 +352,4 @@
 
 <p>Otherwise … that’s basically it! That’s how I’ve spent the past three days!</p>
 
-<p>And, continual negative stuff aside, I hope that I’m able to continue building from here, in my quest to bring back and isolate parts of nineties internet culture that were thought to be dead long ago.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Updates" /><category term="thoughts" /><category term="updates" /><category term="webdev" /><summary type="html"><![CDATA[I’m at this point again, where, I’m having trouble thinking of things I want to write about. Not because there’s nothing to write about, but more-so that everything I could write about is mostly negative. Negative, like me visiting the forum I’ve endorsed over and over again (Melonland), and speaking out against the pro-AI users and their bad ideas, and then subsequently being moderated by Melooon themselves, is … discouraging, to say the least.]]></summary></entry><entry><title type="html">Speaking Of Forums</title><link href="https://mkultra.monster/webdev/2025/03/25/speaking-of-forums.html" rel="alternate" type="text/html" title="Speaking Of Forums" /><published>2025-03-25T01:26:30-04:00</published><updated>2025-03-25T01:26:30-04:00</updated><id>https://mkultra.monster/webdev/2025/03/25/speaking-of-forums</id><content type="html" xml:base="https://mkultra.monster/webdev/2025/03/25/speaking-of-forums.html"><![CDATA[<p>Earlier last night, I wrote about how I don’t know, or don’t think that discussion forums can be saved. And, I thought about it for a while. How do I know something can’t be saved, if I haven’t tried to fix the problem myself? So, I launched my own old-school PHPBB forum!</p>
-
-<p>Basically, at <a href="https://forum.mkultra.monster" target="_blank">MKULTRA Board</a>, I copy/pasted a <em>huge</em> part of <a href="https://web.archive.org/web/20010401015509/http://animeboards.com:80/" target="_blank">the old anime forum</a> I used to be part of back in 1999-2001 (somewhere in that era), and then added my own things.</p>
-
-<p>I did this, because I’ve missed it greatly. So much so, that, <em>years back</em>, I contacted the original owner and asked if he’d be willing to part with the database and software, so that it could be resurrected. Unfortunately, if I recall, he wasn’t too interested in doing that, or felt like it would be too much of a hassle, or cost too greatly.</p>
-
-<p>I don’t know about that. I’m running the new forum on a 16 dollar VPS, and it’s pretty smooth!</p>
-
-<p>Now, obviously, if, <em>for some reason</em>, it attracts thousands of people, then <em>yes</em>, it would require much more in hosting.</p>
-
-<p>But, here’s <em>something</em>. Will you register and begin the discussion?</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Webdev" /><category term="webdev" /><category term="community" /><category term="forums" /><summary type="html"><![CDATA[Earlier last night, I wrote about how I don’t know, or don’t think that discussion forums can be saved. And, I thought about it for a while. How do I know something can’t be saved, if I haven’t tried to fix the problem myself? So, I launched my own old-school PHPBB forum!]]></summary></entry></feed>
+<p>And, continual negative stuff aside, I hope that I’m able to continue building from here, in my quest to bring back and isolate parts of nineties internet culture that were thought to be dead long ago.</p>]]></content><author><name>⸸ commander ░ nova ⸸ :~$</name></author><category term="Updates" /><category term="thoughts" /><category term="updates" /><category term="webdev" /><summary type="html"><![CDATA[I’m at this point again, where, I’m having trouble thinking of things I want to write about. Not because there’s nothing to write about, but more-so that everything I could write about is mostly negative. Negative, like me visiting the forum I’ve endorsed over and over again (Melonland), and speaking out against the pro-AI users and their bad ideas, and then subsequently being moderated by Melooon themselves, is … discouraging, to say the least.]]></summary></entry></feed>
