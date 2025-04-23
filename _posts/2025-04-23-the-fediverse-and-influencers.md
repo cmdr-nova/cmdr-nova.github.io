@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
-bluesky: 
+akkoma: https://labyrinth.zone/notice/AtNywaN7MMIj7FDepU
+bluesky: https://bsky.app/profile/mkultra.monster/post/3lnigwq26mc2g
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=45
+none: 
 ---
 Today I'm going to talk about something that someone decided to complain about, on the Fediverse, that *most* of us on the aforementioned verse are *extremely* opposed to. But, these kinds of takes were inevitable, since corporate social media is already a thunder-dome of garbage, and *of course* there are people who want to see Mastodon and other extended ActivityPub apps mirror that. What I'm talking about, this time, though, is "influencers."
 
