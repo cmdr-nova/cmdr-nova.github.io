@@ -45,7 +45,7 @@ jobs:
       uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
         api_token: ${{ secrets.NEOCITIES_API_KEY }} # Uses API key from Neocities
-        cleanup: false
+        cleanup: true
         dist_dir: _site
 
     - name: Check for new posts
