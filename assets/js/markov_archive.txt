@@ -721,3 +721,4 @@
 [2025-04-28 13:15:19] (mostly), and I need to remember what happened to gumroadi miss so many terrible people, it's hard t
 [2025-04-28 14:00:02] contacted the toot.
 [2025-04-28 15:00:02] you curseforge-chief, I'm not writing this to Mass Effect People will be at the anime butts subreddit) that is long dead.
+[2025-04-28 16:00:02] using this cronjob: ``` 0 2 * * * /home/cmdr-nova/grabtoots.
