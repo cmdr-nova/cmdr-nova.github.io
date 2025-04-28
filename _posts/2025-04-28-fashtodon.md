@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
+akkoma: https://labyrinth.zone/notice/AtYYs1KXF1hfCyjVj6
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=46
+none: 
 ---
 So, I was kind of debating writing this, because it's not a very happy, or good topic. But, also, it's a topic that's scattered all over the Fediverse in about a million threads with no clear beginning, or even an end. To cut straight to the matter: Another Mastodon instance where some dudes knock on and on about being "neutral" politically so as to not cause upsets, and to create a "welcoming" environment for everyone, have probably killed their instance.
 
