@@ -10,7 +10,87 @@
     <link>https://mkultra.monster</link>
     <description>cmdr-nova's personal blog and home on the indie-web.</description>
     <language>en-us</language>
-    <pubDate>Mon, 28 Apr 2025 12:00:09 -0400</pubDate>
+    <pubDate>Mon, 28 Apr 2025 13:15:25 -0400</pubDate>
+    <item>
+      <title>Fosstodon: The Neutral Problem</title>
+      <link>https://mkultra.monster/social-media/2025/04/28/fashtodon.html</link>
+      <description>&lt;p&gt;So, I was kind of debating writing this, because it’s not a very happy, or good topic. But, also, it’s a topic that’s scattered all over the Fediverse in about a million threads with no clear beginning, or even an end. To cut straight to the matter: Another Mastodon instance where some dudes knock on and on about being “neutral” politically so as to not cause upsets, and to create a “welcoming” environment for everyone, have probably killed their instance.&lt;/p&gt;
+
+&lt;p&gt;It all started days ago, when it was discovered that one of the moderators behind Fosstodon was &lt;em&gt;also&lt;/em&gt; moderating a subreddit, where he expressed numerous anti-LGBTQ+ and anti-immigration views. People were &lt;em&gt;quick&lt;/em&gt; to jump and call him fascist, &lt;strong&gt;and they were correct to do so.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;But it didn’t stop there.&lt;/p&gt;
+
+&lt;p&gt;I had to go searching Mastodon for a little bit so that I could make a list of less than five major things I feel should shine the clearest light on all of this behavior. There’s &lt;em&gt;a lot&lt;/em&gt; to it, but I honestly don’t feel like you need a dissertation of a couple hundred posts to get the gist of what happened. So, let’s get started.&lt;/p&gt;
+
+&lt;p&gt;First, the Fosstodon/Reddit moderator in-question here, was a user named “Carrotcypher,” and, since having the lid flipped on who he is as a person, went through and scrubbed his username from posts he made on Reddit, and has since stepped down and &lt;em&gt;entirely deleted his Mastodon account&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read a more concise account of these things, &lt;a href=&quot;https://mastodon.social/@lo__/114370692797365997&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, &lt;em&gt;just in case&lt;/em&gt; the post goes missing, or something happens wherein it’s no longer accessible, here’s what it says:&lt;/p&gt;
+
+&lt;blockquote&gt;
+One of the #Fosstodon moderators, Carrotcypher, has a history of hostility and intolerance towards minorities that does not align with Fosstodon's stated values.
+
+Here is the moderator defending the #deportation of #MahmoudKhalil
+
+&lt;a href=&quot;https://www.reddit.com/r/politics/comments/1j90vv6/comment/mhb8gtw/&quot; target=&quot;_blank&quot;&gt;https://www.reddit.com/r/politics/comments/1j90vv6/comment/mhb8gtw/&lt;/a&gt;
+
+Here's the moderator endorsing a law that unclosets #transgender children
+
+&lt;a href=&quot;https://www.reddit.com/r/privacy/comments/16nr11q/comment/k1gaxxi/?context=1&quot; target=&quot;_blank&quot;&gt;https://www.reddit.com/r/privacy/comments/16nr11q/comment/k1gaxxi/?context=1&lt;/a&gt;
+
+Here's the moderator censoring discussion of surveillance of #LGBT people in a #privacy community
+
+&lt;a href=&quot;https://lemm.ee/post/60365167&quot; target=&quot;_blank&quot;&gt;https://lemm.ee/post/60365167&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But, how did the admins of Fosstodon respond to people’s absolutely &lt;em&gt;rightful&lt;/em&gt; criticism of this, and their questions in regard to … &lt;em&gt;who recruited this guy&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;Well, first, there’s Mike, and I found a couple of posts that I think paint a pretty clear picture of how he feels about this, and what he’s willing to cover for:&lt;/p&gt;
+
+&lt;p&gt;Firstly, we have &lt;a href=&quot;https://fosstodon.org/@mike/114394345053697948&quot; target=&quot;_blank&quot;&gt;this post&lt;/a&gt;, where, at the end of a semi-long thread where Mike makes excuses about how he feels that since these bigoted decisions were made elsewhere, it has no tangible consequences to Fosstodon, or it’s admin and moderation team (which is categorically ridiculous to say, and think).&lt;/p&gt;
+
+&lt;p&gt;And, because I fully believe this will all cease to exist at some point, maybe even likely in the near future, here’s how he ended his thread of excuses:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/fosstodon/mike1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I also want to include &lt;a href=&quot;https://fosstodon.org/@mike/114399880044272760&quot; target=&quot;_blank&quot;&gt;this post&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/fosstodon/mike2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Where Mike argues that these are simply, you know, &lt;em&gt;conservative&lt;/em&gt; views, not a problem. They just want to have a diverse team of people with all sorts of ideas so as to not create a bubble, or whatever fascist-apologists say in order to make it easier for evil people to exist.&lt;/p&gt;
+
+&lt;p&gt;This is all a symptom of a larger problem with men in the tech and foss community in-general, wherein they adopt the position of neutrality in order to foster what they believe to be a “welcoming” environment, which holds the door open for suit-wearing Nazis who want to exterminate marginalized people.&lt;/p&gt;
+
+&lt;p&gt;You can see an example of this problem in the &lt;em&gt;other&lt;/em&gt; admin’s (Kev’s) blog post, &lt;a href=&quot;https://kevquirk.com/blog/my-thoughts-on-the-fosstodon-drama&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You’ll notice, the post says a whole lot of &lt;em&gt;nothing&lt;/em&gt;. His post is mostly a lot of bla-bla-bla, “people called us names,” “I’m leaving,” “Fosstodon might close.” And then, after all of that, we get to the important part of his post:&lt;/p&gt;
+
+&lt;blockquote&gt;
+The last point I'll make is this - the fedi is supposed to be a friendly, welcoming online space, right? But the fact is, it isn't. It's just like everywhere else online - the vocal minority are just as loud, and just as obnoxious as everywhere else.
+
+I'd like to say it's been a fun 8 years, but it hasn't. I was fun for the first 3 years or so. After that, it's been pretty much shit, to varying degrees, the entire time. ✌🏻
+&lt;/blockquote&gt;
+
+&lt;p&gt;In all the neutrality these people try to keep, these last two paragraphs show you the &lt;em&gt;real&lt;/em&gt; feelings behind that false-face, and fake grin.&lt;/p&gt;
+
+&lt;p&gt;“the fedi is supposed to be a friendly, welcoming online space, right? … the vocal minority are just as loud, and just as obnoxious as everywhere else.”&lt;/p&gt;
+
+&lt;p&gt;Really big red flag here. Huge red flag.&lt;/p&gt;
+
+&lt;p&gt;Remember, this &lt;em&gt;entire thing&lt;/em&gt; happened because of a moderator &lt;em&gt;these people recruited&lt;/em&gt;, who then expressed fascist views via other forms of communication. Kev, are you saying that the Fediverse should be &lt;em&gt;welcoming&lt;/em&gt; to these types of people (don’t they already have a choke-hold over Twitter)? Is that what you wanted to get off your chest? Is that the “friendly” space you think you’re creating? A space where hateful men can silence and erase the voices of transgender people, and those who would speak up for immigrants who are being shuttled off to who the hell knows where?&lt;/p&gt;
+
+&lt;p&gt;Are the hundreds, or maybe even thousands of people criticizing you two, the vocal minority? I mean, it is just &lt;em&gt;you two guys&lt;/em&gt; defending these decisions, against numerous instances who are now blocking you from federation, &lt;em&gt;entirely&lt;/em&gt;. Is that how you would define a minority?&lt;/p&gt;
+
+&lt;p&gt;Is it, Kev?&lt;/p&gt;
+
+&lt;p&gt;But, this is the big problem. This is what keeps “normies” away from the Fediverse. It’s not the LGBTQ+ people, it’s not the immigrants trying to establish a voice for themselves online, it’s the “politically neutral” tech-obsessed foss-bros who are so insulated from harm and hatred, that they can’t tell the difference between a guy who would ship you off to prison for being gay, and someone who thinks everyone should have equal rights.&lt;/p&gt;
+
+&lt;p&gt;I’ll say it until I’m blue in the face, the Fediverse needs to excise people like this as hard as they have this past week, from ActivityPub, &lt;em&gt;entirely&lt;/em&gt;. Over and over again. Until they return to Twitter, and we never have to look at their shitty little profile pictures, ever again.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 28 Apr 2025 08:04:26 -0400</pubDate>
+      <dc:date>2025-04-28T08:04:26-04:00</dc:date>
+    </item>
     <item>
       <title>Does The Fediverse Need Influencers To Survive?</title>
       <link>https://mkultra.monster/social-media/2025/04/23/the-fediverse-and-influencers.html</link>
@@ -16432,6 +16512,6 @@ Marketplace store: &lt;a href=&quot;https://marketplace.secondlife.com/stores/16
       <pubDate>Thu, 17 Sep 2015 19:43:00 -0500</pubDate>
       <dc:date>2015-09-17T19:43:00-05:00</dc:date>
     </item>
-    <dc:date>2025-04-28T12:00:09-04:00</dc:date>
+    <dc:date>2025-04-28T13:15:25-04:00</dc:date>
   </channel>
 </rss>
