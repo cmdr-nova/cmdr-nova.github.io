@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "BQC: Pointless Facts About Me",
+      "category" : "",
+      "tags"     : "thoughts, challenge, questions",
+      "url"      : "/challenge/2025/05/03/bqc2.html",
+      "date"     : "2025-05-03 08:22:27 -0400"
+    } ,
+  
+    {
       "title"    : "Fosstodon: The Neutral Problem",
       "category" : "",
       "tags"     : "social-media, mastodon, activitypub",
