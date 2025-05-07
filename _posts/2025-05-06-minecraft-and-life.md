@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
+akkoma: https://labyrinth.zone/notice/AtpyP1x7kUlZEhwFgu
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=49
+none: 
 ---
 This year has been pretty lukewarm, at least in my personal life. Only real big change was a shift-switch in my job. Everything else? Pretty much just sort of, stagnant, but not really in a negative light. Oh, and there’s me having an ongoing existential crisis over turning forty at the end of May. A spiral that I didn’t think would end, with no answers anywhere, and search results for help only giving more of the same. Jane Doe says, “I woke up this morning and cried for hours on my 40th birthday.” And John McGuy says, “One moment I was twenty years old, barely figuring things out, and now I’m 40, with just the same amount of things barely figured out.”
 
