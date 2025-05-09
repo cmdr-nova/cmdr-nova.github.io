@@ -102,7 +102,7 @@ creator of everything -->
           {% if post_type == "posts" %}
             {% assign icon = "ph ph-article" %}
             {% assign verb = "Posted" %}
-            {% assign content = item.content | strip_newlines | truncatewords: 80 %}
+            {% assign content = item.content | strip_html | truncatewords: 50 %}
           {% elsif post_type == "notes" %}
             {% assign icon = "ph ph-note" %}
             {% assign verb = "Noted" %}

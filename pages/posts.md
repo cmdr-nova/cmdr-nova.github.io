@@ -20,7 +20,7 @@ pagination:
       {% endif %}
       <br /><br />
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <div>{{ post.content | strip_newlines | truncatewords: 50 }}</div>
+      <div>{{ post.content | strip_html | truncatewords: 50 }}</div>
       <span class="date"><i>published</i> {{ post.date | date: '%B %e, %Y' }}</span>
       <div class="syndicate">
         <i class="ph ph-broadcast" title="Syndication"></i>
