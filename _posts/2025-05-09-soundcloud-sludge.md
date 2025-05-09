@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
+akkoma: https://labyrinth.zone/notice/Atv6F0DV7QDiNe7yPQ
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=50
+none: 
 ---
 So, the past couple years have been pretty much just a non-stop horror show, as each platform and app you use goes head-first into slop factory hype, and integrates some needless AI feature that violates your consent. I personally feel we mostly have out-of-touch CEOs and investors to blame for this, but I like to think a company can also just say, "No," whenever they want (prove me right). Today is no different, and this time it's SoundCloud.
 
