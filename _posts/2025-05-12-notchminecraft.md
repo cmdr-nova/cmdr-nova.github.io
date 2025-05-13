@@ -10,13 +10,13 @@ pinned: false
 author: ⸸ commander ░ nova ⸸ :~$
 avatar: /img/avatar/daemon.jpeg
 mastodon: 
-akkoma: 
+akkoma: https://labyrinth.zone/notice/Au2SIOvdFtPkzPVys4
 bluesky: 
 wafrn: 
 pillowfort: 
 tumblr: 
-forum: 
-none: no_syndication_available 
+forum: https://forum.mkultra.monster/viewtopic.php?t=52
+none: 
 ---
 So, for the past month I've been on a really long Minecraft kick of setting up a new world that I started building on my Bedrock realm, flip-flopping between Java and Bedrock, because I can't really decide which one is better suited to host a "forever world," and basically just doing *everything*. But, as you do, when you're deep-diving into a resurrected interest, you watch Youtube videos, right? Well, something I discovered, is that people are trying really hard, especially on Youtube, to sanitize Notch. Maybe you're like, 19, and you didn't see what it is that nefarious types would *want* to sanitize, so ... let's have a history lesson.
 
